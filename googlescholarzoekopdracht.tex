@@ -1,0 +1,163 @@
+%%=============================================================================
+%% Methodologie
+%%=============================================================================
+
+\chapter{\IfLanguageName{dutch}{Google Scholar zoekopdracht}{Google Scholar search}}%
+\label{ch:googlescholarzoekopdracht}
+
+%% TODO: In dit hoofstuk geef je een korte toelichting over hoe je te werk bent
+%% gegaan. Verdeel je onderzoek in grote fasen, en licht in elke fase toe wat
+%% de doelstelling was, welke deliverables daar uit gekomen zijn, en welke
+%% onderzoeksmethoden je daarbij toegepast hebt. Verantwoord waarom je
+%% op deze manier te werk gegaan bent.
+%% 
+%% Voorbeelden van zulke fasen zijn: literatuurstudie, opstellen van een
+%% requirements-analyse, opstellen long-list (bij vergelijkende studie),
+%% selectie van geschikte tools (bij vergelijkende studie, "short-list"),
+%% opzetten testopstelling/PoC, uitvoeren testen en verzamelen
+%% van resultaten, analyse van resultaten, ...
+%%
+%% !!!!! LET OP !!!!!
+%%
+%% Het is uitdrukkelijk NIET de bedoeling dat je het grootste deel van de corpus
+%% van je bachelorproef in dit hoofstuk verwerkt! Dit hoofdstuk is eerder een
+%% kort overzicht van je plan van aanpak.
+%%
+%% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
+%% en geef het een gepaste titel.
+
+\section{Zoeken in Google Scholar}
+\subsection{Basis zoeken}
+Google Scholar biedt een vertrouwde gebruikersinterface met een inputveld waar de relevante zoektermen ingevuld moeten worden. Default wordt er in elke taal gezocht, maar de gebruiker kan dit beperken tot zijn eigen taal.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./1_google_scholar_zoekopdracht/1_basis_zoeken.PNG}
+    \caption[Google Scholar basis zoeken.]{\label{fig:Google Scholar basis zoeken}Google Scholar user interface voor het basis zoeken van publicaties op basis van de ingevoerde zoektermen.}
+\end{figure}
+
+Wanneer een zoekopdracht verzonden wordt, dan is er een antwoord binnen de 3 seconden. Het resultaat kan vervolgens verder gefilterd worden:
+\begin{itemize}
+    \item \textbf{Elke periode}: Dit is de default filter zodat alle resultaten getoond worden ongeacht hun publicatiedatum.
+    \item \textbf{Sinds jaar}: Hierbij worden enkel resultaten gefilterd die sinds het gespecifiëerde jaar gepubliceerd werden.
+    \item \textbf{Aangepast bereik}: Hierbij worden enkel resultaten gefilterd waarvan de publicatiedatum binnen het gespecifiëerde bereik ligt.
+    \item \textbf{Sorteren op relevantie}: Dit is de default filter tezamen met 'Elke periode' die de resultaten sorteert op basis van hun belangrijkheid.\footnote{De relevantie van elke publicatie wordt in de eerste plaats bepaald door het aantal citaties (\autocite{Beel2009})}
+    \item \textbf{Sorteren op datum}: Hierbij worden de resultaten gesorteerd op publicatiedatum.
+    \item \textbf{Reviewartikelen}: Hierbij worden enkel state of the art publicaties gefilterd.\footnote{Een reviewartikel ondergaat een systematische review door een groep van experten volgens de op dat moment geldende 'State of the art' (\autocite{Sataloff2021})}
+\end{itemize}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./1_google_scholar_zoekopdracht/2_zoekresultaten.PNG}
+    \caption[Google Scholar zoekresultaten.]{\label{fig:Google Scholar zoekresultaten}Google Scholar zoekresultaten op basis van een zoekopdracht.}
+\end{figure}
+
+Elk resultaat kan verder uitgediept worden:
+\begin{itemize}
+    \item \textbf{Geciteerd door}: Een oplijsting van publicaties die zelf het artikel citeren. Dit kan leiden tot andere relevante artikels.
+    \item \textbf{Verwante artikelen}: Andere artikels in hetzelfde thema. Dit kan leiden tot andere relevante artikels.
+    \item \textbf{Alle versies}: Alternatieve locaties waar dezelfde informatie kan teruggevonden worden. Dit kan leiden tot een breder beeld van organisaties, instituten en uitgevers.
+\end{itemize}
+\subsection{Geävanceerd zoeken}
+Google Scholar heeft ook een meerdere geävanceerde zoekopties:
+\begin{itemize}
+    \item \textbf{Zoek artikels met alle termen}: Combineert zoektermen. Zoekt publicaties die alle termen bevatten.
+    \item \textbf{Zoek artikels met de exacte zoekterm}: Zoekt publicaties waar de zoekterm of zin exact in terug te vinden is.
+    \item \textbf{Zoek artikels met op zijn minst 1 van de zoektermen}: Zoekt publicaties waar alle of minstens 1 van de zoektermen in voorkomen.
+    \item \textbf{Zoek publicaties zonder de zoektermen}: Matcht publicaties waar geen enkele van de zoektermen in voorkomen.
+\end{itemize}
+Voor alle bovenstaande filters kan ingesteld worden of er enkel in de titel of overal in de tekst mag gezocht worden.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG}
+    \caption[Google Scholar geävanceerd zoeken.]{\label{fig:Google Scholar geävanceerd zoek}Google Scholar user interface voor het geävanceerd zoeken van publicaties op basis van de ingevoerde zoektermen en filters.}
+\end{figure}
+
+\linebreak
+Daarnaast zijn er 3 bijkomende geävanceerde filters:
+\begin{itemize}
+    \item \textbf{Zoek artikels op basis van auteurs}: Zoekt publicaties die geschreven zijn door een bepaalde auteur.
+    \item \textbf{Zoek artikels op basis van de uitgever}: Zoekt publicaties die uitgegeven zijn door een bepaalde uitgever.
+    \item \textbf{Zoek artikels op basis van publicatiedatum}: Zoekt publicaties die gepubliceerd zijn tussen 2 opgegeven datums.
+\end{itemize}
+
+Alle geävanceerde filters kunnen verder gespecifieerd worden door middel van logische operatoren: (AND, OR, NOT, AROUND).
+\begin{itemize}
+    \item \textbf{AND}: Zoekt beide zoektermen in de publicatie.
+    \item \textbf{OR}: Zoekt 1 of beide zoektermen in de publicatie.
+    \item \textbf{NOT}: Sluit ongewenste tekst uit van het zoekresultaat.
+    \item \textbf{AROUND}: Zoekt zoektermen in de ingestelde nabijheid van de opgegeven zoekterm.
+\end{itemize}
+
+Alle geävanceerde filters kunnen verder gespecifieerd worden door middel van hulpwoorden:
+\begin{itemize}
+    \item \textbf{intitle}: De zoekresultaten bevatten de opgegeven zoekterm in de titel.
+    \item \textbf{intext}: De zoekresultaten bevatten de opgegeven zoekterm in de tekst.
+    \item \textbf{author}: De zoekresultaten bevatten de opgegeven auteur.
+    \item \textbf{source}: De zoekresultaten bevatten de opgegeven uitgever.
+\end{itemize}
+
+Alle geävanceerde filters kunnen verder gespecifieerd worden door middel van enkele leestekens:
+\begin{itemize}
+    \item \textbf{aanhalingstekens (``'')}: De zoekresultaten bevatten de exacte tekst tussen aanhalingstekens.
+    \item \textbf{liggend streepje (A-B)}: Om aan te tonen dat 2 zoektermen sterk verbonden zijn.
+    \item \textbf{liggend streepje (A -B)}: Om de tweede zoekterm uit te sluiten van de resultaten.
+\end{itemize}
+
+\section{E-mail alerts}
+Het is mogelijk om de zoekresultaten te personaliseren. Voor elke zoekopdracht die wordt aangemaakt, kan een overeenkomstige alert ingesteld worden.
+Het volstaat om het e-mailadres in te vullen naar waar de alerts verstuurd moeten worden. Dit genereert een verificatie e-mail en na bevestiging is de alert geäctiveerd.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./1_google_scholar_zoekopdracht/4_melding_maken.PNG}
+    \caption[Google Scholar melding maken.]{\label{fig:Google Scholar melding maken}Google Scholar user interface voor het aanmaken van een e-mail alert voor de ingevoerde zoekopdracht.}
+\end{figure}
+
+Vanaf dan worden nieuwe publicaties die voldoen aan de filtercriteria systematisch doorgestuurd naar het e-mailadres.
+Overeenkomstig werd een nieuw account \begin{verbatim}
+    google-scholar@vliz.be
+\end{verbatim} aangemaakt, als een gedeeld account waar meerdere gebruikers toegang tot hebben. Vervolgens werd een Google account aangemaakt met hetzelfde e-mailadres.
+\section{Opstellen van een zoekopdracht}
+Om relevante publicaties over het VLIZ te vinden, worden volgende zoektermen gebruikt:
+\begin{itemize}
+    \item Vlaams Instituut voor de Zee
+    \item Vlaams Instituut van de Zee
+    \item Flanders Marine Institute
+    \item VLIZ
+    \item Simon Stevin
+    \item R/V Simon Stevin
+    \item RV Simon Stevin
+    \item Marine Station Ostend
+    \item Mariene Station Oostende
+\end{itemize}
+De zoekopdracht moet resultaten geven wanneer minstens 1 of meerdere zoektermen voorkomen in de titel of de tekst van het artikel. Dit kan bereikt worden door de zoektermen tussen aanhalingstekens te schrijven en door ze te verbinden met de OR operator.
+\linebreak
+\begin{lstlisting}
+``Vlaams Instituut voor de Zee'' 
+               OR 
+``Vlaams Instituut van de Zee'' 
+               OR 
+``Flanders Marine Institute'' 
+               OR 
+``VLIZ'' 
+               OR 
+``Simon Stevin'' 
+               OR 
+``R/V Simon Stevin'' 
+               OR 
+``RV Simon Stevin'' 
+               OR 
+``Marine Station Ostend'' 
+               OR 
+``Mariene Station Oostende''
+\end{lstlisting}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./1_google_scholar_zoekopdracht/5_email.PNG}
+    \caption[Google Scholar email alert.]{\label{fig:Google Scholar email alert}Google Scholar e-mail alert met de nieuwe resultaten sinds het aanmaken van de melding en sinds de vorige melding.}
+\end{figure}
+
+
