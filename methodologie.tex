@@ -25,7 +25,30 @@
 %%
 %% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
 %% en geef het een gepaste titel.
-\chapter{Google Scholar zoekopdracht}
+\section{Google Scholar zoekopdracht}
+\section{Parsen van Google Scholar zoekresultaat}
+Dit is het eerste onderdeel van de proef waar er custom code geschreven moet worden. Nu moet er dus ook de vraag gesteld worden welke technology stack er gebruikt zal worden? Daarbij zijn 2 aspecten belangrijk:
+\begin{itemize}
+    \item Wat is de bestaande technology stack van de klant en kan de te ontwikkelen software daarin ondergebracht worden?
+    \item Welke technologie is het meest geschikt om het gestelde probleem op te lossen?
+\end{itemize}
+Voor het eerste punt zijn er bij de klant 2 pijlers:
+\begin{itemize}
+    \item Alle websites en datasystemen zijn geschreven in Php, al dan niet gebruik makend van het Symfony framework. Voor hun data steunen ze voornamelijk op SqlServer en op PostgreSQL. Voor hun user interface steunen ze hoofdzakelijk op Twig en op NextJS.
+    \item Veel data processing scripts draaien in hun eigen docker container. Ze gebruiken vooral R en Python als programmeertaal.
+\end{itemize}
+Onze opdracht past het best binnen de tweede pijler. Het is niet opportuun om een webserver te belasten met het systematisch herhalen van een opdracht die los staat van de websites die hij host. De Google Scholar alerts zijn op zich ook data die in hun eigen container verwerkt zullen worden.\\
+Voor het tweede punt is de technologie zeer duidelijk. Python (maar ook R) beschikken over hele grote bibliotheken die toelaten om uiteenlopende soorten data te verwerken.\\
+Het programmeerwerk zal uitgevoerd worden in Python. Op het moment van schrijven is Python versie 3.13.1 de meest recente stabiele versie.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/1_python_release_cycle.jpg}
+    \caption[Python release cycle.]{\label{fig:Python release cycle}Python release cycle.\autocite{pythonreleasecycle2025}}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/2_end_of_life_date_python.JPG}
+    \caption[End of life date Python.]{\label{fig:End of life date Python}End of life date Python.\autocite{endoflifedatepython2025}}
+\end{figure}
 
-\lipsum[21-25]
 

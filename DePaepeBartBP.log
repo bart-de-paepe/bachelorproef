@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.18)  29 JAN 2025 11:22
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.18)  3 FEB 2025 14:24
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1752,6 +1752,12 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \l__lipsum_b_int=\count509
 
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)
+)
+(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+\everycr=\toks54
+\minrowclearance=\skip96
+\rownum=\count510
 ) (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/minted\minted.sty
 Package: minted 2024/11/17 v3.4.0 Yet another Pygments shim for LaTeX
 
@@ -1769,11 +1775,11 @@ rb
 
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
 Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
-\FV@CodeLineNo=\count510
+\FV@CodeLineNo=\count511
 \FV@InFile=\read6
 \FV@TabBox=\box92
-\c@FancyVerbLine=\count511
-\FV@StepNumber=\count512
+\c@FancyVerbLine=\count512
+\FV@StepNumber=\count513
 \FV@OutFile=\write5
 ) (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/upquote\upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
@@ -1782,21 +1788,21 @@ tim
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/lineno\lineno.sty
 Package: lineno 2023/05/20 line numbers on paragraphs v5.3
 Invalid UTF-8 byte or sequence at line 292 replaced by U+FFFD.
-\linenopenalty=\count513
-\output=\toks54
-\linenoprevgraf=\count514
+\linenopenalty=\count514
+\output=\toks55
+\linenoprevgraf=\count515
 \linenumbersep=\dimen339
 \linenumberwidth=\dimen340
-\c@linenumber=\count515
-\c@pagewiselinenumber=\count516
-\c@LN@truepage=\count517
-\c@internallinenumber=\count518
-\c@internallinenumbers=\count519
+\c@linenumber=\count516
+\c@pagewiselinenumber=\count517
+\c@LN@truepage=\count518
+\c@internallinenumber=\count519
+\c@internallinenumbers=\count520
 \quotelinenumbersep=\dimen341
 \bframerule=\dimen342
 \bframesep=\dimen343
 \bframebox=\box93
-\linenoamsmath@ams@eqpen=\count520
+\linenoamsmath@ams@eqpen=\count521
 
 
 LaTeX Warning: Command \@parboxrestore  has changed.
@@ -1808,30 +1814,30 @@ LaTeX Info: Redefining \\ on input line 3180.
 Package fvextra Warning: csquotes should be loaded after fvextra, to avoid a wa
 rning from the lineno package on input line 36.
 
-\c@FancyVerbWriteLine=\count521
-\c@FancyVerbBufferLine=\count522
-\c@FV@TrueTabGroupLevel=\count523
-\c@FV@TrueTabCounter=\count524
+\c@FancyVerbWriteLine=\count522
+\c@FancyVerbBufferLine=\count523
+\c@FV@TrueTabGroupLevel=\count524
+\c@FV@TrueTabCounter=\count525
 \FV@TabBox@Group=\box94
-\FV@TmpLength=\skip96
-\c@FV@HighlightLinesStart=\count525
-\c@FV@HighlightLinesStop=\count526
-\FV@LoopCount=\count527
+\FV@TmpLength=\skip97
+\c@FV@HighlightLinesStart=\count526
+\c@FV@HighlightLinesStop=\count527
+\FV@LoopCount=\count528
 \FV@NCharsBox=\box95
 \FV@BreakIndent=\dimen344
-\FV@BreakIndentNChars=\count528
+\FV@BreakIndentNChars=\count529
 \FV@BreakSymbolSepLeft=\dimen345
-\FV@BreakSymbolSepLeftNChars=\count529
+\FV@BreakSymbolSepLeftNChars=\count530
 \FV@BreakSymbolSepRight=\dimen346
-\FV@BreakSymbolSepRightNChars=\count530
+\FV@BreakSymbolSepRightNChars=\count531
 \FV@BreakSymbolIndentLeft=\dimen347
-\FV@BreakSymbolIndentLeftNChars=\count531
+\FV@BreakSymbolIndentLeftNChars=\count532
 \FV@BreakSymbolIndentRight=\dimen348
-\FV@BreakSymbolIndentRightNChars=\count532
-\c@FancyVerbLineBreakLast=\count533
+\FV@BreakSymbolIndentRightNChars=\count533
+\c@FancyVerbLineBreakLast=\count534
 \FV@LineBox=\box96
 \FV@LineIndentBox=\box97
-\c@FV@BreakBufferDepth=\count534
+\c@FV@BreakBufferDepth=\count535
 \FV@LineWidth=\dimen349
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/latex2pydata\latex2pyd
@@ -1841,8 +1847,8 @@ thon literal format
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/pgfopts\pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks55
-\pgfopts@list@add@b@toks=\toks56
+\pgfopts@list@add@a@toks=\toks56
+\pgfopts@list@add@b@toks=\toks57
 )
 
 C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/minted\minted.sty:282: 
@@ -1864,28 +1870,28 @@ and deduce the truth by order and method.
 
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count535
-\float@exts=\toks57
+\c@float@type=\count536
+\float@exts=\toks58
 \float@box=\box98
-\@float@everytoks=\toks58
+\@float@everytoks=\toks59
 \@floatcapt=\box99
 )
-\c@minted@FancyVerbLineTemp=\count536
-\@float@every@listing=\toks59
-\c@listing=\count537
+\c@minted@FancyVerbLineTemp=\count537
+\@float@every@listing=\toks60
+\c@listing=\count538
 )
 (C:\Program Files\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count538
+\lst@mode=\count539
 \lst@gtempboxa=\box100
-\lst@token=\toks60
-\lst@length=\count539
+\lst@token=\toks61
+\lst@length=\count540
 \lst@currlwidth=\dimen350
-\lst@column=\count540
-\lst@pos=\count541
+\lst@column=\count541
+\lst@pos=\count542
 \lst@lostspace=\dimen351
 \lst@width=\dimen352
-\lst@newlines=\count542
-\lst@lineno=\count543
+\lst@newlines=\count543
+\lst@lineno=\count544
 \lst@maxwidth=\dimen353
 
 (C:\Program Files\MiKTeX\tex/latex/listings\lstpatch.sty
@@ -1893,8 +1899,8 @@ File: lstpatch.sty 2024/05/25 1.10b (Carsten Heinz)
 )
 (C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
-\c@lstnumber=\count544
-\lst@skipnumbers=\count545
+\c@lstnumber=\count545
+\lst@skipnumbers=\count546
 \lst@framebox=\box101
 )
 (C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg
@@ -1908,26 +1914,26 @@ Package csquotes Info: Redefining alias 'default' -> 'dutch'.
  (DePaepeBartBP.aux)
 \openout1 = `DePaepeBartBP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
 Package biblatex Info: Trying to load language 'dutch' -> 'dutch-apa'...
 Package biblatex Info: ... file 'dutch-apa.lbx' found.
 
@@ -1952,11 +1958,10 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `DePaepeBartBP.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'DePaepeBartBP.bbl' not found.
-
-No file DePaepeBartBP.bbl.
-Package biblatex Info: Reference section=0 on input line 79.
-Package biblatex Info: Reference segment=0 on input line 79.
+Package biblatex Info: ... file 'DePaepeBartBP.bbl' found.
+ (DePaepeBartBP.bbl)
+Package biblatex Info: Reference section=0 on input line 81.
+Package biblatex Info: Reference segment=0 on input line 81.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1997,7 +2002,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 79.
+Package hyperref Info: Link coloring ON on input line 81.
 (DePaepeBartBP.out) (DePaepeBartBP.out)
 \@outlinefile=\write6
 \openout6 = `DePaepeBartBP.out'.
@@ -2017,12 +2022,12 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 ))
-LaTeX Info: Redefining \microtypecontext on input line 79.
-Package microtype Info: Applying patch `item' on input line 79.
-Package microtype Info: Applying patch `toc' on input line 79.
-Package microtype Info: Applying patch `eqnum' on input line 79.
-Package microtype Info: Applying patch `footnote' on input line 79.
-Package microtype Info: Applying patch `verbatim' on input line 79.
+LaTeX Info: Redefining \microtypecontext on input line 81.
+Package microtype Info: Applying patch `item' on input line 81.
+Package microtype Info: Applying patch `toc' on input line 81.
+Package microtype Info: Applying patch `eqnum' on input line 81.
+Package microtype Info: Applying patch `footnote' on input line 81.
+Package microtype Info: Applying patch `verbatim' on input line 81.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -2032,8 +2037,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Montserrat' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c@lstlisting=\count546
-Package hyperref Info: Option `pageanchor' set `false' on input line 85.
+\c@lstlisting=\count547
+Package hyperref Info: Option `pageanchor' set `false' on input line 87.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -2067,24 +2072,39 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 85.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Overfull \hbox (16.05293pt too wide) in paragraph at lines 98--98
+[]\TU/Montserrat(0)/b/n/24.88 Google Scholar zoekresultaten voor we-
+ []
+
+
+Overfull \hbox (6.32484pt too wide) in paragraph at lines 98--98
+\TU/Montserrat(0)/b/n/24.88 tenschappelijke projecten: linked data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 
  []
 
-Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+
+ []
+
+Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
 File: ../graphics/hogent_logo.eps Graphic file (type eps)
 <../graphics/hogent_logo.eps>
 
@@ -2097,7 +2117,7 @@ File: ../graphics/hogent_logo.eps Graphic file (type eps)
 ]
 
 [2]
-Package hyperref Info: Option `pageanchor' set `true' on input line 97.
+Package hyperref Info: Option `pageanchor' set `true' on input line 99.
  (voorwoord.tex) (samenvatting.tex
 
 [3
@@ -2116,7 +2136,9 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 97.
 
 [5
 
-] (DePaepeBartBP.lof
+]
+
+[6] (DePaepeBartBP.lof
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraMathRegular' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -2139,7 +2161,7 @@ LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
 
 
 
-[6
+[7
 
 ] (DePaepeBartBP.lot)
 \tf@lot=\write9
@@ -2147,7 +2169,7 @@ LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
 
 
 
-[7
+[8
 
 ] (DePaepeBartBP.lol)
 \tf@lol=\write10
@@ -2155,14 +2177,11 @@ LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
 
 
 
-[8
+[9
 
 
 ] (inleiding.tex
 Hoofdstuk 1.
-
-LaTeX Warning: Citation 'Pollefliet2011' on page 1 undefined on input line 8.
-
 
 
 [1
@@ -2172,28 +2191,16 @@ LaTeX Warning: Citation 'Pollefliet2011' on page 1 undefined on input line 8.
 
 [2]
 Hoofdstuk 2.
-
-LaTeX Warning: Citation 'Pollefliet2011' on page 3 undefined on input line 10.
-
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraCode' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-LaTeX Warning: Citation 'Knuth1998' on page 3 undefined on input line 14.
-
-
-LaTeX Warning: Citation '' on page 3 undefined on input line 14.
-
-
-LaTeX Warning: Citation 'Creeger2009' on page 3 undefined on input line 14.
-
 File: ../graphics/grail.jpg Graphic file (type bmp)
 <../graphics/grail.jpg>
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250129112224 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250203142420 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -2271,20 +2278,40 @@ t line 32.
 
 [7]
 Hoofdstuk 3.
+File: ../graphics/./2_parse_zoekresultaat/1_python_release_cycle.jpg Graphic fi
+le (type bmp)
+<../graphics/./2_parse_zoekresultaat/1_python_release_cycle.jpg>
+
+LaTeX Warning: Citation 'pythonreleasecycle2025' on page 8 undefined on input l
+ine 46.
+
+File: ../graphics/./2_parse_zoekresultaat/2_end_of_life_date_python.JPG Graphic
+ file (type bmp)
+<../graphics/./2_parse_zoekresultaat/2_end_of_life_date_python.JPG>
+
+LaTeX Warning: Citation 'endoflifedatepython2025' on page 8 undefined on input 
+line 51.
+
 
 
 [8
 
-]
-Hoofdstuk 4.
-
-
-[9
-
 ]) (googlescholarzoekopdracht.tex
 
+[9]
+
 [10]
-Hoofdstuk 5.
+Hoofdstuk 4.
+
+Overfull \hbox (16.19698pt too wide) in paragraph at lines 29--29
+|[][]\TU/Montserrat(0)/b/n/14.4 Zoeken in Google Scholar ([]“  Google Scholar G
+uide”, [][]2025[][])| 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\autocite' on input line 29.
+
 File: ../graphics/./1_google_scholar_zoekopdracht/1_basis_zoeken.PNG Graphic fi
 le (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/1_basis_zoeken.PNG>
@@ -2333,23 +2360,10 @@ cp;mapping=tex-text;"
 
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
-
-LaTeX Warning: Citation 'Beel2009' on page 11 undefined on input line 44.
-
-
-Underfull \hbox (badness 1354) in paragraph at lines 44--44
-[][][][]\TU/Montserrat(2)/m/n/9 De relevantie van elke publicatie wordt in de e
-erste plaats bepaald door het aantal citaties
- []
-
-
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
-
-LaTeX Warning: Citation 'Sataloff2021' on page 11 undefined on input line 46.
-
 File: ../graphics/./1_google_scholar_zoekopdracht/2_zoekresultaten.PNG Graphic 
 file (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/2_zoekresultaten.PNG>
@@ -2386,191 +2400,109 @@ ile (type bmp)
 
 
 [14]
-
-LaTeX Warning: Characters dropped after `\end{verbatim}' on input line 121.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
-\TU/Montserrat(1)/m/n/10.95 de OR operator.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
-
+Overfull \hbox (18.22462pt too wide) in paragraph at lines 118--120
+\TU/Montserrat(1)/m/n/10.95 doorgestuurd naar het e-mailadres. Overeenkomstig w
+erd een nieuw account \TU/Montserrat(2)/b/n/10.95 google-
  []
 
 
 
 [15]
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
 File: ../graphics/./1_google_scholar_zoekopdracht/5_email.PNG Graphic file (typ
 e bmp)
 <../graphics/./1_google_scholar_zoekopdracht/5_email.PNG>
-) (conclusie.tex
+) (parsezoekresultaat.tex
 
 [16]
+
+[17]
+Hoofdstuk 5.
+File: ../graphics/./2_parse_zoekresultaat/3_use_case_diagram.PNG Graphic file (
+type bmp)
+<../graphics/./2_parse_zoekresultaat/3_use_case_diagram.PNG>
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+[]|\TU/Montserrat(1)/m/n/10.95 Google Scholar stuurt e-mails naar google-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+[]|\TU/Montserrat(1)/m/n/10.95 DR-email: afzender moet zijn: scholaralerts-
+ []
+
+
+Overfull \hbox (3.86041pt too wide) in paragraph at lines 46--80
+ [][] 
+ []
+
+File: ../graphics/./2_parse_zoekresultaat/4_domeinmodel.PNG Graphic file (type 
+bmp)
+<../graphics/./2_parse_zoekresultaat/4_domeinmodel.PNG>
+) (conclusie.tex
+
+[18
+
+]
+
+[19]
+
+[20]
 Hoofdstuk 6.
 
 
-[17
+[21
 
 ])
 
-[18]
+[22]
 B\ij lage A.
 (../voorstel/voorstel-inhoud.tex
-
-LaTeX Warning: Citation 'Vliz2024' on page 19 undefined on input line 18.
-
-
-LaTeX Warning: Citation 'Worms2024' on page 19 undefined on input line 20.
-
-
 Overfull \hbox (2.63669pt too wide) in paragraph at lines 20--21
 []\TU/Montserrat(1)/m/n/10.95 Naast wetenschappelijke literatuur zitten er ook 
 collecties van mariene wetenschap-
  []
 
 
-LaTeX Warning: Citation 'Crossref2024' on page 19 undefined on input line 23.
 
-
-
-[19
+[23
 
 ]
 File: images/stapsgewijs.png Graphic file (type bmp)
 <images/stapsgewijs.png>
 
 
-[20]
-
-LaTeX Warning: Citation 'Haspeslagh2024' on page 21 undefined on input line 57.
-
-
-
-LaTeX Warning: Citation 'Wikipedia2024' on page 21 undefined on input line 59.
-
-
-LaTeX Warning: Citation 'Noruzi2005' on page 21 undefined on input line 59.
-
-
-Overfull \hbox (70.81137pt too wide) in paragraph at lines 59--60
-[]\TU/Montserrat(1)/m/n/10.95 Google Scholar is een zoekmachine die wetenschapp
-elijke literatuur indexeert ([]).
- []
-
-
-LaTeX Warning: Citation 'Aguillo2011' on page 21 undefined on input line 61.
-
-
-LaTeX Warning: Citation 'Moed2016' on page 21 undefined on input line 63.
-
-
-LaTeX Warning: Citation 'Araujo2021' on page 21 undefined on input line 64.
-
-
-LaTeX Warning: Citation '' on page 21 undefined on input line 64.
-
-
-LaTeX Warning: Citation 'Chandrakar2006' on page 21 undefined on input line 67.
-
-
-
-LaTeX Warning: Citation '' on page 21 undefined on input line 67.
-
-
-Overfull \hbox (140.40614pt too wide) in paragraph at lines 67--68
-\TU/Montserrat(1)/m/n/10.95 vend, betrouwbaar en onderscheidbaar geïdentificeer
-d kunnen worden. [][]
- []
-
-
-
-[21]
-
-LaTeX Warning: Citation 'Jehangir2023' on page 22 undefined on input line 69.
-
-
-LaTeX Warning: Citation 'Pakhale2023' on page 22 undefined on input line 69.
-
-
-LaTeX Warning: Citation 'Palshikar' on page 22 undefined on input line 69.
-
-
-LaTeX Warning: Citation '' on page 22 undefined on input line 69.
-
-
-LaTeX Warning: Citation 'Jehangir2023' on page 22 undefined on input line 69.
-
-
-LaTeX Warning: Citation '' on page 22 undefined on input line 69.
-
-
-LaTeX Warning: Citation 'Koning2005' on page 22 undefined on input line 69.
-
-
-LaTeX Warning: Citation '' on page 22 undefined on input line 69.
-
-
-Overfull \hbox (15.98718pt too wide) in paragraph at lines 69--70
-\TU/Montserrat(1)/m/n/10.95 tekst ([]). [][] en [][]
- []
-
-
-Overfull \hbox (110.9008pt too wide) in paragraph at lines 69--70
-\TU/Montserrat(1)/m/n/10.95 lijsten de verschillende NER technieken op die kunn
-en gebruikt worden. [][]
- []
-
-
-LaTeX Warning: Citation 'Schaefer2011' on page 22 undefined on input line 71.
-
-
-LaTeX Warning: Citation '' on page 22 undefined on input line 71.
-
-
-LaTeX Warning: Citation 'Schaefer2011' on page 22 undefined on input line 71.
-
-
-
-[22]
-
-LaTeX Warning: Citation 'ScienceParse2024' on page 23 undefined on input line 1
-05.
-
-
-LaTeX Warning: Citation 'ScienceParseAPI2024' on page 23 undefined on input lin
-e 108.
-
-
-LaTeX Warning: Citation 'Grobid2024' on page 23 undefined on input line 109.
-
-
-LaTeX Warning: Citation 'SciPdfParser2024' on page 23 undefined on input line 1
-10.
-
-
-LaTeX Warning: Citation 'Paperai2024' on page 23 undefined on input line 111.
-
-
-LaTeX Warning: Citation 'PaperEtl2024' on page 23 undefined on input line 112.
-
-
-LaTeX Warning: Citation 'Delphin2024' on page 23 undefined on input line 113.
-
-
-LaTeX Warning: Citation 'TaxonGrab2024' on page 23 undefined on input line 114.
-
-
-
-
-[23])
-
 [24]
+Overfull \hbox (21.94153pt too wide) in paragraph at lines 59--60
+[]\TU/Montserrat(1)/m/n/10.95 Google Scholar is een zoekmachine die wetenschapp
+elijke literatuur indexeert ([]“  Google
+ []
 
-LaTeX Warning: Empty bibliography on input line 176.
 
-(DePaepeBartBP.aux)
+
+[25]
+Overfull \hbox (9.43324pt too wide) in paragraph at lines 67--68
+\TU/Montserrat(1)/m/n/10.95 vend, betrouwbaar en onderscheidbaar geïdentificeer
+d kunnen worden. []Chandrakar
+ []
+
+
+
+[26]
+
+[27])
+
+[28]
+
+[29
+
+
+]
+
+[30] (DePaepeBartBP.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -2580,7 +2512,7 @@ L3 programming layer <2024-08-30>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
-(rerunfilecheck)             Checksum: A34FF7FFCF41E7695EF9BDDE3941FE73;3353.
+(rerunfilecheck)             Checksum: 5E0AB5A31768ACD059632899EAA20FFA;4609.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                DePaepeBartBP
@@ -2591,12 +2523,12 @@ Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50765 strings out of 409028
- 1028946 string characters out of 5760982
- 2276684 words of memory out of 5000000
- 72671 multiletter control sequences out of 15000+600000
- 561980 words of font info for 114 fonts, out of 8000000 for 9000
+ 51140 strings out of 409028
+ 1040865 string characters out of 5760982
+ 2287663 words of memory out of 5000000
+ 73033 multiletter control sequences out of 15000+600000
+ 561972 words of font info for 113 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 110i,12n,132p,1256b,4158s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,12n,132p,1256b,5815s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DePaepeBartBP.pdf (32 pages).
+Output written on DePaepeBartBP.pdf (39 pages).

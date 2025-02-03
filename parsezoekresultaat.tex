@@ -1,0 +1,92 @@
+%%=============================================================================
+%% Methodologie
+%%=============================================================================
+
+\chapter{\IfLanguageName{dutch}{Parsen van Google Scholar zoekresultaten}{Parse Google Scholar search results}}%
+\label{ch:parsezoekresultaat}
+
+%% TODO: In dit hoofstuk geef je een korte toelichting over hoe je te werk bent
+%% gegaan. Verdeel je onderzoek in grote fasen, en licht in elke fase toe wat
+%% de doelstelling was, welke deliverables daar uit gekomen zijn, en welke
+%% onderzoeksmethoden je daarbij toegepast hebt. Verantwoord waarom je
+%% op deze manier te werk gegaan bent.
+%% 
+%% Voorbeelden van zulke fasen zijn: literatuurstudie, opstellen van een
+%% requirements-analyse, opstellen long-list (bij vergelijkende studie),
+%% selectie van geschikte tools (bij vergelijkende studie, "short-list"),
+%% opzetten testopstelling/PoC, uitvoeren testen en verzamelen
+%% van resultaten, analyse van resultaten, ...
+%%
+%% !!!!! LET OP !!!!!
+%%
+%% Het is uitdrukkelijk NIET de bedoeling dat je het grootste deel van de corpus
+%% van je bachelorproef in dit hoofstuk verwerkt! Dit hoofdstuk is eerder een
+%% kort overzicht van je plan van aanpak.
+%%
+%% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
+%% en geef het een gepaste titel.
+\section{Analyse}
+\subsection{Use Cases}
+Er zijn 3 stappen die leiden tot het vinden van een Digital Object Identifier (DOI) voor het zoekresultaat:
+\begin{itemize}
+    \item E-mail lezen
+    \item Body van de e-mail parsen
+    \item DOI opzoeken in de link van het geparsete resultaat
+\end{itemize}
+Een overkoepelend proces verbindt deze 3 stappen.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/3_use_case_diagram.PNG}
+    \caption[Use case diagram.]{\label{fig:Use case diagram}Use case diagram.}
+\end{figure}
+
+\begin{table}[htbp!]
+    \centering
+    \begin{tabular}{ | m{5cm} | m{10cm}| } 
+        \hline
+        \rowcolor{lightgray}
+        beschrijving & Google Scholar stuurt e-mails naar google-scholar@vliz.be. Deze e-mails moeten automatisch verwerkt worden. \\ 
+        \hline
+        primary actor & - \\ 
+        \hline
+        stakeholders & - \\ 
+        \hline
+        pre-condities & onverwerkte e-mail \\ 
+        \hline
+        post-condities & verwerkte e-mails \\ 
+        \hline
+        normaal verloop & 
+        \begin{enumerate}
+            \item systeem opent e-mail
+            \item systeem leest afzender
+            \item systeem evalueert afzender (DR-email)
+            \item systeem leest datum / tijdstip
+            \item systeem leest onderwerp
+            \item systeem leest body
+            \item systeem slaat deze gegevens op
+            \item systeem verplaatst e-mail van inbox naar mailbox folder op basis van onderwerp
+        \end{enumerate} \\ 
+        \hline
+        alternatief verloop & 
+        \begin{description}
+            \item 3A. de afzender is verkeerd (DR-email)
+            \item 3A1. systeem verplaatst e-mail van inbox naar SPAM folder
+        \end{description} \\ 
+        \hline
+        domeinregels & DR-email: afzender moet zijn: scholaralerts-noreply@google.com \\ 
+        \hline
+    \end{tabular}
+    \caption{Table to test captions and labels.}
+\end{table}
+
+\subsection{Domeinmodel}
+De 3 bovenstaande stappen geven aanleiding tot 4 objecten die de kern van het domeinmodel uitmaken en de nodige properties bevatten om de tussenresultaten bij te houden alsook de uiteindelijke DOI.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/4_domeinmodel.PNG}
+    \caption[Domeinmodel.]{\label{fig:Domeinmodel}Domeinmodel.}
+\end{figure}
+\section{Implementatie}
+\section{Resultaat}
+

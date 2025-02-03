@@ -12,6 +12,8 @@
 %   explicit approval!), remove the option "dutch," or replace with "english".
 
 \usepackage{lipsum} % For blind text, can be removed after adding actual content
+\usepackage{array} % Tables with a fixed width
+\usepackage[table]{xcolor}
 
 %% Pictures to include in the text can be put in the graphics/ folder
 \graphicspath{{../graphics/}}
@@ -51,11 +53,11 @@
 
 %%---------- Document metadata -------------------------------------------------
 % TODO: Replace this with your own information
-\author{Ernst Aarden}
-\supervisor{Dhr. F. Van Houte}
-\cosupervisor{Mevr. S. Beeckman}
-\title[Optionele ondertitel]%
-    {Titel van de bachelorproef}
+\author{Dhr. Bart De Paepe}
+\supervisor{Dhr. Jan Claes}
+\cosupervisor{Dhr. Milan Lamote}
+\title[]%
+    {Google Scholar zoekresultaten voor wetenschappelijke projecten: linked data \& natural language processing}
 \academicyear{\advance\year by -1 \the\year--\advance\year by 1 \the\year}
 \examperiod{1}
 \degreesought{\IfLanguageName{dutch}{Professionele bachelor in de toegepaste informatica}{Bachelor of applied computer science}}
@@ -136,6 +138,7 @@
 \input{standvanzaken}
 \input{methodologie}
 \input{googlescholarzoekopdracht}
+\input{parsezoekresultaat}
 
 % Voeg hier je eigen hoofdstukken toe die de ``corpus'' van je bachelorproef
 % vormen. De structuur en titels hangen af van je eigen onderzoek. Je kan bv.
