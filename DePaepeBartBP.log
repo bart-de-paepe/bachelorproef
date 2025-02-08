@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.18)  3 FEB 2025 14:24
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.18)  8 FEB 2025 22:42
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2128,15 +2128,15 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 99.
 
 [4
 
-] (DePaepeBartBP.toc)
+] (DePaepeBartBP.toc
+
+[5
+
+])
 \tf@toc=\write7
 \openout7 = `DePaepeBartBP.toc'.
 
 
-
-[5
-
-]
 
 [6] (DePaepeBartBP.lof
 Package microtype Info: Loading generic protrusion settings for font family
@@ -2200,7 +2200,7 @@ File: ../graphics/grail.jpg Graphic file (type bmp)
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250203142420 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250208224253 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -2281,17 +2281,9 @@ Hoofdstuk 3.
 File: ../graphics/./2_parse_zoekresultaat/1_python_release_cycle.jpg Graphic fi
 le (type bmp)
 <../graphics/./2_parse_zoekresultaat/1_python_release_cycle.jpg>
-
-LaTeX Warning: Citation 'pythonreleasecycle2025' on page 8 undefined on input l
-ine 46.
-
 File: ../graphics/./2_parse_zoekresultaat/2_end_of_life_date_python.JPG Graphic
  file (type bmp)
 <../graphics/./2_parse_zoekresultaat/2_end_of_life_date_python.JPG>
-
-LaTeX Warning: Citation 'endoflifedatepython2025' on page 8 undefined on input 
-line 51.
-
 
 
 [8
@@ -2421,28 +2413,37 @@ e bmp)
 
 [17]
 Hoofdstuk 5.
+File: ../graphics/./2_parse_zoekresultaat/email-lezen.jpg Graphic file (type bm
+p)
+<../graphics/./2_parse_zoekresultaat/email-lezen.jpg>
+
+Overfull \hbox (19.9924pt too wide) in paragraph at lines 37--43
+\TU/Montserrat(1)/m/n/10.95 Op gezette tijdstippen wordt de inbox van het accou
+nt google-scholar@marineinfo.org
+ []
+
 File: ../graphics/./2_parse_zoekresultaat/3_use_case_diagram.PNG Graphic file (
 type bmp)
 <../graphics/./2_parse_zoekresultaat/3_use_case_diagram.PNG>
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 []|\TU/Montserrat(1)/m/n/10.95 Google Scholar stuurt e-mails naar google-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 []|\TU/Montserrat(1)/m/n/10.95 DR-email: afzender moet zijn: scholaralerts-
  []
 
 
-Overfull \hbox (3.86041pt too wide) in paragraph at lines 46--80
+Overfull \hbox (3.86041pt too wide) in paragraph at lines 55--89
  [][] 
  []
 
 File: ../graphics/./2_parse_zoekresultaat/4_domeinmodel.PNG Graphic file (type 
 bmp)
 <../graphics/./2_parse_zoekresultaat/4_domeinmodel.PNG>
-) (conclusie.tex
+
 
 [18
 
@@ -2451,14 +2452,107 @@ bmp)
 [19]
 
 [20]
+Overfull \hbox (4.12953pt too wide) in paragraph at lines 101--103
+\TU/Montserrat(1)/m/n/10.95 Meerdere specifieke Python libraries ondersteunen a
+lle mogelijke bewerkingen met
+ []
+
+
+(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
+(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
+parsezoekresultaat.tex:112: Missing $ inserted.
+<inserted text> 
+                $
+l.112 ...ndo's wordt click\_ \autocite{Click2025} 
+                                                  gebruikt.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+parsezoekresultaat.tex:112: Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.112 ...ndo's wordt click\_ \autocite{Click2025} 
+                                                  gebruikt.
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+LaTeX Warning: Command \textquotedblright invalid in math mode on input line 11
+2.
+
+
+parsezoekresultaat.tex:112: Package csquotes Error: Unbalanced groups or invali
+d nesting.
+
+See the csquotes package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 ...ndo's wordt click\_ \autocite{Click2025} 
+                                                  gebruikt.
+I have detected a group type mismatch. Verify that all groups
+and all active quotes are properly balanced and nested. If you
+continue, I will write a summary of all previously opened groups
+to the transcript file.
+
+
+### math group (level 10) entered at line 112 ({)
+### math shift group (level 9) entered at line 112 ($)
+### semi simple group (level 8) entered at line 112 (\begingroup)
+### semi simple group (level 7) entered at line 112 (\begingroup)
+### semi simple group (level 6) entered at line 112 (\begingroup)
+### semi simple group (level 5) entered at line 112 (\begingroup)
+### semi simple group (level 4) entered at line 112 (\begingroup)
+### semi simple group (level 3) entered at line 112 (\begingroup)
+### semi simple group (level 2) entered at line 112 (\begingroup)
+### semi simple group (level 1) entered at line 112 (\begingroup)
+### bottom level
+
+parsezoekresultaat.tex:112: OK.
+\csq@err@gtype ...the transcript file}\showgroups 
+                                                  
+l.112 ...ndo's wordt click\_ \autocite{Click2025} 
+                                                  gebruikt.
+
+parsezoekresultaat.tex:112: Missing } inserted.
+<inserted text> 
+                }
+l.112 ...ndo's wordt click\_ \autocite{Click2025} 
+                                                  gebruikt.
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+parsezoekresultaat.tex:112: Missing $ inserted.
+<inserted text> 
+                $
+l.112 ...ndo's wordt click\_ \autocite{Click2025} 
+                                                  gebruikt.
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+
+[21]) (conclusie.tex
+
+[22]
 Hoofdstuk 6.
 
 
-[21
+[23
 
 ])
 
-[22]
+[24]
 B\ij lage A.
 (../voorstel/voorstel-inhoud.tex
 Overfull \hbox (2.63669pt too wide) in paragraph at lines 20--21
@@ -2468,14 +2562,14 @@ collecties van mariene wetenschap-
 
 
 
-[23
+[25
 
 ]
 File: images/stapsgewijs.png Graphic file (type bmp)
 <images/stapsgewijs.png>
 
 
-[24]
+[26]
 Overfull \hbox (21.94153pt too wide) in paragraph at lines 59--60
 []\TU/Montserrat(1)/m/n/10.95 Google Scholar is een zoekmachine die wetenschapp
 elijke literatuur indexeert ([]“  Google
@@ -2483,7 +2577,7 @@ elijke literatuur indexeert ([]“  Google
 
 
 
-[25]
+[27]
 Overfull \hbox (9.43324pt too wide) in paragraph at lines 67--68
 \TU/Montserrat(1)/m/n/10.95 vend, betrouwbaar en onderscheidbaar geïdentificeer
 d kunnen worden. []Chandrakar
@@ -2491,44 +2585,98 @@ d kunnen worden. []Chandrakar
 
 
 
-[26]
-
-[27])
-
 [28]
 
-[29
+[29])
+
+[30]
+DePaepeBartBP.tex:179: Missing $ inserted.
+<inserted text> 
+                $
+l.179 \printbibliography[heading=bibintoc]
+                                          
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+DePaepeBartBP.tex:179: Missing { inserted.
+<to be read again> 
+                   \endgroup 
+l.179 \printbibliography[heading=bibintoc]
+                                          
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+DePaepeBartBP.tex:179: Missing } inserted.
+<inserted text> 
+                }
+l.179 \printbibliography[heading=bibintoc]
+                                          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+DePaepeBartBP.tex:179: Missing $ inserted.
+<inserted text> 
+                $
+l.179 \printbibliography[heading=bibintoc]
+                                          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (23.13835pt too wide) in paragraph at lines 179--179
+[][]\TU/Montserrat(2)/m/it/10.95 Document-oriented database\TU/Montserrat(1)/m/
+n/10.95 . (2025, maart 1). [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] 
+[] [][][] [] [][][][] [] [][][][][][][][] [][]
+ []
+
+
+
+[31
 
 
 ]
+Overfull \hbox (1.74945pt too wide) in paragraph at lines 179--179
+[][]\TU/Montserrat(2)/m/it/10.95 Internet Message Access Protocol, Uit Wikipedi
+a, de vrije encyclopedie\TU/Montserrat(1)/m/n/10.95 . (2025, maart
+ []
 
-[30] (DePaepeBartBP.aux)
+
+Overfull \hbox (2.26407pt too wide) in paragraph at lines 179--179
+[][]\TU/Montserrat(2)/m/it/10.95 MongoDB\TU/Montserrat(1)/m/n/10.95 . (2025, ma
+art 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][]
+[][][][][] [] [][][][][][] [] [][][][][][][][][] []
+ []
+
+
+
+[32]
+
+[33] (DePaepeBartBP.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
-(rerunfilecheck)             Checksum: 5E0AB5A31768ACD059632899EAA20FFA;4609.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                DePaepeBartBP
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 83AF4C11F2591DE0FAE89A490B634B25;5514.
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51140 strings out of 409028
- 1040865 string characters out of 5760982
- 2287663 words of memory out of 5000000
- 73033 multiletter control sequences out of 15000+600000
+ 51216 strings out of 409028
+ 1043982 string characters out of 5760982
+ 2290351 words of memory out of 5000000
+ 73104 multiletter control sequences out of 15000+600000
  561972 words of font info for 113 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,12n,132p,1256b,5815s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DePaepeBartBP.pdf (39 pages).
+Output written on DePaepeBartBP.pdf (42 pages).

@@ -191,6 +191,24 @@
       \verb 10.1108/02640470610689151
       \endverb
     \endentry
+    \entry{Click2025}{online}{}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{Click_}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://click.palletsprojects.com/en/stable/
+      \endverb
+      \verb{url}
+      \verb https://click.palletsprojects.com/en/stable/
+      \endverb
+    \endentry
     \entry{Creeger2009}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e888aba3556efbb8063540e3e2ae69b4}{%
@@ -257,6 +275,78 @@
       \endverb
       \verb{url}
       \verb https://github.com/delph-in/docs/wiki
+      \endverb
+    \endentry
+    \entry{Dependencyinjector2025}{online}{}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{Dependency Injector}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://python-dependency-injector.ets-labs.org/index.html
+      \endverb
+      \verb{url}
+      \verb https://python-dependency-injector.ets-labs.org/index.html
+      \endverb
+    \endentry
+    \entry{Documentstore2025}{online}{}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{Document-oriented database}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Document-oriented_database
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Document-oriented_database
+      \endverb
+    \endentry
+    \entry{Email2025}{online}{}{}
+      \field{sortinit}{e}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{email - An email and MIME handling package}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.python.org/3.13/library/email.html
+      \endverb
+      \verb{url}
+      \verb https://docs.python.org/3.13/library/email.html
+      \endverb
+    \endentry
+    \entry{endoflifedatepython2025}{online}{}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{End of life date Python}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://endoflife.date/python
+      \endverb
+      \verb{url}
+      \verb https://endoflife.date/python
       \endverb
     \endentry
     \entry{PaperEtl2024}{online}{}{}
@@ -374,6 +464,42 @@
       \endverb
       \verb{url}
       \verb https://www.researchgate.net/publication/33549102_IMIS_Integrated_Marine_Information_System
+      \endverb
+    \endentry
+    \entry{Imaplib2025}{online}{}{}
+      \field{sortinit}{i}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{imaplib - IMAP4 protocol client}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.python.org/3/library/imaplib.html
+      \endverb
+      \verb{url}
+      \verb https://docs.python.org/3/library/imaplib.html
+      \endverb
+    \endentry
+    \entry{Imap2025}{online}{}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{Internet Message Access Protocol, Uit Wikipedia, de vrije encyclopedie}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol
       \endverb
     \endentry
     \entry{Jehangir2023}{article}{}{}
@@ -565,6 +691,24 @@
       \verb 10.1016/j.joi.2016.04.017
       \endverb
     \endentry
+    \entry{Mongodb2025}{online}{}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{MongoDB}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mongodb.com/resources/basics/databases/document-databases
+      \endverb
+      \verb{url}
+      \verb https://www.mongodb.com/resources/basics/databases/document-databases
+      \endverb
+    \endentry
     \entry{Noruzi2005}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=df6524599296f3938d111d4ee2060224}{%
@@ -705,6 +849,24 @@
       \field{labeltitlesource}{title}
       \field{title}{Schrijven van verslag tot eindwerk: do's en don'ts}
       \field{year}{2011}
+    \endentry
+    \entry{Pymongo2025}{online}{}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{PyMongo}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://pymongo.readthedocs.io/en/stable/
+      \endverb
+      \verb{url}
+      \verb https://pymongo.readthedocs.io/en/stable/
+      \endverb
     \endentry
     \entry{SciPdfParser2024}{online}{}{}
       \field{sortinit}{P}
@@ -976,6 +1138,24 @@
       \endverb
       \verb{url}
       \verb https://github.com/neuml/paperai
+      \endverb
+    \endentry
+    \entry{pythonreleasecycle2025}{online}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{Status of Python versions}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://devguide.python.org/versions/
+      \endverb
+      \verb{url}
+      \verb https://devguide.python.org/versions/
       \endverb
     \endentry
     \entry{TaxonGrab2024}{online}{}{}
@@ -1206,6 +1386,24 @@
       \verb 10.1108/02640470610689151
       \endverb
     \endentry
+    \entry{Click2025}{online}{}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{Click_}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://click.palletsprojects.com/en/stable/
+      \endverb
+      \verb{url}
+      \verb https://click.palletsprojects.com/en/stable/
+      \endverb
+    \endentry
     \entry{Creeger2009}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e888aba3556efbb8063540e3e2ae69b4}{%
@@ -1272,6 +1470,78 @@
       \endverb
       \verb{url}
       \verb https://github.com/delph-in/docs/wiki
+      \endverb
+    \endentry
+    \entry{Dependencyinjector2025}{online}{}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{Dependency Injector}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://python-dependency-injector.ets-labs.org/index.html
+      \endverb
+      \verb{url}
+      \verb https://python-dependency-injector.ets-labs.org/index.html
+      \endverb
+    \endentry
+    \entry{Documentstore2025}{online}{}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{Document-oriented database}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Document-oriented_database
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Document-oriented_database
+      \endverb
+    \endentry
+    \entry{Email2025}{online}{}{}
+      \field{sortinit}{e}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{email - An email and MIME handling package}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.python.org/3.13/library/email.html
+      \endverb
+      \verb{url}
+      \verb https://docs.python.org/3.13/library/email.html
+      \endverb
+    \endentry
+    \entry{endoflifedatepython2025}{online}{}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{End of life date Python}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://endoflife.date/python
+      \endverb
+      \verb{url}
+      \verb https://endoflife.date/python
       \endverb
     \endentry
     \entry{PaperEtl2024}{online}{}{}
@@ -1389,6 +1659,42 @@
       \endverb
       \verb{url}
       \verb https://www.researchgate.net/publication/33549102_IMIS_Integrated_Marine_Information_System
+      \endverb
+    \endentry
+    \entry{Imaplib2025}{online}{}{}
+      \field{sortinit}{i}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{imaplib - IMAP4 protocol client}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.python.org/3/library/imaplib.html
+      \endverb
+      \verb{url}
+      \verb https://docs.python.org/3/library/imaplib.html
+      \endverb
+    \endentry
+    \entry{Imap2025}{online}{}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{Internet Message Access Protocol, Uit Wikipedia, de vrije encyclopedie}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol
       \endverb
     \endentry
     \entry{Jehangir2023}{article}{}{}
@@ -1580,6 +1886,24 @@
       \verb 10.1016/j.joi.2016.04.017
       \endverb
     \endentry
+    \entry{Mongodb2025}{online}{}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{MongoDB}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mongodb.com/resources/basics/databases/document-databases
+      \endverb
+      \verb{url}
+      \verb https://www.mongodb.com/resources/basics/databases/document-databases
+      \endverb
+    \endentry
     \entry{Noruzi2005}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=df6524599296f3938d111d4ee2060224}{%
@@ -1720,6 +2044,24 @@
       \field{labeltitlesource}{title}
       \field{title}{Schrijven van verslag tot eindwerk: do's en don'ts}
       \field{year}{2011}
+    \endentry
+    \entry{Pymongo2025}{online}{}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{PyMongo}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://pymongo.readthedocs.io/en/stable/
+      \endverb
+      \verb{url}
+      \verb https://pymongo.readthedocs.io/en/stable/
+      \endverb
     \endentry
     \entry{SciPdfParser2024}{online}{}{}
       \field{sortinit}{P}
@@ -1991,6 +2333,24 @@
       \endverb
       \verb{url}
       \verb https://github.com/neuml/paperai
+      \endverb
+    \endentry
+    \entry{pythonreleasecycle2025}{online}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{Status of Python versions}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://devguide.python.org/versions/
+      \endverb
+      \verb{url}
+      \verb https://devguide.python.org/versions/
       \endverb
     \endentry
     \entry{TaxonGrab2024}{online}{}{}

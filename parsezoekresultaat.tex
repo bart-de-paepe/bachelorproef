@@ -25,16 +25,25 @@
 %%
 %% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
 %% en geef het een gepaste titel.
-\section{Analyse}
-\subsection{Use Cases}
-Er zijn 3 stappen die leiden tot het vinden van een Digital Object Identifier (DOI) voor het zoekresultaat:
+\section{Doelstelling}
+De Google Scholar alert geeft aanleiding tot e-mails met de meest recente zoekresultaten. Voor elke e-mail en voor elk zoekresultaat wordt de Digital Object Identifier (DOI) opgezocht. Daarvoor worden 3 stappen doorlopen:
 \begin{itemize}
     \item E-mail lezen
     \item Body van de e-mail parsen
-    \item DOI opzoeken in de link van het geparsete resultaat
+    \item DOI opzoeken in de link die aanwezig is in het geparsete resultaat
 \end{itemize}
 Een overkoepelend proces verbindt deze 3 stappen.
-
+\subsection{E-mail lezen}
+Op gezette tijdstippen wordt de inbox van het account google-scholar@marineinfo.org geopend op zoek naar ongelezen e-mails. Elke e-mail wordt gelezen en de informatie van de e-mail wordt opgeslaan. De e-mail wordt verplaatst van de inbox naar een werkmap overeenkomstig het onderwerp van de e-mail. Het onderwerp komt overeen met de zoekopdracht.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/email-lezen.jpg}
+    \caption[E-mail lezen.]{\label{fig:E-mail lezen}Flow e-mail lezen.}
+\end{figure}
+\subsection{Body van de e-mail parsen}
+\subsection{DOI opzoeken in de link van het geparsete resultaat}
+\section{Analyse}
+\subsection{Use Cases}
 \begin{figure}
     \centering
     \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/3_use_case_diagram.PNG}
@@ -88,5 +97,19 @@ De 3 bovenstaande stappen geven aanleiding tot 4 objecten die de kern van het do
     \caption[Domeinmodel.]{\label{fig:Domeinmodel}Domeinmodel.}
 \end{figure}
 \section{Implementatie}
+\subsection{E-mail lezen}
+Meerdere specifieke Python libraries ondersteunen alle mogelijke bewerkingen met e-mail:
+\begin{itemize}
+    \item \textbf{imaplib - IMAP4 protocol client \autocite{Imaplib2025}}: Legt een verbinding met een IMAP server en implementeert de functionaliteiten van het IMAP \footnote{Internet Message Access Protocol} protocol om e-mails op te halen.\autocite{Imap2025}
+    \item \textbf{email - An email and MIME handling package \autocite{Email2025}}: Laat toe om emails te verwerken adhv. 3 modules.
+    \begin{itemize}
+        \item \textbf{message}: Alle bewerkingen met een e-mail.
+        \item \textbf{parser}: Om een e-mail om te zetten in tekst.
+        \item \textbf{generator}: Om tekst om te zetten in een e-mail. 
+    \end{itemize}
+\end{itemize}
+Er wordt gekozen voor een document store database \autocite{Documentstore2025} voor het opslaan van de gegevens. Dit type databank is geschikt voor het bijhouden van dynamische data die als geheel (als één document) opgeslaan wordt. MongoDB \autocite{Mongodb2025} is de meest gekende technologie van dit type databank. Ook hiervoor zijn er specifieke python libraries die de verbinding met de Mongodb server mogelijk maken \autocite{Pymongo2025}.
+Voor het uitvoeren van de commando's wordt click\_ \autocite{Click2025} gebruikt.
+Voor het ter beschikking stellen van alle services in de code wordt Dependency Injector \autocite{Dependencyinjector2025} gebruikt.
 \section{Resultaat}
 
