@@ -1,22 +1,22 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
-[0] Config.pm:311> INFO - Logfile is 'DePaepeBartBP.blg'
-[129] biber-MSWIN64:340> INFO - === 
-[179] Biber.pm:420> INFO - Reading 'DePaepeBartBP.bcf'
-[323] Biber.pm:994> INFO - Found 39 citekeys in bib section 0
-[349] Biber.pm:4463> INFO - Processing section 0
-[362] Biber.pm:4654> INFO - Looking for bibtex file 'bachproef.bib' for section 0
-[464] bibtex.pm:1713> INFO - LaTeX decoding ...
-[480] bibtex.pm:1519> INFO - Found BibTeX data source 'bachproef.bib'
-[539] Biber.pm:4654> INFO - Looking for bibtex file '../voorstel/voorstel.bib' for section 0
-[643] bibtex.pm:1713> INFO - LaTeX decoding ...
-[668] bibtex.pm:1519> INFO - Found BibTeX data source '../voorstel/voorstel.bib'
-[771] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[771] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[771] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[771] Biber.pm:4289> INFO - No sort tailoring available for locale 'nl-NL'
-[818] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[818] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[818] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[818] Biber.pm:4289> INFO - No sort tailoring available for locale 'nl-NL'
-[849] bbl.pm:676> INFO - Writing 'DePaepeBartBP.bbl' with encoding 'UTF-8'
-[889] bbl.pm:779> INFO - Output to DePaepeBartBP.bbl
+[1] Config.pm:311> INFO - Logfile is 'DePaepeBartBP.blg'
+[146] biber-MSWIN64:340> INFO - === 
+[197] Biber.pm:420> INFO - Reading 'DePaepeBartBP.bcf'
+[326] Biber.pm:994> INFO - Found 39 citekeys in bib section 0
+[352] Biber.pm:4463> INFO - Processing section 0
+[366] Biber.pm:4654> INFO - Looking for bibtex file 'bachproef.bib' for section 0
+[418] bibtex.pm:1713> INFO - LaTeX decoding ...
+[437] bibtex.pm:1519> INFO - Found BibTeX data source 'bachproef.bib'
+[497] Biber.pm:4654> INFO - Looking for bibtex file '../voorstel/voorstel.bib' for section 0
+[552] bibtex.pm:1713> INFO - LaTeX decoding ...
+[582] bibtex.pm:1519> INFO - Found BibTeX data source '../voorstel/voorstel.bib'
+[690] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[690] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[690] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[690] Biber.pm:4289> INFO - No sort tailoring available for locale 'nl-NL'
+[738] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[738] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[738] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[738] Biber.pm:4289> INFO - No sort tailoring available for locale 'nl-NL'
+[770] bbl.pm:676> INFO - Writing 'DePaepeBartBP.bbl' with encoding 'UTF-8'
+[811] bbl.pm:779> INFO - Output to DePaepeBartBP.bbl

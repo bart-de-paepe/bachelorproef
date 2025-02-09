@@ -3090,37 +3090,38 @@
     <bcf:citekey order="19" intorder="1">Pymongo2025</bcf:citekey>
     <bcf:citekey order="20" intorder="1">Click2025</bcf:citekey>
     <bcf:citekey order="21" intorder="1">Dependencyinjector2025</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">Vliz2024</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">Worms2024</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">Crossref2024</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">Haspeslagh2024</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">Wikipedia2024</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">Noruzi2005</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">Aguillo2011</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">Moed2016</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">Araujo2021</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">Di2025</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">Vliz2024</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">Worms2024</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">Crossref2024</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">Haspeslagh2024</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">Wikipedia2024</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">Noruzi2005</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">Aguillo2011</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">Moed2016</bcf:citekey>
     <bcf:citekey order="31" intorder="1">Araujo2021</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">Chandrakar2006</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">Araujo2021</bcf:citekey>
     <bcf:citekey order="33" intorder="1">Chandrakar2006</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">Jehangir2023</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">Pakhale2023</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">Palshikar</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">Chandrakar2006</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">Jehangir2023</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">Pakhale2023</bcf:citekey>
     <bcf:citekey order="37" intorder="1">Palshikar</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">Jehangir2023</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">Palshikar</bcf:citekey>
     <bcf:citekey order="39" intorder="1">Jehangir2023</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">Koning2005</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">Jehangir2023</bcf:citekey>
     <bcf:citekey order="41" intorder="1">Koning2005</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">Schaefer2011</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">Koning2005</bcf:citekey>
     <bcf:citekey order="43" intorder="1">Schaefer2011</bcf:citekey>
     <bcf:citekey order="44" intorder="1">Schaefer2011</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">ScienceParse2024</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">ScienceParseAPI2024</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">Grobid2024</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">SciPdfParser2024</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">Paperai2024</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">PaperEtl2024</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">Delphin2024</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">TaxonGrab2024</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">Schaefer2011</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">ScienceParse2024</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">ScienceParseAPI2024</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">Grobid2024</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">SciPdfParser2024</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">Paperai2024</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">PaperEtl2024</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">Delphin2024</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">TaxonGrab2024</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

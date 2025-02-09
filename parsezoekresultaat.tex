@@ -32,7 +32,6 @@ De Google Scholar alert geeft aanleiding tot e-mails met de meest recente zoekre
     \item Body van de e-mail parsen
     \item DOI opzoeken in de link die aanwezig is in het geparsete resultaat
 \end{itemize}
-Een overkoepelend proces verbindt deze 3 stappen.
 \subsection{E-mail lezen}
 Op gezette tijdstippen wordt de inbox van het account google-scholar@marineinfo.org geopend op zoek naar ongelezen e-mails. Elke e-mail wordt gelezen en de informatie van de e-mail wordt opgeslaan. De e-mail wordt verplaatst van de inbox naar een werkmap overeenkomstig het onderwerp van de e-mail. Het onderwerp komt overeen met de zoekopdracht.
 \begin{figure}
@@ -40,6 +39,7 @@ Op gezette tijdstippen wordt de inbox van het account google-scholar@marineinfo.
     \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/email-lezen.jpg}
     \caption[E-mail lezen.]{\label{fig:E-mail lezen}Flow e-mail lezen.}
 \end{figure}
+\FloatBarrier
 \subsection{Body van de e-mail parsen}
 \subsection{DOI opzoeken in de link van het geparsete resultaat}
 \section{Analyse}
@@ -49,8 +49,8 @@ Op gezette tijdstippen wordt de inbox van het account google-scholar@marineinfo.
     \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/3_use_case_diagram.PNG}
     \caption[Use case diagram.]{\label{fig:Use case diagram}Use case diagram.}
 \end{figure}
-
-\begin{table}[htbp!]
+\FloatBarrier
+\begin{table}[H]
     \centering
     \begin{tabular}{ | m{5cm} | m{10cm}| } 
         \hline
@@ -96,6 +96,7 @@ De 3 bovenstaande stappen geven aanleiding tot 4 objecten die de kern van het do
     \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/4_domeinmodel.PNG}
     \caption[Domeinmodel.]{\label{fig:Domeinmodel}Domeinmodel.}
 \end{figure}
+\FloatBarrier
 \section{Implementatie}
 \subsection{E-mail lezen}
 Meerdere specifieke Python libraries ondersteunen alle mogelijke bewerkingen met e-mail:
@@ -108,8 +109,24 @@ Meerdere specifieke Python libraries ondersteunen alle mogelijke bewerkingen met
         \item \textbf{generator}: Om tekst om te zetten in een e-mail. 
     \end{itemize}
 \end{itemize}
-Er wordt gekozen voor een document store database \autocite{Documentstore2025} voor het opslaan van de gegevens. Dit type databank is geschikt voor het bijhouden van dynamische data die als geheel (als één document) opgeslaan wordt. MongoDB \autocite{Mongodb2025} is de meest gekende technologie van dit type databank. Ook hiervoor zijn er specifieke python libraries die de verbinding met de Mongodb server mogelijk maken \autocite{Pymongo2025}.
-Voor het uitvoeren van de commando's wordt click\_ \autocite{Click2025} gebruikt.
-Voor het ter beschikking stellen van alle services in de code wordt Dependency Injector \autocite{Dependencyinjector2025} gebruikt.
+De gelezen e-mail wordt opgeslaan in een document store database \autocite{Documentstore2025}. Dit type databank is geschikt voor het bijhouden van dynamische data die als geheel (als één document) opgeslaan wordt. MongoDB \autocite{Mongodb2025} is de meest gekende technologie van dit type databank. Pymongo \autocite{Pymongo2025} is de specifieke python library die de verbinding met de Mongodb server mogelijk maakt.\\
+Het custom script dat de e-mail leest wordt opgeroepen door de Windows task scheduler. Click\_ \autocite{Click2025} laat toe om meerdere commando's te definiëren in hetzelfde script.\\
+Tenslotte wordt er gebruik gemaakt van de Dependency Injector \autocite{Dependencyinjector2025} om al deze services door middel van dependency injection \autocite{Di2025} ter beschikking te stellen aan het script.\\
+Aan het einde van de process dat de e-mail leest, wordt de body van de e-mail in een wachtrij geplaatst zodat deze opgepikt wordt door de volgende stappen.
 \section{Resultaat}
+\subsection{E-mail lezen}
+Het resultaat van deze stap is eerder een tussenresultaat waarbij verschillende onderdelen van de e-mail zoals datum, onderwerp, en andere opgeslagen worden in de databank. Deze opgeslagen informatie vormt de bron voor de verdere verwerking in stap 2.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/json_view.JPG}
+    \caption[Databank JSON view.]{\label{fig:Databank JSON view}Databank JSON view.}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/table_view.JPG}
+    \caption[Databank table view.]{\label{fig:Databank table view}Databank table view.}
+\end{figure}
+\FloatBarrier
+
+
 

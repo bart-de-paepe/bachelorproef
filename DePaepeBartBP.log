@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.18)  8 FEB 2025 22:42
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.18)  9 FEB 2025 21:41
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1758,6 +1758,16 @@ Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
 \everycr=\toks54
 \minrowclearance=\skip96
 \rownum=\count510
+) (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count511
+\float@exts=\toks55
+\float@box=\box92
+\@float@everytoks=\toks56
+\@floatcapt=\box93
+)
+(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
 ) (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/minted\minted.sty
 Package: minted 2024/11/17 v3.4.0 Yet another Pygments shim for LaTeX
 
@@ -1775,11 +1785,11 @@ rb
 
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
 Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
-\FV@CodeLineNo=\count511
+\FV@CodeLineNo=\count512
 \FV@InFile=\read6
-\FV@TabBox=\box92
-\c@FancyVerbLine=\count512
-\FV@StepNumber=\count513
+\FV@TabBox=\box94
+\c@FancyVerbLine=\count513
+\FV@StepNumber=\count514
 \FV@OutFile=\write5
 ) (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/upquote\upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
@@ -1788,21 +1798,21 @@ tim
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/lineno\lineno.sty
 Package: lineno 2023/05/20 line numbers on paragraphs v5.3
 Invalid UTF-8 byte or sequence at line 292 replaced by U+FFFD.
-\linenopenalty=\count514
-\output=\toks55
-\linenoprevgraf=\count515
+\linenopenalty=\count515
+\output=\toks57
+\linenoprevgraf=\count516
 \linenumbersep=\dimen339
 \linenumberwidth=\dimen340
-\c@linenumber=\count516
-\c@pagewiselinenumber=\count517
-\c@LN@truepage=\count518
-\c@internallinenumber=\count519
-\c@internallinenumbers=\count520
+\c@linenumber=\count517
+\c@pagewiselinenumber=\count518
+\c@LN@truepage=\count519
+\c@internallinenumber=\count520
+\c@internallinenumbers=\count521
 \quotelinenumbersep=\dimen341
 \bframerule=\dimen342
 \bframesep=\dimen343
-\bframebox=\box93
-\linenoamsmath@ams@eqpen=\count521
+\bframebox=\box95
+\linenoamsmath@ams@eqpen=\count522
 
 
 LaTeX Warning: Command \@parboxrestore  has changed.
@@ -1814,30 +1824,30 @@ LaTeX Info: Redefining \\ on input line 3180.
 Package fvextra Warning: csquotes should be loaded after fvextra, to avoid a wa
 rning from the lineno package on input line 36.
 
-\c@FancyVerbWriteLine=\count522
-\c@FancyVerbBufferLine=\count523
-\c@FV@TrueTabGroupLevel=\count524
-\c@FV@TrueTabCounter=\count525
-\FV@TabBox@Group=\box94
+\c@FancyVerbWriteLine=\count523
+\c@FancyVerbBufferLine=\count524
+\c@FV@TrueTabGroupLevel=\count525
+\c@FV@TrueTabCounter=\count526
+\FV@TabBox@Group=\box96
 \FV@TmpLength=\skip97
-\c@FV@HighlightLinesStart=\count526
-\c@FV@HighlightLinesStop=\count527
-\FV@LoopCount=\count528
-\FV@NCharsBox=\box95
+\c@FV@HighlightLinesStart=\count527
+\c@FV@HighlightLinesStop=\count528
+\FV@LoopCount=\count529
+\FV@NCharsBox=\box97
 \FV@BreakIndent=\dimen344
-\FV@BreakIndentNChars=\count529
+\FV@BreakIndentNChars=\count530
 \FV@BreakSymbolSepLeft=\dimen345
-\FV@BreakSymbolSepLeftNChars=\count530
+\FV@BreakSymbolSepLeftNChars=\count531
 \FV@BreakSymbolSepRight=\dimen346
-\FV@BreakSymbolSepRightNChars=\count531
+\FV@BreakSymbolSepRightNChars=\count532
 \FV@BreakSymbolIndentLeft=\dimen347
-\FV@BreakSymbolIndentLeftNChars=\count532
+\FV@BreakSymbolIndentLeftNChars=\count533
 \FV@BreakSymbolIndentRight=\dimen348
-\FV@BreakSymbolIndentRightNChars=\count533
-\c@FancyVerbLineBreakLast=\count534
-\FV@LineBox=\box96
-\FV@LineIndentBox=\box97
-\c@FV@BreakBufferDepth=\count535
+\FV@BreakSymbolIndentRightNChars=\count534
+\c@FancyVerbLineBreakLast=\count535
+\FV@LineBox=\box98
+\FV@LineIndentBox=\box99
+\c@FV@BreakBufferDepth=\count536
 \FV@LineWidth=\dimen349
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/latex2pydata\latex2pyd
@@ -1847,8 +1857,8 @@ thon literal format
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/pgfopts\pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks56
-\pgfopts@list@add@b@toks=\toks57
+\pgfopts@list@add@a@toks=\toks58
+\pgfopts@list@add@b@toks=\toks59
 )
 
 C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/minted\minted.sty:282: 
@@ -1868,19 +1878,10 @@ command, so I can't give any explicit help.
 Pretend that you're Hercule Poirot: Examine all clues,
 and deduce the truth by order and method.
 
-(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count536
-\float@exts=\toks58
-\float@box=\box98
-\@float@everytoks=\toks59
-\@floatcapt=\box99
-)
 \c@minted@FancyVerbLineTemp=\count537
 \@float@every@listing=\toks60
 \c@listing=\count538
-)
-(C:\Program Files\MiKTeX\tex/latex/listings\listings.sty
+) (C:\Program Files\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count539
 \lst@gtempboxa=\box100
 \lst@token=\toks61
@@ -1914,26 +1915,26 @@ Package csquotes Info: Redefining alias 'default' -> 'dutch'.
  (DePaepeBartBP.aux)
 \openout1 = `DePaepeBartBP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
 Package biblatex Info: Trying to load language 'dutch' -> 'dutch-apa'...
 Package biblatex Info: ... file 'dutch-apa.lbx' found.
 
@@ -1960,8 +1961,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'DePaepeBartBP.bbl' found.
  (DePaepeBartBP.bbl)
-Package biblatex Info: Reference section=0 on input line 81.
-Package biblatex Info: Reference segment=0 on input line 81.
+Package biblatex Info: Reference section=0 on input line 83.
+Package biblatex Info: Reference segment=0 on input line 83.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -2002,7 +2003,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 81.
+Package hyperref Info: Link coloring ON on input line 83.
 (DePaepeBartBP.out) (DePaepeBartBP.out)
 \@outlinefile=\write6
 \openout6 = `DePaepeBartBP.out'.
@@ -2022,12 +2023,12 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 ))
-LaTeX Info: Redefining \microtypecontext on input line 81.
-Package microtype Info: Applying patch `item' on input line 81.
-Package microtype Info: Applying patch `toc' on input line 81.
-Package microtype Info: Applying patch `eqnum' on input line 81.
-Package microtype Info: Applying patch `footnote' on input line 81.
-Package microtype Info: Applying patch `verbatim' on input line 81.
+LaTeX Info: Redefining \microtypecontext on input line 83.
+Package microtype Info: Applying patch `item' on input line 83.
+Package microtype Info: Applying patch `toc' on input line 83.
+Package microtype Info: Applying patch `eqnum' on input line 83.
+Package microtype Info: Applying patch `footnote' on input line 83.
+Package microtype Info: Applying patch `verbatim' on input line 83.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -2038,7 +2039,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 \c@lstlisting=\count547
-Package hyperref Info: Option `pageanchor' set `false' on input line 87.
+Package hyperref Info: Option `pageanchor' set `false' on input line 89.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -2072,39 +2073,39 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 87.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (16.05293pt too wide) in paragraph at lines 98--98
+Overfull \hbox (16.05293pt too wide) in paragraph at lines 100--100
 []\TU/Montserrat(0)/b/n/24.88 Google Scholar zoekresultaten voor we-
  []
 
 
-Overfull \hbox (6.32484pt too wide) in paragraph at lines 98--98
+Overfull \hbox (6.32484pt too wide) in paragraph at lines 100--100
 \TU/Montserrat(0)/b/n/24.88 tenschappelijke projecten: linked data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
 
  []
 
-Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 98 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
 File: ../graphics/hogent_logo.eps Graphic file (type eps)
 <../graphics/hogent_logo.eps>
 
@@ -2117,7 +2118,7 @@ File: ../graphics/hogent_logo.eps Graphic file (type eps)
 ]
 
 [2]
-Package hyperref Info: Option `pageanchor' set `true' on input line 99.
+Package hyperref Info: Option `pageanchor' set `true' on input line 101.
  (voorwoord.tex) (samenvatting.tex
 
 [3
@@ -2200,7 +2201,7 @@ File: ../graphics/grail.jpg Graphic file (type bmp)
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250208224253 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250209214115 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -2417,15 +2418,22 @@ File: ../graphics/./2_parse_zoekresultaat/email-lezen.jpg Graphic file (type bm
 p)
 <../graphics/./2_parse_zoekresultaat/email-lezen.jpg>
 
-Overfull \hbox (19.9924pt too wide) in paragraph at lines 37--43
+Overfull \hbox (19.9924pt too wide) in paragraph at lines 36--42
 \TU/Montserrat(1)/m/n/10.95 Op gezette tijdstippen wordt de inbox van het accou
 nt google-scholar@marineinfo.org
  []
 
+
+
+[18
+
+]
 File: ../graphics/./2_parse_zoekresultaat/3_use_case_diagram.PNG Graphic file (
 type bmp)
 <../graphics/./2_parse_zoekresultaat/3_use_case_diagram.PNG>
 
+
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 58--59
 []|\TU/Montserrat(1)/m/n/10.95 Google Scholar stuurt e-mails naar google-
  []
@@ -2440,19 +2448,17 @@ Overfull \hbox (3.86041pt too wide) in paragraph at lines 55--89
  [][] 
  []
 
+
+Overfull \vbox (151.09912pt too high) has occurred while \output is active []
+
+
+
+[20]
 File: ../graphics/./2_parse_zoekresultaat/4_domeinmodel.PNG Graphic file (type 
 bmp)
 <../graphics/./2_parse_zoekresultaat/4_domeinmodel.PNG>
 
-
-[18
-
-]
-
-[19]
-
-[20]
-Overfull \hbox (4.12953pt too wide) in paragraph at lines 101--103
+Overfull \hbox (4.12953pt too wide) in paragraph at lines 102--104
 \TU/Montserrat(1)/m/n/10.95 Meerdere specifieke Python libraries ondersteunen a
 lle mogelijke bewerkingen met
  []
@@ -2462,19 +2468,19 @@ lle mogelijke bewerkingen met
 fontspec)
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
-parsezoekresultaat.tex:112: Missing $ inserted.
+parsezoekresultaat.tex:113: Missing $ inserted.
 <inserted text> 
                 $
-l.112 ...ndo's wordt click\_ \autocite{Click2025} 
-                                                  gebruikt.
+l.113 ... scheduler. Click\_ \autocite{Click2025} 
+                                                  laat toe om meerdere comma...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-parsezoekresultaat.tex:112: Missing { inserted.
+parsezoekresultaat.tex:113: Missing { inserted.
 <to be read again> 
                    \begingroup 
-l.112 ...ndo's wordt click\_ \autocite{Click2025} 
-                                                  gebruikt.
+l.113 ... scheduler. Click\_ \autocite{Click2025} 
+                                                  laat toe om meerdere comma...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
@@ -2482,58 +2488,60 @@ so that I will find a matching right brace soon.
 
 
 LaTeX Warning: Command \textquotedblright invalid in math mode on input line 11
-2.
+3.
 
 
-parsezoekresultaat.tex:112: Package csquotes Error: Unbalanced groups or invali
+parsezoekresultaat.tex:113: Package csquotes Error: Unbalanced groups or invali
 d nesting.
 
 See the csquotes package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112 ...ndo's wordt click\_ \autocite{Click2025} 
-                                                  gebruikt.
+l.113 ... scheduler. Click\_ \autocite{Click2025} 
+                                                  laat toe om meerdere comma...
+
 I have detected a group type mismatch. Verify that all groups
 and all active quotes are properly balanced and nested. If you
 continue, I will write a summary of all previously opened groups
 to the transcript file.
 
 
-### math group (level 10) entered at line 112 ({)
-### math shift group (level 9) entered at line 112 ($)
-### semi simple group (level 8) entered at line 112 (\begingroup)
-### semi simple group (level 7) entered at line 112 (\begingroup)
-### semi simple group (level 6) entered at line 112 (\begingroup)
-### semi simple group (level 5) entered at line 112 (\begingroup)
-### semi simple group (level 4) entered at line 112 (\begingroup)
-### semi simple group (level 3) entered at line 112 (\begingroup)
-### semi simple group (level 2) entered at line 112 (\begingroup)
-### semi simple group (level 1) entered at line 112 (\begingroup)
+### math group (level 10) entered at line 113 ({)
+### math shift group (level 9) entered at line 113 ($)
+### semi simple group (level 8) entered at line 113 (\begingroup)
+### semi simple group (level 7) entered at line 113 (\begingroup)
+### semi simple group (level 6) entered at line 113 (\begingroup)
+### semi simple group (level 5) entered at line 113 (\begingroup)
+### semi simple group (level 4) entered at line 113 (\begingroup)
+### semi simple group (level 3) entered at line 113 (\begingroup)
+### semi simple group (level 2) entered at line 113 (\begingroup)
+### semi simple group (level 1) entered at line 113 (\begingroup)
 ### bottom level
 
-parsezoekresultaat.tex:112: OK.
+parsezoekresultaat.tex:113: OK.
 \csq@err@gtype ...the transcript file}\showgroups 
                                                   
-l.112 ...ndo's wordt click\_ \autocite{Click2025} 
-                                                  gebruikt.
+l.113 ... scheduler. Click\_ \autocite{Click2025} 
+                                                  laat toe om meerdere comma...
 
-parsezoekresultaat.tex:112: Missing } inserted.
+
+parsezoekresultaat.tex:113: Missing } inserted.
 <inserted text> 
                 }
-l.112 ...ndo's wordt click\_ \autocite{Click2025} 
-                                                  gebruikt.
+l.113 ... scheduler. Click\_ \autocite{Click2025} 
+                                                  laat toe om meerdere comma...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-parsezoekresultaat.tex:112: Missing $ inserted.
+parsezoekresultaat.tex:113: Missing $ inserted.
 <inserted text> 
                 $
-l.112 ...ndo's wordt click\_ \autocite{Click2025} 
-                                                  gebruikt.
+l.113 ... scheduler. Click\_ \autocite{Click2025} 
+                                                  laat toe om meerdere comma...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -2541,8 +2549,18 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
+LaTeX Warning: Citation 'Di2025' on page 21 undefined on input line 114.
 
-[21]) (conclusie.tex
+
+
+[21]
+File: ../graphics/./2_parse_zoekresultaat/json_view.JPG Graphic file (type bmp)
+
+<../graphics/./2_parse_zoekresultaat/json_view.JPG>
+File: ../graphics/./2_parse_zoekresultaat/table_view.JPG Graphic file (type bmp
+)
+<../graphics/./2_parse_zoekresultaat/table_view.JPG>
+) (conclusie.tex
 
 [22]
 Hoofdstuk 6.
@@ -2590,28 +2608,28 @@ d kunnen worden. []Chandrakar
 [29])
 
 [30]
-DePaepeBartBP.tex:179: Missing $ inserted.
+DePaepeBartBP.tex:181: Missing $ inserted.
 <inserted text> 
                 $
-l.179 \printbibliography[heading=bibintoc]
+l.181 \printbibliography[heading=bibintoc]
                                           
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-DePaepeBartBP.tex:179: Missing { inserted.
+DePaepeBartBP.tex:181: Missing { inserted.
 <to be read again> 
                    \endgroup 
-l.179 \printbibliography[heading=bibintoc]
+l.181 \printbibliography[heading=bibintoc]
                                           
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-DePaepeBartBP.tex:179: Missing } inserted.
+DePaepeBartBP.tex:181: Missing } inserted.
 <inserted text> 
                 }
-l.179 \printbibliography[heading=bibintoc]
+l.181 \printbibliography[heading=bibintoc]
                                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2619,10 +2637,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-DePaepeBartBP.tex:179: Missing $ inserted.
+DePaepeBartBP.tex:181: Missing $ inserted.
 <inserted text> 
                 $
-l.179 \printbibliography[heading=bibintoc]
+l.181 \printbibliography[heading=bibintoc]
                                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2631,7 +2649,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (23.13835pt too wide) in paragraph at lines 179--179
+Overfull \hbox (23.13835pt too wide) in paragraph at lines 181--181
 [][]\TU/Montserrat(2)/m/it/10.95 Document-oriented database\TU/Montserrat(1)/m/
 n/10.95 . (2025, maart 1). [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] 
 [] [][][] [] [][][][] [] [][][][][][][][] [][]
@@ -2643,13 +2661,13 @@ n/10.95 . (2025, maart 1). [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][]
 
 
 ]
-Overfull \hbox (1.74945pt too wide) in paragraph at lines 179--179
+Overfull \hbox (1.74945pt too wide) in paragraph at lines 181--181
 [][]\TU/Montserrat(2)/m/it/10.95 Internet Message Access Protocol, Uit Wikipedi
 a, de vrije encyclopedie\TU/Montserrat(1)/m/n/10.95 . (2025, maart
  []
 
 
-Overfull \hbox (2.26407pt too wide) in paragraph at lines 179--179
+Overfull \hbox (2.26407pt too wide) in paragraph at lines 181--181
 [][]\TU/Montserrat(2)/m/it/10.95 MongoDB\TU/Montserrat(1)/m/n/10.95 . (2025, ma
 art 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][]
 [][][][][] [] [][][][][][] [] [][][][][][][][][] []
@@ -2664,17 +2682,26 @@ art 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][]
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
-(rerunfilecheck)             Checksum: 83AF4C11F2591DE0FAE89A490B634B25;5514.
+(rerunfilecheck)             Checksum: AE4F4D1FD91BCD4508E3C42D3D6E306A;5639.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                DePaepeBartBP
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51216 strings out of 409028
- 1043982 string characters out of 5760982
- 2290351 words of memory out of 5000000
- 73104 multiletter control sequences out of 15000+600000
+ 51267 strings out of 409028
+ 1045705 string characters out of 5760982
+ 2289614 words of memory out of 5000000
+ 73150 multiletter control sequences out of 15000+600000
  561972 words of font info for 113 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,12n,132p,1256b,5815s stack positions out of 10000i,1000n,20000p,200000b,200000s
