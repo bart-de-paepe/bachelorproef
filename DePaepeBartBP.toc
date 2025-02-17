@@ -24,16 +24,20 @@
 \contentsline {subsection}{\numberline {5.1.3}DOI opzoeken in de link van het geparsete resultaat}{19}{subsection.5.1.3}%
 \contentsline {section}{\numberline {5.2}Analyse}{19}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}Use Cases}{19}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Domeinmodel}{21}{subsection.5.2.2}%
-\contentsline {section}{\numberline {5.3}Implementatie}{21}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}E-mail lezen}{21}{subsection.5.3.1}%
-\contentsline {section}{\numberline {5.4}Resultaat}{22}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}E-mail lezen}{22}{subsection.5.4.1}%
-\contentsline {chapter}{\numberline {6}Conclusie}{23}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{25}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Inleiding}{25}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Literatuurstudie}{27}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Methodologie}{28}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{30}{section.A.4}%
-\contentsline {chapter}{Bibliografie}{31}{appendix*.24}%
+\contentsline {subsection}{\numberline {5.2.2}Domeinmodel}{20}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Implementatie}{23}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}E-mail lezen}{23}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Body van de e-mail parsen}{23}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}DOI opzoeken in de link van het geparsete resultaat}{24}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.4}Resultaat}{24}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}E-mail lezen}{24}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Body van de e-mail parsen}{24}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}DOI opzoeken in de link van het geparsete resultaat}{24}{subsection.5.4.3}%
+\contentsline {chapter}{\numberline {6}Conclusie}{25}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{27}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Inleiding}{27}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Literatuurstudie}{29}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Methodologie}{30}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{32}{section.A.4}%
+\contentsline {chapter}{Bibliografie}{33}{appendix*.25}%
 \contentsfinish 

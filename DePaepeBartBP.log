@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.18)  9 FEB 2025 21:41
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.18)  17 FEB 2025 22:29
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2192,20 +2192,32 @@ Hoofdstuk 1.
 
 [2]
 Hoofdstuk 2.
+standvanzaken.tex:17: Text line contains an invalid character.
+l.17 ... classics published in knowledge manage^^B
+                                                  ment journals. Part ii: st...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraCode' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
+
+[3
+
+]
 File: ../graphics/grail.jpg Graphic file (type bmp)
 <../graphics/grail.jpg>
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250209214115 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250217222904 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
-standvanzaken.tex:31: Package minted Error: minted v3+ executable is not instal
+
+standvanzaken.tex:40: Package minted Error: minted v3+ executable is not instal
 led or is not added to PATH; or MiKTeX is being used with -aux-directory or -ou
 tput-directory without setting a TEXMF_OUTPUT_DIRECTORY environment variable.
 
@@ -2213,12 +2225,12 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31   \end{minted}
+l.40   \end{minted}
                    
 (That was another \errmessage.)
 
 
-standvanzaken.tex:31: Package minted Error: Missing definition for highlighting
+standvanzaken.tex:40: Package minted Error: Missing definition for highlighting
  style "solarized-light" (minted executable is unavailable or disabled); attemp
 ting to substitute fallback style.
 
@@ -2226,12 +2238,12 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31   \end{minted}
+l.40   \end{minted}
                    
 (That was another \errmessage.)
 
 
-standvanzaken.tex:31: Package minted Error: Missing definition for highlighting
+standvanzaken.tex:40: Package minted Error: Missing definition for highlighting
  style "default" (minted executable is unavailable or disabled); attempting to 
 substitute fallback style.
 
@@ -2239,37 +2251,33 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31   \end{minted}
+l.40   \end{minted}
                    
 (That was another \errmessage.)
 
 
-standvanzaken.tex:31: Package minted Error: Cannot highlight code (minted execu
+standvanzaken.tex:40: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31   \end{minted}
+l.40   \end{minted}
                    
 (That was another \errmessage.)
 
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 31.
+(Font)              scaled to size 6.00064pt on input line 40.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 31.
+(Font)              scaled to size 5.00053pt on input line 40.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 31.
+(Font)              scaled to size 5.99936pt on input line 40.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 31.
+(Font)              scaled to size 4.99947pt on input line 40.
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
-t line 32.
+t line 41.
 
-
-[3
-
-]
 
 [4]
 
@@ -2387,12 +2395,12 @@ or  <return>  to continue without it.
 
 
 [13]
+
+[14]
 File: ../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG Graphic f
 ile (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG>
 
-
-[14]
 Overfull \hbox (18.22462pt too wide) in paragraph at lines 118--120
 \TU/Montserrat(1)/m/n/10.95 doorgestuurd naar het e-mailadres. Overeenkomstig w
 erd een nieuw account \TU/Montserrat(2)/b/n/10.95 google-
@@ -2434,31 +2442,58 @@ type bmp)
 
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 []|\TU/Montserrat(1)/m/n/10.95 Google Scholar stuurt e-mails naar google-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 7291) in paragraph at lines 59--60
+\TU/Montserrat(1)/m/n/10.95 scholar@marineinfo.org. Deze e-mails moeten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 []|\TU/Montserrat(1)/m/n/10.95 DR-email: afzender moet zijn: scholaralerts-
  []
 
 
-Overfull \hbox (3.86041pt too wide) in paragraph at lines 55--89
+Overfull \hbox (3.86041pt too wide) in paragraph at lines 56--90
  [][] 
  []
 
 
-Overfull \vbox (151.09912pt too high) has occurred while \output is active []
+Underfull \hbox (badness 6268) in paragraph at lines 124--125
+[]\TU/Montserrat(1)/m/n/10.95 systeem slaat bovenstaande informatie ge-
+ []
+
+parsezoekresultaat.tex:141: Extra alignment tab has been changed to \cr.
+<template> ... width\arrayrulewidth }\endtemplate 
+                                                  
+l.141          &
+                 DR-uniek\\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
 
 
+Overfull \hbox (3.86041pt too wide) in paragraph at lines 95--144
+ [][] 
+ []
 
-[20]
+
+LaTeX Warning: Float too large for page by 81.22095pt on input line 145.
+
 File: ../graphics/./2_parse_zoekresultaat/4_domeinmodel.PNG Graphic file (type 
 bmp)
 <../graphics/./2_parse_zoekresultaat/4_domeinmodel.PNG>
 
-Overfull \hbox (4.12953pt too wide) in paragraph at lines 102--104
+
+[20]
+
+[21]
+
+[22]
+Overfull \hbox (4.12953pt too wide) in paragraph at lines 157--159
 \TU/Montserrat(1)/m/n/10.95 Meerdere specifieke Python libraries ondersteunen a
 lle mogelijke bewerkingen met
  []
@@ -2468,18 +2503,18 @@ lle mogelijke bewerkingen met
 fontspec)
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
-parsezoekresultaat.tex:113: Missing $ inserted.
+parsezoekresultaat.tex:168: Missing $ inserted.
 <inserted text> 
                 $
-l.113 ... scheduler. Click\_ \autocite{Click2025} 
+l.168 ... scheduler. Click\_ \autocite{Click2025} 
                                                   laat toe om meerdere comma...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-parsezoekresultaat.tex:113: Missing { inserted.
+parsezoekresultaat.tex:168: Missing { inserted.
 <to be read again> 
                    \begingroup 
-l.113 ... scheduler. Click\_ \autocite{Click2025} 
+l.168 ... scheduler. Click\_ \autocite{Click2025} 
                                                   laat toe om meerdere comma...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -2487,18 +2522,18 @@ so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
 
-LaTeX Warning: Command \textquotedblright invalid in math mode on input line 11
-3.
+LaTeX Warning: Command \textquotedblright invalid in math mode on input line 16
+8.
 
 
-parsezoekresultaat.tex:113: Package csquotes Error: Unbalanced groups or invali
+parsezoekresultaat.tex:168: Package csquotes Error: Unbalanced groups or invali
 d nesting.
 
 See the csquotes package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.113 ... scheduler. Click\_ \autocite{Click2025} 
+l.168 ... scheduler. Click\_ \autocite{Click2025} 
                                                   laat toe om meerdere comma...
 
 I have detected a group type mismatch. Verify that all groups
@@ -2507,29 +2542,29 @@ continue, I will write a summary of all previously opened groups
 to the transcript file.
 
 
-### math group (level 10) entered at line 113 ({)
-### math shift group (level 9) entered at line 113 ($)
-### semi simple group (level 8) entered at line 113 (\begingroup)
-### semi simple group (level 7) entered at line 113 (\begingroup)
-### semi simple group (level 6) entered at line 113 (\begingroup)
-### semi simple group (level 5) entered at line 113 (\begingroup)
-### semi simple group (level 4) entered at line 113 (\begingroup)
-### semi simple group (level 3) entered at line 113 (\begingroup)
-### semi simple group (level 2) entered at line 113 (\begingroup)
-### semi simple group (level 1) entered at line 113 (\begingroup)
+### math group (level 10) entered at line 168 ({)
+### math shift group (level 9) entered at line 168 ($)
+### semi simple group (level 8) entered at line 168 (\begingroup)
+### semi simple group (level 7) entered at line 168 (\begingroup)
+### semi simple group (level 6) entered at line 168 (\begingroup)
+### semi simple group (level 5) entered at line 168 (\begingroup)
+### semi simple group (level 4) entered at line 168 (\begingroup)
+### semi simple group (level 3) entered at line 168 (\begingroup)
+### semi simple group (level 2) entered at line 168 (\begingroup)
+### semi simple group (level 1) entered at line 168 (\begingroup)
 ### bottom level
 
-parsezoekresultaat.tex:113: OK.
+parsezoekresultaat.tex:168: OK.
 \csq@err@gtype ...the transcript file}\showgroups 
                                                   
-l.113 ... scheduler. Click\_ \autocite{Click2025} 
+l.168 ... scheduler. Click\_ \autocite{Click2025} 
                                                   laat toe om meerdere comma...
 
 
-parsezoekresultaat.tex:113: Missing } inserted.
+parsezoekresultaat.tex:168: Missing } inserted.
 <inserted text> 
                 }
-l.113 ... scheduler. Click\_ \autocite{Click2025} 
+l.168 ... scheduler. Click\_ \autocite{Click2025} 
                                                   laat toe om meerdere comma...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2537,10 +2572,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-parsezoekresultaat.tex:113: Missing $ inserted.
+parsezoekresultaat.tex:168: Missing $ inserted.
 <inserted text> 
                 $
-l.113 ... scheduler. Click\_ \autocite{Click2025} 
+l.168 ... scheduler. Click\_ \autocite{Click2025} 
                                                   laat toe om meerdere comma...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2548,29 +2583,49 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
+parsezoekresultaat.tex:173: Missing $ inserted.
+<inserted text> 
+                $
+l.173 ...geven door een titel met als klasse 'gse_
+                                                  alrt_title'. De korte teks...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-LaTeX Warning: Citation 'Di2025' on page 21 undefined on input line 114.
+parsezoekresultaat.tex:174: Missing $ inserted.
+<inserted text> 
+                $
+l.174 ...n in de link van het geparsete resultaat}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
+Overfull \hbox (236.1078pt too wide) in paragraph at lines 172--174
+\TU/Montserrat(1)/m/n/10.95 ’gse$[][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][] [][][][][][][][][][][][][][][][][][][][][][][]$ 
+ []
 
-[21]
 File: ../graphics/./2_parse_zoekresultaat/json_view.JPG Graphic file (type bmp)
 
 <../graphics/./2_parse_zoekresultaat/json_view.JPG>
 File: ../graphics/./2_parse_zoekresultaat/table_view.JPG Graphic file (type bmp
 )
 <../graphics/./2_parse_zoekresultaat/table_view.JPG>
-) (conclusie.tex
 
-[22]
+
+[23]) (conclusie.tex
+
+[24]
 Hoofdstuk 6.
 
 
-[23
+[25
 
 ])
 
-[24]
+[26]
 B\ij lage A.
 (../voorstel/voorstel-inhoud.tex
 Overfull \hbox (2.63669pt too wide) in paragraph at lines 20--21
@@ -2580,14 +2635,14 @@ collecties van mariene wetenschap-
 
 
 
-[25
+[27
 
 ]
 File: images/stapsgewijs.png Graphic file (type bmp)
 <images/stapsgewijs.png>
 
 
-[26]
+[28]
 Overfull \hbox (21.94153pt too wide) in paragraph at lines 59--60
 []\TU/Montserrat(1)/m/n/10.95 Google Scholar is een zoekmachine die wetenschapp
 elijke literatuur indexeert ([]“  Google
@@ -2595,7 +2650,7 @@ elijke literatuur indexeert ([]“  Google
 
 
 
-[27]
+[29]
 Overfull \hbox (9.43324pt too wide) in paragraph at lines 67--68
 \TU/Montserrat(1)/m/n/10.95 vend, betrouwbaar en onderscheidbaar geïdentificeer
 d kunnen worden. []Chandrakar
@@ -2603,11 +2658,11 @@ d kunnen worden. []Chandrakar
 
 
 
-[28]
-
-[29])
-
 [30]
+
+[31])
+
+[32]
 DePaepeBartBP.tex:181: Missing $ inserted.
 <inserted text> 
                 $
@@ -2657,7 +2712,7 @@ n/10.95 . (2025, maart 1). [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][]
 
 
 
-[31
+[33
 
 
 ]
@@ -2675,35 +2730,26 @@ art 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][]
 
 
 
-[32]
+[34]
 
-[33] (DePaepeBartBP.aux)
+[35] (DePaepeBartBP.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
-(rerunfilecheck)             Checksum: AE4F4D1FD91BCD4508E3C42D3D6E306A;5639.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                DePaepeBartBP
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: EEFD58E64F2CAF79CA6DC475A7E463EB;6719.
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51267 strings out of 409028
- 1045705 string characters out of 5760982
- 2289614 words of memory out of 5000000
- 73150 multiletter control sequences out of 15000+600000
+ 51290 strings out of 409028
+ 1046508 string characters out of 5760982
+ 2290837 words of memory out of 5000000
+ 73173 multiletter control sequences out of 15000+600000
  561972 words of font info for 113 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,12n,132p,1256b,5815s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DePaepeBartBP.pdf (42 pages).
+Output written on DePaepeBartBP.pdf (44 pages).

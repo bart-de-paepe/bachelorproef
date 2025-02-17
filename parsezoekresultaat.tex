@@ -50,12 +50,13 @@ Op gezette tijdstippen wordt de inbox van het account google-scholar@marineinfo.
     \caption[Use case diagram.]{\label{fig:Use case diagram}Use case diagram.}
 \end{figure}
 \FloatBarrier
-\begin{table}[H]
+\newpage
+\begin{table}[ptb]
     \centering
     \begin{tabular}{ | m{5cm} | m{10cm}| } 
         \hline
         \rowcolor{lightgray}
-        beschrijving & Google Scholar stuurt e-mails naar google-scholar@vliz.be. Deze e-mails moeten automatisch verwerkt worden. \\ 
+        beschrijving & Google Scholar stuurt e-mails naar google-scholar@marineinfo.org. Deze e-mails moeten automatisch verwerkt worden. \\ 
         \hline
         primary actor & - \\ 
         \hline
@@ -88,6 +89,60 @@ Op gezette tijdstippen wordt de inbox van het account google-scholar@marineinfo.
     \end{tabular}
     \caption{Table to test captions and labels.}
 \end{table}
+\newpage
+\begin{table}[ptb]
+    \centering
+    \begin{tabular}{ | m{5cm} | m{10cm}| } 
+        \hline
+        \rowcolor{lightgray}
+        beschrijving & De body van een e-mail wordt ontleed en de informatie wordt gestructureerd opgeslaan. \\ 
+        \hline
+        primary actor & - \\ 
+        \hline
+        stakeholders & - \\ 
+        \hline
+        pre-condities & onverwerkte body van e-mail \\ 
+        \hline
+        post-condities & verwerkte body van e-mail \\ 
+        \hline
+        normaal verloop & 
+        \begin{enumerate}
+            \item systeem ontvangt de body van een e-mail
+            \item systeem ontleedt de body en zoekt volgende onderdelen (DR-Google-Scholar formaat)
+            \begin{description}
+                \item a. lijst
+                \begin{description}
+                    \item i. titel (DR-uniek)
+                    \item ii. auteur
+                    \item iii. uitgever
+                    \item iv. jaartal
+                    \item v. tekst (DR-uniek)
+                    \item vi. link (DR-uniek)
+                \end{description}
+                \item b. onderwerp
+            \end{description}
+            \item systeem slaat bovenstaande informatie gestructureerd op
+        \end{enumerate} \\ 
+        \hline
+        alternatief verloop & 
+        \begin{description}
+            \item 2A. de verwachte informatie wordt niet gevonden (DR-Google-Scholar formaat)
+            \item 2A1. systeem logt het probleem
+            \item 2A2. use case eindigt zonder bereiken van de post-conditie
+            \item 2B. de body is onleesbaar
+            \item 2B1. systeem logt het probleem
+            \item 2B2. use case eindigt zonder bereiken van de post-conditie
+            \item 2C. titel en/of tekst en/of link zijn niet uniek (zijn reeds eerder opgeslagen)
+            \item 2C1. systeem logt het voorval
+            \item 2C2. systeem gaat verder met stap 2 van het normale verloop
+        \end{description} \\ 
+        \hline
+        domeinregels & DR-Google-Scholar-formaat
+         & DR-uniek\\ 
+        \hline
+    \end{tabular}
+    \caption{Table to test captions and labels.}
+\end{table}
 
 \subsection{Domeinmodel}
 De 3 bovenstaande stappen geven aanleiding tot 4 objecten die de kern van het domeinmodel uitmaken en de nodige properties bevatten om de tussenresultaten bij te houden alsook de uiteindelijke DOI.
@@ -113,6 +168,10 @@ De gelezen e-mail wordt opgeslaan in een document store database \autocite{Docum
 Het custom script dat de e-mail leest wordt opgeroepen door de Windows task scheduler. Click\_ \autocite{Click2025} laat toe om meerdere commando's te definiëren in hetzelfde script.\\
 Tenslotte wordt er gebruik gemaakt van de Dependency Injector \autocite{Dependencyinjector2025} om al deze services door middel van dependency injection \autocite{Di2025} ter beschikking te stellen aan het script.\\
 Aan het einde van de process dat de e-mail leest, wordt de body van de e-mail in een wachtrij geplaatst zodat deze opgepikt wordt door de volgende stappen.
+\subsection{Body van de e-mail parsen}
+De body van de e-mail komt overeen met de Search Engine Result Page (SERP) en is een gestructureerde html pagina. Voor het parsen wordt er gebruik gemaakt van deze structuur.
+Elk resultaat wordt aangegeven door een titel met als klasse 'gse_alrt_title'. De korte tekst van het zoekresultaat heeft een klasse 'gse_alrt_sni'. Tussen titel en snipper staan de auteurs, de uitgever en het jaartal. 
+\subsection{DOI opzoeken in de link van het geparsete resultaat}
 \section{Resultaat}
 \subsection{E-mail lezen}
 Het resultaat van deze stap is eerder een tussenresultaat waarbij verschillende onderdelen van de e-mail zoals datum, onderwerp, en andere opgeslagen worden in de databank. Deze opgeslagen informatie vormt de bron voor de verdere verwerking in stap 2.
@@ -127,6 +186,8 @@ Het resultaat van deze stap is eerder een tussenresultaat waarbij verschillende 
     \caption[Databank table view.]{\label{fig:Databank table view}Databank table view.}
 \end{figure}
 \FloatBarrier
+\subsection{Body van de e-mail parsen}
+\subsection{DOI opzoeken in de link van het geparsete resultaat}
 
 
 

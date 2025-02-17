@@ -277,6 +277,24 @@
       \verb https://github.com/delph-in/docs/wiki
       \endverb
     \endentry
+    \entry{Di2025}{online}{}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{Dependency injection}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Dependency_injection
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Dependency_injection
+      \endverb
+    \endentry
     \entry{Dependencyinjector2025}{online}{}{}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
@@ -552,6 +570,65 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1016/j.nlp.2023.100017
+      \endverb
+    \endentry
+    \entry{Kim2019}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=6f26828c3b139fd1daaced4932868ecc}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jaewon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b67aa998ca82f9318a6775b1afbf420b}{%
+           family={Trippas},
+           familyi={T\bibinitperiod},
+           given={Johanne\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17f1e08f3f592ad67054a33a81f5495b}{%
+           family={Sanderson},
+           familyi={S\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0ef8992108e033f04b913f0bc6c844d}{%
+           family={Bao},
+           familyi={B\bibinitperiod},
+           given={Zhifeng},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22a3acd630de01e41b8b316cdaad7ddf}{%
+           family={Croft},
+           familyi={C\bibinitperiod},
+           given={W.\bibnamedelimi Bruce},
+           giveni={W\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{aff86605beb030526cf2a2de91ab2ff8}
+      \strng{fullhash}{8c4c66a325a6f6dadcf66800a44c2a57}
+      \strng{fullhashraw}{8c4c66a325a6f6dadcf66800a44c2a57}
+      \strng{bibnamehash}{8c4c66a325a6f6dadcf66800a44c2a57}
+      \strng{authorbibnamehash}{8c4c66a325a6f6dadcf66800a44c2a57}
+      \strng{authornamehash}{aff86605beb030526cf2a2de91ab2ff8}
+      \strng{authorfullhash}{8c4c66a325a6f6dadcf66800a44c2a57}
+      \strng{authorfullhashraw}{8c4c66a325a6f6dadcf66800a44c2a57}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BIR@ECIR}
+      \field{title}{How do Computer Scientists Use Google Scholar?: A Survey of User Interest in Elements on SERPs and Author Profile Pages}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://api.semanticsscholar.org/CorpusID:123792508
+      \endverb
+      \verb{url}
+      \verb https://api.semanticsscholar.org/CorpusID:123792508
       \endverb
     \endentry
     \entry{Knuth1998}{book}{}{}
@@ -1210,6 +1287,92 @@
       \endverb
       \verb{url}
       \verb https://www.marinespecies.org
+      \endverb
+    \endentry
+    \entry{Wu2014}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=df5b90bcfb9c138ba5a746a03c1b246e}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Ming-der},
+           giveni={M\bibinithyphendelim d\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7beae249209d24fe3744b1dbfe3d80ad}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Shih-chuan},
+           giveni={S\bibinithyphendelim c\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Emerald}%
+      }
+      \strng{namehash}{7c3b958680ae1617c2c0b12e4fc2c8ad}
+      \strng{fullhash}{7c3b958680ae1617c2c0b12e4fc2c8ad}
+      \strng{fullhashraw}{7c3b958680ae1617c2c0b12e4fc2c8ad}
+      \strng{bibnamehash}{7c3b958680ae1617c2c0b12e4fc2c8ad}
+      \strng{authorbibnamehash}{7c3b958680ae1617c2c0b12e4fc2c8ad}
+      \strng{authornamehash}{7c3b958680ae1617c2c0b12e4fc2c8ad}
+      \strng{authorfullhash}{7c3b958680ae1617c2c0b12e4fc2c8ad}
+      \strng{authorfullhashraw}{7c3b958680ae1617c2c0b12e4fc2c8ad}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0264-0473}
+      \field{journaltitle}{The Electronic Library}
+      \field{month}{5}
+      \field{number}{3}
+      \field{title}{Graduate students appreciate Google Scholar, but still find use for libraries}
+      \field{volume}{32}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{375\bibrangedash 389}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1108/el-08-2012-0102
+      \endverb
+    \endentry
+    \entry{Zhang2013}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=228dd687961f3612985beeddec81f72a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{228dd687961f3612985beeddec81f72a}
+      \strng{fullhash}{228dd687961f3612985beeddec81f72a}
+      \strng{fullhashraw}{228dd687961f3612985beeddec81f72a}
+      \strng{bibnamehash}{228dd687961f3612985beeddec81f72a}
+      \strng{authorbibnamehash}{228dd687961f3612985beeddec81f72a}
+      \strng{authornamehash}{228dd687961f3612985beeddec81f72a}
+      \strng{authorfullhash}{228dd687961f3612985beeddec81f72a}
+      \strng{authorfullhashraw}{228dd687961f3612985beeddec81f72a}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Design, User Experience, and Usability. Web, Mobile, and Product Design}
+      \field{isbn}{9783642392535}
+      \field{issn}{1611-3349}
+      \field{title}{User-Centered Evaluation of a Discovery Layer System with Google Scholar}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{313\bibrangedash 322}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/978-3-642-39253-5_34
       \endverb
     \endentry
   \enddatalist
@@ -1472,6 +1635,24 @@
       \verb https://github.com/delph-in/docs/wiki
       \endverb
     \endentry
+    \entry{Di2025}{online}{}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{Dependency injection}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Dependency_injection
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Dependency_injection
+      \endverb
+    \endentry
     \entry{Dependencyinjector2025}{online}{}{}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
@@ -1747,6 +1928,65 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1016/j.nlp.2023.100017
+      \endverb
+    \endentry
+    \entry{Kim2019}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=6f26828c3b139fd1daaced4932868ecc}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jaewon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b67aa998ca82f9318a6775b1afbf420b}{%
+           family={Trippas},
+           familyi={T\bibinitperiod},
+           given={Johanne\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17f1e08f3f592ad67054a33a81f5495b}{%
+           family={Sanderson},
+           familyi={S\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0ef8992108e033f04b913f0bc6c844d}{%
+           family={Bao},
+           familyi={B\bibinitperiod},
+           given={Zhifeng},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22a3acd630de01e41b8b316cdaad7ddf}{%
+           family={Croft},
+           familyi={C\bibinitperiod},
+           given={W.\bibnamedelimi Bruce},
+           giveni={W\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{aff86605beb030526cf2a2de91ab2ff8}
+      \strng{fullhash}{8c4c66a325a6f6dadcf66800a44c2a57}
+      \strng{fullhashraw}{8c4c66a325a6f6dadcf66800a44c2a57}
+      \strng{bibnamehash}{8c4c66a325a6f6dadcf66800a44c2a57}
+      \strng{authorbibnamehash}{8c4c66a325a6f6dadcf66800a44c2a57}
+      \strng{authornamehash}{aff86605beb030526cf2a2de91ab2ff8}
+      \strng{authorfullhash}{8c4c66a325a6f6dadcf66800a44c2a57}
+      \strng{authorfullhashraw}{8c4c66a325a6f6dadcf66800a44c2a57}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BIR@ECIR}
+      \field{title}{How do Computer Scientists Use Google Scholar?: A Survey of User Interest in Elements on SERPs and Author Profile Pages}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://api.semanticsscholar.org/CorpusID:123792508
+      \endverb
+      \verb{url}
+      \verb https://api.semanticsscholar.org/CorpusID:123792508
       \endverb
     \endentry
     \entry{Knuth1998}{book}{}{}
@@ -2405,6 +2645,92 @@
       \endverb
       \verb{url}
       \verb https://www.marinespecies.org
+      \endverb
+    \endentry
+    \entry{Wu2014}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=df5b90bcfb9c138ba5a746a03c1b246e}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Ming-der},
+           giveni={M\bibinithyphendelim d\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7beae249209d24fe3744b1dbfe3d80ad}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Shih-chuan},
+           giveni={S\bibinithyphendelim c\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Emerald}%
+      }
+      \strng{namehash}{7c3b958680ae1617c2c0b12e4fc2c8ad}
+      \strng{fullhash}{7c3b958680ae1617c2c0b12e4fc2c8ad}
+      \strng{fullhashraw}{7c3b958680ae1617c2c0b12e4fc2c8ad}
+      \strng{bibnamehash}{7c3b958680ae1617c2c0b12e4fc2c8ad}
+      \strng{authorbibnamehash}{7c3b958680ae1617c2c0b12e4fc2c8ad}
+      \strng{authornamehash}{7c3b958680ae1617c2c0b12e4fc2c8ad}
+      \strng{authorfullhash}{7c3b958680ae1617c2c0b12e4fc2c8ad}
+      \strng{authorfullhashraw}{7c3b958680ae1617c2c0b12e4fc2c8ad}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0264-0473}
+      \field{journaltitle}{The Electronic Library}
+      \field{month}{5}
+      \field{number}{3}
+      \field{title}{Graduate students appreciate Google Scholar, but still find use for libraries}
+      \field{volume}{32}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{375\bibrangedash 389}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1108/el-08-2012-0102
+      \endverb
+    \endentry
+    \entry{Zhang2013}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=228dd687961f3612985beeddec81f72a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{228dd687961f3612985beeddec81f72a}
+      \strng{fullhash}{228dd687961f3612985beeddec81f72a}
+      \strng{fullhashraw}{228dd687961f3612985beeddec81f72a}
+      \strng{bibnamehash}{228dd687961f3612985beeddec81f72a}
+      \strng{authorbibnamehash}{228dd687961f3612985beeddec81f72a}
+      \strng{authornamehash}{228dd687961f3612985beeddec81f72a}
+      \strng{authorfullhash}{228dd687961f3612985beeddec81f72a}
+      \strng{authorfullhashraw}{228dd687961f3612985beeddec81f72a}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Design, User Experience, and Usability. Web, Mobile, and Product Design}
+      \field{isbn}{9783642392535}
+      \field{issn}{1611-3349}
+      \field{title}{User-Centered Evaluation of a Discovery Layer System with Google Scholar}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{313\bibrangedash 322}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/978-3-642-39253-5_34
       \endverb
     \endentry
   \enddatalist
