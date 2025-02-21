@@ -113,6 +113,24 @@
       \verb 10.5771/0943-7444-2021-1-72
       \endverb
     \endentry
+    \entry{Soup2025}{online}{}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{Beautiful Soup}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.crummy.com/software/BeautifulSoup/
+      \endverb
+      \verb{url}
+      \verb https://www.crummy.com/software/BeautifulSoup/
+      \endverb
+    \endentry
     \entry{Beel2009}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=1f61f07773eb10565ebbbabd4454455f}{%
@@ -961,6 +979,24 @@
       \endverb
       \verb{url}
       \verb https://github.com/titipata/scipdf_parser
+      \endverb
+    \endentry
+    \entry{Requests2025}{online}{}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{Requests is a simple, yet elegant, HTTP library.}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://pypi.org/project/requests/
+      \endverb
+      \verb{url}
+      \verb https://pypi.org/project/requests/
       \endverb
     \endentry
     \entry{Sataloff2021}{article}{}{}
@@ -1471,6 +1507,24 @@
       \verb 10.5771/0943-7444-2021-1-72
       \endverb
     \endentry
+    \entry{Soup2025}{online}{}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{Beautiful Soup}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.crummy.com/software/BeautifulSoup/
+      \endverb
+      \verb{url}
+      \verb https://www.crummy.com/software/BeautifulSoup/
+      \endverb
+    \endentry
     \entry{Beel2009}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=1f61f07773eb10565ebbbabd4454455f}{%
@@ -2319,6 +2373,24 @@
       \endverb
       \verb{url}
       \verb https://github.com/titipata/scipdf_parser
+      \endverb
+    \endentry
+    \entry{Requests2025}{online}{}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{Requests is a simple, yet elegant, HTTP library.}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://pypi.org/project/requests/
+      \endverb
+      \verb{url}
+      \verb https://pypi.org/project/requests/
       \endverb
     \endentry
     \entry{Sataloff2021}{article}{}{}

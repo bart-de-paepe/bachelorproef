@@ -242,8 +242,66 @@ De gevonden informatie wordt opgeslaan in een document store database.
 Aan het einde van het proces dat de body parset, wordt de link van elk zoekresultaat in een wachtrij geplaatst zodat deze kan opgepikt worden door de volgende stap.
 
 \subsection{DOI opzoeken in de link van het geparsete resultaat}
-ToDo request\\
-ToDo 
+Met de link die werd opgeslaan in de vorige stap wordt er nu een request gestuurd. Daar zijn meerdere methodes mogelijk maar \textcite{Requests2025} is de meest courante. De headers van het request worden zo opgesteld dat de server van Google Scholar niet ziet dat het hier om een geäutomatiseerde request gaat. Daardoor bestaat het risico dat Google Scholar request van deze client bant.
+\begin{lstlisting}headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9,lt;q=0.8,et;q=0.7,de;q=0.6",
+}\end{lstlisting}
+De url die in het zoekresultaat van Google Scholar zit, verwijst zelf ook naar de Google Scholar website:
+\begin{lstlisting}
+    https://scholar.google.be/scholar_url?url=https://www.nature.com/articles/s41598-024-83657-0&hl=nl&sa=X&d=1146959663452366258&ei=tRGsZ4eaLIC96rQP29mI6AY&scisig=AFWwaeY6TmkYbZVI8aTe6GErndZI&oi=scholaralrt&hist=P_QG1LwAAAAJ:2727769339669043622:AFWwaeYuVCLO-kY6yEQWAvLJNk68&html=&pos=0&folt=kw-top
+\end{lstlisting}
+Daarin valt te zien dat de eigenlijke url van het zoekresultaat verpakt zit binnen het Google Scholar adres.
+Inderdaad, het response heeft een HTTP 302 status code en redirect het de request naar de eigenlijke url.
+Het verwerkende script kan de uiteindelijke url opzoeken in de javascript van het response aan de hand van de \begin{verbatim}
+    location.replace
+\end{verbatim} instructie.
+\begin{lstlisting}pattern = r"location\.replace\(['\"]([^'\"]+)['\"]\)"
+    match = re.search(pattern, js_code)
+    if match:
+    location_replace_url = match.group(1)
+    self.logging_service.logger.debug(f"Extracted location.replace URL for search result link: {location_replace_url}")
+    else:
+    link.log_message = "No location.replace url found for search result link"
+    self.logging_service.logger.debug("No location.replace url found for search result link")
+    
+ \end{lstlisting}
+Met de url uit de \begin{verbatim}
+    location.replace
+\end{verbatim}
+kan er nu opnieuw een request gestuurd worden.
+Het response dat daar teruggestuurd wordt is verschillend voor elke zoekresultaat:
+\begin{itemize}
+    \item \textbf{HTTP 200 status code en text/html response type}: Het antwoord komt overeen met een html-pagina. De bron van de pagina kan gelezen worden zodat er gebruik kan gemaakt worden van reguliere expressie om het DOI erin op te zoeken.
+    \item \textbf{HTTP 200 status code en application/pdf response type}: Het antwoord komt overeen met een pdf-document. De bron van de pagina kan niet gelezen worden aangezien het formaat binair is. Er is een extra stap nodig om het bestand te lezen aan de hand van \autocite{Pymupdf2025}
+    \begin{lstlisting}
+        doc = pymupdf.Document(stream=pdf)
+        # Extract all Document Text
+        text = chr(12).join([page.get_text() for page in doc])
+    \end{lstlisting}
+    \item \textbf{HTTP 403 status code en text/html}: Pdf-documenten zijn vaak ook embedded in een html-pagina. Door middel van \autocite{Selenium2025} kunnen ze gedownload worden.
+\end{itemize}
+Alle DOIs hebben dezelfde structuur: ze beginnen met het cijfer 10, gevolgd door een punt en 4 tot 9 cijfers, daarna volgt een slash. Verder kan elke willekeurige opeenvolging van letters, cijfers, speciale tekens en slashes voorkomen.
+De volgende lijst reguliere expressies is aanbevolen om DOIs op te zoeken \textcite{CrossrefRegex2025}:
+\begin{itemize}
+    \item \begin{verbatim}
+        /^10.\d{4,9}/[-._;()/:A-Z0-9]+$/i
+    \end{verbatim}
+    \item \begin{verbatim}
+        /^10.1002/[^\s]+$/i
+    \end{verbatim}
+    \item \begin{verbatim}
+        /^10.\d{4}/\d+-\d+X?(\d+)\d+<[\d\w]+:[\d\w]*>\d+.\d+.\w+;\d$/i
+    \end{verbatim}
+    \item \begin{verbatim}
+        /^10.1021/\w\w\d++$/i
+    \end{verbatim}
+    \item \begin{verbatim}
+        /^10.1207/[\w\d]+\&\d+_\d+$/i
+    \end{verbatim}
+\end{itemize}
 
 \section{Resultaat}
 \subsection{E-mail lezen}
@@ -333,6 +391,10 @@ Een overzicht van de gegevens die opgeslaan worden zijn te zien in figuur \ref{f
 
 \FloatBarrier
 \subsection{DOI opzoeken in de link van het geparsete resultaat}
-
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/database_structure_link.JPG}
+    \caption[Databank structuur link.]{\label{fig:databank_structuur_link}Databank structuur link.}
+\end{figure}
 
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.18)  19 FEB 2025 15:04
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.18)  21 FEB 2025 22:59
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2218,7 +2218,7 @@ File: ../graphics/grail.jpg Graphic file (type bmp)
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250219150442 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250221225953 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -2642,8 +2642,85 @@ n H3-tag met als klasse ’gse_alrt_title’
 
 
 [26]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 246.
 
-LaTeX Warning: Citation 'Soup2025' on page 27 undefined on input line 240.
+
+Package Listings Warning: Text dropped after begin of listing on input line 246
+.
+
+
+Overfull \hbox (465.10648pt too wide) in paragraph at lines 247--248
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][] 
+ []
+
+
+Overfull \hbox (248.29472pt too wide) in paragraph at lines 248--249
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (18.34286pt too wide) in paragraph at lines 250--251
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+
+[27]
+Overfull \hbox (1509.74492pt too wide) in paragraph at lines 254--255
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+LaTeX Warning: Characters dropped after `\end{verbatim}' on input line 260.
+
+
+Package Listings Warning: Text dropped after begin of listing on input line 261
+.
+
+
+Overfull \hbox (333.70541pt too wide) in paragraph at lines 265--266
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (57.76318pt too wide) in paragraph at lines 267--268
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (162.88403pt too wide) in paragraph at lines 268--270
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+LaTeX Warning: Citation 'Pymupdf2025' on page 28 undefined on input line 278.
+
+
+LaTeX Warning: Citation 'Selenium2025' on page 28 undefined on input line 284.
+
+
+LaTeX Warning: Citation 'CrossrefRegex2025' on page 28 undefined on input line 
+287.
+
+
+LaTeX Warning: Citation '' on page 28 undefined on input line 287.
+
+
+Overfull \hbox (89.6198pt too wide) in paragraph at lines 286--289
+\TU/Montserrat(1)/m/n/10.95 lijst reguliere expressies is aanbevolen om DOIs op
+ te zoeken [][]: 
+ []
+
+
+
+[28]
+Overfull \hbox (21.62404pt too wide) in paragraph at lines 296--296
+ []        \TU/FiraCode(0)/m/n/10.95 /^10.\d{4}/\d+-\d+X?(\d+)\d+<[\d\w]+:[\d\w
+]*>\d+.\d+.\w+;\d$/i 
+ []
 
 File: ../graphics/./2_parse_zoekresultaat/json_view.JPG Graphic file (type bmp)
 
@@ -2653,35 +2730,38 @@ File: ../graphics/./2_parse_zoekresultaat/table_view.JPG Graphic file (type bmp
 <../graphics/./2_parse_zoekresultaat/table_view.JPG>
 
 
-[27]
+[29]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_email.JPG Graphic 
 file (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_email.JPG>
 
 
-[28]
+[30]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_body.JPG Graphic f
 ile (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_body.JPG>
 
 
-[29]
+[31]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_zoekresultaat.JPG 
 Graphic file (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_zoekresultaat.JPG>
+File: ../graphics/./2_parse_zoekresultaat/database_structure_link.JPG Graphic f
+ile (type bmp)
+<../graphics/./2_parse_zoekresultaat/database_structure_link.JPG>
+) (conclusie.tex
 
+[32]
 
-[30]) (conclusie.tex
-
-[31]
+[33]
 Hoofdstuk 6.
 
 
-[32
+[34
 
 ])
 
-[33]
+[35]
 B\ij lage A.
 (../voorstel/voorstel-inhoud.tex
 Overfull \hbox (2.63669pt too wide) in paragraph at lines 20--21
@@ -2691,14 +2771,14 @@ collecties van mariene wetenschap-
 
 
 
-[34
+[36
 
 ]
 File: images/stapsgewijs.png Graphic file (type bmp)
 <images/stapsgewijs.png>
 
 
-[35]
+[37]
 Overfull \hbox (21.94153pt too wide) in paragraph at lines 59--60
 []\TU/Montserrat(1)/m/n/10.95 Google Scholar is een zoekmachine die wetenschapp
 elijke literatuur indexeert ([]“  Google
@@ -2706,7 +2786,7 @@ elijke literatuur indexeert ([]“  Google
 
 
 
-[36]
+[38]
 Overfull \hbox (9.43324pt too wide) in paragraph at lines 67--68
 \TU/Montserrat(1)/m/n/10.95 vend, betrouwbaar en onderscheidbaar geïdentificeer
 d kunnen worden. []Chandrakar
@@ -2714,11 +2794,11 @@ d kunnen worden. []Chandrakar
 
 
 
-[37]
-
-[38])
-
 [39]
+
+[40])
+
+[41]
 DePaepeBartBP.tex:181: Missing $ inserted.
 <inserted text> 
                 $
@@ -2768,7 +2848,7 @@ n/10.95 . (2025, maart 1). [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][]
 
 
 
-[40
+[42
 
 
 ]
@@ -2786,9 +2866,9 @@ art 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][]
 
 
 
-[41]
+[43]
 
-[42] (DePaepeBartBP.aux)
+[44] (DePaepeBartBP.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -2798,7 +2878,7 @@ L3 programming layer <2024-08-30>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
-(rerunfilecheck)             Checksum: C90B5D65576003305EF2FAA07DD36F9E;6719.
+(rerunfilecheck)             Checksum: C2487EFB2347CF7FA93E059B956322A4;6719.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                DePaepeBartBP
@@ -2809,12 +2889,12 @@ Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51362 strings out of 409028
- 1050572 string characters out of 5760982
- 2292218 words of memory out of 5000000
- 73239 multiletter control sequences out of 15000+600000
- 561972 words of font info for 113 fonts, out of 8000000 for 9000
+ 51394 strings out of 409028
+ 1051950 string characters out of 5760982
+ 2303450 words of memory out of 5000000
+ 73269 multiletter control sequences out of 15000+600000
+ 561980 words of font info for 114 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,12n,132p,1256b,5815s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DePaepeBartBP.pdf (51 pages).
+Output written on DePaepeBartBP.pdf (53 pages).
