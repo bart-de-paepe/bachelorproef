@@ -272,16 +272,16 @@ Met de url uit de \begin{verbatim}
     location.replace
 \end{verbatim}
 kan er nu opnieuw een request gestuurd worden.
-Het response dat daar teruggestuurd wordt is verschillend voor elke zoekresultaat:
+Het response dat daar teruggestuurd wordt is verschillend voor elke zoekresultaat. Het is dus niet mogelijk om het DOI voor elk zoekresultaat op dezelfde manier te achterhalen. Daarom wordt er een stapsgewijze werkwijze gehanteerd, van zodra het DOI gevonden is worden de volgende stappen overgeslaan:
 \begin{itemize}
-    \item \textbf{HTTP 200 status code en text/html response type}: Het antwoord komt overeen met een html-pagina. De bron van de pagina kan gelezen worden zodat er gebruik kan gemaakt worden van reguliere expressie om het DOI erin op te zoeken.
-    \item \textbf{HTTP 200 status code en application/pdf response type}: Het antwoord komt overeen met een pdf-document. De bron van de pagina kan niet gelezen worden aangezien het formaat binair is. Er is een extra stap nodig om het bestand te lezen aan de hand van \autocite{Pymupdf2025}
+    \item \textbf{het DOI opzoeken in de link}: De link zelf bevat soms zelf reeds het DOI. Dit wordt getoets aan de hand van enkele reguliere expressies.
+    \item \textbf{het DOI opzoeken in de content} Het antwoord komt overeen met een html-pagina of een pdf-document. Andere return types worden buiten beschouwing gelaten. De inhoud van het antwoord wordt gelezen en met gebruik van dezelfde reguliere expressie kan de aanwezigheid van het DOI opgespoord worden. Voor pdf-documenten is er een extra tussenstap nodig: de inhoud moet gelezen worden met gebruik van \autocite{Pymupdf2025}.
     \begin{lstlisting}
         doc = pymupdf.Document(stream=pdf)
         # Extract all Document Text
         text = chr(12).join([page.get_text() for page in doc])
     \end{lstlisting}
-    \item \textbf{HTTP 403 status code en text/html}: Pdf-documenten zijn vaak ook embedded in een html-pagina. Door middel van \autocite{Selenium2025} kunnen ze gedownload worden.
+    \item \textbf{het DOI opzoeken in de embedded content}: Als tot zover er nog steeds geen DOI gevonden is, dan kan het zijn dat het response een embedded document bevat. Op een website kan embedded content ontsloten worden door erop te klikken. Dat gaat hier niet.  Door middel van \autocite{Selenium2025} kan de embedded content automatisch gedownload worden. Eenmaal gedownload kan het bestand gewoon geopend worden en doorzocht worden naar een DOI op dezelfde manier als voor pdf-documenten in de voorgaande stap.    
 \end{itemize}
 Alle DOIs hebben dezelfde structuur: ze beginnen met het cijfer 10, gevolgd door een punt en 4 tot 9 cijfers, daarna volgt een slash. Verder kan elke willekeurige opeenvolging van letters, cijfers, speciale tekens en slashes voorkomen.
 De volgende lijst reguliere expressies is aanbevolen om DOIs op te zoeken \textcite{CrossrefRegex2025}:
@@ -302,7 +302,7 @@ De volgende lijst reguliere expressies is aanbevolen om DOIs op te zoeken \textc
         /^10.1207/[\w\d]+\&\d+_\d+$/i
     \end{verbatim}
 \end{itemize}
-
+Het DOI wordt opgeslaan in de databank.
 \section{Resultaat}
 \subsection{E-mail lezen}
 Het resultaat van deze stap is eerder een tussenresultaat waarbij verschillende onderdelen van de e-mail zoals datum, onderwerp, en andere opgeslaan worden in de databank. Deze opgeslaan informatie vormt de bron voor de verdere verwerking in stap 2.
@@ -391,10 +391,36 @@ Een overzicht van de gegevens die opgeslaan worden zijn te zien in figuur \ref{f
 
 \FloatBarrier
 \subsection{DOI opzoeken in de link van het geparsete resultaat}
+Het DOI, het resultaat van deze stap, is een unieke identifier voor elk artikel. Vanaf dit punt en voor alle volgende bewerkingen kan elk artikel ondubbelzinnig geïdentificeerd worden en kunnen de bijhorende gegevens op gezocht worden. Een overzicht van de gegevens die opgeslaan worden is te zien in figuur \ref{fig:databank_structuur_link}.
 \begin{figure}
     \centering
     \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/database_structure_link.JPG}
     \caption[Databank structuur link.]{\label{fig:databank_structuur_link}Databank structuur link.}
 \end{figure}
+\begin{itemize}
+    \item \textbf{\_id}: De unieke ID van de record.
+    \item \textbf{created\_at}: De datum en het tijdstip waarop het zoekresultaat in de databank werd opgeslaan.
+    \item \textbf{updated\_at}: De datum en het tijdstip waarop het zoekresultaat in de databank het laatst werd gewijzigd. 
+    \item \textbf{email}: Referentie naar de overeenkomstige e-mail waar dit zoekresultaat in staat.
+    \item \textbf{title}: Titel van het zoekresultaat.
+    \item \textbf{author}: Auteur(s) van het zoekresultaat. 
+    \item \textbf{publisher}: Uitgever van het zoekresultaat.
+    \item \textbf{year}: Jaar van het zoekresultaat.
+    \item \textbf{text}: Snippet van het zoekresultaat.
+    \item \textbf{link}: 
+    \begin{itemize}
+        \item \textbf{url}: De link naar de online bron van het zoekresultaat.
+        \item \textbf{location\_replace\_url}: De link naar de eigenlijke online bron van het zoekresultaat na redirect door Google Scholar.
+        \item \textbf{response\_code}: De http status code van het response.
+        \item \textbf{response\_type}: Het type document van het response.
+        \item \textbf{is\_accepted\_type}: Een vlag die aanduidt of het type van het response verder beschouwd zal worden.
+        \item \textbf{DOI}: De Digital Object Identifier.
+        \item \textbf{log\_message}: De logberichten tijdens het verwerken van de link worden hier bewaard.
+        \item \textbf{is\_DOI\_succes}: Een vlag die aanduidt of de verwerking tijdens deze stap al dan niet succesvol was.
+    \end{itemize}
+    \item \textbf{media\_type}: Het type van de online bron zoals het aangegeven wordt in het zoekresultaat.
+    \item \textbf{log\_message}: De logberichten tijdens het verwerken van het zoekresultaat worden hier bewaard. 
+    \item \textbf{is\_processed}: Een vlag die aanduidt of de online bron van het zoekresultaat verwerkt werd.
+\end{itemize}
 
 

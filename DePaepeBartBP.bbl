@@ -349,6 +349,24 @@
       \verb https://en.wikipedia.org/wiki/Document-oriented_database
       \endverb
     \endentry
+    \entry{CrossrefRegex2025}{online}{}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{DOIs and matching regular expressions}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.crossref.org/blog/dois-and-matching-regular-expressions/
+      \endverb
+      \verb{url}
+      \verb https://www.crossref.org/blog/dois-and-matching-regular-expressions/
+      \endverb
+    \endentry
     \entry{Email2025}{online}{}{}
       \field{sortinit}{e}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
@@ -963,6 +981,24 @@
       \verb https://pymongo.readthedocs.io/en/stable/
       \endverb
     \endentry
+    \entry{Pymupdf2025}{online}{}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{PyMuPDF is a high-performance Python library for data extraction, analysis, conversion & manipulation of PDF (and other) documents.}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://pymupdf.readthedocs.io/en/latest/how-to-open-a-file.html#opening-remote-files
+      \endverb
+      \verb{url}
+      \verb https://pymupdf.readthedocs.io/en/latest/how-to-open-a-file.html#opening-remote-files
+      \endverb
+    \endentry
     \entry{SciPdfParser2024}{online}{}{}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
@@ -1233,6 +1269,24 @@
       \endverb
       \verb{url}
       \verb https://pypi.org/project/science-parse-api
+      \endverb
+    \endentry
+    \entry{Selenium2025}{online}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{Selenium with Python}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://selenium-python.readthedocs.io/
+      \endverb
+      \verb{url}
+      \verb https://selenium-python.readthedocs.io/
       \endverb
     \endentry
     \entry{Paperai2024}{online}{}{}
@@ -1743,6 +1797,24 @@
       \verb https://en.wikipedia.org/wiki/Document-oriented_database
       \endverb
     \endentry
+    \entry{CrossrefRegex2025}{online}{}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{DOIs and matching regular expressions}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.crossref.org/blog/dois-and-matching-regular-expressions/
+      \endverb
+      \verb{url}
+      \verb https://www.crossref.org/blog/dois-and-matching-regular-expressions/
+      \endverb
+    \endentry
     \entry{Email2025}{online}{}{}
       \field{sortinit}{e}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
@@ -2357,6 +2429,24 @@
       \verb https://pymongo.readthedocs.io/en/stable/
       \endverb
     \endentry
+    \entry{Pymupdf2025}{online}{}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{PyMuPDF is a high-performance Python library for data extraction, analysis, conversion & manipulation of PDF (and other) documents.}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://pymupdf.readthedocs.io/en/latest/how-to-open-a-file.html#opening-remote-files
+      \endverb
+      \verb{url}
+      \verb https://pymupdf.readthedocs.io/en/latest/how-to-open-a-file.html#opening-remote-files
+      \endverb
+    \endentry
     \entry{SciPdfParser2024}{online}{}{}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
@@ -2627,6 +2717,24 @@
       \endverb
       \verb{url}
       \verb https://pypi.org/project/science-parse-api
+      \endverb
+    \endentry
+    \entry{Selenium2025}{online}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{Selenium with Python}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://selenium-python.readthedocs.io/
+      \endverb
+      \verb{url}
+      \verb https://selenium-python.readthedocs.io/
       \endverb
     \endentry
     \entry{Paperai2024}{online}{}{}

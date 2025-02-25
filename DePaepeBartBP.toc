@@ -32,7 +32,7 @@
 \contentsline {section}{\numberline {5.4}Resultaat}{29}{section.5.4}%
 \contentsline {subsection}{\numberline {5.4.1}E-mail lezen}{29}{subsection.5.4.1}%
 \contentsline {subsection}{\numberline {5.4.2}Body van de e-mail parsen}{31}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}DOI opzoeken in de link van het geparsete resultaat}{32}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.3}DOI opzoeken in de link van het geparsete resultaat}{33}{subsection.5.4.3}%
 \contentsline {chapter}{\numberline {6}Conclusie}{34}{chapter.6}%
 \contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{36}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Inleiding}{36}{section.A.1}%

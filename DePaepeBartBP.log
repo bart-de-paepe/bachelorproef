@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.18)  21 FEB 2025 22:59
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.18)  25 FEB 2025 22:12
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2218,7 +2218,7 @@ File: ../graphics/grail.jpg Graphic file (type bmp)
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250221225953 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250225221224 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -2695,24 +2695,17 @@ Overfull \hbox (162.88403pt too wide) in paragraph at lines 268--270
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-
-LaTeX Warning: Citation 'Pymupdf2025' on page 28 undefined on input line 278.
-
-
-LaTeX Warning: Citation 'Selenium2025' on page 28 undefined on input line 284.
-
-
-LaTeX Warning: Citation 'CrossrefRegex2025' on page 28 undefined on input line 
-287.
-
-
-LaTeX Warning: Citation '' on page 28 undefined on input line 287.
-
-
-Overfull \hbox (89.6198pt too wide) in paragraph at lines 286--289
-\TU/Montserrat(1)/m/n/10.95 lijst reguliere expressies is aanbevolen om DOIs op
- te zoeken [][]: 
- []
+parsezoekresultaat.tex:278: Misplaced alignment tab character &.
+<argument> ...a extraction, analysis, conversion &
+                                                   manipulation of PDF (and ...
+l.278 ...n met gebruik van \autocite{Pymupdf2025}.
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
 
 
@@ -2746,12 +2739,13 @@ ile (type bmp)
 File: ../graphics/./2_parse_zoekresultaat/database_structure_zoekresultaat.JPG 
 Graphic file (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_zoekresultaat.JPG>
+
+
+[32]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_link.JPG Graphic f
 ile (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_link.JPG>
 ) (conclusie.tex
-
-[32]
 
 [33]
 Hoofdstuk 6.
@@ -2864,6 +2858,18 @@ art 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][]
 [][][][][] [] [][][][][][] [] [][][][][][][][][] []
  []
 
+DePaepeBartBP.tex:181: Misplaced alignment tab character &.
+<argument> ...a extraction, analysis, conversion &
+                                                   manipulation of PDF (and ...
+l.181 \printbibliography[heading=bibintoc]
+                                          
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
 
 
 [43]
@@ -2873,26 +2879,17 @@ art 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][]
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
 (rerunfilecheck)             Checksum: C2487EFB2347CF7FA93E059B956322A4;6719.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                DePaepeBartBP
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51394 strings out of 409028
- 1051950 string characters out of 5760982
- 2303450 words of memory out of 5000000
- 73269 multiletter control sequences out of 15000+600000
+ 51412 strings out of 409028
+ 1052646 string characters out of 5760982
+ 2304608 words of memory out of 5000000
+ 73287 multiletter control sequences out of 15000+600000
  561980 words of font info for 114 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,12n,132p,1256b,5815s stack positions out of 10000i,1000n,20000p,200000b,200000s
