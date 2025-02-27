@@ -61,6 +61,57 @@
       \verb 10.1007/s11192-011-0582-8
       \endverb
     \endentry
+    \entry{Amin2024}{inbook}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=62b32184d2113dfbd02f063bfd014c5c}{%
+           family={Amin},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi Miftakul},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0d69cbf144232c35b3fca025ce2a495}{%
+           family={Sutrisman},
+           familyi={S\bibinitperiod},
+           given={Adi},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4df28b0cb2db1174f3318bf593883a2}{%
+           family={Dwitayanti},
+           familyi={D\bibinitperiod},
+           given={Yevi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Atlantis Press International BV}%
+      }
+      \strng{namehash}{bfd2e9aa3db6f74cd5f685adab0d7307}
+      \strng{fullhash}{378dcc9f337dfe4931a8a7f226d9f66a}
+      \strng{fullhashraw}{378dcc9f337dfe4931a8a7f226d9f66a}
+      \strng{bibnamehash}{378dcc9f337dfe4931a8a7f226d9f66a}
+      \strng{authorbibnamehash}{378dcc9f337dfe4931a8a7f226d9f66a}
+      \strng{authornamehash}{bfd2e9aa3db6f74cd5f685adab0d7307}
+      \strng{authorfullhash}{378dcc9f337dfe4931a8a7f226d9f66a}
+      \strng{authorfullhashraw}{378dcc9f337dfe4931a8a7f226d9f66a}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 7th FIRST 2023 International Conference on Global Innovations (FIRST-ESCSI 2023)}
+      \field{isbn}{9789464633863}
+      \field{issn}{2352-5401}
+      \field{title}{Google Scholar Crawling for Constructing Research Database}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{331\bibrangedash 337}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.2991/978-94-6463-386-3_36
+      \endverb
+    \endentry
     \entry{Araujo2021}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=d095050ceafb25fdea87789e0805eed6}{%
@@ -167,6 +218,74 @@
       \field{dateera}{ce}
       \field{pages}{439\bibrangedash 446}
       \range{pages}{8}
+    \endentry
+    \entry{Bhatt2023}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=e4b8a93a07e628c41f4339bf8701c17f}{%
+           family={Bhatt},
+           familyi={B\bibinitperiod},
+           given={Chandradeep},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61aca3d9e5809431c8cd9cd265eefc13}{%
+           family={Bisht},
+           familyi={B\bibinitperiod},
+           given={Ayush},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0f92eccc3bf88faa49e1a94c3c2bea5}{%
+           family={Chauhan},
+           familyi={C\bibinitperiod},
+           given={Rahul},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16d1f723a095b15763d30ce6b20377ef}{%
+           family={Vishvakarma},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ca908c35a16b7dbb19120aeccd47dad}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Mukesh},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=803ab18852cac1c2a1956a4dc6be9648}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Sanjay},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{343ce6e0855066e2e6b4a568940a7adb}
+      \strng{fullhash}{1657064032740435d684c74d29393a95}
+      \strng{fullhashraw}{1657064032740435d684c74d29393a95}
+      \strng{bibnamehash}{1657064032740435d684c74d29393a95}
+      \strng{authorbibnamehash}{1657064032740435d684c74d29393a95}
+      \strng{authornamehash}{343ce6e0855066e2e6b4a568940a7adb}
+      \strng{authorfullhash}{1657064032740435d684c74d29393a95}
+      \strng{authorfullhashraw}{1657064032740435d684c74d29393a95}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2023 3rd International Conference on Innovative Sustainable Computational Technologies (CISCT)}
+      \field{month}{9}
+      \field{title}{Web Scraping Techniques and Its Applications: A Review}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/cisct57197.2023.10351298
+      \endverb
     \endentry
     \entry{Chandrakar2006}{article}{}{}
       \name{author}{1}{}{%
@@ -457,6 +576,47 @@
       \verb https://nl.wikipedia.org/wiki/Google_Scholar
       \endverb
     \endentry
+    \entry{Gray2012}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0537336c167ca3e21e9e39f16642f5b4}{%
+           family={Gray},
+           familyi={G\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f139de2d6b391dd367c5dbacaaabb1c}{%
+           family={Bounegru},
+           familyi={B\bibinitperiod},
+           given={Liliana},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05163fb808b56644dfe7c65319c2e505}{%
+           family={Chambers},
+           familyi={C\bibinitperiod},
+           given={Lucy},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d7629385c9e68cd4c419a0ea359f2473}
+      \strng{fullhash}{c389675dacac43e78b29381885f52312}
+      \strng{fullhashraw}{c389675dacac43e78b29381885f52312}
+      \strng{bibnamehash}{c389675dacac43e78b29381885f52312}
+      \strng{authorbibnamehash}{c389675dacac43e78b29381885f52312}
+      \strng{authornamehash}{d7629385c9e68cd4c419a0ea359f2473}
+      \strng{authorfullhash}{c389675dacac43e78b29381885f52312}
+      \strng{authorfullhashraw}{c389675dacac43e78b29381885f52312}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1449330064}
+      \field{month}{08}
+      \field{title}{The Data Journalism Handbook}
+      \field{year}{2012}
+    \endentry
     \entry{Grobid2024}{online}{}{}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
@@ -608,6 +768,88 @@
       \verb 10.1016/j.nlp.2023.100017
       \endverb
     \endentry
+    \entry{NurDalila2023}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=c329e0657ee8c06008b80d04b8ee6722}{%
+           family={K．A．},
+           familyi={K\bibinitperiod},
+           given={Nur\bibnamedelima Dalila},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b09f222486c5f417b1d5be8a8728ea3}{%
+           family={Jusoh},
+           familyi={J\bibinitperiod},
+           given={Mohamad\bibnamedelima Huzaimy},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c43a1c352dc3ab585f21f6070de15093}{%
+           family={Mashohor},
+           familyi={M\bibinitperiod},
+           given={Syamsiah},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ad746704753dff24e58875288dc8daa}{%
+           family={Sali},
+           familyi={S\bibinitperiod},
+           given={Aduwati},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=614ffeec09d55351dc97f8d337bfba03}{%
+           family={Yoshikawa},
+           familyi={Y\bibinitperiod},
+           given={Akimasa},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=019504830a74ffd0dff19789c860d332}{%
+           family={Kasuan},
+           familyi={K\bibinitperiod},
+           given={Nurhani},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b5e8f0b8805806000306f01e403fda4}{%
+           family={Hashim},
+           familyi={H\bibinitperiod},
+           given={Mohd\bibnamedelima Helmy},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e125cfd157fc5adf0d25926797fa4397}{%
+           family={Hairuddin},
+           familyi={H\bibinitperiod},
+           given={Muhammad\bibnamedelima Asraf},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{2cf9de4ca12febd17e6917bf24f8441e}
+      \strng{fullhash}{8743136ce28c6134ca14434defc1fd8e}
+      \strng{fullhashraw}{8743136ce28c6134ca14434defc1fd8e}
+      \strng{bibnamehash}{8743136ce28c6134ca14434defc1fd8e}
+      \strng{authorbibnamehash}{8743136ce28c6134ca14434defc1fd8e}
+      \strng{authornamehash}{2cf9de4ca12febd17e6917bf24f8441e}
+      \strng{authorfullhash}{8743136ce28c6134ca14434defc1fd8e}
+      \strng{authorfullhashraw}{8743136ce28c6134ca14434defc1fd8e}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2352-3409}
+      \field{journaltitle}{Data in Brief}
+      \field{month}{12}
+      \field{title}{Bibliographic dataset of literature for analysing global trends and progress of the machine learning paradigm in space weather research}
+      \field{volume}{51}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{109667}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.dib.2023.109667
+      \endverb
+    \endentry
     \entry{Kim2019}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=6f26828c3b139fd1daaced4932868ecc}{%
@@ -751,6 +993,38 @@
       \verb 10.17161/bi.v2i0.17
       \endverb
     \endentry
+    \entry{Mitchell2015}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e5b5a50cb0333052f1c452520367aa56}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Media, Inc.}%
+      }
+      \strng{namehash}{e5b5a50cb0333052f1c452520367aa56}
+      \strng{fullhash}{e5b5a50cb0333052f1c452520367aa56}
+      \strng{fullhashraw}{e5b5a50cb0333052f1c452520367aa56}
+      \strng{bibnamehash}{e5b5a50cb0333052f1c452520367aa56}
+      \strng{authorbibnamehash}{e5b5a50cb0333052f1c452520367aa56}
+      \strng{authornamehash}{e5b5a50cb0333052f1c452520367aa56}
+      \strng{authorfullhash}{e5b5a50cb0333052f1c452520367aa56}
+      \strng{authorfullhashraw}{e5b5a50cb0333052f1c452520367aa56}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1st}
+      \field{isbn}{1491910291}
+      \field{title}{Web Scraping with Python: Collecting Data from the Modern Web}
+      \field{year}{2015}
+    \endentry
     \entry{Moed2016}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=0f99a3f13d8ca21afa7e581be2613e03}{%
@@ -861,6 +1135,52 @@
       \verb 10.1515/libr.2005.170
       \endverb
     \endentry
+    \entry{Oh2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=338768d75469f5713141cdbe7d1c6878}{%
+           family={Oh},
+           familyi={O\bibinitperiod},
+           given={Kyong},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7556683277902995775210a09143ea12}{%
+           family={Colón-Aguirre},
+           familyi={C\bibinithyphendelim A\bibinitperiod},
+           given={Mónica},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Library Association}%
+      }
+      \strng{namehash}{08d4a7b7b5c4eb4150e1e495cd259717}
+      \strng{fullhash}{08d4a7b7b5c4eb4150e1e495cd259717}
+      \strng{fullhashraw}{08d4a7b7b5c4eb4150e1e495cd259717}
+      \strng{bibnamehash}{08d4a7b7b5c4eb4150e1e495cd259717}
+      \strng{authorbibnamehash}{08d4a7b7b5c4eb4150e1e495cd259717}
+      \strng{authornamehash}{08d4a7b7b5c4eb4150e1e495cd259717}
+      \strng{authorfullhash}{08d4a7b7b5c4eb4150e1e495cd259717}
+      \strng{authorfullhashraw}{08d4a7b7b5c4eb4150e1e495cd259717}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0010-0870}
+      \field{journaltitle}{College &amp; Research Libraries}
+      \field{number}{6}
+      \field{title}{A Comparative Study of Perceptions and Use of Google Scholar and Academic Library Discovery Systems}
+      \field{volume}{80}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{876\bibrangedash 891}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.5860/crl.80.6.876
+      \endverb
+    \endentry
     \entry{Pakhale2023}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=dc234d76e820bfbf3474e9e4749873c1}{%
@@ -963,6 +1283,74 @@
       \field{title}{Schrijven van verslag tot eindwerk: do's en don'ts}
       \field{year}{2011}
     \endentry
+    \entry{Pratiba2018}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=52573651bf2f36442733287811d1431c}{%
+           family={PRATIBA},
+           familyi={P\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7a330a729dee7c635fa266ccdc2f4d9}{%
+           family={M.S.},
+           familyi={M\bibinitperiod},
+           given={ABHAY},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=414259fae57bfea3ddf2ea09978eda01}{%
+           family={DUA},
+           familyi={D\bibinitperiod},
+           given={AKHIL},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=376742c8e22a67e97e78664fe82c99bf}{%
+           family={SHANBHAG},
+           familyi={S\bibinitperiod},
+           given={Giridhar\bibnamedelima K.},
+           giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8d67fda3cd19e31c5c145badeb0e5e8}{%
+           family={BHANDARI},
+           familyi={B\bibinitperiod},
+           given={NEEL},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6115e7d1c1cb772265227db9ad6f66f0}{%
+           family={SINGH},
+           familyi={S\bibinitperiod},
+           given={UTKARSH},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{5b7298cb35fa261670d503c1eccd20e6}
+      \strng{fullhash}{450bd4c4ecc08b9121cc0a71a8f56beb}
+      \strng{fullhashraw}{450bd4c4ecc08b9121cc0a71a8f56beb}
+      \strng{bibnamehash}{450bd4c4ecc08b9121cc0a71a8f56beb}
+      \strng{authorbibnamehash}{450bd4c4ecc08b9121cc0a71a8f56beb}
+      \strng{authornamehash}{5b7298cb35fa261670d503c1eccd20e6}
+      \strng{authorfullhash}{450bd4c4ecc08b9121cc0a71a8f56beb}
+      \strng{authorfullhashraw}{450bd4c4ecc08b9121cc0a71a8f56beb}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2018 3rd International Conference on Computational Systems and Information Technology for Sustainable Solutions (CSITSS)}
+      \field{month}{12}
+      \field{title}{Web Scraping And Data Acquisition Using Google Scholar}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{277\bibrangedash 281}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/csitss.2018.8768777
+      \endverb
+    \endentry
     \entry{Pymongo2025}{online}{}{}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
@@ -1015,6 +1403,41 @@
       \endverb
       \verb{url}
       \verb https://github.com/titipata/scipdf_parser
+      \endverb
+    \endentry
+    \entry{Rafsanjani2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=23b3435e29043bbe1dd24c240f7d5b29}{%
+           family={Rafsanjani},
+           familyi={R\bibinitperiod},
+           given={Mohd\bibnamedelima Rifqi},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cold Spring Harbor Laboratory}%
+      }
+      \strng{namehash}{23b3435e29043bbe1dd24c240f7d5b29}
+      \strng{fullhash}{23b3435e29043bbe1dd24c240f7d5b29}
+      \strng{fullhashraw}{23b3435e29043bbe1dd24c240f7d5b29}
+      \strng{bibnamehash}{23b3435e29043bbe1dd24c240f7d5b29}
+      \strng{authorbibnamehash}{23b3435e29043bbe1dd24c240f7d5b29}
+      \strng{authornamehash}{23b3435e29043bbe1dd24c240f7d5b29}
+      \strng{authorfullhash}{23b3435e29043bbe1dd24c240f7d5b29}
+      \strng{authorfullhashraw}{23b3435e29043bbe1dd24c240f7d5b29}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{ScrapPaper: A web scrapping method to extract journal information from PubMed and Google Scholar search result using Python}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1101/2022.03.08.483427
       \endverb
     \endentry
     \entry{Requests2025}{online}{}{}
@@ -1325,6 +1748,65 @@
       \verb https://devguide.python.org/versions/
       \endverb
     \endentry
+    \entry{Sulistya2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3b537133b60e16837957023345565d83}{%
+           family={Sulistya},
+           familyi={S\bibinitperiod},
+           given={Yudha\bibnamedelima Islami},
+           giveni={Y\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d03720d457ce80d80a6cb57fe42a8156}{%
+           family={Wardhana},
+           familyi={W\bibinitperiod},
+           given={Ariq\bibnamedelima Cahya},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c9a27ad5fa405e94d0cf63c4d8958e4}{%
+           family={Istighosah},
+           familyi={I\bibinitperiod},
+           given={Maie},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8efb4b541bd2cb13df4f9d945d48a25}{%
+           family={Riyandi},
+           familyi={R\bibinitperiod},
+           given={Arif},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universitas Dharma Andalas}%
+      }
+      \strng{namehash}{0c1859c80cc9346565e389f79a0f0443}
+      \strng{fullhash}{53221ebca5e5a469bebd2df1bb45f3da}
+      \strng{fullhashraw}{53221ebca5e5a469bebd2df1bb45f3da}
+      \strng{bibnamehash}{53221ebca5e5a469bebd2df1bb45f3da}
+      \strng{authorbibnamehash}{53221ebca5e5a469bebd2df1bb45f3da}
+      \strng{authornamehash}{0c1859c80cc9346565e389f79a0f0443}
+      \strng{authorfullhash}{53221ebca5e5a469bebd2df1bb45f3da}
+      \strng{authorfullhashraw}{53221ebca5e5a469bebd2df1bb45f3da}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2964-2132}
+      \field{journaltitle}{Jurnal Teknologi Dan Sistem Informasi Bisnis}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{Automated Google Scholar Crawling with a Web-Based Tool for Publication Data Management}
+      \field{volume}{6}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{768\bibrangedash 773}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.47233/jteksis.v6i4.1604
+      \endverb
+    \endentry
     \entry{TaxonGrab2024}{online}{}{}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
@@ -1341,6 +1823,70 @@
       \endverb
       \verb{url}
       \verb https://sourceforge.net/projects/taxongrab/
+      \endverb
+    \endentry
+    \entry{Toth2024}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=8f9e537a918a0d15501bf4bd824018b1}{%
+           family={Tóth},
+           familyi={T\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6372ef5bebd0fc639e393c247b4f305a}{%
+           family={Berek},
+           familyi={B\bibinitperiod},
+           given={László},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc19c8941436c5ebe613d40b2baf5646}{%
+           family={Gulácsi},
+           familyi={G\bibinitperiod},
+           given={László},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe08f24577bbb3959f0a6e5c9e30d009}{%
+           family={Péntek},
+           familyi={P\bibinitperiod},
+           given={Márta},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=531ad88c65a4a07f54e477844a28eaad}{%
+           family={Zrubka},
+           familyi={Z\bibinitperiod},
+           given={Zsombor},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{24aad5680fc9a4505c7b8d1f70efb54b}
+      \strng{fullhash}{aa8e1ab41bc1c7d99f362395b77b85d7}
+      \strng{fullhashraw}{aa8e1ab41bc1c7d99f362395b77b85d7}
+      \strng{bibnamehash}{aa8e1ab41bc1c7d99f362395b77b85d7}
+      \strng{authorbibnamehash}{aa8e1ab41bc1c7d99f362395b77b85d7}
+      \strng{authornamehash}{24aad5680fc9a4505c7b8d1f70efb54b}
+      \strng{authorfullhash}{aa8e1ab41bc1c7d99f362395b77b85d7}
+      \strng{authorfullhashraw}{aa8e1ab41bc1c7d99f362395b77b85d7}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2046-4053}
+      \field{journaltitle}{Systematic Reviews}
+      \field{month}{7}
+      \field{number}{1}
+      \field{title}{Automation of systematic reviews of biomedical literature: a scoping review of studies indexed in PubMed}
+      \field{volume}{13}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1186/s13643-024-02592-3
       \endverb
     \endentry
     \entry{Vliz2024}{online}{}{}
@@ -1424,6 +1970,56 @@
       \range{pages}{15}
       \verb{doi}
       \verb 10.1108/el-08-2012-0102
+      \endverb
+    \endentry
+    \entry{Yang2017}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b9dc623a70e0eb2d43929547a2ccc301}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Dazhi},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3dc9318f3bc22fc95320d88476faccb4}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Allan\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa2d397dd80c767b1c789e7e16dee8f3}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Wenjing},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{29d07838bd88d0fe1bef4f394d50dd23}
+      \strng{fullhash}{77e55e84f3bd15171b7f37c8051f6eee}
+      \strng{fullhashraw}{77e55e84f3bd15171b7f37c8051f6eee}
+      \strng{bibnamehash}{77e55e84f3bd15171b7f37c8051f6eee}
+      \strng{authorbibnamehash}{77e55e84f3bd15171b7f37c8051f6eee}
+      \strng{authornamehash}{29d07838bd88d0fe1bef4f394d50dd23}
+      \strng{authorfullhash}{77e55e84f3bd15171b7f37c8051f6eee}
+      \strng{authorfullhashraw}{77e55e84f3bd15171b7f37c8051f6eee}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2017 IEEE International Conference on Big Data (Big Data)}
+      \field{month}{12}
+      \field{title}{Performing literature review using text mining, Part I: Retrieving technology infrastructure using Google Scholar and APIs}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{3290\bibrangedash 3296}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/bigdata.2017.8258313
       \endverb
     \endentry
     \entry{Zhang2013}{inbook}{}{}
@@ -1509,6 +2105,57 @@
       \verb 10.1007/s11192-011-0582-8
       \endverb
     \endentry
+    \entry{Amin2024}{inbook}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=62b32184d2113dfbd02f063bfd014c5c}{%
+           family={Amin},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi Miftakul},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0d69cbf144232c35b3fca025ce2a495}{%
+           family={Sutrisman},
+           familyi={S\bibinitperiod},
+           given={Adi},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4df28b0cb2db1174f3318bf593883a2}{%
+           family={Dwitayanti},
+           familyi={D\bibinitperiod},
+           given={Yevi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Atlantis Press International BV}%
+      }
+      \strng{namehash}{bfd2e9aa3db6f74cd5f685adab0d7307}
+      \strng{fullhash}{378dcc9f337dfe4931a8a7f226d9f66a}
+      \strng{fullhashraw}{378dcc9f337dfe4931a8a7f226d9f66a}
+      \strng{bibnamehash}{378dcc9f337dfe4931a8a7f226d9f66a}
+      \strng{authorbibnamehash}{378dcc9f337dfe4931a8a7f226d9f66a}
+      \strng{authornamehash}{bfd2e9aa3db6f74cd5f685adab0d7307}
+      \strng{authorfullhash}{378dcc9f337dfe4931a8a7f226d9f66a}
+      \strng{authorfullhashraw}{378dcc9f337dfe4931a8a7f226d9f66a}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 7th FIRST 2023 International Conference on Global Innovations (FIRST-ESCSI 2023)}
+      \field{isbn}{9789464633863}
+      \field{issn}{2352-5401}
+      \field{title}{Google Scholar Crawling for Constructing Research Database}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{331\bibrangedash 337}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.2991/978-94-6463-386-3_36
+      \endverb
+    \endentry
     \entry{Araujo2021}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=d095050ceafb25fdea87789e0805eed6}{%
@@ -1615,6 +2262,74 @@
       \field{dateera}{ce}
       \field{pages}{439\bibrangedash 446}
       \range{pages}{8}
+    \endentry
+    \entry{Bhatt2023}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=e4b8a93a07e628c41f4339bf8701c17f}{%
+           family={Bhatt},
+           familyi={B\bibinitperiod},
+           given={Chandradeep},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61aca3d9e5809431c8cd9cd265eefc13}{%
+           family={Bisht},
+           familyi={B\bibinitperiod},
+           given={Ayush},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0f92eccc3bf88faa49e1a94c3c2bea5}{%
+           family={Chauhan},
+           familyi={C\bibinitperiod},
+           given={Rahul},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16d1f723a095b15763d30ce6b20377ef}{%
+           family={Vishvakarma},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ca908c35a16b7dbb19120aeccd47dad}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Mukesh},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=803ab18852cac1c2a1956a4dc6be9648}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Sanjay},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{343ce6e0855066e2e6b4a568940a7adb}
+      \strng{fullhash}{1657064032740435d684c74d29393a95}
+      \strng{fullhashraw}{1657064032740435d684c74d29393a95}
+      \strng{bibnamehash}{1657064032740435d684c74d29393a95}
+      \strng{authorbibnamehash}{1657064032740435d684c74d29393a95}
+      \strng{authornamehash}{343ce6e0855066e2e6b4a568940a7adb}
+      \strng{authorfullhash}{1657064032740435d684c74d29393a95}
+      \strng{authorfullhashraw}{1657064032740435d684c74d29393a95}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2023 3rd International Conference on Innovative Sustainable Computational Technologies (CISCT)}
+      \field{month}{9}
+      \field{title}{Web Scraping Techniques and Its Applications: A Review}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/cisct57197.2023.10351298
+      \endverb
     \endentry
     \entry{Chandrakar2006}{article}{}{}
       \name{author}{1}{}{%
@@ -1905,6 +2620,47 @@
       \verb https://nl.wikipedia.org/wiki/Google_Scholar
       \endverb
     \endentry
+    \entry{Gray2012}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0537336c167ca3e21e9e39f16642f5b4}{%
+           family={Gray},
+           familyi={G\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f139de2d6b391dd367c5dbacaaabb1c}{%
+           family={Bounegru},
+           familyi={B\bibinitperiod},
+           given={Liliana},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05163fb808b56644dfe7c65319c2e505}{%
+           family={Chambers},
+           familyi={C\bibinitperiod},
+           given={Lucy},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d7629385c9e68cd4c419a0ea359f2473}
+      \strng{fullhash}{c389675dacac43e78b29381885f52312}
+      \strng{fullhashraw}{c389675dacac43e78b29381885f52312}
+      \strng{bibnamehash}{c389675dacac43e78b29381885f52312}
+      \strng{authorbibnamehash}{c389675dacac43e78b29381885f52312}
+      \strng{authornamehash}{d7629385c9e68cd4c419a0ea359f2473}
+      \strng{authorfullhash}{c389675dacac43e78b29381885f52312}
+      \strng{authorfullhashraw}{c389675dacac43e78b29381885f52312}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1449330064}
+      \field{month}{08}
+      \field{title}{The Data Journalism Handbook}
+      \field{year}{2012}
+    \endentry
     \entry{Grobid2024}{online}{}{}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
@@ -2056,6 +2812,88 @@
       \verb 10.1016/j.nlp.2023.100017
       \endverb
     \endentry
+    \entry{NurDalila2023}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=c329e0657ee8c06008b80d04b8ee6722}{%
+           family={K．A．},
+           familyi={K\bibinitperiod},
+           given={Nur\bibnamedelima Dalila},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b09f222486c5f417b1d5be8a8728ea3}{%
+           family={Jusoh},
+           familyi={J\bibinitperiod},
+           given={Mohamad\bibnamedelima Huzaimy},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c43a1c352dc3ab585f21f6070de15093}{%
+           family={Mashohor},
+           familyi={M\bibinitperiod},
+           given={Syamsiah},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ad746704753dff24e58875288dc8daa}{%
+           family={Sali},
+           familyi={S\bibinitperiod},
+           given={Aduwati},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=614ffeec09d55351dc97f8d337bfba03}{%
+           family={Yoshikawa},
+           familyi={Y\bibinitperiod},
+           given={Akimasa},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=019504830a74ffd0dff19789c860d332}{%
+           family={Kasuan},
+           familyi={K\bibinitperiod},
+           given={Nurhani},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b5e8f0b8805806000306f01e403fda4}{%
+           family={Hashim},
+           familyi={H\bibinitperiod},
+           given={Mohd\bibnamedelima Helmy},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e125cfd157fc5adf0d25926797fa4397}{%
+           family={Hairuddin},
+           familyi={H\bibinitperiod},
+           given={Muhammad\bibnamedelima Asraf},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{2cf9de4ca12febd17e6917bf24f8441e}
+      \strng{fullhash}{8743136ce28c6134ca14434defc1fd8e}
+      \strng{fullhashraw}{8743136ce28c6134ca14434defc1fd8e}
+      \strng{bibnamehash}{8743136ce28c6134ca14434defc1fd8e}
+      \strng{authorbibnamehash}{8743136ce28c6134ca14434defc1fd8e}
+      \strng{authornamehash}{2cf9de4ca12febd17e6917bf24f8441e}
+      \strng{authorfullhash}{8743136ce28c6134ca14434defc1fd8e}
+      \strng{authorfullhashraw}{8743136ce28c6134ca14434defc1fd8e}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2352-3409}
+      \field{journaltitle}{Data in Brief}
+      \field{month}{12}
+      \field{title}{Bibliographic dataset of literature for analysing global trends and progress of the machine learning paradigm in space weather research}
+      \field{volume}{51}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{109667}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.dib.2023.109667
+      \endverb
+    \endentry
     \entry{Kim2019}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=6f26828c3b139fd1daaced4932868ecc}{%
@@ -2199,6 +3037,38 @@
       \verb 10.17161/bi.v2i0.17
       \endverb
     \endentry
+    \entry{Mitchell2015}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e5b5a50cb0333052f1c452520367aa56}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Media, Inc.}%
+      }
+      \strng{namehash}{e5b5a50cb0333052f1c452520367aa56}
+      \strng{fullhash}{e5b5a50cb0333052f1c452520367aa56}
+      \strng{fullhashraw}{e5b5a50cb0333052f1c452520367aa56}
+      \strng{bibnamehash}{e5b5a50cb0333052f1c452520367aa56}
+      \strng{authorbibnamehash}{e5b5a50cb0333052f1c452520367aa56}
+      \strng{authornamehash}{e5b5a50cb0333052f1c452520367aa56}
+      \strng{authorfullhash}{e5b5a50cb0333052f1c452520367aa56}
+      \strng{authorfullhashraw}{e5b5a50cb0333052f1c452520367aa56}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1st}
+      \field{isbn}{1491910291}
+      \field{title}{Web Scraping with Python: Collecting Data from the Modern Web}
+      \field{year}{2015}
+    \endentry
     \entry{Moed2016}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=0f99a3f13d8ca21afa7e581be2613e03}{%
@@ -2309,6 +3179,52 @@
       \verb 10.1515/libr.2005.170
       \endverb
     \endentry
+    \entry{Oh2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=338768d75469f5713141cdbe7d1c6878}{%
+           family={Oh},
+           familyi={O\bibinitperiod},
+           given={Kyong},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7556683277902995775210a09143ea12}{%
+           family={Colón-Aguirre},
+           familyi={C\bibinithyphendelim A\bibinitperiod},
+           given={Mónica},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Library Association}%
+      }
+      \strng{namehash}{08d4a7b7b5c4eb4150e1e495cd259717}
+      \strng{fullhash}{08d4a7b7b5c4eb4150e1e495cd259717}
+      \strng{fullhashraw}{08d4a7b7b5c4eb4150e1e495cd259717}
+      \strng{bibnamehash}{08d4a7b7b5c4eb4150e1e495cd259717}
+      \strng{authorbibnamehash}{08d4a7b7b5c4eb4150e1e495cd259717}
+      \strng{authornamehash}{08d4a7b7b5c4eb4150e1e495cd259717}
+      \strng{authorfullhash}{08d4a7b7b5c4eb4150e1e495cd259717}
+      \strng{authorfullhashraw}{08d4a7b7b5c4eb4150e1e495cd259717}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0010-0870}
+      \field{journaltitle}{College &amp; Research Libraries}
+      \field{number}{6}
+      \field{title}{A Comparative Study of Perceptions and Use of Google Scholar and Academic Library Discovery Systems}
+      \field{volume}{80}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{876\bibrangedash 891}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.5860/crl.80.6.876
+      \endverb
+    \endentry
     \entry{Pakhale2023}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=dc234d76e820bfbf3474e9e4749873c1}{%
@@ -2411,6 +3327,74 @@
       \field{title}{Schrijven van verslag tot eindwerk: do's en don'ts}
       \field{year}{2011}
     \endentry
+    \entry{Pratiba2018}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=52573651bf2f36442733287811d1431c}{%
+           family={PRATIBA},
+           familyi={P\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7a330a729dee7c635fa266ccdc2f4d9}{%
+           family={M.S.},
+           familyi={M\bibinitperiod},
+           given={ABHAY},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=414259fae57bfea3ddf2ea09978eda01}{%
+           family={DUA},
+           familyi={D\bibinitperiod},
+           given={AKHIL},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=376742c8e22a67e97e78664fe82c99bf}{%
+           family={SHANBHAG},
+           familyi={S\bibinitperiod},
+           given={Giridhar\bibnamedelima K.},
+           giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8d67fda3cd19e31c5c145badeb0e5e8}{%
+           family={BHANDARI},
+           familyi={B\bibinitperiod},
+           given={NEEL},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6115e7d1c1cb772265227db9ad6f66f0}{%
+           family={SINGH},
+           familyi={S\bibinitperiod},
+           given={UTKARSH},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{5b7298cb35fa261670d503c1eccd20e6}
+      \strng{fullhash}{450bd4c4ecc08b9121cc0a71a8f56beb}
+      \strng{fullhashraw}{450bd4c4ecc08b9121cc0a71a8f56beb}
+      \strng{bibnamehash}{450bd4c4ecc08b9121cc0a71a8f56beb}
+      \strng{authorbibnamehash}{450bd4c4ecc08b9121cc0a71a8f56beb}
+      \strng{authornamehash}{5b7298cb35fa261670d503c1eccd20e6}
+      \strng{authorfullhash}{450bd4c4ecc08b9121cc0a71a8f56beb}
+      \strng{authorfullhashraw}{450bd4c4ecc08b9121cc0a71a8f56beb}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2018 3rd International Conference on Computational Systems and Information Technology for Sustainable Solutions (CSITSS)}
+      \field{month}{12}
+      \field{title}{Web Scraping And Data Acquisition Using Google Scholar}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{277\bibrangedash 281}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/csitss.2018.8768777
+      \endverb
+    \endentry
     \entry{Pymongo2025}{online}{}{}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
@@ -2463,6 +3447,41 @@
       \endverb
       \verb{url}
       \verb https://github.com/titipata/scipdf_parser
+      \endverb
+    \endentry
+    \entry{Rafsanjani2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=23b3435e29043bbe1dd24c240f7d5b29}{%
+           family={Rafsanjani},
+           familyi={R\bibinitperiod},
+           given={Mohd\bibnamedelima Rifqi},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cold Spring Harbor Laboratory}%
+      }
+      \strng{namehash}{23b3435e29043bbe1dd24c240f7d5b29}
+      \strng{fullhash}{23b3435e29043bbe1dd24c240f7d5b29}
+      \strng{fullhashraw}{23b3435e29043bbe1dd24c240f7d5b29}
+      \strng{bibnamehash}{23b3435e29043bbe1dd24c240f7d5b29}
+      \strng{authorbibnamehash}{23b3435e29043bbe1dd24c240f7d5b29}
+      \strng{authornamehash}{23b3435e29043bbe1dd24c240f7d5b29}
+      \strng{authorfullhash}{23b3435e29043bbe1dd24c240f7d5b29}
+      \strng{authorfullhashraw}{23b3435e29043bbe1dd24c240f7d5b29}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{ScrapPaper: A web scrapping method to extract journal information from PubMed and Google Scholar search result using Python}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1101/2022.03.08.483427
       \endverb
     \endentry
     \entry{Requests2025}{online}{}{}
@@ -2773,6 +3792,65 @@
       \verb https://devguide.python.org/versions/
       \endverb
     \endentry
+    \entry{Sulistya2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3b537133b60e16837957023345565d83}{%
+           family={Sulistya},
+           familyi={S\bibinitperiod},
+           given={Yudha\bibnamedelima Islami},
+           giveni={Y\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d03720d457ce80d80a6cb57fe42a8156}{%
+           family={Wardhana},
+           familyi={W\bibinitperiod},
+           given={Ariq\bibnamedelima Cahya},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c9a27ad5fa405e94d0cf63c4d8958e4}{%
+           family={Istighosah},
+           familyi={I\bibinitperiod},
+           given={Maie},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8efb4b541bd2cb13df4f9d945d48a25}{%
+           family={Riyandi},
+           familyi={R\bibinitperiod},
+           given={Arif},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universitas Dharma Andalas}%
+      }
+      \strng{namehash}{0c1859c80cc9346565e389f79a0f0443}
+      \strng{fullhash}{53221ebca5e5a469bebd2df1bb45f3da}
+      \strng{fullhashraw}{53221ebca5e5a469bebd2df1bb45f3da}
+      \strng{bibnamehash}{53221ebca5e5a469bebd2df1bb45f3da}
+      \strng{authorbibnamehash}{53221ebca5e5a469bebd2df1bb45f3da}
+      \strng{authornamehash}{0c1859c80cc9346565e389f79a0f0443}
+      \strng{authorfullhash}{53221ebca5e5a469bebd2df1bb45f3da}
+      \strng{authorfullhashraw}{53221ebca5e5a469bebd2df1bb45f3da}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2964-2132}
+      \field{journaltitle}{Jurnal Teknologi Dan Sistem Informasi Bisnis}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{Automated Google Scholar Crawling with a Web-Based Tool for Publication Data Management}
+      \field{volume}{6}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{768\bibrangedash 773}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.47233/jteksis.v6i4.1604
+      \endverb
+    \endentry
     \entry{TaxonGrab2024}{online}{}{}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
@@ -2789,6 +3867,70 @@
       \endverb
       \verb{url}
       \verb https://sourceforge.net/projects/taxongrab/
+      \endverb
+    \endentry
+    \entry{Toth2024}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=8f9e537a918a0d15501bf4bd824018b1}{%
+           family={Tóth},
+           familyi={T\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6372ef5bebd0fc639e393c247b4f305a}{%
+           family={Berek},
+           familyi={B\bibinitperiod},
+           given={László},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc19c8941436c5ebe613d40b2baf5646}{%
+           family={Gulácsi},
+           familyi={G\bibinitperiod},
+           given={László},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe08f24577bbb3959f0a6e5c9e30d009}{%
+           family={Péntek},
+           familyi={P\bibinitperiod},
+           given={Márta},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=531ad88c65a4a07f54e477844a28eaad}{%
+           family={Zrubka},
+           familyi={Z\bibinitperiod},
+           given={Zsombor},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{24aad5680fc9a4505c7b8d1f70efb54b}
+      \strng{fullhash}{aa8e1ab41bc1c7d99f362395b77b85d7}
+      \strng{fullhashraw}{aa8e1ab41bc1c7d99f362395b77b85d7}
+      \strng{bibnamehash}{aa8e1ab41bc1c7d99f362395b77b85d7}
+      \strng{authorbibnamehash}{aa8e1ab41bc1c7d99f362395b77b85d7}
+      \strng{authornamehash}{24aad5680fc9a4505c7b8d1f70efb54b}
+      \strng{authorfullhash}{aa8e1ab41bc1c7d99f362395b77b85d7}
+      \strng{authorfullhashraw}{aa8e1ab41bc1c7d99f362395b77b85d7}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2046-4053}
+      \field{journaltitle}{Systematic Reviews}
+      \field{month}{7}
+      \field{number}{1}
+      \field{title}{Automation of systematic reviews of biomedical literature: a scoping review of studies indexed in PubMed}
+      \field{volume}{13}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1186/s13643-024-02592-3
       \endverb
     \endentry
     \entry{Vliz2024}{online}{}{}
@@ -2872,6 +4014,56 @@
       \range{pages}{15}
       \verb{doi}
       \verb 10.1108/el-08-2012-0102
+      \endverb
+    \endentry
+    \entry{Yang2017}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b9dc623a70e0eb2d43929547a2ccc301}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Dazhi},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3dc9318f3bc22fc95320d88476faccb4}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Allan\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa2d397dd80c767b1c789e7e16dee8f3}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Wenjing},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{29d07838bd88d0fe1bef4f394d50dd23}
+      \strng{fullhash}{77e55e84f3bd15171b7f37c8051f6eee}
+      \strng{fullhashraw}{77e55e84f3bd15171b7f37c8051f6eee}
+      \strng{bibnamehash}{77e55e84f3bd15171b7f37c8051f6eee}
+      \strng{authorbibnamehash}{77e55e84f3bd15171b7f37c8051f6eee}
+      \strng{authornamehash}{29d07838bd88d0fe1bef4f394d50dd23}
+      \strng{authorfullhash}{77e55e84f3bd15171b7f37c8051f6eee}
+      \strng{authorfullhashraw}{77e55e84f3bd15171b7f37c8051f6eee}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2017 IEEE International Conference on Big Data (Big Data)}
+      \field{month}{12}
+      \field{title}{Performing literature review using text mining, Part I: Retrieving technology infrastructure using Google Scholar and APIs}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{3290\bibrangedash 3296}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/bigdata.2017.8258313
       \endverb
     \endentry
     \entry{Zhang2013}{inbook}{}{}
