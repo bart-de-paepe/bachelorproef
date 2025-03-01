@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  27 FEB 2025 22:59
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  1 MAR 2025 23:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2259,7 +2259,23 @@ cp;mapping=tex-text;"
 
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
-Underfull \hbox (badness 10000) in paragraph at lines 9--12
+(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
+(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
+Overfull \hbox (2.85933pt too wide) in paragraph at lines 9--22
+\TU/Montserrat(1)/m/n/10.95 voordelen zijn tijdswinst en centrale opslag wat ve
+rdere verwerking ten goede komt. 
+ []
+
+
+Overfull \hbox (21.7805pt too wide) in paragraph at lines 9--22
+\TU/Montserrat(1)/m/n/10.95 omzeilen. Meerdere studies (([]PRATIBA e.a., [][]20
+18[][]),([]Rafsanjani, [][]2022[][]),([]Amin e.a., [][]2024[][]),([]Su-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--22
 
  []
 
@@ -2268,51 +2284,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--12
 [3
 
 ]
-Missing character: There is no ． in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no ． in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-
-LaTeX Warning: Citation 'Lotfi2021' on page 4 undefined on input line 17.
-
-
-LaTeX Warning: Citation '' on page 4 undefined on input line 17.
-
-
-Overfull \hbox (61.53697pt too wide) in paragraph at lines 15--18
-\TU/Montserrat(1)/m/n/10.95 plenteerd zijn ook telkens andere mogelijkheden ([]
-Bhatt e.a., [][]2023[][]). [][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
- []
-
-standvanzaken.tex:31: Text line contains an invalid character.
-l.31 ... classics published in knowledge manage^^B
-                                                  ment journals. Part ii: st...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-
 
 [4]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraCode' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
+
+[5]
 File: ../graphics/grail.jpg Graphic file (type bmp)
 <../graphics/grail.jpg>
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250227225920 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250301231552 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
 
-standvanzaken.tex:54: Package minted Error: minted v3+ executable is not instal
+standvanzaken.tex:44: Package minted Error: minted v3+ executable is not instal
 led or is not added to PATH; or MiKTeX is being used with -aux-directory or -ou
 tput-directory without setting a TEXMF_OUTPUT_DIRECTORY environment variable.
 
@@ -2320,12 +2311,12 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54   \end{minted}
+l.44   \end{minted}
                    
 (That was another \errmessage.)
 
 
-standvanzaken.tex:54: Package minted Error: Missing definition for highlighting
+standvanzaken.tex:44: Package minted Error: Missing definition for highlighting
  style "solarized-light" (minted executable is unavailable or disabled); attemp
 ting to substitute fallback style.
 
@@ -2333,12 +2324,12 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54   \end{minted}
+l.44   \end{minted}
                    
 (That was another \errmessage.)
 
 
-standvanzaken.tex:54: Package minted Error: Missing definition for highlighting
+standvanzaken.tex:44: Package minted Error: Missing definition for highlighting
  style "default" (minted executable is unavailable or disabled); attempting to 
 substitute fallback style.
 
@@ -2346,37 +2337,37 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54   \end{minted}
+l.44   \end{minted}
                    
 (That was another \errmessage.)
 
 
-standvanzaken.tex:54: Package minted Error: Cannot highlight code (minted execu
+standvanzaken.tex:44: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54   \end{minted}
+l.44   \end{minted}
                    
 (That was another \errmessage.)
 
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 54.
+(Font)              scaled to size 6.00064pt on input line 44.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 54.
+(Font)              scaled to size 5.00053pt on input line 44.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 54.
+(Font)              scaled to size 5.99936pt on input line 44.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 54.
+(Font)              scaled to size 4.99947pt on input line 44.
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
-t line 55.
+t line 45.
 ) (methodologie.tex
 
-[5]
-
 [6]
+
+[7]
 Hoofdstuk 3.
 File: ../graphics/./2_parse_zoekresultaat/1_python_release_cycle.jpg Graphic fi
 le (type bmp)
@@ -2386,13 +2377,13 @@ File: ../graphics/./2_parse_zoekresultaat/2_end_of_life_date_python.JPG Graphic
 <../graphics/./2_parse_zoekresultaat/2_end_of_life_date_python.JPG>
 
 
-[7
+[8
 
 ]) (googlescholarzoekopdracht.tex
 
-[8]
-
 [9]
+
+[10]
 Hoofdstuk 4.
 
 Overfull \hbox (16.19698pt too wide) in paragraph at lines 29--29
@@ -2421,11 +2412,11 @@ file (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/2_zoekresultaten.PNG>
 
 
-[10
+[11
 
 ]
 
-[11]
+[12]
 File: ../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG Grap
 hic file (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG>
@@ -2445,9 +2436,9 @@ or  <return>  to continue without it.
 
 
 
-[12]
-
 [13]
+
+[14]
 File: ../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG Graphic f
 ile (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG>
@@ -2459,7 +2450,7 @@ erd een nieuw account \TU/Montserrat(2)/b/n/10.95 google-
 
 
 
-[14]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
@@ -2469,9 +2460,9 @@ e bmp)
 <../graphics/./1_google_scholar_zoekopdracht/5_email.PNG>
 ) (parsezoekresultaat.tex
 
-[15]
-
 [16]
+
+[17]
 Hoofdstuk 5.
 File: ../graphics/./2_parse_zoekresultaat/email-lezen.jpg Graphic file (type bm
 p)
@@ -2484,7 +2475,7 @@ nt google-scholar@marineinfo.org
 
 
 
-[17
+[18
 
 ]
 File: ../graphics/./2_parse_zoekresultaat/email-body-parsen.jpg Graphic file (t
@@ -2492,19 +2483,19 @@ ype bmp)
 <../graphics/./2_parse_zoekresultaat/email-body-parsen.jpg>
 
 
-[18]
+[19]
 File: ../graphics/./2_parse_zoekresultaat/search-doi.jpg Graphic file (type bmp
 )
 <../graphics/./2_parse_zoekresultaat/search-doi.jpg>
 
 
-[19]
+[20]
 File: ../graphics/./2_parse_zoekresultaat/3_use_case_diagram.PNG Graphic file (
 type bmp)
 <../graphics/./2_parse_zoekresultaat/3_use_case_diagram.PNG>
 
 
-[20]
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
 []|\TU/Montserrat(1)/m/n/10.95 Google Scholar stuurt e-mails naar google-
  []
@@ -2578,13 +2569,13 @@ bmp)
 <../graphics/./2_parse_zoekresultaat/4_domeinmodel.PNG>
 
 
-[21]
-
 [22]
 
 [23]
 
 [24]
+
+[25]
 Overfull \hbox (4.12953pt too wide) in paragraph at lines 217--219
 \TU/Montserrat(1)/m/n/10.95 Meerdere specifieke Python libraries ondersteunen a
 lle mogelijke bewerkingen met
@@ -2686,7 +2677,7 @@ n H3-tag met als klasse ’gse_alrt_title’
 
 
 
-[25]
+[26]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 246.
 
@@ -2712,7 +2703,7 @@ Overfull \hbox (18.34286pt too wide) in paragraph at lines 250--251
 
 
 
-[26]
+[27]
 Overfull \hbox (1509.74492pt too wide) in paragraph at lines 254--255
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
@@ -2754,7 +2745,7 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[27]
+[28]
 Overfull \hbox (21.62404pt too wide) in paragraph at lines 296--296
  []        \TU/FiraCode(0)/m/n/10.95 /^10.\d{4}/\d+-\d+X?(\d+)\d+<[\d\w]+:[\d\w
 ]*>\d+.\d+.\w+;\d$/i 
@@ -2768,41 +2759,41 @@ File: ../graphics/./2_parse_zoekresultaat/table_view.JPG Graphic file (type bmp
 <../graphics/./2_parse_zoekresultaat/table_view.JPG>
 
 
-[28]
+[29]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_email.JPG Graphic 
 file (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_email.JPG>
 
 
-[29]
+[30]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_body.JPG Graphic f
 ile (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_body.JPG>
 
 
-[30]
+[31]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_zoekresultaat.JPG 
 Graphic file (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_zoekresultaat.JPG>
 
 
-[31]
+[32]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_link.JPG Graphic f
 ile (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_link.JPG>
 
 
-[32]) (conclusie.tex
+[33]) (conclusie.tex
 
-[33]
+[34]
 Hoofdstuk 6.
 
 
-[34
+[35
 
 ])
 
-[35]
+[36]
 B\ij lage A.
 (../voorstel/voorstel-inhoud.tex
 Overfull \hbox (2.63669pt too wide) in paragraph at lines 20--21
@@ -2812,14 +2803,14 @@ collecties van mariene wetenschap-
 
 
 
-[36
+[37
 
 ]
 File: images/stapsgewijs.png Graphic file (type bmp)
 <images/stapsgewijs.png>
 
 
-[37]
+[38]
 Overfull \hbox (21.94153pt too wide) in paragraph at lines 59--60
 []\TU/Montserrat(1)/m/n/10.95 Google Scholar is een zoekmachine die wetenschapp
 elijke literatuur indexeert ([]“  Google
@@ -2827,7 +2818,7 @@ elijke literatuur indexeert ([]“  Google
 
 
 
-[38]
+[39]
 Overfull \hbox (9.43324pt too wide) in paragraph at lines 67--68
 \TU/Montserrat(1)/m/n/10.95 vend, betrouwbaar en onderscheidbaar geïdentificeer
 d kunnen worden. []Chandrakar
@@ -2835,11 +2826,11 @@ d kunnen worden. []Chandrakar
 
 
 
-[39]
+[40]
 
-[40])
+[41])
 
-[41]
+[42]
 DePaepeBartBP.tex:182: Missing $ inserted.
 <inserted text> 
                 $
@@ -2889,7 +2880,7 @@ n/10.95 . (2025, maart 1). [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][]
 
 
 
-[42
+[43
 
 
 ]
@@ -2898,20 +2889,15 @@ Overfull \hbox (1.74945pt too wide) in paragraph at lines 182--182
 a, de vrije encyclopedie\TU/Montserrat(1)/m/n/10.95 . (2025, maart
  []
 
-Missing character: There is no ． in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no ． in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
 
+
+[44]
 Overfull \hbox (2.26407pt too wide) in paragraph at lines 182--182
 [][]\TU/Montserrat(2)/m/it/10.95 MongoDB\TU/Montserrat(1)/m/n/10.95 . (2025, ma
 art 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][]
 [][][][][] [] [][][][][][] [] [][][][][][][][][] []
  []
 
-
-
-[43]
 DePaepeBartBP.tex:182: Misplaced alignment tab character &.
 <argument> College &
                     amp; Research Libraries
@@ -2938,9 +2924,9 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[44]
+[45]
 
-[45] (DePaepeBartBP.aux)
+[46] (DePaepeBartBP.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -2952,21 +2938,20 @@ LaTeX Warning: There were undefined references.
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
 (rerunfilecheck)             Checksum: C2487EFB2347CF7FA93E059B956322A4;6719.
 
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                DePaepeBartBP
-(biblatex)                and rerun LaTeX afterwards.
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51889 strings out of 408640
- 1063338 string characters out of 5749145
- 2318639 words of memory out of 5000000
- 74133 multiletter control sequences out of 15000+600000
+ 51913 strings out of 408640
+ 1064145 string characters out of 5749145
+ 2319879 words of memory out of 5000000
+ 74153 multiletter control sequences out of 15000+600000
  562748 words of font info for 114 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,12n,131p,1256b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DePaepeBartBP.pdf (54 pages).
+Output written on DePaepeBartBP.pdf (55 pages).
