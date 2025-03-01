@@ -1,12 +1,12 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.18)  27 FEB 2025 16:22
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  27 FEB 2025 22:59
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **./DePaepeBartBP.tex
 (DePaepeBartBP.tex
-LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-08-30>
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
 (hogentreport.cls
 Document Class: hogentreport 2022/06/20 Hogeschool Gent report/thesis class
 (C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty
@@ -18,7 +18,7 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@tempa@toks=\toks18
 
 (C:\Program Files\MiKTeX\tex/generic/xkeyval\keyval.tex))
-\XKV@depth=\count190
+\XKV@depth=\count192
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (C:\Program Files\MiKTeX\tex/generic/oberdiek\iflang.sty
@@ -32,7 +32,7 @@ Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
 (C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
@@ -43,32 +43,33 @@ Package pdftexcmds Info: \pdfdraftmode not found.
 )
 Package iflang Info: Naming convention for patterns: babel.
 ) (C:\Program Files\MiKTeX\tex/latex/base\book.cls
-Document Class: book 2024/02/08 v1.4n Standard LaTeX document class
+Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
 (C:\Program Files\MiKTeX\tex/latex/base\bk11.clo
-File: bk11.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+File: bk11.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count191
-\c@chapter=\count192
-\c@section=\count193
-\c@subsection=\count194
-\c@subsubsection=\count195
-\c@paragraph=\count196
-\c@subparagraph=\count197
-\c@figure=\count198
-\c@table=\count199
+\c@part=\count193
+\c@chapter=\count194
+\c@section=\count195
+\c@subsection=\count196
+\c@subsubsection=\count197
+\c@paragraph=\count198
+\c@subparagraph=\count199
+\c@figure=\count266
+\c@table=\count267
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen141
 )
 (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2024/08/29 v24.9 The Babel package
-\babel@savecnt=\count266
+Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaT
+eX and XeLaTeX
+\babel@savecnt=\count268
 \U@D=\dimen142
 \l@unhyphenated=\language79
 
 (C:\Program Files\MiKTeX\tex/generic/babel\xebabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count267
+\bbl@dirlevel=\count269
 
 *************************************
 * Local config file bblopts.cfg used
@@ -88,8 +89,8 @@ Package babel Info: Importing font and identification data for dutch
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
 
 (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count268
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count270
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.st
 y
@@ -100,7 +101,7 @@ y
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )) (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count269
+\lrq@indent=\count271
 
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -112,49 +113,49 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count270
-\c@listtotal=\count271
-\c@listcount=\count272
-\c@liststart=\count273
-\c@liststop=\count274
-\c@citecount=\count275
-\c@citetotal=\count276
-\c@multicitecount=\count277
-\c@multicitetotal=\count278
-\c@instcount=\count279
-\c@maxnames=\count280
-\c@minnames=\count281
-\c@maxitems=\count282
-\c@minitems=\count283
-\c@citecounter=\count284
-\c@maxcitecounter=\count285
-\c@savedcitecounter=\count286
-\c@uniquelist=\count287
-\c@uniquename=\count288
-\c@refsection=\count289
-\c@refsegment=\count290
-\c@maxextratitle=\count291
-\c@maxextratitleyear=\count292
-\c@maxextraname=\count293
-\c@maxextradate=\count294
-\c@maxextraalpha=\count295
-\c@abbrvpenalty=\count296
-\c@highnamepenalty=\count297
-\c@lownamepenalty=\count298
-\c@maxparens=\count299
-\c@parenlevel=\count300
-\blx@tempcnta=\count301
-\blx@tempcntb=\count302
-\blx@tempcntc=\count303
-\c@blx@maxsection=\count304
-\blx@maxsegment@0=\count305
-\blx@notetype=\count306
-\blx@parenlevel@text=\count307
-\blx@parenlevel@foot=\count308
-\blx@sectionciteorder@0=\count309
-\blx@sectionciteorderinternal@0=\count310
-\blx@entrysetcounter=\count311
-\blx@biblioinstance=\count312
+\c@tabx@nest=\count272
+\c@listtotal=\count273
+\c@listcount=\count274
+\c@liststart=\count275
+\c@liststop=\count276
+\c@citecount=\count277
+\c@citetotal=\count278
+\c@multicitecount=\count279
+\c@multicitetotal=\count280
+\c@instcount=\count281
+\c@maxnames=\count282
+\c@minnames=\count283
+\c@maxitems=\count284
+\c@minitems=\count285
+\c@citecounter=\count286
+\c@maxcitecounter=\count287
+\c@savedcitecounter=\count288
+\c@uniquelist=\count289
+\c@uniquename=\count290
+\c@refsection=\count291
+\c@refsegment=\count292
+\c@maxextratitle=\count293
+\c@maxextratitleyear=\count294
+\c@maxextraname=\count295
+\c@maxextradate=\count296
+\c@maxextraalpha=\count297
+\c@abbrvpenalty=\count298
+\c@highnamepenalty=\count299
+\c@lownamepenalty=\count300
+\c@maxparens=\count301
+\c@parenlevel=\count302
+\blx@tempcnta=\count303
+\blx@tempcntb=\count304
+\blx@tempcntc=\count305
+\c@blx@maxsection=\count306
+\blx@maxsegment@0=\count307
+\blx@notetype=\count308
+\blx@parenlevel@text=\count309
+\blx@parenlevel@foot=\count310
+\blx@sectionciteorder@0=\count311
+\blx@sectionciteorderinternal@0=\count312
+\blx@entrysetcounter=\count313
+\blx@biblioinstance=\count314
 \labelnumberwidth=\skip51
 \labelalphawidth=\skip52
 \biblabelsep=\skip53
@@ -166,9 +167,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language80
-\c@mincomprange=\count313
-\c@maxcomprange=\count314
-\c@mincompwidth=\count315
+\c@mincomprange=\count315
+\c@maxcomprange=\count316
+\c@mincompwidth=\count317
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -183,84 +184,84 @@ File: apa.dbx 2023/03/20 v9.17 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count316
-\c@savedafterword=\count317
-\c@annotator=\count318
-\c@savedannotator=\count319
-\c@author=\count320
-\c@savedauthor=\count321
-\c@bookauthor=\count322
-\c@savedbookauthor=\count323
-\c@commentator=\count324
-\c@savedcommentator=\count325
-\c@editor=\count326
-\c@savededitor=\count327
-\c@editora=\count328
-\c@savededitora=\count329
-\c@editorb=\count330
-\c@savededitorb=\count331
-\c@editorc=\count332
-\c@savededitorc=\count333
-\c@foreword=\count334
-\c@savedforeword=\count335
-\c@holder=\count336
-\c@savedholder=\count337
-\c@introduction=\count338
-\c@savedintroduction=\count339
-\c@namea=\count340
-\c@savednamea=\count341
-\c@nameb=\count342
-\c@savednameb=\count343
-\c@namec=\count344
-\c@savednamec=\count345
-\c@translator=\count346
-\c@savedtranslator=\count347
-\c@shortauthor=\count348
-\c@savedshortauthor=\count349
-\c@shorteditor=\count350
-\c@savedshorteditor=\count351
-\c@narrator=\count352
-\c@savednarrator=\count353
-\c@execproducer=\count354
-\c@savedexecproducer=\count355
-\c@execdirector=\count356
-\c@savedexecdirector=\count357
-\c@with=\count358
-\c@savedwith=\count359
-\c@labelname=\count360
-\c@savedlabelname=\count361
-\c@institution=\count362
-\c@savedinstitution=\count363
-\c@lista=\count364
-\c@savedlista=\count365
-\c@listb=\count366
-\c@savedlistb=\count367
-\c@listc=\count368
-\c@savedlistc=\count369
-\c@listd=\count370
-\c@savedlistd=\count371
-\c@liste=\count372
-\c@savedliste=\count373
-\c@listf=\count374
-\c@savedlistf=\count375
-\c@location=\count376
-\c@savedlocation=\count377
-\c@organization=\count378
-\c@savedorganization=\count379
-\c@origlocation=\count380
-\c@savedoriglocation=\count381
-\c@origpublisher=\count382
-\c@savedorigpublisher=\count383
-\c@publisher=\count384
-\c@savedpublisher=\count385
-\c@language=\count386
-\c@savedlanguage=\count387
-\c@origlanguage=\count388
-\c@savedoriglanguage=\count389
-\c@citation=\count390
-\c@savedcitation=\count391
-\c@pageref=\count392
-\c@savedpageref=\count393
+\c@afterword=\count318
+\c@savedafterword=\count319
+\c@annotator=\count320
+\c@savedannotator=\count321
+\c@author=\count322
+\c@savedauthor=\count323
+\c@bookauthor=\count324
+\c@savedbookauthor=\count325
+\c@commentator=\count326
+\c@savedcommentator=\count327
+\c@editor=\count328
+\c@savededitor=\count329
+\c@editora=\count330
+\c@savededitora=\count331
+\c@editorb=\count332
+\c@savededitorb=\count333
+\c@editorc=\count334
+\c@savededitorc=\count335
+\c@foreword=\count336
+\c@savedforeword=\count337
+\c@holder=\count338
+\c@savedholder=\count339
+\c@introduction=\count340
+\c@savedintroduction=\count341
+\c@namea=\count342
+\c@savednamea=\count343
+\c@nameb=\count344
+\c@savednameb=\count345
+\c@namec=\count346
+\c@savednamec=\count347
+\c@translator=\count348
+\c@savedtranslator=\count349
+\c@shortauthor=\count350
+\c@savedshortauthor=\count351
+\c@shorteditor=\count352
+\c@savedshorteditor=\count353
+\c@narrator=\count354
+\c@savednarrator=\count355
+\c@execproducer=\count356
+\c@savedexecproducer=\count357
+\c@execdirector=\count358
+\c@savedexecdirector=\count359
+\c@with=\count360
+\c@savedwith=\count361
+\c@labelname=\count362
+\c@savedlabelname=\count363
+\c@institution=\count364
+\c@savedinstitution=\count365
+\c@lista=\count366
+\c@savedlista=\count367
+\c@listb=\count368
+\c@savedlistb=\count369
+\c@listc=\count370
+\c@savedlistc=\count371
+\c@listd=\count372
+\c@savedlistd=\count373
+\c@liste=\count374
+\c@savedliste=\count375
+\c@listf=\count376
+\c@savedlistf=\count377
+\c@location=\count378
+\c@savedlocation=\count379
+\c@organization=\count380
+\c@savedorganization=\count381
+\c@origlocation=\count382
+\c@savedoriglocation=\count383
+\c@origpublisher=\count384
+\c@savedorigpublisher=\count385
+\c@publisher=\count386
+\c@savedpublisher=\count387
+\c@language=\count388
+\c@savedlanguage=\count389
+\c@origlanguage=\count390
+\c@savedoriglanguage=\count391
+\c@citation=\count392
+\c@savedcitation=\count393
+\c@pageref=\count394
+\c@savedpageref=\count395
 \shorthandwidth=\skip59
 \shortjournalwidth=\skip60
 \shortserieswidth=\skip61
@@ -290,19 +291,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count394
-\c@textcitetotal=\count395
-\c@textcitemaxnames=\count396
-\c@biburlbigbreakpenalty=\count397
-\c@biburlbreakpenalty=\count398
-\c@biburlnumpenalty=\count399
-\c@biburlucpenalty=\count400
-\c@biburllcpenalty=\count401
+\c@textcitecount=\count396
+\c@textcitetotal=\count397
+\c@textcitemaxnames=\count398
+\c@biburlbigbreakpenalty=\count399
+\c@biburlbreakpenalty=\count400
+\c@biburlnumpenalty=\count401
+\c@biburlucpenalty=\count402
+\c@biburllcpenalty=\count403
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count402
+\c@smartand=\count404
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -322,8 +323,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count403
-\c@bbx:relatedtotal=\count404
+\c@bbx:relatedcount=\count405
+\c@bbx:relatedtotal=\count406
 )
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defin
 ed, overwriting.
@@ -370,17 +371,17 @@ Package biblatex Info: XeTeX detected.
 Package biblatex Info: Document encoding is UTF8 ....
 
 (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2024-08-30 L3 programming layer (loader) 
+Package: expl3 2025-01-18 L3 programming layer (loader) 
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-xetex.def
 File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
-\g__graphics_track_int=\count405
+\g__graphics_track_int=\count407
 \l__pdf_internal_box=\box52
-\g__pdf_backend_annotation_int=\count406
-\g__pdf_backend_link_int=\count407
+\g__pdf_backend_annotation_int=\count408
+\g__pdf_backend_link_int=\count409
 ))
 Package biblatex Info: ... and expl3
-(biblatex)             2024-08-30 L3 programming layer (loader) 
+(biblatex)             2025-01-18 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
@@ -392,12 +393,12 @@ Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 ))
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count408
-\csq@gtype=\count409
-\csq@glevel=\count410
-\csq@qlevel=\count411
-\csq@maxlvl=\count412
-\csq@tshold=\count413
+\csq@reset=\count410
+\csq@gtype=\count411
+\csq@glevel=\count412
+\csq@qlevel=\count413
+\csq@maxlvl=\count414
+\csq@tshold=\count415
 \csq@ltx@everypar=\toks19
 
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/csquotes\csquotes.def
@@ -422,8 +423,8 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen150
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count414
-\c@continuedfloat=\count415
+\c@caption@flags=\count416
+\c@continuedfloat=\count417
 ) (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/footmisc\footmisc.st
 y
 Package: footmisc 2024/12/24 v6.0g a miscellany of footnote facilities
@@ -453,9 +454,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count416
-\Gm@cntv=\count417
-\c@Gm@tempcnt=\count418
+\Gm@cnth=\count418
+\Gm@cntv=\count419
+\c@Gm@tempcnt=\count420
 \Gm@bindingoffset=\dimen153
 \Gm@wd@mp=\dimen154
 \Gm@odd@mp=\dimen155
@@ -471,7 +472,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 
 (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
@@ -488,7 +489,7 @@ File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 \Gin@req@width=\dimen162
 )
 (C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2024-07-10 v7.01j Hypertext links for LaTeX
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
 
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefin
 ekeys.sty
@@ -511,7 +512,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 tlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count419
+\c@section@level=\count421
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/generic/stringenc\stringenc.
 sty
@@ -519,17 +520,17 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen163
-\Hy@linkcounter=\count420
-\Hy@pagecounter=\count421
+\Hy@linkcounter=\count422
+\Hy@pagecounter=\count423
  (C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count422
+\Hy@SavedSpaceFactor=\count424
 (C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Option `plainpages' set `false' on input line 4040.
 Package hyperref Info: Option `breaklinks' set `true' on input line 4040.
@@ -540,7 +541,7 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count423
+\c@Hy@tempcnt=\count425
 LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen164
 
@@ -552,7 +553,7 @@ c.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count424
+\Fld@menulength=\count426
 \Field@Width=\dimen165
 \Fld@charsize=\dimen166
 Package hyperref Info: Hyper figures OFF on input line 6042.
@@ -566,19 +567,19 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count425
-\c@Item=\count426
-\c@Hfootnote=\count427
+\Hy@abspage=\count427
+\c@Item=\count428
+\c@Hfootnote=\count429
 )
 Package hyperref Info: Driver: hxetex.
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\hxetex.def
-File: hxetex.def 2024-07-10 v7.01j Hyperref driver for XeTeX
+File: hxetex.def 2024-11-05 v7.01l Hyperref driver for XeTeX
 \pdfm@box=\box53
-\c@Hy@AnnotLevel=\count428
-\HyField@AnnotCount=\count429
-\Fld@listcount=\count430
-\c@bookmark@seq@number=\count431
+\c@Hy@AnnotLevel=\count430
+\HyField@AnnotCount=\count431
+\Fld@listcount=\count432
+\c@bookmark@seq@number=\count433
 
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfi
 lecheck.sty
@@ -602,17 +603,17 @@ Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
 (C:\Program Files\MiKTeX\tex/latex/fontspec\fontspec-xetex.sty
 Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count432
-\l__fontspec_language_int=\count433
-\l__fontspec_strnum_int=\count434
-\l__fontspec_tmp_int=\count435
-\l__fontspec_tmpa_int=\count436
-\l__fontspec_tmpb_int=\count437
-\l__fontspec_tmpc_int=\count438
-\l__fontspec_em_int=\count439
-\l__fontspec_emdef_int=\count440
-\l__fontspec_strong_int=\count441
-\l__fontspec_strongdef_int=\count442
+\l__fontspec_script_int=\count434
+\l__fontspec_language_int=\count435
+\l__fontspec_strnum_int=\count436
+\l__fontspec_tmp_int=\count437
+\l__fontspec_tmpa_int=\count438
+\l__fontspec_tmpb_int=\count439
+\l__fontspec_tmpc_int=\count440
+\l__fontspec_em_int=\count441
+\l__fontspec_emdef_int=\count442
+\l__fontspec_strong_int=\count443
+\l__fontspec_strongdef_int=\count444
 \l__fontspec_tmpa_dim=\dimen167
 \l__fontspec_tmpb_dim=\dimen168
 \l__fontspec_tmpc_dim=\dimen169
@@ -641,7 +642,7 @@ File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2024/05/23 v2.17q AMS math features
+Package: amsmath 2024/11/05 v2.17t AMS math features
 \@mathmargin=\skip74
 
 For additional information on amsmath, use the `?' option.
@@ -660,14 +661,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count443
+\inf@bad=\count445
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count444
-\leftroot@=\count445
+\uproot@=\count446
+\leftroot@=\count447
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count446
-\DOTSCASE@=\count447
+\classnum@=\count448
+\DOTSCASE@=\count449
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -680,20 +681,20 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen172
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count448
+\macc@depth=\count450
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count449
+\c@MaxMatrixCols=\count451
 \dotsspace@=\muskip22
-\c@parentequation=\count450
-\dspbrk@lvl=\count451
+\c@parentequation=\count452
+\dspbrk@lvl=\count453
 \tag@help=\toks23
-\row@=\count452
-\column@=\count453
-\maxfields@=\count454
+\row@=\count454
+\column@=\count455
+\maxfields@=\count456
 \andhelp@=\toks24
 \eqnshift@=\dimen173
 \alignsep@=\dimen174
@@ -708,9 +709,9 @@ LaTeX Info: Redefining \Relbar on input line 970.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-\g__um_fam_int=\count455
-\g__um_fonts_used_int=\count456
-\l__um_primecount_int=\count457
+\g__um_fam_int=\count457
+\g__um_fonts_used_int=\count458
+\l__um_primecount_int=\count459
 \g__um_primekern_muskip=\muskip23
 
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/unicode-math\unicode-m
@@ -721,7 +722,7 @@ Package: realscripts 2016/02/13 v0.3d Access OpenType subscripts and superscrip
 ts
 \subsupersep=\dimen179
 ) (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
 (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
@@ -729,14 +730,14 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package xcolor Info: Driver file: xetex.def on input line 274.
 
 (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
-Package xcolor Info: Model `RGB' extended on input line 1366.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
 (C:\Program Files\MiKTeX\tex/latex/graphics\dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
@@ -783,14 +784,14 @@ tex
 \pgf@yd=\dimen191
 \w@pgf@writea=\write4
 \r@pgf@reada=\read4
-\c@pgf@counta=\count458
-\c@pgf@countb=\count459
-\c@pgf@countc=\count460
-\c@pgf@countd=\count461
+\c@pgf@counta=\count460
+\c@pgf@countb=\count461
+\c@pgf@countc=\count462
+\c@pgf@countd=\count463
 \t@pgf@toka=\toks31
 \t@pgf@tokb=\toks32
 \t@pgf@tokc=\toks33
-\pgf@sys@id@count=\count462
+\pgf@sys@id@count=\count464
  (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -805,12 +806,12 @@ File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
 (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )
-\pgfsys@objnum=\count463
+\pgfsys@objnum=\count465
 )))
 (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count464
-\pgfsyssoftpath@bigbuffer@items=\count465
+\pgfsyssoftpath@smallbuffer@items=\count466
+\pgfsyssoftpath@bigbuffer@items=\count467
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -822,7 +823,7 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex)
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen192
-\pgfmath@count=\count466
+\pgfmath@count=\count468
 \pgfmath@box=\box57
 \pgfmath@toks=\toks34
 \pgfmath@stack@operand=\toks35
@@ -842,7 +843,7 @@ tex)
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmeti
 cs.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count467
+\c@pgfmathroundto@lastzeros=\count469
 ))
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
@@ -878,7 +879,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box58
 \pgf@hbox=\box59
 \pgf@layerbox@main=\box60
-\pgf@picture@serial@count=\count468
+\pgf@picture@serial@count=\count470
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.te
 x
@@ -905,8 +906,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen272
-\pgf@sys@shading@range@num=\count469
-\pgf@shadingcount=\count470
+\pgf@sys@shading@range@num=\count471
+\pgf@shadingcount=\count472
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -958,7 +959,7 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.
 tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count471
+\pgf@plot@mark@count=\count473
 \pgfplotmarksize=\dimen277
 )
 \tikz@lastx=\dimen278
@@ -973,17 +974,17 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box64
 \tikz@tempbox=\box65
 \tikz@tempbox@bg=\box66
-\tikztreelevel=\count472
-\tikznumberofchildren=\count473
-\tikznumberofcurrentchild=\count474
-\tikz@fig@count=\count475
+\tikztreelevel=\count474
+\tikznumberofchildren=\count475
+\tikznumberofcurrentchild=\count476
+\tikz@fig@count=\count477
  (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count476
-\pgfmatrixcurrentcolumn=\count477
-\pgf@matrix@numberofcolumns=\count478
+\pgfmatrixcurrentrow=\count478
+\pgfmatrixcurrentcolumn=\count479
+\pgf@matrix@numberofcolumns=\count480
 )
-\tikz@expandcount=\count479
+\tikz@expandcount=\count481
 
 (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
 rytopaths.code.tex
@@ -1018,7 +1019,7 @@ Package: filehook 2022/10/25 v0.8b Hooks for input files
 .sty
 Package: filehook-2020 2022/10/25 v0.8b Hooks for input files
 ))
-\c@currfiledepth=\count480
+\c@currfiledepth=\count482
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/gincltex\gincltex.sty
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/svn-prov\svn-prov.sty
@@ -1063,12 +1064,12 @@ File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/ifoddpage\ifoddpage.st
 y
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count481
+\c@checkoddpage=\count483
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box70
-\sift@deathcycles=\count482
+\sift@deathcycles=\count484
 \@vwid@loff=\dimen298
 \@vwid@roff=\dimen299
 ))
@@ -1077,16 +1078,16 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen300
 \WF@size=\dimen301
-\c@WF@wrappedlines=\count483
+\c@WF@wrappedlines=\count485
 \WF@box=\box72
 \WF@everypar=\toks39
 Package: wrapfig 2003/01/31  v 3.6
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/appendix\appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count484
-\c@@ppsavesec=\count485
-\c@@ppsaveapp=\count486
+\c@@pps=\count486
+\c@@ppsavesec=\count487
+\c@@ppsaveapp=\count488
 ) (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/booktabs\booktabs.st
 y
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
@@ -1100,36 +1101,42 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen309
 \cmidrulekern=\dimen310
 \defaultaddspace=\dimen311
-\@cmidla=\count487
-\@cmidlb=\count488
+\@cmidla=\count489
+\@cmidlb=\count490
 \@aboverulesep=\dimen312
 \@belowrulesep=\dimen313
-\@thisruleclass=\count489
-\@lastruleclass=\count490
+\@thisruleclass=\count491
+\@lastruleclass=\count492
 \@thisrulewidth=\dimen314
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/enumitem\enumitem.sty
-Package: enumitem 2019/06/20 v3.9 Customized lists
+Package: enumitem 2025/02/06 v3.11 Customized lists
 \enitkv@toks@=\toks40
 \labelindent=\skip77
 \enit@outerparindent=\dimen315
 \enit@toks=\toks41
 \enit@inbox=\box73
-\enit@count@id=\count491
-\enitdp@description=\count492
+\enit@count@id=\count493
+\enitdp@description=\count494
 ) (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/fancyhdr\fancyhdr.st
 y
-Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and foote
-rs
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
 \f@nch@headwidth=\skip78
-\f@nch@O@elh=\skip79
-\f@nch@O@erh=\skip80
-\f@nch@O@olh=\skip81
-\f@nch@O@orh=\skip82
-\f@nch@O@elf=\skip83
-\f@nch@O@erf=\skip84
-\f@nch@O@olf=\skip85
-\f@nch@O@orf=\skip86
+\f@nch@offset@elh=\skip79
+\f@nch@offset@erh=\skip80
+\f@nch@offset@olh=\skip81
+\f@nch@offset@orh=\skip82
+\f@nch@offset@elf=\skip83
+\f@nch@offset@erf=\skip84
+\f@nch@offset@olf=\skip85
+\f@nch@offset@orf=\skip86
+\f@nch@height=\skip87
+\f@nch@footalignment=\skip88
+\f@nch@widthL=\skip89
+\f@nch@widthC=\skip90
+\f@nch@widthR=\skip91
+\@temptokenb=\toks42
 ) (C:\Program Files\MiKTeX\tex/latex/base\makeidx.sty
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 )
@@ -1137,34 +1144,34 @@ Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 
 (C:\Program Files\MiKTeX\tex/latex/tools\array.sty
-Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \col@sep=\dimen316
 \ar@mcellbox=\box74
 \extrarowheight=\dimen317
-\NC@list=\toks42
-\extratabsurround=\skip87
-\backup@length=\skip88
+\NC@list=\toks43
+\extratabsurround=\skip92
+\backup@length=\skip93
 \ar@cellbox=\box75
 )
 \rotheadsize=\dimen318
-\c@nlinenum=\count493
-\TeXr@lab=\toks43
+\c@nlinenum=\count495
+\TeXr@lab=\toks44
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/pdfpages\pdfpages.sty
-Package: pdfpages 2024/10/28 v0.6c Insert pages of external PDF documents (AM)
+Package: pdfpages 2025/01/30 v0.6e Insert pages of external PDF documents (AM)
 
 (C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count494
-\calc@Bcount=\count495
+\calc@Acount=\count496
+\calc@Bcount=\count497
 \calc@Adimen=\dimen319
 \calc@Bdimen=\dimen320
-\calc@Askip=\skip89
-\calc@Bskip=\skip90
+\calc@Askip=\skip94
+\calc@Bskip=\skip95
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count496
-\calc@Cskip=\skip91
+\calc@Ccount=\count498
+\calc@Cskip=\skip96
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
@@ -1176,23 +1183,23 @@ Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 \AM@fboxrule=\dimen325
 
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/pdfpages\ppxetex.def
-File: ppxetex.def 2024/10/28 v0.6c Pdfpages driver for XeTeX (AM)
+File: ppxetex.def 2025/01/30 v0.6e Pdfpages driver for XeTeX (AM)
 )
-\pdfpages@includegraphics@status=\count497
+\pdfpages@includegraphics@status=\count499
 \AM@pagebox=\box76
-\AM@global@opts=\toks44
-\AM@pagecnt=\count498
-\AM@toc@title=\toks45
-\AM@lof@heading=\toks46
-\c@AM@survey=\count499
+\AM@global@opts=\toks45
+\AM@pagecnt=\count500
+\AM@toc@title=\toks46
+\AM@lof@heading=\toks47
+\c@AM@survey=\count501
 \AM@templatesizebox=\box77
 ) (C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count500
-\rotFPtop=\skip92
-\rotFPbot=\skip93
+\c@r@tfl@t=\count502
+\rotFPtop=\skip97
+\rotFPbot=\skip98
 \rot@float@box=\box78
-\rot@mess@toks=\toks47
+\rot@mess@toks=\toks48
 )
 (C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
@@ -1201,16 +1208,16 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@old@col=\dimen328
 \TX@target=\dimen329
 \TX@delta=\dimen330
-\TX@cols=\count501
-\TX@ftn=\toks48
+\TX@cols=\count503
+\TX@ftn=\toks49
 )
 (C:\Program Files\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
-Package: tcolorbox 2024/07/10 version 6.3.0 text color boxes
+Package: tcolorbox 2024/10/22 version 6.4.1 text color boxes
 
 (C:\Program Files\MiKTeX\tex/latex/tools\verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks49
-\verbatim@line=\toks50
+\every@verbatim=\toks50
+\verbatim@line=\toks51
 \verbatim@in@stream=\read5
 )
 (C:\Program Files\MiKTeX\tex/latex/environ\environ.sty
@@ -1223,9 +1230,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box80
 \tcb@lowerbox=\box81
 \tcb@phantombox=\box82
-\c@tcbbreakpart=\count502
-\c@tcblayer=\count503
-\c@tcolorbox@number=\count504
+\c@tcbbreakpart=\count504
+\c@tcblayer=\count505
+\c@tcolorbox@number=\count506
 \l__tcobox_tmpa_box=\box83
 \l__tcobox_tmpa_dim=\dimen331
 \tcb@temp=\box84
@@ -1234,19 +1241,19 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box87
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/titlesec\titlesec.sty
-Package: titlesec 2023/10/27 v2.16 Sectioning titles
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box88
-\beforetitleunit=\skip94
-\aftertitleunit=\skip95
+\beforetitleunit=\skip99
+\aftertitleunit=\skip100
 \ttl@plus=\dimen332
 \ttl@minus=\dimen333
-\ttl@toksa=\toks51
+\ttl@toksa=\toks52
 \titlewidth=\dimen334
 \titlewidthlast=\dimen335
 \titlewidthfirst=\dimen336
 ) (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/titlesec\titletoc.st
 y
-Package: titletoc 2023/10/27 v2.16 TOC entries
+Package: titletoc 2025/01/04 v2.17 TOC entries
 \ttl@leftsep=\dimen337
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/tocbibind\tocbibind.st
@@ -1263,30 +1270,35 @@ Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.st
 y
-Package: microtype 2024/03/29 v3.1b Micro-typographical refinements (RS)
-\MT@toks=\toks52
+Package: microtype 2025/02/11 v3.2a Micro-typographical refinements (RS)
+\MT@toks=\toks53
 \MT@tempbox=\box90
-\MT@count=\count505
-LaTeX Info: Redefining \noprotrusionifhmode on input line 1061.
-LaTeX Info: Redefining \leftprotrusion on input line 1062.
-\MT@prot@toks=\toks53
-LaTeX Info: Redefining \rightprotrusion on input line 1081.
-LaTeX Info: Redefining \textls on input line 1392.
+\MT@count=\count507
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
+\MT@prot@toks=\toks54
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \textls on input line 1449.
 \MT@outer@kern=\dimen338
-LaTeX Info: Redefining \textmicrotypecontext on input line 2013.
-\MT@listname@count=\count506
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count508
 
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype-xe
 tex.def
-File: microtype-xetex.def 2024/03/29 v3.1b Definitions specific to xetex (RS)
-LaTeX Info: Redefining \lsstyle on input line 238.
+File: microtype-xetex.def 2025/02/11 v3.2a Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 443.
+LaTeX Info: Redefining \lslig on input line 451.
+\MT@outer@space=\skip101
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.cf
 g
-File: microtype.cfg 2024/03/29 v3.1b microtype main configuration file (RS)
-)) (C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty
+File: microtype.cfg 2025/02/11 v3.2a microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+) (C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 )
 (C:\Program Files\MiKTeX\tex/latex/tools\xspace.sty
@@ -1747,29 +1759,29 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 664.
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/lipsum\lipsum.sty
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count507
-\l__lipsum_a_int=\count508
-\l__lipsum_b_int=\count509
+\g__lipsum_par_int=\count509
+\l__lipsum_a_int=\count510
+\l__lipsum_b_int=\count511
 
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
-\everycr=\toks54
-\minrowclearance=\skip96
-\rownum=\count510
+\everycr=\toks55
+\minrowclearance=\skip102
+\rownum=\count512
 ) (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count511
-\float@exts=\toks55
+\c@float@type=\count513
+\float@exts=\toks56
 \float@box=\box92
-\@float@everytoks=\toks56
+\@float@everytoks=\toks57
 \@floatcapt=\box93
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/placeins\placeins.sty
 Package: placeins 2005/04/18  v 2.2
 ) (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/minted\minted.sty
-Package: minted 2024/11/17 v3.4.0 Yet another Pygments shim for LaTeX
+Package: minted 2025/02/12 v3.5.1 Yet another Pygments shim for LaTeX
 
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/generic/catchfile\catchfile.
 sty
@@ -1780,74 +1792,74 @@ y
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 ))
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/fvextra\fvextra.sty
-Package: fvextra 2024/11/17 v1.10.0 fvextra - extensions and patches for fancyv
+Package: fvextra 2025/02/09 v1.11.0 fvextra - extensions and patches for fancyv
 rb
 
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
 Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
-\FV@CodeLineNo=\count512
+\FV@CodeLineNo=\count514
 \FV@InFile=\read6
 \FV@TabBox=\box94
-\c@FancyVerbLine=\count513
-\FV@StepNumber=\count514
+\c@FancyVerbLine=\count515
+\FV@StepNumber=\count516
 \FV@OutFile=\write5
 ) (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/upquote\upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/lineno\lineno.sty
-Package: lineno 2023/05/20 line numbers on paragraphs v5.3
-Invalid UTF-8 byte or sequence at line 292 replaced by U+FFFD.
-\linenopenalty=\count515
-\output=\toks57
-\linenoprevgraf=\count516
+Package: lineno 2025/01/29 line numbers on paragraphs v5.4
+\linenopenalty=\count517
+\output=\toks58
+\linenoprevgraf=\count518
 \linenumbersep=\dimen339
 \linenumberwidth=\dimen340
-\c@linenumber=\count517
-\c@pagewiselinenumber=\count518
-\c@LN@truepage=\count519
-\c@internallinenumber=\count520
-\c@internallinenumbers=\count521
+\c@linenumber=\count519
+\c@pagewiselinenumber=\count520
+\c@LN@truepage=\count521
+\c@internallinenumber=\count522
+\c@internallinenumbers=\count523
 \quotelinenumbersep=\dimen341
 \bframerule=\dimen342
 \bframesep=\dimen343
 \bframebox=\box95
-\linenoamsmath@ams@eqpen=\count522
+\@LN@amsmath@ams@eqpen=\count524
 
 
 LaTeX Warning: Command \@parboxrestore  has changed.
                Check if current package is valid.
 
-LaTeX Info: Redefining \\ on input line 3180.
+LaTeX Info: Redefining \\ on input line 3187.
 )
 
 Package fvextra Warning: csquotes should be loaded after fvextra, to avoid a wa
 rning from the lineno package on input line 36.
 
-\c@FancyVerbWriteLine=\count523
-\c@FancyVerbBufferLine=\count524
-\c@FV@TrueTabGroupLevel=\count525
-\c@FV@TrueTabCounter=\count526
+\c@FancyVerbWriteLine=\count525
+\c@FancyVerbBufferLine=\count526
+\c@FV@TrueTabGroupLevel=\count527
+\c@FV@TrueTabCounter=\count528
 \FV@TabBox@Group=\box96
-\FV@TmpLength=\skip97
-\c@FV@HighlightLinesStart=\count527
-\c@FV@HighlightLinesStop=\count528
-\FV@LoopCount=\count529
-\FV@NCharsBox=\box97
+\FV@bgcolorstructbox=\box97
+\FV@TmpLength=\skip103
+\c@FV@HighlightLinesStart=\count529
+\c@FV@HighlightLinesStop=\count530
+\FV@LoopCount=\count531
+\FV@NCharsBox=\box98
 \FV@BreakIndent=\dimen344
-\FV@BreakIndentNChars=\count530
+\FV@BreakIndentNChars=\count532
 \FV@BreakSymbolSepLeft=\dimen345
-\FV@BreakSymbolSepLeftNChars=\count531
+\FV@BreakSymbolSepLeftNChars=\count533
 \FV@BreakSymbolSepRight=\dimen346
-\FV@BreakSymbolSepRightNChars=\count532
+\FV@BreakSymbolSepRightNChars=\count534
 \FV@BreakSymbolIndentLeft=\dimen347
-\FV@BreakSymbolIndentLeftNChars=\count533
+\FV@BreakSymbolIndentLeftNChars=\count535
 \FV@BreakSymbolIndentRight=\dimen348
-\FV@BreakSymbolIndentRightNChars=\count534
-\c@FancyVerbLineBreakLast=\count535
-\FV@LineBox=\box98
-\FV@LineIndentBox=\box99
-\c@FV@BreakBufferDepth=\count536
+\FV@BreakSymbolIndentRightNChars=\count536
+\c@FancyVerbLineBreakLast=\count537
+\FV@LineBox=\box99
+\FV@LineIndentBox=\box100
+\c@FV@BreakBufferDepth=\count538
 \FV@LineWidth=\dimen349
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/latex2pydata\latex2pyd
@@ -1857,8 +1869,8 @@ thon literal format
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/pgfopts\pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks58
-\pgfopts@list@add@b@toks=\toks59
+\pgfopts@list@add@a@toks=\toks59
+\pgfopts@list@add@b@toks=\toks60
 )
 
 C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/minted\minted.sty:282: 
@@ -1878,36 +1890,36 @@ command, so I can't give any explicit help.
 Pretend that you're Hercule Poirot: Examine all clues,
 and deduce the truth by order and method.
 
-\c@minted@FancyVerbLineTemp=\count537
-\@float@every@listing=\toks60
-\c@listing=\count538
+\c@minted@FancyVerbLineTemp=\count539
+\@float@every@listing=\toks61
+\c@listing=\count540
 ) (C:\Program Files\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count539
-\lst@gtempboxa=\box100
-\lst@token=\toks61
-\lst@length=\count540
+\lst@mode=\count541
+\lst@gtempboxa=\box101
+\lst@token=\toks62
+\lst@length=\count542
 \lst@currlwidth=\dimen350
-\lst@column=\count541
-\lst@pos=\count542
+\lst@column=\count543
+\lst@pos=\count544
 \lst@lostspace=\dimen351
 \lst@width=\dimen352
-\lst@newlines=\count543
-\lst@lineno=\count544
+\lst@newlines=\count545
+\lst@lineno=\count546
 \lst@maxwidth=\dimen353
 
 (C:\Program Files\MiKTeX\tex/latex/listings\lstpatch.sty
-File: lstpatch.sty 2024/05/25 1.10b (Carsten Heinz)
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 )
 (C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
-\c@lstnumber=\count545
-\lst@skipnumbers=\count546
-\lst@framebox=\box101
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count547
+\lst@skipnumbers=\count548
+\lst@framebox=\box102
 )
 (C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg
-File: listings.cfg 2024/05/25 1.10b listings configuration
+File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
-Package: listings 2024/05/25 1.10b (Carsten Heinz)
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1915,26 +1927,26 @@ Package csquotes Info: Redefining alias 'default' -> 'dutch'.
  (DePaepeBartBP.aux)
 \openout1 = `DePaepeBartBP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
 Package biblatex Info: Trying to load language 'dutch' -> 'dutch-apa'...
 Package biblatex Info: ... file 'dutch-apa.lbx' found.
 
@@ -1961,8 +1973,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'DePaepeBartBP.bbl' found.
  (DePaepeBartBP.bbl)
-Package biblatex Info: Reference section=0 on input line 83.
-Package biblatex Info: Reference segment=0 on input line 83.
+Package biblatex Info: Reference section=0 on input line 84.
+Package biblatex Info: Reference segment=0 on input line 84.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -2003,7 +2015,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 83.
+Package hyperref Info: Link coloring ON on input line 84.
 (DePaepeBartBP.out) (DePaepeBartBP.out)
 \@outlinefile=\write6
 \openout6 = `DePaepeBartBP.out'.
@@ -2023,12 +2035,16 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 ))
-LaTeX Info: Redefining \microtypecontext on input line 83.
-Package microtype Info: Applying patch `item' on input line 83.
-Package microtype Info: Applying patch `toc' on input line 83.
-Package microtype Info: Applying patch `eqnum' on input line 83.
-Package microtype Info: Applying patch `footnote' on input line 83.
-Package microtype Info: Applying patch `verbatim' on input line 83.
+Package microtype Info: Patching varwidth to enable character protrusion.
+\MT@vwid@leftmargin=\dimen354
+\MT@vwid@rightmargin=\dimen355
+LaTeX Info: Redefining \microtypecontext on input line 84.
+Package microtype Info: Applying patch `item' on input line 84.
+Package microtype Info: Applying patch `toc' on input line 84.
+Package microtype Info: Applying patch `eqnum' on input line 84.
+Package microtype Info: Applying patch `footnote' on input line 84.
+Package microtype Info: Applying patch `verbatim' on input line 84.
+LaTeX Info: Redefining \microtypesetup on input line 84.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -2038,8 +2054,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Montserrat' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c@lstlisting=\count547
-Package hyperref Info: Option `pageanchor' set `false' on input line 89.
+\c@lstlisting=\count549
+Package hyperref Info: Option `pageanchor' set `false' on input line 90.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -2073,39 +2089,39 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 89.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (16.05293pt too wide) in paragraph at lines 100--100
+Overfull \hbox (16.05293pt too wide) in paragraph at lines 101--101
 []\TU/Montserrat(0)/b/n/24.88 Google Scholar zoekresultaten voor we-
  []
 
 
-Overfull \hbox (6.32484pt too wide) in paragraph at lines 100--100
+Overfull \hbox (6.32484pt too wide) in paragraph at lines 101--101
 \TU/Montserrat(0)/b/n/24.88 tenschappelijke projecten: linked data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 
  []
 
-Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 101 replaced by U+FFFD.
 File: ../graphics/hogent_logo.eps Graphic file (type eps)
 <../graphics/hogent_logo.eps>
 
@@ -2118,7 +2134,7 @@ File: ../graphics/hogent_logo.eps Graphic file (type eps)
 ]
 
 [2]
-Package hyperref Info: Option `pageanchor' set `true' on input line 101.
+Package hyperref Info: Option `pageanchor' set `true' on input line 102.
  (voorwoord.tex) (samenvatting.tex
 
 [3
@@ -2198,133 +2214,6 @@ Hoofdstuk 1.
 
 [2]
 Hoofdstuk 2.
-Missing character: There is no ． in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no ． in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-
-
-[3
-
-]
-standvanzaken.tex:26: Text line contains an invalid character.
-l.26 ... classics published in knowledge manage^^B
-                                                  ment journals. Part ii: st...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `FiraCode' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-
-[4]
-File: ../graphics/grail.jpg Graphic file (type bmp)
-<../graphics/grail.jpg>
-\pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
-\openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
-
-runsystem(latexminted config  --timestamp 20250227162200 3C6BBBE75A5E28CE77F5BD
-994A368090)...executed.
-
-
-
-standvanzaken.tex:49: Package minted Error: minted v3+ executable is not instal
-led or is not added to PATH; or MiKTeX is being used with -aux-directory or -ou
-tput-directory without setting a TEXMF_OUTPUT_DIRECTORY environment variable.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49   \end{minted}
-                   
-(That was another \errmessage.)
-
-
-standvanzaken.tex:49: Package minted Error: Missing definition for highlighting
- style "solarized-light" (minted executable is unavailable or disabled); attemp
-ting to substitute fallback style.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49   \end{minted}
-                   
-(That was another \errmessage.)
-
-
-standvanzaken.tex:49: Package minted Error: Missing definition for highlighting
- style "default" (minted executable is unavailable or disabled); attempting to 
-substitute fallback style.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49   \end{minted}
-                   
-(That was another \errmessage.)
-
-
-standvanzaken.tex:49: Package minted Error: Cannot highlight code (minted execu
-table is unavailable or disabled); attempting to typeset without highlighting.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49   \end{minted}
-                   
-(That was another \errmessage.)
-
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 49.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 49.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 49.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 49.
-Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
-t line 50.
-) (methodologie.tex
-
-[5]
-
-[6]
-Hoofdstuk 3.
-File: ../graphics/./2_parse_zoekresultaat/1_python_release_cycle.jpg Graphic fi
-le (type bmp)
-<../graphics/./2_parse_zoekresultaat/1_python_release_cycle.jpg>
-File: ../graphics/./2_parse_zoekresultaat/2_end_of_life_date_python.JPG Graphic
- file (type bmp)
-<../graphics/./2_parse_zoekresultaat/2_end_of_life_date_python.JPG>
-
-
-[7
-
-]) (googlescholarzoekopdracht.tex
-
-[8]
-
-[9]
-Hoofdstuk 4.
-
-Overfull \hbox (16.19698pt too wide) in paragraph at lines 29--29
-|[][]\TU/Montserrat(0)/b/n/14.4 Zoeken in Google Scholar ([]“  Google Scholar G
-uide”, [][]2025[][])| 
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\autocite' on input line 29.
-
-File: ../graphics/./1_google_scholar_zoekopdracht/1_basis_zoeken.PNG Graphic fi
-le (type bmp)
-<../graphics/./1_google_scholar_zoekopdracht/1_basis_zoeken.PNG>
 
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
@@ -2368,6 +2257,159 @@ ping=tex-text;"
 cp;mapping=tex-text;"
 
 
+(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
+Underfull \hbox (badness 10000) in paragraph at lines 9--12
+
+ []
+
+
+
+[3
+
+]
+Missing character: There is no ． in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no ． in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+
+LaTeX Warning: Citation 'Lotfi2021' on page 4 undefined on input line 17.
+
+
+LaTeX Warning: Citation '' on page 4 undefined on input line 17.
+
+
+Overfull \hbox (61.53697pt too wide) in paragraph at lines 15--18
+\TU/Montserrat(1)/m/n/10.95 plenteerd zijn ook telkens andere mogelijkheden ([]
+Bhatt e.a., [][]2023[][]). [][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+standvanzaken.tex:31: Text line contains an invalid character.
+l.31 ... classics published in knowledge manage^^B
+                                                  ment journals. Part ii: st...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+
+
+[4]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `FiraCode' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+File: ../graphics/grail.jpg Graphic file (type bmp)
+<../graphics/grail.jpg>
+\pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
+\openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
+
+runsystem(latexminted config  --timestamp 20250227225920 3C6BBBE75A5E28CE77F5BD
+994A368090)...executed.
+
+
+
+standvanzaken.tex:54: Package minted Error: minted v3+ executable is not instal
+led or is not added to PATH; or MiKTeX is being used with -aux-directory or -ou
+tput-directory without setting a TEXMF_OUTPUT_DIRECTORY environment variable.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54   \end{minted}
+                   
+(That was another \errmessage.)
+
+
+standvanzaken.tex:54: Package minted Error: Missing definition for highlighting
+ style "solarized-light" (minted executable is unavailable or disabled); attemp
+ting to substitute fallback style.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54   \end{minted}
+                   
+(That was another \errmessage.)
+
+
+standvanzaken.tex:54: Package minted Error: Missing definition for highlighting
+ style "default" (minted executable is unavailable or disabled); attempting to 
+substitute fallback style.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54   \end{minted}
+                   
+(That was another \errmessage.)
+
+
+standvanzaken.tex:54: Package minted Error: Cannot highlight code (minted execu
+table is unavailable or disabled); attempting to typeset without highlighting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54   \end{minted}
+                   
+(That was another \errmessage.)
+
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 6.00064pt on input line 54.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 54.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 54.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 54.
+Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
+t line 55.
+) (methodologie.tex
+
+[5]
+
+[6]
+Hoofdstuk 3.
+File: ../graphics/./2_parse_zoekresultaat/1_python_release_cycle.jpg Graphic fi
+le (type bmp)
+<../graphics/./2_parse_zoekresultaat/1_python_release_cycle.jpg>
+File: ../graphics/./2_parse_zoekresultaat/2_end_of_life_date_python.JPG Graphic
+ file (type bmp)
+<../graphics/./2_parse_zoekresultaat/2_end_of_life_date_python.JPG>
+
+
+[7
+
+]) (googlescholarzoekopdracht.tex
+
+[8]
+
+[9]
+Hoofdstuk 4.
+
+Overfull \hbox (16.19698pt too wide) in paragraph at lines 29--29
+|[][]\TU/Montserrat(0)/b/n/14.4 Zoeken in Google Scholar ([]“  Google Scholar G
+uide”, [][]2025[][])| 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\autocite' on input line 29.
+
+File: ../graphics/./1_google_scholar_zoekopdracht/1_basis_zoeken.PNG Graphic fi
+le (type bmp)
+<../graphics/./1_google_scholar_zoekopdracht/1_basis_zoeken.PNG>
+
+(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
@@ -2798,28 +2840,28 @@ d kunnen worden. []Chandrakar
 [40])
 
 [41]
-DePaepeBartBP.tex:181: Missing $ inserted.
+DePaepeBartBP.tex:182: Missing $ inserted.
 <inserted text> 
                 $
-l.181 \printbibliography[heading=bibintoc]
+l.182 \printbibliography[heading=bibintoc]
                                           
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-DePaepeBartBP.tex:181: Missing { inserted.
+DePaepeBartBP.tex:182: Missing { inserted.
 <to be read again> 
                    \endgroup 
-l.181 \printbibliography[heading=bibintoc]
+l.182 \printbibliography[heading=bibintoc]
                                           
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-DePaepeBartBP.tex:181: Missing } inserted.
+DePaepeBartBP.tex:182: Missing } inserted.
 <inserted text> 
                 }
-l.181 \printbibliography[heading=bibintoc]
+l.182 \printbibliography[heading=bibintoc]
                                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2827,10 +2869,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-DePaepeBartBP.tex:181: Missing $ inserted.
+DePaepeBartBP.tex:182: Missing $ inserted.
 <inserted text> 
                 $
-l.181 \printbibliography[heading=bibintoc]
+l.182 \printbibliography[heading=bibintoc]
                                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2839,7 +2881,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (23.13835pt too wide) in paragraph at lines 181--181
+Overfull \hbox (23.13835pt too wide) in paragraph at lines 182--182
 [][]\TU/Montserrat(2)/m/it/10.95 Document-oriented database\TU/Montserrat(1)/m/
 n/10.95 . (2025, maart 1). [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] 
 [] [][][] [] [][][][] [] [][][][][][][][] [][]
@@ -2851,7 +2893,7 @@ n/10.95 . (2025, maart 1). [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][]
 
 
 ]
-Overfull \hbox (1.74945pt too wide) in paragraph at lines 181--181
+Overfull \hbox (1.74945pt too wide) in paragraph at lines 182--182
 [][]\TU/Montserrat(2)/m/it/10.95 Internet Message Access Protocol, Uit Wikipedi
 a, de vrije encyclopedie\TU/Montserrat(1)/m/n/10.95 . (2025, maart
  []
@@ -2861,7 +2903,7 @@ uage=dflt;mapping=tex-text;!
 Missing character: There is no ． in font Montserrat Regular/OT:script=latn;lang
 uage=dflt;mapping=tex-text;!
 
-Overfull \hbox (2.26407pt too wide) in paragraph at lines 181--181
+Overfull \hbox (2.26407pt too wide) in paragraph at lines 182--182
 [][]\TU/Montserrat(2)/m/it/10.95 MongoDB\TU/Montserrat(1)/m/n/10.95 . (2025, ma
 art 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][]
 [][][][][] [] [][][][][][] [] [][][][][][][][][] []
@@ -2870,10 +2912,10 @@ art 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][]
 
 
 [43]
-DePaepeBartBP.tex:181: Misplaced alignment tab character &.
+DePaepeBartBP.tex:182: Misplaced alignment tab character &.
 <argument> College &
                     amp; Research Libraries
-l.181 \printbibliography[heading=bibintoc]
+l.182 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2882,10 +2924,10 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-DePaepeBartBP.tex:181: Misplaced alignment tab character &.
+DePaepeBartBP.tex:182: Misplaced alignment tab character &.
 <argument> ...a extraction, analysis, conversion &
                                                    manipulation of PDF (and ...
-l.181 \printbibliography[heading=bibintoc]
+l.182 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2900,8 +2942,8 @@ might try typing `S' now just to see what is salvageable.
 
 [45] (DePaepeBartBP.aux)
  ***********
-LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-08-30>
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
  ***********
 
 
@@ -2910,20 +2952,21 @@ LaTeX Warning: There were undefined references.
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
 (rerunfilecheck)             Checksum: C2487EFB2347CF7FA93E059B956322A4;6719.
 
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                DePaepeBartBP
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51456 strings out of 409028
- 1054765 string characters out of 5760982
- 2303847 words of memory out of 5000000
- 73331 multiletter control sequences out of 15000+600000
- 561980 words of font info for 114 fonts, out of 8000000 for 9000
+ 51889 strings out of 408640
+ 1063338 string characters out of 5749145
+ 2318639 words of memory out of 5000000
+ 74133 multiletter control sequences out of 15000+600000
+ 562748 words of font info for 114 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 110i,12n,132p,1256b,5815s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,12n,131p,1256b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on DePaepeBartBP.pdf (54 pages).
