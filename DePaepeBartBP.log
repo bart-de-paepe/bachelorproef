@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  1 MAR 2025 23:15
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  2 MAR 2025 17:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1755,7 +1755,7 @@ LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `bold'
 \logopart=\box91
 File: ../graphics/logopart.eps Graphic file (type eps)
 <../graphics/logopart.eps>
-Package hyperref Info: Option `colorlinks' set `true' on input line 664.
+Package hyperref Info: Option `colorlinks' set `true' on input line 665.
 )
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/lipsum\lipsum.sty
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
@@ -2180,13 +2180,7 @@ LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
 
 [7
 
-] (DePaepeBartBP.lot
-Overfull \hbox (17.10774pt too wide) in paragraph at lines 8--8
- [][] [][][]\TU/Montserrat(1)/m/n/10.95 Google Scholar stuurt e-mails naar goog
-le-scholar@marineinfo.org. Deze 
- []
-
-)
+] (DePaepeBartBP.lot)
 \tf@lot=\write9
 \openout9 = `DePaepeBartBP.lot'.
 
@@ -2298,7 +2292,7 @@ File: ../graphics/grail.jpg Graphic file (type bmp)
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250301231552 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250302171543 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -2369,6 +2363,11 @@ t line 45.
 
 [7]
 Hoofdstuk 3.
+
+
+[8
+
+]
 File: ../graphics/./2_parse_zoekresultaat/1_python_release_cycle.jpg Graphic fi
 le (type bmp)
 <../graphics/./2_parse_zoekresultaat/1_python_release_cycle.jpg>
@@ -2377,11 +2376,7 @@ File: ../graphics/./2_parse_zoekresultaat/2_end_of_life_date_python.JPG Graphic
 <../graphics/./2_parse_zoekresultaat/2_end_of_life_date_python.JPG>
 
 
-[8
-
-]) (googlescholarzoekopdracht.tex
-
-[9]
+[9]) (googlescholarzoekopdracht.tex
 
 [10]
 Hoofdstuk 4.
@@ -2474,63 +2469,75 @@ nt google-scholar@marineinfo.org
  []
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18
-
-]
 File: ../graphics/./2_parse_zoekresultaat/email-body-parsen.jpg Graphic file (t
 ype bmp)
 <../graphics/./2_parse_zoekresultaat/email-body-parsen.jpg>
 
+Overfull \hbox (0.76056pt too wide) in paragraph at lines 43--50
+\TU/Montserrat(1)/m/n/10.95 Elke e-mail bevat 1 of meerdere zoekresultaten afko
+mstig van GS. In deze stap wordt
+ []
 
-[19]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ../graphics/./2_parse_zoekresultaat/search-doi.jpg Graphic file (type bmp
 )
 <../graphics/./2_parse_zoekresultaat/search-doi.jpg>
 
 
-[20]
+[18
+
+]
 File: ../graphics/./2_parse_zoekresultaat/3_use_case_diagram.PNG Graphic file (
 type bmp)
 <../graphics/./2_parse_zoekresultaat/3_use_case_diagram.PNG>
 
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
-[]|\TU/Montserrat(1)/m/n/10.95 Google Scholar stuurt e-mails naar google-
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+[]|\TU/Montserrat(1)/m/n/10.95 GS stuurt e-mails naar google-
  []
 
 
-Underfull \hbox (badness 7291) in paragraph at lines 74--75
+Underfull \hbox (badness 7291) in paragraph at lines 69--70
 \TU/Montserrat(1)/m/n/10.95 scholar@marineinfo.org. Deze e-mails moeten
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 []|\TU/Montserrat(1)/m/n/10.95 DR-email: afzender moet zijn: scholaralerts-
  []
 
 
-Overfull \hbox (3.86041pt too wide) in paragraph at lines 71--105
+Overfull \hbox (3.86041pt too wide) in paragraph at lines 66--100
  [][] 
  []
 
 
-Underfull \hbox (badness 6268) in paragraph at lines 139--140
+
+[19]
+
+[20]
+Underfull \hbox (badness 6268) in paragraph at lines 134--135
 []\TU/Montserrat(1)/m/n/10.95 systeem slaat bovenstaande informatie ge-
  []
 
-parsezoekresultaat.tex:155: Missing } inserted.
+parsezoekresultaat.tex:150: Missing } inserted.
 <inserted text> 
                 }
-l.155 ...gels & \vbox{DR-Google-Scholar-formaat\\D
+l.150 ...gels & \vbox{DR-Google-Scholar-formaat\\D
                                                   R-uniek}\\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-parsezoekresultaat.tex:155: Extra }, or forgotten \endgroup.
-l.155 ...vbox{DR-Google-Scholar-formaat\\DR-uniek}
+parsezoekresultaat.tex:150: Extra }, or forgotten \endgroup.
+l.150 ...vbox{DR-Google-Scholar-formaat\\DR-uniek}
                                                   \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2539,44 +2546,42 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-Overfull \hbox (3.86041pt too wide) in paragraph at lines 110--158
+Overfull \hbox (3.86041pt too wide) in paragraph at lines 105--153
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 81.22095pt on input line 159.
+LaTeX Warning: Float too large for page by 81.22095pt on input line 154.
 
 Missing character: There is no ⌡ in font Montserrat Regular/OT:script=latn;lang
 uage=dflt;mapping=tex-text;!
-parsezoekresultaat.tex:203: Misplaced \noalign.
+parsezoekresultaat.tex:198: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.203         \hline
+l.198         \hline
                     
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (3.86041pt too wide) in paragraph at lines 163--205
+Overfull \hbox (3.86041pt too wide) in paragraph at lines 158--200
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 25.7722pt on input line 206.
+LaTeX Warning: Float too large for page by 25.7722pt on input line 201.
 
 File: ../graphics/./2_parse_zoekresultaat/4_domeinmodel.PNG Graphic file (type 
 bmp)
 <../graphics/./2_parse_zoekresultaat/4_domeinmodel.PNG>
 
 
+[21]
+
 [22]
 
 [23]
-
-[24]
-
-[25]
-Overfull \hbox (4.12953pt too wide) in paragraph at lines 217--219
+Overfull \hbox (4.12953pt too wide) in paragraph at lines 213--215
 \TU/Montserrat(1)/m/n/10.95 Meerdere specifieke Python libraries ondersteunen a
 lle mogelijke bewerkingen met
  []
@@ -2586,18 +2591,18 @@ lle mogelijke bewerkingen met
 fontspec)
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
-parsezoekresultaat.tex:228: Missing $ inserted.
+parsezoekresultaat.tex:224: Missing $ inserted.
 <inserted text> 
                 $
-l.228 ... scheduler. Click\_ \autocite{Click2025} 
+l.224 ... scheduler. Click\_ \autocite{Click2025} 
                                                   laat toe om meerdere comma...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-parsezoekresultaat.tex:228: Missing { inserted.
+parsezoekresultaat.tex:224: Missing { inserted.
 <to be read again> 
                    \begingroup 
-l.228 ... scheduler. Click\_ \autocite{Click2025} 
+l.224 ... scheduler. Click\_ \autocite{Click2025} 
                                                   laat toe om meerdere comma...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -2606,17 +2611,17 @@ so that I will find a matching right brace soon.
 
 
 LaTeX Warning: Command \textquotedblright invalid in math mode on input line 22
-8.
+4.
 
 
-parsezoekresultaat.tex:228: Package csquotes Error: Unbalanced groups or invali
+parsezoekresultaat.tex:224: Package csquotes Error: Unbalanced groups or invali
 d nesting.
 
 See the csquotes package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.228 ... scheduler. Click\_ \autocite{Click2025} 
+l.224 ... scheduler. Click\_ \autocite{Click2025} 
                                                   laat toe om meerdere comma...
 
 I have detected a group type mismatch. Verify that all groups
@@ -2625,29 +2630,29 @@ continue, I will write a summary of all previously opened groups
 to the transcript file.
 
 
-### math group (level 10) entered at line 228 ({)
-### math shift group (level 9) entered at line 228 ($)
-### semi simple group (level 8) entered at line 228 (\begingroup)
-### semi simple group (level 7) entered at line 228 (\begingroup)
-### semi simple group (level 6) entered at line 228 (\begingroup)
-### semi simple group (level 5) entered at line 228 (\begingroup)
-### semi simple group (level 4) entered at line 228 (\begingroup)
-### semi simple group (level 3) entered at line 228 (\begingroup)
-### semi simple group (level 2) entered at line 228 (\begingroup)
-### semi simple group (level 1) entered at line 228 (\begingroup)
+### math group (level 10) entered at line 224 ({)
+### math shift group (level 9) entered at line 224 ($)
+### semi simple group (level 8) entered at line 224 (\begingroup)
+### semi simple group (level 7) entered at line 224 (\begingroup)
+### semi simple group (level 6) entered at line 224 (\begingroup)
+### semi simple group (level 5) entered at line 224 (\begingroup)
+### semi simple group (level 4) entered at line 224 (\begingroup)
+### semi simple group (level 3) entered at line 224 (\begingroup)
+### semi simple group (level 2) entered at line 224 (\begingroup)
+### semi simple group (level 1) entered at line 224 (\begingroup)
 ### bottom level
 
-parsezoekresultaat.tex:228: OK.
+parsezoekresultaat.tex:224: OK.
 \csq@err@gtype ...the transcript file}\showgroups 
                                                   
-l.228 ... scheduler. Click\_ \autocite{Click2025} 
+l.224 ... scheduler. Click\_ \autocite{Click2025} 
                                                   laat toe om meerdere comma...
 
 
-parsezoekresultaat.tex:228: Missing } inserted.
+parsezoekresultaat.tex:224: Missing } inserted.
 <inserted text> 
                 }
-l.228 ... scheduler. Click\_ \autocite{Click2025} 
+l.224 ... scheduler. Click\_ \autocite{Click2025} 
                                                   laat toe om meerdere comma...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2655,10 +2660,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-parsezoekresultaat.tex:228: Missing $ inserted.
+parsezoekresultaat.tex:224: Missing $ inserted.
 <inserted text> 
                 $
-l.228 ... scheduler. Click\_ \autocite{Click2025} 
+l.224 ... scheduler. Click\_ \autocite{Click2025} 
                                                   laat toe om meerdere comma...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2670,71 +2675,60 @@ File: ../graphics/./2_parse_zoekresultaat/serp-html.JPG Graphic file (type bmp)
 
 <../graphics/./2_parse_zoekresultaat/serp-html.JPG>
 
-Overfull \hbox (14.7352pt too wide) in paragraph at lines 232--239
+Overfull \hbox (14.7352pt too wide) in paragraph at lines 228--235
 \TU/Montserrat(1)/m/n/10.95 deze structuur. Elk afzonderlijk resultaat heeft ee
 n H3-tag met als klasse ’gse_alrt_title’
  []
 
 
 
+[24]
+Overfull \hbox (22.47804pt too wide) in paragraph at lines 242--247
+\TU/Montserrat(1)/m/n/10.95 t/html,application/xhtml+xml,application/xml;q=0.9,
+image/webp,image/apng,*/*;q=0.8”,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--247
+\TU/Montserrat(1)/m/n/10.95 ”Accept-Encoding”: ”gzip, deflate, br”, ”Accept-Lan
+guage”: ”en-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+[]\TU/Montserrat(1)/m/n/10.95 https://scholar.google.be/scholar_url?url=https:/
+/www.nature.com/articles/s41598-
+ []
+
+
+Overfull \hbox (668.8017pt too wide) in paragraph at lines 251--252
+\TU/Montserrat(1)/m/n/10.95 024-83657-0&hl=nl&sa=X&d=1146959663452366258&ei=tRG
+sZ4eaLIC96rQP29mI6AY&scisig=AFWwaeY6TmkYbZVI8aTe6GErndZI&oi=scholaralrt&hist=P_
+QG1LwAAAAJ:2727769339669043622:AFWwaeYuVCLO-
+ []
+
+
+parsezoekresultaat.tex:267: Package minted Error: Cannot highlight code (minted
+ executable is unavailable or disabled); attempting to typeset without highligh
+ting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.267     \end{minted}
+                      
+(That was another \errmessage.)
+
+
+
+[25]
+
 [26]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 246.
-
-
-Package Listings Warning: Text dropped after begin of listing on input line 246
-.
-
-
-Overfull \hbox (465.10648pt too wide) in paragraph at lines 247--248
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][] 
- []
-
-
-Overfull \hbox (248.29472pt too wide) in paragraph at lines 248--249
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (18.34286pt too wide) in paragraph at lines 250--251
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-
-[27]
-Overfull \hbox (1509.74492pt too wide) in paragraph at lines 254--255
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-LaTeX Warning: Characters dropped after `\end{verbatim}' on input line 260.
-
-
-Package Listings Warning: Text dropped after begin of listing on input line 261
-.
-
-
-Overfull \hbox (333.70541pt too wide) in paragraph at lines 265--266
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (57.76318pt too wide) in paragraph at lines 267--268
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (162.88403pt too wide) in paragraph at lines 268--270
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-parsezoekresultaat.tex:278: Misplaced alignment tab character &.
+parsezoekresultaat.tex:274: Misplaced alignment tab character &.
 <argument> ...a extraction, analysis, conversion &
                                                    manipulation of PDF (and ...
-l.278 ...n met gebruik van \autocite{Pymupdf2025}.
+l.274 ...n met gebruik van \autocite{Pymupdf2025}.
                                                   
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2744,56 +2738,258 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
+parsezoekresultaat.tex:280: Package minted Error: Cannot highlight code (minted
+ executable is unavailable or disabled); attempting to typeset without highligh
+ting.
 
-[28]
-Overfull \hbox (21.62404pt too wide) in paragraph at lines 296--296
- []        \TU/FiraCode(0)/m/n/10.95 /^10.\d{4}/\d+-\d+X?(\d+)\d+<[\d\w]+:[\d\w
-]*>\d+.\d+.\w+;\d$/i 
- []
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.280         \end{minted}
+                          
+(That was another \errmessage.)
 
+parsezoekresultaat.tex:288: Missing $ inserted.
+<inserted text> 
+                $
+l.288 ...textbf{/^10.\d{4,9}/[-._;()/:A-Z0-9]+$/i}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 288.
+
+Missing character: There is no ̣ in font cmmi10!
+parsezoekresultaat.tex:289: Missing $ inserted.
+<inserted text> 
+                $
+l.289     \item \textbf{/^10.1002/[^\s]+$/i}
+                                            
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+parsezoekresultaat.tex:289: Undefined control sequence.
+<argument> /^10.1002/[^\s 
+                          ]+$/i
+l.289     \item \textbf{/^10.1002/[^\s]+$/i}
+                                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+parsezoekresultaat.tex:290: Missing $ inserted.
+<inserted text> 
+                $
+l.290 ...d+)\d+<[\d\w]+:[\d\w]*>\d+.\d+.\w+;\d$/i}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 290.
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 290.
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 290.
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 290.
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 290.
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 290.
+
+parsezoekresultaat.tex:290: Undefined control sequence.
+<argument> \w 
+              
+l.290 ...d+)\d+<[\d\w]+:[\d\w]*>\d+.\d+.\w+;\d$/i}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 290.
+
+parsezoekresultaat.tex:290: Undefined control sequence.
+<argument> \w 
+              
+l.290 ...d+)\d+<[\d\w]+:[\d\w]*>\d+.\d+.\w+;\d$/i}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 290.
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 290.
+
+parsezoekresultaat.tex:290: Undefined control sequence.
+<argument> ... +<[\d \w ]+:[\d \w ]*>\d +.\d +.\w 
+                                                  +;\d $/i
+l.290 ...d+)\d+<[\d\w]+:[\d\w]*>\d+.\d+.\w+;\d$/i}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 290.
+
+Missing character: There is no ̣ in font cmmi10!
+Missing character: There is no ̣ in font cmmi10!
+Missing character: There is no ̣ in font cmmi10!
+Missing character: There is no ̣ in font cmmi10!
+Missing character: There is no ̣ in font cmmi10!
+Missing character: There is no ̣ in font cmmi10!
+Missing character: There is no ̣ in font cmmi10!
+Missing character: There is no ̣ in font cmmi10!
+Missing character: There is no ̣ in font cmmi10!
+parsezoekresultaat.tex:291: Missing $ inserted.
+<inserted text> 
+                $
+l.291     \item \textbf{/^10.1021/\w\w\d++$/i}
+                                              
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+parsezoekresultaat.tex:291: Undefined control sequence.
+<argument> /^10.1021/\w 
+                        \w \d ++$/i
+l.291     \item \textbf{/^10.1021/\w\w\d++$/i}
+                                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+parsezoekresultaat.tex:291: Undefined control sequence.
+<argument> /^10.1021/\w \w 
+                           \d ++$/i
+l.291     \item \textbf{/^10.1021/\w\w\d++$/i}
+                                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 291.
+
+Missing character: There is no ̣ in font cmmi10!
+parsezoekresultaat.tex:292: Missing $ inserted.
+<inserted text> 
+                $
+l.292 ...em \textbf{/^10.1207/[\w\d]+\&\d+_\d+$/i}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+parsezoekresultaat.tex:292: Undefined control sequence.
+<argument> /^10.1207/[\w 
+                         \d ]+\&\d +_\d +$/i
+l.292 ...em \textbf{/^10.1207/[\w\d]+\&\d+_\d+$/i}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 292.
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 292.
+
+parsezoekresultaat.tex:292: Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.292 ...em \textbf{/^10.1207/[\w\d]+\&\d+_\d+$/i}
+                                                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 292.
+
+parsezoekresultaat.tex:292: Missing } inserted.
+<inserted text> 
+                }
+l.292 ...em \textbf{/^10.1207/[\w\d]+\&\d+_\d+$/i}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no ̣ in font cmmi10!
+Missing character: There is no ̣ in font cmmi10!
+Missing character: There is no ̣ in font cmmi7!
+
+
+[27]
 File: ../graphics/./2_parse_zoekresultaat/json_view.JPG Graphic file (type bmp)
 
 <../graphics/./2_parse_zoekresultaat/json_view.JPG>
 File: ../graphics/./2_parse_zoekresultaat/table_view.JPG Graphic file (type bmp
 )
 <../graphics/./2_parse_zoekresultaat/table_view.JPG>
-
-
-[29]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_email.JPG Graphic 
 file (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_email.JPG>
 
 
-[30]
+[28]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_body.JPG Graphic f
 ile (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_body.JPG>
 
 
-[31]
+[29]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_zoekresultaat.JPG 
 Graphic file (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_zoekresultaat.JPG>
 
 
-[32]
+[30]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_link.JPG Graphic f
 ile (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_link.JPG>
 
 
-[33]) (conclusie.tex
+[31]) (conclusie.tex
 
-[34]
+[32]
 Hoofdstuk 6.
 
 
-[35
+[33
 
 ])
 
-[36]
+[34]
 B\ij lage A.
 (../voorstel/voorstel-inhoud.tex
 Overfull \hbox (2.63669pt too wide) in paragraph at lines 20--21
@@ -2803,14 +2999,14 @@ collecties van mariene wetenschap-
 
 
 
-[37
+[35
 
 ]
 File: images/stapsgewijs.png Graphic file (type bmp)
 <images/stapsgewijs.png>
 
 
-[38]
+[36]
 Overfull \hbox (21.94153pt too wide) in paragraph at lines 59--60
 []\TU/Montserrat(1)/m/n/10.95 Google Scholar is een zoekmachine die wetenschapp
 elijke literatuur indexeert ([]“  Google
@@ -2818,7 +3014,7 @@ elijke literatuur indexeert ([]“  Google
 
 
 
-[39]
+[37]
 Overfull \hbox (9.43324pt too wide) in paragraph at lines 67--68
 \TU/Montserrat(1)/m/n/10.95 vend, betrouwbaar en onderscheidbaar geïdentificeer
 d kunnen worden. []Chandrakar
@@ -2826,11 +3022,11 @@ d kunnen worden. []Chandrakar
 
 
 
+[38]
+
+[39])
+
 [40]
-
-[41])
-
-[42]
 DePaepeBartBP.tex:182: Missing $ inserted.
 <inserted text> 
                 $
@@ -2880,7 +3076,7 @@ n/10.95 . (2025, maart 1). [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][]
 
 
 
-[43
+[41
 
 
 ]
@@ -2891,7 +3087,7 @@ a, de vrije encyclopedie\TU/Montserrat(1)/m/n/10.95 . (2025, maart
 
 
 
-[44]
+[42]
 Overfull \hbox (2.26407pt too wide) in paragraph at lines 182--182
 [][]\TU/Montserrat(2)/m/it/10.95 MongoDB\TU/Montserrat(1)/m/n/10.95 . (2025, ma
 art 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][]
@@ -2924,34 +3120,26 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[45]
+[43]
 
-[46] (DePaepeBartBP.aux)
+[44] (DePaepeBartBP.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
 (rerunfilecheck)             Checksum: C2487EFB2347CF7FA93E059B956322A4;6719.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51913 strings out of 408640
- 1064145 string characters out of 5749145
- 2319879 words of memory out of 5000000
- 74153 multiletter control sequences out of 15000+600000
- 562748 words of font info for 114 fonts, out of 8000000 for 9000
+ 51932 strings out of 408640
+ 1064275 string characters out of 5749145
+ 2307745 words of memory out of 5000000
+ 74173 multiletter control sequences out of 15000+600000
+ 562740 words of font info for 113 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,12n,131p,1256b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DePaepeBartBP.pdf (55 pages).
+Output written on DePaepeBartBP.pdf (53 pages).
