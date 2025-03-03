@@ -10,53 +10,12 @@ Het huidige digitale tijdperk dat hoofdzakelijk gekenmerkt wordt door de toeneme
 Web scrapers kunnen gebaseerd zijn op verschillende technologieën zoals 'spidering' en 'pattern matching'. Daarnaast biedt de programmeertaal waarin ze geïmplenteerd zijn ook telkens andere mogelijkheden \autocite{Bhatt2023}.
 \textcite{Lotfi2021} onderscheidt web scrapers zowel op basis van hun toepassing (vb. medisch, social media, financieel, marketing, onderzoek) als op basis van hun  methodiek (vb. copy \& paste, HTML parsing, DOM parsing, HTML DOM, reguliere expressies, XPath, vertical aggregation platform, semantic annotation recognizing, computer vision web page analyzer). Hoewel de methodologie kan wijzigen, blijft het uitgangspunt van integriteit, correctheid en betrouwbaarheid van de data steeds van primordiaal belang \autocite{Lotfi2021}.
 Verder duidt \textcite{Lotfi2021} ook nog op het iteratieve karakter van een web scaper. Het programma wordt gevoed met een url, en zal dan op zijn beurt nieuwe urls zoeken op de pagina zodat die ook bezocht kunnen worden.\\
-\textcite{Singrodia2019} vult bovenstaande kenmerken van web scraping nog verder aan met de systematische omzetting van ongestructureerde gegevens op webpagina's naar gestructureerde data in een databank. De gegenereerde data heeft aanleiding tot filtering of statistieken. Het biedt vele voordelen aangezien de data opgeschoond is en daardoor als vrij van fouten kan beschouwd worden. Andere voordelen zijn tijdswinst en centrale opslag wat verdere verwerking ten goede komt.\\
+\textcite{Singrodia2019} vult bovenstaande kenmerken van web scraping nog verder aan met de systematische omzetting van ongestructureerde gegevens op webpagina's naar gestructureerde data in een databank. De gegenereerde data heeft aanleiding tot filtering of tot statistieken. Het biedt vele voordelen aangezien de data opgeschoond is en daardoor als vrij van fouten kan beschouwd worden. Andere voordelen zijn tijdswinst en centrale opslag wat verdere verwerking ten goede komt.\\
 Daarenboven vergroot web scraping de snelheid en het volume van de data die verwerkt kan worden aanzienlijk, en vermindert het ook het aantal fouten die zouden optreden door menselijke verwerking \autocite{Bhatt2023}. Uiteindelijk zet web scraping de online informatie om in business intelligence afhankelijk van het uitgangspunt van de eindgebruiker.\\
-Na zo uitvoerig web scrapers te bespreken, is het niet onbelangrijk even stil te staan bij de vraag of web scrapen wel legaal is? Volgens \textcite{EPSI2015} is daar geen straightforward antwoord op, de situatie is afhankelijk van het betrokken land. Maar over het algemeen zijn de meest reguleringen wel in het voordeel van web scraping. Men moet vooral opletten met het respecteren van het eigendomsrecht wanneer inhoud verworven wordt door scaping en vervolgens verder gebruikt wordt.\\
+Na web scrapers besproken te hebben, is het niet onbelangrijk even stil te staan bij de vraag of web scrapen wel legaal is? Volgens \textcite{EPSI2015} is daar geen straightforward antwoord op, de situatie is afhankelijk van het betrokken land. Maar over het algemeen zijn de meest reguleringen wel in het voordeel van web scraping. Men moet vooral opletten met het respecteren van het eigendomsrecht wanneer inhoud verworven wordt door scaping en vervolgens verder gebruikt wordt.\\
 Tot slot van de stand van zake omtrent web scraping nog een pleidooi voor Python. Al is het perfect mogelijk om web scraping te ontwikkelen in Php, Java, en andere, toch biedt Python de meest gebruiksvriendelijke tools aan volgens \textcite{Kumar2023}. <<Beautiful Soup is een van de eenvoudigste bibliotheken om data te scrapen van websites. Een simpele find\_all() in Beautiful Soup, is krachtig genoeg om de data uit het gehele document te doorzoeken. Daarna is de taak om de data te structureren. Dat kan in Python aan de hand van Pandas die in staat is om de data in een geordend formaat te presenteren.>>\\
 Om verder gebruik te maken van deze data moet deze eerst gestuctureerd opgeslaan worden. \textcite{Mitchell2015} reikt een aantal methodes aan waarop dit gedaan kan worden, steeds afhankelijk van het beoogde resultaat. De skills om al die data te beheren en ermee te interageren is zo mogelijk nog belangrijk dan het scrapen op zich. De data waarvan sprake is niet gekenmerkt door strikte relaties, maar stelt eerder een collectie semi gestructureerde data voor. Een document store database lijkt in dit geval het meest aangewezen. \textcite{Lourenco2015} vergelijkt de hangbare NoSQL databases en stelt MongoDB voor als een consistente \footnote{alle clients zien steeds dezelfde data} document store database.\\
-De website in de spotlight voor dit onderzoek is Google Scholar (GS), de grootste bron van wetenschappelijke publicaties op heden. De beta versie verscheen in 2004 en sindsdien wordt het systeem voornamelijk door academici gebruikt om een persoonlijke bibliotheek aan te leggen tezamen met statistieken omtrent citaties en h-indexen \footnote{De h-index van een wetenschappelijk onderzoeker komt overeen met de grootste h van het aantal publicaties die minstens h keer geciteerd zijn in ander werk.}. Volgens \textcite{Oh2019} is er een symbiose tussen GS and de academische wereld waarbij academici gratis hun werk kunnen aabieden op GS. GS op zijn beurt zorgt voor goede visibiliteit van dat werk door onder andere citaten, referenties en gelijkaardige onderwerpen. In tegenstelling tot de baanbrekende vernieuwing die GS introduceerde, gaat het raadplegen van deze gegevens wel gepaard met een aantal hindernissen, in het bijzonder op grote schaal.\\
+De website in de spotlight voor dit onderzoek is Google Scholar (GS), de grootste bron van wetenschappelijke publicaties op heden. De beta versie verscheen in 2004 en sindsdien wordt het systeem voornamelijk door academici gebruikt om een persoonlijke bibliotheek aan te leggen tezamen met statistieken omtrent citaties en h-indexen \footnote{De h-index van een wetenschappelijk onderzoeker komt overeen met de grootste h van het aantal publicaties die minstens h keer geciteerd zijn in ander werk.}. Volgens \textcite{Oh2019} is er een symbiose tussen GS and de academische wereld waarbij academici gratis hun werk kunnen aabieden op GS. GS op zijn beurt zorgt voor goede visibiliteit van dat werk door onder andere citaten, referenties en een oplijsting van gelijkaardige onderwerpen. In tegenstelling tot de baanbrekende vernieuwing die GS introduceerde, gaat het raadplegen van deze gegevens wel gepaard met een aantal hindernissen, in het bijzonder op grote schaal.\\
 Web scraping is 1 van de technieken die aangewend worden om dit probleem te omzeilen. Meerdere studies (\autocite{Pratiba2018},\autocite{Rafsanjani2022},\autocite{Amin2024},\autocite{Sulistya2024}) gebruiken bovenstaande concepten van web scrapers en gestructureerde opslag om automatisch data te ontleden van GS aan de hand van gebruiksvriendelijke interfaces. Er zijn onderling steeds wel verschillen tussen de gebruikte tools en het gekozen formaat die beide afhankelijk zijn van het beoogde resultaat. Maar het omliggend kader is steeds hetzelfde met gebruik van web scraping en gestructureerde opslag.\\
 Het is evident dat HTML pagina's verwerkt kunnen worden door web scrapers, maar daarnaast zijn ongeveer 70\% van de feiten die op het internet gepresenteerd worden, verkregen uit PDF-documenten \autocite{Singrodia2019}. Dit verklaart de noodzaak om zowel HTML pagina's als PDF documenten te scrapen.\\
 \textcite{Yang2017} beschrijft welke HTML elementen belangrijk zijn bij het ontleden van een GS pagina en \textcite{Rahmatulloh2020} toont hoe deze kunnen gemapt worden naar de custom code van de scraper.\\
-
-Dit hoofdstuk bevat je literatuurstudie. De inhoud gaat verder op de inleiding, maar zal het onderwerp van de bachelorproef *diepgaand* uitspitten. De bedoeling is dat de lezer na lezing van dit hoofdstuk helemaal op de hoogte is van de huidige stand van zaken (state-of-the-art) in het onderzoeksdomein. Iemand die niet vertrouwd is met het onderwerp, weet nu voldoende om de rest van het verhaal te kunnen volgen, zonder dat die er nog andere informatie moet over opzoeken \autocite{Pollefliet2011}.
-
-Je verwijst bij elke bewering die je doet, vakterm die je introduceert, enz.\ naar je bronnen. In \LaTeX{} kan dat met het commando \texttt{$\backslash${textcite\{\}}} of \texttt{$\backslash${autocite\{\}}}. Als argument van het commando geef je de ``sleutel'' van een ``record'' in een bibliografische databank in het Bib\LaTeX{}-formaat (een tekstbestand). Als je expliciet naar de auteur verwijst in de zin (narratieve referentie), gebruik je \texttt{$\backslash${}textcite\{\}}. Soms is de auteursnaam niet expliciet een onderdeel van de zin, dan gebruik je \texttt{$\backslash${}autocite\{\}} (referentie tussen haakjes). Dit gebruik je bv.~bij een citaat, of om in het bijschrift van een overgenomen afbeelding, broncode, tabel, enz. te verwijzen naar de bron. In de volgende paragraaf een voorbeeld van elk.
-
-\textcite{Knuth1998} schreef een van de standaardwerken over sorteer- en zoekalgoritmen. Experten zijn het erover eens dat cloud computing een interessante opportuniteit vormen, zowel voor gebruikers als voor dienstverleners op vlak van informatietechnologie~\autocite{Creeger2009}.
-
-Let er ook op: het \texttt{cite}-commando voor de punt, dus binnen de zin. Je verwijst meteen naar een bron in de eerste zin die erop gebaseerd is, dus niet pas op het einde van een paragraaf.
-
-\begin{figure}
-  \centering
-  \includegraphics[width=0.8\textwidth]{grail.jpg}
-  \caption[Voorbeeld figuur.]{\label{fig:grail}Voorbeeld van invoegen van een figuur. Zorg altijd voor een uitgebreid bijschrift dat de figuur volledig beschrijft zonder in de tekst te moeten gaan zoeken. Vergeet ook je bronvermelding niet!}
-\end{figure}
-
-\begin{listing}
-  \begin{minted}{python}
-    import pandas as pd
-    import seaborn as sns
-
-    penguins = sns.load_dataset('penguins')
-    sns.relplot(data=penguins, x="flipper_length_mm", y="bill_length_mm", hue="species")
-  \end{minted}
-  \caption[Voorbeeld codefragment]{Voorbeeld van het invoegen van een codefragment.}
-\end{listing}
-
-\begin{table}
-  \centering
-  \begin{tabular}{lcr}
-    \toprule
-    \textbf{Kolom 1} & \textbf{Kolom 2} & \textbf{Kolom 3} \\
-    $\alpha$         & $\beta$          & $\gamma$         \\
-    \midrule
-    A                & 10.230           & a                \\
-    B                & 45.678           & b                \\
-    C                & 99.987           & c                \\
-    \bottomrule
-  \end{tabular}
-  \caption[Voorbeeld tabel]{\label{tab:example}Voorbeeld van een tabel.}
-\end{table}
-
