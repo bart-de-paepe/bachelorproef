@@ -472,7 +472,7 @@
     \bigskip
     \begingroup
       %% Print the name of the author
-      \subtitlefont\Large\bfseries \@author\@addpunct{.}
+      \subtitlefont\Large\bfseries \@author
     \endgroup
     
     \vfill

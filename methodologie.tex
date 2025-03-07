@@ -44,18 +44,18 @@ Voor het eerste punt zijn er bij de klant 2 pijlers:
     \item Alle websites en datasystemen zijn geschreven in Php, al dan niet gebruik makend van het Symfony framework. Voor hun data steunen ze voornamelijk op SqlServer en op PostgreSQL. Voor hun user interface steunen ze hoofdzakelijk op Twig en op NextJS.
     \item Veel data processing scripts draaien in hun eigen docker container. Ze gebruiken vooral R en Python als programmeertaal.
 \end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/technology-stack.jpg}
+    \caption[Technology Stack.]{\label{fig:Technology Stack}Technology Stack.}
+\end{figure}
 Onze opdracht past het best binnen de tweede pijler. Het is niet opportuun om een webserver te belasten met het systematisch herhalen van een opdracht die los staat van de websites die hij host. De GS alerts zijn op zich ook data die in hun eigen container verwerkt zullen worden.\\
 Voor het tweede punt is de technologie zeer duidelijk. Python (maar ook R) beschikken over hele grote bibliotheken die toelaten om uiteenlopende soorten data te verwerken.\\
 Het programmeerwerk zal uitgevoerd worden in Python. Op het moment van schrijven is Python versie 3.13.1 de meest recente stabiele versie.
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/1_python_release_cycle.jpg}
     \caption[Python release cycle.]{\label{fig:Python release cycle}Python release cycle.\autocite{pythonreleasecycle2025}}
-\end{figure}
-\begin{figure}
-    \centering
-    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/2_end_of_life_date_python.JPG}
-    \caption[End of life date Python.]{\label{fig:End of life date Python}End of life date Python.\autocite{endoflifedatepython2025}}
 \end{figure}
 \FloatBarrier
 De geparsete e-mail alerts worden opgeslagen in een MongoDB database, dit is een NoSQL document store databank. Een RabbitMQ broker zorgt ervoor dat voor elke e-mail iedere stap in de flow doorlopen wordt. Tenslotte wordt alles ondergebracht in zijn eigen Docker container die binnen het project met elkaar communiceren.

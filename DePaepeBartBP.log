@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  2 MAR 2025 23:10
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  7 MAR 2025 20:14
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2257,6 +2257,12 @@ fontspec)
 fontspec)
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)) (methodologie.tex
+Overfull \hbox (6.0509pt too wide) in paragraph at lines 9--4
+\TU/Montserrat(1)/m/n/10.95 Wereldwijde onuitputtelijke digitale indexen (waaro
+nder Google Scholar), diep maat-
+ []
+
+
 Overfull \hbox (21.7805pt too wide) in paragraph at lines 9--4
 \TU/Montserrat(1)/m/n/10.95 omzeilen. Meerdere studies (([]PRATIBA e.a., [][]20
 18[][]),([]Rafsanjani, [][]2022[][]),([]Amin e.a., [][]2024[][]),([]Su-
@@ -2282,12 +2288,12 @@ Hoofdstuk 3.
 [6
 
 ]
+File: ../graphics/./2_parse_zoekresultaat/technology-stack.jpg Graphic file (ty
+pe bmp)
+<../graphics/./2_parse_zoekresultaat/technology-stack.jpg>
 File: ../graphics/./2_parse_zoekresultaat/1_python_release_cycle.jpg Graphic fi
 le (type bmp)
 <../graphics/./2_parse_zoekresultaat/1_python_release_cycle.jpg>
-File: ../graphics/./2_parse_zoekresultaat/2_end_of_life_date_python.JPG Graphic
- file (type bmp)
-<../graphics/./2_parse_zoekresultaat/2_end_of_life_date_python.JPG>
 
 
 [7]
@@ -2613,7 +2619,7 @@ QG1LwAAAAJ:2727769339669043622:AFWwaeYuVCLO-
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250302231000 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250307201445 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -2941,12 +2947,12 @@ Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51940 strings out of 408640
- 1064170 string characters out of 5749145
- 2307979 words of memory out of 5000000
- 74174 multiletter control sequences out of 15000+600000
+ 51941 strings out of 408640
+ 1064073 string characters out of 5749145
+ 2307919 words of memory out of 5000000
+ 74175 multiletter control sequences out of 15000+600000
  562732 words of font info for 112 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 110i,12n,131p,1256b,5872s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,12n,131p,1283b,5872s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on DePaepeBartBP.pdf (61 pages).

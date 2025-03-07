@@ -12,7 +12,7 @@
 \contentsline {section}{\numberline {3.1}Google Scholar zoekopdracht}{6}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Parsen van Google Scholar zoekresultaat}{6}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Crossref}{8}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Natural language processing}{9}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Natural language processing}{8}{section.3.4}%
 \contentsline {section}{\numberline {3.5}IMIS-input}{9}{section.3.5}%
 \contentsline {chapter}{\numberline {4}Google Scholar zoekopdracht}{10}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Zoeken in Google Scholar \blx@tocontentsinit {0}\autocite {JohnSBailey2025}}{10}{section.4.1}%
