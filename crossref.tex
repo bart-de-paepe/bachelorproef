@@ -26,11 +26,61 @@
 %% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
 %% en geef het een gepaste titel.
 \section{Doelstelling}
-\lipsum[1-2]
+De voorgaande stappen leverden gegevens zoals titel en auteur, en ook de DOI van de publicatie op. Tot nu toe zijn al die resultaten gebaseerd op tekstverwerking en linked data. Aan de hand van Crossref kan er gevalideerd worden of de gevonden gegevens correct zijn. Dat is cruciaal voor de kwaliteit van de nieuwe publicaties ten opzichte van IMIS.
 \section{Analyse}
-\lipsum[1-2]
+\begin{table}[ptb]
+    \centering
+    \begin{tabular}{ | m{5cm} | m{10cm}| } 
+        \hline
+        \rowcolor{lightgray}
+        Use Case Crossref. \\ 
+        \hline
+        primary actor & - \\ 
+        \hline
+        stakeholders & - \\ 
+        \hline
+        pre-condities & systeem beschikt over een DOI \\ 
+        \hline
+        post-condities & de gegevens van de publicatie zijn gevalideerd \\ 
+        \hline
+        normaal verloop & 
+        \begin{enumerate}
+            \item systeem stuurt een request naar Crossref voor de betreffende DOI
+            \item systeem ontvangt response
+            \item systeem zoekt titel, auteur, uitgever, jaar in de response
+            \item systeem valideert deze gegevens met de informatie uit de voorgaande stappen
+            \item systeem slaat de gegevens op
+        \end{enumerate} \\ 
+        \hline
+        alternatief verloop & 
+        \begin{description}
+            \item 2A. geen response
+            \item 2A1. het systeem logt het probleem
+            \item 2A2. use case eindigt zonder bereiken van de post-conditie
+            \item 2B. DOI is niet gevonden
+            \item 2B1. het systeem logt het probleem
+            \item 2B2. het systeem kan niet valideren
+            \item 2B3. het syteem slaat dit slechte resultaat op
+        \end{description} \\ 
+        \hline
+    \end{tabular}
+    \caption{Crossref.}
+\end{table}
 \section{Implementatie}
-\lipsum[1-2]
+De API's van Crossref worden ondersteund door meerdere onafhankelijke Python bibliotheken:
+\begin{itemize}
+    \item Crossref Commons for Python \autocite{Crossrefcommons2025}
+    \item Habanero \autocite{Habanero2025}
+    \item Crossrefapi \autocite{Crossrefapi2025}
+\end{itemize}
+Met als doel om de metadata van een publicatie op te vragen op basis van de DOI zijn alle bibliotheken aan elkaar gewaagd. Zonder bijzondere reden, behalve dat Crossref Commons ontwikkeld wordt door Crossref zelf, wordt er met Crossref Commons for Python gewerkt. De code om een entity op te vragen is bijzonder compact zoals te zien in \ref{code:Crossref commons}
+\begin{listing}
+    \begin{minted}{python}
+        response = crossref_commons.retrieval.get_publication_as_json(doi)
+    \end{minted}
+    \caption[Crossref commons codefragment]{Codefragment voor opvragen van de metadata van een publicatie aan Crossref.}
+    \label{code:Crossref commons}
+\end{listing}
 \section{Resultaat}
 \lipsum[1-2]
 

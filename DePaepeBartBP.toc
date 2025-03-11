@@ -39,8 +39,8 @@
 \contentsline {chapter}{\numberline {6}Crossref}{32}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Doelstelling}{32}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Analyse}{32}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Implementatie}{33}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Resultaat}{33}{section.6.4}%
+\contentsline {section}{\numberline {6.3}Implementatie}{32}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Resultaat}{32}{section.6.4}%
 \contentsline {chapter}{\numberline {7}Natural language processing}{35}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Doelstelling}{35}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Analyse}{35}{section.7.2}%
@@ -57,5 +57,5 @@
 \contentsline {section}{\numberline {A.2}Literatuurstudie}{45}{section.A.2}%
 \contentsline {section}{\numberline {A.3}Methodologie}{46}{section.A.3}%
 \contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{48}{section.A.4}%
-\contentsline {chapter}{Bibliografie}{49}{appendix*.31}%
+\contentsline {chapter}{Bibliografie}{49}{appendix*.32}%
 \contentsfinish 
