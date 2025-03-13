@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  11 MAR 2025 23:06
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  13 MAR 2025 22:48
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2614,7 +2614,7 @@ QG1LwAAAAJ:2727769339669043622:AFWwaeYuVCLO-
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250311230650 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250313224824 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -2769,43 +2769,51 @@ l.80     \end{minted}
                      
 (That was another \errmessage.)
 
+File: ../graphics/./3_crossref/database_structure_crossref.JPG Graphic file (ty
+pe bmp)
+<../graphics/./3_crossref/database_structure_crossref.JPG>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 
 [32
 
 ]
 
-[33]) (nlp.tex
+[33]
 
-[34]
+[34]) (nlp.tex
+
+[35]
 Hoofdstuk 7.
 
 
-[35
+[36
 
 ]
 
-[36]) (imisinput.tex
+[37]) (imisinput.tex
 
-[37]
+[38]
 Hoofdstuk 8.
 
 
-[38
+[39
 
 ]
 
-[39]) (conclusie.tex
+[40]) (conclusie.tex
 
-[40]
+[41]
 Hoofdstuk 9.
 
 
-[41
+[42
 
 ])
 
-[42]
+[43]
 B\ij lage A.
 (../voorstel/voorstel-inhoud.tex
 Overfull \hbox (2.63669pt too wide) in paragraph at lines 20--21
@@ -2815,14 +2823,14 @@ collecties van mariene wetenschap-
 
 
 
-[43
+[44
 
 ]
 File: images/stapsgewijs.png Graphic file (type bmp)
 <images/stapsgewijs.png>
 
 
-[44]
+[45]
 Overfull \hbox (21.94153pt too wide) in paragraph at lines 59--60
 []\TU/Montserrat(1)/m/n/10.95 Google Scholar is een zoekmachine die wetenschapp
 elijke literatuur indexeert ([]“  Google
@@ -2830,7 +2838,7 @@ elijke literatuur indexeert ([]“  Google
 
 
 
-[45]
+[46]
 Overfull \hbox (9.43324pt too wide) in paragraph at lines 67--68
 \TU/Montserrat(1)/m/n/10.95 vend, betrouwbaar en onderscheidbaar geïdentificeer
 d kunnen worden. []Chandrakar
@@ -2838,11 +2846,11 @@ d kunnen worden. []Chandrakar
 
 
 
-[46]
+[47]
 
-[47])
+[48])
 
-[48]
+[49]
 DePaepeBartBP.tex:184: Missing $ inserted.
 <inserted text> 
                 $
@@ -2892,7 +2900,7 @@ n/10.95 . (2025, maart 1). [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][]
 
 
 
-[49
+[50
 
 
 ]
@@ -2903,7 +2911,7 @@ a, de vrije encyclopedie\TU/Montserrat(1)/m/n/10.95 . (2025, maart
 
 
 
-[50]
+[51]
 Overfull \hbox (2.26407pt too wide) in paragraph at lines 184--184
 [][]\TU/Montserrat(2)/m/it/10.95 MongoDB\TU/Montserrat(1)/m/n/10.95 . (2025, ma
 art 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][]
@@ -2936,26 +2944,26 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[51]
+[52]
 
-[52] (DePaepeBartBP.aux)
+[53] (DePaepeBartBP.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
-(rerunfilecheck)             Checksum: A77422E5506ED6D884286E12394DCDFA;8753.
+(rerunfilecheck)             Checksum: A654684E33029087B0DA40B5C33BD9DB;8753.
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51953 strings out of 408640
- 1064499 string characters out of 5749145
- 2309160 words of memory out of 5000000
- 74187 multiletter control sequences out of 15000+600000
+ 51966 strings out of 408640
+ 1065184 string characters out of 5749145
+ 2309221 words of memory out of 5000000
+ 74198 multiletter control sequences out of 15000+600000
  562732 words of font info for 112 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,13n,131p,1283b,5872s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DePaepeBartBP.pdf (61 pages).
+Output written on DePaepeBartBP.pdf (62 pages).

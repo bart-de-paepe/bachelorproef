@@ -82,6 +82,25 @@ Met als doel om de metadata van een publicatie op te vragen op basis van de DOI 
     \label{code:Crossref commons}
 \end{listing}
 \section{Resultaat}
-\lipsum[1-2]
+Een overzicht van de gegevens die opgeslaan worden zijn te zien in figuur \ref{fig:databank_structuur_crossref}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./3_crossref/database_structure_crossref.JPG}
+    \caption[Databank structuur Crossref.]{\label{fig:databank_structuur_crossref}Databank structuur Crossref.}
+\end{figure}
+\begin{itemize}
+    \item \textbf{\_id}: De unieke ID van de record.
+    \item \textbf{created\_at}: De datum en het tijdstip waarop de Crossref gegevens in de databank werden opgeslaan.
+    \item \textbf{updated\_at}: De datum en het tijdstip waarop de Crossref gegevens in de databank het laatst werden gewijzigd. 
+    \item \textbf{search\_result}: Referentie naar de overeenkomstige search result waar deze Crossref gegevens op slaan. 
+    \item \textbf{title}: De titel volgens Crossref.
+    \item \textbf{author}: De auteurs volgens Crossref. 
+    \item \textbf{publisher}: De uitgever volgens Crossref.
+    \item \textbf{year}: Het jaartal volgens Crossref.
+    \item \textbf{subject}: Het onderwerp van de e-mail. 
+    \item \textbf{doi\_url}: Url van de DOI. 
+    \item \textbf{api\_url}: Endpoint van de API voor deze DOI. 
+    \item \textbf{log\_message}: De logberichten tijdens het raadplegen van Crossref worden hier bewaard. 
+\end{itemize}
 
 
