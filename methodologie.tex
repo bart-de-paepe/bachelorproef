@@ -62,7 +62,7 @@ De geparsete e-mail alerts worden opgeslagen in een MongoDB database, dit is een
 \section{Crossref}
 Crossref biedt verschillende API's aan waar de metadata van wetenschappelijke publicaties opgevraagd kan worden op basis van de DOI.
 \section{Natural language processing}
-\lipsum[1-1]
+Wanneer het abstract van de publicatie beschikbaar is, wordt die gebruikt om het artikel te classificeren binnen 1 van de collecties van IMIS. Dat kan met behulp van een vector databank. Daarvoor moeten eerst alle bestaande publicaties van een collectie omgezet worden naar een vector. Dat gebeurt op basis van een LLM. Die vectors worden opgeslaan in een vector database. Voor elk nieuw artikel wordt de overeenkomstige vector berekend van het abstract aan de hand van hetzelfde model. Vervolgens vertelt de positie van de vector ten opzichte van andere vectoren ons tot welke collectie het artikel behoort.
 \section{IMIS-input}
 \lipsum[1-1]
 

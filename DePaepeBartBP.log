@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  13 MAR 2025 22:48
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  14 MAR 2025 15:17
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2614,7 +2614,7 @@ QG1LwAAAAJ:2727769339669043622:AFWwaeYuVCLO-
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250313224824 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250314151742 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
