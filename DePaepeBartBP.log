@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  20 MAR 2025 22:49
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  29 MAR 2025 22:33
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2628,7 +2628,7 @@ QG1LwAAAAJ:2727769339669043622:AFWwaeYuVCLO-
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250320224929 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250329223337 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -2801,33 +2801,133 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [36]
 Hoofdstuk 7.
+File: ../graphics/./4_NLP/SERP.jpg Graphic file (type bmp)
+<../graphics/./4_NLP/SERP.jpg>
+
+LaTeX Warning: Float too large for page by 294.61046pt on input line 50.
+
 
 
 [37
 
 ]
 
-[38]) (imisinput.tex
+[38]
+
+nlp.tex:65: Package minted Error: Cannot highlight code (minted executable is u
+navailable or disabled); attempting to typeset without highlighting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65     \end{minted}
+                     
+(That was another \errmessage.)
+
+
+nlp.tex:95: Package minted Error: Cannot highlight code (minted executable is u
+navailable or disabled); attempting to typeset without highlighting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95     \end{minted}
+                     
+(That was another \errmessage.)
+
+File: ../graphics/./4_NLP/openai_billing.png Graphic file (type bmp)
+<../graphics/./4_NLP/openai_billing.png>
+nlp.tex:109: Missing $ inserted.
+<inserted text> 
+                $
+l.109 ...: 'error', 'error': {'type': 'overloaded_
+                                                  error', 'message': 'Overlo...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+nlp.tex:109: Extra }, or forgotten $.
+<recently read> }
+                 
+l.109 ...erloaded_error', 'message': 'Overloaded'}
+                                                  }
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+nlp.tex:109: Extra }, or forgotten $.
+l.109 ...rloaded_error', 'message': 'Overloaded'}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+nlp.tex:110: Missing $ inserted.
+<inserted text> 
+                $
+l.110 ...ment]{Codefragment Anthropic overloaded.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 109--110
+[]\TU/Montserrat(1)/m/n/10.95 Error code: 529 - ’type’: ’error’, ’error’: ’type
+’: ’overloaded$[][][][][][][][] [][][][][][][][] [][]
+ []
+
+nlp.tex:112: Missing } inserted.
+<inserted text> 
+                }
+l.112 \end{listing}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+nlp.tex:112: Missing } inserted.
+<inserted text> 
+                }
+l.112 \end{listing}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+) (imisinput.tex
 
 [39]
+
+[40]
+
+[41]
 Hoofdstuk 8.
 
 
-[40
+[42
 
 ]
 
-[41]) (conclusie.tex
+[43]) (conclusie.tex
 
-[42]
+[44]
 Hoofdstuk 9.
 
 
-[43
+[45
 
 ])
 
-[44]
+[46]
 B\ij lage A.
 (../voorstel/voorstel-inhoud.tex
 Overfull \hbox (2.63669pt too wide) in paragraph at lines 20--21
@@ -2837,14 +2937,14 @@ collecties van mariene wetenschap-
 
 
 
-[45
+[47
 
 ]
 File: images/stapsgewijs.png Graphic file (type bmp)
 <images/stapsgewijs.png>
 
 
-[46]
+[48]
 Overfull \hbox (21.94153pt too wide) in paragraph at lines 59--60
 []\TU/Montserrat(1)/m/n/10.95 Google Scholar is een zoekmachine die wetenschapp
 elijke literatuur indexeert ([]“  Google
@@ -2852,7 +2952,7 @@ elijke literatuur indexeert ([]“  Google
 
 
 
-[47]
+[49]
 Overfull \hbox (9.43324pt too wide) in paragraph at lines 67--68
 \TU/Montserrat(1)/m/n/10.95 vend, betrouwbaar en onderscheidbaar geïdentificeer
 d kunnen worden. []Chandrakar
@@ -2860,11 +2960,11 @@ d kunnen worden. []Chandrakar
 
 
 
-[48]
-
-[49])
-
 [50]
+
+[51])
+
+[52]
 DePaepeBartBP.tex:184: Missing $ inserted.
 <inserted text> 
                 $
@@ -2914,7 +3014,7 @@ n/10.95 . (2025, maart 1). [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][]
 
 
 
-[51
+[53
 
 
 ]
@@ -2925,7 +3025,7 @@ a, de vrije encyclopedie\TU/Montserrat(1)/m/n/10.95 . (2025, maart
 
 
 
-[52]
+[54]
 Overfull \hbox (2.26407pt too wide) in paragraph at lines 184--184
 [][]\TU/Montserrat(2)/m/it/10.95 MongoDB\TU/Montserrat(1)/m/n/10.95 . (2025, ma
 art 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][]
@@ -2958,9 +3058,9 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[53]
+[55]
 
-[54] (DePaepeBartBP.aux)
+[56] (DePaepeBartBP.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -2970,23 +3070,22 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
-(rerunfilecheck)             Checksum: A654684E33029087B0DA40B5C33BD9DB;8753.
+(rerunfilecheck)             Checksum: EE08EDB06E8F9A3E741BAD486701BDD3;8753.
 
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                DePaepeBartBP
-(biblatex)                and rerun LaTeX afterwards.
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51968 strings out of 408640
- 1065207 string characters out of 5749145
- 2309199 words of memory out of 5000000
- 74200 multiletter control sequences out of 15000+600000
+ 52028 strings out of 408640
+ 1067167 string characters out of 5749145
+ 2310506 words of memory out of 5000000
+ 74257 multiletter control sequences out of 15000+600000
  562732 words of font info for 112 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,13n,131p,1283b,5872s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DePaepeBartBP.pdf (63 pages).
+Output written on DePaepeBartBP.pdf (65 pages).

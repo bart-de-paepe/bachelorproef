@@ -112,6 +112,24 @@
       \verb 10.2991/978-94-6463-386-3_36
       \endverb
     \endentry
+    \entry{AnthropicOverloaded2025}{online}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{4}
+      \field{title}{Anthropic: using the API: Errors}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.anthropic.com/en/api/errors
+      \endverb
+      \verb{url}
+      \verb https://docs.anthropic.com/en/api/errors
+      \endverb
+    \endentry
     \entry{Araujo2021}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=d095050ceafb25fdea87789e0805eed6}{%
@@ -1336,39 +1354,6 @@
       \verb{doi}
       \verb 10.4018/978-1-4666-3604-0.ch022
       \endverb
-    \endentry
-    \entry{Pollefliet2011}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7ca343ebcc6de1727ac22a1a847c21e5}{%
-           family={Pollefliet},
-           familyi={P\bibinitperiod},
-           given={Leen},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Gent}%
-      }
-      \list{publisher}{1}{%
-        {Academia Press}%
-      }
-      \strng{namehash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{fullhash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{fullhashraw}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{bibnamehash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{authorbibnamehash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{authornamehash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{authorfullhash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{authorfullhashraw}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Schrijven van verslag tot eindwerk: do's en don'ts}
-      \field{year}{2011}
     \endentry
     \entry{Pratiba2018}{article}{}{}
       \name{author}{6}{}{%
@@ -2188,6 +2173,24 @@
       \verb 10.2991/978-94-6463-386-3_36
       \endverb
     \endentry
+    \entry{AnthropicOverloaded2025}{online}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{4}
+      \field{title}{Anthropic: using the API: Errors}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.anthropic.com/en/api/errors
+      \endverb
+      \verb{url}
+      \verb https://docs.anthropic.com/en/api/errors
+      \endverb
+    \endentry
     \entry{Araujo2021}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=d095050ceafb25fdea87789e0805eed6}{%
@@ -3412,39 +3415,6 @@
       \verb{doi}
       \verb 10.4018/978-1-4666-3604-0.ch022
       \endverb
-    \endentry
-    \entry{Pollefliet2011}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7ca343ebcc6de1727ac22a1a847c21e5}{%
-           family={Pollefliet},
-           familyi={P\bibinitperiod},
-           given={Leen},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Gent}%
-      }
-      \list{publisher}{1}{%
-        {Academia Press}%
-      }
-      \strng{namehash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{fullhash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{fullhashraw}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{bibnamehash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{authorbibnamehash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{authornamehash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{authorfullhash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{authorfullhashraw}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Schrijven van verslag tot eindwerk: do's en don'ts}
-      \field{year}{2011}
     \endentry
     \entry{Pratiba2018}{article}{}{}
       \name{author}{6}{}{%

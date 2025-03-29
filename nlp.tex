@@ -26,12 +26,88 @@
 %% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
 %% en geef het een gepaste titel.
 \section{Doelstelling}
-\lipsum[1-2]
+LLMs zijn gemaakt met als doel om tekst te produceren en om tekst te begrijpen net zoals mensen dat doen. Ze zijn toepasbaar voor uiteenlopende doeleinden zoals het afleiden van de juiste context en het beantwoorden van vragen. Ze kunnen tekst samenvatten of zelf produceren.
+Titel, originele link, auteurs, naam van de uitgever, jaar van publicatie en snippet zijn vormen van context in een SERP.
+LLMs komen in verschillende geuren en kleuren, hier enkele verschillende setups.
+Er zijn betalende modellen.
+Er zijn niet betalende modellen.
+Zelf niet betalende modellen draaien met Ollama.
+Doen ze de job? Leiden ze de context af uit de SERP? Doen de verschillende setups het even goed? Wat zijn de gebreken? En wat kiezen we voor onze klant?
+
+Kan NLP gebruikt worden om de Google Scholar SERP om te zetten in gestructureerde data? Machine learning modellen zijn sterk in het herkennen van patronen. Een Google Scholar SERP heeft ook een vast patroon:
+\begin{itemize}
+    \item titel
+    \item originele link
+    \item auteurs
+    \item naam van de uitgever
+    \item jaar van publicatie
+    \item snippet
+\end{itemize}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./4_NLP/SERP.jpg}
+    \caption[Google Scholar SERP.]{\label{fig:Google ScholarSERP}Google Scholar SERP.}
+\end{figure}
+Hoe goed zijn de LLMs in het parsen van rauwe HTML, en in het bijzonder van Google Scholar SERP? Die pagina heeft al een meer complexe structuur , cryptische css klasses en een heleboel verbose data in de HTML.\\
+Een betalend model van OpenAI wordt gebruikt en een niet betalend model van Anthropic.
 \section{Analyse}
 \lipsum[1-2]
 \section{Implementatie}
-\lipsum[1-2]
+De rauwe HTML wordt eerst lichtjes verwerkt om de <head>, <script> en <style> tags uit de HTML te verwijderen. Deze bevatten toch geen content en zouden alleen maar de rekentijd, het aantal tokens, en overeenkomstig de prijs doen toenemen.\\
+Er wordt een prompt opgesteld:
+\begin{listing}
+    \begin{minted}{python}
+        messages=[
+        {"role": "system",
+            "content": "You are a master at scraping Google Scholar results data. Scrape top 10 organic results data from Google Scholar search result page."},
+        {"role": "user", "content": body_text}
+        ],
+    \end{minted}
+    \caption[Prompt codefragment]{Codefragment voor het opstellen van een prompt.}
+    \label{code:Prompt codefragment}
+\end{listing}
+Er worden parse opties opgesteld:
+\begin{listing}
+    \begin{minted}{python}
+       "function": {
+           "name": "parse_data",
+           "description": "Parse organic results from Google Scholar SERP raw HTML data nicely",
+           "parameters": {
+               'type': 'object',
+               'properties': {
+                   'data': {
+                       'type': 'array',
+                       'items': {
+                           'type': 'object',
+                           'properties': {
+                               'title': {'type': 'string'},
+                               'original_url': {'type': 'string'},
+                               'authors': {'type': 'string'},
+                               'year_of_publication': {'type': 'integer'},
+                               'journal_name': {'type': 'string'},
+                               'snippet': {'type': 'string'}
+                           }
+                       }
+                   }
+               }
+           }
+       }
+    \end{minted}
+    \caption[Parse opties codefragment]{Codefragment voor het opstellen van parse opties.}
+    \label{code:Parse opties codefragment}
+\end{listing}
 \section{Resultaat}
-\lipsum[1-2]
-
-
+Het betalend model van OpenAI heeft 100\% succes. Het vindt titel, originele url, auteurs, naam van de uitgever, jaar van publicatie, en snippet voor elk van de 10 zoekresultaten in de SERP.\\
+De kostprijs van de opzoeking bedraagt 0,17\$ (dat is voor 1 Google Scholar alert met 10 zoekresultaten). Het model gebruikte daarvoor 14743 tokens. 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./4_NLP/openai_billing.png}
+    \caption[OpenAI dashboard.]{\label{fig:OpenAI dashboard}OpenAI dashboard.}
+\end{figure}
+Het niet betalend model van Anthropic heeft ook 100\% success. Er moet wel vermeldt worden dat niet alle jobs slaagden. In sommige gevallen gaf de Anthropic API een overloaded error terug \autocite{AnthropicOverloaded2025}.
+\begin{listing}
+    Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}}
+    \caption[Anthropic overloaded codefragment]{Codefragment Anthropic overloaded.}
+    \label{code:Anthropic overloaded codefragment}
+\end{listing}
+Om daar wat aan te doen kunnen we een model lokaal draaien met ollama.

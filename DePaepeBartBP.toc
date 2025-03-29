@@ -43,19 +43,19 @@
 \contentsline {section}{\numberline {6.4}Resultaat}{33}{section.6.4}%
 \contentsline {chapter}{\numberline {7}Natural language processing}{37}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Doelstelling}{37}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Analyse}{37}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Implementatie}{38}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Resultaat}{38}{section.7.4}%
-\contentsline {chapter}{\numberline {8}IMIS-input}{40}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Doelstelling}{40}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Analyse}{40}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Implementatie}{41}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Resultaat}{41}{section.8.4}%
-\contentsline {chapter}{\numberline {9}Conclusie}{43}{chapter.9}%
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{45}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Inleiding}{45}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Literatuurstudie}{47}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Methodologie}{48}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{50}{section.A.4}%
-\contentsline {chapter}{Bibliografie}{51}{appendix*.33}%
+\contentsline {section}{\numberline {7.2}Analyse}{39}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Implementatie}{39}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Resultaat}{41}{section.7.4}%
+\contentsline {chapter}{\numberline {8}IMIS-input}{42}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Doelstelling}{42}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Analyse}{42}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Implementatie}{43}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Resultaat}{43}{section.8.4}%
+\contentsline {chapter}{\numberline {9}Conclusie}{45}{chapter.9}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{47}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Inleiding}{47}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Literatuurstudie}{49}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Methodologie}{50}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{52}{section.A.4}%
+\contentsline {chapter}{Bibliografie}{53}{appendix*.35}%
 \contentsfinish 
