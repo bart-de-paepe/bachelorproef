@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  29 MAR 2025 22:33
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  31 MAR 2025 21:32
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2628,7 +2628,7 @@ QG1LwAAAAJ:2727769339669043622:AFWwaeYuVCLO-
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250329223337 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250331213211 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -2903,6 +2903,264 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+[]|\TU/Montserrat(1)/m/n/10.95 [”B Larue”, ”F Pelletier”, ”M Festa-
+ []
+
+
+Overfull \hbox (199.99594pt too wide) in paragraph at lines 139--139
+[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
+ticle/pii/S0191886925001308”| 
+ []
+
+
+Overfull \hbox (199.99594pt too wide) in paragraph at lines 139--140
+[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
+ticle/pii/S0191886925001308”| 
+ []
+
+
+Overfull \hbox (74.46516pt too wide) in paragraph at lines 140--140
+[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://link.springer.com/article/10.100
+7/s42729-
+ []
+
+
+Overfull \hbox (74.46516pt too wide) in paragraph at lines 140--141
+[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://link.springer.com/article/10.100
+7/s42729-
+ []
+
+
+Overfull \hbox (34.91379pt too wide) in paragraph at lines 141--141
+[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.nature.com/articles/s41598-
+ []
+
+
+Overfull \hbox (34.91379pt too wide) in paragraph at lines 141--142
+[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.nature.com/articles/s41598-
+ []
+
+
+Overfull \hbox (203.08383pt too wide) in paragraph at lines 142--142
+[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
+ticle/pii/S0269749125004750”| 
+ []
+
+
+Overfull \hbox (203.08383pt too wide) in paragraph at lines 142--143
+[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
+ticle/pii/S0269749125004750”| 
+ []
+
+
+Overfull \hbox (130.91238pt too wide) in paragraph at lines 143--143
+[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://ieeexplore.ieee.org/abstract/doc
+ument/10935702/”| 
+ []
+
+
+Overfull \hbox (130.91238pt too wide) in paragraph at lines 143--144
+[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://ieeexplore.ieee.org/abstract/doc
+ument/10935702/”| 
+ []
+
+
+Overfull \hbox (200.11636pt too wide) in paragraph at lines 144--144
+[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
+ticle/pii/S2666154325002091”| 
+ []
+
+
+Overfull \hbox (200.11636pt too wide) in paragraph at lines 144--145
+[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
+ticle/pii/S2666154325002091”| 
+ []
+
+
+Overfull \hbox (203.91602pt too wide) in paragraph at lines 145--145
+[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
+ticle/pii/S0733521025000608”| 
+ []
+
+
+Overfull \hbox (203.91602pt too wide) in paragraph at lines 145--146
+[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
+ticle/pii/S0733521025000608”| 
+ []
+
+
+Overfull \hbox (76.26094pt too wide) in paragraph at lines 146--146
+[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://academic.oup.com/botlinnean/adva
+nce-
+ []
+
+
+Overfull \hbox (46.80911pt too wide) in paragraph at lines 146--146
+\TU/Montserrat(1)/m/n/10.95 article/doi/10.1093/botlinnean/boaf012/8089970”| 
+ []
+
+
+Overfull \hbox (76.26094pt too wide) in paragraph at lines 146--147
+[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://academic.oup.com/botlinnean/adva
+nce-
+ []
+
+
+Overfull \hbox (46.80911pt too wide) in paragraph at lines 146--147
+\TU/Montserrat(1)/m/n/10.95 article/doi/10.1093/botlinnean/boaf012/8089970”| 
+ []
+
+
+Overfull \hbox (110.50162pt too wide) in paragraph at lines 147--147
+[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.pnas.org/doi/full/10.1073/pn
+as.2417158122”| 
+ []
+
+
+Overfull \hbox (110.50162pt too wide) in paragraph at lines 147--148
+[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.pnas.org/doi/full/10.1073/pn
+as.2417158122”| 
+ []
+
+
+Overfull \hbox (207.5405pt too wide) in paragraph at lines 148--148
+[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://journals.biologists.com/jeb/arti
+cle/doi/10.1242/jeb.250210/367452”| 
+ []
+
+
+Overfull \hbox (207.5405pt too wide) in paragraph at lines 148--149
+[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://journals.biologists.com/jeb/arti
+cle/doi/10.1242/jeb.250210/367452”| 
+ []
+
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]|\TU/Montserrat(1)/m/n/10.95 This systematic review and meta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+\TU/Montserrat(1)/m/n/10.95 analysis examine the association
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+[]|\TU/Montserrat(1)/m/n/10.95 This systematic review and meta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+\TU/Montserrat(1)/m/n/10.95 analysis examine the association
+ []
+
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+
+Underfull \hbox (badness 1817) in paragraph at lines 169--170
+[]|\TU/Montserrat(1)/m/n/10.95 ... with high levels of autistic traits
+ []
+
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+
+Underfull \hbox (badness 2181) in paragraph at lines 174--174
+[]|\TU/Montserrat(1)/m/n/10.95 Micromorphological traits have been
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 174--175
+[]|\TU/Montserrat(1)/m/n/10.95 Micromorphological traits have been
+ []
+
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+
+Underfull \hbox (badness 2393) in paragraph at lines 182--182
+\TU/Montserrat(1)/m/n/10.95 mate Change Conditions�A Compre-
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 182--183
+\TU/Montserrat(1)/m/n/10.95 mate Change Conditions–A Compre-
+ []
+
+
+Underfull \hbox (badness 5652) in paragraph at lines 183--183
+[]|\TU/Montserrat(1)/m/n/10.95 Task-evoked pupil responses during
+ []
+
+
+Underfull \hbox (badness 5652) in paragraph at lines 183--184
+[]|\TU/Montserrat(1)/m/n/10.95 Task-evoked pupil responses during
+ []
+
+
+Underfull \hbox (badness 3482) in paragraph at lines 186--186
+[]|\TU/Montserrat(1)/m/n/10.95 Pork-YOLO: Automated Collection of
+ []
+
+
+Underfull \hbox (badness 3482) in paragraph at lines 186--187
+[]|\TU/Montserrat(1)/m/n/10.95 Pork-YOLO: Automated Collection of
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 189--189
+\TU/Montserrat(1)/m/n/10.95 trajectories in multidimensional trait
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 189--190
+\TU/Montserrat(1)/m/n/10.95 trajectories in multidimensional trait
+ []
+
+
+Overfull \hbox (3.8604pt too wide) in paragraph at lines 117--207
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 1464.55772pt on input line 208.
+
 ) (imisinput.tex
 
 [39]
@@ -2910,24 +3168,26 @@ my insertion and my current dilemma will both disappear.
 [40]
 
 [41]
+
+[42]
 Hoofdstuk 8.
 
 
-[42
+[43
 
 ]
 
-[43]) (conclusie.tex
+[44]) (conclusie.tex
 
-[44]
+[45]
 Hoofdstuk 9.
 
 
-[45
+[46
 
 ])
 
-[46]
+[47]
 B\ij lage A.
 (../voorstel/voorstel-inhoud.tex
 Overfull \hbox (2.63669pt too wide) in paragraph at lines 20--21
@@ -2937,14 +3197,14 @@ collecties van mariene wetenschap-
 
 
 
-[47
+[48
 
 ]
 File: images/stapsgewijs.png Graphic file (type bmp)
 <images/stapsgewijs.png>
 
 
-[48]
+[49]
 Overfull \hbox (21.94153pt too wide) in paragraph at lines 59--60
 []\TU/Montserrat(1)/m/n/10.95 Google Scholar is een zoekmachine die wetenschapp
 elijke literatuur indexeert ([]“  Google
@@ -2952,7 +3212,7 @@ elijke literatuur indexeert ([]“  Google
 
 
 
-[49]
+[50]
 Overfull \hbox (9.43324pt too wide) in paragraph at lines 67--68
 \TU/Montserrat(1)/m/n/10.95 vend, betrouwbaar en onderscheidbaar geïdentificeer
 d kunnen worden. []Chandrakar
@@ -2960,11 +3220,11 @@ d kunnen worden. []Chandrakar
 
 
 
-[50]
+[51]
 
-[51])
+[52])
 
-[52]
+[53]
 DePaepeBartBP.tex:184: Missing $ inserted.
 <inserted text> 
                 $
@@ -3014,7 +3274,7 @@ n/10.95 . (2025, maart 1). [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][]
 
 
 
-[53
+[54
 
 
 ]
@@ -3025,7 +3285,7 @@ a, de vrije encyclopedie\TU/Montserrat(1)/m/n/10.95 . (2025, maart
 
 
 
-[54]
+[55]
 Overfull \hbox (2.26407pt too wide) in paragraph at lines 184--184
 [][]\TU/Montserrat(2)/m/it/10.95 MongoDB\TU/Montserrat(1)/m/n/10.95 . (2025, ma
 art 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][]
@@ -3058,34 +3318,26 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[55]
+[56]
 
-[56] (DePaepeBartBP.aux)
+[57] (DePaepeBartBP.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
-(rerunfilecheck)             Checksum: EE08EDB06E8F9A3E741BAD486701BDD3;8753.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
+(rerunfilecheck)             Checksum: 4A102088A0794C60F935DC77C7F9E61D;8753.
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52028 strings out of 408640
- 1067167 string characters out of 5749145
- 2310506 words of memory out of 5000000
- 74257 multiletter control sequences out of 15000+600000
+ 52030 strings out of 408640
+ 1067191 string characters out of 5749145
+ 2332550 words of memory out of 5000000
+ 74259 multiletter control sequences out of 15000+600000
  562732 words of font info for 112 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,13n,131p,1283b,5872s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DePaepeBartBP.pdf (65 pages).
+Output written on DePaepeBartBP.pdf (66 pages).

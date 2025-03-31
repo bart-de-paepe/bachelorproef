@@ -46,16 +46,16 @@
 \contentsline {section}{\numberline {7.2}Analyse}{39}{section.7.2}%
 \contentsline {section}{\numberline {7.3}Implementatie}{39}{section.7.3}%
 \contentsline {section}{\numberline {7.4}Resultaat}{41}{section.7.4}%
-\contentsline {chapter}{\numberline {8}IMIS-input}{42}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Doelstelling}{42}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Analyse}{42}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Implementatie}{43}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Resultaat}{43}{section.8.4}%
-\contentsline {chapter}{\numberline {9}Conclusie}{45}{chapter.9}%
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{47}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Inleiding}{47}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Literatuurstudie}{49}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Methodologie}{50}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{52}{section.A.4}%
-\contentsline {chapter}{Bibliografie}{53}{appendix*.35}%
+\contentsline {chapter}{\numberline {8}IMIS-input}{43}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Doelstelling}{43}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Analyse}{43}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Implementatie}{44}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Resultaat}{44}{section.8.4}%
+\contentsline {chapter}{\numberline {9}Conclusie}{46}{chapter.9}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{48}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Inleiding}{48}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Literatuurstudie}{50}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Methodologie}{51}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{53}{section.A.4}%
+\contentsline {chapter}{Bibliografie}{54}{appendix*.36}%
 \contentsfinish 
