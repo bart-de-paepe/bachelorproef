@@ -206,3 +206,6 @@ Onderstaande tabel geeft een overzcht van de zoekresultaten met OpenAI ten opzic
     \end{tabular}
     \caption{Overzicht zoekresultaten met OpenAi en Anthropic.}
 \end{table}
+Om een model lokaal te draaien is de limiet bepaald door het geheugen van de computer. Daarom wordt er gekozen voor het llama3.2 model dat 2GB inneemt. Het llama3 model neemt 40GB in en kan niet gebruikt worden op een laptop.
+Het lokale llama3.2 model is niet in staat om de SERP te scrapen. Ook niet wanneer we slechts 1 zoekresultaat als input gegeven wordt. Het is pas nadat de verbose HTML tags verwijderd zijn, dat het model in staat is om de overgebleven tekst te parsen.
+Dit moet verder onderzocht worden aan de hand van grotere modellen op  krachtigere servers.
