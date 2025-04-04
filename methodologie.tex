@@ -25,6 +25,49 @@
 %%
 %% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
 %% en geef het een gepaste titel.
+Om nieuwe publicaties die gerelateerd zijn aan wetenschappelijke projecten toe te voegen aan IMIS, moet er natuurlijk een signaal zijn wanneer dergelijke publicaties beschikbaar zijn. Indexen van academische literatuur zijn daarvoor een geschikte bron en zoals eerder beschreven is Google Scholar een waardevolle optie. Het is de bedoeling om enkel nieuwe resultaten te ontvangen en bijgevolg vervalt dus de optie om publicaties op te zoeken aan de hand van de Google Scholar zoekpagina. Google Scholar laat echter toe om meldingen aan te maken voor een bepaalde zoekopdracht. Die stuurt automatisch nieuwe resultaten door per e-mail onder de vorm van de Google Scholar SERP.\\
+Google Scholar meldingen zijn e-mails in HTML formaat. Ze bevatten inhoud die overeenkomt met de Google Scholar SERP overeenkomstig de zoekopdracht. De SERP bevat een vaste structuur. Het is een lijst met zoekresultaten die telkens dezelfde elementen bevatten:
+\begin{itemize}
+    \item titel
+    \item link naar de webpagina van de publicatie
+    \item auteurs
+    \item tijdschrift
+    \item jaartal
+    \item abstract van de publicatie of een fragment ervan
+\end{itemize}
+Die HTML moet omgezet worden in gestructureerde data door middel van HTML scraping technieken:
+\begin{itemize}
+    \item HTML scraping door een LLM
+    \begin{itemize}
+        \item online model
+        \begin{itemize}
+            \item betalend model
+            \item niet betalend model
+        \end{itemize}
+        \item lokaal model
+    \end{itemize}
+    \item HTML scraping door het ontleden van de DOM
+    \begin{itemize}
+        \item online scraper
+        \item lokale scraper
+    \end{itemize}
+\end{itemize}\\
+Om te weten of een publicatie echt nieuw is, moet ze ondubbelzijdig geïdentificeerd kunnen worden. Titel, auteurs, tijdschrift, enz. maken een publicatie echter niet uniek. Er kunnen namelijk variante benamingen voorvallen van titels, auteurs, enz. Voor literatuur is het de DOI die een publicatie uniek maakt. Er wordt op zoek gegaan naar de DOI aan de hand van een stapsgewijze procedure:
+\begin{itemize}
+    \item DOI opzoeken in de link naar de webpagina van de publicatie
+    \item DOI opzoeken in Crossref op basis van titel, auteurs, tijdschrift en jaartal
+    \item DOI opzoeken in de webpagina van de publicatie
+    \begin{itemize}
+        \item dit kan een HTML pagina zijn
+        \item dit kan een PDF document zijn
+        \item dit kan een HTML pagina zijn met een embedded PDF document
+    \end{itemize}
+\end{itemize}\\
+Dan resteert de vraag of de publicatie echt nieuw is, of dat ze reeds aan IMIS toegevoegd werd? Het antwoord daarop is afhankelijk van de beschikbare informatie die tijdens de voorgaande stappen gevonden werd.
+\begin{itemize}
+    \item De DOI is gevonden: er kan met 100\% zekerheid opgezocht worden of de publicatie reeds in IMIS zit of niet.
+    \item De DOI is niet gevonden: omwille van de variante benamingen kan niet met volledige zekerheid opgezocht worden of een publicatie reeds in IMIS zit of niet. Wel kan de waarschijnlijkheid voorspeld worden dat de publicatie reeds in IMIS zit op basis van de titel, auteurs, tijdschrift en jaartal. Daarvoor kunnen de embeddings van deze gegevens van de publicatie vergeleken worden met de embeddings van alle publicatie in IMIS. De mate van overeenkomst tussen de embeddings geeft een probabiliteitswaarde voor de aanwezigheid van de publicatie in IMIS.
+\end{itemize}
 \section{Google Scholar zoekopdracht}
 GS biedt een aantal filtermogelijkheden om de meest relevante resultaten te bekomen voor de zoekopdracht. De filter moet manueel geconfigureerd worden voor elke zoekopdracht en vervolgens kan er een e-mail alert ingesteld worden per zoekopdracht.
 \section{Parsen van Google Scholar zoekresultaat}
