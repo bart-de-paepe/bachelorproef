@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  4 APR 2025 16:08
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  7 APR 2025 18:20
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1924,7 +1924,65 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'dutch'.
- (DePaepeBartBP.aux)
+ (DePaepeBartBP.aux
+
+LaTeX Warning: Label `code:Prompt codefragment' multiply defined.
+
+
+LaTeX Warning: Label `code:Parse opties codefragment' multiply defined.
+
+
+LaTeX Warning: Label `fig:OpenAI dashboard' multiply defined.
+
+
+LaTeX Warning: Label `fig:E-mail lezen' multiply defined.
+
+
+LaTeX Warning: Label `fig:E-mail body parsen' multiply defined.
+
+
+LaTeX Warning: Label `fig:E-mail search DOI' multiply defined.
+
+
+LaTeX Warning: Label `fig:Use case diagram' multiply defined.
+
+
+LaTeX Warning: Label `fig:Domeinmodel' multiply defined.
+
+
+LaTeX Warning: Label `fig:serp-html' multiply defined.
+
+
+LaTeX Warning: Label `code:headers' multiply defined.
+
+
+LaTeX Warning: Label `code:url' multiply defined.
+
+
+LaTeX Warning: Label `code:location.replace' multiply defined.
+
+
+LaTeX Warning: Label `code:pymupdf' multiply defined.
+
+
+LaTeX Warning: Label `fig:Databank JSON view' multiply defined.
+
+
+LaTeX Warning: Label `fig:Databank table view' multiply defined.
+
+
+LaTeX Warning: Label `fig:databank_structuur_email' multiply defined.
+
+
+LaTeX Warning: Label `fig:databank_structuur_body' multiply defined.
+
+
+LaTeX Warning: Label `fig:databank_structuur_zoekresultaat' multiply defined.
+
+
+LaTeX Warning: Label `fig:databank_structuur_link' multiply defined.
+
+)
 \openout1 = `DePaepeBartBP.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
@@ -2149,13 +2207,15 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 101.
 
 [5
 
-])
+]
+
+[6])
 \tf@toc=\write7
 \openout7 = `DePaepeBartBP.toc'.
 
 
 
-[6] (DePaepeBartBP.lof
+[7] (DePaepeBartBP.lof
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraMathRegular' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -2172,21 +2232,23 @@ LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
 (Font)              scaled to size 7.88315pt on input line 5.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
 (Font)              scaled to size 6.35031pt on input line 5.
-)
+
+
+[8
+
+])
 \tf@lof=\write8
 \openout8 = `DePaepeBartBP.lof'.
 
 
 
-[7
-
-] (DePaepeBartBP.lot)
+[9] (DePaepeBartBP.lot)
 \tf@lot=\write9
 \openout9 = `DePaepeBartBP.lot'.
 
 
 
-[8
+[10
 
 ] (DePaepeBartBP.lol)
 \tf@lol=\write10
@@ -2194,7 +2256,7 @@ LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
 
 
 
-[9
+[11
 
 
 ] (inleiding.tex
@@ -2341,35 +2403,27 @@ le (type bmp)
 
 [10]
 
-[11]) (googlescholarzoekopdracht.tex
+[11]) (googlescholaralert.tex
 
 [12]
 Hoofdstuk 4.
-
-Overfull \hbox (16.19698pt too wide) in paragraph at lines 29--29
-|[][]\TU/Montserrat(0)/b/n/14.4 Zoeken in Google Scholar ([]“  Google Scholar G
-uide”, [][]2025[][])| 
+) (web_scraping.tex
+Overfull \hbox (39.86299pt too wide) in paragraph at lines 30--4
+\TU/Montserrat(1)/m/n/10.95 In het kader van deze opdracht werd een nieuw accou
+nt \TU/Montserrat(2)/b/n/10.95 google-scholar@marineinfo.org
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\autocite' on input line 29.
+Overfull \hbox (5.13693pt too wide) in paragraph at lines 30--4
+\TU/Montserrat(1)/m/n/10.95 Vervolgens werden meerdere zoekopdrachten opgemaakt
+ telkens voor een bepaald
+ []
 
-File: ../graphics/./1_google_scholar_zoekopdracht/1_basis_zoeken.PNG Graphic fi
-le (type bmp)
-<../graphics/./1_google_scholar_zoekopdracht/1_basis_zoeken.PNG>
 
-(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
-fontspec)
-(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
-fontspec)
-(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
-fontspec)
-(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
-fontspec)
-File: ../graphics/./1_google_scholar_zoekopdracht/2_zoekresultaten.PNG Graphic 
-file (type bmp)
-<../graphics/./1_google_scholar_zoekopdracht/2_zoekresultaten.PNG>
+Overfull \hbox (208.92984pt too wide) in paragraph at lines 30--4
+\TU/Montserrat(1)/m/n/10.95 project, en geäctiveerd als meldingen. []
+ []
+
 
 
 [13
@@ -2377,161 +2431,212 @@ file (type bmp)
 ]
 
 [14]
-File: ../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG Grap
-hic file (type bmp)
-<../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG>
+Hoofdstuk 5.
+
+(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
+(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
+
+[15
+
+]
+File: ../graphics/./4_NLP/openai_billing.png Graphic file (type bmp)
+<../graphics/./4_NLP/openai_billing.png>
+\pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
+\openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
+
+runsystem(latexminted config  --timestamp 20250407182022 3C6BBBE75A5E28CE77F5BD
+994A368090)...executed.
 
 
-googlescholarzoekopdracht.tex:78: LaTeX Error: There's no line here to end.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+web_scraping.tex:74: Package minted Error: minted v3+ executable is not install
+ed or is not added to PATH; or MiKTeX is being used with -aux-directory or -out
+put-directory without setting a TEXMF_OUTPUT_DIRECTORY environment variable.
+
+See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.78 D
-      aarnaast zijn er 3 bijkomende geävanceerde filters:
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.74     \end{minted}
+                     
+(That was another \errmessage.)
 
 
+web_scraping.tex:74: Package minted Error: Missing definition for highlighting 
+style "solarized-light" (minted executable is unavailable or disabled); attempt
+ing to substitute fallback style.
 
-[15]
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74     \end{minted}
+                     
+(That was another \errmessage.)
+
+
+web_scraping.tex:74: Package minted Error: Missing definition for highlighting 
+style "default" (minted executable is unavailable or disabled); attempting to s
+ubstitute fallback style.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74     \end{minted}
+                     
+(That was another \errmessage.)
+
+
+web_scraping.tex:74: Package minted Error: Cannot highlight code (minted execut
+able is unavailable or disabled); attempting to typeset without highlighting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74     \end{minted}
+                     
+(That was another \errmessage.)
+
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `FiraCode' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 6.00064pt on input line 74.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 74.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 74.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 74.
+Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
+t line 75.
+
+web_scraping.tex:104: Package minted Error: Cannot highlight code (minted execu
+table is unavailable or disabled); attempting to typeset without highlighting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104     \end{minted}
+                      
+(That was another \errmessage.)
+
+
 
 [16]
-File: ../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG Graphic f
-ile (type bmp)
-<../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG>
-
-Overfull \hbox (18.22462pt too wide) in paragraph at lines 118--120
-\TU/Montserrat(1)/m/n/10.95 doorgestuurd naar het e-mailadres. Overeenkomstig w
-erd een nieuw account \TU/Montserrat(2)/b/n/10.95 google-
- []
-
-
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
-
- []
-
-File: ../graphics/./1_google_scholar_zoekopdracht/5_email.PNG Graphic file (typ
-e bmp)
-<../graphics/./1_google_scholar_zoekopdracht/5_email.PNG>
-) (parsezoekresultaat.tex
-
-[18]
-
-[19]
-Hoofdstuk 5.
 File: ../graphics/./2_parse_zoekresultaat/email-lezen.jpg Graphic file (type bm
 p)
 <../graphics/./2_parse_zoekresultaat/email-lezen.jpg>
 
-Overfull \hbox (19.9924pt too wide) in paragraph at lines 36--42
+Overfull \hbox (19.9924pt too wide) in paragraph at lines 123--129
 \TU/Montserrat(1)/m/n/10.95 Op gezette tijdstippen wordt de inbox van het accou
 nt google-scholar@marineinfo.org
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: ../graphics/./2_parse_zoekresultaat/email-body-parsen.jpg Graphic file (t
 ype bmp)
 <../graphics/./2_parse_zoekresultaat/email-body-parsen.jpg>
 
-Overfull \hbox (0.76056pt too wide) in paragraph at lines 43--50
+Overfull \hbox (0.76056pt too wide) in paragraph at lines 130--137
 \TU/Montserrat(1)/m/n/10.95 Elke e-mail bevat 1 of meerdere zoekresultaten afko
 mstig van GS. In deze stap wordt
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[18]
 File: ../graphics/./2_parse_zoekresultaat/search-doi.jpg Graphic file (type bmp
 )
 <../graphics/./2_parse_zoekresultaat/search-doi.jpg>
 
-
-[20
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
 []|\TU/Montserrat(1)/m/n/10.95 GS stuurt e-mails naar google-
  []
 
 
-Underfull \hbox (badness 7291) in paragraph at lines 64--65
+Underfull \hbox (badness 7291) in paragraph at lines 151--152
 \TU/Montserrat(1)/m/n/10.95 scholar@marineinfo.org. Deze e-mails moeten
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 []|\TU/Montserrat(1)/m/n/10.95 DR-email: afzender moet zijn: scholaralerts-
  []
 
 
-Overfull \hbox (3.86041pt too wide) in paragraph at lines 61--95
+Overfull \hbox (3.86041pt too wide) in paragraph at lines 148--182
  [][] 
  []
 
 
-
-[21]
-Underfull \hbox (badness 6268) in paragraph at lines 129--130
+Underfull \hbox (badness 6268) in paragraph at lines 216--217
 []\TU/Montserrat(1)/m/n/10.95 systeem slaat bovenstaande informatie ge-
  []
 
-parsezoekresultaat.tex:149: Misplaced \noalign.
+web_scraping.tex:236: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.149         \hline
+l.236         \hline
                     
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (3.86041pt too wide) in paragraph at lines 100--151
+Overfull \hbox (3.86041pt too wide) in paragraph at lines 187--238
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 89.16278pt on input line 152.
+LaTeX Warning: Float too large for page by 89.16278pt on input line 239.
 
 Missing character: There is no ⌡ in font Montserrat Regular/OT:script=latn;lang
 uage=dflt;mapping=tex-text;!
-parsezoekresultaat.tex:196: Misplaced \noalign.
+web_scraping.tex:283: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.196         \hline
+l.283         \hline
                     
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (3.86041pt too wide) in paragraph at lines 156--198
+Overfull \hbox (3.86041pt too wide) in paragraph at lines 243--285
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 25.7722pt on input line 199.
+LaTeX Warning: Float too large for page by 25.7722pt on input line 286.
 
 File: ../graphics/./2_parse_zoekresultaat/3_use_case_diagram.PNG Graphic file (
 type bmp)
 <../graphics/./2_parse_zoekresultaat/3_use_case_diagram.PNG>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ../graphics/./2_parse_zoekresultaat/4_domeinmodel.PNG Graphic file (type 
 bmp)
 <../graphics/./2_parse_zoekresultaat/4_domeinmodel.PNG>
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[19]
+
+[20]
+
+[21]
 
 [22]
-
-[23]
-
-[24]
-
-[25]
-Overfull \hbox (4.12953pt too wide) in paragraph at lines 216--218
+Overfull \hbox (4.12953pt too wide) in paragraph at lines 303--305
 \TU/Montserrat(1)/m/n/10.95 Meerdere specifieke Python libraries ondersteunen a
 lle mogelijke bewerkingen met
  []
@@ -2541,18 +2646,20 @@ lle mogelijke bewerkingen met
 fontspec)
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
-parsezoekresultaat.tex:227: Missing $ inserted.
+
+[23]
+web_scraping.tex:314: Missing $ inserted.
 <inserted text> 
                 $
-l.227 ... scheduler. Click\_ \autocite{Click2025} 
+l.314 ... scheduler. Click\_ \autocite{Click2025} 
                                                   laat toe om meerdere comma...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-parsezoekresultaat.tex:227: Missing { inserted.
+web_scraping.tex:314: Missing { inserted.
 <to be read again> 
                    \begingroup 
-l.227 ... scheduler. Click\_ \autocite{Click2025} 
+l.314 ... scheduler. Click\_ \autocite{Click2025} 
                                                   laat toe om meerdere comma...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -2560,18 +2667,18 @@ so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
 
-LaTeX Warning: Command \textquotedblright invalid in math mode on input line 22
-7.
+LaTeX Warning: Command \textquotedblright invalid in math mode on input line 31
+4.
 
 
-parsezoekresultaat.tex:227: Package csquotes Error: Unbalanced groups or invali
-d nesting.
+web_scraping.tex:314: Package csquotes Error: Unbalanced groups or invalid nest
+ing.
 
 See the csquotes package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.227 ... scheduler. Click\_ \autocite{Click2025} 
+l.314 ... scheduler. Click\_ \autocite{Click2025} 
                                                   laat toe om meerdere comma...
 
 I have detected a group type mismatch. Verify that all groups
@@ -2580,29 +2687,29 @@ continue, I will write a summary of all previously opened groups
 to the transcript file.
 
 
-### math group (level 10) entered at line 227 ({)
-### math shift group (level 9) entered at line 227 ($)
-### semi simple group (level 8) entered at line 227 (\begingroup)
-### semi simple group (level 7) entered at line 227 (\begingroup)
-### semi simple group (level 6) entered at line 227 (\begingroup)
-### semi simple group (level 5) entered at line 227 (\begingroup)
-### semi simple group (level 4) entered at line 227 (\begingroup)
-### semi simple group (level 3) entered at line 227 (\begingroup)
-### semi simple group (level 2) entered at line 227 (\begingroup)
-### semi simple group (level 1) entered at line 227 (\begingroup)
+### math group (level 10) entered at line 314 ({)
+### math shift group (level 9) entered at line 314 ($)
+### semi simple group (level 8) entered at line 314 (\begingroup)
+### semi simple group (level 7) entered at line 314 (\begingroup)
+### semi simple group (level 6) entered at line 314 (\begingroup)
+### semi simple group (level 5) entered at line 314 (\begingroup)
+### semi simple group (level 4) entered at line 314 (\begingroup)
+### semi simple group (level 3) entered at line 314 (\begingroup)
+### semi simple group (level 2) entered at line 314 (\begingroup)
+### semi simple group (level 1) entered at line 314 (\begingroup)
 ### bottom level
 
-parsezoekresultaat.tex:227: OK.
+web_scraping.tex:314: OK.
 \csq@err@gtype ...the transcript file}\showgroups 
                                                   
-l.227 ... scheduler. Click\_ \autocite{Click2025} 
+l.314 ... scheduler. Click\_ \autocite{Click2025} 
                                                   laat toe om meerdere comma...
 
 
-parsezoekresultaat.tex:227: Missing } inserted.
+web_scraping.tex:314: Missing } inserted.
 <inserted text> 
                 }
-l.227 ... scheduler. Click\_ \autocite{Click2025} 
+l.314 ... scheduler. Click\_ \autocite{Click2025} 
                                                   laat toe om meerdere comma...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2610,10 +2717,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-parsezoekresultaat.tex:227: Missing $ inserted.
+web_scraping.tex:314: Missing $ inserted.
 <inserted text> 
                 $
-l.227 ... scheduler. Click\_ \autocite{Click2025} 
+l.314 ... scheduler. Click\_ \autocite{Click2025} 
                                                   laat toe om meerdere comma...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2625,120 +2732,59 @@ File: ../graphics/./2_parse_zoekresultaat/serp-html.JPG Graphic file (type bmp)
 
 <../graphics/./2_parse_zoekresultaat/serp-html.JPG>
 
-Overfull \hbox (14.7352pt too wide) in paragraph at lines 231--238
+Overfull \hbox (14.7352pt too wide) in paragraph at lines 318--325
 \TU/Montserrat(1)/m/n/10.95 deze structuur. Elk afzonderlijk resultaat heeft ee
 n H3-tag met als klasse ’gse_alrt_title’
  []
 
 
 
-[26]
-Overfull \hbox (22.47804pt too wide) in paragraph at lines 245--250
+[24]
+Overfull \hbox (22.47804pt too wide) in paragraph at lines 332--337
 \TU/Montserrat(1)/m/n/10.95 t/html,application/xhtml+xml,application/xml;q=0.9,
 image/webp,image/apng,*/*;q=0.8”,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--250
+Underfull \hbox (badness 10000) in paragraph at lines 332--337
 \TU/Montserrat(1)/m/n/10.95 ”Accept-Encoding”: ”gzip, deflate, br”, ”Accept-Lan
 guage”: ”en-
  []
 
-Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
-t line 250.
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
 []\TU/Montserrat(1)/m/n/10.95 https://scholar.google.be/scholar_url?url=https:/
 /www.nature.com/articles/s41598-
  []
 
 
-Overfull \hbox (668.8017pt too wide) in paragraph at lines 255--256
+Overfull \hbox (668.8017pt too wide) in paragraph at lines 342--343
 \TU/Montserrat(1)/m/n/10.95 024-83657-0&hl=nl&sa=X&d=1146959663452366258&ei=tRG
 sZ4eaLIC96rQP29mI6AY&scisig=AFWwaeY6TmkYbZVI8aTe6GErndZI&oi=scholaralrt&hist=P_
 QG1LwAAAAJ:2727769339669043622:AFWwaeYuVCLO-
  []
 
-\pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
-\openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250404160831 3C6BBBE75A5E28CE77F5BD
-994A368090)...executed.
-
-
-parsezoekresultaat.tex:272: Package minted Error: minted v3+ executable is not 
-installed or is not added to PATH; or MiKTeX is being used with -aux-directory 
-or -output-directory without setting a TEXMF_OUTPUT_DIRECTORY environment varia
-ble.
+web_scraping.tex:359: Package minted Error: Cannot highlight code (minted execu
+table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.272     \end{minted}
+l.359     \end{minted}
                       
 (That was another \errmessage.)
 
 
-parsezoekresultaat.tex:272: Package minted Error: Missing definition for highli
-ghting style "solarized-light" (minted executable is unavailable or disabled); 
-attempting to substitute fallback style.
 
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.272     \end{minted}
-                      
-(That was another \errmessage.)
+[25]
 
-
-parsezoekresultaat.tex:272: Package minted Error: Missing definition for highli
-ghting style "default" (minted executable is unavailable or disabled); attempti
-ng to substitute fallback style.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.272     \end{minted}
-                      
-(That was another \errmessage.)
-
-
-parsezoekresultaat.tex:272: Package minted Error: Cannot highlight code (minted
- executable is unavailable or disabled); attempting to typeset without highligh
-ting.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.272     \end{minted}
-                      
-(That was another \errmessage.)
-
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `FiraCode' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 272.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 272.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 272.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 272.
-
-
-[27]
-
-[28]
-parsezoekresultaat.tex:280: Misplaced alignment tab character &.
+[26]
+web_scraping.tex:367: Misplaced alignment tab character &.
 <argument> ...a extraction, analysis, conversion &
                                                    manipulation of PDF (and ...
-l.280 ...n met gebruik van \autocite{Pymupdf2025}.
+l.367 ...n met gebruik van \autocite{Pymupdf2025}.
                                                    Voorbeeld in codefragment...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2748,21 +2794,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-parsezoekresultaat.tex:286: Package minted Error: Cannot highlight code (minted
- executable is unavailable or disabled); attempting to typeset without highligh
-ting.
+web_scraping.tex:373: Package minted Error: Cannot highlight code (minted execu
+table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.286         \end{minted}
+l.373         \end{minted}
                           
 (That was another \errmessage.)
 
 
 
-[29]
+[27]
 File: ../graphics/./2_parse_zoekresultaat/json_view.JPG Graphic file (type bmp)
 
 <../graphics/./2_parse_zoekresultaat/json_view.JPG>
@@ -2778,27 +2823,27 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[30]
+[28]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_body.JPG Graphic f
 ile (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_body.JPG>
 
 
-[31]
+[29]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_zoekresultaat.JPG 
 Graphic file (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_zoekresultaat.JPG>
 
 
-[32]
+[30]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_link.JPG Graphic f
 ile (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_link.JPG>
 
 
-[33]) (crossref.tex
+[31]) (crossref.tex
 
-[34]
+[32]
 Hoofdstuk 6.
 
 Overfull \hbox (3.86041pt too wide) in paragraph at lines 33--67
@@ -2825,15 +2870,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[35
+[33
 
 ]
 
+[34]
+
+[35]) (nlp.tex
+
 [36]
-
-[37]) (nlp.tex
-
-[38]
 Hoofdstuk 7.
 File: ../graphics/./4_NLP/SERP.jpg Graphic file (type bmp)
 <../graphics/./4_NLP/SERP.jpg>
@@ -2842,11 +2887,11 @@ LaTeX Warning: Float too large for page by 294.61046pt on input line 50.
 
 
 
-[39
+[37
 
 ]
 
-[40]
+[38]
 
 nlp.tex:65: Package minted Error: Cannot highlight code (minted executable is u
 navailable or disabled); attempting to typeset without highlighting.
@@ -3197,31 +3242,426 @@ LaTeX Warning: Float too large for page by 1464.55772pt on input line 208.
 
 ) (imisinput.tex
 
+[39]
+
+[40]
+
 [41]
 
 [42]
-
-[43]
-
-[44]
 Hoofdstuk 8.
 
 
-[45
+[43
 
 ]
 
-[46]) (conclusie.tex
+[44]) (googlescholarzoekopdracht.tex
 
-[47]
+[45]
 Hoofdstuk 9.
 
+Overfull \hbox (14.95857pt too wide) in paragraph at lines 29--29
+|[][]\TU/Montserrat(0)/b/n/14.4 Zoeken in Google Scholar ([]“  Google Scholar G
+uide”, [][]2025[][])| 
+ []
 
-[48
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\autocite' on input line 29.
+
+File: ../graphics/./1_google_scholar_zoekopdracht/1_basis_zoeken.PNG Graphic fi
+le (type bmp)
+<../graphics/./1_google_scholar_zoekopdracht/1_basis_zoeken.PNG>
+
+(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
+(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
+(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
+(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
+File: ../graphics/./1_google_scholar_zoekopdracht/2_zoekresultaten.PNG Graphic 
+file (type bmp)
+<../graphics/./1_google_scholar_zoekopdracht/2_zoekresultaten.PNG>
+
+
+[46
+
+]
+
+[47]
+File: ../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG Grap
+hic file (type bmp)
+<../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG>
+
+
+googlescholarzoekopdracht.tex:78: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 D
+      aarnaast zijn er 3 bijkomende geävanceerde filters:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+
+[48]
+
+[49]
+File: ../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG Graphic f
+ile (type bmp)
+<../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG>
+
+Overfull \hbox (18.22462pt too wide) in paragraph at lines 118--120
+\TU/Montserrat(1)/m/n/10.95 doorgestuurd naar het e-mailadres. Overeenkomstig w
+erd een nieuw account \TU/Montserrat(2)/b/n/10.95 google-
+ []
+
+
+
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
+File: ../graphics/./1_google_scholar_zoekopdracht/5_email.PNG Graphic file (typ
+e bmp)
+<../graphics/./1_google_scholar_zoekopdracht/5_email.PNG>
+) (parsezoekresultaat.tex
+
+[51]
+
+[52]
+Hoofdstuk 10.
+File: ../graphics/./2_parse_zoekresultaat/email-lezen.jpg Graphic file (type bm
+p)
+<../graphics/./2_parse_zoekresultaat/email-lezen.jpg>
+
+Overfull \hbox (19.9924pt too wide) in paragraph at lines 36--42
+\TU/Montserrat(1)/m/n/10.95 Op gezette tijdstippen wordt de inbox van het accou
+nt google-scholar@marineinfo.org
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ../graphics/./2_parse_zoekresultaat/email-body-parsen.jpg Graphic file (t
+ype bmp)
+<../graphics/./2_parse_zoekresultaat/email-body-parsen.jpg>
+
+Overfull \hbox (0.76056pt too wide) in paragraph at lines 43--50
+\TU/Montserrat(1)/m/n/10.95 Elke e-mail bevat 1 of meerdere zoekresultaten afko
+mstig van GS. In deze stap wordt
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ../graphics/./2_parse_zoekresultaat/search-doi.jpg Graphic file (type bmp
+)
+<../graphics/./2_parse_zoekresultaat/search-doi.jpg>
+
+
+[53
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+[]|\TU/Montserrat(1)/m/n/10.95 GS stuurt e-mails naar google-
+ []
+
+
+Underfull \hbox (badness 7291) in paragraph at lines 64--65
+\TU/Montserrat(1)/m/n/10.95 scholar@marineinfo.org. Deze e-mails moeten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+[]|\TU/Montserrat(1)/m/n/10.95 DR-email: afzender moet zijn: scholaralerts-
+ []
+
+
+Overfull \hbox (3.86041pt too wide) in paragraph at lines 61--95
+ [][] 
+ []
+
+
+
+[54]
+Underfull \hbox (badness 6268) in paragraph at lines 129--130
+[]\TU/Montserrat(1)/m/n/10.95 systeem slaat bovenstaande informatie ge-
+ []
+
+parsezoekresultaat.tex:149: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
+l.149         \hline
+                    
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (3.86041pt too wide) in paragraph at lines 100--151
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 89.16278pt on input line 152.
+
+Missing character: There is no ⌡ in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+parsezoekresultaat.tex:196: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
+l.196         \hline
+                    
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (3.86041pt too wide) in paragraph at lines 156--198
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 25.7722pt on input line 199.
+
+File: ../graphics/./2_parse_zoekresultaat/3_use_case_diagram.PNG Graphic file (
+type bmp)
+<../graphics/./2_parse_zoekresultaat/3_use_case_diagram.PNG>
+File: ../graphics/./2_parse_zoekresultaat/4_domeinmodel.PNG Graphic file (type 
+bmp)
+<../graphics/./2_parse_zoekresultaat/4_domeinmodel.PNG>
+
+
+[55]
+
+[56]
+
+[57]
+
+[58]
+Overfull \hbox (4.12953pt too wide) in paragraph at lines 216--218
+\TU/Montserrat(1)/m/n/10.95 Meerdere specifieke Python libraries ondersteunen a
+lle mogelijke bewerkingen met
+ []
+
+
+(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
+(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
+parsezoekresultaat.tex:227: Missing $ inserted.
+<inserted text> 
+                $
+l.227 ... scheduler. Click\_ \autocite{Click2025} 
+                                                  laat toe om meerdere comma...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+parsezoekresultaat.tex:227: Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.227 ... scheduler. Click\_ \autocite{Click2025} 
+                                                  laat toe om meerdere comma...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+LaTeX Warning: Command \textquotedblright invalid in math mode on input line 22
+7.
+
+
+parsezoekresultaat.tex:227: Package csquotes Error: Unbalanced groups or invali
+d nesting.
+
+See the csquotes package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 ... scheduler. Click\_ \autocite{Click2025} 
+                                                  laat toe om meerdere comma...
+
+I have detected a group type mismatch. Verify that all groups
+and all active quotes are properly balanced and nested. If you
+continue, I will write a summary of all previously opened groups
+to the transcript file.
+
+
+### math group (level 10) entered at line 227 ({)
+### math shift group (level 9) entered at line 227 ($)
+### semi simple group (level 8) entered at line 227 (\begingroup)
+### semi simple group (level 7) entered at line 227 (\begingroup)
+### semi simple group (level 6) entered at line 227 (\begingroup)
+### semi simple group (level 5) entered at line 227 (\begingroup)
+### semi simple group (level 4) entered at line 227 (\begingroup)
+### semi simple group (level 3) entered at line 227 (\begingroup)
+### semi simple group (level 2) entered at line 227 (\begingroup)
+### semi simple group (level 1) entered at line 227 (\begingroup)
+### bottom level
+
+parsezoekresultaat.tex:227: OK.
+\csq@err@gtype ...the transcript file}\showgroups 
+                                                  
+l.227 ... scheduler. Click\_ \autocite{Click2025} 
+                                                  laat toe om meerdere comma...
+
+
+parsezoekresultaat.tex:227: Missing } inserted.
+<inserted text> 
+                }
+l.227 ... scheduler. Click\_ \autocite{Click2025} 
+                                                  laat toe om meerdere comma...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+parsezoekresultaat.tex:227: Missing $ inserted.
+<inserted text> 
+                $
+l.227 ... scheduler. Click\_ \autocite{Click2025} 
+                                                  laat toe om meerdere comma...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+File: ../graphics/./2_parse_zoekresultaat/serp-html.JPG Graphic file (type bmp)
+
+<../graphics/./2_parse_zoekresultaat/serp-html.JPG>
+
+Overfull \hbox (14.7352pt too wide) in paragraph at lines 231--238
+\TU/Montserrat(1)/m/n/10.95 deze structuur. Elk afzonderlijk resultaat heeft ee
+n H3-tag met als klasse ’gse_alrt_title’
+ []
+
+
+
+[59]
+Overfull \hbox (22.47804pt too wide) in paragraph at lines 245--250
+\TU/Montserrat(1)/m/n/10.95 t/html,application/xhtml+xml,application/xml;q=0.9,
+image/webp,image/apng,*/*;q=0.8”,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+\TU/Montserrat(1)/m/n/10.95 ”Accept-Encoding”: ”gzip, deflate, br”, ”Accept-Lan
+guage”: ”en-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+[]\TU/Montserrat(1)/m/n/10.95 https://scholar.google.be/scholar_url?url=https:/
+/www.nature.com/articles/s41598-
+ []
+
+
+Overfull \hbox (668.8017pt too wide) in paragraph at lines 255--256
+\TU/Montserrat(1)/m/n/10.95 024-83657-0&hl=nl&sa=X&d=1146959663452366258&ei=tRG
+sZ4eaLIC96rQP29mI6AY&scisig=AFWwaeY6TmkYbZVI8aTe6GErndZI&oi=scholaralrt&hist=P_
+QG1LwAAAAJ:2727769339669043622:AFWwaeYuVCLO-
+ []
+
+
+parsezoekresultaat.tex:272: Package minted Error: Cannot highlight code (minted
+ executable is unavailable or disabled); attempting to typeset without highligh
+ting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.272     \end{minted}
+                      
+(That was another \errmessage.)
+
+
+
+[60]
+
+[61]
+parsezoekresultaat.tex:280: Misplaced alignment tab character &.
+<argument> ...a extraction, analysis, conversion &
+                                                   manipulation of PDF (and ...
+l.280 ...n met gebruik van \autocite{Pymupdf2025}.
+                                                   Voorbeeld in codefragment...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+parsezoekresultaat.tex:286: Package minted Error: Cannot highlight code (minted
+ executable is unavailable or disabled); attempting to typeset without highligh
+ting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.286         \end{minted}
+                          
+(That was another \errmessage.)
+
+
+
+[62]
+File: ../graphics/./2_parse_zoekresultaat/json_view.JPG Graphic file (type bmp)
+
+<../graphics/./2_parse_zoekresultaat/json_view.JPG>
+File: ../graphics/./2_parse_zoekresultaat/table_view.JPG Graphic file (type bmp
+)
+<../graphics/./2_parse_zoekresultaat/table_view.JPG>
+File: ../graphics/./2_parse_zoekresultaat/database_structure_email.JPG Graphic 
+file (type bmp)
+<../graphics/./2_parse_zoekresultaat/database_structure_email.JPG>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[63]
+File: ../graphics/./2_parse_zoekresultaat/database_structure_body.JPG Graphic f
+ile (type bmp)
+<../graphics/./2_parse_zoekresultaat/database_structure_body.JPG>
+
+
+[64]
+File: ../graphics/./2_parse_zoekresultaat/database_structure_zoekresultaat.JPG 
+Graphic file (type bmp)
+<../graphics/./2_parse_zoekresultaat/database_structure_zoekresultaat.JPG>
+
+
+[65]
+File: ../graphics/./2_parse_zoekresultaat/database_structure_link.JPG Graphic f
+ile (type bmp)
+<../graphics/./2_parse_zoekresultaat/database_structure_link.JPG>
+
+
+[66]) (conclusie.tex
+
+[67]
+Hoofdstuk 11.
+
+
+[68
 
 ])
 
-[49]
+[69]
 B\ij lage A.
 (../voorstel/voorstel-inhoud.tex
 Overfull \hbox (2.63669pt too wide) in paragraph at lines 20--21
@@ -3231,14 +3671,14 @@ collecties van mariene wetenschap-
 
 
 
-[50
+[70
 
 ]
 File: images/stapsgewijs.png Graphic file (type bmp)
 <images/stapsgewijs.png>
 
 
-[51]
+[71]
 Overfull \hbox (21.94153pt too wide) in paragraph at lines 59--60
 []\TU/Montserrat(1)/m/n/10.95 Google Scholar is een zoekmachine die wetenschapp
 elijke literatuur indexeert ([]“  Google
@@ -3246,7 +3686,7 @@ elijke literatuur indexeert ([]“  Google
 
 
 
-[52]
+[72]
 Overfull \hbox (9.43324pt too wide) in paragraph at lines 67--68
 \TU/Montserrat(1)/m/n/10.95 vend, betrouwbaar en onderscheidbaar geïdentificeer
 d kunnen worden. []Chandrakar
@@ -3254,33 +3694,33 @@ d kunnen worden. []Chandrakar
 
 
 
-[53]
+[73]
 
-[54])
+[74])
 
-[55]
-DePaepeBartBP.tex:184: Missing $ inserted.
+[75]
+DePaepeBartBP.tex:186: Missing $ inserted.
 <inserted text> 
                 $
-l.184 \printbibliography[heading=bibintoc]
+l.186 \printbibliography[heading=bibintoc]
                                           
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-DePaepeBartBP.tex:184: Missing { inserted.
+DePaepeBartBP.tex:186: Missing { inserted.
 <to be read again> 
                    \endgroup 
-l.184 \printbibliography[heading=bibintoc]
+l.186 \printbibliography[heading=bibintoc]
                                           
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-DePaepeBartBP.tex:184: Missing } inserted.
+DePaepeBartBP.tex:186: Missing } inserted.
 <inserted text> 
                 }
-l.184 \printbibliography[heading=bibintoc]
+l.186 \printbibliography[heading=bibintoc]
                                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3288,10 +3728,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-DePaepeBartBP.tex:184: Missing $ inserted.
+DePaepeBartBP.tex:186: Missing $ inserted.
 <inserted text> 
                 $
-l.184 \printbibliography[heading=bibintoc]
+l.186 \printbibliography[heading=bibintoc]
                                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3300,7 +3740,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (23.13835pt too wide) in paragraph at lines 184--184
+Overfull \hbox (23.13835pt too wide) in paragraph at lines 186--186
 [][]\TU/Montserrat(2)/m/it/10.95 Document-oriented database\TU/Montserrat(1)/m/
 n/10.95 . (2025, maart 1). [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] 
 [] [][][] [] [][][][] [] [][][][][][][][] [][]
@@ -3308,28 +3748,28 @@ n/10.95 . (2025, maart 1). [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][]
 
 
 
-[56
+[76
 
 
 ]
-Overfull \hbox (1.74945pt too wide) in paragraph at lines 184--184
+Overfull \hbox (1.74945pt too wide) in paragraph at lines 186--186
 [][]\TU/Montserrat(2)/m/it/10.95 Internet Message Access Protocol, Uit Wikipedi
 a, de vrije encyclopedie\TU/Montserrat(1)/m/n/10.95 . (2025, maart
  []
 
 
 
-[57]
-Overfull \hbox (2.26407pt too wide) in paragraph at lines 184--184
+[77]
+Overfull \hbox (2.26407pt too wide) in paragraph at lines 186--186
 [][]\TU/Montserrat(2)/m/it/10.95 MongoDB\TU/Montserrat(1)/m/n/10.95 . (2025, ma
 art 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][]
 [][][][][] [] [][][][][][] [] [][][][][][][][][] []
  []
 
-DePaepeBartBP.tex:184: Misplaced alignment tab character &.
+DePaepeBartBP.tex:186: Misplaced alignment tab character &.
 <argument> College &
                     amp; Research Libraries
-l.184 \printbibliography[heading=bibintoc]
+l.186 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3338,10 +3778,10 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-DePaepeBartBP.tex:184: Misplaced alignment tab character &.
+DePaepeBartBP.tex:186: Misplaced alignment tab character &.
 <argument> ...a extraction, analysis, conversion &
                                                    manipulation of PDF (and ...
-l.184 \printbibliography[heading=bibintoc]
+l.186 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3352,26 +3792,39 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[58]
+[78]
 
-[59] (DePaepeBartBP.aux)
+[79]
+
+[80] (DePaepeBartBP.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
-(rerunfilecheck)             Checksum: 4A102088A0794C60F935DC77C7F9E61D;8753.
+(rerunfilecheck)             Checksum: 5019147E8D603ED61237DB5D94B02158;12434.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52033 strings out of 408640
- 1067323 string characters out of 5749145
- 2332552 words of memory out of 5000000
- 74261 multiletter control sequences out of 15000+600000
+ 52105 strings out of 408640
+ 1069832 string characters out of 5749145
+ 2333022 words of memory out of 5000000
+ 74319 multiletter control sequences out of 15000+600000
  562740 words of font info for 113 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 110i,13n,131p,1283b,5872s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,13n,131p,1283b,5925s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DePaepeBartBP.pdf (68 pages).
+Output written on DePaepeBartBP.pdf (91 pages).

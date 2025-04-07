@@ -1,0 +1,509 @@
+%%=============================================================================
+%% Methodologie
+%%=============================================================================
+
+\chapter{\IfLanguageName{dutch}{Web scraping}{Web scraping}}%
+\label{ch:web_scraping}
+
+%% TODO: In dit hoofstuk geef je een korte toelichting over hoe je te werk bent
+%% gegaan. Verdeel je onderzoek in grote fasen, en licht in elke fase toe wat
+%% de doelstelling was, welke deliverables daar uit gekomen zijn, en welke
+%% onderzoeksmethoden je daarbij toegepast hebt. Verantwoord waarom je
+%% op deze manier te werk gegaan bent.
+%% 
+%% Voorbeelden van zulke fasen zijn: literatuurstudie, opstellen van een
+%% requirements-analyse, opstellen long-list (bij vergelijkende studie),
+%% selectie van geschikte tools (bij vergelijkende studie, "short-list"),
+%% opzetten testopstelling/PoC, uitvoeren testen en verzamelen
+%% van resultaten, analyse van resultaten, ...
+%%
+%% !!!!! LET OP !!!!!
+%%
+%% Het is uitdrukkelijk NIET de bedoeling dat je het grootste deel van de corpus
+%% van je bachelorproef in dit hoofstuk verwerkt! Dit hoofdstuk is eerder een
+%% kort overzicht van je plan van aanpak.
+%%
+%% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
+%% en geef het een gepaste titel.
+\section{Web scraping}
+De e-mails afkomstig van Google Scholar bevatten een lijst met zoekresultaten. Het formaat van de e-mail is HTML en de opmaak van de lijst is gelijkaardig aan die van de Google Scholar resultaten pagina. Dit wordt algemeen benoemd als een SERP (Search Engine Result Page) en is voor iedereen die vertrouwd is met het internet herkenbaar als de lijst met zoekresultaten van Google.\\
+De Google Scholar SERP heeft een vaste structuur, namelijk een lijst met zoekresultaten bestaande uit:
+\begin{itemize}
+    \item titel
+    \item link naar de webpagina van de publicatie
+    \item auteurs
+    \item naam van het tijdschrift
+    \item jaartal
+    \item abstract of fragment van het abstract
+\end{itemize} 
+Bovenstaande gegevens moeten uit de SERP gefilterd worden zodat ze opgeslaan kunnen worden voor verder gebruik in de volgende stappen.\\
+Informatie uit HTML pagina's halen is algemeen gekend onder de naam ``web scraping''. Deze techniek geniet veel aandacht omdat hij de gebruiker in staat stelt om veel data te vergaren, en data is het nieuwe goud. Tot zover dit gefilosofeer over web scraping. Het punt is dat in die context meerdere technieken bestaan om dezelfde job toe doen:
+\begin{itemize}
+    \item web scraping met gebruik van een LLM \footnote{Large Language Model}
+    \begin{itemize}
+        \item betalende online model
+        \item niet betalende online model
+        \item lokaal model
+    \end{itemize}
+    \item web scraping met verwerking van de DOM
+    \begin{itemize}
+        \item Beautifulsoup
+        \item Serpapi
+    \end{itemize}
+\end{itemize} 
+
+\section{OpenAI: betalend online model}
+OpenAI, gekend van zijn chatbot ChatGPT, biedt ook een API aan waarmee gebruikers opdrachten kunnen sturen naar een model. De opdracht/vraag in kwestie is: ``Geef de titels, orginele links, auteurs, naam van de tijdschriften, jaartal van de publicaties en tekstfragmenten van hetvolgende Google Scholar zoekresultaat.''\\
+\textcite{Serpapiai2025} beschrijft stap voor stap hoe de gevraagde gegevens verkregen kunnen worden met het ``gpt-4-1106-preview'' model van OpenAI.
+\textcite{Depaepeopenai2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts.
+Het is vereist om een account te registreren bij OpenAI en om die account te crediteren. Vervolgens kan er met de API gewerkt worden en wordt er betaald naargelang het verbruik.
+Een test met 1 Google Scholar alert met 10 zoekresultaten heeft een prijs van 0,17\$ zoals te zien is in figuur \ref{fig:OpenAI dashboard}. Het model gebruikte daarvoor 14743 tokens. 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./4_NLP/openai_billing.png}
+    \caption[OpenAI dashboard.]{\label{fig:OpenAI dashboard}OpenAI dashboard.}
+\end{figure}
+De prompt voor het model is te zien in codefragment \ref{code:Prompt codefragment}.
+\begin{listing}
+    \begin{minted}{python}
+        messages=[
+        {"role": "system",
+            "content": "You are a master at scraping Google Scholar results data. Scrape top 10 organic results data from Google Scholar search result page."},
+        {"role": "user", "content": body_text}
+        ],
+    \end{minted}
+    \caption[Prompt codefragment]{Codefragment voor het opstellen van een prompt.}
+    \label{code:Prompt codefragment}
+\end{listing}
+De verwachte parameters die het model moet zoeken zijn te zien in codefragment \ref{code:Parse opties codefragment}.
+\begin{listing}
+    \begin{minted}{python}
+        "function": {
+            "name": "parse_data",
+            "description": "Parse organic results from Google Scholar SERP raw HTML data nicely",
+            "parameters": {
+                'type': 'object',
+                'properties': {
+                    'data': {
+                        'type': 'array',
+                        'items': {
+                            'type': 'object',
+                            'properties': {
+                                'title': {'type': 'string'},
+                                'original_url': {'type': 'string'},
+                                'authors': {'type': 'string'},
+                                'year_of_publication': {'type': 'integer'},
+                                'journal_name': {'type': 'string'},
+                                'snippet': {'type': 'string'}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    \end{minted}
+    \caption[Parse opties codefragment]{Codefragment voor het opstellen van parse opties.}
+    \label{code:Parse opties codefragment}
+\end{listing}
+De test was succesvol. Het model vond de gevraagde parameters voor elk van de 10 zoekresultaten. Toch houdt het onderzoek naar web scraping hier niet op. De oplossing tot zover is immers betalend en dat is niet noodzakelijk de beste oplossing voor het probleem.
+
+\section{Anthropic: niet betalend online model}
+De doelstelling is nog steeds hetzelfde, maar nu zonder extra kosten.
+\textcite{Anthropic2025} beschrijft stap voor stap hoe de gevraagde gegevens verkregen kunnen worden aan de hand van Mirascope \autocite{Mirascope2025} en het Anthropic Claude model \autocite{Anthropicmodel2025}.
+\textcite{Depaepeanthropic2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts.
+
+\section{Doelstelling}
+De GS alert geeft aanleiding tot e-mails met de meest recente zoekresultaten. Voor elke e-mail en voor elk zoekresultaat wordt de DOI opgezocht. Daarvoor worden 3 stappen doorlopen:
+\begin{itemize}
+    \item E-mail lezen
+    \item Body van de e-mail parsen
+    \item DOI opzoeken in de link die aanwezig is in het geparsete resultaat
+\end{itemize}
+\subsection{E-mail lezen}
+Op gezette tijdstippen wordt de inbox van het account google-scholar@marineinfo.org geopend op zoek naar ongelezen e-mails. Elke e-mail wordt gelezen en de informatie van de e-mail wordt opgeslaan. De e-mail wordt verplaatst van de inbox naar een werkmap overeenkomstig het onderwerp van de e-mail. Dit wordt schematisch voorgesteld in figuur \ref{fig:E-mail lezen}.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/email-lezen.jpg}
+    \caption[E-mail lezen.]{\label{fig:E-mail lezen}Flow e-mail lezen.}
+\end{figure}
+\subsection{Body van de e-mail parsen}
+Elke e-mail bevat 1 of meerdere zoekresultaten afkomstig van GS. In deze stap wordt elk zoekresultaat uit de body van de e-mail gefilterd en afzonderlijk opgeslaan.
+De informatie van het zoekresultaat wordt opgeslaan. Dit wordt schematisch voorgesteld in figuur \ref{fig:E-mail body parsen}.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/email-body-parsen.jpg}
+    \caption[E-mail body parsen.]{\label{fig:E-mail body parsen}Flow e-mail body parsen.}
+\end{figure}
+\subsection{DOI opzoeken in de link van het geparsete resultaat}
+Het GS zoekresultaat zelf bevat geen DOI. Maar elk zoekresultaat heeft wel een weblink die werd opgeslaan in de vorige stap. Hier wordt een request gestuurd naar de link. Het response wordt vervolgens verwerkt met als doel om het DOI erin op te zoeken. De informatie van het DOI wordt opgeslaan. Dit wordt schematisch voorgesteld in figuur \ref{fig:E-mail search DOI}.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/search-doi.jpg}
+    \caption[DOI opzoeken in de link van het geparsete resultaat.]{\label{fig:E-mail search DOI}DOI opzoeken in de link van het geparsete resultaat.}
+\end{figure}
+\section{Analyse}
+\subsection{Use Cases}
+\begin{table}[ptb]
+    \centering
+    \begin{tabular}{ | m{5cm} | m{10cm}| } 
+        \hline
+        \rowcolor{lightgray}
+        Use Case Read email & GS stuurt e-mails naar google-scholar@marineinfo.org. Deze e-mails moeten automatisch verwerkt worden. \\ 
+        \hline
+        primary actor & - \\ 
+        \hline
+        stakeholders & - \\ 
+        \hline
+        pre-condities & onverwerkte e-mail \\ 
+        \hline
+        post-condities & verwerkte e-mails \\ 
+        \hline
+        normaal verloop & 
+        \begin{enumerate}
+            \item systeem opent e-mail
+            \item systeem leest afzender
+            \item systeem evalueert afzender (DR-email)
+            \item systeem leest datum / tijdstip
+            \item systeem leest onderwerp
+            \item systeem leest body
+            \item systeem slaat deze gegevens op
+            \item systeem verplaatst e-mail van inbox naar mailbox folder op basis van onderwerp
+        \end{enumerate} \\ 
+        \hline
+        alternatief verloop & 
+        \begin{description}
+            \item 3A. de afzender is verkeerd (DR-email)
+            \item 3A1. systeem verplaatst e-mail van inbox naar SPAM folder
+        \end{description} \\ 
+        \hline
+        domeinregels & DR-email: afzender moet zijn: scholaralerts-noreply@google.com \\ 
+        \hline
+    \end{tabular}
+    \caption{GS stuurt e-mails naar google-scholar@marineinfo.org. Deze e-mails moeten automatisch verwerkt worden.}
+\end{table}
+
+\begin{table}[ptb]
+    \centering
+    \begin{tabular}{ | m{5cm} | m{10cm}| } 
+        \hline
+        \rowcolor{lightgray}
+        Use Case Parse email & De body van een e-mail wordt ontleed en de informatie wordt gestructureerd opgeslaan. \\ 
+        \hline
+        primary actor & - \\ 
+        \hline
+        stakeholders & - \\ 
+        \hline
+        pre-condities & onverwerkte body van e-mail \\ 
+        \hline
+        post-condities & verwerkte body van e-mail \\ 
+        \hline
+        normaal verloop & 
+        \begin{enumerate}
+            \item systeem ontvangt de body van een e-mail
+            \item systeem ontleedt de body en zoekt volgende onderdelen (DR-Google-Scholar formaat)
+            \begin{description}
+                \item a. lijst
+                \begin{description}
+                    \item i. titel (DR-uniek)
+                    \item ii. auteur
+                    \item iii. uitgever
+                    \item iv. jaartal
+                    \item v. tekst (DR-uniek)
+                    \item vi. link (DR-uniek)
+                \end{description}
+                \item b. onderwerp
+            \end{description}
+            \item systeem slaat bovenstaande informatie gestructureerd op
+        \end{enumerate} \\ 
+        \hline
+        alternatief verloop & 
+        \begin{description}
+            \item 2A. de verwachte informatie wordt niet gevonden (DR-Google-Scholar formaat)
+            \item 2A1. systeem logt het probleem
+            \item 2A2. use case eindigt zonder bereiken van de post-conditie
+            \item 2B. de body is onleesbaar
+            \item 2B1. systeem logt het probleem
+            \item 2B2. use case eindigt zonder bereiken van de post-conditie
+            \item 2C. titel en/of tekst en/of link zijn niet uniek (zijn reeds eerder opgeslaan)
+            \item 2C1. systeem logt het voorval
+            \item 2C2. systeem gaat verder met stap 2 van het normale verloop
+        \end{description} \\ 
+        \hline
+        domeinregels & \begin{itemize}
+            \item DR-Google-Scholar-formaat
+            \item DR-uniek
+            \end{itemize}
+        \hline
+    \end{tabular}
+    \caption{De body van een e-mail wordt ontleed en de informatie wordt gestructureerd opgeslaan.}
+\end{table}
+
+\begin{table}[ptb]
+    \centering
+    \begin{tabular}{ | m{5cm} | m{10cm}| } 
+        \hline
+        \rowcolor{lightgray}
+        Use Case Search DOI & Zoek een DOI in een tekstueel document. \\ 
+        \hline
+        primary actor & - \\ 
+        \hline
+        stakeholders & - \\ 
+        \hline
+        pre-condities & systeem beschikt over een online-url \\ 
+        \hline
+        post-condities & het DOI is gevonden \\ 
+        \hline
+        normaal verloop & 
+        \begin{enumerate}
+            \item systeem stuurt een request naar de link
+            \item systeem ontvangt response
+            \item systeem bepaalt type van de response
+            \item systeem systeem kiest de juiste tools in functie van het type (DR-type)
+            \item systeem zoekt DOI in de response
+            \item systeem slaat het gevonden DOI op
+        \end{enumerate} \\ 
+        \hline
+        alternatief verloop & 
+        \begin{description}
+            \item 2A. geen response
+            \item 2A1. het systeem logt het probleem
+            \item 2A2. use case eindigt zonder bereiken van de post-conditie
+            \item 4A. type is niet ondersteund (DR-type)
+            \item 4A1. het systeem logt het probleem
+            \item 4A2. use case eindigt zonder bereiken van de post-conditie
+            \item 5A. DOI wordt niet gevonden
+            \item 5A1. het systeem logt het probleem
+            \item 5A2. use case eindigt zonder bereiken van de post-conditie
+            \item 5B. meerdere DOIs worden gevonden
+            \item 5A1. het systeem logt het probleem
+            \item 5A2. use case eindigt zonder bereiken van de post-conditie
+        \end{description} \\ 
+        \hline
+        domeinregels & DR-type: pdf, html\\⌡ 
+        \hline
+    \end{tabular}
+    \caption{Zoek een DOI in een tekstueel document.}
+\end{table}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/3_use_case_diagram.PNG}
+    \caption[Use case diagram.]{\label{fig:Use case diagram}Use case diagram.}
+\end{figure}
+\subsection{Domeinmodel}
+De 3 bovenstaande stappen geven aanleiding tot 4 objecten die de kern van het domeinmodel uitmaken en de nodige properties bevatten om de tussenresultaten bij te houden alsook de uiteindelijke DOI.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/4_domeinmodel.PNG}
+    \caption[Domeinmodel.]{\label{fig:Domeinmodel}Domeinmodel.}
+\end{figure}
+\newpage
+\section{Implementatie}
+\subsection{E-mail lezen}
+Meerdere specifieke Python libraries ondersteunen alle mogelijke bewerkingen met e-mail:
+\begin{itemize}
+    \item \textbf{imaplib - IMAP4 protocol client \autocite{Imaplib2025}}: Legt een verbinding met een IMAP server en implementeert de functionaliteiten van het IMAP \footnote{Internet Message Access Protocol} protocol om e-mails op te halen.\autocite{Imap2025}
+    \item \textbf{email - An email and MIME handling package \autocite{Email2025}}: Laat toe om emails te verwerken adhv. 3 modules.
+    \begin{itemize}
+        \item \textbf{message}: Alle bewerkingen met een e-mail.
+        \item \textbf{parser}: Om een e-mail om te zetten in tekst.
+        \item \textbf{generator}: Om tekst om te zetten in een e-mail. 
+    \end{itemize}
+\end{itemize}
+De gelezen e-mail wordt opgeslaan in een document store database \autocite{Documentstore2025}. Dit type databank is geschikt voor het bijhouden van dynamische data die als geheel (als één document) opgeslaan wordt. MongoDB \autocite{Mongodb2025} is de meest gekende technologie van dit type databank. Pymongo \autocite{Pymongo2025} is de specifieke python library die de verbinding met de Mongodb server mogelijk maakt.\\
+Het custom script dat de e-mail leest wordt opgeroepen door de Windows task scheduler. Click\_ \autocite{Click2025} laat toe om meerdere commando's te definiëren in hetzelfde script.\\
+Tenslotte wordt er gebruik gemaakt van de Dependency Injector \autocite{Dependencyinjector2025} om al deze services door middel van dependency injection \autocite{Di2025} ter beschikking te stellen aan het script.\\
+Aan het einde van het process dat de e-mail leest, wordt de body van de e-mail in een wachtrij geplaatst zodat deze opgepikt wordt door de volgende stap.
+\subsection{Body van de e-mail parsen}
+De body van de e-mail komt overeen met de Search Engine Result Page (SERP) en is een gestructureerde html pagina. Voor het parsen wordt er gebruik gemaakt van deze structuur.
+Elk afzonderlijk resultaat heeft een H3-tag met als klasse 'gse\_alrt\_title' waarin de titel staat. De korte tekst van het zoekresultaat staat in een DIV-tag met als klasse 'gse\_alrt\_sni'. Tussen de titel en het snippet staan de auteurs, de uitgever en het jaartal gegroepeerd in een DIV-tag zoals te zien is in figuur \ref{fig:serp-html}.
+\begin{figure}
+ \centering
+ \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/serp-html.JPG}
+ \caption[HTML structuur van de GS alert.]{\label{fig:serp-html}HTML structuur van de GS alert.}
+\end{figure}
+\FloatBarrier
+Meerdere specifieke libraries laten toe om HTML en XML te parsen, maar de meest gekende bibliotheek is Beautiful Soup \autocite{Soup2025}. Door de naam van de html-tag en de gebruikte klasse (gse\_alrt\_title, en gse\_alrt\_sni) mee te geven aan Beautiful Soup, worden de overeenkomstige elementen in het html-document weergegeven. Beautiful Soup laat ook toe om te navigeren in het document zodat het element met de auteurs, de uitgever en het jaartal gemakkelijk gevonden kan worden.
+De gevonden informatie wordt opgeslaan in een document store database.
+Aan het einde van het proces dat de body parset, wordt de link van elk zoekresultaat in een wachtrij geplaatst zodat deze kan opgepikt worden door de volgende stap.
+
+\subsection{DOI opzoeken in de link van het geparsete resultaat}
+Met de link die werd opgeslaan in de vorige stap wordt er nu een request gestuurd. Daar zijn meerdere methodes mogelijk maar Requests \textcite{Requests2025} is de meest courante. De headers van het request worden zo opgesteld dat de server van GS niet ziet dat het hier om een geäutomatiseerde request gaat. Daardoor bestaat het risico dat GS request van deze client bant. Voorbeeld van de header in codefragment \ref{code:headers}.\\
+\begin{listing}headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9,lt;q=0.8,et;q=0.7,de;q=0.6",
+        \caption[Voorbeeld header]{Voorbeeld headers.}
+        \label{code:headers}
+}\end{listing}
+De url die in het zoekresultaat van GS zit, verwijst zelf ook naar de GS website, zie codefragment \ref{code:url}.
+\begin{listing}
+    https://scholar.google.be/scholar\_url?url=https://www.nature.com/articles/s41598-024-83657-0\&hl=nl\&sa=X\&d=1146959663452366258\&ei=tRGsZ4eaLIC96rQP29mI6AY\&scisig=AFWwaeY6TmkYbZVI8aTe6GErndZI\&oi=scholaralrt\&hist=P\_QG1LwAAAAJ:2727769339669043622:AFWwaeYuVCLO-kY6yEQWAvLJNk68\&html=\&pos=0\&folt=kw-top
+    \caption[Embedded url]{Embedded url.}
+    \label{code:url}
+\end{listing}
+Daarin valt te zien dat de eigenlijke url van het zoekresultaat verpakt zit binnen het GS adres.
+Inderdaad, het response heeft een HTTP 302 status code en redirect het de request naar de eigenlijke url.
+Het verwerkende script kan de uiteindelijke url opzoeken in de javascript van het response aan de hand van de \textbf{location.replace} instructie. Voorbeeld in codefragment \ref{code:location.replace}.
+\begin{listing}
+    \begin{minted}{python}
+        pattern = r"location\.replace\(['\"]([^'\"]+)['\"]\)"
+        match = re.search(pattern, js_code)
+        if match:
+        location_replace_url = match.group(1)
+        self.logging_service.logger.debug(f"Extracted location.replace URL for search result link: {location_replace_url}")
+        else:
+        link.log_message = "No location.replace url found for search result link"
+        self.logging_service.logger.debug("No location.replace url found for search result link")
+    \end{minted}
+    \caption[Location replace codefragment]{Codefragment voor het vinden van de location.replace.}
+    \label{code:location.replace}
+ \end{listing}
+Met de url uit de \textbf{location.replace} kan er nu opnieuw een request gestuurd worden.
+Het response dat daar teruggestuurd wordt is verschillend voor elke zoekresultaat. Het is dus niet mogelijk om het DOI voor elk zoekresultaat op dezelfde manier te achterhalen. Daarom wordt er een stapsgewijze werkwijze gehanteerd, van zodra het DOI gevonden is worden de volgende stappen overgeslaan:
+\begin{itemize}
+    \item \textbf{het DOI opzoeken in de link}: De link zelf bevat soms zelf reeds het DOI. Dit wordt getoets aan de hand van enkele reguliere expressies.
+    \item \textbf{het DOI opzoeken in de content} Het antwoord komt overeen met een html-pagina of een pdf-document. Andere return types worden buiten beschouwing gelaten. De inhoud van het antwoord wordt gelezen en met gebruik van dezelfde reguliere expressie kan de aanwezigheid van het DOI opgespoord worden. Voor pdf-documenten is er een extra tussenstap nodig: de inhoud moet gelezen worden met gebruik van \autocite{Pymupdf2025}. Voorbeeld in codefragment \ref{code:pymupdf}.
+    \begin{listing}
+        \begin{minted}{python}
+            doc = pymupdf.Document(stream=pdf)
+            # Extract all Document Text
+            text = chr(12).join([page.get_text() for page in doc])
+        \end{minted}
+    \caption[Pymupdf codefragment]{Codefragment voor het openen van een online pdf.}
+    \label{code:pymupdf}
+\end{listing}
+    \item \textbf{het DOI opzoeken in de embedded content}: Als tot zover er nog steeds geen DOI gevonden is, dan kan het zijn dat het response een embedded document bevat. Op een website kan embedded content ontsloten worden door erop te klikken. Dat gaat hier niet.  Door middel van \autocite{Selenium2025} kan de embedded content automatisch gedownload worden. Eenmaal gedownload kan het bestand gewoon geopend worden en doorzocht worden naar een DOI op dezelfde manier als voor pdf-documenten in de voorgaande stap.    
+\end{itemize}
+Alle DOIs hebben dezelfde structuur: ze beginnen met het cijfer 10, gevolgd door een punt en 4 tot 9 cijfers, daarna volgt een slash. Verder kan elke willekeurige opeenvolging van letters, cijfers, speciale tekens en slashes voorkomen.
+De volgende lijst reguliere expressies is aanbevolen om DOIs op te zoeken \textcite{CrossrefRegex2025}:
+\begin{itemize}
+    \item \texttt{/\textasciicircum10.\textbackslash d{4,9}/[-.\_;()/:A-Z0-9]+\$/i}
+    \item \texttt{/\textasciicircum10.1002/[\textasciicircum\textbackslash s]+\$/i}
+    \item \texttt{/\textasciicircum10.\textbackslash d{4}/\textbackslash d+-\textbackslash d+X?(\textbackslash d+)\textbackslash d+<[\textbackslash d\textbackslash w]+:[\textbackslash d\textbackslash w]*>\textbackslash d+.\textbackslash d+.\textbackslash w+;\textbackslash d\$/i}
+    \item \texttt{/\textasciicircum10.1021/\textbackslash w\textbackslash w\textbackslash d++\$/i}
+    \item \texttt{/\textasciicircum10.1207/[\textbackslash w\textbackslash d]+\textbackslash \&\textbackslash d+\_\textbackslash d+\$/i}
+\end{itemize}
+Het DOI wordt opgeslaan in de databank.
+\section{Resultaat}
+\subsection{E-mail lezen}
+Het resultaat van deze stap is eerder een tussenresultaat waarbij verschillende onderdelen van de e-mail zoals datum, onderwerp, en andere opgeslaan worden in de databank. Deze opgeslaan informatie vormt de bron voor de verdere verwerking in stap 2.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/json_view.JPG}
+    \caption[Databank JSON view.]{\label{fig:Databank JSON view}Databank JSON view.}
+\end{figure}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/table_view.JPG}
+    \caption[Databank table view.]{\label{fig:Databank table view}Databank table view.}
+\end{figure}
+\FloatBarrier
+Een overzicht van de gegevens die opgeslaan worden zijn te zien in figuur \ref{fig:databank_structuur_email}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/database_structure_email.JPG}
+    \caption[Databank structuur e-mail.]{\label{fig:databank_structuur_email}Databank structuur e-mail.}
+\end{figure}
+\begin{itemize}
+    \item \textbf{\_id}: De unieke ID van de record.
+    \item \textbf{created\_at}: De datum en het tijdstip waarop de e-mail in de databank werd opgeslaan.
+    \item \textbf{updated\_at}: De datum en het tijdstip waarop de e-mail in de databank het laatst werd gewijzigd. 
+    \item \textbf{sender}: De afzender van de e-mail.
+    \item \textbf{date\_time}: De datum en het tijdstip waarop de e-mail verstuurd werd.
+    \item \textbf{subject}: Het onderwerp van de e-mail. 
+    \item \textbf{body}: 
+        \begin{itemize}
+            \item \textbf{text\_html}: De body van de e-mail.
+        \end{itemize}
+    \item \textbf{is\_processed}: Een vlag die aanduidt of de body van de e-mail verwerkt werd.
+    \item \textbf{is\_spam}: Een vlag die aanduidt of de e-mail niet van GS afkomstig is. 
+    \item \textbf{log\_message}: De logberichten tijdens het lezen van de e-mail worden hier bewaard. 
+\end{itemize}
+\FloatBarrier
+\subsection{Body van de e-mail parsen}
+Het resultaat van deze stap is eerder een tussenresultaat waarbij voor alle zoekresultaten in de body van de e-mail, verschillende onderdelen zoals titel, snippet, auteurs, uitgever, jaartal, en link opgeslaan worden in de databank. Deze opgeslaan informatie vormt de bron voor de verdere verwerking in stap 3.
+De gegevens van de e-mail worden bijgewerkt om aan te duiden dat de body verwerkt is, zoals te zien is in figuur \ref{fig:databank_structuur_body}.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/database_structure_body.JPG}
+    \caption[Databank structuur body.]{\label{fig:databank_structuur_body}Databank structuur body.}
+\end{figure}
+\begin{itemize}
+    \item \textbf{\_id}: De unieke ID van de record.
+    \item \textbf{created\_at}: De datum en het tijdstip waarop de e-mail in de databank werd opgeslaan.
+    \item \textbf{updated\_at}: De datum en het tijdstip waarop de e-mail in de databank het laatst werd gewijzigd. 
+    \item \textbf{sender}: De afzender van de e-mail.
+    \item \textbf{date\_time}: De datum en het tijdstip waarop de e-mail verstuurd werd.
+    \item \textbf{subject}: Het onderwerp van de e-mail. 
+    \item \textbf{body}: 
+    \begin{itemize}
+        \item \textbf{text\_html}: De body van de e-mail.
+        \item \textbf{is\_parsed}: Een vlag die aanduidt of het parsen van de body succesvol was.
+        \item \textbf{is\_google\_scholar\_format}: Een vlag die aanduidt of de body overeenkomt met de verwachte html structuur.
+        \item \textbf{log\_message}: De logberichten tijdens het parsen van de body worden hier bewaard.
+    \end{itemize}
+    \item \textbf{is\_processed}: Een vlag die aanduidt of de body van de e-mail verwerkt werd.
+    \item \textbf{is\_spam}: Een vlag die aanduidt of de e-mail niet van GS afkomstig is. 
+    \item \textbf{log\_message}: De logberichten tijdens het lezen van de e-mail worden hier bewaard. 
+\end{itemize}
+Een overzicht van de gegevens die opgeslaan worden zijn te zien in figuur \ref{fig:databank_structuur_zoekresultaat}.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/database_structure_zoekresultaat.JPG}
+    \caption[Databank structuur zoekresultaat.]{\label{fig:databank_structuur_zoekresultaat}Databank structuur zoekresultaat.}
+\end{figure}
+\begin{itemize}
+    \item \textbf{\_id}: De unieke ID van de record.
+    \item \textbf{created\_at}: De datum en het tijdstip waarop het zoekresultaat in de databank werd opgeslaan.
+    \item \textbf{updated\_at}: De datum en het tijdstip waarop het zoekresultaat in de databank het laatst werd gewijzigd. 
+    \item \textbf{email}: Referentie naar de overeenkomstige e-mail waar dit zoekresultaat in staat.
+    \item \textbf{title}: Titel van het zoekresultaat.
+    \item \textbf{author}: Auteur(s) van het zoekresultaat. 
+    \item \textbf{publisher}: Uitgever van het zoekresultaat.
+    \item \textbf{year}: Jaar van het zoekresultaat.
+    \item \textbf{text}: Snippet van het zoekresultaat.
+    \item \textbf{link}: 
+    \begin{itemize}
+        \item \textbf{url}: De link naar de online bron van het zoekresultaat.
+    \end{itemize}
+    \item \textbf{log\_message}: De logberichten tijdens het verwerken van het zoekresultaat worden hier bewaard. 
+    \item \textbf{is\_processed}: Een vlag die aanduidt of de online bron van het zoekresultaat verwerkt werd.
+\end{itemize}
+
+\FloatBarrier
+\subsection{DOI opzoeken in de link van het geparsete resultaat}
+Het DOI, het resultaat van deze stap, is een unieke identifier voor elk artikel. Vanaf dit punt en voor alle volgende bewerkingen kan elk artikel ondubbelzinnig geïdentificeerd worden en kunnen de bijhorende gegevens op gezocht worden. Een overzicht van de gegevens die opgeslaan worden is te zien in figuur \ref{fig:databank_structuur_link}.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/database_structure_link.JPG}
+    \caption[Databank structuur link.]{\label{fig:databank_structuur_link}Databank structuur link.}
+\end{figure}
+\begin{itemize}
+    \item \textbf{\_id}: De unieke ID van de record.
+    \item \textbf{created\_at}: De datum en het tijdstip waarop het zoekresultaat in de databank werd opgeslaan.
+    \item \textbf{updated\_at}: De datum en het tijdstip waarop het zoekresultaat in de databank het laatst werd gewijzigd. 
+    \item \textbf{email}: Referentie naar de overeenkomstige e-mail waar dit zoekresultaat in staat.
+    \item \textbf{title}: Titel van het zoekresultaat.
+    \item \textbf{author}: Auteur(s) van het zoekresultaat. 
+    \item \textbf{publisher}: Uitgever van het zoekresultaat.
+    \item \textbf{year}: Jaar van het zoekresultaat.
+    \item \textbf{text}: Snippet van het zoekresultaat.
+    \item \textbf{link}: 
+    \begin{itemize}
+        \item \textbf{url}: De link naar de online bron van het zoekresultaat.
+        \item \textbf{location\_replace\_url}: De link naar de eigenlijke online bron van het zoekresultaat na redirect door GS.
+        \item \textbf{response\_code}: De http status code van het response.
+        \item \textbf{response\_type}: Het type document van het response.
+        \item \textbf{is\_accepted\_type}: Een vlag die aanduidt of het type van het response verder beschouwd zal worden.
+        \item \textbf{DOI}: De Digital Object Identifier.
+        \item \textbf{log\_message}: De logberichten tijdens het verwerken van de link worden hier bewaard.
+        \item \textbf{is\_DOI\_succes}: Een vlag die aanduidt of de verwerking tijdens deze stap al dan niet succesvol was.
+    \end{itemize}
+    \item \textbf{media\_type}: Het type van de online bron zoals het aangegeven wordt in het zoekresultaat.
+    \item \textbf{log\_message}: De logberichten tijdens het verwerken van het zoekresultaat worden hier bewaard. 
+    \item \textbf{is\_processed}: Een vlag die aanduidt of de online bron van het zoekresultaat verwerkt werd.
+\end{itemize}
+
+

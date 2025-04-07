@@ -578,6 +578,24 @@
       \verb https://github.com/neuml/paperetl
       \endverb
     \endentry
+    \entry{Anthropic2025}{online}{}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Extracting Structured Data from Websites with Mirascope, Anthropic, and Streamlit}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://ploomber.io/blog/mirascope-url-extractor/
+      \endverb
+      \verb{url}
+      \verb https://ploomber.io/blog/mirascope-url-extractor/
+      \endverb
+    \endentry
     \entry{JohnSBailey2025}{online}{}{}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
@@ -976,6 +994,24 @@
       \range{pages}{14}
       \verb{doi}
       \verb 10.1016/b978-0-323-91776-6.00011-7
+      \endverb
+    \endentry
+    \entry{Mirascope2025}{online}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{LLM abstractions thataren't obstructions}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://mirascope.com/
+      \endverb
+      \verb{url}
+      \verb https://mirascope.com/
       \endverb
     \endentry
     \entry{Lotfi2021}{inbook}{}{}
@@ -1992,6 +2028,24 @@
       \verb https://sourceforge.net/projects/taxongrab/
       \endverb
     \endentry
+    \entry{Anthropicmodel2025}{online}{}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Using the API Getting started}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.anthropic.com/en/api/getting-started
+      \endverb
+      \verb{url}
+      \verb https://docs.anthropic.com/en/api/getting-started
+      \endverb
+    \endentry
     \entry{Vliz2024}{online}{}{}
       \field{sortinit}{V}
       \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
@@ -2008,6 +2062,60 @@
       \endverb
       \verb{url}
       \verb https://www.vliz.be
+      \endverb
+    \endentry
+    \entry{Serpapiai2025}{online}{}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Web scraping experiment with AI (Parsing HTML with GPT-4 and GPT-4o)}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://serpapi.com/blog/web-scraping-and-parsing-experiment-with-ai-openai/
+      \endverb
+      \verb{url}
+      \verb https://serpapi.com/blog/web-scraping-and-parsing-experiment-with-ai-openai/
+      \endverb
+    \endentry
+    \entry{Depaepeanthropic2025}{online}{}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Web scraping Google Scholar SERP using Anthropic}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/bart-de-paepe/google-scholar-anthropic/blob/main/app/src/services/parse_service.py
+      \endverb
+      \verb{url}
+      \verb https://github.com/bart-de-paepe/google-scholar-anthropic/blob/main/app/src/services/parse_service.py
+      \endverb
+    \endentry
+    \entry{Depaepeopenai2025}{online}{}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Web scraping Google Scholar SERP using OpenAI}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/bart-de-paepe/google-scholar-openai/blob/main/app/src/services/parse_service.py
+      \endverb
+      \verb{url}
+      \verb https://github.com/bart-de-paepe/google-scholar-openai/blob/main/app/src/services/parse_service.py
       \endverb
     \endentry
     \entry{Worms2024}{online}{}{}
@@ -2639,6 +2747,24 @@
       \verb https://github.com/neuml/paperetl
       \endverb
     \endentry
+    \entry{Anthropic2025}{online}{}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Extracting Structured Data from Websites with Mirascope, Anthropic, and Streamlit}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://ploomber.io/blog/mirascope-url-extractor/
+      \endverb
+      \verb{url}
+      \verb https://ploomber.io/blog/mirascope-url-extractor/
+      \endverb
+    \endentry
     \entry{JohnSBailey2025}{online}{}{}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
@@ -3037,6 +3163,24 @@
       \range{pages}{14}
       \verb{doi}
       \verb 10.1016/b978-0-323-91776-6.00011-7
+      \endverb
+    \endentry
+    \entry{Mirascope2025}{online}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{LLM abstractions thataren't obstructions}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://mirascope.com/
+      \endverb
+      \verb{url}
+      \verb https://mirascope.com/
       \endverb
     \endentry
     \entry{Lotfi2021}{inbook}{}{}
@@ -4053,6 +4197,24 @@
       \verb https://sourceforge.net/projects/taxongrab/
       \endverb
     \endentry
+    \entry{Anthropicmodel2025}{online}{}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Using the API Getting started}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.anthropic.com/en/api/getting-started
+      \endverb
+      \verb{url}
+      \verb https://docs.anthropic.com/en/api/getting-started
+      \endverb
+    \endentry
     \entry{Vliz2024}{online}{}{}
       \field{sortinit}{V}
       \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
@@ -4069,6 +4231,60 @@
       \endverb
       \verb{url}
       \verb https://www.vliz.be
+      \endverb
+    \endentry
+    \entry{Serpapiai2025}{online}{}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Web scraping experiment with AI (Parsing HTML with GPT-4 and GPT-4o)}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://serpapi.com/blog/web-scraping-and-parsing-experiment-with-ai-openai/
+      \endverb
+      \verb{url}
+      \verb https://serpapi.com/blog/web-scraping-and-parsing-experiment-with-ai-openai/
+      \endverb
+    \endentry
+    \entry{Depaepeanthropic2025}{online}{}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Web scraping Google Scholar SERP using Anthropic}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/bart-de-paepe/google-scholar-anthropic/blob/main/app/src/services/parse_service.py
+      \endverb
+      \verb{url}
+      \verb https://github.com/bart-de-paepe/google-scholar-anthropic/blob/main/app/src/services/parse_service.py
+      \endverb
+    \endentry
+    \entry{Depaepeopenai2025}{online}{}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Web scraping Google Scholar SERP using OpenAI}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/bart-de-paepe/google-scholar-openai/blob/main/app/src/services/parse_service.py
+      \endverb
+      \verb{url}
+      \verb https://github.com/bart-de-paepe/google-scholar-openai/blob/main/app/src/services/parse_service.py
       \endverb
     \endentry
     \entry{Worms2024}{online}{}{}
