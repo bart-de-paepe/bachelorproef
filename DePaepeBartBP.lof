@@ -6,45 +6,34 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Python release cycle.}}{11}{figure.caption.9}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces OpenAI dashboard.}}{16}{figure.caption.10}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces E-mail lezen.}}{18}{figure.caption.11}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces E-mail body parsen.}}{19}{figure.caption.12}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces DOI opzoeken in de link van het geparsete resultaat.}}{19}{figure.caption.13}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Use case diagram.}}{23}{figure.caption.17}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Domeinmodel.}}{23}{figure.caption.18}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces HTML structuur van de GS alert.}}{25}{figure.caption.19}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Databank JSON view.}}{28}{figure.caption.20}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Databank table view.}}{28}{figure.caption.21}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Databank structuur e-mail.}}{29}{figure.caption.22}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Databank structuur body.}}{29}{figure.caption.23}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Databank structuur zoekresultaat.}}{30}{figure.caption.24}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Databank structuur link.}}{31}{figure.caption.25}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces OpenAI dashboard.}}{17}{figure.caption.10}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces HTML structuur van de GS alert.}}{20}{figure.caption.11}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Databank structuur Crossref.}}{35}{figure.caption.27}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Databank structuur Crossref.}}{24}{figure.caption.13}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Google Scholar SERP.}}{38}{figure.caption.28}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces OpenAI dashboard.}}{41}{figure.caption.29}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Google Scholar SERP.}}{27}{figure.caption.14}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces OpenAI dashboard.}}{30}{figure.caption.15}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Google Scholar basis zoeken.}}{47}{figure.caption.31}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Google Scholar zoekresultaten.}}{47}{figure.caption.32}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Google Scholar geävanceerd zoeken.}}{49}{figure.caption.33}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Google Scholar melding maken.}}{50}{figure.caption.34}%
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Google Scholar email alert.}}{52}{figure.caption.35}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Google Scholar basis zoeken.}}{36}{figure.caption.17}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Google Scholar zoekresultaten.}}{36}{figure.caption.18}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Google Scholar geävanceerd zoeken.}}{38}{figure.caption.19}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Google Scholar melding maken.}}{39}{figure.caption.20}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Google Scholar email alert.}}{41}{figure.caption.21}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces E-mail lezen.}}{54}{figure.caption.36}%
-\contentsline {figure}{\numberline {10.2}{\ignorespaces E-mail body parsen.}}{54}{figure.caption.37}%
-\contentsline {figure}{\numberline {10.3}{\ignorespaces DOI opzoeken in de link van het geparsete resultaat.}}{54}{figure.caption.38}%
-\contentsline {figure}{\numberline {10.4}{\ignorespaces Use case diagram.}}{55}{figure.caption.42}%
-\contentsline {figure}{\numberline {10.5}{\ignorespaces Domeinmodel.}}{55}{figure.caption.43}%
-\contentsline {figure}{\numberline {10.6}{\ignorespaces HTML structuur van de GS alert.}}{60}{figure.caption.44}%
-\contentsline {figure}{\numberline {10.7}{\ignorespaces Databank JSON view.}}{63}{figure.caption.45}%
-\contentsline {figure}{\numberline {10.8}{\ignorespaces Databank table view.}}{63}{figure.caption.46}%
-\contentsline {figure}{\numberline {10.9}{\ignorespaces Databank structuur e-mail.}}{64}{figure.caption.47}%
-\contentsline {figure}{\numberline {10.10}{\ignorespaces Databank structuur body.}}{64}{figure.caption.48}%
-\contentsline {figure}{\numberline {10.11}{\ignorespaces Databank structuur zoekresultaat.}}{65}{figure.caption.49}%
-\contentsline {figure}{\numberline {10.12}{\ignorespaces Databank structuur link.}}{66}{figure.caption.50}%
+\contentsline {figure}{\numberline {10.1}{\ignorespaces E-mail lezen.}}{43}{figure.caption.22}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces E-mail body parsen.}}{43}{figure.caption.23}%
+\contentsline {figure}{\numberline {10.3}{\ignorespaces DOI opzoeken in de link van het geparsete resultaat.}}{43}{figure.caption.24}%
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Use case diagram.}}{44}{figure.caption.28}%
+\contentsline {figure}{\numberline {10.5}{\ignorespaces Domeinmodel.}}{44}{figure.caption.29}%
+\contentsline {figure}{\numberline {10.6}{\ignorespaces HTML structuur van de GS alert.}}{49}{figure.caption.30}%
+\contentsline {figure}{\numberline {10.7}{\ignorespaces Databank JSON view.}}{52}{figure.caption.31}%
+\contentsline {figure}{\numberline {10.8}{\ignorespaces Databank table view.}}{52}{figure.caption.32}%
+\contentsline {figure}{\numberline {10.9}{\ignorespaces Databank structuur e-mail.}}{53}{figure.caption.33}%
+\contentsline {figure}{\numberline {10.10}{\ignorespaces Databank structuur body.}}{53}{figure.caption.34}%
+\contentsline {figure}{\numberline {10.11}{\ignorespaces Databank structuur zoekresultaat.}}{54}{figure.caption.35}%
+\contentsline {figure}{\numberline {10.12}{\ignorespaces Databank structuur link.}}{55}{figure.caption.36}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Chronologische oplijsting van de uit te voeren stappen}}{71}{figure.caption.51}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Chronologische oplijsting van de uit te voeren stappen}}{60}{figure.caption.37}%
 \contentsfinish 

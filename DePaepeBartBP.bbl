@@ -596,6 +596,24 @@
       \verb https://ploomber.io/blog/mirascope-url-extractor/
       \endverb
     \endentry
+    \entry{Gemma32025}{online}{}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Gemma3: Powerful AI Within Everyone's Reach}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://gemma3.org/
+      \endverb
+      \verb{url}
+      \verb https://gemma3.org/
+      \endverb
+    \endentry
     \entry{JohnSBailey2025}{online}{}{}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
@@ -1322,6 +1340,24 @@
       \verb 10.5860/crl.80.6.876
       \endverb
     \endentry
+    \entry{Ollama2025}{online}{}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Ollama: Get up and running with large language models.}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/ollama/ollama
+      \endverb
+      \verb{url}
+      \verb https://github.com/ollama/ollama
+      \endverb
+    \endentry
     \entry{Pakhale2023}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=dc234d76e820bfbf3474e9e4749873c1}{%
@@ -1849,6 +1885,42 @@
       \verb https://pypi.org/project/science-parse-api
       \endverb
     \endentry
+    \entry{Scrapegraphaillama2025}{online}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Scrapegraph AI Tutorial; Scrape websites easily with LLaMA AI}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.scrapingbee.com/blog/scrapegraph-ai-tutorial-scrape-websites-easily-with-llama-ai/
+      \endverb
+      \verb{url}
+      \verb https://www.scrapingbee.com/blog/scrapegraph-ai-tutorial-scrape-websites-easily-with-llama-ai/
+      \endverb
+    \endentry
+    \entry{ScrapeGraphAI2025}{online}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{ScrapeGraphAI: You Only Scrape Once}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/ScrapeGraphAI/Scrapegraph-ai
+      \endverb
+      \verb{url}
+      \verb https://github.com/ScrapeGraphAI/Scrapegraph-ai
+      \endverb
+    \endentry
     \entry{Selenium2025}{online}{}{}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
@@ -2098,6 +2170,24 @@
       \endverb
       \verb{url}
       \verb https://github.com/bart-de-paepe/google-scholar-anthropic/blob/main/app/src/services/parse_service.py
+      \endverb
+    \endentry
+    \entry{Depaepeollama2025}{online}{}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Web scraping Google Scholar SERP using Llama3}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/bart-de-paepe/google-scholar-ollama/blob/main/app/src/services/parse_service.py
+      \endverb
+      \verb{url}
+      \verb https://github.com/bart-de-paepe/google-scholar-ollama/blob/main/app/src/services/parse_service.py
       \endverb
     \endentry
     \entry{Depaepeopenai2025}{online}{}{}
@@ -2765,6 +2855,24 @@
       \verb https://ploomber.io/blog/mirascope-url-extractor/
       \endverb
     \endentry
+    \entry{Gemma32025}{online}{}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Gemma3: Powerful AI Within Everyone's Reach}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://gemma3.org/
+      \endverb
+      \verb{url}
+      \verb https://gemma3.org/
+      \endverb
+    \endentry
     \entry{JohnSBailey2025}{online}{}{}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
@@ -3491,6 +3599,24 @@
       \verb 10.5860/crl.80.6.876
       \endverb
     \endentry
+    \entry{Ollama2025}{online}{}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Ollama: Get up and running with large language models.}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/ollama/ollama
+      \endverb
+      \verb{url}
+      \verb https://github.com/ollama/ollama
+      \endverb
+    \endentry
     \entry{Pakhale2023}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=dc234d76e820bfbf3474e9e4749873c1}{%
@@ -4018,6 +4144,42 @@
       \verb https://pypi.org/project/science-parse-api
       \endverb
     \endentry
+    \entry{Scrapegraphaillama2025}{online}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Scrapegraph AI Tutorial; Scrape websites easily with LLaMA AI}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.scrapingbee.com/blog/scrapegraph-ai-tutorial-scrape-websites-easily-with-llama-ai/
+      \endverb
+      \verb{url}
+      \verb https://www.scrapingbee.com/blog/scrapegraph-ai-tutorial-scrape-websites-easily-with-llama-ai/
+      \endverb
+    \endentry
+    \entry{ScrapeGraphAI2025}{online}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{ScrapeGraphAI: You Only Scrape Once}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/ScrapeGraphAI/Scrapegraph-ai
+      \endverb
+      \verb{url}
+      \verb https://github.com/ScrapeGraphAI/Scrapegraph-ai
+      \endverb
+    \endentry
     \entry{Selenium2025}{online}{}{}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
@@ -4269,6 +4431,24 @@
       \verb https://github.com/bart-de-paepe/google-scholar-anthropic/blob/main/app/src/services/parse_service.py
       \endverb
     \endentry
+    \entry{Depaepeollama2025}{online}{}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Web scraping Google Scholar SERP using Llama3}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/bart-de-paepe/google-scholar-ollama/blob/main/app/src/services/parse_service.py
+      \endverb
+      \verb{url}
+      \verb https://github.com/bart-de-paepe/google-scholar-ollama/blob/main/app/src/services/parse_service.py
+      \endverb
+    \endentry
     \entry{Depaepeopenai2025}{online}{}{}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
@@ -4356,6 +4536,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{LLama32025}
 \endrefsection
 \endinput
 

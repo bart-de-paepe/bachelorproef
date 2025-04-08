@@ -18,65 +18,53 @@
 \contentsline {section}{\numberline {4.1}Google Scholar alerts}{13}{section.4.1}%
 \contentsline {chapter}{\numberline {5}Web scraping}{15}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Web scraping}{15}{section.5.1}%
-\contentsline {section}{\numberline {5.2}OpenAI: betalend online model}{16}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Anthropic: niet betalend online model}{18}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Doelstelling}{18}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}E-mail lezen}{18}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Body van de e-mail parsen}{19}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}DOI opzoeken in de link van het geparsete resultaat}{19}{subsection.5.4.3}%
-\contentsline {section}{\numberline {5.5}Analyse}{19}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Use Cases}{19}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Domeinmodel}{19}{subsection.5.5.2}%
-\contentsline {section}{\numberline {5.6}Implementatie}{23}{section.5.6}%
-\contentsline {subsection}{\numberline {5.6.1}E-mail lezen}{23}{subsection.5.6.1}%
-\contentsline {subsection}{\numberline {5.6.2}Body van de e-mail parsen}{24}{subsection.5.6.2}%
-\contentsline {subsection}{\numberline {5.6.3}DOI opzoeken in de link van het geparsete resultaat}{25}{subsection.5.6.3}%
-\contentsline {section}{\numberline {5.7}Resultaat}{28}{section.5.7}%
-\contentsline {subsection}{\numberline {5.7.1}E-mail lezen}{28}{subsection.5.7.1}%
-\contentsline {subsection}{\numberline {5.7.2}Body van de e-mail parsen}{29}{subsection.5.7.2}%
-\contentsline {subsection}{\numberline {5.7.3}DOI opzoeken in de link van het geparsete resultaat}{31}{subsection.5.7.3}%
-\contentsline {chapter}{\numberline {6}Crossref}{33}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Doelstelling}{33}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Analyse}{33}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Implementatie}{33}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Resultaat}{33}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Natural language processing}{37}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Doelstelling}{37}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Analyse}{39}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Implementatie}{39}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Resultaat}{41}{section.7.4}%
-\contentsline {chapter}{\numberline {8}IMIS-input}{43}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Doelstelling}{43}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Analyse}{43}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Implementatie}{44}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Resultaat}{44}{section.8.4}%
-\contentsline {chapter}{\numberline {9}Google Scholar zoekopdracht}{46}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Zoeken in Google Scholar \blx@tocontentsinit {0}\autocite {JohnSBailey2025}}{46}{section.9.1}%
-\contentsline {subsection}{\numberline {9.1.1}Basis zoeken}{46}{subsection.9.1.1}%
-\contentsline {subsection}{\numberline {9.1.2}Geävanceerd zoeken}{48}{subsection.9.1.2}%
-\contentsline {section}{\numberline {9.2}E-mail alerts}{49}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Opstellen van een zoekopdracht}{51}{section.9.3}%
-\contentsline {chapter}{\numberline {10}Parsen van Google Scholar zoekresultaten}{53}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Doelstelling}{53}{section.10.1}%
-\contentsline {subsection}{\numberline {10.1.1}E-mail lezen}{53}{subsection.10.1.1}%
-\contentsline {subsection}{\numberline {10.1.2}Body van de e-mail parsen}{53}{subsection.10.1.2}%
-\contentsline {subsection}{\numberline {10.1.3}DOI opzoeken in de link van het geparsete resultaat}{54}{subsection.10.1.3}%
-\contentsline {section}{\numberline {10.2}Analyse}{55}{section.10.2}%
-\contentsline {subsection}{\numberline {10.2.1}Use Cases}{55}{subsection.10.2.1}%
-\contentsline {subsection}{\numberline {10.2.2}Domeinmodel}{55}{subsection.10.2.2}%
-\contentsline {section}{\numberline {10.3}Implementatie}{59}{section.10.3}%
-\contentsline {subsection}{\numberline {10.3.1}E-mail lezen}{59}{subsection.10.3.1}%
-\contentsline {subsection}{\numberline {10.3.2}Body van de e-mail parsen}{59}{subsection.10.3.2}%
-\contentsline {subsection}{\numberline {10.3.3}DOI opzoeken in de link van het geparsete resultaat}{60}{subsection.10.3.3}%
-\contentsline {section}{\numberline {10.4}Resultaat}{63}{section.10.4}%
-\contentsline {subsection}{\numberline {10.4.1}E-mail lezen}{63}{subsection.10.4.1}%
-\contentsline {subsection}{\numberline {10.4.2}Body van de e-mail parsen}{64}{subsection.10.4.2}%
-\contentsline {subsection}{\numberline {10.4.3}DOI opzoeken in de link van het geparsete resultaat}{66}{subsection.10.4.3}%
-\contentsline {chapter}{\numberline {11}Conclusie}{68}{chapter.11}%
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{70}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Inleiding}{70}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Literatuurstudie}{72}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Methodologie}{73}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{75}{section.A.4}%
-\contentsline {chapter}{Bibliografie}{76}{appendix*.52}%
+\contentsline {section}{\numberline {5.2}web scraping met gebruik van een LLM }{16}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}OpenAI: gpt-4-1106-preview model}{16}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Anthropic: Claude model}{17}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}lokaal model}{19}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}web scraping via het ontleden van de DOM}{20}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Crossref}{22}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Doelstelling}{22}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Analyse}{22}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Implementatie}{22}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Resultaat}{22}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Natural language processing}{26}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Doelstelling}{26}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Analyse}{28}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Implementatie}{28}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Resultaat}{30}{section.7.4}%
+\contentsline {chapter}{\numberline {8}IMIS-input}{32}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Doelstelling}{32}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Analyse}{32}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Implementatie}{33}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Resultaat}{33}{section.8.4}%
+\contentsline {chapter}{\numberline {9}Google Scholar zoekopdracht}{35}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Zoeken in Google Scholar \blx@tocontentsinit {0}\autocite {JohnSBailey2025}}{35}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Basis zoeken}{35}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}Geävanceerd zoeken}{37}{subsection.9.1.2}%
+\contentsline {section}{\numberline {9.2}E-mail alerts}{38}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Opstellen van een zoekopdracht}{40}{section.9.3}%
+\contentsline {chapter}{\numberline {10}Parsen van Google Scholar zoekresultaten}{42}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Doelstelling}{42}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}E-mail lezen}{42}{subsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.1.2}Body van de e-mail parsen}{42}{subsection.10.1.2}%
+\contentsline {subsection}{\numberline {10.1.3}DOI opzoeken in de link van het geparsete resultaat}{43}{subsection.10.1.3}%
+\contentsline {section}{\numberline {10.2}Analyse}{44}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}Use Cases}{44}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.2.2}Domeinmodel}{44}{subsection.10.2.2}%
+\contentsline {section}{\numberline {10.3}Implementatie}{48}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}E-mail lezen}{48}{subsection.10.3.1}%
+\contentsline {subsection}{\numberline {10.3.2}Body van de e-mail parsen}{48}{subsection.10.3.2}%
+\contentsline {subsection}{\numberline {10.3.3}DOI opzoeken in de link van het geparsete resultaat}{49}{subsection.10.3.3}%
+\contentsline {section}{\numberline {10.4}Resultaat}{52}{section.10.4}%
+\contentsline {subsection}{\numberline {10.4.1}E-mail lezen}{52}{subsection.10.4.1}%
+\contentsline {subsection}{\numberline {10.4.2}Body van de e-mail parsen}{53}{subsection.10.4.2}%
+\contentsline {subsection}{\numberline {10.4.3}DOI opzoeken in de link van het geparsete resultaat}{55}{subsection.10.4.3}%
+\contentsline {chapter}{\numberline {11}Conclusie}{57}{chapter.11}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{59}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Inleiding}{59}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Literatuurstudie}{61}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Methodologie}{62}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{64}{section.A.4}%
+\contentsline {chapter}{Bibliografie}{65}{appendix*.38}%
 \contentsfinish 

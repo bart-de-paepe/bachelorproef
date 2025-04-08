@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  7 APR 2025 18:20
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  8 APR 2025 22:13
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2030,7 +2030,15 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'DePaepeBartBP.bbl' found.
- (DePaepeBartBP.bbl)
+ (DePaepeBartBP.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                LLama32025
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 83.
 Package biblatex Info: Reference segment=0 on input line 83.
 Package caption Info: Begin \AtBeginDocument code.
@@ -2040,6 +2048,7 @@ Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
+
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
 * driver: xetex
@@ -2441,351 +2450,124 @@ fontspec)
 [15
 
 ]
-File: ../graphics/./4_NLP/openai_billing.png Graphic file (type bmp)
-<../graphics/./4_NLP/openai_billing.png>
-\pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
-\openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250407182022 3C6BBBE75A5E28CE77F5BD
-994A368090)...executed.
+Package caption Warning: \label without proper reference on input line 59.
+See the caption package documentation for explanation.
 
 
+LaTeX Warning: Reference `code:HTML codefragment' on page 16 undefined on input
+ line 55.
 
-web_scraping.tex:74: Package minted Error: minted v3+ executable is not install
-ed or is not added to PATH; or MiKTeX is being used with -aux-directory or -out
-put-directory without setting a TEXMF_OUTPUT_DIRECTORY environment variable.
+web_scraping.tex:57: You can't use `macro parameter character #' in horizontal 
+mode.
+l.57 ...=\"font-size:11px;font-weight:bold;color:#
+                                                  1a0dab;vertical-align:2px\...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.74     \end{minted}
-                     
-(That was another \errmessage.)
-
-
-web_scraping.tex:74: Package minted Error: Missing definition for highlighting 
-style "solarized-light" (minted executable is unavailable or disabled); attempt
-ing to substitute fallback style.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.74     \end{minted}
-                     
-(That was another \errmessage.)
-
-
-web_scraping.tex:74: Package minted Error: Missing definition for highlighting 
-style "default" (minted executable is unavailable or disabled); attempting to s
-ubstitute fallback style.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.74     \end{minted}
-                     
-(That was another \errmessage.)
-
-
-web_scraping.tex:74: Package minted Error: Cannot highlight code (minted execut
-able is unavailable or disabled); attempting to typeset without highlighting.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.74     \end{minted}
-                     
-(That was another \errmessage.)
-
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `FiraCode' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 74.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 74.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 74.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 74.
-Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
-t line 75.
-
-web_scraping.tex:104: Package minted Error: Cannot highlight code (minted execu
-table is unavailable or disabled); attempting to typeset without highlighting.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104     \end{minted}
-                      
-(That was another \errmessage.)
-
-
-
-[16]
-
-[17]
-File: ../graphics/./2_parse_zoekresultaat/email-lezen.jpg Graphic file (type bm
-p)
-<../graphics/./2_parse_zoekresultaat/email-lezen.jpg>
-
-Overfull \hbox (19.9924pt too wide) in paragraph at lines 123--129
-\TU/Montserrat(1)/m/n/10.95 Op gezette tijdstippen wordt de inbox van het accou
-nt google-scholar@marineinfo.org
- []
-
-File: ../graphics/./2_parse_zoekresultaat/email-body-parsen.jpg Graphic file (t
-ype bmp)
-<../graphics/./2_parse_zoekresultaat/email-body-parsen.jpg>
-
-Overfull \hbox (0.76056pt too wide) in paragraph at lines 130--137
-\TU/Montserrat(1)/m/n/10.95 Elke e-mail bevat 1 of meerdere zoekresultaten afko
-mstig van GS. In deze stap wordt
- []
-
-
-
-[18]
-File: ../graphics/./2_parse_zoekresultaat/search-doi.jpg Graphic file (type bmp
-)
-<../graphics/./2_parse_zoekresultaat/search-doi.jpg>
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
-[]|\TU/Montserrat(1)/m/n/10.95 GS stuurt e-mails naar google-
- []
-
-
-Underfull \hbox (badness 7291) in paragraph at lines 151--152
-\TU/Montserrat(1)/m/n/10.95 scholar@marineinfo.org. Deze e-mails moeten
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
-[]|\TU/Montserrat(1)/m/n/10.95 DR-email: afzender moet zijn: scholaralerts-
- []
-
-
-Overfull \hbox (3.86041pt too wide) in paragraph at lines 148--182
- [][] 
- []
-
-
-Underfull \hbox (badness 6268) in paragraph at lines 216--217
-[]\TU/Montserrat(1)/m/n/10.95 systeem slaat bovenstaande informatie ge-
- []
-
-web_scraping.tex:236: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.236         \hline
-                    
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Overfull \hbox (3.86041pt too wide) in paragraph at lines 187--238
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 89.16278pt on input line 239.
-
-Missing character: There is no ⌡ in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-web_scraping.tex:283: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.283         \hline
-                    
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Overfull \hbox (3.86041pt too wide) in paragraph at lines 243--285
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 25.7722pt on input line 286.
-
-File: ../graphics/./2_parse_zoekresultaat/3_use_case_diagram.PNG Graphic file (
-type bmp)
-<../graphics/./2_parse_zoekresultaat/3_use_case_diagram.PNG>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: ../graphics/./2_parse_zoekresultaat/4_domeinmodel.PNG Graphic file (type 
-bmp)
-<../graphics/./2_parse_zoekresultaat/4_domeinmodel.PNG>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-
-[19]
-
-[20]
-
-[21]
-
-[22]
-Overfull \hbox (4.12953pt too wide) in paragraph at lines 303--305
-\TU/Montserrat(1)/m/n/10.95 Meerdere specifieke Python libraries ondersteunen a
-lle mogelijke bewerkingen met
- []
-
-
-(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
-fontspec)
-(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
-fontspec)
-
-[23]
-web_scraping.tex:314: Missing $ inserted.
+web_scraping.tex:57: Missing $ inserted.
 <inserted text> 
                 $
-l.314 ... scheduler. Click\_ \autocite{Click2025} 
-                                                  laat toe om meerdere comma...
+l.57 ... href=\"https://scholar.google.be/scholar_
+                                                  url?url=https://www.scienc...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-web_scraping.tex:314: Missing { inserted.
-<to be read again> 
-                   \begingroup 
-l.314 ... scheduler. Click\_ \autocite{Click2025} 
-                                                  laat toe om meerdere comma...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
+web_scraping.tex:57: Misplaced alignment tab character &.
+l.57 ...com/science/article/pii/S0191886925001308&
+                                                  amp;hl=nl&amp;sa=X&amp;d=9...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
+web_scraping.tex:57: Misplaced alignment tab character &.
+l.57 ...e/article/pii/S0191886925001308&amp;hl=nl&
+                                                  amp;sa=X&amp;d=92860581280...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-LaTeX Warning: Command \textquotedblright invalid in math mode on input line 31
-4.
+web_scraping.tex:57: Misplaced alignment tab character &.
+l.57 .../pii/S0191886925001308&amp;hl=nl&amp;sa=X&
+                                                  amp;d=9286058128011819102&...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
+web_scraping.tex:57: Misplaced alignment tab character &.
+l.57 ...;hl=nl&amp;sa=X&amp;d=9286058128011819102&
+                                                  amp;ei=9W3gZ7v-GcCSieoPqLG...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-web_scraping.tex:314: Package csquotes Error: Unbalanced groups or invalid nest
-ing.
+web_scraping.tex:57: Misplaced alignment tab character &.
+l.57 ...8011819102&amp;ei=9W3gZ7v-GcCSieoPqLGJyAM&
+                                                  amp;scisig=AFWwaebeqxEetR7...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-See the csquotes package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 ... scheduler. Click\_ \autocite{Click2025} 
-                                                  laat toe om meerdere comma...
+web_scraping.tex:57: Misplaced alignment tab character &.
+l.57 ...M&amp;scisig=AFWwaebeqxEetR78Fz7JpxPtT7ui&
+                                                  amp;oi=scholaralrt&amp;his...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-I have detected a group type mismatch. Verify that all groups
-and all active quotes are properly balanced and nested. If you
-continue, I will write a summary of all previously opened groups
-to the transcript file.
+web_scraping.tex:57: Misplaced alignment tab character &.
+l.57 ...beqxEetR78Fz7JpxPtT7ui&amp;oi=scholaralrt&
+                                                  amp;hist=P_QG1LwAAAAJ:2727...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
+web_scraping.tex:57: Misplaced alignment tab character &.
+l.57 ...339669043622:AFWwaeYuVCLO-kY6yEQWAvLJNk68&
+                                                  amp;html=&amp;pos=0&amp;fo...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-### math group (level 10) entered at line 314 ({)
-### math shift group (level 9) entered at line 314 ($)
-### semi simple group (level 8) entered at line 314 (\begingroup)
-### semi simple group (level 7) entered at line 314 (\begingroup)
-### semi simple group (level 6) entered at line 314 (\begingroup)
-### semi simple group (level 5) entered at line 314 (\begingroup)
-### semi simple group (level 4) entered at line 314 (\begingroup)
-### semi simple group (level 3) entered at line 314 (\begingroup)
-### semi simple group (level 2) entered at line 314 (\begingroup)
-### semi simple group (level 1) entered at line 314 (\begingroup)
-### bottom level
+web_scraping.tex:57: Misplaced alignment tab character &.
+l.57 ...22:AFWwaeYuVCLO-kY6yEQWAvLJNk68&amp;html=&
+                                                  amp;pos=0&amp;folt=kw-top\...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-web_scraping.tex:314: OK.
-\csq@err@gtype ...the transcript file}\showgroups 
-                                                  
-l.314 ... scheduler. Click\_ \autocite{Click2025} 
-                                                  laat toe om meerdere comma...
-
-
-web_scraping.tex:314: Missing } inserted.
-<inserted text> 
-                }
-l.314 ... scheduler. Click\_ \autocite{Click2025} 
-                                                  laat toe om meerdere comma...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-web_scraping.tex:314: Missing $ inserted.
-<inserted text> 
-                $
-l.314 ... scheduler. Click\_ \autocite{Click2025} 
-                                                  laat toe om meerdere comma...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-File: ../graphics/./2_parse_zoekresultaat/serp-html.JPG Graphic file (type bmp)
-
-<../graphics/./2_parse_zoekresultaat/serp-html.JPG>
-
-Overfull \hbox (14.7352pt too wide) in paragraph at lines 318--325
-\TU/Montserrat(1)/m/n/10.95 deze structuur. Elk afzonderlijk resultaat heeft ee
-n H3-tag met als klasse ’gse_alrt_title’
- []
-
-
-
-[24]
-Overfull \hbox (22.47804pt too wide) in paragraph at lines 332--337
-\TU/Montserrat(1)/m/n/10.95 t/html,application/xhtml+xml,application/xml;q=0.9,
-image/webp,image/apng,*/*;q=0.8”,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--337
-\TU/Montserrat(1)/m/n/10.95 ”Accept-Encoding”: ”gzip, deflate, br”, ”Accept-Lan
-guage”: ”en-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
-[]\TU/Montserrat(1)/m/n/10.95 https://scholar.google.be/scholar_url?url=https:/
-/www.nature.com/articles/s41598-
- []
-
-
-Overfull \hbox (668.8017pt too wide) in paragraph at lines 342--343
-\TU/Montserrat(1)/m/n/10.95 024-83657-0&hl=nl&sa=X&d=1146959663452366258&ei=tRG
-sZ4eaLIC96rQP29mI6AY&scisig=AFWwaeY6TmkYbZVI8aTe6GErndZI&oi=scholaralrt&hist=P_
-QG1LwAAAAJ:2727769339669043622:AFWwaeYuVCLO-
- []
-
-
-web_scraping.tex:359: Package minted Error: Cannot highlight code (minted execu
-table is unavailable or disabled); attempting to typeset without highlighting.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.359     \end{minted}
-                      
-(That was another \errmessage.)
-
-
-
-[25]
-
-[26]
-web_scraping.tex:367: Misplaced alignment tab character &.
-<argument> ...a extraction, analysis, conversion &
-                                                   manipulation of PDF (and ...
-l.367 ...n met gebruik van \autocite{Pymupdf2025}.
-                                                   Voorbeeld in codefragment...
+web_scraping.tex:57: Misplaced alignment tab character &.
+l.57 ...uVCLO-kY6yEQWAvLJNk68&amp;html=&amp;pos=0&
+                                                  amp;folt=kw-top\" class=\"...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -2794,56 +2576,195 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-web_scraping.tex:373: Package minted Error: Cannot highlight code (minted execu
+LaTeX Warning: Command \" invalid in math mode on input line 57.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 57.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 57.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 57.
+
+web_scraping.tex:57: You can't use `macro parameter character #' in math mode.
+l.57 ...lrt_title\" style=\"font-size:17px;color:#
+                                                  1a0dab;line-height:22px\">...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 57.
+
+web_scraping.tex:58: Missing $ inserted.
+<inserted text> 
+                $
+l.58 ...fragment van de titel van een publicatie.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ̈ in font cmmi10!
+Missing character: There is no ̈ in font cmmi10!
+Missing character: There is no ̈ in font cmmi10!
+Missing character: There is no ̈ in font cmmi10!
+Missing character: There is no ̈ in font cmmi10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+[]\TU/Montserrat(1)/m/n/10.95 <h3 style=f̈ont-weight:normal;margin:0;font-size:
+17px;line-height:20px;>̈<span
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\TU/Montserrat(1)/m/n/10.95 style=f̈ont-size:11px;font-weight:bold;color:1a0dab
+;vertical-align:2px>̈[HTML]</span>
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\TU/Montserrat(1)/m/n/10.95 <a href=ḧttps://scholar.google.be/scholar$[][][][]
+[][][] [] [][][][][] []
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 57--58
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][] [] [][][]
+[][][][][][][][][][][][] [][][][] [] [][][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 57--58
+[][][][][] [][][][] [] [][] [] [][][][][][][][] [] [][][][][][][][][][][][][][]
+[][][] [] [][][][] [] [][][][] [] [][][][][] [][][][][] []
+ []
+
+Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
+t line 58.
+File: ../graphics/./4_NLP/openai_billing.png Graphic file (type bmp)
+<../graphics/./4_NLP/openai_billing.png>
+\pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
+\openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
+
+runsystem(latexminted config  --timestamp 20250408221357 3C6BBBE75A5E28CE77F5BD
+994A368090)...executed.
+
+
+web_scraping.tex:82: Package minted Error: minted v3+ executable is not install
+ed or is not added to PATH; or MiKTeX is being used with -aux-directory or -out
+put-directory without setting a TEXMF_OUTPUT_DIRECTORY environment variable.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82     \end{minted}
+                     
+(That was another \errmessage.)
+
+
+web_scraping.tex:82: Package minted Error: Missing definition for highlighting 
+style "solarized-light" (minted executable is unavailable or disabled); attempt
+ing to substitute fallback style.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82     \end{minted}
+                     
+(That was another \errmessage.)
+
+
+web_scraping.tex:82: Package minted Error: Missing definition for highlighting 
+style "default" (minted executable is unavailable or disabled); attempting to s
+ubstitute fallback style.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82     \end{minted}
+                     
+(That was another \errmessage.)
+
+
+web_scraping.tex:82: Package minted Error: Cannot highlight code (minted execut
+able is unavailable or disabled); attempting to typeset without highlighting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82     \end{minted}
+                     
+(That was another \errmessage.)
+
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `FiraCode' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 6.00064pt on input line 82.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 82.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 82.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 82.
+
+web_scraping.tex:112: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.373         \end{minted}
-                          
+l.112     \end{minted}
+                      
 (That was another \errmessage.)
 
 
 
-[27]
-File: ../graphics/./2_parse_zoekresultaat/json_view.JPG Graphic file (type bmp)
+[16]
 
-<../graphics/./2_parse_zoekresultaat/json_view.JPG>
-File: ../graphics/./2_parse_zoekresultaat/table_view.JPG Graphic file (type bmp
-)
-<../graphics/./2_parse_zoekresultaat/table_view.JPG>
-File: ../graphics/./2_parse_zoekresultaat/database_structure_email.JPG Graphic 
-file (type bmp)
-<../graphics/./2_parse_zoekresultaat/database_structure_email.JPG>
+[17]
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-
-[28]
-File: ../graphics/./2_parse_zoekresultaat/database_structure_body.JPG Graphic f
-ile (type bmp)
-<../graphics/./2_parse_zoekresultaat/database_structure_body.JPG>
+[18]
+web_scraping.tex:133: Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.133 \end{listing}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
 
-[29]
-File: ../graphics/./2_parse_zoekresultaat/database_structure_zoekresultaat.JPG 
-Graphic file (type bmp)
-<../graphics/./2_parse_zoekresultaat/database_structure_zoekresultaat.JPG>
+LaTeX Warning: Citation 'LLama32025' on page 19 undefined on input line 135.
 
 
-[30]
-File: ../graphics/./2_parse_zoekresultaat/database_structure_link.JPG Graphic f
-ile (type bmp)
-<../graphics/./2_parse_zoekresultaat/database_structure_link.JPG>
+LaTeX Warning: Citation '' on page 19 undefined on input line 135.
 
 
-[31]) (crossref.tex
 
-[32]
+[19]
+File: ../graphics/./2_parse_zoekresultaat/serp-html.JPG Graphic file (type bmp)
+
+<../graphics/./2_parse_zoekresultaat/serp-html.JPG>
+
+
+LaTeX Warning: Citation 'Serpapi2025' on page 20 undefined on input line 151.
+
+) (crossref.tex
+
+[20]
+
+[21]
 Hoofdstuk 6.
 
 Overfull \hbox (3.86041pt too wide) in paragraph at lines 33--67
@@ -2870,15 +2791,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[33
+[22
 
 ]
 
-[34]
+[23]
 
-[35]) (nlp.tex
+[24]) (nlp.tex
 
-[36]
+[25]
 Hoofdstuk 7.
 File: ../graphics/./4_NLP/SERP.jpg Graphic file (type bmp)
 <../graphics/./4_NLP/SERP.jpg>
@@ -2887,11 +2808,11 @@ LaTeX Warning: Float too large for page by 294.61046pt on input line 50.
 
 
 
-[37
+[26
 
 ]
 
-[38]
+[27]
 
 nlp.tex:65: Package minted Error: Cannot highlight code (minted executable is u
 navailable or disabled); attempting to typeset without highlighting.
@@ -3242,23 +3163,23 @@ LaTeX Warning: Float too large for page by 1464.55772pt on input line 208.
 
 ) (imisinput.tex
 
-[39]
+[28]
 
-[40]
+[29]
 
-[41]
+[30]
 
-[42]
+[31]
 Hoofdstuk 8.
 
 
-[43
+[32
 
 ]
 
-[44]) (googlescholarzoekopdracht.tex
+[33]) (googlescholarzoekopdracht.tex
 
-[45]
+[34]
 Hoofdstuk 9.
 
 Overfull \hbox (14.95857pt too wide) in paragraph at lines 29--29
@@ -3287,11 +3208,11 @@ file (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/2_zoekresultaten.PNG>
 
 
-[46
+[35
 
 ]
 
-[47]
+[36]
 File: ../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG Grap
 hic file (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG>
@@ -3311,9 +3232,9 @@ or  <return>  to continue without it.
 
 
 
-[48]
+[37]
 
-[49]
+[38]
 File: ../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG Graphic f
 ile (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG>
@@ -3325,7 +3246,7 @@ erd een nieuw account \TU/Montserrat(2)/b/n/10.95 google-
 
 
 
-[50]
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
@@ -3335,9 +3256,9 @@ e bmp)
 <../graphics/./1_google_scholar_zoekopdracht/5_email.PNG>
 ) (parsezoekresultaat.tex
 
-[51]
+[40]
 
-[52]
+[41]
 Hoofdstuk 10.
 File: ../graphics/./2_parse_zoekresultaat/email-lezen.jpg Graphic file (type bm
 p)
@@ -3368,7 +3289,7 @@ File: ../graphics/./2_parse_zoekresultaat/search-doi.jpg Graphic file (type bmp
 <../graphics/./2_parse_zoekresultaat/search-doi.jpg>
 
 
-[53
+[42
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
@@ -3392,7 +3313,7 @@ Overfull \hbox (3.86041pt too wide) in paragraph at lines 61--95
 
 
 
-[54]
+[43]
 Underfull \hbox (badness 6268) in paragraph at lines 129--130
 []\TU/Montserrat(1)/m/n/10.95 systeem slaat bovenstaande informatie ge-
  []
@@ -3439,13 +3360,13 @@ bmp)
 <../graphics/./2_parse_zoekresultaat/4_domeinmodel.PNG>
 
 
-[55]
+[44]
 
-[56]
+[45]
 
-[57]
+[46]
 
-[58]
+[47]
 Overfull \hbox (4.12953pt too wide) in paragraph at lines 216--218
 \TU/Montserrat(1)/m/n/10.95 Meerdere specifieke Python libraries ondersteunen a
 lle mogelijke bewerkingen met
@@ -3547,7 +3468,7 @@ n H3-tag met als klasse ’gse_alrt_title’
 
 
 
-[59]
+[48]
 Overfull \hbox (22.47804pt too wide) in paragraph at lines 245--250
 \TU/Montserrat(1)/m/n/10.95 t/html,application/xhtml+xml,application/xml;q=0.9,
 image/webp,image/apng,*/*;q=0.8”,
@@ -3587,9 +3508,9 @@ l.272     \end{minted}
 
 
 
-[60]
+[49]
 
-[61]
+[50]
 parsezoekresultaat.tex:280: Misplaced alignment tab character &.
 <argument> ...a extraction, analysis, conversion &
                                                    manipulation of PDF (and ...
@@ -3617,7 +3538,7 @@ l.286         \end{minted}
 
 
 
-[62]
+[51]
 File: ../graphics/./2_parse_zoekresultaat/json_view.JPG Graphic file (type bmp)
 
 <../graphics/./2_parse_zoekresultaat/json_view.JPG>
@@ -3633,35 +3554,35 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[63]
+[52]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_body.JPG Graphic f
 ile (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_body.JPG>
 
 
-[64]
+[53]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_zoekresultaat.JPG 
 Graphic file (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_zoekresultaat.JPG>
 
 
-[65]
+[54]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_link.JPG Graphic f
 ile (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_link.JPG>
 
 
-[66]) (conclusie.tex
+[55]) (conclusie.tex
 
-[67]
+[56]
 Hoofdstuk 11.
 
 
-[68
+[57
 
 ])
 
-[69]
+[58]
 B\ij lage A.
 (../voorstel/voorstel-inhoud.tex
 Overfull \hbox (2.63669pt too wide) in paragraph at lines 20--21
@@ -3671,14 +3592,14 @@ collecties van mariene wetenschap-
 
 
 
-[70
+[59
 
 ]
 File: images/stapsgewijs.png Graphic file (type bmp)
 <images/stapsgewijs.png>
 
 
-[71]
+[60]
 Overfull \hbox (21.94153pt too wide) in paragraph at lines 59--60
 []\TU/Montserrat(1)/m/n/10.95 Google Scholar is een zoekmachine die wetenschapp
 elijke literatuur indexeert ([]“  Google
@@ -3686,7 +3607,7 @@ elijke literatuur indexeert ([]“  Google
 
 
 
-[72]
+[61]
 Overfull \hbox (9.43324pt too wide) in paragraph at lines 67--68
 \TU/Montserrat(1)/m/n/10.95 vend, betrouwbaar en onderscheidbaar geïdentificeer
 d kunnen worden. []Chandrakar
@@ -3694,11 +3615,11 @@ d kunnen worden. []Chandrakar
 
 
 
-[73]
+[62]
 
-[74])
+[63])
 
-[75]
+[64]
 DePaepeBartBP.tex:186: Missing $ inserted.
 <inserted text> 
                 $
@@ -3748,7 +3669,7 @@ n/10.95 . (2025, maart 1). [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][]
 
 
 
-[76
+[65
 
 
 ]
@@ -3759,7 +3680,7 @@ a, de vrije encyclopedie\TU/Montserrat(1)/m/n/10.95 . (2025, maart
 
 
 
-[77]
+[66]
 Overfull \hbox (2.26407pt too wide) in paragraph at lines 186--186
 [][]\TU/Montserrat(2)/m/it/10.95 MongoDB\TU/Montserrat(1)/m/n/10.95 . (2025, ma
 art 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][]
@@ -3792,11 +3713,18 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[78]
+[67]
+Overfull \hbox (25.84052pt too wide) in paragraph at lines 186--186
+[][]\TU/Montserrat(2)/m/it/10.95 ScrapeGraphAI: You Only Scrape Once\TU/Montser
+rat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][][][][] [] [][]
+[] [] [][][][][][][][][][][][][] []
+ []
 
-[79]
 
-[80] (DePaepeBartBP.aux)
+
+[68]
+
+[69] (DePaepeBartBP.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -3808,23 +3736,30 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
-(rerunfilecheck)             Checksum: 5019147E8D603ED61237DB5D94B02158;12434.
 
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
+Package rerunfilecheck Warning: File `DePaepeBartBP.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `DePaepeBartBP.out':
+(rerunfilecheck)             Before: 379E0E32FFCACAA99586A2A2B01B18A8;12770
+(rerunfilecheck)             After:  DF459F8AFF0870293418DC62649CF5D8;10399.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                DePaepeBartBP
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52105 strings out of 408640
- 1069832 string characters out of 5749145
- 2333022 words of memory out of 5000000
- 74319 multiletter control sequences out of 15000+600000
+ 52155 strings out of 408640
+ 1071074 string characters out of 5749145
+ 2333843 words of memory out of 5000000
+ 74373 multiletter control sequences out of 15000+600000
  562740 words of font info for 113 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,13n,131p,1283b,5925s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DePaepeBartBP.pdf (91 pages).
+Output written on DePaepeBartBP.pdf (80 pages).
