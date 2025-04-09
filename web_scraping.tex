@@ -26,7 +26,12 @@
 %% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
 %% en geef het een gepaste titel.
 \section{Web scraping}
-De e-mails afkomstig van Google Scholar bevatten een lijst met zoekresultaten. Het formaat van de e-mail is HTML en de opmaak van de lijst is gelijkaardig aan die van de Google Scholar resultaten pagina. Dit wordt algemeen benoemd als een SERP (Search Engine Result Page) en is voor iedereen die vertrouwd is met het internet herkenbaar als de lijst met zoekresultaten van Google.\\
+De e-mails afkomstig van Google Scholar bevatten een lijst met zoekresultaten. Het formaat van de e-mail is HTML en de opmaak van de lijst is gelijkaardig aan die van de Google Scholar resultaten pagina. Dit wordt algemeen benoemd als een SERP (Search Engine Result Page) en is voor iedereen die vertrouwd is met het internet herkenbaar als de lijst met zoekresultaten van Google.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./4_NLP/SERP.jpg}
+    \caption[Google Scholar SERP.]{\label{fig:Google ScholarSERP}Google Scholar SERP.}
+\end{figure}\\
 De Google Scholar SERP heeft een vaste structuur, namelijk een lijst met zoekresultaten bestaande uit:
 \begin{itemize}
     \item titel
@@ -52,14 +57,14 @@ Informatie uit HTML pagina's halen is algemeen gekend onder de naam ``web scrapi
 \end{itemize} 
 
 \section{web scraping met gebruik van een LLM }
-De meest gekende vorm van web scraping gebruikt de HTML structuur om er de inhoud uit te filteren. Daar komt dus niets van AI bij kijken. Het probleem met die aanpak is dat de custom code die de HTML structuur verwerkt, sterk afhankelijk is van de HTML zelf. Bijvoorbeeld wanneer de titel van een publicatie tussen <h3> tags staat die gekenmerkt worden door een class=\"gse\_alrt\_title\" (zie \ref{code:HTML codefragment}), dan zal de custom code specifiek filteren op die DOM elementen.
+De meest gekende vorm van web scraping gebruikt de HTML structuur om er de inhoud uit te filteren. Daar komt dus niets van AI bij kijken. Het probleem met die aanpak is dat de custom code die de HTML structuur verwerkt, sterk afhankelijk is van de HTML zelf. Bijvoorbeeld wanneer de titel van een publicatie tussen <h3> tags staat die gekenmerkt worden door een class="gse\_alrt\_title" (zie \ref{code:HTML codefragment}), dan zal de custom code specifiek filteren op die DOM elementen.
 \begin{listing}
-<h3 style=\"font-weight:normal;margin:0;font-size:17px;line-height:20px;\"><span style=\"font-size:11px;font-weight:bold;color:#1a0dab;vertical-align:2px\">[HTML]</span> <a href=\"https://scholar.google.be/scholar_url?url=https://www.sciencedirect.com/science/article/pii/S0191886925001308&amp;hl=nl&amp;sa=X&amp;d=9286058128011819102&amp;ei=9W3gZ7v-GcCSieoPqLGJyAM&amp;scisig=AFWwaebeqxEetR78Fz7JpxPtT7ui&amp;oi=scholaralrt&amp;hist=P_QG1LwAAAAJ:2727769339669043622:AFWwaeYuVCLO-kY6yEQWAvLJNk68&amp;html=&amp;pos=0&amp;folt=kw-top\" class=\"gse_alrt_title\" style=\"font-size:17px;color:#1a0dab;line-height:22px\">The role of narcissistic personality <b>traits </b>in bullying behavior in adolescence–A systematic review and meta-analysis</a></h3>
+<h3 style=\"font-weight:normal;margin:0;font-size:17px;line-height:20px;\"><span style=\"font-size:11px;font-weight:bold;color:#1a0dab;vertical-align:2px\">[HTML]</span> <a href="https://scholar.google.be/scholar\_url?url=https://www.sciencedirect.com/science/article/pii/S0191886925001308\&amp;hl=nl\&amp;sa=X\&amp;d=9286058128011819102\&amp;ei=9W3gZ7v-GcCSieoPqLGJyAM\&amp;scisig=AFWwaebeqxEetR78Fz7JpxPtT7ui\&amp;oi=scholaralrt\&amp;hist=P\_QG1LwAAAAJ:2727769339669043622:AFWwaeYuVCLO-kY6yEQWAvLJNk68\&amp;html=\&amp;pos=0\&amp;folt=kw-top\" class=\"gse\_alrt\_title\" style=\"font-size:17px;color:#1a0dab;line-height:22px\">The role of narcissistic personality <b>traits </b>in bullying behavior in adolescence–A systematic review and meta-analysis</a></h3>
 \caption[Prompt htmlfragment]{HTML fragment van de titel van een publicatie.}
 \label{code:HTML codefragment}
 \end{listing}
 Maar wanneer de structuur van de HTML wijzigt om welke reden dan ook, dan zal de web scraper niet langer werken zolang de custom code niet werd aangepast.\\
-Daarom begint dit hoofdstuk met meer recente technieken die gebasserd zijn op AI en die niet strikt afhankelijk zijn van de HTML structuur.
+Daarom begint dit hoofdstuk met meer recente technieken die gebaseerd zijn op AI en die niet strikt afhankelijk zijn van de HTML structuur.
 \subsection{OpenAI: gpt-4-1106-preview model}
 LLMs zijn bijzonder goed in het beantwoorden van vragen. OpenAI is voor het brede publiek beter gekend door zijn chatbot ChatGPT. Maar hoe goed is OpenAI in het parsen van een webpagina? OpenAI biedt ook een API aan waarmee gebruikers opdrachten kunnen sturen naar een model. De opdracht/vraag in kwestie is: ``Geef de titels, orginele links, auteurs, naam van de tijdschriften, jaartal van de publicaties en tekstfragmenten van hetvolgende Google Scholar zoekresultaat.''\\
 \textcite{Serpapiai2025} beschrijft stap voor stap hoe de gevraagde gegevens verkregen kunnen worden met het ``gpt-4-1106-preview'' model van OpenAI.
@@ -113,7 +118,7 @@ De verwachte parameters die het model moet zoeken zijn te zien in codefragment \
     \caption[Parse opties codefragment]{Codefragment voor het opstellen van parse opties.}
     \label{code:Parse opties codefragment}
 \end{listing}
-De test was succesvol. Het model vond de gevraagde parameters voor elk van de 10 zoekresultaten. Toch houdt het onderzoek naar web scraping hier niet op. De oplossing tot zover is immers betalend en dat is niet noodzakelijk de beste oplossing voor het probleem.
+De test was succesvol. Het model vond de gevraagde parameters voor elk van de 10 zoekresultaten. Toch houdt het onderzoek naar web scraping hier niet op. Het resultaat tot zover is immers betalend en dat is niet noodzakelijk de beste oplossing voor het probleem.
 
 \subsection{Anthropic: Claude model}
 De doelstelling is nog steeds hetzelfde, maar nu met een meer generieke methode die niet afhankelijk is van de provider van het model.
