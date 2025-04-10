@@ -26,11 +26,18 @@
 %% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
 %% en geef het een gepaste titel.
 \section{Doelstelling}
-De GS alert geeft aanleiding tot e-mails met de meest recente zoekresultaten. Voor elke e-mail en voor elk zoekresultaat wordt de DOI opgezocht. Daarvoor worden 3 stappen doorlopen:
+De GS alert geeft aanleiding tot e-mails met de meest recente zoekresultaten. Voor
+elke e-mail en voor elk zoekresultaat wordt de DOI opgezocht. Daarvoor worden 3
+stappen doorlopen:
 \begin{itemize}
     \item E-mail lezen
     \item Body van de e-mail parsen
     \item DOI opzoeken in de link die aanwezig is in het geparsete resultaat
+\end{itemize}
+Er moet een geautomatiseerd systeem komen dat 
+\begin{itemize}
+    \item de binnenkomende e-mail alerts in een mailbox leest
+    \item vervolgens de zoekresultaten in de body parset
 \end{itemize}
 \subsection{E-mail lezen}
 Op gezette tijdstippen wordt de inbox van het account google-scholar@marineinfo.org geopend op zoek naar ongelezen e-mails. Elke e-mail wordt gelezen en de informatie van de e-mail wordt opgeslaan. De e-mail wordt verplaatst van de inbox naar een werkmap overeenkomstig het onderwerp van de e-mail. Dit wordt schematisch voorgesteld in figuur \ref{fig:E-mail lezen}.
@@ -212,6 +219,37 @@ De 3 bovenstaande stappen geven aanleiding tot 4 objecten die de kern van het do
 \end{figure}
 \newpage
 \section{Implementatie}
+Daarvoor moet er custom code geschreven worden en bijhorend moet de vraag gesteld worden welke technology stack er gebruikt zal worden? Daarbij zijn 2 aspecten belangrijk:
+\begin{itemize}
+    \item Wat is de bestaande technology stack van de klant en kan de te ontwikkelen software daarin ondergebracht worden?
+    \item Welke technologie is het meest geschikt om het gestelde probleem op te lossen?
+\end{itemize}
+Voor het eerste punt zijn er bij de klant 2 pijlers:
+\begin{itemize}
+    \item Alle websites en datasystemen zijn geschreven in Php, al dan niet gebruik makend van het Symfony framework. Voor hun data steunen ze voornamelijk op SqlServer en op PostgreSQL. Voor hun user interface steunen ze hoofdzakelijk op Twig en op NextJS.
+    \item Veel data processing scripts draaien in hun eigen docker container. Ze gebruiken vooral R en Python als programmeertaal.
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/technology-stack.jpg}
+    \caption[Technology Stack.]{\label{fig:Technology Stack}Technology Stack.}
+\end{figure}
+Onze opdracht past het best binnen de tweede pijler. Het is niet opportuun om een webserver te belasten met het systematisch herhalen van een opdracht die los staat van de websites die hij host. De GS alerts zijn op zich ook data die in hun eigen container verwerkt zullen worden.\\
+Voor het tweede punt is de technologie zeer duidelijk. Python (maar ook R) beschikken over hele grote bibliotheken die toelaten om uiteenlopende soorten data te verwerken.\\
+Het programmeerwerk zal uitgevoerd worden in Python. Op het moment van schrijven is Python versie 3.13.1 de meest recente stabiele versie.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/1_python_release_cycle.jpg}
+    \caption[Python release cycle.]{\label{fig:Python release cycle}Python release cycle.\autocite{pythonreleasecycle2025}}
+\end{figure}
+\FloatBarrier
+De geparsete e-mail alerts worden opgeslagen in een MongoDB database, dit is een NoSQL document store databank. Een RabbitMQ broker zorgt ervoor dat voor elke e-mail iedere stap in de flow doorlopen wordt. Tenslotte wordt alles ondergebracht in zijn eigen Docker container die binnen het project met elkaar communiceren.
+De GS alert geeft aanleiding tot e-mails met de meest recente zoekresultaten. Voor elke e-mail en voor elk zoekresultaat wordt de DOI opgezocht. Daarvoor worden 3 stappen doorlopen:
+\begin{itemize}
+    \item E-mail lezen
+    \item Body van de e-mail parsen
+    \item DOI opzoeken in de link die aanwezig is in het geparsete resultaat
+\end{itemize}
 \subsection{E-mail lezen}
 Meerdere specifieke Python libraries ondersteunen alle mogelijke bewerkingen met e-mail:
 \begin{itemize}

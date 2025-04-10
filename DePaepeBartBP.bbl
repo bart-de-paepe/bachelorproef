@@ -2208,6 +2208,24 @@
       \verb https://github.com/bart-de-paepe/google-scholar-anthropic/blob/main/app/src/services/parse_service.py
       \endverb
     \endentry
+    \entry{DepaepeBeautifulsoup2025}{online}{}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Web scraping Google Scholar SERP using Beautiful Soup}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/bart-de-paepe/google-scholar-beautifulsoup/blob/main/app/src/services/parse_service.py
+      \endverb
+      \verb{url}
+      \verb https://github.com/bart-de-paepe/google-scholar-beautifulsoup/blob/main/app/src/services/parse_service.py
+      \endverb
+    \endentry
     \entry{Depaepeollama2025}{online}{}{}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
@@ -4501,6 +4519,24 @@
       \endverb
       \verb{url}
       \verb https://github.com/bart-de-paepe/google-scholar-anthropic/blob/main/app/src/services/parse_service.py
+      \endverb
+    \endentry
+    \entry{DepaepeBeautifulsoup2025}{online}{}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Web scraping Google Scholar SERP using Beautiful Soup}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/bart-de-paepe/google-scholar-beautifulsoup/blob/main/app/src/services/parse_service.py
+      \endverb
+      \verb{url}
+      \verb https://github.com/bart-de-paepe/google-scholar-beautifulsoup/blob/main/app/src/services/parse_service.py
       \endverb
     \endentry
     \entry{Depaepeollama2025}{online}{}{}
