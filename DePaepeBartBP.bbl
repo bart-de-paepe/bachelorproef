@@ -867,6 +867,24 @@
       \verb https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol
       \endverb
     \endentry
+    \entry{Llama32025}{online}{}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Introducing Meta Llama 3: The most capable openly available LLM to date}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://ai.meta.com/blog/meta-llama-3/
+      \endverb
+      \verb{url}
+      \verb https://ai.meta.com/blog/meta-llama-3/
+      \endverb
+    \endentry
     \entry{Jehangir2023}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=6aa3ac58fd304fd16dfca8818baa5a95}{%
@@ -1883,6 +1901,24 @@
       \endverb
       \verb{url}
       \verb https://pypi.org/project/science-parse-api
+      \endverb
+    \endentry
+    \entry{Serpapi2025}{online}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Scrape Google and other search engines from our fast, easy, and complete API.}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://serpapi.com/google-scholar-api
+      \endverb
+      \verb{url}
+      \verb https://serpapi.com/google-scholar-api
       \endverb
     \endentry
     \entry{Scrapegraphaillama2025}{online}{}{}
@@ -3126,6 +3162,24 @@
       \verb https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol
       \endverb
     \endentry
+    \entry{Llama32025}{online}{}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Introducing Meta Llama 3: The most capable openly available LLM to date}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://ai.meta.com/blog/meta-llama-3/
+      \endverb
+      \verb{url}
+      \verb https://ai.meta.com/blog/meta-llama-3/
+      \endverb
+    \endentry
     \entry{Jehangir2023}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=6aa3ac58fd304fd16dfca8818baa5a95}{%
@@ -4144,6 +4198,24 @@
       \verb https://pypi.org/project/science-parse-api
       \endverb
     \endentry
+    \entry{Serpapi2025}{online}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Scrape Google and other search engines from our fast, easy, and complete API.}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://serpapi.com/google-scholar-api
+      \endverb
+      \verb{url}
+      \verb https://serpapi.com/google-scholar-api
+      \endverb
+    \endentry
     \entry{Scrapegraphaillama2025}{online}{}{}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
@@ -4536,7 +4608,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{LLama32025}
 \endrefsection
 \endinput
 

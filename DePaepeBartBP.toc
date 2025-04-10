@@ -1,7 +1,7 @@
 \babel@toc {dutch}{}\relax 
 \contentsline {chapter}{L\ij st van figuren}{viii}{chapter*.4}%
-\contentsline {chapter}{L\ij st van tabellen}{x}{chapter*.5}%
-\contentsline {chapter}{Lijst van codefragmenten }{xi}{section*.6}%
+\contentsline {chapter}{L\ij st van tabellen}{ix}{chapter*.5}%
+\contentsline {chapter}{Lijst van codefragmenten }{x}{section*.6}%
 \contentsline {chapter}{\numberline {1}Inleiding}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Probleemstelling}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Onderzoeksvraag}{2}{section.1.2}%
@@ -17,21 +17,21 @@
 \contentsline {chapter}{\numberline {4}Google Scholar alert}{13}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Google Scholar alerts}{13}{section.4.1}%
 \contentsline {chapter}{\numberline {5}Web scraping}{15}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Web scraping}{15}{section.5.1}%
-\contentsline {section}{\numberline {5.2}web scraping met gebruik van een LLM }{16}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}OpenAI: gpt-4-1106-preview model}{16}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Anthropic: Claude model}{17}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}lokaal model}{19}{subsection.5.2.3}%
-\contentsline {section}{\numberline {5.3}web scraping via het ontleden van de DOM}{20}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Crossref}{22}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Doelstelling}{22}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Analyse}{22}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Implementatie}{22}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Resultaat}{22}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Natural language processing}{26}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Doelstelling}{26}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Analyse}{28}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Implementatie}{28}{section.7.3}%
+\contentsline {section}{\numberline {5.1}Inleiding}{15}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Web scraping met gebruik van een LLM }{17}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Web scraping met OpenAI}{17}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Web scraping met Mirascope en Anthropic}{18}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Web scraping met een lokaal model}{20}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}Web scraping via het parsen van de DOM}{21}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Linked data}{23}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Inleiding}{23}{section.6.1}%
+\contentsline {section}{\numberline {6.2}De DOI opzoeken in de URL}{23}{section.6.2}%
+\contentsline {section}{\numberline {6.3}De DOI opzoeken in Crossref}{24}{section.6.3}%
+\contentsline {section}{\numberline {6.4}De DOI opzoeken op de webpagina van de publicatie}{24}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Semantic search}{26}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Inleiding}{26}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Analyse}{27}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Implementatie}{27}{section.7.3}%
 \contentsline {section}{\numberline {7.4}Resultaat}{30}{section.7.4}%
 \contentsline {chapter}{\numberline {8}IMIS-input}{32}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Doelstelling}{32}{section.8.1}%
@@ -60,11 +60,21 @@
 \contentsline {subsection}{\numberline {10.4.1}E-mail lezen}{52}{subsection.10.4.1}%
 \contentsline {subsection}{\numberline {10.4.2}Body van de e-mail parsen}{53}{subsection.10.4.2}%
 \contentsline {subsection}{\numberline {10.4.3}DOI opzoeken in de link van het geparsete resultaat}{55}{subsection.10.4.3}%
-\contentsline {chapter}{\numberline {11}Conclusie}{57}{chapter.11}%
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{59}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Inleiding}{59}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Literatuurstudie}{61}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Methodologie}{62}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{64}{section.A.4}%
-\contentsline {chapter}{Bibliografie}{65}{appendix*.38}%
+\contentsline {chapter}{\numberline {11}Crossref}{57}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Doelstelling}{57}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Analyse}{57}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Implementatie}{57}{section.11.3}%
+\contentsline {section}{\numberline {11.4}Resultaat}{57}{section.11.4}%
+\contentsline {chapter}{\numberline {12}Natural language processing}{61}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Doelstelling}{61}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Analyse}{63}{section.12.2}%
+\contentsline {section}{\numberline {12.3}Implementatie}{63}{section.12.3}%
+\contentsline {section}{\numberline {12.4}Resultaat}{65}{section.12.4}%
+\contentsline {chapter}{\numberline {13}Conclusie}{67}{chapter.13}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{69}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Inleiding}{69}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Literatuurstudie}{71}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Methodologie}{72}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{74}{section.A.4}%
+\contentsline {chapter}{Bibliografie}{75}{appendix*.42}%
 \contentsfinish 

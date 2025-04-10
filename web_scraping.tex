@@ -25,8 +25,8 @@
 %%
 %% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
 %% en geef het een gepaste titel.
-\section{Web scraping}
-De e-mails afkomstig van Google Scholar bevatten een lijst met zoekresultaten. Het formaat van de e-mail is HTML en de opmaak van de lijst is gelijkaardig aan die van de Google Scholar resultaten pagina. Dit wordt algemeen benoemd als een SERP (Search Engine Result Page) en is voor iedereen die vertrouwd is met het internet herkenbaar als de lijst met zoekresultaten van Google.
+\section{Inleiding}
+De e-mails afkomstig van Google Scholar bevatten een lijst met zoekresultaten. Het formaat van de e-mail is HTML en de opmaak van de lijst is gelijkaardig aan die van de Google Scholar resultaten pagina. Dit wordt algemeen benoemd als een SERP (Search Engine Result Page) en is voor iedereen die vertrouwd is met het internet herkenbaar als de lijst met zoekresultaten van Google (zie \ref{fig:Google ScholarSERP}).
 \begin{figure}
     \centering
     \includegraphics[width=0.8\textwidth]{./4_NLP/SERP.jpg}
@@ -56,16 +56,16 @@ Informatie uit HTML pagina's halen is algemeen gekend onder de naam ``web scrapi
     \end{itemize}
 \end{itemize} 
 
-\section{web scraping met gebruik van een LLM }
-De meest gekende vorm van web scraping gebruikt de HTML structuur om er de inhoud uit te filteren. Daar komt dus niets van AI bij kijken. Het probleem met die aanpak is dat de custom code die de HTML structuur verwerkt, sterk afhankelijk is van de HTML zelf. Bijvoorbeeld wanneer de titel van een publicatie tussen <h3> tags staat die gekenmerkt worden door een class="gse\_alrt\_title" (zie \ref{code:HTML codefragment}), dan zal de custom code specifiek filteren op die DOM elementen.
+\section{Web scraping met gebruik van een LLM }
+De meest gekende vorm van web scraping gebruikt de HTML structuur om er de inhoud uit te filteren. Daar komt dus niets van AI bij kijken. Het probleem met die aanpak is dat de custom code die de HTML structuur verwerkt, sterk afhankelijk is van de HTML zelf. Bijvoorbeeld wanneer de titel van een publicatie tussen <h3> tags staat die gekenmerkt worden door een class="gse\_alrt\_title" (zie \ref{code:HTMLcodefragment}), dan zal de custom code specifiek filteren op die DOM elementen.
 \begin{listing}
 <h3 style=\"font-weight:normal;margin:0;font-size:17px;line-height:20px;\"><span style=\"font-size:11px;font-weight:bold;color:#1a0dab;vertical-align:2px\">[HTML]</span> <a href="https://scholar.google.be/scholar\_url?url=https://www.sciencedirect.com/science/article/pii/S0191886925001308\&amp;hl=nl\&amp;sa=X\&amp;d=9286058128011819102\&amp;ei=9W3gZ7v-GcCSieoPqLGJyAM\&amp;scisig=AFWwaebeqxEetR78Fz7JpxPtT7ui\&amp;oi=scholaralrt\&amp;hist=P\_QG1LwAAAAJ:2727769339669043622:AFWwaeYuVCLO-kY6yEQWAvLJNk68\&amp;html=\&amp;pos=0\&amp;folt=kw-top\" class=\"gse\_alrt\_title\" style=\"font-size:17px;color:#1a0dab;line-height:22px\">The role of narcissistic personality <b>traits </b>in bullying behavior in adolescence–A systematic review and meta-analysis</a></h3>
 \caption[Prompt htmlfragment]{HTML fragment van de titel van een publicatie.}
-\label{code:HTML codefragment}
+\label{code:HTMLcodefragment}
 \end{listing}
 Maar wanneer de structuur van de HTML wijzigt om welke reden dan ook, dan zal de web scraper niet langer werken zolang de custom code niet werd aangepast.\\
 Daarom begint dit hoofdstuk met meer recente technieken die gebaseerd zijn op AI en die niet strikt afhankelijk zijn van de HTML structuur.
-\subsection{OpenAI: gpt-4-1106-preview model}
+\subsection{Web scraping met OpenAI}
 LLMs zijn bijzonder goed in het beantwoorden van vragen. OpenAI is voor het brede publiek beter gekend door zijn chatbot ChatGPT. Maar hoe goed is OpenAI in het parsen van een webpagina? OpenAI biedt ook een API aan waarmee gebruikers opdrachten kunnen sturen naar een model. De opdracht/vraag in kwestie is: ``Geef de titels, orginele links, auteurs, naam van de tijdschriften, jaartal van de publicaties en tekstfragmenten van hetvolgende Google Scholar zoekresultaat.''\\
 \textcite{Serpapiai2025} beschrijft stap voor stap hoe de gevraagde gegevens verkregen kunnen worden met het ``gpt-4-1106-preview'' model van OpenAI.
 \textcite{Depaepeopenai2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts.
@@ -76,7 +76,7 @@ Een test met 1 Google Scholar alert met 10 zoekresultaten heeft een prijs van 0,
     \includegraphics[width=0.8\textwidth]{./4_NLP/openai_billing.png}
     \caption[OpenAI dashboard.]{\label{fig:OpenAI dashboard}OpenAI dashboard.}
 \end{figure}
-De prompt voor het model is te zien in codefragment \ref{code:Prompt codefragment}.
+De prompt voor het model is te zien in codefragment \ref{code:Promptcodefragment}.
 \begin{listing}
     \begin{minted}{python}
         messages=[
@@ -86,7 +86,7 @@ De prompt voor het model is te zien in codefragment \ref{code:Prompt codefragmen
         ],
     \end{minted}
     \caption[Prompt codefragment]{Codefragment voor het opstellen van een prompt.}
-    \label{code:Prompt codefragment}
+    \label{code:Promptcodefragment}
 \end{listing}
 De verwachte parameters die het model moet zoeken zijn te zien in codefragment \ref{code:Parse opties codefragment}.
 \begin{listing}
@@ -120,14 +120,14 @@ De verwachte parameters die het model moet zoeken zijn te zien in codefragment \
 \end{listing}
 De test was succesvol. Het model vond de gevraagde parameters voor elk van de 10 zoekresultaten. Toch houdt het onderzoek naar web scraping hier niet op. Het resultaat tot zover is immers betalend en dat is niet noodzakelijk de beste oplossing voor het probleem.
 
-\subsection{Anthropic: Claude model}
-De doelstelling is nog steeds hetzelfde, maar nu met een meer generieke methode die niet afhankelijk is van de provider van het model.
-\textcite{Mirascope2025} is een gebruiksvriendelijke bibliotheek om op uniforme wijze met verschillende LLMs te werken.
-\textcite{Anthropic2025} beschrijft stap voor stap hoe de gevraagde gegevens verkregen kunnen worden aan de hand van Mirascope en het Anthropic Claude model \autocite{Anthropicmodel2025}. Het free tier van Anthropic is meer uitgebreid zodat het account voor dit experiment niet gecrediteerd moest worden.
+\subsection{Web scraping met Mirascope en Anthropic}
+De vorige test was zeer specifiek geschreven voor OpenAI. De code zou niet werken voor een model van een andere provider. Daarom wordt er verder gezocht naar een meer generieke methode die niet afhankelijk is van de provider van het model.\\
+\textcite{Mirascope2025} is een gespecialiseerde bibliotheek om op uniforme wijze met verschillende LLMs te werken.
+\textcite{Anthropic2025} beschrijft stap voor stap hoe de gevraagde gegevens verkregen kunnen worden aan de hand van Mirascope en het Anthropic Claude model \autocite{Anthropicmodel2025}. Het free tier van Anthropic is uitgebreider dan dat van OpenAI zodat het account voor dit experiment niet gecrediteerd moest worden.
 \textcite{Depaepeanthropic2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts.
-Ook deze test was succesvol. Het model vond de gevraagde parameters voor elk van de 10 zoekresultaten. Toch houdt het onderzoek naar web scraping ook hier niet op. De oplossing tot zover heeft een beperkte free tier en meerdere opdrachten zouden ook aanleiding geven een betalende service.
-Daarnaast zijn beide oplossingen ook afhankelijk van een online service wat in bepaalde gevallen ook niet tot de opties kan behoren.
-\subsection{lokaal model}
+Ook deze test was succesvol. Het model vond de gevraagde parameters voor elk van de 10 zoekresultaten. Toch houdt het onderzoek naar web scraping ook hier niet op. De oplossing tot zover heeft nog steeds een beperkte free tier en meerdere opdrachten zouden ook aanleiding geven tot een betalende service.
+Daarnaast zijn beide oplossingen ook afhankelijk van een online service wat in bepaalde gevallen niet wenselijk kan zijn (bijvoorbeeld afhankelijk van de klant).
+\subsection{Web scraping met een lokaal model}
 Om niet afhankelijk te zijn van een online service moet het model lokaal gehost worden. \textcite{Ollama2025} is een platform om LLMs te hosten op je eigen systeem. Eenmaal geïnstalleerd (bijvoorbeeld via Docker) kan een model naar keuze gedownload en uitgevoerd worden op de lokale machine.
 Het is daarbij aan de gebruiker om te kiezen welk model het best geschikt is voor het probleem, maar ook om de vereisten van het model en de beschikbare hardware op elkaar af te stemmen. De commando's \ref{Ollama} illustreren hoe het llama3:8b model (4.7GB) gedownload en uitgevoerd wordt op een lokaal systeem via Docker.
 \begin{listing}
@@ -136,14 +136,14 @@ Het is daarbij aan de gebruiker om te kiezen welk model het best geschikt is voo
     \caption[Ollama]Ollama}
     \label{Ollama}
 \end{listing}
-\textcite{Scrapegraphaillama2025} beschrijft stap voor stap hoe webpagina's gescraped kunnen worden aan de hand van ScrapegraphAI en het llama3 model \autocite{Anthropicmodel2025}.
-\textcite{ScrapeGraphAI2025} is een library die LLMs en grafen combineert om webpagina's te scrapen. \textcite{LLama32025} is ideaal voor breed gebruik en is kosten-efficiënt. Het munt uit in het begrijpen en genereren van menselijke teksten.
+\textcite{Scrapegraphaillama2025} beschrijft stap voor stap hoe webpagina's gescraped kunnen worden aan de hand van ScrapegraphAI en het llama3 model.
+\textcite{ScrapeGraphAI2025} is een library die LLMs en grafen combineert om webpagina's te scrapen. \textcite{Llama32025} is ideaal voor breed gebruik en is kosten-efficiënt. Het munt uit in het begrijpen en genereren van menselijke teksten.
 \textcite{Depaepeollama2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts.
 De test was niet succesvol. Het model vond geen enkele van de gevraagde parameters voor geen enkele van de 10 zoekresultaten.
 In eerste instantie werd gedacht dat het geselecteerde model te zwak is voor deze taak. Daarom werd een andere test uitgevoerd op een systeem met 40GB RAM met het gemma3:27b model (17GB) \autocite{Gemma32025}. Maar ook deze test was niet succesvol: de opdracht bleef gedurende 1 uur lopen zonder resultaat, waarna het commando manueel onderbroken werd. 
-\section{web scraping via het ontleden van de DOM}
-Tot zover is er nog geen bruikbaar resultaat. Het gebruik van een lokaal model leidt voorlopig niet tot een goed resultaat. Daarom wordt er teruggegrepen naar de meer klassieke benadering van web scraping waarbij de HTML structuur ontleed wordt aan de hand van custom code.
-De Google Scholar SERP en is een gestructureerde html pagina. Voor het parsen wordt er gebruik gemaakt van deze structuur.
+\section{Web scraping via het parsen van de DOM}
+Tot zover is er nog geen bruikbaar resultaat. Het gebruik van een online model is betalend en kan niet gewenst zijn door de klant. Anderzijds leidt een lokaal model voorlopig niet tot een goed resultaat. Daarom wordt er teruggegrepen naar de meer klassieke benadering van web scraping waarbij de HTML structuur ontleed wordt aan de hand van custom code.
+De Google Scholar SERP is een gestructureerde HTML pagina. Voor het parsen wordt er gebruik gemaakt van deze structuur.
 Elk afzonderlijk resultaat heeft een H3-tag met als klasse 'gse\_alrt\_title' waarin de titel staat. De korte tekst van het zoekresultaat staat in een DIV-tag met als klasse 'gse\_alrt\_sni'. Tussen de titel en het snippet staan de auteurs, de uitgever en het jaartal gegroepeerd in een DIV-tag zoals te zien is in figuur \ref{fig:serp-html}.
 \begin{figure}
     \centering
@@ -151,6 +151,8 @@ Elk afzonderlijk resultaat heeft een H3-tag met als klasse 'gse\_alrt\_title' wa
     \caption[HTML structuur van de GS alert.]{\label{fig:serp-html}HTML structuur van de GS alert.}
 \end{figure}
 \FloatBarrier
-Meerdere specifieke libraries laten toe om HTML en XML te parsen, maar de meest gekende bibliotheek is Beautiful Soup \autocite{Soup2025}. Door de naam van de html-tag en de gebruikte klasse (gse\_alrt\_title, en gse\_alrt\_sni) mee te geven aan Beautiful Soup, worden de overeenkomstige elementen in het html-document weergegeven. Beautiful Soup laat ook toe om te navigeren in het document zodat het element met de auteurs, de uitgever en het jaartal gemakkelijk gevonden kan worden.
-\textcite{Depaepeollama2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts. De volledige uitwerking is te zien in bijlage Parse Google Scholar zoekopdracht.\\
-Voor de volledigheid wordt hier nog SerpAPI \autocite{Serpapi2025} vermeld. Dit platform biedt onder andere kant en klare oplossingen om Google Scholar zoekresultaten te parsen. Toch wordt de custom code boven SerpAPI verkozen omdat die laatste een online service is en omdat die ook rechtstreekse zoekopdrachten stuurt naar Google Scholar waardoor de zoekresultaten niet incrementeel zijn.
+Meerdere specifieke libraries laten toe om HTML en XML te parsen, maar de meest gekende bibliotheek is Beautiful Soup \autocite{Soup2025}. Door de naam van de HTML-tag en de gebruikte klasse (gse\_alrt\_title, en gse\_alrt\_sni) mee te geven aan Beautiful Soup, worden de overeenkomstige elementen in het HTML-document weergegeven. Beautiful Soup laat ook toe om te navigeren in het document zodat het element met de auteurs, de uitgever en het jaartal gemakkelijk gevonden kan worden.
+\textcite{Depaepeollama2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts. De volledige uitwerking is te zien in bijlage Parse Google Scholar zoekopdracht.
+De test met een SERP met 10 zoekresultaten was geslaagd. De gevraagde parameters worden gevonden voor elk van de 10 resultaten.\\
+Tenslotte moet ook nog SerpAPI \autocite{Serpapi2025} vermeld worden. Tijdens het onderzoek naar web scraping kwam dit platform meermaals naar voren, zelfs voor de toepassingen die gebruik maken van AI. SerpAPI biedt specifieke oplossingen voor elke mogelijke search engine, waaronder ook Google Scholar. Alleen focust hun product telkens op de online search engine en niet op alerts waardoor de zoekresultaten niet incrementeel zijn.\\
+Tot besluit van dit hoofdstuk wordt er dus verder gewerkt met het parsen van de zoekresultaten aan de hand van Beautifulsoup. Hoewel deze methode volledig afhankelijk is van de structuur van de HTML, is ze toch zeer begrijpbaar en efficiënt. Mits implementatie van een notificatie kunnen veranderingen van de HTML structuur gemeld worden zodat de code vervolgens aangepast kan worden. 
