@@ -48,15 +48,14 @@ De volgende lijst reguliere expressies is aanbevolen om DOIs op te zoeken \textc
 \end{itemize}
 Indien 1 van deze reguliere expressies matcht met de URL, dan is de DOI gevonden.
 \section{De DOI opzoeken in Crossref}
-De voorgaande stap leverde geen DOI op.
-Hier wordt op basis van titel, auteurs, naam van tijdschrift en jaartal een opzoeking van de DOI gedaan in Crossref. 
+Indien de voorgaande stap geen DOI opleverde, dan wordt hier op basis van titel, auteurs, naam van tijdschrift en jaartal een opzoeking van de DOI gedaan in Crossref. 
 Daarvoor kan er gewerkt worden met meerdere onafhankelijke Python bibliotheken:
 \begin{itemize}
     \item Crossref Commons for Python \autocite{Crossrefcommons2025}
     \item Habanero \autocite{Habanero2025}
     \item Crossrefapi \autocite{Crossrefapi2025}
 \end{itemize}
-Alle bibliotheken zijn aan elkaar gewaagd voor deze taak. Zonder bijzondere reden, behalve dat Crossref Commons ontwikkeld wordt door Crossref zelf, wordt er met Crossref Commons for Python gewerkt. De code om een entity op te vragen is bijzonder compact zoals te zien in \ref{code:Crossref commons}
+Al deze bibliotheken bieden dezelfde tools en presteren gelijkaardig. Zonder bijzondere reden, behalve dat Crossref Commons ontwikkeld wordt door Crossref zelf, wordt er met Crossref Commons for Python gewerkt. De code om een entity op te vragen is bijzonder compact zoals te zien in \ref{code:Crossref commons}
 \begin{listing}
     \begin{minted}{python}
         response = crossref_commons.retrieval.get_publication_as_json(doi)
@@ -66,9 +65,9 @@ Alle bibliotheken zijn aan elkaar gewaagd voor deze taak. Zonder bijzondere rede
 \end{listing}
 Indien de Crossref API een resultaat geeft, dan is de DOI gevonden.
 \section{De DOI opzoeken op de webpagina van de publicatie}
-Elke publicatie heeft haar eigen webpagina. In de meeste gevallen is dat op de website van de uitgever van het tijdschrift. Op die pagina staan altijd de titel, auteurs, naam van het tijdschrift, jaartal en abstract van de publicatie.
+Indien de voorgaande stap geen DOI opleverde, dan wordt het DOI gezocht op de webpagina van de publicatie. In de meeste gevallen is dat op de website van de uitgever van het tijdschrift. Op die pagina staan altijd de titel, auteurs, naam van het tijdschrift, jaartal en abstract van de publicatie.
 Soms staat ook de DOI op die pagina.
-In sommige gevallen is de integrale tekst van de publicatie hier beschikbaar.\\
+In sommige gevallen is de integrale tekst van de publicatie hier beschikbaar als HTML of PDF document.\\
 Het formaat van de pagina kan verschillende zijn:
 \begin{itemize}
     \item Een gewone HTML pagina
@@ -77,7 +76,7 @@ Het formaat van de pagina kan verschillende zijn:
 \end{itemize}
 Voor elk van de 3 gevallen is er een andere verwerking nodig:
 \begin{itemize}
-    \item In het geval van een HTML pagina wordt de inhoud geparsed met Beautifulsoup net zoals dat eerder gebeurde voor de SERP. Vervolgens wordt een DOI opgezocht in de inhoud door middel van de reguliere expressies.
+    \item In het geval van een HTML pagina wordt de inhoud geparsed met Beautiful Soup net zoals dat eerder gebeurde voor de SERP. Vervolgens wordt een DOI opgezocht in de inhoud door middel van de reguliere expressies.
     \item In het geval van een PDF document is er een extra tussenstap nodig. De inhoud moet gelezen worden met gebruik van \autocite{Pymupdf2025}. Voorbeeld in codefragment \ref{code:pymupdf}.
     \begin{listing}
         \begin{minted}{python}
@@ -88,8 +87,9 @@ Voor elk van de 3 gevallen is er een andere verwerking nodig:
         \caption[Pymupdf codefragment]{Codefragment voor het openen van een online pdf.}
         \label{code:pymupdf}
     \end{listing}
-    \item In het geval van een embedded PDF is de inhoud niet onmiddellijk beschikbaar. De gebruiker moet als het ware nog een handeling verrichten (bijvoorbeeld op een knop klikken) alvorens toegang te krijgen tot de inhoud. Dat gaat niet voor een script, maar door middel van \autocite{Selenium2025} kan de embedded content automatisch gedownload worden. Eenmaal gedownload kan het bestand gewoon geopend worden en doorzocht worden naar een DOI op dezelfde manier als voor PDF documenten.
+    Daarna wordt er ook gezocht adhv. de reguliere expressies.
+    \item In het geval van een embedded PDF is de inhoud niet onmiddellijk beschikbaar. De gebruiker moet als het ware nog een handeling verrichten (vb. op een knop klikken) alvorens toegang te krijgen tot de inhoud. Dat gaat niet voor een script, maar door middel van Selenium \autocite{Selenium2025} kan de embedded content automatisch gedownload worden. Eenmaal gedownload kan het bestand gewoon geopend worden en doorzocht worden naar een DOI op dezelfde manier als voor PDF documenten.
 \end{itemize}
 Er is geen garantie dat de DOI op de webpagina van de publicatie gevonden wordt. Anderzijds is het ook mogelijk dat er meerdere verschillende DOIs gevonden worden. Voor een mens is het vaak evident om te weten welke DOI dan juist is, maar voor geautomatiseerd script is daar geen context voor.\\
-Er kan dus besloten worden dat de DOI met grote zekerheid achterhaald kan worden op basis van de URL of van Crossref. In het geval van een opzoeking op de webpagina van de publicatie is de vindkans een pak kleiner.
+Er kan dus besloten worden dat de DOI met grote zekerheid achterhaald kan worden op basis van de URL of adhv. Crossref. In het geval van een opzoeking op de webpagina van de publicatie is de vindkans een pak kleiner.
 

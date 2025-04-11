@@ -51,20 +51,20 @@ Informatie uit HTML pagina's halen is algemeen gekend onder de naam ``web scrapi
     \end{itemize}
     \item web scraping met verwerking van de DOM
     \begin{itemize}
-        \item Beautifulsoup
-        \item Serpapi
+        \item Beautiful Soup
+        \item SerpAPI
     \end{itemize}
 \end{itemize} 
 
 \section{Web scraping met gebruik van een LLM }
-De meest gekende vorm van web scraping gebruikt de HTML structuur om er de inhoud uit te filteren. Daar komt dus niets van AI bij kijken. Het probleem met die aanpak is dat de custom code die de HTML structuur verwerkt, sterk afhankelijk is van de HTML zelf. Bijvoorbeeld wanneer de titel van een publicatie tussen <h3> tags staat die gekenmerkt worden door een class="gse\_alrt\_title" (zie codefragment \ref{code:HTMLcodefragment}), dan zal de custom code specifiek filteren op die DOM elementen.
+De meest gekende vorm van web scraping gebruikt de DOM structuur om er de inhoud uit te filteren. Daar komt dus niets van AI bij kijken. Het probleem met die aanpak is dat de custom code die de HTML structuur verwerkt, sterk afhankelijk is van de HTML zelf. Bijvoorbeeld wanneer de titel van een publicatie tussen <h3> tags staat die gekenmerkt worden door een class="gse\_alrt\_title" (zie codefragment \ref{code:HTMLcodefragment}), dan zal de custom code specifiek filteren op die DOM elementen.
 \begin{listing}
 <h3 style=\"font-weight:normal;margin:0;font-size:17px;line-height:20px;\"><span style=\"font-size:11px;font-weight:bold;color:#1a0dab;vertical-align:2px\">[HTML]</span> <a href="https://scholar.google.be/scholar\_url?url=https://www.sciencedirect.com/science/article/pii/S0191886925001308\&amp;hl=nl\&amp;sa=X\&amp;d=9286058128011819102\&amp;ei=9W3gZ7v-GcCSieoPqLGJyAM\&amp;scisig=AFWwaebeqxEetR78Fz7JpxPtT7ui\&amp;oi=scholaralrt\&amp;hist=P\_QG1LwAAAAJ:2727769339669043622:AFWwaeYuVCLO-kY6yEQWAvLJNk68\&amp;html=\&amp;pos=0\&amp;folt=kw-top\" class=\"gse\_alrt\_title\" style=\"font-size:17px;color:#1a0dab;line-height:22px\">The role of narcissistic personality <b>traits </b>in bullying behavior in adolescence–A systematic review and meta-analysis</a></h3>
 \caption[Prompt htmlfragment]{HTML fragment van de titel van een publicatie.}
 \label{code:HTMLcodefragment}
 \end{listing}
 Maar wanneer de structuur van de HTML wijzigt om welke reden dan ook, dan zal de web scraper niet langer werken zolang de custom code niet werd aangepast.\\
-Daarom begint dit hoofdstuk met meer recente technieken die gebaseerd zijn op AI en die niet strikt afhankelijk zijn van de HTML structuur.
+Daarom begint dit hoofdstuk met meer recente technieken die gebaseerd zijn op AI en die niet strikt afhankelijk zijn van de DOM structuur.
 \subsection{Web scraping met OpenAI}
 LLMs zijn bijzonder goed in het beantwoorden van vragen. OpenAI is voor het brede publiek beter gekend door zijn chatbot ChatGPT. Maar hoe goed is OpenAI in het parsen van een webpagina? OpenAI biedt ook een API aan waarmee gebruikers opdrachten kunnen sturen naar een model. De opdracht/vraag in kwestie is: ``Geef de titels, orginele links, auteurs, naam van de tijdschriften, jaartal van de publicaties en tekstfragmenten van hetvolgende Google Scholar zoekresultaat.''\\
 Het online artikel \textcite{Serpapiai2025} beschrijft stap voor stap hoe de gevraagde gegevens verkregen kunnen worden met het ``gpt-4-1106-preview'' model van OpenAI.
@@ -123,19 +123,16 @@ De test was succesvol. Het model vond de gevraagde parameters voor elk van de 10
 \subsection{Web scraping met Mirascope en Anthropic}
 De vorige test was zeer specifiek geschreven voor OpenAI. De code zou niet werken voor een model van een andere provider. Daarom wordt er verder gezocht naar een meer generieke methode die niet afhankelijk is van de provider van het model.\\
 Mirascope \textcite{Mirascope2025} is een gespecialiseerde bibliotheek om op uniforme wijze met verschillende LLMs te werken.
-Het online artikel \textcite{Anthropic2025} beschrijft stap voor stap hoe de gevraagde gegevens verkregen kunnen worden aan de hand van Mirascope en het Anthropic Claude model \autocite{Anthropicmodel2025}. Het free tier van Anthropic is uitgebreider dan dat van OpenAI zodat het account voor dit experiment niet gecrediteerd moest worden.
+Het online artikel \textcite{Anthropic2025} beschrijft stap voor stap hoe de gevraagde gegevens verkregen kunnen worden aan de hand van Mirascope en het Anthropic Claude model \autocite{Anthropicmodel2025}. Er moet ook een account geregistreerd worden bij Anthropic maar hun free tier is uitgebreider dan dat van OpenAI zodat het account voor dit experiment niet gecrediteerd moest worden.
 De code op github \textcite{Depaepeanthropic2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts.
 Ook deze test was succesvol. Het model vond de gevraagde parameters voor elk van de 10 zoekresultaten. Toch houdt het onderzoek naar web scraping ook hier niet op. De oplossing tot zover heeft nog steeds een beperkte free tier en meerdere opdrachten zouden ook aanleiding geven tot een betalende service.
-Daarnaast zijn beide oplossingen ook afhankelijk van een online service wat in bepaalde gevallen niet wenselijk kan zijn (bijvoorbeeld afhankelijk van de klant).
+Daarnaast zijn beide oplossingen ook afhankelijk van een online service wat in bepaalde gevallen niet wenselijk kan zijn (bijvoorbeeld wanneer de klant een on-premise oplossing wil).
 \subsection{Web scraping met een lokaal model}
 Om niet afhankelijk te zijn van een online service moet het model lokaal gehost worden. \textcite{Ollama2025} is een platform om LLMs te hosten op je eigen systeem. Eenmaal geïnstalleerd (bijvoorbeeld via Docker) kan een model naar keuze gedownload en uitgevoerd worden op de lokale machine.
 Het is daarbij aan de gebruiker om te kiezen welk model het best geschikt is voor het probleem, maar ook om de vereisten van het model en de beschikbare hardware op elkaar af te stemmen. 
 \begin{itemize}
-    \item LLaMA — geschikt voor brede waaier van toepassingen, LLaMA is versatile and cost-effective. It excels in tasks involving understanding and generating text that sounds human-like.
-    \item Mistral — best suited for handling large datasets or integrating smoothly with existing data pipelines.
-    \item Phi — recommended for high-precision tasks, such as extracting detailed financial data.
-    \item Gemma — provides strong performance in multilingual contexts, making it suitable for scraping data from sources in various languages.
-    \item Gemini — excellent for real-time data processing, particularly useful for sites that update frequently.
+    \item LLaMA — geschikt voor een brede waaier aan toepassingen, LLaMA blinkt uit in het begrijpen en het genereren van tekst die de menselijke taal nabootst.
+    \item Gemma — biedt een lichtere versie van een model dat ook geschikt is voor web scraping.
 \end{itemize}
 De commando's in codefragment \ref{Ollama} illustreren hoe het llama3:8b model (4.7GB) gedownload en uitgevoerd wordt op een lokaal systeem via Docker.
 \begin{listing}
@@ -146,7 +143,7 @@ De commando's in codefragment \ref{Ollama} illustreren hoe het llama3:8b model (
 \end{listing}
 Het online artikel \textcite{Scrapegraphaillama2025} beschrijft stap voor stap hoe webpagina's gescraped kunnen worden aan de hand van ScrapegraphAI en het llama3 model.
 \textcite{ScrapeGraphAI2025} is een library die LLMs en grafen combineert om webpagina's te scrapen. \textcite{Llama32025} is ideaal voor breed gebruik en is kosten-efficiënt. Het munt uit in het begrijpen en genereren van menselijke teksten.
-De code op github \textcite{Depaepeollama2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts.
+De code op github \textcite{Depaepeollama2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts. De code veronderstelt dat ollama draait op het systeem en dat het llama3 model erop uitgevoerd wordt.
 De test was niet succesvol. Het model vond geen enkele van de gevraagde parameters voor geen enkele van de 10 zoekresultaten.
 In eerste instantie werd gedacht dat het geselecteerde model te zwak is voor deze taak. Daarom werd een andere test uitgevoerd op een systeem met 40GB RAM met het gemma3:27b model (17GB) \autocite{Gemma32025}. Maar ook deze test was niet succesvol: de opdracht bleef gedurende 1 uur lopen zonder resultaat, waarna het commando manueel onderbroken werd. 
 \section{Web scraping via het parsen van de DOM}
@@ -163,4 +160,5 @@ Meerdere specifieke libraries laten toe om HTML en XML te parsen, maar de meest 
 De code op github \textcite{DepaepeBeautifulsoup2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts. De volledige uitwerking is te zien in bijlage Parse Google Scholar zoekopdracht.
 De test met een SERP met 10 zoekresultaten was geslaagd. De gevraagde parameters worden gevonden voor elk van de 10 resultaten.\\
 Tenslotte moet ook nog SerpAPI \autocite{Serpapi2025} vermeld worden. Tijdens het onderzoek naar web scraping kwam dit platform meermaals naar voren, zelfs voor de toepassingen die gebruik maken van AI. SerpAPI biedt specifieke oplossingen voor elke mogelijke search engine, waaronder ook Google Scholar. Alleen focust hun product telkens op de online search engine en niet op alerts waardoor de zoekresultaten niet incrementeel zijn.\\
-Tot besluit van dit hoofdstuk wordt er dus verder gewerkt met het parsen van de zoekresultaten aan de hand van Beautifulsoup. Hoewel deze methode volledig afhankelijk is van de structuur van de HTML, is ze toch zeer begrijpbaar en efficiënt. Mits implementatie van een notificatie kunnen veranderingen van de HTML structuur gemeld worden zodat de code vervolgens aangepast kan worden. 
+Tot besluit van dit hoofdstuk wordt er dus verder gewerkt met het parsen van de zoekresultaten aan de hand van Beautiful Soup. Omdat deze methode volledig afhankelijk is van de structuur van de HTML, is ze zeer begrijpbaar. De HTML wordt omgezet in Beautiful Soup en vervolgens kunnen de gewenste tags en klasses rechtstreeks geselecteerd worden.\\
+Om aan de tekortkoming van de grote mate van afhankelijkheid tegemoet te komen, kan er een notificatie geïmplementeerd worden die een bericht stuurt wanneer Beautiful Soup de gewenste tags in het HTML document niet langer vindt.

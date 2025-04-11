@@ -4,41 +4,41 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Google Scholar SERP.}}{12}{figure.caption.8}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces OpenAI dashboard.}}{14}{figure.caption.9}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Google Scholar SERP.}}{13}{figure.caption.8}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces OpenAI dashboard.}}{15}{figure.caption.9}%
 \contentsline {figure}{\numberline {5.3}{\ignorespaces HTML structuur van de GS alert.}}{18}{figure.caption.10}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Google Scholar SERP.}}{24}{figure.caption.11}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces OpenAI dashboard.}}{26}{figure.caption.12}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Google Scholar SERP.}}{25}{figure.caption.11}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces OpenAI dashboard.}}{27}{figure.caption.12}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Google Scholar basis zoeken.}}{32}{figure.caption.14}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Google Scholar zoekresultaten.}}{32}{figure.caption.15}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Google Scholar geävanceerd zoeken.}}{34}{figure.caption.16}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Google Scholar melding maken.}}{35}{figure.caption.17}%
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Google Scholar email alert.}}{37}{figure.caption.18}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Google Scholar basis zoeken.}}{33}{figure.caption.14}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Google Scholar zoekresultaten.}}{33}{figure.caption.15}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Google Scholar geävanceerd zoeken.}}{35}{figure.caption.16}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Google Scholar melding maken.}}{36}{figure.caption.17}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Google Scholar email alert.}}{38}{figure.caption.18}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces E-mail lezen.}}{39}{figure.caption.19}%
-\contentsline {figure}{\numberline {10.2}{\ignorespaces E-mail body parsen.}}{39}{figure.caption.20}%
-\contentsline {figure}{\numberline {10.3}{\ignorespaces DOI opzoeken in de link van het geparsete resultaat.}}{39}{figure.caption.21}%
-\contentsline {figure}{\numberline {10.4}{\ignorespaces Use case diagram.}}{40}{figure.caption.25}%
-\contentsline {figure}{\numberline {10.5}{\ignorespaces Domeinmodel.}}{40}{figure.caption.26}%
-\contentsline {figure}{\numberline {10.6}{\ignorespaces Technology Stack.}}{44}{figure.caption.27}%
-\contentsline {figure}{\numberline {10.7}{\ignorespaces Python release cycle.}}{45}{figure.caption.28}%
-\contentsline {figure}{\numberline {10.8}{\ignorespaces HTML structuur van de GS alert.}}{47}{figure.caption.29}%
-\contentsline {figure}{\numberline {10.9}{\ignorespaces Databank JSON view.}}{50}{figure.caption.30}%
-\contentsline {figure}{\numberline {10.10}{\ignorespaces Databank table view.}}{50}{figure.caption.31}%
-\contentsline {figure}{\numberline {10.11}{\ignorespaces Databank structuur e-mail.}}{51}{figure.caption.32}%
-\contentsline {figure}{\numberline {10.12}{\ignorespaces Databank structuur body.}}{51}{figure.caption.33}%
-\contentsline {figure}{\numberline {10.13}{\ignorespaces Databank structuur zoekresultaat.}}{52}{figure.caption.34}%
-\contentsline {figure}{\numberline {10.14}{\ignorespaces Databank structuur link.}}{53}{figure.caption.35}%
+\contentsline {figure}{\numberline {10.1}{\ignorespaces E-mail lezen.}}{40}{figure.caption.19}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces E-mail body parsen.}}{40}{figure.caption.20}%
+\contentsline {figure}{\numberline {10.3}{\ignorespaces DOI opzoeken in de link van het geparsete resultaat.}}{40}{figure.caption.21}%
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Use case diagram.}}{41}{figure.caption.25}%
+\contentsline {figure}{\numberline {10.5}{\ignorespaces Domeinmodel.}}{41}{figure.caption.26}%
+\contentsline {figure}{\numberline {10.6}{\ignorespaces Technology Stack.}}{45}{figure.caption.27}%
+\contentsline {figure}{\numberline {10.7}{\ignorespaces Python release cycle.}}{46}{figure.caption.28}%
+\contentsline {figure}{\numberline {10.8}{\ignorespaces HTML structuur van de GS alert.}}{48}{figure.caption.29}%
+\contentsline {figure}{\numberline {10.9}{\ignorespaces Databank JSON view.}}{51}{figure.caption.30}%
+\contentsline {figure}{\numberline {10.10}{\ignorespaces Databank table view.}}{51}{figure.caption.31}%
+\contentsline {figure}{\numberline {10.11}{\ignorespaces Databank structuur e-mail.}}{52}{figure.caption.32}%
+\contentsline {figure}{\numberline {10.12}{\ignorespaces Databank structuur body.}}{52}{figure.caption.33}%
+\contentsline {figure}{\numberline {10.13}{\ignorespaces Databank structuur zoekresultaat.}}{53}{figure.caption.34}%
+\contentsline {figure}{\numberline {10.14}{\ignorespaces Databank structuur link.}}{54}{figure.caption.35}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Databank structuur Crossref.}}{57}{figure.caption.37}%
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Databank structuur Crossref.}}{58}{figure.caption.37}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {12.1}{\ignorespaces Google Scholar SERP.}}{60}{figure.caption.38}%
-\contentsline {figure}{\numberline {12.2}{\ignorespaces OpenAI dashboard.}}{63}{figure.caption.39}%
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Google Scholar SERP.}}{61}{figure.caption.38}%
+\contentsline {figure}{\numberline {12.2}{\ignorespaces OpenAI dashboard.}}{64}{figure.caption.39}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Chronologische oplijsting van de uit te voeren stappen}}{68}{figure.caption.41}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Chronologische oplijsting van de uit te voeren stappen}}{69}{figure.caption.41}%
 \contentsfinish 
