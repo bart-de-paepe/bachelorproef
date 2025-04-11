@@ -6,14 +6,14 @@
 \label{ch:inleiding}
 
 Het Vlaams Instituut voor de Zee (VLIZ) \autocite{Vliz2024} is een pionier in zeekennis. Dit wetenschappelijk instituut gelegen in Oostende heeft onder andere een mandaat om een complete en geactualiseerde catalogus bij te houden van alle wetenschappelijke publicaties in de mariene sector. Al meer dan 20 jaar bouwt het Integrated Marine Information System (IMIS) aan deze catalogus die intussen beschikt over meerdere collecties van marien wetenschappelijk referentiemateriaal.\\
-Naast wetenschappelijke literatuur zitten er ook collecties van mariene wetenschappelijke projecten in het systeem. Het is belangrijk voor het VLIZ om te weten door hoeveel publicaties er naar een project (vb. het World Register of Marine Species (WoRMS) \autocite{Worms2024}) verwezen wordt. Deze maatstaf geeft een indicatie van het draagvlak van elk project binnen de wetenschappelijke gemeenschap en is één van de belangrijkste criteria tijdens projectevaluaties. Daarom is het cruciaal om continu nieuwe publicaties waarin verwezen wordt naar die projecten op te zoeken. Daarvoor wordt op heden Google Scholar gebruikt die bekend staat als de meest uitgebreide en geactualiseerde index. Op die manier blijft IMIS up-to-date en zijn de projectreferenties steeds geactualiseerd.
+Naast wetenschappelijke literatuur zitten er ook collecties van mariene wetenschappelijke projecten (vb. het World Register of Marine Species (WoRMS) \autocite{Worms2024}) in het systeem. Het is belangrijk voor het VLIZ om te weten door hoeveel publicaties er naar een project verwezen wordt. Deze maatstaf geeft een indicatie van het draagvlak van elk project binnen de wetenschappelijke gemeenschap en is één van de belangrijkste criteria tijdens projectevaluaties. Daarom is het cruciaal om continu nieuwe publicaties waarin verwezen wordt naar die projecten op te zoeken. Daarvoor wordt op heden Google Scholar gebruikt die bekend staat als de meest uitgebreide en geactualiseerde index. Op die manier blijft IMIS up-to-date en zijn de projectreferenties steeds geactualiseerd.
 
 \section{\IfLanguageName{dutch}{Probleemstelling}{Problem Statement}}%
 \label{sec:probleemstelling}
 
 Momenteel verloopt dit proces binnen het VLIZ grotendeels handmatig. De zoekresultaten, volgens een bepaalde zoekfilter per project, afkomstig van Google Scholar worden manueel gefilterd en de Digital Object Identifier (DOI) van de geselecteerde artikels wordt opgezocht.
 Vervolgens worden de basisgegevens van elk artikel zoals titel, auteurs, datum en uitgever opgevraagd op basis van de DOI in Crossref \autocite{Crossref2024}. Met deze informatie wordt manueel beslist om het artikel al dan niet toe te voegen aan een collectie binnen IMIS.\\
-Dit is een tijdrovend proces. Daarom is er vraag naar automatisatie die de zoekresultaten verwerkt en gestructureerd opslaat. De beslissing om een artikel toe te voegen aan IMIS blijft nog altijd een manuele stap, maar naar verwachting moet dit sneller, efficiënter en accurater verlopen. Dat moet mogelijk zijn doordat de heterogene zoekresultaten omgezet worden in gestructureerde informatie. Bovendien zal een score voor elke publicatie een indicatie geven of ze reeds aan IMIS toegevoegd werd. 
+Dit is een tijdrovend proces. Daarom is er vraag naar automatisatie die de zoekresultaten verwerkt en gestructureerd opslaat. Het systeem moet ook kunnen aangeven of de publicatie reeds in IMIS zit zodat er geen duplicaten opgeslaan worden. De beslissing om een artikel toe te voegen aan IMIS blijft nog altijd een manuele stap, maar naar verwachting moet dit sneller, efficiënter en accurater verlopen. Dat moet mogelijk zijn doordat de heterogene zoekresultaten omgezet worden in gestructureerde informatie. Voor het detecteren van duplicaten zal er met een score gewerkt worden. Een score van 100\% betekent dat de publicatie zeker reeds in IMIS zit, een score van 0\% betekent dat de publicatie zeker niet in IMIS zit. 
 
 \section{\IfLanguageName{dutch}{Onderzoeksvraag}{Research question}}%
 \label{sec:onderzoeksvraag}
@@ -26,19 +26,19 @@ Dit omvat voornamelijk 2 problemen:
 \end{itemize}
 De uitgewerkte oplossing zal ook met volgende aspecten rekening moeten houden:
 \begin{itemize}
-    \item Hoe kunnen ook steeds nieuwe zoekresultaten van de zoekopdracht systematisch opgezocht worden?
+    \item Hoe kunnen ook steeds nieuwe zoekresultaten van dezelfde zoekopdracht systematisch opgezocht worden?
     \item Hoe kan de Search Engine Results Page (SERP) omgezet worden in gestructureerde data?
     \item Hoe kan een publicatie uniek geïdentificeerd worden?
-    \item Kan ook zonder unieke identifier bepaald worden wat de toegevoegde waarde is van een publicatie voor IMIS? 
+    \item Kan ook zonder unieke identifier bepaald worden of een publicatie reeds in IMIS zit of niet? 
 \end{itemize}
 
 \section{\IfLanguageName{dutch}{Onderzoeksdoelstelling}{Research objective}}%
 \label{sec:onderzoeksdoelstelling}
 
-Het beoogde resultaat van het onderzoek is om het toevoegen van Google Scholar zoekresultaten aan IMIS zoveel mogelijk te automatiseren:
+Het beoogde resultaat van het onderzoek is om het toevoegen van publicaties aan IMIS zoveel mogelijk te automatiseren:
 \begin{itemize}
-    \item Een proof-of-concept van de meest geschikte methode om de zoekresultaten om te zetten in gestructureerde data.
-    \item Een proof-of-concept van het proces dat aan elk resultaat een score geeft of de publicatie reeds in IMIS zit.
+    \item Een proof-of-concept van de meest geschikte methode om de Google Scholar zoekresultaten om te zetten in gestructureerde data.
+    \item Een proof-of-concept van het proces dat aan elk resultaat een score geeft die aanduidt of de publicatie reeds in IMIS zit.
 \end{itemize}
 
 \section{\IfLanguageName{dutch}{Opzet van deze bachelorproef}{Structure of this bachelor thesis}}%
@@ -54,8 +54,8 @@ In Hoofdstuk~\ref{ch:stand-van-zaken} wordt een overzicht gegeven van de stand v
 
 In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen.
 
-Dit wordt verder uitgewerkt in Hoofdstuk~\ref{ch:web_scraping} voor het scrapen van de zoekresultaten, Hoofdstuk~\ref{ch:linked_data} voor het opzoeken van de unieke identificatie van elke publicatie, en Hoofdstuk~\ref{ch:semantic_search} voor het bepalen van de meerwaarde met betrekking tot IMIS van elke publicatie.
+Dit wordt verder uitgewerkt in Hoofdstuk~\ref{ch:googlescholaralert} voor het ontvangen van de meest recente publicaties. Hoofdstuk~\ref{ch:web_scraping} gaat in op het omzetten van de Google Scholar zoekresultaten in gestructureerde data. Hoofdstuk~\ref{ch:linked_data} onderzoekt hoe voor elk zoekresultaat een unieke identificatie kan gezocht worden. Hoofdstuk~\ref{ch:semantic_search} bekijkt hoe voor elke publicatie een score kan berekend worden die aangeeft of het artikel reeds in IMIS zit of niet.
 
 % TODO: Vul hier aan voor je eigen hoofstukken, één of twee zinnen per hoofdstuk
 
-In Hoofdstuk~\ref{ch:conclusie}, tenslotte, wordt de conclusie gegeven en een antwoord geformuleerd op de onderzoeksvragen. Daarbij wordt ook een aanzet gegeven voor toekomstig onderzoek binnen dit domein.
+In Hoofdstuk~\ref{ch:conclusie} tenslotte, worden alle aspecten samengebracht. Er wordt een besluit geformuleerd in welke mate de onderzoeksvragen beantwoord zijn door het onderzoek. Daarbij wordt ook vermeld wat er verder nog moet gebeuren in de toekomst om het resultaat te verbeteren.
