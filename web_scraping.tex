@@ -208,24 +208,64 @@ Dan kan er geparsed worden met de resultaten volgens het gevraagde schema zoals 
 Ook deze test was succesvol. Het model vond de gevraagde parameters voor elk van de 10 zoekresultaten. Toch houdt het onderzoek naar web scraping ook hier niet op. De oplossing tot zover heeft nog steeds een beperkte free tier en meerdere opdrachten zouden ook aanleiding geven tot een betalende service.
 Daarnaast zijn tot zover beide oplossingen ook afhankelijk van een online service wat in bepaalde gevallen niet wenselijk kan zijn (bijvoorbeeld wanneer de klant een on-premise oplossing wil).
 \subsection{Web scraping met een lokaal model}
-Om niet afhankelijk te zijn van een online service moet het model lokaal gehost worden. \textcite{Ollama2025} is een platform om LLMs te hosten op je eigen systeem. Eenmaal geïnstalleerd (bijvoorbeeld via Docker) kan een model naar keuze gedownload en uitgevoerd worden op de lokale machine.
-Het is daarbij aan de gebruiker om te kiezen welk model het best geschikt is voor het probleem, maar ook om de vereisten van het model en de beschikbare hardware op elkaar af te stemmen. 
+Om niet afhankelijk te zijn van een online service moet het model lokaal gehost worden. \textcite{Ollama2025} is een platform om LLMs te hosten op je eigen systeem. Eenmaal geïnstalleerd kan een model naar keuze gedownload en uitgevoerd worden op de lokale machine.
+Dit kan bijvoorbeeld aan de hand van Docker zoals te zien is codefragment \ref{code:Ollama}. Het is daarbij aan de gebruiker om te kiezen welk model het best geschikt is voor het probleem, maar ook om de vereisten van het model en de beschikbare hardware op elkaar af te stemmen. Er is een groot aanbod van beschikbare modellen, maar hieronder staan de 2 modellen die gebruikt werden voor dit onderzoek.
 \begin{itemize}
-    \item LLaMA — geschikt voor een brede waaier aan toepassingen, LLaMA blinkt uit in het begrijpen en het genereren van tekst die de menselijke taal nabootst.
-    \item Gemma — biedt een lichtere versie van een model dat ook geschikt is voor web scraping.
+    \item LLaMA — geschikt voor een brede waaier aan toepassingen, LLaMA blinkt uit in het begrijpen en het genereren van tekst die de menselijke taal nabootst \autocite{Llama32025}.
+    \item Gemma — biedt een lichtere versie van een model dat ook geschikt is voor web scraping \autocite{Gemma32025}.
 \end{itemize}
-De commando's in codefragment \ref{Ollama} illustreren hoe het llama3:8b model (4.7GB) gedownload en uitgevoerd wordt op een lokaal systeem via Docker.
+Ieder van deze modellen is beschikbaar in verschillende versies van grootte van het model. Een groot model heeft meer kennis en zal beter op de vraag kunnen antwoorden. Anderzijds zal de verwerking trager verlopen bij een groot model en zal een groot model veel meer resources nodig hebben om te kunnen werken.
+Daarom wordt in eerste instantie met een klein llama3:8b model (4.7GB) gewerkt dat kan uitgevoerd worden op een doorsnee laptop.
 \begin{listing}
     docker exec -it ollama ollama pull llama3:8b
     docker exec -it ollama ollama run llama3
-    \caption[Ollama]Ollama}
-    \label{Ollama}
+    \caption[Ollama]{Ollama}
+    \label{code:Ollama}
 \end{listing}
-Het online artikel \textcite{Scrapegraphaillama2025} beschrijft stap voor stap hoe webpagina's gescraped kunnen worden aan de hand van ScrapegraphAI en het llama3 model.
-\textcite{ScrapeGraphAI2025} is een library die LLMs en grafen combineert om webpagina's te scrapen. \textcite{Llama32025} is ideaal voor breed gebruik en is kosten-efficiënt. Het munt uit in het begrijpen en genereren van menselijke teksten.
-De code op github \textcite{Depaepeollama2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts. De code veronderstelt dat ollama draait op het systeem en dat het llama3 model erop uitgevoerd wordt.
+Het online artikel \textcite{Scrapegraphaillama2025} beschrijft stap voor stap hoe webpagina's gescraped kunnen worden aan de hand van ScrapegraphAI en het LlaMa3 model.
+\textcite{ScrapeGraphAI2025} is een library die LLMs en grafen combineert om webpagina's te scrapen.\\
+De code op github \textcite{Depaepeollama2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts. De code veronderstelt dat ollama draait op het systeem en dat het LlaMa3 model erop uitgevoerd wordt.
+Codefragment \ref{code:Scrapegraphconfig} connecteert de scraping graph met het model.
+\begin{listing}
+    \begin{minted}{python}
+        graph_config = {
+            "llm": {
+                "model": "ollama/gemma3:27b",  # Specifies the large language model to use
+                "temperature": 0,          # Temperature controls randomness; 0 makes it deterministic
+                "format": "json",          # Output format is set to JSON
+                "base_url": "http://localhost:11434",  # Base URL where the Ollama server is running
+                "model_tokens": 128000,
+            },
+            "embeddings": {
+                "model": "ollama/nomic-embed-text",  # Specifies the embedding model to use
+                "temperature": 0,                    # Keeps the generation deterministic
+                "base_url": "http://localhost:11434",  # Base URL for the embeddings model server
+            },
+            "verbose": True,  # Enables verbose output for more detailed log information
+        }
+    \end{minted}
+    \caption[Scrapegraph configuratie codefragment]{Codefragment voor het configureren van Scrapegraph.}
+    \label{code:Scrapegraphconfig}
+\end{listing}
+De prompt voor het model is te zien in codefragment \ref{code:Scrapegraphprompt}.
+\begin{listing}
+    \begin{minted}{python}
+        smart_scraper_graph = SmartScraperGraph(
+        prompt="You are an AI assistant specialized in processing Google Scholar search engine result pages and returning structured JSON data. Always provide your response as valid, well-formatted JSON without any additional text or comments. Focus on extracting and organizing the most relevant information from Google Scholar search engine result pages, including title, original url, authors, name of journal, year of publication, snippet.",  # The AI prompt specifies what to extract
+        source=body_text,  # URL of the website from which to scrape data
+        config=graph_config,  # Uses predefined configuration settings
+        )
+        
+        # Execute the scraping process
+        result = smart_scraper_graph.run()
+        
+    \end{minted}
+    \caption[Prompt codefragment]{Codefragment voor het opstellen van een prompt.}
+    \label{code:Scrapegraphprompt}
+\end{listing}
+\\
 De test was niet succesvol. Het model vond geen enkele van de gevraagde parameters voor geen enkele van de 10 zoekresultaten.
-In eerste instantie werd gedacht dat het geselecteerde model te zwak is voor deze taak. Daarom werd een andere test uitgevoerd op een systeem met 40GB RAM met het gemma3:27b model (17GB) \autocite{Gemma32025}. Maar ook deze test was niet succesvol: de opdracht bleef gedurende 1 uur lopen zonder resultaat, waarna het commando manueel onderbroken werd. 
+In eerste instantie werd gedacht dat het geselecteerde model te zwak is voor deze taak omdat er voor een klein model gekozen werd. Daarom werd dezelfde test uitgevoerd op een krachtiger systeem met 40GB RAM met het gemma3:27b model (17GB). Maar ook deze test was niet succesvol: de opdracht bleef gedurende 1 uur lopen zonder resultaat, waarna het commando manueel onderbroken werd. 
 \section{Web scraping via het parsen van de DOM}
 Tot zover is er nog geen bruikbaar resultaat. Het gebruik van een online model is betalend en kan niet gewenst zijn door de klant. Anderzijds leidt een lokaal model voorlopig niet tot een goed resultaat. Daarom wordt er teruggegrepen naar de meer klassieke benadering van web scraping waarbij de HTML structuur ontleed wordt aan de hand van custom code.
 De Google Scholar SERP is een gestructureerde HTML pagina. Voor het parsen wordt er gebruik gemaakt van deze structuur.
