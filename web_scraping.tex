@@ -26,11 +26,11 @@
 %% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
 %% en geef het een gepaste titel.
 \section{Inleiding}
-De e-mails afkomstig van Google Scholar bevatten een lijst met zoekresultaten. Het formaat van de e-mail is HTML en de opmaak van de lijst is gelijkaardig aan die van de Google Scholar resultaten pagina. Dit wordt algemeen benoemd als een SERP (Search Engine Result Page) en is voor iedereen die vertrouwd is met het internet herkenbaar als de lijst met zoekresultaten van Google (zie figuur \ref{fig:Google ScholarSERP}).
+De e-mails afkomstig van Google Scholar bevatten een lijst met zoekresultaten. Het formaat van de e-mail is HTML en de opmaak van de lijst is gelijkaardig aan die van de Google Scholar resultaten pagina. Dit wordt algemeen benoemd als een SERP en is voor iedereen die vertrouwd is met het internet herkenbaar als de lijst met zoekresultaten van Google (zie figuur \ref{fig:Google_Scholar_SERP}).
 \begin{figure}
     \centering
     \includegraphics[width=0.8\textwidth]{./4_NLP/SERP.jpg}
-    \caption[Google Scholar SERP.]{\label{fig:Google ScholarSERP}Google Scholar SERP.}
+    \caption[Google Scholar SERP.]{\label{fig:Google_Scholar_SERP}Google Scholar SERP.}
 \end{figure}\\
 De Google Scholar SERP heeft een vaste structuur, namelijk een lijst met zoekresultaten bestaande uit:
 \begin{itemize}
@@ -42,7 +42,7 @@ De Google Scholar SERP heeft een vaste structuur, namelijk een lijst met zoekres
     \item abstract of fragment van het abstract
 \end{itemize} 
 Bovenstaande gegevens moeten uit de SERP gefilterd worden zodat ze opgeslaan kunnen worden voor verder gebruik in de volgende stappen.\\
-Informatie uit HTML pagina's halen is algemeen gekend onder de naam ``web scraping''. Deze techniek geniet veel aandacht omdat hij de gebruiker in staat stelt om veel data te vergaren, en data is het nieuwe goud. Tot zover dit gefilosofeer over web scraping. Het punt is dat in die context meerdere technieken bestaan om dezelfde job toe doen:
+Informatie uit HTML pagina's halen is algemeen gekend onder de naam ``web scraping'' of  ``web crawling''. Deze techniek geniet momenteel veel aandacht omdat hij de gebruiker in staat stelt om veel data te verzamelen. Die data dient dan weer als brandstof voor AI. Het punt is dat in die context meerdere technieken bestaan om dezelfde job toe doen:
 \begin{itemize}
     \item web scraping met gebruik van een LLM \footnote{Large Language Model}
     \begin{itemize}
@@ -66,7 +66,7 @@ De meest gekende vorm van web scraping gebruikt de DOM structuur om er de inhoud
 Maar wanneer de structuur van de HTML wijzigt om welke reden dan ook, dan zal de web scraper niet langer werken zolang de custom code niet werd aangepast.\\
 Daarom begint dit hoofdstuk met meer recente technieken die gebaseerd zijn op AI en die niet strikt afhankelijk zijn van de DOM structuur.
 \subsection{Web scraping met OpenAI}
-LLMs zijn bijzonder goed in het beantwoorden van vragen. OpenAI is voor het brede publiek beter gekend door zijn chatbot ChatGPT. Maar hoe goed is OpenAI in het parsen van een webpagina? OpenAI biedt ook een API aan waarmee gebruikers opdrachten kunnen sturen naar een model. De opdracht/vraag in kwestie is: ``Geef de titels, orginele links, auteurs, naam van de tijdschriften, jaartal van de publicaties en tekstfragmenten van hetvolgende Google Scholar zoekresultaat.''\\
+LLMs zijn bijzonder goed in het beantwoorden van vragen. OpenAI is voor het brede publiek beter gekend door zijn chatbot ChatGPT. Maar hoe goed is OpenAI in het parsen van een webpagina? OpenAI biedt ook een API \autocite{Openaideveloperplatform2025} aan waarmee gebruikers opdrachten kunnen sturen naar een model. De opdracht/vraag in kwestie is: ``Geef de titels, orginele links, auteurs, naam van de tijdschriften, jaartal van de publicaties en tekstfragmenten van hetvolgende Google Scholar zoekresultaat.''\\
 Het online artikel \textcite{Serpapiai2025} beschrijft stap voor stap hoe de gevraagde gegevens verkregen kunnen worden met het ``gpt-4-1106-preview'' model van OpenAI.
 De code op github \textcite{Depaepeopenai2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts.
 Het is vereist om een account te registreren bij OpenAI en om die account te crediteren. Vervolgens kan er met de API gewerkt worden en wordt er betaald naargelang het verbruik.

@@ -1040,7 +1040,7 @@
       \field{labeltitlesource}{title}
       \field{day}{1}
       \field{month}{5}
-      \field{title}{LLM abstractions thataren't obstructions}
+      \field{title}{LLM abstractions that aren't obstructions}
       \field{year}{2025}
       \field{dateera}{ce}
       \verb{urlraw}
@@ -1374,6 +1374,24 @@
       \endverb
       \verb{url}
       \verb https://github.com/ollama/ollama
+      \endverb
+    \endentry
+    \entry{Openaideveloperplatform2025}{online}{}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{OpenAI developer platform}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://platform.openai.com/docs/overview
+      \endverb
+      \verb{url}
+      \verb https://platform.openai.com/docs/overview
       \endverb
     \endentry
     \entry{Pakhale2023}{misc}{}{}
@@ -3353,7 +3371,7 @@
       \field{labeltitlesource}{title}
       \field{day}{1}
       \field{month}{5}
-      \field{title}{LLM abstractions thataren't obstructions}
+      \field{title}{LLM abstractions that aren't obstructions}
       \field{year}{2025}
       \field{dateera}{ce}
       \verb{urlraw}
@@ -3687,6 +3705,24 @@
       \endverb
       \verb{url}
       \verb https://github.com/ollama/ollama
+      \endverb
+    \endentry
+    \entry{Openaideveloperplatform2025}{online}{}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{OpenAI developer platform}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://platform.openai.com/docs/overview
+      \endverb
+      \verb{url}
+      \verb https://platform.openai.com/docs/overview
       \endverb
     \endentry
     \entry{Pakhale2023}{misc}{}{}

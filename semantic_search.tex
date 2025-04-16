@@ -27,9 +27,10 @@
 %% en geef het een gepaste titel.
 \section{Inleiding}
 Alle publicaties in IMIS moeten uniek zijn. Op basis van voorgaande stappen is dat met 100\% zekerheid te bepalen in het geval de DOI van de publicatie gevonden werd.
-Als de DOI niet gevonden werd, kan er niet met zekerheid gesproken worden, maar er kan wel een score berekend worden dat de publicatie reeds in IMIS zit. Dat is mogelijk aan de hand van semantic search.
+Als de DOI niet gevonden werd, kan er niet met zekerheid gesproken worden, maar er kan wel een score berekend worden dat de publicatie reeds in IMIS zit. Dat is mogelijk aan de hand van semantic search.\\
 Op basis van de titel van het artikel wordt een embedding berekend. Vervolgens wordt die vergeleken met alle embeddings van de titels in IMIS om zo tot een score te komen van de gelijkenis tussen beide.\\
-Indien de score hoog is dan is er veel waarschijnlijkheid dat de publicatie reeds in IMIS zit. In het geval van een lage score is de waarschijnlijkheid eerder klein.
+Indien de score hoog is dan is er veel waarschijnlijkheid dat de publicatie reeds in IMIS zit. In het geval van een lage score is de waarschijnlijkheid eerder klein.\\
+Daarvoor moeten de embeddings van deze gegevens van de publicatie vergeleken worden met de embeddings van alle publicaties in IMIS. De mate van overeenkomst tussen de embeddings geeft een probabiliteitswaarde voor de aanwezigheid van de publicatie in IMIS. Voor het detecteren van duplicaten zal er met een score gewerkt worden. Een score van 100\% betekent dat de publicatie zeker reeds in IMIS zit, een score van 0\% betekent dat de publicatie zeker niet in IMIS zit. 
 
  
 LLMs zijn gemaakt met als doel om tekst te produceren en om tekst te begrijpen net zoals mensen dat doen. Ze zijn toepasbaar voor uiteenlopende doeleinden zoals het afleiden van de juiste context en het beantwoorden van vragen. Ze kunnen tekst samenvatten of zelf produceren.

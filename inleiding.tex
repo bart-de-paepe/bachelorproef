@@ -13,23 +13,23 @@ Naast wetenschappelijke literatuur zitten er ook collecties van mariene wetensch
 
 Momenteel verloopt dit proces binnen het VLIZ grotendeels handmatig. De zoekresultaten, volgens een bepaalde zoekfilter per project, afkomstig van Google Scholar worden manueel gefilterd en de Digital Object Identifier (DOI) van de geselecteerde artikels wordt opgezocht.
 Vervolgens worden de basisgegevens van elk artikel zoals titel, auteurs, datum en uitgever opgevraagd op basis van de DOI in Crossref \autocite{Crossref2024}. Met deze informatie wordt manueel beslist om het artikel al dan niet toe te voegen aan een collectie binnen IMIS.\\
-Dit is een tijdrovend proces. Daarom is er vraag naar automatisatie die de zoekresultaten verwerkt en gestructureerd opslaat. Het systeem moet ook kunnen aangeven of de publicatie reeds in IMIS zit zodat er geen duplicaten opgeslaan worden. De beslissing om een artikel toe te voegen aan IMIS blijft nog altijd een manuele stap, maar naar verwachting moet dit sneller, efficiënter en accurater verlopen. Dat moet mogelijk zijn doordat de heterogene zoekresultaten omgezet worden in gestructureerde informatie. Voor het detecteren van duplicaten zal er met een score gewerkt worden. Een score van 100\% betekent dat de publicatie zeker reeds in IMIS zit, een score van 0\% betekent dat de publicatie zeker niet in IMIS zit. 
+Dit is een tijdrovend proces. Daarom is er vraag naar automatisatie die de zoekresultaten verwerkt en gestructureerd opslaat. Het systeem moet ook kunnen aangeven of de publicatie reeds in IMIS zit zodat er geen duplicaten opgeslaan worden. De beslissing om een artikel toe te voegen aan IMIS blijft nog altijd een manuele stap, maar naar verwachting moet dit sneller, efficiënter en accurater verlopen. Dat moet mogelijk zijn door de heterogene zoekresultaten om te zetten in gestructureerde informatie en duplicaten op te zoeken.
 
 \section{\IfLanguageName{dutch}{Onderzoeksvraag}{Research question}}%
 \label{sec:onderzoeksvraag}
 
-De centrale vraag die onderzocht moet worden luidt: ``Hoe kunnen de zoekresultaten van Google Scholar automatisch omgezet worden in gestructureerde data?''
+De probleemstelling vraagt om gedeeltelijke automatisatie. Er wordt aangenomen dat er nog steeds een manuele beslissingsstap zal zijn. Toch streeft dit onderzoek naar zoveel mogelijk automatisatie waarbij het grootste deel van de publicaties automatisch aan IMIS toegevoegd worden en waarbij slecht voor een zo klein mogelijke rest van publicaties een manuele beslissing nodig is.\\
+Bijgevolg luidt de centrale vraag die onderzocht moet worden: ``Hoe kunnen de zoekresultaten van Google Scholar automatisch toegevoegd worden aan IMIS?''
 Dit omvat voornamelijk 2 problemen:
 \begin{itemize}
-    \item Hoe kunnen de uiteenlopende zoekresultaten van Google Scholar automatisch verwerkt worden?
-    \item Zijn alle zoekresultaten uniek identificeerbaar?
+    \item Hoe kunnen de uiteenlopende zoekresultaten van Google Scholar omgezet worden in gestructureerde data?
+    \item Zijn alle zoekresultaten uniek identificeerbaar zodat er geen duplicaten opgeslaan worden?
 \end{itemize}
-De uitgewerkte oplossing zal ook met volgende aspecten rekening moeten houden:
+De uitgewerkte oplossing zal daarom met volgende aspecten rekening moeten houden:
 \begin{itemize}
     \item Hoe kunnen ook steeds nieuwe zoekresultaten van dezelfde zoekopdracht systematisch opgezocht worden?
-    \item Hoe kan de Search Engine Results Page (SERP) omgezet worden in gestructureerde data?
-    \item Hoe kan een publicatie uniek geïdentificeerd worden?
-    \item Kan ook zonder unieke identifier bepaald worden of een publicatie reeds in IMIS zit of niet? 
+    \item Kan er een score berekend worden hoe relevant elk zoekresultaat is ten opzichte van de zoekopdracht?
+    \item Als er geen unieke identifier is, hoe wordt er dan gecontroleerd op duplicaten? 
 \end{itemize}
 
 \section{\IfLanguageName{dutch}{Onderzoeksdoelstelling}{Research objective}}%
@@ -38,7 +38,8 @@ De uitgewerkte oplossing zal ook met volgende aspecten rekening moeten houden:
 Het beoogde resultaat van het onderzoek is om het toevoegen van publicaties aan IMIS zoveel mogelijk te automatiseren:
 \begin{itemize}
     \item Een proof-of-concept van de meest geschikte methode om de Google Scholar zoekresultaten om te zetten in gestructureerde data.
-    \item Een proof-of-concept van het proces dat aan elk resultaat een score geeft die aanduidt of de publicatie reeds in IMIS zit.
+    \item Een proof-of-concept van het proces dat een score voor elk zoekresultaat berekent.
+    \item Een proof-of-concept van het opzoeken van duplicaten.
 \end{itemize}
 
 \section{\IfLanguageName{dutch}{Opzet van deze bachelorproef}{Structure of this bachelor thesis}}%
@@ -54,7 +55,7 @@ In Hoofdstuk~\ref{ch:stand-van-zaken} wordt een overzicht gegeven van de stand v
 
 In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen.
 
-Dit wordt verder uitgewerkt in Hoofdstuk~\ref{ch:googlescholaralert} voor het ontvangen van de meest recente publicaties. Hoofdstuk~\ref{ch:web_scraping} gaat in op het omzetten van de Google Scholar zoekresultaten in gestructureerde data. Hoofdstuk~\ref{ch:linked_data} onderzoekt hoe voor elk zoekresultaat een unieke identificatie kan gezocht worden. Hoofdstuk~\ref{ch:semantic_search} bekijkt hoe voor elke publicatie een score kan berekend worden die aangeeft of het artikel reeds in IMIS zit of niet.
+Dit wordt verder uitgewerkt in Hoofdstuk~\ref{ch:googlescholaralert} voor het systematisch ontvangen van de meest recente publicaties. Hoofdstuk~\ref{ch:web_scraping} gaat in op het omzetten van de Google Scholar zoekresultaten in gestructureerde data. Hoofdstuk~\ref{ch:ner} gaat over het berekenen van een score voor elk zoekresultaat. Hoofdstuk~\ref{ch:linked_data} onderzoekt hoe voor elk zoekresultaat een unieke identificatie kan gezocht worden. Hoofdstuk~\ref{ch:semantic_search} bekijkt hoe voor elke publicatie de aanwezigheid van duplicaten opgespoord wordt.
 
 % TODO: Vul hier aan voor je eigen hoofstukken, één of twee zinnen per hoofdstuk
 
