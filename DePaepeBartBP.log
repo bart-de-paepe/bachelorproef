@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  16 APR 2025 11:25
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  16 APR 2025 12:19
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1926,12 +1926,6 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'dutch'.
  (DePaepeBartBP.aux
 
-LaTeX Warning: Label `code:Parse opties codefragment' multiply defined.
-
-
-LaTeX Warning: Label `fig:OpenAI dashboard' multiply defined.
-
-
 LaTeX Warning: Label `fig:Google ScholarSERP' multiply defined.
 
 
@@ -2460,16 +2454,14 @@ ng behavior in adolescence–A
 
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
 t line 63.
-File: ../graphics/./4_NLP/openai_billing.png Graphic file (type bmp)
-<../graphics/./4_NLP/openai_billing.png>
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250416112532 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250416121955 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
-web_scraping.tex:87: Package minted Error: minted v3+ executable is not install
+web_scraping.tex:81: Package minted Error: minted v3+ executable is not install
 ed or is not added to PATH; or MiKTeX is being used with -aux-directory or -out
 put-directory without setting a TEXMF_OUTPUT_DIRECTORY environment variable.
 
@@ -2477,12 +2469,12 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87     \end{minted}
+l.81     \end{minted}
                      
 (That was another \errmessage.)
 
 
-web_scraping.tex:87: Package minted Error: Missing definition for highlighting 
+web_scraping.tex:81: Package minted Error: Missing definition for highlighting 
 style "solarized-light" (minted executable is unavailable or disabled); attempt
 ing to substitute fallback style.
 
@@ -2490,12 +2482,12 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87     \end{minted}
+l.81     \end{minted}
                      
 (That was another \errmessage.)
 
 
-web_scraping.tex:87: Package minted Error: Missing definition for highlighting 
+web_scraping.tex:81: Package minted Error: Missing definition for highlighting 
 style "default" (minted executable is unavailable or disabled); attempting to s
 ubstitute fallback style.
 
@@ -2503,19 +2495,19 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87     \end{minted}
+l.81     \end{minted}
                      
 (That was another \errmessage.)
 
 
-web_scraping.tex:87: Package minted Error: Cannot highlight code (minted execut
+web_scraping.tex:81: Package minted Error: Cannot highlight code (minted execut
 able is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87     \end{minted}
+l.81     \end{minted}
                      
 (That was another \errmessage.)
 
@@ -2524,29 +2516,92 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 87.
+(Font)              scaled to size 6.00064pt on input line 81.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 87.
+(Font)              scaled to size 5.00053pt on input line 81.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 87.
+(Font)              scaled to size 5.99936pt on input line 81.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 87.
+(Font)              scaled to size 4.99947pt on input line 81.
 
-web_scraping.tex:117: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:93: Package minted Error: Cannot highlight code (minted execut
+able is unavailable or disabled); attempting to typeset without highlighting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93     \end{minted}
+                     
+(That was another \errmessage.)
+
+
+web_scraping.tex:123: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.117     \end{minted}
+l.123     \end{minted}
+                      
+(That was another \errmessage.)
+
+File: ../graphics/./4_NLP/openai_billing.png Graphic file (type bmp)
+<../graphics/./4_NLP/openai_billing.png>
+
+
+[14]
+
+web_scraping.tex:149: Package minted Error: Cannot highlight code (minted execu
+table is unavailable or disabled); attempting to typeset without highlighting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149     \end{minted}
                       
 (That was another \errmessage.)
 
 
+web_scraping.tex:168: Package minted Error: Cannot highlight code (minted execu
+table is unavailable or disabled); attempting to typeset without highlighting.
 
-[14]
-Overfull \hbox (1.20126pt too wide) in paragraph at lines 124--130
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168     \end{minted}
+                      
+(That was another \errmessage.)
+
+
+web_scraping.tex:187: Package minted Error: Cannot highlight code (minted execu
+table is unavailable or disabled); attempting to typeset without highlighting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.187     \end{minted}
+                      
+(That was another \errmessage.)
+
+
+web_scraping.tex:203: Package minted Error: Cannot highlight code (minted execu
+table is unavailable or disabled); attempting to typeset without highlighting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.203     \end{minted}
+                      
+(That was another \errmessage.)
+
+
+Overfull \hbox (1.20126pt too wide) in paragraph at lines 137--210
 \TU/Montserrat(1)/m/n/10.95 Mirascope []“  LLM abstractions that aren’t obstruc
 tions” ([][]2025[][]) is een gespecialiseerde
  []
@@ -2556,10 +2611,14 @@ tions” ([][]2025[][]) is een gespecialiseerde
 [15]
 
 [16]
-web_scraping.tex:143: Extra }, or forgotten \endgroup.
+
+[17]
+
+[18]
+web_scraping.tex:223: Extra }, or forgotten \endgroup.
 \@endfloatbox ...pagefalse \outer@nobreak \egroup 
                                                   \color@endbox 
-l.143 \end{listing}
+l.223 \end{listing}
                    
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2569,21 +2628,21 @@ deleted material, e.g., by typing `I$}'.
 
 
 
-[17]
+[19]
 File: ../graphics/./2_parse_zoekresultaat/serp-html.JPG Graphic file (type bmp)
 
 <../graphics/./2_parse_zoekresultaat/serp-html.JPG>
 ) (ner.tex
-Overfull \hbox (4.93036pt too wide) in paragraph at lines 159--4
+Overfull \hbox (4.93036pt too wide) in paragraph at lines 239--4
 \TU/Montserrat(1)/m/n/10.95 aan Beautiful Soup, worden de overeenkomstige eleme
 nten in het HTML-document
  []
 
 
 
-[18]
+[20]
 
-[19]
+[21]
 Hoofdstuk 6.
 File: ../graphics/./4_NLP/SERP.jpg Graphic file (type bmp)
 <../graphics/./4_NLP/SERP.jpg>
@@ -2592,11 +2651,11 @@ LaTeX Warning: Float too large for page by 294.61046pt on input line 50.
 
 
 
-[20
+[22
 
 ]
 
-[21]
+[23]
 
 ner.tex:65: Package minted Error: Cannot highlight code (minted executable is u
 navailable or disabled); attempting to typeset without highlighting.
@@ -2947,17 +3006,17 @@ LaTeX Warning: Float too large for page by 1464.55772pt on input line 208.
 
 ) (linked_data.tex
 
-[22]
-
-[23]
-
 [24]
 
 [25]
+
+[26]
+
+[27]
 Hoofdstuk 7.
 
 
-[26
+[28
 
 ]
 
@@ -2974,7 +3033,7 @@ l.62     \end{minted}
 
 
 
-[27]
+[29]
 linked_data.tex:80: Misplaced alignment tab character &.
 <argument> ...a extraction, analysis, conversion &
                                                    manipulation of PDF (and ...
@@ -3013,11 +3072,11 @@ Overfull \hbox (2.86955pt too wide) in paragraph at lines 91--92
 
 ) (semantic_search.tex
 
-[28]
+[30]
 Hoofdstuk 8.
 
 
-[29
+[31
 
 ]
 File: ../graphics/./4_NLP/SERP.jpg Graphic file (type bmp)
@@ -3054,9 +3113,9 @@ l.102     \end{minted}
 
 
 
-[30]
+[32]
 
-[31]
+[33]
 File: ../graphics/./4_NLP/openai_billing.png Graphic file (type bmp)
 <../graphics/./4_NLP/openai_billing.png>
 
@@ -3384,21 +3443,21 @@ LaTeX Warning: Float too large for page by 1464.55772pt on input line 215.
 
 ) (conclusie.tex
 
-[32]
-
-[33]
-
 [34]
 
 [35]
+
+[36]
+
+[37]
 Hoofdstuk 9.
 
 
-[36
+[38
 
 ]) (googlescholarzoekopdracht.tex
 
-[37]
+[39]
 Hoofdstuk 10.
 
 Overfull \hbox (21.42418pt too wide) in paragraph at lines 29--29
@@ -3427,11 +3486,11 @@ file (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/2_zoekresultaten.PNG>
 
 
-[38
+[40
 
 ]
 
-[39]
+[41]
 File: ../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG Grap
 hic file (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG>
@@ -3451,9 +3510,9 @@ or  <return>  to continue without it.
 
 
 
-[40]
+[42]
 
-[41]
+[43]
 File: ../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG Graphic f
 ile (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG>
@@ -3465,7 +3524,7 @@ erd een nieuw account \TU/Montserrat(2)/b/n/10.95 google-
 
 
 
-[42]
+[44]
 Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
@@ -3475,9 +3534,9 @@ e bmp)
 <../graphics/./1_google_scholar_zoekopdracht/5_email.PNG>
 ) (parsezoekresultaat.tex
 
-[43]
+[45]
 
-[44]
+[46]
 Hoofdstuk 11.
 File: ../graphics/./2_parse_zoekresultaat/email-lezen.jpg Graphic file (type bm
 p)
@@ -3502,7 +3561,7 @@ mstig van GS. In deze stap wordt
 
 
 
-[45
+[47
 
 ]
 File: ../graphics/./2_parse_zoekresultaat/search-doi.jpg Graphic file (type bmp
@@ -3510,7 +3569,7 @@ File: ../graphics/./2_parse_zoekresultaat/search-doi.jpg Graphic file (type bmp
 <../graphics/./2_parse_zoekresultaat/search-doi.jpg>
 
 
-[46]
+[48]
 Underfull \hbox (badness 10000) in paragraph at lines 71--72
 []|\TU/Montserrat(1)/m/n/10.95 GS stuurt e-mails naar google-
  []
@@ -3577,13 +3636,13 @@ bmp)
 <../graphics/./2_parse_zoekresultaat/4_domeinmodel.PNG>
 
 
-[47]
-
-[48]
-
 [49]
 
 [50]
+
+[51]
+
+[52]
 File: ../graphics/./2_parse_zoekresultaat/technology-stack.jpg Graphic file (ty
 pe bmp)
 <../graphics/./2_parse_zoekresultaat/technology-stack.jpg>
@@ -3592,7 +3651,7 @@ le (type bmp)
 <../graphics/./2_parse_zoekresultaat/1_python_release_cycle.jpg>
 
 
-[51]
+[53]
 Overfull \hbox (4.12953pt too wide) in paragraph at lines 254--256
 \TU/Montserrat(1)/m/n/10.95 Meerdere specifieke Python libraries ondersteunen a
 lle mogelijke bewerkingen met
@@ -3604,7 +3663,7 @@ fontspec)
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
 
-[52]
+[54]
 parsezoekresultaat.tex:265: Missing $ inserted.
 <inserted text> 
                 $
@@ -3696,7 +3755,7 @@ n H3-tag met als klasse ’gse_alrt_title’
 
 
 
-[53]
+[55]
 Overfull \hbox (22.47804pt too wide) in paragraph at lines 283--288
 \TU/Montserrat(1)/m/n/10.95 t/html,application/xhtml+xml,application/xml;q=0.9,
 image/webp,image/apng,*/*;q=0.8”,
@@ -3736,9 +3795,9 @@ l.310     \end{minted}
 
 
 
-[54]
+[56]
 
-[55]
+[57]
 parsezoekresultaat.tex:318: Misplaced alignment tab character &.
 <argument> ...a extraction, analysis, conversion &
                                                    manipulation of PDF (and ...
@@ -3766,7 +3825,7 @@ l.324         \end{minted}
 
 
 
-[56]
+[58]
 File: ../graphics/./2_parse_zoekresultaat/json_view.JPG Graphic file (type bmp)
 
 <../graphics/./2_parse_zoekresultaat/json_view.JPG>
@@ -3782,27 +3841,27 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[57]
+[59]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_body.JPG Graphic f
 ile (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_body.JPG>
 
 
-[58]
+[60]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_zoekresultaat.JPG 
 Graphic file (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_zoekresultaat.JPG>
 
 
-[59]
+[61]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_link.JPG Graphic f
 ile (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_link.JPG>
 
 
-[60]) (crossref.tex
+[62]) (crossref.tex
 
-[61]
+[63]
 Hoofdstuk 12.
 
 Overfull \hbox (3.86041pt too wide) in paragraph at lines 33--67
@@ -3829,15 +3888,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[62
+[64
 
 ]
 
-[63]
-
-[64]) (nlp.tex
-
 [65]
+
+[66]) (nlp.tex
+
+[67]
 Hoofdstuk 13.
 File: ../graphics/./4_NLP/SERP.jpg Graphic file (type bmp)
 <../graphics/./4_NLP/SERP.jpg>
@@ -3846,11 +3905,11 @@ LaTeX Warning: Float too large for page by 294.61046pt on input line 50.
 
 
 
-[66
+[68
 
 ]
 
-[67]
+[69]
 
 nlp.tex:65: Package minted Error: Cannot highlight code (minted executable is u
 navailable or disabled); attempting to typeset without highlighting.
@@ -4201,13 +4260,13 @@ LaTeX Warning: Float too large for page by 1464.55772pt on input line 208.
 
 )
 
-[68]
-
-[69]
-
 [70]
 
 [71]
+
+[72]
+
+[73]
 B\ij lage A.
 (../voorstel/voorstel-inhoud.tex
 Overfull \hbox (2.63669pt too wide) in paragraph at lines 20--21
@@ -4217,14 +4276,14 @@ collecties van mariene wetenschap-
 
 
 
-[72
+[74
 
 ]
 File: images/stapsgewijs.png Graphic file (type bmp)
 <images/stapsgewijs.png>
 
 
-[73]
+[75]
 Overfull \hbox (21.94153pt too wide) in paragraph at lines 59--60
 []\TU/Montserrat(1)/m/n/10.95 Google Scholar is een zoekmachine die wetenschapp
 elijke literatuur indexeert ([]“  Google
@@ -4232,7 +4291,7 @@ elijke literatuur indexeert ([]“  Google
 
 
 
-[74]
+[76]
 Overfull \hbox (9.43324pt too wide) in paragraph at lines 67--68
 \TU/Montserrat(1)/m/n/10.95 vend, betrouwbaar en onderscheidbaar geïdentificeer
 d kunnen worden. []Chandrakar
@@ -4240,11 +4299,11 @@ d kunnen worden. []Chandrakar
 
 
 
-[75]
-
-[76])
-
 [77]
+
+[78])
+
+[79]
 DePaepeBartBP.tex:189: Missing $ inserted.
 <inserted text> 
                 $
@@ -4294,7 +4353,7 @@ n/10.95 . (2025, maart 1). [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][]
 
 
 
-[78
+[80
 
 
 ]
@@ -4305,7 +4364,7 @@ a, de vrije encyclopedie\TU/Montserrat(1)/m/n/10.95 . (2025, maart
 
 
 
-[79]
+[81]
 Overfull \hbox (2.26407pt too wide) in paragraph at lines 189--189
 [][]\TU/Montserrat(2)/m/it/10.95 MongoDB\TU/Montserrat(1)/m/n/10.95 . (2025, ma
 art 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][]
@@ -4338,7 +4397,7 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[80]
+[82]
 Overfull \hbox (25.84052pt too wide) in paragraph at lines 189--189
 [][]\TU/Montserrat(2)/m/it/10.95 ScrapeGraphAI: You Only Scrape Once\TU/Montser
 rat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][][][][] [] [][]
@@ -4347,9 +4406,9 @@ rat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][][][][] [] [][]
 
 
 
-[81]
+[83]
 
-[82] (DePaepeBartBP.aux)
+[84] (DePaepeBartBP.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -4365,12 +4424,12 @@ Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52200 strings out of 408640
- 1072959 string characters out of 5749145
- 2334411 words of memory out of 5000000
- 74400 multiletter control sequences out of 15000+600000
+ 52217 strings out of 408640
+ 1073721 string characters out of 5749145
+ 2334749 words of memory out of 5000000
+ 74417 multiletter control sequences out of 15000+600000
  562740 words of font info for 113 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,13n,131p,1283b,5925s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DePaepeBartBP.pdf (92 pages).
+Output written on DePaepeBartBP.pdf (94 pages).

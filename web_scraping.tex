@@ -68,14 +68,20 @@ Daarom begint dit hoofdstuk met meer recente technieken die gebaseerd zijn op AI
 \subsection{Web scraping met OpenAI}
 LLMs zijn bijzonder goed in het beantwoorden van vragen. OpenAI is voor het brede publiek beter gekend door zijn chatbot ChatGPT. Maar hoe goed is OpenAI in het parsen van een webpagina? OpenAI biedt ook een API \autocite{Openaideveloperplatform2025} aan waarmee gebruikers opdrachten kunnen sturen naar een model. De opdracht/vraag in kwestie is: ``Geef de titels, orginele links, auteurs, naam van de tijdschriften, jaartal van de publicaties en tekstfragmenten van hetvolgende Google Scholar zoekresultaat.''\\
 Het online artikel \textcite{Serpapiai2025} beschrijft stap voor stap hoe de gevraagde gegevens verkregen kunnen worden met het ``gpt-4-1106-preview'' model van OpenAI.
-De code op github \textcite{Depaepeopenai2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts.
-Het is vereist om een account te registreren bij OpenAI en om die account te crediteren. Vervolgens kan er met de API gewerkt worden en wordt er betaald naargelang het verbruik.
-Een test met 1 Google Scholar alert met 10 zoekresultaten heeft een prijs van 0,17\$ zoals te zien is in figuur \ref{fig:OpenAI dashboard}. Het model gebruikte daarvoor 14743 tokens. 
-\begin{figure}
-    \centering
-    \includegraphics[width=0.8\textwidth]{./4_NLP/openai_billing.png}
-    \caption[OpenAI dashboard.]{\label{fig:OpenAI dashboard}OpenAI dashboard.}
-\end{figure}
+De code op github \textcite{Depaepeopenai2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts.\\
+De HTML wordt eerst ontdaan van overbodige tags zodat alleen de inhoud behouden blijft zoals te zien is in codefragment \ref{code:Cleaningcodefragment}
+\begin{listing}
+    \begin{minted}{python}
+        # Remove all occurrences of content between <head> and </head>
+        body_text = re.sub(r'<head.*?>.*?</head>', '', body_text, flags=re.DOTALL)
+        # Remove all occurrences of content between <script> and </script>
+        body_text = re.sub(r'<script.*?>.*?</script>', '', body_text, flags=re.DOTALL)
+        # Remove all occurrences of content between <style> and </style>
+        body_text = re.sub(r'<style.*?>.*?</style>', '', body_text, flags=re.DOTALL)
+    \end{minted}
+    \caption[Cleaning codefragment]{Codefragment voor het opkuisen van de HTML.}
+    \label{code:Cleaningcodefragment}
+\end{listing}
 De prompt voor het model is te zien in codefragment \ref{code:Promptcodefragment}.
 \begin{listing}
     \begin{minted}{python}
@@ -88,7 +94,7 @@ De prompt voor het model is te zien in codefragment \ref{code:Promptcodefragment
     \caption[Prompt codefragment]{Codefragment voor het opstellen van een prompt.}
     \label{code:Promptcodefragment}
 \end{listing}
-De verwachte parameters die het model moet zoeken zijn te zien in codefragment \ref{code:Parse opties codefragment}.
+De verwachte parameters die het model moet zoeken zijn te zien in codefragment \ref{code:Parse_opties_codefragment}.\\
 \begin{listing}
     \begin{minted}{python}
         "function": {
@@ -115,18 +121,92 @@ De verwachte parameters die het model moet zoeken zijn te zien in codefragment \
             }
         }
     \end{minted}
-    \caption[Parse opties codefragment]{Codefragment voor het opstellen van parse opties.}
-    \label{code:Parse opties codefragment}
+    \caption[Parse opties codefragment]{Codefragment voor het opstellen van de zoekopties.}
+    \label{code:Parse_opties_codefragment}
 \end{listing}
-De test was succesvol. Het model vond de gevraagde parameters voor elk van de 10 zoekresultaten. Toch houdt het onderzoek naar web scraping hier niet op. Het resultaat tot zover is immers betalend en dat is niet noodzakelijk de beste oplossing voor het probleem.
+Het is vereist om een account te registreren bij OpenAI en om dit account te crediteren. Vervolgens kan er met de API gewerkt worden en wordt er betaald naargelang het verbruik.
+Een test met 1 Google Scholar alert met 10 zoekresultaten heeft een prijs van 0,17\$ zoals te zien is in figuur \ref{fig:OpenAI_dashboard}. Het model gebruikte daarvoor 14743 tokens. 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./4_NLP/openai_billing.png}
+    \caption[OpenAI dashboard.]{\label{fig:OpenAI_dashboard}OpenAI dashboard.}
+\end{figure}
+De test was succesvol. Het model vond de gevraagde parameters voor elk van de 10 zoekresultaten. Toch houdt het onderzoek naar web scraping hier niet op. Het resultaat tot zover is immers betalend en dat is niet noodzakelijk de beste oplossing voor het probleem. Bovendien werkt deze oplossing enkel met OpenAI modellen wat weinig flexibiliteit toelaat.
 
 \subsection{Web scraping met Mirascope en Anthropic}
-De vorige test was zeer specifiek geschreven voor OpenAI. De code zou niet werken voor een model van een andere provider. Daarom wordt er verder gezocht naar een meer generieke methode die niet afhankelijk is van de provider van het model.\\
-Mirascope \textcite{Mirascope2025} is een gespecialiseerde bibliotheek om op uniforme wijze met verschillende LLMs te werken.
-Het online artikel \textcite{Anthropic2025} beschrijft stap voor stap hoe de gevraagde gegevens verkregen kunnen worden aan de hand van Mirascope en het Anthropic Claude model \autocite{Anthropicmodel2025}. Er moet ook een account geregistreerd worden bij Anthropic maar hun free tier is uitgebreider dan dat van OpenAI zodat het account voor dit experiment niet gecrediteerd moest worden.
+De vorige scraper was zeer specifiek geschreven voor OpenAI. De code zou niet werken voor een model van een andere provider. Daarom wordt er verder gezocht naar een meer generieke methode die niet afhankelijk is van de provider van het model.\\
+Mirascope \textcite{Mirascope2025} is een gespecialiseerde code library om op uniforme wijze met verschillende LLMs te werken.
+Het online artikel \textcite{Anthropic2025} beschrijft stap voor stap hoe de gevraagde gegevens verkregen kunnen worden aan de hand van Mirascope en het Anthropic Claude model. Net zoals OpenAI biedt Anthropic ook een API \autocite{Anthropicmodel2025} aan voor development. Er moet eveneens een account geregistreerd worden bij Anthropic maar hun free tier is uitgebreider dan dat van OpenAI zodat het account voor dit experiment niet gecrediteerd moest worden.\\
 De code op github \textcite{Depaepeanthropic2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts.
+De parameters die opgezocht moeten worden, dienen eerst als velden en schema gedeclareerd te worden. Dit is te zien in codefragmenten \ref{code:Field} en \ref{code:Schema}.
+\begin{listing}
+    \begin{minted}{python}
+        class FieldDefinition(BaseModel):
+        """Define the fields to extract from the webpage."""
+        
+        name: str = Field(..., description="The desired name for this field.")
+        type: Literal["str", "int", "float", "bool", "list"]
+    \end{minted}
+    \caption[Field codefragment]{Codefragment voor het opstellen van een Pydantic Field.}
+    \label{code:Field}
+\end{listing}
+\begin{listing}
+    \begin{minted}{python}
+        class SchemaGenerator(AnthropicExtractor[list[FieldDefinition]]):
+        """Generate a schema based on a user query."""
+        
+        api_key = settings.anthropic_api_key
+        
+        extract_schema: Type[list] = list[FieldDefinition]
+        
+        prompt_template = """
+        Call your tool with field definitions based on this query:
+        {query}
+        """
+        
+        query: str
+    \end{minted}
+    \caption[Schema codefragment]{Codefragment voor het opstellen van een Pydantic Schema.}
+    \label{code:Schema}
+\end{listing}
+Met deze structuur van veld en schema kan vervolgens voor elke opdracht een gepast model gemaakt worden aan de hand van de code in codefragment \ref{code:Model}
+\begin{listing}
+    \begin{minted}{python}
+            def generate_schema(self) -> None:
+        """Sets `extract_schema` to a schema generated based on `query`."""
+        field_definitions = SchemaGenerator(query=self.query).extract()
+        model = create_model(
+        "ExtractedFields",
+        __doc__=DEFAULT_TOOL_DOCSTRING,
+        **{
+            field.name.replace(" ", "_"): (field.type, ...)
+            for field in field_definitions
+        },
+        )
+        self.extract_schema = list[model]
+    \end{minted}
+    \caption[Model codefragment]{Codefragment voor het opstellen van een Pydantic Model.}
+    \label{code:Model}
+\end{listing}
+Dan kan er geparsed worden met de resultaten volgens het gevraagde schema zoals getoond wordt in codefragment \ref{code:Extract}.
+\begin{listing}
+    \begin{minted}{python}
+        @computed_field
+        @property
+        def webpage_content(self) -> str:
+        """Returns the text content of the webpage found at `url`."""
+        soup = BeautifulSoup(self.html_text, "html.parser", from_encoding="utf-8")
+        text = soup.get_text()
+        for link in soup.find_all("a"):
+        text += f"\n{link.get('href')}"
+        return text
+    \end{minted}
+    \caption[Extract codefragment]{Codefragment voor het parsen.}
+    \label{code:Extract}
+\end{listing}
+\\
 Ook deze test was succesvol. Het model vond de gevraagde parameters voor elk van de 10 zoekresultaten. Toch houdt het onderzoek naar web scraping ook hier niet op. De oplossing tot zover heeft nog steeds een beperkte free tier en meerdere opdrachten zouden ook aanleiding geven tot een betalende service.
-Daarnaast zijn beide oplossingen ook afhankelijk van een online service wat in bepaalde gevallen niet wenselijk kan zijn (bijvoorbeeld wanneer de klant een on-premise oplossing wil).
+Daarnaast zijn tot zover beide oplossingen ook afhankelijk van een online service wat in bepaalde gevallen niet wenselijk kan zijn (bijvoorbeeld wanneer de klant een on-premise oplossing wil).
 \subsection{Web scraping met een lokaal model}
 Om niet afhankelijk te zijn van een online service moet het model lokaal gehost worden. \textcite{Ollama2025} is een platform om LLMs te hosten op je eigen systeem. Eenmaal geïnstalleerd (bijvoorbeeld via Docker) kan een model naar keuze gedownload en uitgevoerd worden op de lokale machine.
 Het is daarbij aan de gebruiker om te kiezen welk model het best geschikt is voor het probleem, maar ook om de vereisten van het model en de beschikbare hardware op elkaar af te stemmen. 
