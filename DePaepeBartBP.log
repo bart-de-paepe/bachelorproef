@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  16 APR 2025 13:34
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  16 APR 2025 17:10
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1924,46 +1924,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'dutch'.
- (DePaepeBartBP.aux
-
-LaTeX Warning: Label `fig:Google ScholarSERP' multiply defined.
-
-
-LaTeX Warning: Label `code:Prompt codefragment' multiply defined.
-
-
-LaTeX Warning: Label `fig:OpenAI dashboard' multiply defined.
-
-
-LaTeX Warning: Label `code:Parse opties codefragment' multiply defined.
-
-
-LaTeX Warning: Label `code:Anthropic overloaded codefragment' multiply defined.
-
-
-
-LaTeX Warning: Label `fig:serp-html' multiply defined.
-
-
-LaTeX Warning: Label `code:pymupdf' multiply defined.
-
-
-LaTeX Warning: Label `code:Crossref commons' multiply defined.
-
-
-LaTeX Warning: Label `code:Prompt codefragment' multiply defined.
-
-
-LaTeX Warning: Label `code:Parse opties codefragment' multiply defined.
-
-
-LaTeX Warning: Label `fig:OpenAI dashboard' multiply defined.
-
-
-LaTeX Warning: Label `code:Anthropic overloaded codefragment' multiply defined.
-
-
-)
+ (DePaepeBartBP.aux)
 \openout1 = `DePaepeBartBP.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
@@ -2457,7 +2418,7 @@ t line 63.
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250416133416 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250416171017 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -2649,413 +2610,75 @@ File: ../graphics/./2_parse_zoekresultaat/serp-html.JPG Graphic file (type bmp)
 
 [20]
 
-[21]) (ner.tex
-Overfull \hbox (4.93036pt too wide) in paragraph at lines 279--4
-\TU/Montserrat(1)/m/n/10.95 aan Beautiful Soup, worden de overeenkomstige eleme
-nten in het HTML-document
+[21]
+
+web_scraping.tex:297: Package minted Error: Cannot highlight code (minted execu
+table is unavailable or disabled); attempting to typeset without highlighting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.297     \end{minted}
+                      
+(That was another \errmessage.)
+
+
+web_scraping.tex:313: Package minted Error: Cannot highlight code (minted execu
+table is unavailable or disabled); attempting to typeset without highlighting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.313     \end{minted}
+                      
+(That was another \errmessage.)
+
+
+Overfull \hbox (1.47504pt too wide) in paragraph at lines 279--319
+\TU/Montserrat(1)/m/n/10.95 De code op github []“   Web scraping Google Scholar
+ SERP using Beautiful Soup” ([][]2025[][])
  []
 
-
+) (ner.tex
 
 [22]
 
 [23]
+
+[24]
 Hoofdstuk 6.
-File: ../graphics/./4_NLP/SERP.jpg Graphic file (type bmp)
-<../graphics/./4_NLP/SERP.jpg>
 
-LaTeX Warning: Float too large for page by 294.61046pt on input line 50.
 
+[25
 
+])
 
-[24
-
-]
-
-[25]
-
-ner.tex:65: Package minted Error: Cannot highlight code (minted executable is u
-navailable or disabled); attempting to typeset without highlighting.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65     \end{minted}
-                     
-(That was another \errmessage.)
-
-
-ner.tex:95: Package minted Error: Cannot highlight code (minted executable is u
-navailable or disabled); attempting to typeset without highlighting.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.95     \end{minted}
-                     
-(That was another \errmessage.)
-
-File: ../graphics/./4_NLP/openai_billing.png Graphic file (type bmp)
-<../graphics/./4_NLP/openai_billing.png>
-ner.tex:109: Missing $ inserted.
-<inserted text> 
-                $
-l.109 ...: 'error', 'error': {'type': 'overloaded_
-                                                  error', 'message': 'Overlo...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-ner.tex:109: Extra }, or forgotten $.
-<recently read> }
-                 
-l.109 ...erloaded_error', 'message': 'Overloaded'}
-                                                  }
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-ner.tex:109: Extra }, or forgotten $.
-l.109 ...rloaded_error', 'message': 'Overloaded'}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-ner.tex:110: Missing $ inserted.
-<inserted text> 
-                $
-l.110 ...ment]{Codefragment Anthropic overloaded.}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Underfull \hbox (badness 1769) in paragraph at lines 109--110
-[]\TU/Montserrat(1)/m/n/10.95 Error code: 529 - ’type’: ’error’, ’error’: ’type
-’: ’overloaded$[][][][][][][][] [][][][][][][][] [][]
- []
-
-ner.tex:112: Missing } inserted.
-<inserted text> 
-                }
-l.112 \end{listing}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-ner.tex:112: Missing } inserted.
-<inserted text> 
-                }
-l.112 \end{listing}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
-[]|\TU/Montserrat(1)/m/n/10.95 [”B Larue”, ”F Pelletier”, ”M Festa-
- []
-
-
-Overfull \hbox (199.99594pt too wide) in paragraph at lines 139--139
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
-ticle/pii/S0191886925001308”| 
- []
-
-
-Overfull \hbox (199.99594pt too wide) in paragraph at lines 139--140
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
-ticle/pii/S0191886925001308”| 
- []
-
-
-Overfull \hbox (74.46516pt too wide) in paragraph at lines 140--140
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://link.springer.com/article/10.100
-7/s42729-
- []
-
-
-Overfull \hbox (74.46516pt too wide) in paragraph at lines 140--141
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://link.springer.com/article/10.100
-7/s42729-
- []
-
-
-Overfull \hbox (34.91379pt too wide) in paragraph at lines 141--141
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.nature.com/articles/s41598-
- []
-
-
-Overfull \hbox (34.91379pt too wide) in paragraph at lines 141--142
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.nature.com/articles/s41598-
- []
-
-
-Overfull \hbox (203.08383pt too wide) in paragraph at lines 142--142
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
-ticle/pii/S0269749125004750”| 
- []
-
-
-Overfull \hbox (203.08383pt too wide) in paragraph at lines 142--143
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
-ticle/pii/S0269749125004750”| 
- []
-
-
-Overfull \hbox (130.91238pt too wide) in paragraph at lines 143--143
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://ieeexplore.ieee.org/abstract/doc
-ument/10935702/”| 
- []
-
-
-Overfull \hbox (130.91238pt too wide) in paragraph at lines 143--144
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://ieeexplore.ieee.org/abstract/doc
-ument/10935702/”| 
- []
-
-
-Overfull \hbox (200.11636pt too wide) in paragraph at lines 144--144
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
-ticle/pii/S2666154325002091”| 
- []
-
-
-Overfull \hbox (200.11636pt too wide) in paragraph at lines 144--145
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
-ticle/pii/S2666154325002091”| 
- []
-
-
-Overfull \hbox (203.91602pt too wide) in paragraph at lines 145--145
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
-ticle/pii/S0733521025000608”| 
- []
-
-
-Overfull \hbox (203.91602pt too wide) in paragraph at lines 145--146
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
-ticle/pii/S0733521025000608”| 
- []
-
-
-Overfull \hbox (76.26094pt too wide) in paragraph at lines 146--146
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://academic.oup.com/botlinnean/adva
-nce-
- []
-
-
-Overfull \hbox (46.80911pt too wide) in paragraph at lines 146--146
-\TU/Montserrat(1)/m/n/10.95 article/doi/10.1093/botlinnean/boaf012/8089970”| 
- []
-
-
-Overfull \hbox (76.26094pt too wide) in paragraph at lines 146--147
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://academic.oup.com/botlinnean/adva
-nce-
- []
-
-
-Overfull \hbox (46.80911pt too wide) in paragraph at lines 146--147
-\TU/Montserrat(1)/m/n/10.95 article/doi/10.1093/botlinnean/boaf012/8089970”| 
- []
-
-
-Overfull \hbox (110.50162pt too wide) in paragraph at lines 147--147
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.pnas.org/doi/full/10.1073/pn
-as.2417158122”| 
- []
-
-
-Overfull \hbox (110.50162pt too wide) in paragraph at lines 147--148
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.pnas.org/doi/full/10.1073/pn
-as.2417158122”| 
- []
-
-
-Overfull \hbox (207.5405pt too wide) in paragraph at lines 148--148
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://journals.biologists.com/jeb/arti
-cle/doi/10.1242/jeb.250210/367452”| 
- []
-
-
-Overfull \hbox (207.5405pt too wide) in paragraph at lines 148--149
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://journals.biologists.com/jeb/arti
-cle/doi/10.1242/jeb.250210/367452”| 
- []
-
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
-[]|\TU/Montserrat(1)/m/n/10.95 This systematic review and meta-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
-\TU/Montserrat(1)/m/n/10.95 analysis examine the association
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
-[]|\TU/Montserrat(1)/m/n/10.95 This systematic review and meta-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
-\TU/Montserrat(1)/m/n/10.95 analysis examine the association
- []
-
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-
-Underfull \hbox (badness 1817) in paragraph at lines 169--170
-[]|\TU/Montserrat(1)/m/n/10.95 ... with high levels of autistic traits
- []
-
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-
-Underfull \hbox (badness 2181) in paragraph at lines 174--174
-[]|\TU/Montserrat(1)/m/n/10.95 Micromorphological traits have been
- []
-
-
-Underfull \hbox (badness 2181) in paragraph at lines 174--175
-[]|\TU/Montserrat(1)/m/n/10.95 Micromorphological traits have been
- []
-
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-
-Underfull \hbox (badness 2393) in paragraph at lines 182--182
-\TU/Montserrat(1)/m/n/10.95 mate Change Conditions�A Compre-
- []
-
-
-Underfull \hbox (badness 2990) in paragraph at lines 182--183
-\TU/Montserrat(1)/m/n/10.95 mate Change Conditions–A Compre-
- []
-
-
-Underfull \hbox (badness 5652) in paragraph at lines 183--183
-[]|\TU/Montserrat(1)/m/n/10.95 Task-evoked pupil responses during
- []
-
-
-Underfull \hbox (badness 5652) in paragraph at lines 183--184
-[]|\TU/Montserrat(1)/m/n/10.95 Task-evoked pupil responses during
- []
-
-
-Underfull \hbox (badness 3482) in paragraph at lines 186--186
-[]|\TU/Montserrat(1)/m/n/10.95 Pork-YOLO: Automated Collection of
- []
-
-
-Underfull \hbox (badness 3482) in paragraph at lines 186--187
-[]|\TU/Montserrat(1)/m/n/10.95 Pork-YOLO: Automated Collection of
- []
-
-
-Underfull \hbox (badness 3407) in paragraph at lines 189--189
-\TU/Montserrat(1)/m/n/10.95 trajectories in multidimensional trait
- []
-
-
-Underfull \hbox (badness 3407) in paragraph at lines 189--190
-\TU/Montserrat(1)/m/n/10.95 trajectories in multidimensional trait
- []
-
-
-Overfull \hbox (3.8604pt too wide) in paragraph at lines 117--207
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 1464.55772pt on input line 208.
-
-) (linked_data.tex
-
-[26]
+[26] (linked_data.tex
 
 [27]
-
-[28]
-
-[29]
 Hoofdstuk 7.
 
 
-[30
+[28
 
 ]
 
-linked_data.tex:62: Package minted Error: Cannot highlight code (minted executa
+linked_data.tex:87: Package minted Error: Cannot highlight code (minted executa
 ble is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62     \end{minted}
+l.87     \end{minted}
                      
 (That was another \errmessage.)
 
-
-
-[31]
-linked_data.tex:80: Misplaced alignment tab character &.
-<argument> ...a extraction, analysis, conversion &
-                                                   manipulation of PDF (and ...
-l.80 ...en met gebruik van \autocite{Pymupdf2025}.
-                                                   Voorbeeld in codefragment...
+linked_data.tex:94: Misplaced alignment tab character &.
+l.94 ... Metaphysics, Josiah Carberry 2008-08-13"&
+                                                  rows=2
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3064,46 +2687,89 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-linked_data.tex:86: Package minted Error: Cannot highlight code (minted executa
-ble is unavailable or disabled); attempting to typeset without highlighting.
+linked_data.tex:112: Package minted Error: Cannot highlight code (minted execut
+able is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.86         \end{minted}
-                         
+l.112     \end{minted}
+                      
 (That was another \errmessage.)
 
 
-Overfull \hbox (5.97183pt too wide) in paragraph at lines 80--91
-\TU/Montserrat(1)/m/n/10.95 houd moet gelezen worden met gebruik van ([]“   PyM
-uPDF is a high-performance
+
+[29]
+
+[30]
+linked_data.tex:130: Misplaced alignment tab character &.
+<argument> ...a extraction, analysis, conversion &
+                                                   manipulation of PDF (and ...
+l.130 ...bruik van PyMuPDF \autocite{Pymupdf2025}.
+                                                   Daarna wordt er ook gezoc...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+linked_data.tex:149: Package minted Error: Cannot highlight code (minted execut
+able is unavailable or disabled); attempting to typeset without highlighting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149         \end{minted}
+                          
+(That was another \errmessage.)
+
+
+linked_data.tex:193: Package minted Error: Cannot highlight code (minted execut
+able is unavailable or disabled); attempting to typeset without highlighting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.193         \end{minted}
+                          
+(That was another \errmessage.)
+
+
+Overfull \hbox (54.47388pt too wide) in paragraph at lines 193--193
+\TU/FiraCode(0)/m/n/10.95 os.path.join(str(Path(__file__).parent.parent.parent.
+parent), 
  []
 
 
-Overfull \hbox (2.86955pt too wide) in paragraph at lines 91--92
-\TU/Montserrat(1)/m/n/10.95 voor een script, maar door middel van Selenium ([]“
-   Selenium with Python”, [][]2025[][])
- []
+LaTeX Warning: Float too large for page by 164.94347pt on input line 196.
 
-) (semantic_search.tex
+
+
+[31]) (semantic_search.tex
 
 [32]
+
+[33]
 Hoofdstuk 8.
+File: ../graphics/./5_semantic_search/embeddings.jpg Graphic file (type bmp)
+<../graphics/./5_semantic_search/embeddings.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--39
+
+ []
 
 
-[33
+
+[34
 
 ]
-File: ../graphics/./4_NLP/SERP.jpg Graphic file (type bmp)
-<../graphics/./4_NLP/SERP.jpg>
 
-
-LaTeX Warning: Float too large for page by 294.61046pt on input line 57.
-
-
-semantic_search.tex:72: Package minted Error: Cannot highlight code (minted exe
+semantic_search.tex:71: Package minted Error: Cannot highlight code (minted exe
 cutable is unavailable or disabled); attempting to typeset without highlighting
 .
 
@@ -3111,12 +2777,31 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.72     \end{minted}
+l.71     \end{minted}
                      
 (That was another \errmessage.)
 
 
-semantic_search.tex:102: Package minted Error: Cannot highlight code (minted ex
+semantic_search.tex:94: Package minted Error: Cannot highlight code (minted exe
+cutable is unavailable or disabled); attempting to typeset without highlighting
+.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94     \end{minted}
+                     
+(That was another \errmessage.)
+
+
+Overfull \hbox (248.2888pt too wide) in paragraph at lines 94--94
+\TU/FiraCode(0)/m/n/10.95 quests.get([][]https://www.vliz.be/nl/imis?count=2000
+&module=ref&searchspcollist=39&show=json[][])|  
+ []
+
+
+semantic_search.tex:107: Package minted Error: Cannot highlight code (minted ex
 ecutable is unavailable or disabled); attempting to typeset without highlightin
 g.
 
@@ -3124,357 +2809,96 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.102     \end{minted}
+l.107     \end{minted}
+                      
+(That was another \errmessage.)
+
+File: ../graphics/./5_semantic_search/chroma-cosine-score.jpg Graphic file (typ
+e bmp)
+<../graphics/./5_semantic_search/chroma-cosine-score.jpg>
+
+
+[35]
+
+[36]
+
+semantic_search.tex:129: Package minted Error: Cannot highlight code (minted ex
+ecutable is unavailable or disabled); attempting to typeset without highlightin
+g.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129     \end{minted}
                       
 (That was another \errmessage.)
 
 
+semantic_search.tex:155: Package minted Error: Cannot highlight code (minted ex
+ecutable is unavailable or disabled); attempting to typeset without highlightin
+g.
 
-[34]
-
-[35]
-File: ../graphics/./4_NLP/openai_billing.png Graphic file (type bmp)
-<../graphics/./4_NLP/openai_billing.png>
-
-semantic_search.tex:116: Missing $ inserted.
-<inserted text> 
-                $
-l.116 ...: 'error', 'error': {'type': 'overloaded_
-                                                  error', 'message': 'Overlo...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-semantic_search.tex:116: Extra }, or forgotten $.
-<recently read> }
-                 
-l.116 ...erloaded_error', 'message': 'Overloaded'}
-                                                  }
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-semantic_search.tex:116: Extra }, or forgotten $.
-l.116 ...rloaded_error', 'message': 'Overloaded'}}
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+l.155     \end{minted}
+                      
+(That was another \errmessage.)
 
-semantic_search.tex:117: Missing $ inserted.
-<inserted text> 
-                $
-l.117 ...ment]{Codefragment Anthropic overloaded.}
+
+Overfull \hbox (38.04887pt too wide) in paragraph at lines 155--155
+\TU/FiraCode(0)/m/n/10.95 dings.append(self.get_embedding(publication[[]Standar
+dTitle[]]))|  
+ []
+
+
+semantic_search.tex:179: Package minted Error: Cannot highlight code (minted ex
+ecutable is unavailable or disabled); attempting to typeset without highlightin
+g.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
                                                   
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Underfull \hbox (badness 1769) in paragraph at lines 116--117
-[]\TU/Montserrat(1)/m/n/10.95 Error code: 529 - ’type’: ’error’, ’error’: ’type
-’: ’overloaded$[][][][][][][][] [][][][][][][][] [][]
- []
-
-semantic_search.tex:119: Missing } inserted.
-<inserted text> 
-                }
-l.119 \end{listing}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-semantic_search.tex:119: Missing } inserted.
-<inserted text> 
-                }
-l.119 \end{listing}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
-[]|\TU/Montserrat(1)/m/n/10.95 [”B Larue”, ”F Pelletier”, ”M Festa-
- []
-
-
-Overfull \hbox (199.99594pt too wide) in paragraph at lines 146--146
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
-ticle/pii/S0191886925001308”| 
- []
-
-
-Overfull \hbox (199.99594pt too wide) in paragraph at lines 146--147
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
-ticle/pii/S0191886925001308”| 
- []
-
-
-Overfull \hbox (74.46516pt too wide) in paragraph at lines 147--147
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://link.springer.com/article/10.100
-7/s42729-
- []
-
-
-Overfull \hbox (74.46516pt too wide) in paragraph at lines 147--148
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://link.springer.com/article/10.100
-7/s42729-
- []
-
-
-Overfull \hbox (34.91379pt too wide) in paragraph at lines 148--148
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.nature.com/articles/s41598-
- []
-
-
-Overfull \hbox (34.91379pt too wide) in paragraph at lines 148--149
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.nature.com/articles/s41598-
- []
-
-
-Overfull \hbox (203.08383pt too wide) in paragraph at lines 149--149
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
-ticle/pii/S0269749125004750”| 
- []
-
-
-Overfull \hbox (203.08383pt too wide) in paragraph at lines 149--150
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
-ticle/pii/S0269749125004750”| 
- []
-
-
-Overfull \hbox (130.91238pt too wide) in paragraph at lines 150--150
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://ieeexplore.ieee.org/abstract/doc
-ument/10935702/”| 
- []
-
-
-Overfull \hbox (130.91238pt too wide) in paragraph at lines 150--151
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://ieeexplore.ieee.org/abstract/doc
-ument/10935702/”| 
- []
-
-
-Overfull \hbox (200.11636pt too wide) in paragraph at lines 151--151
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
-ticle/pii/S2666154325002091”| 
- []
-
-
-Overfull \hbox (200.11636pt too wide) in paragraph at lines 151--152
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
-ticle/pii/S2666154325002091”| 
- []
-
-
-Overfull \hbox (203.91602pt too wide) in paragraph at lines 152--152
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
-ticle/pii/S0733521025000608”| 
- []
-
-
-Overfull \hbox (203.91602pt too wide) in paragraph at lines 152--153
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.sciencedirect.com/science/ar
-ticle/pii/S0733521025000608”| 
- []
-
-
-Overfull \hbox (76.26094pt too wide) in paragraph at lines 153--153
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://academic.oup.com/botlinnean/adva
-nce-
- []
-
-
-Overfull \hbox (46.80911pt too wide) in paragraph at lines 153--153
-\TU/Montserrat(1)/m/n/10.95 article/doi/10.1093/botlinnean/boaf012/8089970”| 
- []
-
-
-Overfull \hbox (76.26094pt too wide) in paragraph at lines 153--154
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://academic.oup.com/botlinnean/adva
-nce-
- []
-
-
-Overfull \hbox (46.80911pt too wide) in paragraph at lines 153--154
-\TU/Montserrat(1)/m/n/10.95 article/doi/10.1093/botlinnean/boaf012/8089970”| 
- []
-
-
-Overfull \hbox (110.50162pt too wide) in paragraph at lines 154--154
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.pnas.org/doi/full/10.1073/pn
-as.2417158122”| 
- []
-
-
-Overfull \hbox (110.50162pt too wide) in paragraph at lines 154--155
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://www.pnas.org/doi/full/10.1073/pn
-as.2417158122”| 
- []
-
-
-Overfull \hbox (207.5405pt too wide) in paragraph at lines 155--155
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://journals.biologists.com/jeb/arti
-cle/doi/10.1242/jeb.250210/367452”| 
- []
-
-
-Overfull \hbox (207.5405pt too wide) in paragraph at lines 155--156
-[]|\TU/Montserrat(1)/m/n/10.95 ”url”: ”https://journals.biologists.com/jeb/arti
-cle/doi/10.1242/jeb.250210/367452”| 
- []
-
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--174
-[]|\TU/Montserrat(1)/m/n/10.95 This systematic review and meta-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--174
-\TU/Montserrat(1)/m/n/10.95 analysis examine the association
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
-[]|\TU/Montserrat(1)/m/n/10.95 This systematic review and meta-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
-\TU/Montserrat(1)/m/n/10.95 analysis examine the association
- []
-
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-
-Underfull \hbox (badness 1817) in paragraph at lines 176--177
-[]|\TU/Montserrat(1)/m/n/10.95 ... with high levels of autistic traits
- []
-
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-
-Underfull \hbox (badness 2181) in paragraph at lines 181--181
-[]|\TU/Montserrat(1)/m/n/10.95 Micromorphological traits have been
- []
-
-
-Underfull \hbox (badness 2181) in paragraph at lines 181--182
-[]|\TU/Montserrat(1)/m/n/10.95 Micromorphological traits have been
- []
-
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-
-Underfull \hbox (badness 2393) in paragraph at lines 189--189
-\TU/Montserrat(1)/m/n/10.95 mate Change Conditions�A Compre-
- []
-
-
-Underfull \hbox (badness 2990) in paragraph at lines 189--190
-\TU/Montserrat(1)/m/n/10.95 mate Change Conditions–A Compre-
- []
-
-
-Underfull \hbox (badness 5652) in paragraph at lines 190--190
-[]|\TU/Montserrat(1)/m/n/10.95 Task-evoked pupil responses during
- []
-
-
-Underfull \hbox (badness 5652) in paragraph at lines 190--191
-[]|\TU/Montserrat(1)/m/n/10.95 Task-evoked pupil responses during
- []
-
-
-Underfull \hbox (badness 3482) in paragraph at lines 193--193
-[]|\TU/Montserrat(1)/m/n/10.95 Pork-YOLO: Automated Collection of
- []
-
-
-Underfull \hbox (badness 3482) in paragraph at lines 193--194
-[]|\TU/Montserrat(1)/m/n/10.95 Pork-YOLO: Automated Collection of
- []
-
-
-Underfull \hbox (badness 3407) in paragraph at lines 196--196
-\TU/Montserrat(1)/m/n/10.95 trajectories in multidimensional trait
- []
-
-
-Underfull \hbox (badness 3407) in paragraph at lines 196--197
-\TU/Montserrat(1)/m/n/10.95 trajectories in multidimensional trait
- []
-
-
-Overfull \hbox (3.8604pt too wide) in paragraph at lines 124--214
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 1464.55772pt on input line 215.
-
+l.179     \end{minted}
+                      
+(That was another \errmessage.)
+
+
+semantic_search.tex:210: Package minted Error: Cannot highlight code (minted ex
+ecutable is unavailable or disabled); attempting to typeset without highlightin
+g.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210     \end{minted}
+                      
+(That was another \errmessage.)
+
+File: ../graphics/./5_semantic_search/mongodb-cosine-score.jpg Graphic file (ty
+pe bmp)
+<../graphics/./5_semantic_search/mongodb-cosine-score.jpg>
 ) (conclusie.tex
-
-[36]
 
 [37]
 
 [38]
 
 [39]
+
+[40]
 Hoofdstuk 9.
 
 
-[40
+[41
 
 ]) (googlescholarzoekopdracht.tex
 
-[41]
+[42]
 Hoofdstuk 10.
 
 Overfull \hbox (21.42418pt too wide) in paragraph at lines 29--29
@@ -3503,11 +2927,11 @@ file (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/2_zoekresultaten.PNG>
 
 
-[42
+[43
 
 ]
 
-[43]
+[44]
 File: ../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG Grap
 hic file (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG>
@@ -3527,9 +2951,9 @@ or  <return>  to continue without it.
 
 
 
-[44]
-
 [45]
+
+[46]
 File: ../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG Graphic f
 ile (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG>
@@ -3541,7 +2965,7 @@ erd een nieuw account \TU/Montserrat(2)/b/n/10.95 google-
 
 
 
-[46]
+[47]
 Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
@@ -3551,9 +2975,9 @@ e bmp)
 <../graphics/./1_google_scholar_zoekopdracht/5_email.PNG>
 ) (parsezoekresultaat.tex
 
-[47]
-
 [48]
+
+[49]
 Hoofdstuk 11.
 File: ../graphics/./2_parse_zoekresultaat/email-lezen.jpg Graphic file (type bm
 p)
@@ -3578,7 +3002,7 @@ mstig van GS. In deze stap wordt
 
 
 
-[49
+[50
 
 ]
 File: ../graphics/./2_parse_zoekresultaat/search-doi.jpg Graphic file (type bmp
@@ -3586,7 +3010,7 @@ File: ../graphics/./2_parse_zoekresultaat/search-doi.jpg Graphic file (type bmp
 <../graphics/./2_parse_zoekresultaat/search-doi.jpg>
 
 
-[50]
+[51]
 Underfull \hbox (badness 10000) in paragraph at lines 71--72
 []|\TU/Montserrat(1)/m/n/10.95 GS stuurt e-mails naar google-
  []
@@ -3653,13 +3077,13 @@ bmp)
 <../graphics/./2_parse_zoekresultaat/4_domeinmodel.PNG>
 
 
-[51]
-
 [52]
 
 [53]
 
 [54]
+
+[55]
 File: ../graphics/./2_parse_zoekresultaat/technology-stack.jpg Graphic file (ty
 pe bmp)
 <../graphics/./2_parse_zoekresultaat/technology-stack.jpg>
@@ -3668,7 +3092,7 @@ le (type bmp)
 <../graphics/./2_parse_zoekresultaat/1_python_release_cycle.jpg>
 
 
-[55]
+[56]
 Overfull \hbox (4.12953pt too wide) in paragraph at lines 254--256
 \TU/Montserrat(1)/m/n/10.95 Meerdere specifieke Python libraries ondersteunen a
 lle mogelijke bewerkingen met
@@ -3680,7 +3104,7 @@ fontspec)
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
 
-[56]
+[57]
 parsezoekresultaat.tex:265: Missing $ inserted.
 <inserted text> 
                 $
@@ -3772,7 +3196,7 @@ n H3-tag met als klasse ’gse_alrt_title’
 
 
 
-[57]
+[58]
 Overfull \hbox (22.47804pt too wide) in paragraph at lines 283--288
 \TU/Montserrat(1)/m/n/10.95 t/html,application/xhtml+xml,application/xml;q=0.9,
 image/webp,image/apng,*/*;q=0.8”,
@@ -3812,9 +3236,9 @@ l.310     \end{minted}
 
 
 
-[58]
-
 [59]
+
+[60]
 parsezoekresultaat.tex:318: Misplaced alignment tab character &.
 <argument> ...a extraction, analysis, conversion &
                                                    manipulation of PDF (and ...
@@ -3842,7 +3266,7 @@ l.324         \end{minted}
 
 
 
-[60]
+[61]
 File: ../graphics/./2_parse_zoekresultaat/json_view.JPG Graphic file (type bmp)
 
 <../graphics/./2_parse_zoekresultaat/json_view.JPG>
@@ -3858,27 +3282,27 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[61]
+[62]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_body.JPG Graphic f
 ile (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_body.JPG>
 
 
-[62]
+[63]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_zoekresultaat.JPG 
 Graphic file (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_zoekresultaat.JPG>
 
 
-[63]
+[64]
 File: ../graphics/./2_parse_zoekresultaat/database_structure_link.JPG Graphic f
 ile (type bmp)
 <../graphics/./2_parse_zoekresultaat/database_structure_link.JPG>
 
 
-[64]) (crossref.tex
+[65]) (crossref.tex
 
-[65]
+[66]
 Hoofdstuk 12.
 
 Overfull \hbox (3.86041pt too wide) in paragraph at lines 33--67
@@ -3905,15 +3329,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[66
+[67
 
 ]
 
-[67]
+[68]
 
-[68]) (nlp.tex
+[69]) (nlp.tex
 
-[69]
+[70]
 Hoofdstuk 13.
 File: ../graphics/./4_NLP/SERP.jpg Graphic file (type bmp)
 <../graphics/./4_NLP/SERP.jpg>
@@ -3922,11 +3346,11 @@ LaTeX Warning: Float too large for page by 294.61046pt on input line 50.
 
 
 
-[70
+[71
 
 ]
 
-[71]
+[72]
 
 nlp.tex:65: Package minted Error: Cannot highlight code (minted executable is u
 navailable or disabled); attempting to typeset without highlighting.
@@ -4277,13 +3701,13 @@ LaTeX Warning: Float too large for page by 1464.55772pt on input line 208.
 
 )
 
-[72]
-
 [73]
 
 [74]
 
 [75]
+
+[76]
 B\ij lage A.
 (../voorstel/voorstel-inhoud.tex
 Overfull \hbox (2.63669pt too wide) in paragraph at lines 20--21
@@ -4293,14 +3717,14 @@ collecties van mariene wetenschap-
 
 
 
-[76
+[77
 
 ]
 File: images/stapsgewijs.png Graphic file (type bmp)
 <images/stapsgewijs.png>
 
 
-[77]
+[78]
 Overfull \hbox (21.94153pt too wide) in paragraph at lines 59--60
 []\TU/Montserrat(1)/m/n/10.95 Google Scholar is een zoekmachine die wetenschapp
 elijke literatuur indexeert ([]“  Google
@@ -4308,7 +3732,7 @@ elijke literatuur indexeert ([]“  Google
 
 
 
-[78]
+[79]
 Overfull \hbox (9.43324pt too wide) in paragraph at lines 67--68
 \TU/Montserrat(1)/m/n/10.95 vend, betrouwbaar en onderscheidbaar geïdentificeer
 d kunnen worden. []Chandrakar
@@ -4316,11 +3740,11 @@ d kunnen worden. []Chandrakar
 
 
 
-[79]
+[80]
 
-[80])
+[81])
 
-[81]
+[82]
 DePaepeBartBP.tex:189: Missing $ inserted.
 <inserted text> 
                 $
@@ -4362,6 +3786,11 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
+
+[83
+
+
+]
 Overfull \hbox (23.13835pt too wide) in paragraph at lines 189--189
 [][]\TU/Montserrat(2)/m/it/10.95 Document-oriented database\TU/Montserrat(1)/m/
 n/10.95 . (2025, maart 1). [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] 
@@ -4369,11 +3798,6 @@ n/10.95 . (2025, maart 1). [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][]
  []
 
 
-
-[82
-
-
-]
 Overfull \hbox (1.74945pt too wide) in paragraph at lines 189--189
 [][]\TU/Montserrat(2)/m/it/10.95 Internet Message Access Protocol, Uit Wikipedi
 a, de vrije encyclopedie\TU/Montserrat(1)/m/n/10.95 . (2025, maart
@@ -4381,7 +3805,7 @@ a, de vrije encyclopedie\TU/Montserrat(1)/m/n/10.95 . (2025, maart
 
 
 
-[83]
+[84]
 Overfull \hbox (2.26407pt too wide) in paragraph at lines 189--189
 [][]\TU/Montserrat(2)/m/it/10.95 MongoDB\TU/Montserrat(1)/m/n/10.95 . (2025, ma
 art 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][]
@@ -4400,6 +3824,9 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
+
+
+[85]
 DePaepeBartBP.tex:189: Misplaced alignment tab character &.
 <argument> ...a extraction, analysis, conversion &
                                                    manipulation of PDF (and ...
@@ -4413,8 +3840,6 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-
-[84]
 Overfull \hbox (25.84052pt too wide) in paragraph at lines 189--189
 [][]\TU/Montserrat(2)/m/it/10.95 ScrapeGraphAI: You Only Scrape Once\TU/Montser
 rat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][][][][] [] [][]
@@ -4423,30 +3848,43 @@ rat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][][][][] [] [][]
 
 
 
-[85]
+[86]
+Overfull \hbox (39.97581pt too wide) in paragraph at lines 189--189
+[][]\TU/Montserrat(2)/m/it/10.95 Tips for using the Crossref REST API\TU/Montse
+rrat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][
+][][][] [] [][][] [] [][][][][][][][][][][][][] []
+ []
 
-[86] (DePaepeBartBP.aux)
+
+
+[87]
+
+[88] (DePaepeBartBP.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
-(rerunfilecheck)             Checksum: A5E7603D19FF6B3755CA2BDE8264C316;11421.
+(rerunfilecheck)             Checksum: 706009DCB95ACADB5400383B48DDDB10;11490.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52223 strings out of 408640
- 1074025 string characters out of 5749145
- 2334836 words of memory out of 5000000
- 74423 multiletter control sequences out of 15000+600000
+ 52364 strings out of 408640
+ 1080133 string characters out of 5749145
+ 2336264 words of memory out of 5000000
+ 74560 multiletter control sequences out of 15000+600000
  562740 words of font info for 113 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,13n,131p,1283b,5925s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DePaepeBartBP.pdf (96 pages).
+Output written on DePaepeBartBP.pdf (98 pages).

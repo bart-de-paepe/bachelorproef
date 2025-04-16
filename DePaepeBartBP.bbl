@@ -182,6 +182,24 @@
       \verb 10.5771/0943-7444-2021-1-72
       \endverb
     \endentry
+    \entry{Usemongodbvectorsearch2025}{online}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Atlas Vector Search Quick Start}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mongodb.com/docs/atlas/atlas-vector-search/tutorials/vector-search-quick-start/
+      \endverb
+      \verb{url}
+      \verb https://www.mongodb.com/docs/atlas/atlas-vector-search/tutorials/vector-search-quick-start/
+      \endverb
+    \endentry
     \entry{Soup2025}{online}{}{}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
@@ -378,6 +396,24 @@
       \range{pages}{8}
       \verb{doi}
       \verb 10.1108/02640470610689151
+      \endverb
+    \endentry
+    \entry{Chroma2025}{online}{}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Chroma}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.trychroma.com/docs/overview/getting-started
+      \endverb
+      \verb{url}
+      \verb https://docs.trychroma.com/docs/overview/getting-started
       \endverb
     \endentry
     \entry{Click2025}{online}{}{}
@@ -829,6 +865,24 @@
       \range{pages}{14}
       \verb{doi}
       \verb 10.1162/qss_a_00022
+      \endverb
+    \endentry
+    \entry{Usechroma2025}{online}{}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{How to Use Chroma to Build Your First Similarity Search}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://iamajithkumar.medium.com/how-to-use-chroma-to-build-your-first-similarity-search-5c054bfd5add
+      \endverb
+      \verb{url}
+      \verb https://iamajithkumar.medium.com/how-to-use-chroma-to-build-your-first-similarity-search-5c054bfd5add
       \endverb
     \endentry
     \entry{Imaplib2025}{online}{}{}
@@ -2011,6 +2065,42 @@
       \verb https://github.com/neuml/paperai
       \endverb
     \endentry
+    \entry{Depaepechroma2025}{online}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Semantic search using Chroma}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/bart-de-paepe/google-scholar-semantic-chroma
+      \endverb
+      \verb{url}
+      \verb https://github.com/bart-de-paepe/google-scholar-semantic-chroma
+      \endverb
+    \endentry
+    \entry{Depaepemongodb2025}{online}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Semantic search using MongoDB}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/bart-de-paepe/google-scholar-semantic-mongodb
+      \endverb
+      \verb{url}
+      \verb https://github.com/bart-de-paepe/google-scholar-semantic-mongodb
+      \endverb
+    \endentry
     \entry{Singrodia2019}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=bf73363aa7b9a42bcaa727be596c4aa0}{%
@@ -2154,6 +2244,24 @@
       \verb https://sourceforge.net/projects/taxongrab/
       \endverb
     \endentry
+    \entry{Crossrefhowtoapi2025}{online}{}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Tips for using the Crossref REST API}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-the-crossref-rest-api/
+      \endverb
+      \verb{url}
+      \verb https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-the-crossref-rest-api/
+      \endverb
+    \endentry
     \entry{Anthropicmodel2025}{online}{}{}
       \field{sortinit}{U}
       \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
@@ -2170,6 +2278,24 @@
       \endverb
       \verb{url}
       \verb https://docs.anthropic.com/en/api/getting-started
+      \endverb
+    \endentry
+    \entry{Mongodbvectorsearch2025}{online}{}{}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Vector Search}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mongodb.com/products/platform/atlas-vector-search
+      \endverb
+      \verb{url}
+      \verb https://www.mongodb.com/products/platform/atlas-vector-search
       \endverb
     \endentry
     \entry{Vliz2024}{online}{}{}
@@ -2513,6 +2639,24 @@
       \verb 10.5771/0943-7444-2021-1-72
       \endverb
     \endentry
+    \entry{Usemongodbvectorsearch2025}{online}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Atlas Vector Search Quick Start}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mongodb.com/docs/atlas/atlas-vector-search/tutorials/vector-search-quick-start/
+      \endverb
+      \verb{url}
+      \verb https://www.mongodb.com/docs/atlas/atlas-vector-search/tutorials/vector-search-quick-start/
+      \endverb
+    \endentry
     \entry{Soup2025}{online}{}{}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
@@ -2709,6 +2853,24 @@
       \range{pages}{8}
       \verb{doi}
       \verb 10.1108/02640470610689151
+      \endverb
+    \endentry
+    \entry{Chroma2025}{online}{}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Chroma}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.trychroma.com/docs/overview/getting-started
+      \endverb
+      \verb{url}
+      \verb https://docs.trychroma.com/docs/overview/getting-started
       \endverb
     \endentry
     \entry{Click2025}{online}{}{}
@@ -3160,6 +3322,24 @@
       \range{pages}{14}
       \verb{doi}
       \verb 10.1162/qss_a_00022
+      \endverb
+    \endentry
+    \entry{Usechroma2025}{online}{}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{How to Use Chroma to Build Your First Similarity Search}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://iamajithkumar.medium.com/how-to-use-chroma-to-build-your-first-similarity-search-5c054bfd5add
+      \endverb
+      \verb{url}
+      \verb https://iamajithkumar.medium.com/how-to-use-chroma-to-build-your-first-similarity-search-5c054bfd5add
       \endverb
     \endentry
     \entry{Imaplib2025}{online}{}{}
@@ -4342,6 +4522,42 @@
       \verb https://github.com/neuml/paperai
       \endverb
     \endentry
+    \entry{Depaepechroma2025}{online}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Semantic search using Chroma}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/bart-de-paepe/google-scholar-semantic-chroma
+      \endverb
+      \verb{url}
+      \verb https://github.com/bart-de-paepe/google-scholar-semantic-chroma
+      \endverb
+    \endentry
+    \entry{Depaepemongodb2025}{online}{}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Semantic search using MongoDB}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/bart-de-paepe/google-scholar-semantic-mongodb
+      \endverb
+      \verb{url}
+      \verb https://github.com/bart-de-paepe/google-scholar-semantic-mongodb
+      \endverb
+    \endentry
     \entry{Singrodia2019}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=bf73363aa7b9a42bcaa727be596c4aa0}{%
@@ -4485,6 +4701,24 @@
       \verb https://sourceforge.net/projects/taxongrab/
       \endverb
     \endentry
+    \entry{Crossrefhowtoapi2025}{online}{}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Tips for using the Crossref REST API}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-the-crossref-rest-api/
+      \endverb
+      \verb{url}
+      \verb https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-the-crossref-rest-api/
+      \endverb
+    \endentry
     \entry{Anthropicmodel2025}{online}{}{}
       \field{sortinit}{U}
       \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
@@ -4501,6 +4735,24 @@
       \endverb
       \verb{url}
       \verb https://docs.anthropic.com/en/api/getting-started
+      \endverb
+    \endentry
+    \entry{Mongodbvectorsearch2025}{online}{}{}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Vector Search}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mongodb.com/products/platform/atlas-vector-search
+      \endverb
+      \verb{url}
+      \verb https://www.mongodb.com/products/platform/atlas-vector-search
       \endverb
     \endentry
     \entry{Vliz2024}{online}{}{}

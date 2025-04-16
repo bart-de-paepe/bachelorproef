@@ -269,16 +269,54 @@ In eerste instantie werd gedacht dat het geselecteerde model te zwak is voor dez
 \section{Web scraping via het parsen van de DOM}
 Tot zover is er nog geen bruikbaar resultaat. Het gebruik van een online model is betalend en kan niet gewenst zijn door de klant. Anderzijds leidt een lokaal model voorlopig niet tot een goed resultaat. Daarom wordt er teruggegrepen naar de meer klassieke benadering van web scraping waarbij de HTML structuur ontleed wordt aan de hand van custom code.
 De Google Scholar SERP is een gestructureerde HTML pagina. Voor het parsen wordt er gebruik gemaakt van deze structuur.
-Elk afzonderlijk resultaat heeft een H3-tag met als klasse 'gse\_alrt\_title' waarin de titel staat. De korte tekst van het zoekresultaat staat in een DIV-tag met als klasse 'gse\_alrt\_sni'. Tussen de titel en het snippet staan de auteurs, de uitgever en het jaartal gegroepeerd in een DIV-tag zoals te zien is in figuur \ref{fig:serp-html}.
+Elk afzonderlijk resultaat heeft een H3-tag met als klasse 'gse\_alrt\_title' waarin de titel staat. De korte tekst van het zoekresultaat staat in een DIV-tag met als klasse 'gse\_alrt\_sni'. Tussen de titel en het snippet staan de auteurs, de uitgever en het jaartal gegroepeerd in een DIV-tag zoals te zien is in figuur \ref{fig:serp_html}.
 \begin{figure}
     \centering
     \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/serp-html.JPG}
-    \caption[HTML structuur van de GS alert.]{\label{fig:serp-html}HTML structuur van de GS alert.}
+    \caption[HTML structuur van de GS alert.]{\label{fig:serp_html}HTML structuur van de GS alert.}
 \end{figure}
 \FloatBarrier
-Meerdere specifieke libraries laten toe om HTML en XML te parsen, maar de meest gekende bibliotheek is Beautiful Soup \autocite{Soup2025}. Door de naam van de HTML-tag en de gebruikte klasse (gse\_alrt\_title, en gse\_alrt\_sni) mee te geven aan Beautiful Soup, worden de overeenkomstige elementen in het HTML-document weergegeven. Beautiful Soup laat ook toe om te navigeren in het document zodat het element met de auteurs, de uitgever en het jaartal gemakkelijk gevonden kan worden.
-De code op github \textcite{DepaepeBeautifulsoup2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts. De volledige uitwerking is te zien in bijlage Parse Google Scholar zoekopdracht.
-De test met een SERP met 10 zoekresultaten was geslaagd. De gevraagde parameters worden gevonden voor elk van de 10 resultaten.\\
+Meerdere specifieke libraries laten toe om HTML te parsen, maar de meest gekende bibliotheek is Beautiful Soup \autocite{Soup2025}. Door de naam van de HTML-tag en de gebruikte klasse (gse\_alrt\_title, en gse\_alrt\_sni) mee te geven aan Beautiful Soup, worden de overeenkomstige elementen in het HTML-document weergegeven. Beautiful Soup laat ook toe om te navigeren in het document zodat het element met de auteurs, de uitgever en het jaartal gemakkelijk gevonden kan worden.\\
+De code op github \textcite{DepaepeBeautifulsoup2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts. 
+De selectie van tags aan de hand van Beautiful Soup is te zien in codefragment \ref{code:Soupselect}
+\begin{listing}
+    \begin{minted}{python}
+        ...
+        soup = BeautifulSoup(body_text, "html.parser", from_encoding="utf-8")
+        all_titles = soup.find_all("a", {"class": "gse_alrt_title"})
+        all_snippets = soup.find_all("div", {"class": "gse_alrt_sni"})
+        
+        ...
+        
+        for i in range(0, len(all_titles)):
+        title = all_titles[i].get_text()
+        snippet = all_snippets[i].get_text()
+        try:
+        data = self.parse_search_result(email_id, all_titles[i], all_snippets[i])
+        ...
+    \end{minted}
+    \caption[Beautiful Soup select codefragment]{Codefragment voor het selecteren van tags aan de hand van Beautiful Soup.}
+    \label{code:Soupselect}
+\end{listing}
+De navigatie tussen tags aan de hand van Beautiful Soup is te zien in codefragment \ref{code:Soupnav}
+\begin{listing}
+    \begin{minted}{python}
+        ...
+        media_type = title.find_previous()
+        if media_type.name.lower() == "span":
+        
+        ...
+        
+        author_publisher_year = snippet.find_previous()
+        author_publisher_year = author_publisher_year.get_text()
+        ...
+    \end{minted}
+    \caption[Beautiful Soup navigatie codefragment]{Codefragment voor het navigeren tussen tags aan de hand van Beautiful Soup.}
+    \label{code:Soupnav}
+\end{listing}
+De volledige uitwerking is te zien in bijlage Parse Google Scholar zoekopdracht.\\
+De test met een SERP met 10 zoekresultaten was geslaagd. De gevraagde parameters worden gevonden voor elk van de 10 resultaten.
+\section{Meest geschikte Web scraping}
 Tenslotte moet ook nog SerpAPI \autocite{Serpapi2025} vermeld worden. Tijdens het onderzoek naar web scraping kwam dit platform meermaals naar voren, zelfs voor de toepassingen die gebruik maken van AI. SerpAPI biedt specifieke oplossingen voor elke mogelijke search engine, waaronder ook Google Scholar. Alleen focust hun product telkens op de online search engine en niet op alerts waardoor de zoekresultaten niet incrementeel zijn.\\
-Tot besluit van dit hoofdstuk wordt er dus verder gewerkt met het parsen van de zoekresultaten aan de hand van Beautiful Soup. Omdat deze methode volledig afhankelijk is van de structuur van de HTML, is ze zeer begrijpbaar. De HTML wordt omgezet in Beautiful Soup en vervolgens kunnen de gewenste tags en klasses rechtstreeks geselecteerd worden.\\
-Om aan de tekortkoming van de grote mate van afhankelijkheid tegemoet te komen, kan er een notificatie geïmplementeerd worden die een bericht stuurt wanneer Beautiful Soup de gewenste tags in het HTML document niet langer vindt.
+Tot besluit van dit hoofdstuk wordt er dus verder gewerkt met het parsen van de zoekresultaten aan de hand van Beautiful Soup. De grote tekortkoming dat de code afhankelijk is van de HTML wordt verzacht doordat die HTML ook weerspiegeld wordt in de code. Aanpassingen zouden dus begrijpbaar en beperkt moeten blijven.\\
+Op een dag gaat de code dus breken en het zou goed zijn mocht men hiervan op de hoogte gebracht worden. Daarvoor kan er een e-mail notificatie geïmplementeerd worden die een bericht stuurt wanneer Beautiful Soup de gewenste tags in het HTML document niet langer vindt.

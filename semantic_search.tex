@@ -28,191 +28,194 @@
 \section{Inleiding}
 Alle publicaties in IMIS moeten uniek zijn. Op basis van voorgaande stappen is dat met 100\% zekerheid te bepalen in het geval de DOI van de publicatie gevonden werd.
 Als de DOI niet gevonden werd, kan er niet met zekerheid gesproken worden, maar er kan wel een score berekend worden dat de publicatie reeds in IMIS zit. Dat is mogelijk aan de hand van semantic search.\\
-Op basis van de titel van het artikel wordt een embedding berekend. Vervolgens wordt die vergeleken met alle embeddings van de titels in IMIS om zo tot een score te komen van de gelijkenis tussen beide.\\
+Op basis van de titel van het artikel wordt een embedding berekend. Vervolgens wordt die vergeleken met alle embeddings van de titels in IMIS om zo tot een score te komen van de gelijkenis tussen beide. Dit wordt voorgesteld in figuur \ref{fig:Semanticsearch}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{./5_semantic_search/embeddings.jpg}
+    \caption[Semantic search.]{\label{fig:Semanticsearch}Semantic search.}
+\end{figure}
+\\
 Indien de score hoog is dan is er veel waarschijnlijkheid dat de publicatie reeds in IMIS zit. In het geval van een lage score is de waarschijnlijkheid eerder klein.\\
-Daarvoor moeten de embeddings van deze gegevens van de publicatie vergeleken worden met de embeddings van alle publicaties in IMIS. De mate van overeenkomst tussen de embeddings geeft een probabiliteitswaarde voor de aanwezigheid van de publicatie in IMIS. Voor het detecteren van duplicaten zal er met een score gewerkt worden. Een score van 100\% betekent dat de publicatie zeker reeds in IMIS zit, een score van 0\% betekent dat de publicatie zeker niet in IMIS zit. 
-
- 
-LLMs zijn gemaakt met als doel om tekst te produceren en om tekst te begrijpen net zoals mensen dat doen. Ze zijn toepasbaar voor uiteenlopende doeleinden zoals het afleiden van de juiste context en het beantwoorden van vragen. Ze kunnen tekst samenvatten of zelf produceren.
-Titel, originele link, auteurs, naam van de uitgever, jaar van publicatie en snippet zijn vormen van context in een SERP.
-LLMs komen in verschillende geuren en kleuren, hier enkele verschillende setups.
-Er zijn betalende modellen.
-Er zijn niet betalende modellen.
-Zelf niet betalende modellen draaien met Ollama.
-Doen ze de job? Leiden ze de context af uit de SERP? Doen de verschillende setups het even goed? Wat zijn de gebreken? En wat kiezen we voor onze klant?
-
-Kan NLP gebruikt worden om de Google Scholar SERP om te zetten in gestructureerde data? Machine learning modellen zijn sterk in het herkennen van patronen. Een Google Scholar SERP heeft ook een vast patroon:
+\section{Chroma}
+Embeddings worden opgeslaan in een vector databank. Er zijn talloze producten beschikbaar:
 \begin{itemize}
-    \item titel
-    \item originele link
-    \item auteurs
-    \item naam van de uitgever
-    \item jaar van publicatie
-    \item snippet
+    \item Pinecone
+    \item Chroma
+    \item Weaviate
+    \item Qdrant
+    \item Milvus
+    \item Vespa
+    \item SingleStore
+    \item Redis
+    \item Elastic Stack
+    \item Mongo
+    \item …
+    \item (Every database that can store an n-array of numbers)
 \end{itemize}
-\begin{figure}
-    \centering
-    \includegraphics[width=0.8\textwidth]{./4_NLP/SERP.jpg}
-    \caption[Google Scholar SERP.]{\label{fig:Google ScholarSERP}Google Scholar SERP.}
-\end{figure}
-Hoe goed zijn de LLMs in het parsen van rauwe HTML, en in het bijzonder van Google Scholar SERP? Die pagina heeft al een meer complexe structuur , cryptische css klasses en een heleboel verbose data in de HTML.\\
-Een betalend model van OpenAI wordt gebruikt en een niet betalend model van Anthropic.
-\section{Analyse}
-\lipsum[1-2]
-\section{Implementatie}
-De rauwe HTML wordt eerst lichtjes verwerkt om de <head>, <script> en <style> tags uit de HTML te verwijderen. Deze bevatten toch geen content en zouden alleen maar de rekentijd, het aantal tokens, en overeenkomstig de prijs doen toenemen.\\
-Er wordt een prompt opgesteld:
+Chroma \autocite{Chroma2025} is een gebruiksvriendelijke database die toelaat om semantic search lokaal te testen zonder extra kosten, zonder account, en zonder installatie van andere software.\\
+Het online artikel \textcite{Usechroma2025} beschrijft stap voor stap hoe een semantic search met Chroma uitgevoerd kan worden. 
+De code op github \textcite{Depaepechroma2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts.
+De connectie met de Chroma database is te zien in codefragment \ref{code:Chromadb}.
 \begin{listing}
     \begin{minted}{python}
-        messages=[
-        {"role": "system",
-            "content": "You are a master at scraping Google Scholar results data. Scrape top 10 organic results data from Google Scholar search result page."},
-        {"role": "user", "content": body_text}
-        ],
+        ...
+        chroma_client = chromadb.Client()
+        # https://docs.trychroma.com/docs/collections/configure
+        self.collection = chroma_client.create_collection(
+        name="my_collection",
+        metadata={
+            "hnsw:space": "cosine"
+        }
+        )
+        ...
     \end{minted}
-    \caption[Prompt codefragment]{Codefragment voor het opstellen van een prompt.}
-    \label{code:Prompt codefragment}
+    \caption[Chroma codefragment]{Codefragment voor het connecteren met Chroma.}
+    \label{code:Chromadb}
 \end{listing}
-Er worden parse opties opgesteld:
+Vervolgens worden alle titels uit IMIS opgevraagd en worden de overeenkomstige embeddings berekend aan de hand van de code in codefragment \ref{code:Chromaembeddings}
 \begin{listing}
     \begin{minted}{python}
-       "function": {
-           "name": "parse_data",
-           "description": "Parse organic results from Google Scholar SERP raw HTML data nicely",
-           "parameters": {
-               'type': 'object',
-               'properties': {
-                   'data': {
-                       'type': 'array',
-                       'items': {
-                           'type': 'object',
-                           'properties': {
-                               'title': {'type': 'string'},
-                               'original_url': {'type': 'string'},
-                               'authors': {'type': 'string'},
-                               'year_of_publication': {'type': 'integer'},
-                               'journal_name': {'type': 'string'},
-                               'snippet': {'type': 'string'}
-                           }
-                       }
-                   }
-               }
-           }
-       }
+            def initialize_embeddings(self):
+        result = requests.get(``https://www.vliz.be/nl/imis?count=2000&module=ref&searchspcollist=39&show=json'')
+        publications = result.json()
+        documents = []
+        ids = []
+        count = 1
+        for publication in publications:
+        #self.logging_service.logger.debug(publication)
+        documents.append(publication['StandardTitle'])
+        ids.append(f"id{count}")
+        count+=1
+        
+        self.collection.add(
+        documents=documents,
+        ids=ids
+        )
     \end{minted}
-    \caption[Parse opties codefragment]{Codefragment voor het opstellen van parse opties.}
-    \label{code:Parse opties codefragment}
+    \caption[Embeddings codefragment]{Codefragment voor het berekenen van de embeddings.}
+    \label{code:Chromaembeddings}
 \end{listing}
-\section{Resultaat}
-Het betalend model van OpenAI heeft 100\% succes. Het vindt titel, originele url, auteurs, naam van de uitgever, jaar van publicatie, en snippet voor elk van de 10 zoekresultaten in de SERP.\\
-De kostprijs van de opzoeking bedraagt 0,17\$ (dat is voor 1 Google Scholar alert met 10 zoekresultaten). Het model gebruikte daarvoor 14743 tokens. 
+Dan kan een titel opgezocht worden zoals getoond wordt in codefragment \ref{code:Chromaquery}.
+\begin{listing}
+    \begin{minted}{python}
+            def do_semantic_search(self, title):
+        results = self.collection.query(
+        query_texts=[title],  # Chroma will embed this for you
+        n_results=2  # how many results to return
+        )
+        return results['distances'][0][0]
+    \end{minted}
+    \caption[Query codefragment]{Codefragment voor het opzoeken van een titel.}
+    \label{code:Chromaquery}
+\end{listing}
+\\
+De test was succesvol. Bij wijze van proef werd de titel van 1 van de zoekresultaten toegevoegd aan de lijst van titels uit IMIS. Het resultaat is te zien in figuur \ref{fig:Chroma}.
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{./4_NLP/openai_billing.png}
-    \caption[OpenAI dashboard.]{\label{fig:OpenAI dashboard}OpenAI dashboard.}
+    \includegraphics[width=0.8\textwidth]{./5_semantic_search/chroma-cosine-score.jpg}
+    \caption[Chroma resultaat.]{\label{fig:Chroma}Chroma resultaat.}
 \end{figure}
-Het niet betalend model van Anthropic heeft ook 100\% success. Er moet wel vermeldt worden dat niet alle jobs slaagden. In sommige gevallen gaf de Anthropic API een overloaded error terug \autocite{AnthropicOverloaded2025}.
+Deze oplossing voegt Chroma toe als database naast MongoDB die nodig is voor de Web scraping. Het zou beter zijn indien de embeddings ook in MongoDB opgeslaan kunnen worden. Dat wordt verder onderzocht.
+\section{MongoDB}
+Atlas Vector Search \autocite{Mongodbvectorsearch2025} laat toe om de embeddings tezamen op te slaan met de originele data waar ze van afgeleid zijn.\\
+De online documentatie \textcite{Usemongodbvectorsearch2025} beschrijft stap voor stap hoe een semantic search met Atlas Vector Search lokaal uitgevoerd kan worden. 
+De code op github \textcite{Depaepemongodb2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts.
+De selectie van het model voor de embeddings is te zien in codefragment \ref{code:Mongodbmodel}.
 \begin{listing}
-    Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}}
-    \caption[Anthropic overloaded codefragment]{Codefragment Anthropic overloaded.}
-    \label{code:Anthropic overloaded codefragment}
+    \begin{minted}{python}
+        ...
+        self.model = SentenceTransformer("nomic-ai/nomic-embed-text-v1", trust_remote_code=True)
+        ...
+    \end{minted}
+    \caption[MongoDB model codefragment]{Codefragment voor het configureren van het model met MongoDB.}
+    \label{code:Mongodbmodel}
 \end{listing}
-Om daar wat aan te doen kunnen we een model lokaal draaien met ollama.
-Onderstaande tabel geeft een overzcht van de zoekresultaten met OpenAI ten opzichte van de zoekresultaten met Anthropic.
-\begin{table}[ptb]
+Vervolgens worden alle titels uit IMIS opgevraagd en worden de overeenkomstige embeddings berekend aan de hand van de code in codefragment \ref{code:Mongodbembeddings}
+\begin{listing}
+    \begin{minted}{python}
+            def initialize_embeddings(self):
+        docs = []
+        data = []
+        embeddings = []
+        result = requests.get(IMIS)
+        publications = result.json()
+        for publication in publications:
+        data.append(publication['StandardTitle'])
+        embeddings.append(self.get_embedding(publication['StandardTitle']))
+        
+        for i, (embedding, title) in enumerate(zip(embeddings, data)):
+        doc = {
+            "_id": i,
+            "title": title,
+            "embedding": embedding,
+        }
+        docs.append(doc)
+        self.db_service.set_collection("embeddings")
+        self.db_service.insert_many(docs)
+    \end{minted}
+    \caption[Embeddings codefragment]{Codefragment voor het berekenen van de embeddings.}
+    \label{code:Mongodbembeddings}
+\end{listing}
+Vervolgens wordt de lijst met embedding geïndexeerd zoals getoond wordt in codefragment \ref{code:Mongodbindex}.
+\begin{listing}
+    \begin{minted}{python}
+            def create_search_index(self):
+        search_index_model = SearchIndexModel(
+        definition={
+            "fields": [
+            {
+                "type": "vector",
+                "path": "embedding",
+                "similarity": "dotProduct",
+                "numDimensions": 768
+            }
+            ]
+        },
+        name="vector_index",
+        type="vectorSearch"
+        )
+        self.db_service.set_collection("embeddings")
+        self.db_service.create_search_index(model=search_index_model)
+    \end{minted}
+    \caption[Index codefragment]{Codefragment voor het indexeren van de embeddings.}
+    \label{code:Mongodbindex}
+\end{listing}
+Dan kan een titel opgezocht worden zoals getoond wordt in codefragment \ref{code:Mongodbquery}.
+\begin{listing}
+    \begin{minted}{python}
+            def do_semantic_search(self, title):
+        query_embedding = self.get_embedding(title)
+        pipeline = [
+        {
+            "$vectorSearch": {
+                "index": "vector_index",
+                "queryVector": query_embedding,
+                "path": "embedding",
+                "exact": True,
+                "limit": 5
+            }
+        },
+        {
+            "$project": {
+                "_id": 0,
+                "title": 1,
+                "score": {
+                    "$meta": "vectorSearchScore"
+                }
+            }
+        }
+        ]
+        self.db_service.set_collection("embeddings")
+        result = self.db_service.aggregate(pipeline)
+    \end{minted}
+    \caption[Query codefragment]{Codefragment voor het opzoeken van een titel.}
+    \label{code:Mongodbquery}
+\end{listing}
+\\
+De test was succesvol. Bij wijze van proef werd de titel van 1 van de zoekresultaten toegevoegd aan de lijst van titels uit IMIS. Het resultaat is te zien in figuur \ref{fig:Mongodb}.
+\begin{figure}
     \centering
-    \begin{tabular}{ | m{7.5cm} | m{7.5cm}| } 
-        \hline
-        \rowcolor{lightgray}
-        OpenAI & Anthropic \\ 
-        \hline
-        \rowcolor{lightgray}
-        Auteurs & - \\ 
-        \hline
-        L Schunck, U von D�ring, J Wilke & ["L Schunck", "U von Düring", "J Wilke"] \\ 
-        FZ Ben Debbane, A Baidani, M Aarbaoui� & ["FZ Ben Debbane", "A Baidani", "M Aarbaoui"] \\
-        C Brittenham, AS DiCriscio, V Troiani, Y Hu, JB Wagner & ["C Brittenham", "AS DiCriscio", "V Troiani", "Y Hu", "JB Wagner"] \\
-        B Tator, M Le Sage, RA Relyea & ["B Tator", "M Le Sage", "RA Relyea"] \\
-        S Kang, B Yoon, K Kim, J Gratch, W Woo & ["S Kang", "B Yoon", "K Kim", "J Gratch", "W Woo"] \\
-        J Wei, X Tang, J Liu, T Luo, Y Wu, J Duan, S Xiao� & ["J Wei", "X Tang", "J Liu", "T Luo", "Y Wu", "J Duan", "S Xiao"] \\
-        M Rakszegi, V T�th, S T�m�sk�zi, E Jaksics, A Cseh� & ["M Rakszegi", "V Tóth", "S Tömösközi", "E Jaksics", "A Cseh"] \\
-        XY Zhang, WL Chen & ["XY Zhang", "WL Chen"] \\
-        B Larue, F Pelletier, M Festa-Bianchet, S Hamel & ["B Larue", "F Pelletier", "M Festa-Bianchet", "S Hamel"] \\
-        JW Whitlock, PM Orwin, ZR Stahlschmidt & ["JW Whitlock", "PM Orwin", "ZR Stahlschmidt"] \\
-        \hline
-        \rowcolor{lightgray}
-        Link & - \\ 
-        \hline
-        {"url": "https://www.sciencedirect.com/science/article/pii/S0191886925001308"} & {"url": "https://www.sciencedirect.com/science/article/pii/S0191886925001308"} \\ 
-        {"url": "https://link.springer.com/article/10.1007/s42729-025-02366-3"} & {"url": "https://link.springer.com/article/10.1007/s42729-025-02366-3"} \\
-        {"url": "https://www.nature.com/articles/s41598-025-92904-x"} & {"url": "https://www.nature.com/articles/s41598-025-92904-x"} \\
-        {"url": "https://www.sciencedirect.com/science/article/pii/S0269749125004750"} & {"url": "https://www.sciencedirect.com/science/article/pii/S0269749125004750"} \\
-        {"url": "https://ieeexplore.ieee.org/abstract/document/10935702/"} & {"url": "https://ieeexplore.ieee.org/abstract/document/10935702/"} \\
-        {"url": "https://www.sciencedirect.com/science/article/pii/S2666154325002091"} & {"url": "https://www.sciencedirect.com/science/article/pii/S2666154325002091"} \\
-        {"url": "https://www.sciencedirect.com/science/article/pii/S0733521025000608"} & {"url": "https://www.sciencedirect.com/science/article/pii/S0733521025000608"} \\
-        {"url": "https://academic.oup.com/botlinnean/advance-article/doi/10.1093/botlinnean/boaf012/8089970"} & {"url": "https://academic.oup.com/botlinnean/advance-article/doi/10.1093/botlinnean/boaf012/8089970"} \\
-        {"url": "https://www.pnas.org/doi/full/10.1073/pnas.2417158122"} & {"url": "https://www.pnas.org/doi/full/10.1073/pnas.2417158122"} \\
-        {"url": "https://journals.biologists.com/jeb/article/doi/10.1242/jeb.250210/367452"} & {"url": "https://journals.biologists.com/jeb/article/doi/10.1242/jeb.250210/367452"} \\
-        \hline
-        \rowcolor{lightgray}
-        Publisher & - \\ 
-        \hline
-        Personality and Individual Differences & Personality and Individual Differences \\ 
-        Journal of Soil Science and� & Journal of Soil Science and Plant Nutrition \\
-        Scientific Reports & Scientific Reports \\
-        Environmental Pollution & Environmental Pollution \\
-        IEEE Transactions on Visualization and� & IEEE Transactions on Visualization and Computer Graphics \\
-        Journal of Agriculture and� & Journal of Agriculture and Food Engineering \\
-        Journal of Cereal Science & Journal of Cereal Science \\
-        Botanical Journal of the Linnean Society & Botanical Journal of the Linnean Society \\
-        Proceedings of the National� & Proceedings of the National Academy of Sciences \\
-        Journal of Experimental Biology & Journal of Experimental Biology \\
-        \hline
-        \rowcolor{lightgray}
-        Text & - \\ 
-        \hline
-        This systematic review and meta-analysis examine the association between... & This systematic review and meta-analysis examine the association between... \\ 
-        Nitrogen (N) is an essential element for cereals growth and development... & Nitrogen (N) is an essential element for cereals growth and development... \\
-        � with high levels of autistic traits would have more default reports... & ... with high levels of autistic traits would have more default reports... \\
-        � of salt on individual traits. Moreover, we know even less about how... & ... of salt on individual traits. Moreover, we know even less about how... \\
-        � traits directly address impression management and strategic self-... & ... traits directly address impression management and strategic self-... \\
-        As consumer demand for high-quality meat rises, efficient and precise... & As consumer demand for high-quality meat rises, efficient and precise... \\
-        � array analysis were compared for physical, compositional and bread... & ... array analysis were compared for physical, compositional and bread... \\
-        Micromorphological traits have been extensively used for taxonomic... & Micromorphological traits have been extensively used for taxonomic... \\
-        � Individual life histories are characterized by the expression of... & ... Individual life histories are characterized by the expression of... \\
-        � -generational exposure to GBHs on a range of traits related to life... & ... -generational exposure to GBHs on a range of traits related to life... \\
-        \hline
-        \rowcolor{lightgray}
-        Title & - \\ 
-        \hline
-        The role of narcissistic personality traits in bullying behavior in adolescence�A systematic review and meta-analysis & The role of narcissistic personality traits in bullying behavior in adolescence–A systematic review and meta-analysis \\ 
-        Exploring Nitrogen Use Efficiency in Cereals: Insight into Traits, Metabolism, and Management Strategies Under Climate Change Conditions�A Comprehensive� & Exploring Nitrogen Use Efficiency in Cereals: Insight into Traits, Metabolism, and Management Strategies Under Climate Change Conditions–A Comprehensive Review \\
-        Task-evoked pupil responses during free-viewing of hierarchical figures in relation to autistic traits in adults & Task-evoked pupil responses during free-viewing of hierarchical figures in relation to autistic traits in adults \\
-        Additive effects of freshwater salinization on the predator-induced traits of larval amphibians & Additive effects of freshwater salinization on the predator-induced traits of larval amphibians \\
-        How Collaboration Context and Personality Traits Shape the Social Norms of Human-to-Avatar Identity Representation & How Collaboration Context and Personality Traits Shape the Social Norms of Human-to-Avatar Identity Representation \\
-        Pork-YOLO: Automated Collection of Pork Quality Traits & Pork-YOLO: Automated Collection of Pork Quality Traits \\
-        Inter-and intraspecific study on compositional quality traits of diverse sets of spelt and common wheat & Inter-and intraspecific study on compositional quality traits of diverse sets of spelt and common wheat \\
-        Embryo traits and their taxonomic implications in stipoid grasses (Poaceae: Stipeae) in Asia & Embryo traits and their taxonomic implications in stipoid grasses (Poaceae: Stipeae) in Asia \\
-        Uncovering bighorn sheep life-history trajectories in multidimensional trait space & Uncovering bighorn sheep life-history trajectories in multidimensional trait space \\
-        Multigenerational exposure to glyphosate has only modest effects on life history traits, stress tolerance, and microbiome in a field cricket & Multigenerational exposure to glyphosate has only modest effects on life history traits, stress tolerance, and microbiome in a field cricket \\
-        \hline
-        \rowcolor{lightgray}
-        Year & - \\ 
-        \hline
-        2025 & 2025 \\ 
-        2025 & 2025 \\
-        2025 & 2025 \\
-        2025 & 2025 \\
-        2025 & 2025 \\
-        2025 & 2025 \\
-        2025 & 2025 \\
-        2025 & 2025 \\
-        2025 & 2025 \\
-        2025 & 2025 \\
-        \hline
-    \end{tabular}
-    \caption{Overzicht zoekresultaten met OpenAi en Anthropic.}
-\end{table}
-Om een model lokaal te draaien is de limiet bepaald door het geheugen van de computer. Daarom wordt er gekozen voor het llama3.2 model dat 2GB inneemt. Het llama3 model neemt 40GB in en kan niet gebruikt worden op een laptop.
-Het lokale llama3.2 model is niet in staat om de SERP te scrapen. Ook niet wanneer we slechts 1 zoekresultaat als input gegeven wordt. Het is pas nadat de verbose HTML tags verwijderd zijn, dat het model in staat is om de overgebleven tekst te parsen.
-Dit moet verder onderzocht worden aan de hand van grotere modellen op  krachtigere servers.
+    \includegraphics[width=0.8\textwidth]{./5_semantic_search/mongodb-cosine-score.jpg}
+    \caption[Mongodb resultaat.]{\label{fig:Mongodb}Mongodb resultaat.}
+\end{figure}
+Deze oplossing breidt de bestaande MongoDB databank uit met embeddings. Voor artikels zonder indentifcatie kan een score berekend worden die duidt op duplicaten in IMIS. 

@@ -27,16 +27,22 @@
 %% en geef het een gepaste titel.
 \section{Inleiding}
 De web scraping leverde gegevens zoals titel, auteurs, naam van tijdschrift en jaartal van de publicatie op. Deze informatie heeft echter geen garantie van uniciteit. Dat is te wijten aan mogelijke varianten (zoals bijvoorbeeld afkortingen) in de titel, auteurs en naam van tijdschriften.\\
-Nochtans moet een publicatie uniek geïdentificeerd kunnen worden teneinde ze aan IMIS toe te voegen.
+Nochtans moet een publicatie uniek geïdentificeerd kunnen worden om uit te sluiten dat er reeds duplicaten in IMIS zitten.
 De DOI vormt de unieke indentifier van elke publicatie. Er zal getracht worden om deze voor elke publicatie op te zoeken. Hiervoor worden 3 afzonderlijke bronnen geraadpleegd in chronologische volgorde en zolang de DOI niet gevonden werd:
 \begin{itemize}
     \item In de URL van de link naar de originele publicatie
-    \item Aan de hand van een opzoeking in Crossref op basis van titel, auteurs, naam van tijdschrift en jaartal
-    \item Op de oorspronkelijke webpagina van de publicatie
+    \item Aan de hand van een opzoeking in Crossref op basis van de titel
+    \item Op de originele webpagina van de publicatie
 \end{itemize}
 
 \section{De DOI opzoeken in de URL}
-De web scraping vond ook de URL naar de webpagina van de oorspronkelijke publicatie. Empirisch valt het op dat veel van die URLs opgebouwd zijn met de DOI van de publicatie.\\
+\label{Doiurl}
+De web scraping vond ook de URL naar de webpagina van de oorspronkelijke publicatie. Empirisch valt het op dat veel van die URLs opgebouwd zijn met de DOI van de publicatie (voorbeeld in codefragment \ref{code:oriurl}).
+\begin{listing}
+    https://pubs.acs.org/doi/full/10.1021/acsami.4c21991
+    \caption[Originele URL van de publicatie]{Originele URL van de publicatie}
+    \label{code:oriurl}
+\end{listing}\\
 Alle DOIs hebben dezelfde structuur: ze beginnen met het cijfer 10, gevolgd door een punt en 4 tot 9 cijfers, daarna volgt een slash. Verder kan elke willekeurige opeenvolging van letters, cijfers, speciale tekens en slashes voorkomen.
 De volgende lijst reguliere expressies is aanbevolen om DOIs op te zoeken \textcite{CrossrefRegex2025}:
 \begin{itemize}
@@ -47,27 +53,71 @@ De volgende lijst reguliere expressies is aanbevolen om DOIs op te zoeken \textc
     \item \texttt{/\textasciicircum10.1207/[\textbackslash w\textbackslash d]+\textbackslash \&\textbackslash d+\_\textbackslash d+\$/i}
 \end{itemize}
 Indien 1 van deze reguliere expressies matcht met de URL, dan is de DOI gevonden.
+De omzetting in code is te zien in codefragment \ref{code:Urlregex}
+\begin{listing}
+    \begin{minted}{python}
+        def search_in_text(text, link):
+        # find using regex
+        patterns = get_patterns()
+        doi_result = None
+        while (doi_result is None) and (len(patterns) > 0):
+        doi_result = re.search(patterns.pop(), text, re.IGNORECASE)
+        
+        if doi_result is not None:
+        # update DOI
+        doi = doi_result.group(0)
+        link.doi = doi
+        link.is_doi_success = True
+        link.log_message = "DOI successfully retrieved"
+        
+        ...
+        
+        def get_patterns():
+        # https://www.crossref.org/blog/dois-and-matching-regular-expressions/
+        # /^10.\d{4,9}/[-._;()/:A-Z0-9]+$/i
+        # /^10.1002/[^\s]+$/i
+        # /^10.\d{4}/\d+-\d+X?(\d+)\d+<[\d\w]+:[\d\w]*>\d+.\d+.\w+;\d$/i
+        # /^10.1021/\w\w\d++$/i
+        # /^10.1207/[\w\d]+\&\d+_\d+$/i
+        
+        patterns = [r"10.1207/[\w\d]+\&\d+_\d+", r"10.1021/\w\w\d++",
+        r"10.\d{4}/\d+-\d+X?(\d+)\d+<[\d\w]+:[\d\w]*>\d+.\d+.\w+;\d", r"10.1002/[^\s]+",
+        r"10.\d{4,9}/[-._;()/:A-Z0-9]+"]
+        return patterns
+    \end{minted}
+    \caption[Opzoeken van DOI in de URL van de publicatie]{Codefragment voor het opzoeken van DOI in de URL van de publicatie.}
+    \label{code:Urlregex}
+\end{listing}
 \section{De DOI opzoeken in Crossref}
-Indien de voorgaande stap geen DOI opleverde, dan wordt hier op basis van titel, auteurs, naam van tijdschrift en jaartal een opzoeking van de DOI gedaan in Crossref. 
-Daarvoor kan er gewerkt worden met meerdere onafhankelijke Python bibliotheken:
+Indien de voorgaande stap geen DOI opleverde, dan wordt hier op basis van de titel een opzoeking van de DOI gedaan in Crossref. Daarvoor beschikt Crossref over een API \autocite{Crossrefhowtoapi2025}. De documentatie leert dat ondoordachte requests kunnen leiden tot zeer langdurige queries en/of ongewenste resultaten. Concreet wordt er afgeraden om meer dan 2 velden op te nemen in de query van een sample, of om meer dan 2 resultaten te vragen in het geval van een matching. Verder wordt voor matching aangeraden om te zoeken aan de hand van de bibliografische gegevens zoals te zien in codefragment \ref{code:Bibliographic}.
+\begin{listing}
+    http://api.crossref.org/works?query.bibliographic="Toward a Unified Theory of High-Energy Metaphysics, Josiah Carberry 2008-08-13"&rows=2
+    \caption[Query op basis van de bibliografie]{Query op basis van de bibliografie}
+    \label{code:Bibliographic}
+\end{listing}
+Maar Google Scholar alerts geven geen bibliografie, daarom wordt enkel de titel verder gebruikt.
+Het is niet nodig om de API rechtstreeks te bevragen aangezien meerdere onafhankelijke Python libraries daar een wrapper voor geschreven hebben:
 \begin{itemize}
     \item Crossref Commons for Python \autocite{Crossrefcommons2025}
     \item Habanero \autocite{Habanero2025}
     \item Crossrefapi \autocite{Crossrefapi2025}
 \end{itemize}
-Al deze bibliotheken bieden dezelfde tools en presteren gelijkaardig. Zonder bijzondere reden, behalve dat Crossref Commons ontwikkeld wordt door Crossref zelf, wordt er met Crossref Commons for Python gewerkt. De code om een entity op te vragen is bijzonder compact zoals te zien in \ref{code:Crossref commons}
+Al deze bibliotheken bieden dezelfde tools en presteren gelijkaardig. Zonder bijzondere reden, behalve dat Crossref Commons ontwikkeld wordt door Crossref zelf, wordt er met Crossref Commons for Python gewerkt. De code om een sample op te vragen op basis van de titel is bijzonder compact zoals te zien in \ref{code:Crossref_commons}
 \begin{listing}
     \begin{minted}{python}
-        response = crossref_commons.retrieval.get_publication_as_json(doi)
+                try:
+        filter = {}
+        queries = {'query.title': title}
+        response = crossref_commons.sampling.get_sample(size=2, filter=filter, queries=queries)
     \end{minted}
-    \caption[Crossref commons codefragment]{Codefragment voor opvragen van de metadata van een publicatie aan Crossref.}
-    \label{code:Crossref commons}
+    \caption[Crossref commons codefragment]{Codefragment voor opvragen van een sample op basis van de titel aan Crossref.}
+    \label{code:Crossref_commons}
 \end{listing}
 Indien de Crossref API een resultaat geeft, dan is de DOI gevonden.
 \section{De DOI opzoeken op de webpagina van de publicatie}
 Indien de voorgaande stap geen DOI opleverde, dan wordt het DOI gezocht op de webpagina van de publicatie. In de meeste gevallen is dat op de website van de uitgever van het tijdschrift. Op die pagina staan altijd de titel, auteurs, naam van het tijdschrift, jaartal en abstract van de publicatie.
 Soms staat ook de DOI op die pagina.
-In sommige gevallen is de integrale tekst van de publicatie hier beschikbaar als HTML of PDF document.\\
+In sommige gevallen is de integrale tekst van de publicatie hier beschikbaar als HTML of als PDF document.\\
 Het formaat van de pagina kan verschillende zijn:
 \begin{itemize}
     \item Een gewone HTML pagina
@@ -76,19 +126,74 @@ Het formaat van de pagina kan verschillende zijn:
 \end{itemize}
 Voor elk van de 3 gevallen is er een andere verwerking nodig:
 \begin{itemize}
-    \item In het geval van een HTML pagina wordt de inhoud geparsed met Beautiful Soup net zoals dat eerder gebeurde voor de SERP. Vervolgens wordt een DOI opgezocht in de inhoud door middel van de reguliere expressies.
-    \item In het geval van een PDF document is er een extra tussenstap nodig. De inhoud moet gelezen worden met gebruik van \autocite{Pymupdf2025}. Voorbeeld in codefragment \ref{code:pymupdf}.
+    \item In het geval van een HTML pagina wordt de inhoud geparsed met Beautiful Soup net zoals dat eerder gebeurde voor de SERP. Vervolgens wordt een DOI opgezocht in de inhoud door middel van de reguliere expressies uit hoofdstuk \ref{Doiurl}.
+    \item In het geval van een PDF document is er een extra tussenstap nodig. De inhoud moet gelezen worden met gebruik van PyMuPDF \autocite{Pymupdf2025}. Daarna wordt er ook gezocht aan de hand van de reguliere expressies. Voorbeeld in codefragment \ref{code:DOIpymupdf}.
     \begin{listing}
         \begin{minted}{python}
+            def search_in_pdf(pdf, link):
             doc = pymupdf.Document(stream=pdf)
             # Extract all Document Text
             text = chr(12).join([page.get_text() for page in doc])
+            patterns = get_patterns()
+            doi_result = None
+            while (doi_result is None) and (len(patterns) > 0):
+            pattern = re.compile(patterns.pop(), re.IGNORECASE)
+            doi_result = pattern.search(text)
+            
+            if doi_result is not None:
+            #update DOI
+            doi = doi_result.group(0)
+            link.doi = doi
+            link.is_doi_success = True
+            link.log_message = "DOI successfully retrieved"
         \end{minted}
         \caption[Pymupdf codefragment]{Codefragment voor het openen van een online pdf.}
-        \label{code:pymupdf}
+        \label{code:DOIpymupdf}
     \end{listing}
-    Daarna wordt er ook gezocht adhv. de reguliere expressies.
-    \item In het geval van een embedded PDF is de inhoud niet onmiddellijk beschikbaar. De gebruiker moet als het ware nog een handeling verrichten (vb. op een knop klikken) alvorens toegang te krijgen tot de inhoud. Dat gaat niet voor een script, maar door middel van Selenium \autocite{Selenium2025} kan de embedded content automatisch gedownload worden. Eenmaal gedownload kan het bestand gewoon geopend worden en doorzocht worden naar een DOI op dezelfde manier als voor PDF documenten.
+    \item In het geval van een embedded PDF is de inhoud niet onmiddellijk beschikbaar. De gebruiker moet als het ware nog een handeling verrichten (vb. op een knop klikken) alvorens toegang te krijgen tot de inhoud. Dat gaat niet voor een geäutomatiseerd script, maar door middel van Selenium \autocite{Selenium2025} kan de gebruikersinteractie nagebootst worden zodat de embedded content toch automatisch gedownload wordt. Voorbeeld in codefragment \ref{code:DOIselenium}.
+    \begin{listing}
+        \begin{minted}{python}
+            ...
+            url = link.location_replace_url
+            
+            options = webdriver.ChromeOptions()
+            
+            download_folder = os.path.join(str(Path(__file__).parent.parent.parent.parent), "online_pdf")
+            
+            logging_service.logger.debug(f"Download folder: {download_folder}")
+            
+            profile = {
+                "plugins.plugins_list": [{"enabled": False, "name": "Chrome PDF Viewer"}],
+                "download.default_directory": download_folder,
+                "download.extensions_to_open": "",
+                "download.prompt_for_download": False,
+                "download.directory_upgrade": True,
+                "plugins.always_open_pdf_externally": True
+            }
+            options.add_experimental_option("prefs", profile)
+            options.add_argument("start-maximized") # open Browser in maximized mode
+            options.add_argument("disable-infobars") # disabling infobars
+            options.add_argument("--disable-extensions") # disabling extensions
+            options.add_argument("--disable-gpu") # applicable to windows os only
+            options.add_argument("--disable-dev-shm-usage") # overcome limited resource problems
+            options.add_argument("--no-sandbox") # Bypass OS security  model
+            options.add_argument("--headless")
+            
+            logging_service.logger.debug("Downloading file from link: {}".format(link.location_replace_url))
+            print("Downloading file from link: {}".format(link.location_replace_url))
+            
+            driver = webdriver.Chrome(options=options)
+            driver.get(url)
+            
+            logging_service.logger.debug("Status: Download Complete.")
+            print("Status: Download Complete.")
+            
+            driver.close()
+            ...
+        \end{minted}
+        \caption[Selenium codefragment]{Codefragment voor het nabootsen van gebruikersinteractie met Selenium.}
+        \label{code:DOIselenium}
+    \end{listing} Eenmaal gedownload kan het bestand gewoon geopend worden en doorzocht worden naar een DOI op dezelfde manier als voor PDF documenten.
 \end{itemize}
 Er is geen garantie dat de DOI op de webpagina van de publicatie gevonden wordt. Anderzijds is het ook mogelijk dat er meerdere verschillende DOIs gevonden worden. Voor een mens is het vaak evident om te weten welke DOI dan juist is, maar voor geautomatiseerd script is daar geen context voor.\\
 Er kan dus besloten worden dat de DOI met grote zekerheid achterhaald kan worden op basis van de URL of adhv. Crossref. In het geval van een opzoeking op de webpagina van de publicatie is de vindkans een pak kleiner.
