@@ -1327,6 +1327,24 @@
       \verb https://www.mongodb.com/resources/basics/databases/document-databases
       \endverb
     \endentry
+    \entry{Depaepenlp2025}{online}{}{}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Natural Language Processing of Google Scholar search results}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/bart-de-paepe/google-scholar-natural-language-processing/blob/main/app/src/services/natural_language_processing_service.py
+      \endverb
+      \verb{url}
+      \verb https://github.com/bart-de-paepe/google-scholar-natural-language-processing/blob/main/app/src/services/natural_language_processing_service.py
+      \endverb
+    \endentry
     \entry{Noruzi2005}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=df6524599296f3938d111d4ee2060224}{%
@@ -3782,6 +3800,24 @@
       \endverb
       \verb{url}
       \verb https://www.mongodb.com/resources/basics/databases/document-databases
+      \endverb
+    \endentry
+    \entry{Depaepenlp2025}{online}{}{}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Natural Language Processing of Google Scholar search results}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/bart-de-paepe/google-scholar-natural-language-processing/blob/main/app/src/services/natural_language_processing_service.py
+      \endverb
+      \verb{url}
+      \verb https://github.com/bart-de-paepe/google-scholar-natural-language-processing/blob/main/app/src/services/natural_language_processing_service.py
       \endverb
     \endentry
     \entry{Noruzi2005}{article}{}{}
