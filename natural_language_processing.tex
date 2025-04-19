@@ -26,12 +26,12 @@
 %% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
 %% en geef het een gepaste titel.
 \section{Inleiding}
-Google Scholar heeft feitelijk al gezocht naar relevante publicaties voor onze zoekopdracht. De sortering van de zoekresultaten is op basis van de omvang van de integrale tekst, het aanzien van het tijdschrift, het aanzien van de auteurs en het aantal citaties (inclusief de leeftijd ervan). Op die manier volgt Google Scholar de manier van werken binnen de academische wereld.\\
+Google Scholar heeft feitelijk al gezocht naar publicaties die relevant zijn voor onze zoekopdracht. De sortering van de zoekresultaten is op basis van de omvang van de integrale tekst, het aanzien van het tijdschrift en van de auteurs en het aantal citaties (inclusief de gedateerdheid ervan). Op die manier volgt Google Scholar de manier van werken binnen de academische wereld.\\
 Maar dit laat nog steeds ruimte om voor elk zoekresultaat een score af te leiden die aangeeft hoe relevant de publicatie is voor IMIS. De zoekopdracht voor het VLIZ bijvoorbeeld gebruikt als 1 van de trefwoorden ``Simon Stevin'', zijnde het wetenschappelijk vaartuig van het VLIZ. Dat betekent dat Google Scholar ook zoekresultaten zal geven van publicaties die verwijzen naar ``Simon Stevin'', de vlaamse geleerde uit de 16de eeuw. Het is interessant om die artikels te kunnen markeren met een lagere score ten opzichte van publicaties die het trefwoord ``VLIZ'' bevatten.\\
-Natural Language Processing is een verzamelnaam van een hele groep technieken die tekst omzetten in informatie. De toepassingen en technieken zijn zeer uitgebreid en daarom ook onderverdeeld in verschillende deelgebieden. Het bepalen van de relevantie van een tekst in functie van een trefwoord valt eerder onder het deelgebied van de ``Natural Language Understanding''.\\
+Daar bestaan Natural Language Processing (NLP) technieken voor. NLP is een verzamelnaam van een hele groep toepassingen en algorithmes die tekst omzetten in informatie. Deze zijn zeer divers en daarom ook onderverdeeld in verschillende deelgebieden. Het bepalen van de relevantie van een tekst in functie van een trefwoord valt eerder onder het deelgebied van de ``Natural Language Understanding''.\\
 
 \section{Relevantiescore}
-Het uitgangspunt is om een score te berekenen door te tellen hoe vaak een trefwoord voorkomt in een tekst. De frequentie is dan rechtevenredig met de relevantie van de tekst. Een eenvoudige techniek voor het bepalen van de frequentie is aan de hand van een ``Bag of Words'' (BoW). Dat is een tabel met een rij voor elke tekst en een kolom voor elk uniek woord. De cellen tonen het aantal keer dat het woord voorkomt in de tekst.  Dit is te zien in figuur \ref{fig:bow}.
+Het uitgangspunt is om een score te berekenen door te tellen hoe vaak een trefwoord voorkomt in de tekst. De frequentie is dan rechtevenredig met de relevantie van die tekst. Een eenvoudige techniek voor het bepalen van de frequentie is aan de hand van een ``Bag of Words'' (BoW). Dat is een tabel met een rij voor elke tekst en een kolom voor elk uniek woord. De cellen tonen het aantal keer dat het woord voorkomt in de tekst.  Dit is te zien in figuur \ref{fig:bow}.
 \begin{figure}
     \centering
     \includegraphics[width=0.8\textwidth]{./4_NLP/bow.jpg}
@@ -64,7 +64,7 @@ Toch is de frequentie op zich nog niet de beste waardemeter voor een teksts. Er 
 \begin{figure}
     \centering
     \includegraphics[width=0.8\textwidth]{./4_NLP/tf-idf.jpg}
-    \caption[term frequency-inverse document frequency.]{\label{fig:bow}term frequency-inverse document frequency.}
+    \caption[term frequency-inverse document frequency.]{\label{fig:tf-idf}term frequency-inverse document frequency.}
 \end{figure}
 Maar de relevantie van een publicatie kan niet afhangen van het aantal zoekresultaten, daarom valt de ``inverse document frequency'' weg. In de plaats zijn er andere parameters om de relevantie te benaderen.
 \begin{itemize}
@@ -81,8 +81,8 @@ Aan de hand van die parameters kan een relevantiescore berekend worden zoals te 
 \end{listing}
 De code op github \textcite{Depaepenlp2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts.
 \section{Tekstverwerking}
-De BoW geeft wel aanleiding voor tabellen met zeer grote dimensies. Hoe meer teksten er zijn, des te uitgebreider zal de woordenschat worden. Daarom wordt de BoW altijd voorafgegaan door tekstverwerking die stopwoorden \footnote{Stopwoorden (of, a, the, in ,you, ...) komen vaak voor maar hebben geen toegevoegde waarde over het onderwerp.} verwijdert en lemmatisering \footnote{Lemmatisering zet woorden om naar hun basisvorm, maar houdt daarbij rekening met de context. Voorbeeld ``caring'' wordt omgezet in ``care'' en niet in ``car''.}.\\
-Voornaamwoorden kunnen verwijzen naar het trefwoord. Het is dus relevant om ze te vervangen door het trefwoord zelf zodat het van invloed is op de score. ``Coreference resolution'' is daar de geschikte NLP techniek voor. In een eerste fase worden alle gerelateerde voornaamwoorden en zelfstandige naamwoorden opgezocht. In een tweede fase worden alle gevonden voornaamwoorden vervangen door hun bijhorende zelfstandig naamwoord. Daarvoor gebruikt deze techniek een coreference model dat bestaat uit opeenvolgende paren van tokens met een bijhorende coreference score.
+De BoW geeft wel aanleiding tot tabellen met zeer grote dimensies. Hoe meer teksten er zijn, des te uitgebreider zal de woordenschat worden. Daarom wordt de BoW altijd voorafgegaan door tekstverwerking die stopwoorden \footnote{Stopwoorden (of, a, the, in ,you, ...) komen vaak voor maar hebben geen toegevoegde waarde over het onderwerp.} verwijdert en lemmatisering \footnote{Lemmatisering zet woorden om naar hun basisvorm, maar houdt daarbij rekening met de context. Voorbeeld ``caring'' wordt omgezet in ``care'' en niet in ``car''.}.\\
+Voornaamwoorden kunnen verwijzen naar het trefwoord. Het is dus interessant om ze te vervangen door het trefwoord zelf zodat ze mee een invloed hebben op de score. ``Coreference resolution'' is daar de geschikte NLP techniek voor. In een eerste fase worden alle gerelateerde voornaamwoorden en zelfstandige naamwoorden opgezocht. In een tweede fase worden alle gevonden voornaamwoorden vervangen door hun bijhorende zelfstandig naamwoord. Daarvoor gebruikt deze techniek een coreference model dat bestaat uit opeenvolgende paren van tokens met een bijhorende coreference score.
 Het opzoeken van paren is te zien in codefragment \ref{code:coreference}.
 \begin{listing}
     \begin{minted}{python}

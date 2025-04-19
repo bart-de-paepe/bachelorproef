@@ -27,11 +27,3 @@
 \contentsline {listing}{\numberline {8.5}{\ignorespaces Embeddings codefragment}}{39}{listing.8.5}%
 \contentsline {listing}{\numberline {8.6}{\ignorespaces Index codefragment}}{40}{listing.8.6}%
 \contentsline {listing}{\numberline {8.7}{\ignorespaces Query codefragment}}{41}{listing.8.7}%
-\contentsline {listing}{\numberline {11.1}{\ignorespaces Voorbeeld header}}{61}{listing.11.1}%
-\contentsline {listing}{\numberline {11.2}{\ignorespaces Embedded url}}{61}{listing.11.2}%
-\contentsline {listing}{\numberline {11.3}{\ignorespaces Location replace codefragment}}{61}{listing.11.3}%
-\contentsline {listing}{\numberline {11.4}{\ignorespaces Pymupdf codefragment}}{62}{listing.11.4}%
-\contentsline {listing}{\numberline {12.1}{\ignorespaces Crossref commons codefragment}}{69}{listing.12.1}%
-\contentsline {listing}{\numberline {13.1}{\ignorespaces Prompt codefragment}}{74}{listing.13.1}%
-\contentsline {listing}{\numberline {13.2}{\ignorespaces Parse opties codefragment}}{75}{listing.13.2}%
-\contentsline {listing}{\numberline {13.3}{\ignorespaces Anthropic overloaded codefragment}}{76}{listing.13.3}%
