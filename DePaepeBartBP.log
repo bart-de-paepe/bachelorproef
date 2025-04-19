@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  19 APR 2025 22:38
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  19 APR 2025 23:26
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2142,9 +2142,9 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 101.
 
 
 ])
-Overfull \hbox (46.94402pt too wide) in paragraph at lines 48--105
+Overfull \hbox (40.33022pt too wide) in paragraph at lines 48--105
 \TU/Montserrat(1)/m/n/10.95 Uiteindelijk worden al deze stappen geïntegreerd in
- een pijplijn voor het semi-automatische
+ een pijplijn voor het semi-automatisch
  []
 
 
@@ -2424,7 +2424,7 @@ t line 63.
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250419223824 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250419232609 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -2722,6 +2722,8 @@ l.87     \end{minted}
 (That was another \errmessage.)
 
 linked_data.tex:94: Misplaced alignment tab character &.
+<argument> \csname system@active"\endcsname &
+                                             
 l.94 ... Metaphysics, Josiah Carberry 2008-08-13"&
                                                   rows=2
 I can't figure out why you would want to use a tab mark
@@ -3195,10 +3197,10 @@ Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52154 strings out of 408640
- 1070456 string characters out of 5749145
+ 52155 strings out of 408640
+ 1070470 string characters out of 5749145
  2320630 words of memory out of 5000000
- 74372 multiletter control sequences out of 15000+600000
+ 74373 multiletter control sequences out of 15000+600000
  562740 words of font info for 113 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,12n,131p,1283b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s
