@@ -61,6 +61,88 @@
       \verb 10.1007/s11192-011-0582-8
       \endverb
     \endentry
+    \entry{Ahluwalia2024}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ee7cc0d6e4c6f66081818e3ea963590c}{%
+           family={Ahluwalia},
+           familyi={A\bibinitperiod},
+           given={Aman},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=667e047c39e02f5e7edc176c37d00763}{%
+           family={Wani},
+           familyi={W\bibinitperiod},
+           given={Suhrud},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{8a90a27d6d3d667aec7784ae7e964abf}
+      \strng{fullhash}{8a90a27d6d3d667aec7784ae7e964abf}
+      \strng{fullhashraw}{8a90a27d6d3d667aec7784ae7e964abf}
+      \strng{bibnamehash}{8a90a27d6d3d667aec7784ae7e964abf}
+      \strng{authorbibnamehash}{8a90a27d6d3d667aec7784ae7e964abf}
+      \strng{authornamehash}{8a90a27d6d3d667aec7784ae7e964abf}
+      \strng{authorfullhash}{8a90a27d6d3d667aec7784ae7e964abf}
+      \strng{authorfullhashraw}{8a90a27d6d3d667aec7784ae7e964abf}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Leveraging Large Language Models for Web Scraping}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2406.08246
+      \endverb
+      \keyw{Computation and Language (cs.CL),Artificial Intelligence (cs.AI),Machine Learning (cs.LG),FOS: Computer and information sciences,FOS: Computer and information sciences}
+    \endentry
+    \entry{Almeida2019}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3f5568726662a2b0b9886666909e8eef}{%
+           family={Almeida},
+           familyi={A\bibinitperiod},
+           given={Felipe},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5926506e8908f6071fa97c3c41c80e7}{%
+           family={Xexéo},
+           familyi={X\bibinitperiod},
+           given={Geraldo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{25aa401aef902b1e6036768e8511c979}
+      \strng{fullhash}{25aa401aef902b1e6036768e8511c979}
+      \strng{fullhashraw}{25aa401aef902b1e6036768e8511c979}
+      \strng{bibnamehash}{25aa401aef902b1e6036768e8511c979}
+      \strng{authorbibnamehash}{25aa401aef902b1e6036768e8511c979}
+      \strng{authornamehash}{25aa401aef902b1e6036768e8511c979}
+      \strng{authorfullhash}{25aa401aef902b1e6036768e8511c979}
+      \strng{authorfullhashraw}{25aa401aef902b1e6036768e8511c979}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Word Embeddings: A Survey}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1901.09069
+      \endverb
+      \keyw{Computation and Language (cs.CL),Machine Learning (cs.LG),Machine Learning (stat.ML),FOS: Computer and information sciences,FOS: Computer and information sciences,A.1; I.2.7}
+    \endentry
     \entry{Amin2024}{inbook}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=62b32184d2113dfbd02f063bfd014c5c}{%
@@ -110,24 +192,6 @@
       \range{pages}{7}
       \verb{doi}
       \verb 10.2991/978-94-6463-386-3_36
-      \endverb
-    \endentry
-    \entry{AnthropicOverloaded2025}{online}{}{}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{4}
-      \field{title}{Anthropic: using the API: Errors}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://docs.anthropic.com/en/api/errors
-      \endverb
-      \verb{url}
-      \verb https://docs.anthropic.com/en/api/errors
       \endverb
     \endentry
     \entry{Araujo2021}{article}{}{}
@@ -198,6 +262,114 @@
       \endverb
       \verb{url}
       \verb https://www.mongodb.com/docs/atlas/atlas-vector-search/tutorials/vector-search-quick-start/
+      \endverb
+    \endentry
+    \entry{Ayuso2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=42ce1ae1faa89b84eb90437f86148613}{%
+           family={Ayuso},
+           familyi={A\bibinitperiod},
+           given={Enrique},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3059f752042d2a0dec7fd0cd5b64b41a}{%
+           family={Dumfeh\bibnamedelima Brogya},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Maame\bibnamedelima Serwah},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc4846d8307d1eb2bb464426bacc6637}{%
+           family={Kumar\bibnamedelima Ahlawat},
+           familyi={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Vinay},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bcfab4cfe9a61ac55a7f49d16f6b660b}{%
+           family={Sain},
+           familyi={S\bibinitperiod},
+           given={Mangal},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{61160c677c0f83d10e44df8ed744e2e4}
+      \strng{fullhash}{43947055ebfd4a10e71da848321e934e}
+      \strng{fullhashraw}{43947055ebfd4a10e71da848321e934e}
+      \strng{bibnamehash}{43947055ebfd4a10e71da848321e934e}
+      \strng{authorbibnamehash}{43947055ebfd4a10e71da848321e934e}
+      \strng{authornamehash}{61160c677c0f83d10e44df8ed744e2e4}
+      \strng{authorfullhash}{43947055ebfd4a10e71da848321e934e}
+      \strng{authorfullhashraw}{43947055ebfd4a10e71da848321e934e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2024 International Conference on Communication, Control, and Intelligent Systems (CCIS)}
+      \field{month}{12}
+      \field{title}{From Manual to Machine: How AI is Redefining Web Scraping for Superior Efficiency: A Literature Review}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/ccis63231.2024.10931912
+      \endverb
+    \endentry
+    \entry{Bast2016}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=290975a975be135e8cb0595bc2948be5}{%
+           family={Bast},
+           familyi={B\bibinitperiod},
+           given={Hannah},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6152c274627b7b453ac4a7d181e074b8}{%
+           family={Buchhold},
+           familyi={B\bibinitperiod},
+           given={Björn},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b142efe2f1a1b391e4bbcb5fc9c8a500}{%
+           family={Haussmann},
+           familyi={H\bibinitperiod},
+           given={Elmar},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Now Publishers}%
+      }
+      \strng{namehash}{2f37e25b111484b6cadc6f6cf36b9913}
+      \strng{fullhash}{20cfdafcc206c262ded2b414a6ea9b89}
+      \strng{fullhashraw}{20cfdafcc206c262ded2b414a6ea9b89}
+      \strng{bibnamehash}{20cfdafcc206c262ded2b414a6ea9b89}
+      \strng{authorbibnamehash}{20cfdafcc206c262ded2b414a6ea9b89}
+      \strng{authornamehash}{2f37e25b111484b6cadc6f6cf36b9913}
+      \strng{authorfullhash}{20cfdafcc206c262ded2b414a6ea9b89}
+      \strng{authorfullhashraw}{20cfdafcc206c262ded2b414a6ea9b89}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1554-0677}
+      \field{journaltitle}{Foundations and Trends® in Information Retrieval}
+      \field{number}{2–3}
+      \field{title}{Semantic Search on Text and Knowledge Bases}
+      \field{volume}{10}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{119\bibrangedash 271}
+      \range{pages}{153}
+      \verb{doi}
+      \verb 10.1561/1500000032
       \endverb
     \endentry
     \entry{Soup2025}{online}{}{}
@@ -416,24 +588,6 @@
       \verb https://docs.trychroma.com/docs/overview/getting-started
       \endverb
     \endentry
-    \entry{Click2025}{online}{}{}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{Click_}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://click.palletsprojects.com/en/stable/
-      \endverb
-      \verb{url}
-      \verb https://click.palletsprojects.com/en/stable/
-      \endverb
-    \endentry
     \entry{Crossref2024}{online}{}{}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
@@ -506,60 +660,6 @@
       \verb https://github.com/delph-in/docs/wiki
       \endverb
     \endentry
-    \entry{Di2025}{online}{}{}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{Dependency injection}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Dependency_injection
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Dependency_injection
-      \endverb
-    \endentry
-    \entry{Dependencyinjector2025}{online}{}{}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{Dependency Injector}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://python-dependency-injector.ets-labs.org/index.html
-      \endverb
-      \verb{url}
-      \verb https://python-dependency-injector.ets-labs.org/index.html
-      \endverb
-    \endentry
-    \entry{Documentstore2025}{online}{}{}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{Document-oriented database}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Document-oriented_database
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Document-oriented_database
-      \endverb
-    \endentry
     \entry{CrossrefRegex2025}{online}{}{}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
@@ -576,24 +676,6 @@
       \endverb
       \verb{url}
       \verb https://www.crossref.org/blog/dois-and-matching-regular-expressions/
-      \endverb
-    \endentry
-    \entry{Email2025}{online}{}{}
-      \field{sortinit}{e}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{email - An email and MIME handling package}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://docs.python.org/3.13/library/email.html
-      \endverb
-      \verb{url}
-      \verb https://docs.python.org/3.13/library/email.html
       \endverb
     \endentry
     \entry{PaperEtl2024}{online}{}{}
@@ -630,6 +712,63 @@
       \endverb
       \verb{url}
       \verb https://ploomber.io/blog/mirascope-url-extractor/
+      \endverb
+    \endentry
+    \entry{Fanni2023}{inbook}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=c8cb29c4176876a3d374a5b5fc09f9dd}{%
+           family={Fanni},
+           familyi={F\bibinitperiod},
+           given={Salvatore\bibnamedelima Claudio},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5c400a37fbf77dffebd9c6fe42e2881}{%
+           family={Febi},
+           familyi={F\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=809cf7458a91de17c9bf12a5ec5d278b}{%
+           family={Aghakhanyan},
+           familyi={A\bibinitperiod},
+           given={Gayane},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=663a088767049bb740deec2eb167d80c}{%
+           family={Neri},
+           familyi={N\bibinitperiod},
+           given={Emanuele},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{000bfcbcb18d3980c0b970bdef6937a3}
+      \strng{fullhash}{7f15927b920fc0384a17a485027974e0}
+      \strng{fullhashraw}{7f15927b920fc0384a17a485027974e0}
+      \strng{bibnamehash}{7f15927b920fc0384a17a485027974e0}
+      \strng{authorbibnamehash}{7f15927b920fc0384a17a485027974e0}
+      \strng{authornamehash}{000bfcbcb18d3980c0b970bdef6937a3}
+      \strng{authorfullhash}{7f15927b920fc0384a17a485027974e0}
+      \strng{authorfullhashraw}{7f15927b920fc0384a17a485027974e0}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Introduction to Artificial Intelligence}
+      \field{isbn}{9783031259289}
+      \field{issn}{2662-155X}
+      \field{title}{Natural Language Processing}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{87\bibrangedash 99}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/978-3-031-25928-9_5
       \endverb
     \endentry
     \entry{Gemma32025}{online}{}{}
@@ -685,47 +824,6 @@
       \verb{url}
       \verb https://nl.wikipedia.org/wiki/Google_Scholar
       \endverb
-    \endentry
-    \entry{Gray2012}{book}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=0537336c167ca3e21e9e39f16642f5b4}{%
-           family={Gray},
-           familyi={G\bibinitperiod},
-           given={Jonathan},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5f139de2d6b391dd367c5dbacaaabb1c}{%
-           family={Bounegru},
-           familyi={B\bibinitperiod},
-           given={Liliana},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=05163fb808b56644dfe7c65319c2e505}{%
-           family={Chambers},
-           familyi={C\bibinitperiod},
-           given={Lucy},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{d7629385c9e68cd4c419a0ea359f2473}
-      \strng{fullhash}{c389675dacac43e78b29381885f52312}
-      \strng{fullhashraw}{c389675dacac43e78b29381885f52312}
-      \strng{bibnamehash}{c389675dacac43e78b29381885f52312}
-      \strng{authorbibnamehash}{c389675dacac43e78b29381885f52312}
-      \strng{authornamehash}{d7629385c9e68cd4c419a0ea359f2473}
-      \strng{authorfullhash}{c389675dacac43e78b29381885f52312}
-      \strng{authorfullhashraw}{c389675dacac43e78b29381885f52312}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-1449330064}
-      \field{month}{08}
-      \field{title}{The Data Journalism Handbook}
-      \field{year}{2012}
     \endentry
     \entry{Grobid2024}{online}{}{}
       \field{sortinit}{G}
@@ -808,6 +906,53 @@
       \verb https://www.researchgate.net/publication/33549102_IMIS_Integrated_Marine_Information_System
       \endverb
     \endentry
+    \entry{Havrlant2017}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f4a07d26deada2e91f3038f85bd81ff4}{%
+           family={Havrlant},
+           familyi={H\bibinitperiod},
+           given={Lukáš},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9466f54628c485c760439c651efbbcb2}{%
+           family={Kreinovich},
+           familyi={K\bibinitperiod},
+           given={Vladik},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Informa UK Limited}%
+      }
+      \strng{namehash}{bdf58d94c395ea38cecc85d3df693851}
+      \strng{fullhash}{bdf58d94c395ea38cecc85d3df693851}
+      \strng{fullhashraw}{bdf58d94c395ea38cecc85d3df693851}
+      \strng{bibnamehash}{bdf58d94c395ea38cecc85d3df693851}
+      \strng{authorbibnamehash}{bdf58d94c395ea38cecc85d3df693851}
+      \strng{authornamehash}{bdf58d94c395ea38cecc85d3df693851}
+      \strng{authorfullhash}{bdf58d94c395ea38cecc85d3df693851}
+      \strng{authorfullhashraw}{bdf58d94c395ea38cecc85d3df693851}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1563-5104}
+      \field{journaltitle}{International Journal of General Systems}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{A simple probabilistic explanation of term frequency-inverse document frequency (tf-idf) heuristic (and variations motivated by this explanation)}
+      \field{volume}{46}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{27\bibrangedash 36}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1080/03081079.2017.1291635
+      \endverb
+    \endentry
     \entry{Hendricks2020}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=80d297bedd80d018dfe401f217d1a942}{%
@@ -885,42 +1030,6 @@
       \verb https://iamajithkumar.medium.com/how-to-use-chroma-to-build-your-first-similarity-search-5c054bfd5add
       \endverb
     \endentry
-    \entry{Imaplib2025}{online}{}{}
-      \field{sortinit}{i}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{imaplib - IMAP4 protocol client}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://docs.python.org/3/library/imaplib.html
-      \endverb
-      \verb{url}
-      \verb https://docs.python.org/3/library/imaplib.html
-      \endverb
-    \endentry
-    \entry{Imap2025}{online}{}{}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{Internet Message Access Protocol, Uit Wikipedia, de vrije encyclopedie}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol
-      \endverb
-    \endentry
     \entry{Llama32025}{online}{}{}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
@@ -989,6 +1098,66 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1016/j.nlp.2023.100017
+      \endverb
+    \endentry
+    \entry{Khurana2022}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=00c398487189dcaf1dcee130ed215ccf}{%
+           family={Khurana},
+           familyi={K\bibinitperiod},
+           given={Diksha},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad8525b8eb2f769874e4c72fad9492bc}{%
+           family={Koli},
+           familyi={K\bibinitperiod},
+           given={Aditya},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ddc74846f7902baefa908f120711b52}{%
+           family={Khatter},
+           familyi={K\bibinitperiod},
+           given={Kiran},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e988a0eadd27b7c2f54324c8288ccb27}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Sukhdev},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{1d88725f52f61140c4a3651c982a6bf0}
+      \strng{fullhash}{b703d1a3bc3353e8317de0e19e9f44a8}
+      \strng{fullhashraw}{b703d1a3bc3353e8317de0e19e9f44a8}
+      \strng{bibnamehash}{b703d1a3bc3353e8317de0e19e9f44a8}
+      \strng{authorbibnamehash}{b703d1a3bc3353e8317de0e19e9f44a8}
+      \strng{authornamehash}{1d88725f52f61140c4a3651c982a6bf0}
+      \strng{authorfullhash}{b703d1a3bc3353e8317de0e19e9f44a8}
+      \strng{authorfullhashraw}{b703d1a3bc3353e8317de0e19e9f44a8}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-7721}
+      \field{journaltitle}{Multimedia Tools and Applications}
+      \field{month}{7}
+      \field{number}{3}
+      \field{title}{Natural language processing: state of the art, current trends and challenges}
+      \field{volume}{82}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{3713\bibrangedash 3744}
+      \range{pages}{32}
+      \verb{doi}
+      \verb 10.1007/s11042-022-13428-4
       \endverb
     \endentry
     \entry{Koning2005}{article}{}{}
@@ -1309,24 +1478,6 @@
       \verb 10.1016/j.joi.2016.04.017
       \endverb
     \endentry
-    \entry{Mongodb2025}{online}{}{}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{MongoDB}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://www.mongodb.com/resources/basics/databases/document-databases
-      \endverb
-      \verb{url}
-      \verb https://www.mongodb.com/resources/basics/databases/document-databases
-      \endverb
-    \endentry
     \entry{Depaepenlp2025}{online}{}{}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
@@ -1382,52 +1533,6 @@
       \field{dateera}{ce}
       \verb{doi}
       \verb 10.1515/libr.2005.170
-      \endverb
-    \endentry
-    \entry{Oh2019}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=338768d75469f5713141cdbe7d1c6878}{%
-           family={Oh},
-           familyi={O\bibinitperiod},
-           given={Kyong},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7556683277902995775210a09143ea12}{%
-           family={Colón-Aguirre},
-           familyi={C\bibinithyphendelim A\bibinitperiod},
-           given={Mónica},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {American Library Association}%
-      }
-      \strng{namehash}{08d4a7b7b5c4eb4150e1e495cd259717}
-      \strng{fullhash}{08d4a7b7b5c4eb4150e1e495cd259717}
-      \strng{fullhashraw}{08d4a7b7b5c4eb4150e1e495cd259717}
-      \strng{bibnamehash}{08d4a7b7b5c4eb4150e1e495cd259717}
-      \strng{authorbibnamehash}{08d4a7b7b5c4eb4150e1e495cd259717}
-      \strng{authornamehash}{08d4a7b7b5c4eb4150e1e495cd259717}
-      \strng{authorfullhash}{08d4a7b7b5c4eb4150e1e495cd259717}
-      \strng{authorfullhashraw}{08d4a7b7b5c4eb4150e1e495cd259717}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0010-0870}
-      \field{journaltitle}{College &amp; Research Libraries}
-      \field{number}{6}
-      \field{title}{A Comparative Study of Perceptions and Use of Google Scholar and Academic Library Discovery Systems}
-      \field{volume}{80}
-      \field{year}{2019}
-      \field{dateera}{ce}
-      \field{pages}{876\bibrangedash 891}
-      \range{pages}{16}
-      \verb{doi}
-      \verb 10.5860/crl.80.6.876
       \endverb
     \endentry
     \entry{Ollama2025}{online}{}{}
@@ -1603,24 +1708,6 @@
       \verb 10.1109/csitss.2018.8768777
       \endverb
     \endentry
-    \entry{Pymongo2025}{online}{}{}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{PyMongo}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://pymongo.readthedocs.io/en/stable/
-      \endverb
-      \verb{url}
-      \verb https://pymongo.readthedocs.io/en/stable/
-      \endverb
-    \endentry
     \entry{Pymupdf2025}{online}{}{}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
@@ -1737,24 +1824,6 @@
       \range{pages}{10}
       \verb{doi}
       \verb 10.24002/ijis.v2i2.3029
-      \endverb
-    \endentry
-    \entry{Requests2025}{online}{}{}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{Requests is a simple, yet elegant, HTTP library.}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://pypi.org/project/requests/
-      \endverb
-      \verb{url}
-      \verb https://pypi.org/project/requests/
       \endverb
     \endentry
     \entry{Sataloff2021}{article}{}{}
@@ -2165,24 +2234,6 @@
       \field{dateera}{ce}
       \verb{doi}
       \verb 10.1109/iccci.2019.8821809
-      \endverb
-    \endentry
-    \entry{pythonreleasecycle2025}{online}{}{}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{Status of Python versions}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://devguide.python.org/versions/
-      \endverb
-      \verb{url}
-      \verb https://devguide.python.org/versions/
       \endverb
     \endentry
     \entry{Sulistya2024}{article}{}{}
@@ -2536,6 +2587,88 @@
       \verb 10.1007/s11192-011-0582-8
       \endverb
     \endentry
+    \entry{Ahluwalia2024}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ee7cc0d6e4c6f66081818e3ea963590c}{%
+           family={Ahluwalia},
+           familyi={A\bibinitperiod},
+           given={Aman},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=667e047c39e02f5e7edc176c37d00763}{%
+           family={Wani},
+           familyi={W\bibinitperiod},
+           given={Suhrud},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{8a90a27d6d3d667aec7784ae7e964abf}
+      \strng{fullhash}{8a90a27d6d3d667aec7784ae7e964abf}
+      \strng{fullhashraw}{8a90a27d6d3d667aec7784ae7e964abf}
+      \strng{bibnamehash}{8a90a27d6d3d667aec7784ae7e964abf}
+      \strng{authorbibnamehash}{8a90a27d6d3d667aec7784ae7e964abf}
+      \strng{authornamehash}{8a90a27d6d3d667aec7784ae7e964abf}
+      \strng{authorfullhash}{8a90a27d6d3d667aec7784ae7e964abf}
+      \strng{authorfullhashraw}{8a90a27d6d3d667aec7784ae7e964abf}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Leveraging Large Language Models for Web Scraping}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2406.08246
+      \endverb
+      \keyw{Computation and Language (cs.CL),Artificial Intelligence (cs.AI),Machine Learning (cs.LG),FOS: Computer and information sciences,FOS: Computer and information sciences}
+    \endentry
+    \entry{Almeida2019}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3f5568726662a2b0b9886666909e8eef}{%
+           family={Almeida},
+           familyi={A\bibinitperiod},
+           given={Felipe},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5926506e8908f6071fa97c3c41c80e7}{%
+           family={Xexéo},
+           familyi={X\bibinitperiod},
+           given={Geraldo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{25aa401aef902b1e6036768e8511c979}
+      \strng{fullhash}{25aa401aef902b1e6036768e8511c979}
+      \strng{fullhashraw}{25aa401aef902b1e6036768e8511c979}
+      \strng{bibnamehash}{25aa401aef902b1e6036768e8511c979}
+      \strng{authorbibnamehash}{25aa401aef902b1e6036768e8511c979}
+      \strng{authornamehash}{25aa401aef902b1e6036768e8511c979}
+      \strng{authorfullhash}{25aa401aef902b1e6036768e8511c979}
+      \strng{authorfullhashraw}{25aa401aef902b1e6036768e8511c979}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Word Embeddings: A Survey}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1901.09069
+      \endverb
+      \keyw{Computation and Language (cs.CL),Machine Learning (cs.LG),Machine Learning (stat.ML),FOS: Computer and information sciences,FOS: Computer and information sciences,A.1; I.2.7}
+    \endentry
     \entry{Amin2024}{inbook}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=62b32184d2113dfbd02f063bfd014c5c}{%
@@ -2585,24 +2718,6 @@
       \range{pages}{7}
       \verb{doi}
       \verb 10.2991/978-94-6463-386-3_36
-      \endverb
-    \endentry
-    \entry{AnthropicOverloaded2025}{online}{}{}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{4}
-      \field{title}{Anthropic: using the API: Errors}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://docs.anthropic.com/en/api/errors
-      \endverb
-      \verb{url}
-      \verb https://docs.anthropic.com/en/api/errors
       \endverb
     \endentry
     \entry{Araujo2021}{article}{}{}
@@ -2673,6 +2788,114 @@
       \endverb
       \verb{url}
       \verb https://www.mongodb.com/docs/atlas/atlas-vector-search/tutorials/vector-search-quick-start/
+      \endverb
+    \endentry
+    \entry{Ayuso2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=42ce1ae1faa89b84eb90437f86148613}{%
+           family={Ayuso},
+           familyi={A\bibinitperiod},
+           given={Enrique},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3059f752042d2a0dec7fd0cd5b64b41a}{%
+           family={Dumfeh\bibnamedelima Brogya},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Maame\bibnamedelima Serwah},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc4846d8307d1eb2bb464426bacc6637}{%
+           family={Kumar\bibnamedelima Ahlawat},
+           familyi={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Vinay},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bcfab4cfe9a61ac55a7f49d16f6b660b}{%
+           family={Sain},
+           familyi={S\bibinitperiod},
+           given={Mangal},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{61160c677c0f83d10e44df8ed744e2e4}
+      \strng{fullhash}{43947055ebfd4a10e71da848321e934e}
+      \strng{fullhashraw}{43947055ebfd4a10e71da848321e934e}
+      \strng{bibnamehash}{43947055ebfd4a10e71da848321e934e}
+      \strng{authorbibnamehash}{43947055ebfd4a10e71da848321e934e}
+      \strng{authornamehash}{61160c677c0f83d10e44df8ed744e2e4}
+      \strng{authorfullhash}{43947055ebfd4a10e71da848321e934e}
+      \strng{authorfullhashraw}{43947055ebfd4a10e71da848321e934e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2024 International Conference on Communication, Control, and Intelligent Systems (CCIS)}
+      \field{month}{12}
+      \field{title}{From Manual to Machine: How AI is Redefining Web Scraping for Superior Efficiency: A Literature Review}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/ccis63231.2024.10931912
+      \endverb
+    \endentry
+    \entry{Bast2016}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=290975a975be135e8cb0595bc2948be5}{%
+           family={Bast},
+           familyi={B\bibinitperiod},
+           given={Hannah},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6152c274627b7b453ac4a7d181e074b8}{%
+           family={Buchhold},
+           familyi={B\bibinitperiod},
+           given={Björn},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b142efe2f1a1b391e4bbcb5fc9c8a500}{%
+           family={Haussmann},
+           familyi={H\bibinitperiod},
+           given={Elmar},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Now Publishers}%
+      }
+      \strng{namehash}{2f37e25b111484b6cadc6f6cf36b9913}
+      \strng{fullhash}{20cfdafcc206c262ded2b414a6ea9b89}
+      \strng{fullhashraw}{20cfdafcc206c262ded2b414a6ea9b89}
+      \strng{bibnamehash}{20cfdafcc206c262ded2b414a6ea9b89}
+      \strng{authorbibnamehash}{20cfdafcc206c262ded2b414a6ea9b89}
+      \strng{authornamehash}{2f37e25b111484b6cadc6f6cf36b9913}
+      \strng{authorfullhash}{20cfdafcc206c262ded2b414a6ea9b89}
+      \strng{authorfullhashraw}{20cfdafcc206c262ded2b414a6ea9b89}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1554-0677}
+      \field{journaltitle}{Foundations and Trends® in Information Retrieval}
+      \field{number}{2–3}
+      \field{title}{Semantic Search on Text and Knowledge Bases}
+      \field{volume}{10}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{119\bibrangedash 271}
+      \range{pages}{153}
+      \verb{doi}
+      \verb 10.1561/1500000032
       \endverb
     \endentry
     \entry{Soup2025}{online}{}{}
@@ -2891,24 +3114,6 @@
       \verb https://docs.trychroma.com/docs/overview/getting-started
       \endverb
     \endentry
-    \entry{Click2025}{online}{}{}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{Click_}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://click.palletsprojects.com/en/stable/
-      \endverb
-      \verb{url}
-      \verb https://click.palletsprojects.com/en/stable/
-      \endverb
-    \endentry
     \entry{Crossref2024}{online}{}{}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
@@ -2981,60 +3186,6 @@
       \verb https://github.com/delph-in/docs/wiki
       \endverb
     \endentry
-    \entry{Di2025}{online}{}{}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{Dependency injection}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Dependency_injection
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Dependency_injection
-      \endverb
-    \endentry
-    \entry{Dependencyinjector2025}{online}{}{}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{Dependency Injector}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://python-dependency-injector.ets-labs.org/index.html
-      \endverb
-      \verb{url}
-      \verb https://python-dependency-injector.ets-labs.org/index.html
-      \endverb
-    \endentry
-    \entry{Documentstore2025}{online}{}{}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{Document-oriented database}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Document-oriented_database
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Document-oriented_database
-      \endverb
-    \endentry
     \entry{CrossrefRegex2025}{online}{}{}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
@@ -3051,24 +3202,6 @@
       \endverb
       \verb{url}
       \verb https://www.crossref.org/blog/dois-and-matching-regular-expressions/
-      \endverb
-    \endentry
-    \entry{Email2025}{online}{}{}
-      \field{sortinit}{e}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{email - An email and MIME handling package}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://docs.python.org/3.13/library/email.html
-      \endverb
-      \verb{url}
-      \verb https://docs.python.org/3.13/library/email.html
       \endverb
     \endentry
     \entry{PaperEtl2024}{online}{}{}
@@ -3105,6 +3238,63 @@
       \endverb
       \verb{url}
       \verb https://ploomber.io/blog/mirascope-url-extractor/
+      \endverb
+    \endentry
+    \entry{Fanni2023}{inbook}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=c8cb29c4176876a3d374a5b5fc09f9dd}{%
+           family={Fanni},
+           familyi={F\bibinitperiod},
+           given={Salvatore\bibnamedelima Claudio},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5c400a37fbf77dffebd9c6fe42e2881}{%
+           family={Febi},
+           familyi={F\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=809cf7458a91de17c9bf12a5ec5d278b}{%
+           family={Aghakhanyan},
+           familyi={A\bibinitperiod},
+           given={Gayane},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=663a088767049bb740deec2eb167d80c}{%
+           family={Neri},
+           familyi={N\bibinitperiod},
+           given={Emanuele},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{000bfcbcb18d3980c0b970bdef6937a3}
+      \strng{fullhash}{7f15927b920fc0384a17a485027974e0}
+      \strng{fullhashraw}{7f15927b920fc0384a17a485027974e0}
+      \strng{bibnamehash}{7f15927b920fc0384a17a485027974e0}
+      \strng{authorbibnamehash}{7f15927b920fc0384a17a485027974e0}
+      \strng{authornamehash}{000bfcbcb18d3980c0b970bdef6937a3}
+      \strng{authorfullhash}{7f15927b920fc0384a17a485027974e0}
+      \strng{authorfullhashraw}{7f15927b920fc0384a17a485027974e0}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Introduction to Artificial Intelligence}
+      \field{isbn}{9783031259289}
+      \field{issn}{2662-155X}
+      \field{title}{Natural Language Processing}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{87\bibrangedash 99}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/978-3-031-25928-9_5
       \endverb
     \endentry
     \entry{Gemma32025}{online}{}{}
@@ -3160,47 +3350,6 @@
       \verb{url}
       \verb https://nl.wikipedia.org/wiki/Google_Scholar
       \endverb
-    \endentry
-    \entry{Gray2012}{book}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=0537336c167ca3e21e9e39f16642f5b4}{%
-           family={Gray},
-           familyi={G\bibinitperiod},
-           given={Jonathan},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5f139de2d6b391dd367c5dbacaaabb1c}{%
-           family={Bounegru},
-           familyi={B\bibinitperiod},
-           given={Liliana},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=05163fb808b56644dfe7c65319c2e505}{%
-           family={Chambers},
-           familyi={C\bibinitperiod},
-           given={Lucy},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{d7629385c9e68cd4c419a0ea359f2473}
-      \strng{fullhash}{c389675dacac43e78b29381885f52312}
-      \strng{fullhashraw}{c389675dacac43e78b29381885f52312}
-      \strng{bibnamehash}{c389675dacac43e78b29381885f52312}
-      \strng{authorbibnamehash}{c389675dacac43e78b29381885f52312}
-      \strng{authornamehash}{d7629385c9e68cd4c419a0ea359f2473}
-      \strng{authorfullhash}{c389675dacac43e78b29381885f52312}
-      \strng{authorfullhashraw}{c389675dacac43e78b29381885f52312}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-1449330064}
-      \field{month}{08}
-      \field{title}{The Data Journalism Handbook}
-      \field{year}{2012}
     \endentry
     \entry{Grobid2024}{online}{}{}
       \field{sortinit}{G}
@@ -3283,6 +3432,53 @@
       \verb https://www.researchgate.net/publication/33549102_IMIS_Integrated_Marine_Information_System
       \endverb
     \endentry
+    \entry{Havrlant2017}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f4a07d26deada2e91f3038f85bd81ff4}{%
+           family={Havrlant},
+           familyi={H\bibinitperiod},
+           given={Lukáš},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9466f54628c485c760439c651efbbcb2}{%
+           family={Kreinovich},
+           familyi={K\bibinitperiod},
+           given={Vladik},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Informa UK Limited}%
+      }
+      \strng{namehash}{bdf58d94c395ea38cecc85d3df693851}
+      \strng{fullhash}{bdf58d94c395ea38cecc85d3df693851}
+      \strng{fullhashraw}{bdf58d94c395ea38cecc85d3df693851}
+      \strng{bibnamehash}{bdf58d94c395ea38cecc85d3df693851}
+      \strng{authorbibnamehash}{bdf58d94c395ea38cecc85d3df693851}
+      \strng{authornamehash}{bdf58d94c395ea38cecc85d3df693851}
+      \strng{authorfullhash}{bdf58d94c395ea38cecc85d3df693851}
+      \strng{authorfullhashraw}{bdf58d94c395ea38cecc85d3df693851}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1563-5104}
+      \field{journaltitle}{International Journal of General Systems}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{A simple probabilistic explanation of term frequency-inverse document frequency (tf-idf) heuristic (and variations motivated by this explanation)}
+      \field{volume}{46}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{27\bibrangedash 36}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1080/03081079.2017.1291635
+      \endverb
+    \endentry
     \entry{Hendricks2020}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=80d297bedd80d018dfe401f217d1a942}{%
@@ -3360,42 +3556,6 @@
       \verb https://iamajithkumar.medium.com/how-to-use-chroma-to-build-your-first-similarity-search-5c054bfd5add
       \endverb
     \endentry
-    \entry{Imaplib2025}{online}{}{}
-      \field{sortinit}{i}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{imaplib - IMAP4 protocol client}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://docs.python.org/3/library/imaplib.html
-      \endverb
-      \verb{url}
-      \verb https://docs.python.org/3/library/imaplib.html
-      \endverb
-    \endentry
-    \entry{Imap2025}{online}{}{}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{Internet Message Access Protocol, Uit Wikipedia, de vrije encyclopedie}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol
-      \endverb
-    \endentry
     \entry{Llama32025}{online}{}{}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
@@ -3464,6 +3624,66 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1016/j.nlp.2023.100017
+      \endverb
+    \endentry
+    \entry{Khurana2022}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=00c398487189dcaf1dcee130ed215ccf}{%
+           family={Khurana},
+           familyi={K\bibinitperiod},
+           given={Diksha},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad8525b8eb2f769874e4c72fad9492bc}{%
+           family={Koli},
+           familyi={K\bibinitperiod},
+           given={Aditya},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ddc74846f7902baefa908f120711b52}{%
+           family={Khatter},
+           familyi={K\bibinitperiod},
+           given={Kiran},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e988a0eadd27b7c2f54324c8288ccb27}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Sukhdev},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{1d88725f52f61140c4a3651c982a6bf0}
+      \strng{fullhash}{b703d1a3bc3353e8317de0e19e9f44a8}
+      \strng{fullhashraw}{b703d1a3bc3353e8317de0e19e9f44a8}
+      \strng{bibnamehash}{b703d1a3bc3353e8317de0e19e9f44a8}
+      \strng{authorbibnamehash}{b703d1a3bc3353e8317de0e19e9f44a8}
+      \strng{authornamehash}{1d88725f52f61140c4a3651c982a6bf0}
+      \strng{authorfullhash}{b703d1a3bc3353e8317de0e19e9f44a8}
+      \strng{authorfullhashraw}{b703d1a3bc3353e8317de0e19e9f44a8}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-7721}
+      \field{journaltitle}{Multimedia Tools and Applications}
+      \field{month}{7}
+      \field{number}{3}
+      \field{title}{Natural language processing: state of the art, current trends and challenges}
+      \field{volume}{82}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{3713\bibrangedash 3744}
+      \range{pages}{32}
+      \verb{doi}
+      \verb 10.1007/s11042-022-13428-4
       \endverb
     \endentry
     \entry{Koning2005}{article}{}{}
@@ -3784,24 +4004,6 @@
       \verb 10.1016/j.joi.2016.04.017
       \endverb
     \endentry
-    \entry{Mongodb2025}{online}{}{}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{MongoDB}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://www.mongodb.com/resources/basics/databases/document-databases
-      \endverb
-      \verb{url}
-      \verb https://www.mongodb.com/resources/basics/databases/document-databases
-      \endverb
-    \endentry
     \entry{Depaepenlp2025}{online}{}{}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
@@ -3857,52 +4059,6 @@
       \field{dateera}{ce}
       \verb{doi}
       \verb 10.1515/libr.2005.170
-      \endverb
-    \endentry
-    \entry{Oh2019}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=338768d75469f5713141cdbe7d1c6878}{%
-           family={Oh},
-           familyi={O\bibinitperiod},
-           given={Kyong},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7556683277902995775210a09143ea12}{%
-           family={Colón-Aguirre},
-           familyi={C\bibinithyphendelim A\bibinitperiod},
-           given={Mónica},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {American Library Association}%
-      }
-      \strng{namehash}{08d4a7b7b5c4eb4150e1e495cd259717}
-      \strng{fullhash}{08d4a7b7b5c4eb4150e1e495cd259717}
-      \strng{fullhashraw}{08d4a7b7b5c4eb4150e1e495cd259717}
-      \strng{bibnamehash}{08d4a7b7b5c4eb4150e1e495cd259717}
-      \strng{authorbibnamehash}{08d4a7b7b5c4eb4150e1e495cd259717}
-      \strng{authornamehash}{08d4a7b7b5c4eb4150e1e495cd259717}
-      \strng{authorfullhash}{08d4a7b7b5c4eb4150e1e495cd259717}
-      \strng{authorfullhashraw}{08d4a7b7b5c4eb4150e1e495cd259717}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0010-0870}
-      \field{journaltitle}{College &amp; Research Libraries}
-      \field{number}{6}
-      \field{title}{A Comparative Study of Perceptions and Use of Google Scholar and Academic Library Discovery Systems}
-      \field{volume}{80}
-      \field{year}{2019}
-      \field{dateera}{ce}
-      \field{pages}{876\bibrangedash 891}
-      \range{pages}{16}
-      \verb{doi}
-      \verb 10.5860/crl.80.6.876
       \endverb
     \endentry
     \entry{Ollama2025}{online}{}{}
@@ -4078,24 +4234,6 @@
       \verb 10.1109/csitss.2018.8768777
       \endverb
     \endentry
-    \entry{Pymongo2025}{online}{}{}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{PyMongo}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://pymongo.readthedocs.io/en/stable/
-      \endverb
-      \verb{url}
-      \verb https://pymongo.readthedocs.io/en/stable/
-      \endverb
-    \endentry
     \entry{Pymupdf2025}{online}{}{}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
@@ -4212,24 +4350,6 @@
       \range{pages}{10}
       \verb{doi}
       \verb 10.24002/ijis.v2i2.3029
-      \endverb
-    \endentry
-    \entry{Requests2025}{online}{}{}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{Requests is a simple, yet elegant, HTTP library.}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://pypi.org/project/requests/
-      \endverb
-      \verb{url}
-      \verb https://pypi.org/project/requests/
       \endverb
     \endentry
     \entry{Sataloff2021}{article}{}{}
@@ -4640,24 +4760,6 @@
       \field{dateera}{ce}
       \verb{doi}
       \verb 10.1109/iccci.2019.8821809
-      \endverb
-    \endentry
-    \entry{pythonreleasecycle2025}{online}{}{}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{month}{3}
-      \field{title}{Status of Python versions}
-      \field{year}{2025}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://devguide.python.org/versions/
-      \endverb
-      \verb{url}
-      \verb https://devguide.python.org/versions/
       \endverb
     \endentry
     \entry{Sulistya2024}{article}{}{}

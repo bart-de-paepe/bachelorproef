@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  19 APR 2025 23:26
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  21 APR 2025 00:59
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2276,16 +2276,21 @@ fontspec)
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
-fontspec)) (methodologie.tex
-Overfull \hbox (6.0509pt too wide) in paragraph at lines 9--4
-\TU/Montserrat(1)/m/n/10.95 Wereldwijde onuitputtelijke digitale indexen (waaro
-nder Google Scholar), diep maat-
+fontspec)
+Overfull \hbox (3.69302pt too wide) in paragraph at lines 15--26
+[]\TU/Montserrat(1)/m/n/10.95 Mitchell ([][]2015[][]) reikt een aantal methodes
+ aan waarop dit gedaan kan worden, steeds
  []
 
 
-Overfull \hbox (21.7805pt too wide) in paragraph at lines 9--4
-\TU/Montserrat(1)/m/n/10.95 omzeilen. Meerdere studies (([]PRATIBA e.a., [][]20
-18[][]),([]Rafsanjani, [][]2022[][]),([]Amin e.a., [][]2024[][]),([]Su-
+Overfull \hbox (5.76982pt too wide) in paragraph at lines 15--26
+\TU/Montserrat(1)/m/n/10.95 de feiten die op het internet gepresenteerd worden,
+ verkregen uit PDF-documenten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--26
+
  []
 
 
@@ -2295,6 +2300,12 @@ Overfull \hbox (21.7805pt too wide) in paragraph at lines 9--4
 ]
 
 [5]
+Overfull \hbox (1.19543pt too wide) in paragraph at lines 32--34
+\TU/Montserrat(1)/m/n/10.95 van een metadata record en een Digital Object Ident
+ifier (DOI) ([]Hendricks e.a., [][]2020[][]).
+ []
+
+) (methodologie.tex
 
 [6]
 Hoofdstuk 3.
@@ -2424,7 +2435,7 @@ t line 63.
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250419232609 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250421005909 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -2946,16 +2957,16 @@ Hoofdstuk 9.
 ]) (googlescholarzoekopdracht.tex
 
 [43]
-Hoofdstuk 10.
+B\ij lage A.
 
-Overfull \hbox (21.42418pt too wide) in paragraph at lines 29--29
+Overfull \hbox (17.69458pt too wide) in paragraph at lines 28--28
 |[][]\TU/Montserrat(0)/b/n/14.4 Zoeken in Google Scholar ([]“  Google Scholar G
 uide”, [][]2025[][])| 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\autocite' on input line 29.
+(hyperref)                removing `\autocite' on input line 28.
 
 File: ../graphics/./1_google_scholar_zoekopdracht/1_basis_zoeken.PNG Graphic fi
 le (type bmp)
@@ -2984,13 +2995,13 @@ hic file (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG>
 
 
-googlescholarzoekopdracht.tex:78: LaTeX Error: There's no line here to end.
+googlescholarzoekopdracht.tex:77: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.78 D
+l.77 D
       aarnaast zijn er 3 bijkomende geävanceerde filters:
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3005,7 +3016,7 @@ File: ../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG Graphic f
 ile (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG>
 
-Overfull \hbox (18.22462pt too wide) in paragraph at lines 118--120
+Overfull \hbox (18.22462pt too wide) in paragraph at lines 117--119
 \TU/Montserrat(1)/m/n/10.95 doorgestuurd naar het e-mailadres. Overeenkomstig w
 erd een nieuw account \TU/Montserrat(2)/b/n/10.95 google-
  []
@@ -3013,7 +3024,7 @@ erd een nieuw account \TU/Montserrat(2)/b/n/10.95 google-
 
 
 [48]
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
@@ -3025,7 +3036,7 @@ e bmp)
 [49]
 
 [50]
-B\ij lage A.
+B\ij lage B.
 (../voorstel/voorstel-inhoud.tex
 Overfull \hbox (2.63669pt too wide) in paragraph at lines 20--21
 []\TU/Montserrat(1)/m/n/10.95 Naast wetenschappelijke literatuur zitten er ook 
@@ -3062,92 +3073,32 @@ d kunnen worden. []Chandrakar
 [55])
 
 [56]
-DePaepeBartBP.tex:186: Missing $ inserted.
-<inserted text> 
-                $
-l.186 \printbibliography[heading=bibintoc]
-                                          
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-DePaepeBartBP.tex:186: Missing { inserted.
-<to be read again> 
-                   \endgroup 
-l.186 \printbibliography[heading=bibintoc]
-                                          
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-DePaepeBartBP.tex:186: Missing } inserted.
-<inserted text> 
-                }
-l.186 \printbibliography[heading=bibintoc]
-                                          
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-DePaepeBartBP.tex:186: Missing $ inserted.
-<inserted text> 
-                $
-l.186 \printbibliography[heading=bibintoc]
-                                          
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
 
 [57
 
 
 ]
-Overfull \hbox (23.13835pt too wide) in paragraph at lines 186--186
-[][]\TU/Montserrat(2)/m/it/10.95 Document-oriented database\TU/Montserrat(1)/m/
-n/10.95 . (2025, maart 1). [][]$[][][][][] [] [] [] [][] [] [][][][][][][][][] 
-[] [][][] [] [][][][] [] [][][][][][][][] [][]
+Overfull \hbox (17.71294pt too wide) in paragraph at lines 185--185
+[][]\TU/Montserrat(1)/m/n/10.95 Havrlant, L., & Kreinovich, V. (2017). A simple
+ probabilistic explanation of term frequency-
  []
 
 
-Overfull \hbox (1.74945pt too wide) in paragraph at lines 186--186
-[][]\TU/Montserrat(2)/m/it/10.95 Internet Message Access Protocol, Uit Wikipedi
-a, de vrije encyclopedie\TU/Montserrat(1)/m/n/10.95 . (2025, maart
+Overfull \hbox (3.97876pt too wide) in paragraph at lines 185--185
+\TU/Montserrat(1)/m/n/10.95 this explanation). \TU/Montserrat(2)/m/it/10.95 Int
+ernational Journal of General Systems\TU/Montserrat(1)/m/n/10.95 , \TU/Montserr
+at(2)/m/it/10.95 46\TU/Montserrat(1)/m/n/10.95 (1), 27–36. [][]$[][][][][] []
  []
 
 
 
 [58]
-Overfull \hbox (2.26407pt too wide) in paragraph at lines 186--186
-[][]\TU/Montserrat(2)/m/it/10.95 MongoDB\TU/Montserrat(1)/m/n/10.95 . (2025, ma
-art 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][][] [] [][][][]
-[][][][][] [] [][][][][][] [] [][][][][][][][][] []
- []
-
-DePaepeBartBP.tex:186: Misplaced alignment tab character &.
-<argument> College &
-                    amp; Research Libraries
-l.186 \printbibliography[heading=bibintoc]
-                                          
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
 
 [59]
-DePaepeBartBP.tex:186: Misplaced alignment tab character &.
+DePaepeBartBP.tex:185: Misplaced alignment tab character &.
 <argument> ...a extraction, analysis, conversion &
                                                    manipulation of PDF (and ...
-l.186 \printbibliography[heading=bibintoc]
+l.185 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3157,16 +3108,16 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-
-[60]
-Overfull \hbox (25.84052pt too wide) in paragraph at lines 186--186
+Overfull \hbox (25.84052pt too wide) in paragraph at lines 185--185
 [][]\TU/Montserrat(2)/m/it/10.95 ScrapeGraphAI: You Only Scrape Once\TU/Montser
 rat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][][][][] [] [][]
 [] [] [][][][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (39.97581pt too wide) in paragraph at lines 186--186
+
+[60]
+Overfull \hbox (39.97581pt too wide) in paragraph at lines 185--185
 [][]\TU/Montserrat(2)/m/it/10.95 Tips for using the Crossref REST API\TU/Montse
 rrat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][
 ][][][] [] [][][] [] [][][][][][][][][][][][][] []
@@ -3186,23 +3137,18 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
-(rerunfilecheck)             Checksum: 1964ADC0C28923AC728457EDD56CCD54;7369.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                DePaepeBartBP
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 06CC139980A9F461F6C8FD7B492C0083;8125.
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52155 strings out of 408640
- 1070470 string characters out of 5749145
- 2320630 words of memory out of 5000000
- 74373 multiletter control sequences out of 15000+600000
+ 52132 strings out of 408640
+ 1069105 string characters out of 5749145
+ 2319510 words of memory out of 5000000
+ 74350 multiletter control sequences out of 15000+600000
  562740 words of font info for 113 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 110i,12n,131p,1283b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,12n,131p,1256b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on DePaepeBartBP.pdf (72 pages).
