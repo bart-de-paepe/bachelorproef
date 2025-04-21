@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  21 APR 2025 18:02
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  21 APR 2025 20:11
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2344,10 +2344,6 @@ fontspec)
 [8
 
 ]
-(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
-fontspec)
-(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
-fontspec)
 
 [9]) (googlescholaralert.tex
 
@@ -2382,90 +2378,61 @@ Hoofdstuk 5.
 File: ../graphics/./4_NLP/SERP.jpg Graphic file (type bmp)
 <../graphics/./4_NLP/SERP.jpg>
 
-LaTeX Warning: Float too large for page by 294.61046pt on input line 34.
+LaTeX Warning: Float too large for page by 57.75012pt on input line 34.
 
 
-(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
-fontspec)
-(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
-fontspec)
 
 [13
 
 ]
 
 [14]
-web_scraping.tex:62: You can't use `macro parameter character #' in horizontal 
+web_scraping.tex:63: You can't use `macro parameter character #' in horizontal 
 mode.
-l.62 ...=\"font-size:11px;font-weight:bold;color:#
+l.63 ...=\"font-size:11px;font-weight:bold;color:#
                                                   1a0dab;vertical-align:2px\...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-web_scraping.tex:62: You can't use `macro parameter character #' in horizontal 
+web_scraping.tex:64: You can't use `macro parameter character #' in horizontal 
 mode.
-l.62 ...rt\_title\" style=\"font-size:17px;color:#
-                                                  1a0dab;line-height:22px\">...
+l.64 ...rt\_title\" style=\"font-size:17px;color:#
+                                                  1a0dab;line-height:22px\">
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 62--68
 []\TU/Montserrat(1)/m/n/10.95 <h3 style=f̈ont-weight:normal;margin:0;font-size:
-17px;line-height:20px;>̈<span
+17px;line-height:20px;>̈ <span
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 62--68
 \TU/Montserrat(1)/m/n/10.95 style=f̈ont-size:11px;font-weight:bold;color:1a0dab
 ;vertical-align:2px>̈[HTML]</span>
  []
 
 
-Overfull \hbox (587.78992pt too wide) in paragraph at lines 62--63
-\TU/Montserrat(1)/m/n/10.95 <a href=”https://scholar.google.be/scholar_url?url=
-https://www.sciencedirect.com/science/article/pii/S0191886925001308&amp;hl=nl&a
-mp;sa=X&amp;d=9286058128011819102&amp;ei=9W3gZ7v-
- []
-
-
-Overfull \hbox (398.01917pt too wide) in paragraph at lines 62--63
-\TU/Montserrat(1)/m/n/10.95 GcCSieoPqLGJyAM&amp;scisig=AFWwaebeqxEetR78Fz7JpxPt
-T7ui&amp;oi=scholaralrt&amp;hist=P_QG1LwAAAAJ:2727769339669043622:AFWwaeYuVCLO-
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
-\TU/Montserrat(1)/m/n/10.95 kY6yEQWAvLJNk68&amp;html=&amp;pos=0&amp;folt=kw-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
-\TU/Montserrat(1)/m/n/10.95 topc̈lass=g̈se_alrt_titles̈tyle=f̈ont-size:17px;col
-or:1a0dab;line-height:22px>̈The role
- []
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 62--63
-\TU/Montserrat(1)/m/n/10.95 of narcissistic personality <b>traits </b>in bullyi
-ng behavior in adolescence–A
+Overfull \hbox (136.50769pt too wide) in paragraph at lines 62--68
+\TU/Montserrat(1)/m/n/10.95 <a href=”https://www.sciencedirect.com/science/arti
+cle/pii/S0191886925001308”class=g̈se_alrt_titles̈tyle=f̈ont-
  []
 
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
-t line 63.
+t line 68.
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250421180210 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250421201142 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
-web_scraping.tex:81: Package minted Error: minted v3+ executable is not install
+web_scraping.tex:86: Package minted Error: minted v3+ executable is not install
 ed or is not added to PATH; or MiKTeX is being used with -aux-directory or -out
 put-directory without setting a TEXMF_OUTPUT_DIRECTORY environment variable.
 
@@ -2473,12 +2440,12 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81     \end{minted}
+l.86     \end{minted}
                      
 (That was another \errmessage.)
 
 
-web_scraping.tex:81: Package minted Error: Missing definition for highlighting 
+web_scraping.tex:86: Package minted Error: Missing definition for highlighting 
 style "solarized-light" (minted executable is unavailable or disabled); attempt
 ing to substitute fallback style.
 
@@ -2486,12 +2453,12 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81     \end{minted}
+l.86     \end{minted}
                      
 (That was another \errmessage.)
 
 
-web_scraping.tex:81: Package minted Error: Missing definition for highlighting 
+web_scraping.tex:86: Package minted Error: Missing definition for highlighting 
 style "default" (minted executable is unavailable or disabled); attempting to s
 ubstitute fallback style.
 
@@ -2499,19 +2466,19 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81     \end{minted}
+l.86     \end{minted}
                      
 (That was another \errmessage.)
 
 
-web_scraping.tex:81: Package minted Error: Cannot highlight code (minted execut
+web_scraping.tex:86: Package minted Error: Cannot highlight code (minted execut
 able is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81     \end{minted}
+l.86     \end{minted}
                      
 (That was another \errmessage.)
 
@@ -2520,34 +2487,34 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 81.
+(Font)              scaled to size 6.00064pt on input line 86.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 81.
+(Font)              scaled to size 5.00053pt on input line 86.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 81.
+(Font)              scaled to size 5.99936pt on input line 86.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 81.
+(Font)              scaled to size 4.99947pt on input line 86.
 
-web_scraping.tex:93: Package minted Error: Cannot highlight code (minted execut
+web_scraping.tex:98: Package minted Error: Cannot highlight code (minted execut
 able is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.93     \end{minted}
+l.98     \end{minted}
                      
 (That was another \errmessage.)
 
 
-web_scraping.tex:123: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:128: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.123     \end{minted}
+l.128     \end{minted}
                       
 (That was another \errmessage.)
 
@@ -2557,14 +2524,14 @@ File: ../graphics/./4_NLP/openai_billing.png Graphic file (type bmp)
 
 [15]
 
-web_scraping.tex:149: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:153: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.149     \end{minted}
+l.153     \end{minted}
                       
 (That was another \errmessage.)
 
@@ -2605,7 +2572,7 @@ l.203     \end{minted}
 (That was another \errmessage.)
 
 
-Overfull \hbox (1.20126pt too wide) in paragraph at lines 137--210
+Overfull \hbox (1.20126pt too wide) in paragraph at lines 142--210
 \TU/Montserrat(1)/m/n/10.95 Mirascope []“  LLM abstractions that aren’t obstruc
 tions” ([][]2025[][]) is een gespecialiseerde
  []
@@ -2655,6 +2622,8 @@ File: ../graphics/./2_parse_zoekresultaat/serp-html.JPG Graphic file (type bmp)
 
 [22]
 
+[23]
+
 web_scraping.tex:297: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
@@ -2685,8 +2654,6 @@ Overfull \hbox (1.47504pt too wide) in paragraph at lines 279--319
  []
 
 ) (natural_language_processing.tex
-
-[23]
 
 [24]
 
@@ -3173,14 +3140,19 @@ L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
 (rerunfilecheck)             Checksum: 06CC139980A9F461F6C8FD7B492C0083;8125.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52137 strings out of 408640
- 1069310 string characters out of 5749145
- 2319574 words of memory out of 5000000
+ 52129 strings out of 408640
+ 1068893 string characters out of 5749145
+ 2319547 words of memory out of 5000000
  74355 multiletter control sequences out of 15000+600000
  562740 words of font info for 113 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191

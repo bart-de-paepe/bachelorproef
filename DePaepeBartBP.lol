@@ -6,11 +6,11 @@
 \contentsline {listing}{\numberline {5.6}{\ignorespaces Schema codefragment}}{19}{listing.5.6}%
 \contentsline {listing}{\numberline {5.7}{\ignorespaces Model codefragment}}{19}{listing.5.7}%
 \contentsline {listing}{\numberline {5.8}{\ignorespaces Extract codefragment}}{20}{listing.5.8}%
-\contentsline {listing}{\numberline {5.9}{\ignorespaces Ollama}}{20}{listing.5.9}%
-\contentsline {listing}{\numberline {5.10}{\ignorespaces Scrapegraph configuratie codefragment}}{21}{listing.5.10}%
-\contentsline {listing}{\numberline {5.11}{\ignorespaces Prompt codefragment}}{22}{listing.5.11}%
-\contentsline {listing}{\numberline {5.12}{\ignorespaces Beautiful Soup select codefragment}}{24}{listing.5.12}%
-\contentsline {listing}{\numberline {5.13}{\ignorespaces Beautiful Soup navigatie codefragment}}{24}{listing.5.13}%
+\contentsline {listing}{\numberline {5.9}{\ignorespaces Ollama}}{21}{listing.5.9}%
+\contentsline {listing}{\numberline {5.10}{\ignorespaces Scrapegraph configuratie codefragment}}{22}{listing.5.10}%
+\contentsline {listing}{\numberline {5.11}{\ignorespaces Prompt codefragment}}{23}{listing.5.11}%
+\contentsline {listing}{\numberline {5.12}{\ignorespaces Beautiful Soup select codefragment}}{25}{listing.5.12}%
+\contentsline {listing}{\numberline {5.13}{\ignorespaces Beautiful Soup navigatie codefragment}}{25}{listing.5.13}%
 \contentsline {listing}{\numberline {6.1}{\ignorespaces term frequency-inverse document frequency}}{27}{listing.6.1}%
 \contentsline {listing}{\numberline {6.2}{\ignorespaces relevantiescore}}{28}{listing.6.2}%
 \contentsline {listing}{\numberline {6.3}{\ignorespaces Coreference resolver}}{29}{listing.6.3}%

@@ -21,10 +21,10 @@
 \contentsline {section}{\numberline {5.1}Inleiding}{13}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Web scraping met gebruik van een LLM }{15}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}Web scraping met OpenAI}{15}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Web scraping met Mirascope en Anthropic}{18}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.2}Web scraping met Mirascope en Anthropic}{16}{subsection.5.2.2}%
 \contentsline {subsection}{\numberline {5.2.3}Web scraping met een lokaal model}{20}{subsection.5.2.3}%
-\contentsline {section}{\numberline {5.3}Web scraping via het parsen van de DOM}{23}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Meest geschikte Web scraping}{25}{section.5.4}%
+\contentsline {section}{\numberline {5.3}Web scraping via het parsen van de DOM}{21}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Meest geschikte Web scraping}{24}{section.5.4}%
 \contentsline {chapter}{\numberline {6}Natural Language Processing}{26}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Inleiding}{26}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Relevantiescore}{26}{section.6.2}%

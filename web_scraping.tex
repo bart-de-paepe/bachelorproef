@@ -26,13 +26,13 @@
 %% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
 %% en geef het een gepaste titel.
 \section{Inleiding}
-De e-mails afkomstig van Google Scholar bevatten een lijst met zoekresultaten. Het formaat van de e-mail is HTML en de opmaak van de lijst is gelijkaardig aan die van de Google Scholar resultaten pagina. Dit wordt algemeen benoemd als een SERP en is voor iedereen die vertrouwd is met het internet herkenbaar als de lijst met zoekresultaten van Google (zie figuur \ref{fig:Google_Scholar_SERP}).
+De e-mails afkomstig van Google Scholar (GS) bevatten een lijst met zoekresultaten. Het formaat van de e-mail is HTML en de opmaak van de lijst is gelijkaardig aan die van de GS resultaten pagina. Dit wordt algemeen benoemd als een SERP en is voor iedereen die vertrouwd is met het internet herkenbaar als de lijst met zoekresultaten van Google (zie figuur \ref{fig:Google_Scholar_SERP}).
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{./4_NLP/SERP.jpg}
+    \includegraphics[width=0.6\textwidth]{./4_NLP/SERP.jpg}
     \caption[Google Scholar SERP.]{\label{fig:Google_Scholar_SERP}Google Scholar SERP.}
 \end{figure}\\
-De Google Scholar SERP heeft een vaste structuur, namelijk een lijst met zoekresultaten bestaande uit:
+De GS SERP heeft een vaste structuur, namelijk een lijst met zoekresultaten bestaande uit:
 \begin{itemize}
     \item titel
     \item link naar de webpagina van de publicatie
@@ -44,7 +44,7 @@ De Google Scholar SERP heeft een vaste structuur, namelijk een lijst met zoekres
 Bovenstaande gegevens moeten uit de SERP gefilterd worden zodat ze opgeslaan kunnen worden voor verder gebruik in de volgende stappen.\\
 Informatie uit HTML pagina's halen is algemeen gekend onder de naam ``web scraping'' of  ``web crawling''. Deze techniek geniet momenteel veel aandacht omdat hij de gebruiker in staat stelt om veel data te verzamelen. Die data dient dan weer als brandstof voor AI. Het punt is dat in die context meerdere technieken bestaan om dezelfde job toe doen:
 \begin{itemize}
-    \item web scraping met gebruik van een LLM \footnote{Large Language Model}
+    \item web scraping met gebruik van een LLM
     \begin{itemize}
         \item online model
         \item lokaal model
@@ -59,7 +59,12 @@ Informatie uit HTML pagina's halen is algemeen gekend onder de naam ``web scrapi
 \section{Web scraping met gebruik van een LLM }
 De meest gekende vorm van web scraping gebruikt de DOM structuur om er de inhoud uit te filteren. Daar komt dus niets van AI bij kijken. Het probleem met die aanpak is dat de custom code die de HTML structuur verwerkt, sterk afhankelijk is van de HTML zelf. Bijvoorbeeld wanneer de titel van een publicatie tussen <h3> tags staat die gekenmerkt worden door een class="gse\_alrt\_title" (zie codefragment \ref{code:HTMLcodefragment}), dan zal de custom code specifiek filteren op die DOM elementen.
 \begin{listing}
-<h3 style=\"font-weight:normal;margin:0;font-size:17px;line-height:20px;\"><span style=\"font-size:11px;font-weight:bold;color:#1a0dab;vertical-align:2px\">[HTML]</span> <a href="https://scholar.google.be/scholar\_url?url=https://www.sciencedirect.com/science/article/pii/S0191886925001308\&amp;hl=nl\&amp;sa=X\&amp;d=9286058128011819102\&amp;ei=9W3gZ7v-GcCSieoPqLGJyAM\&amp;scisig=AFWwaebeqxEetR78Fz7JpxPtT7ui\&amp;oi=scholaralrt\&amp;hist=P\_QG1LwAAAAJ:2727769339669043622:AFWwaeYuVCLO-kY6yEQWAvLJNk68\&amp;html=\&amp;pos=0\&amp;folt=kw-top\" class=\"gse\_alrt\_title\" style=\"font-size:17px;color:#1a0dab;line-height:22px\">The role of narcissistic personality <b>traits </b>in bullying behavior in adolescence–A systematic review and meta-analysis</a></h3>
+<h3 style=\"font-weight:normal;margin:0;font-size:17px;line-height:20px;\">
+    <span style=\"font-size:11px;font-weight:bold;color:#1a0dab;vertical-align:2px\">[HTML]</span> 
+    <a href="https://www.sciencedirect.com/science/article/pii/S0191886925001308" class=\"gse\_alrt\_title\" style=\"font-size:17px;color:#1a0dab;line-height:22px\">
+        The role of narcissistic personality <b>traits </b>in bullying behavior in adolescence–A systematic review and meta-analysis
+     </a>
+</h3>
 \caption[Prompt htmlfragment]{HTML fragment van de titel van een publicatie.}
 \label{code:HTMLcodefragment}
 \end{listing}
@@ -68,7 +73,7 @@ Daarom begint dit hoofdstuk met meer recente technieken die gebaseerd zijn op AI
 \subsection{Web scraping met OpenAI}
 LLMs zijn bijzonder goed in het beantwoorden van vragen. OpenAI is voor het brede publiek beter gekend door zijn chatbot ChatGPT. Maar hoe goed is OpenAI in het parsen van een webpagina? OpenAI biedt ook een API \autocite{Openaideveloperplatform2025} aan waarmee gebruikers opdrachten kunnen sturen naar een model. De opdracht/vraag in kwestie is: ``Geef de titels, orginele links, auteurs, naam van de tijdschriften, jaartal van de publicaties en tekstfragmenten van hetvolgende Google Scholar zoekresultaat.''\\
 Het online artikel \textcite{Serpapiai2025} beschrijft stap voor stap hoe de gevraagde gegevens verkregen kunnen worden met het ``gpt-4-1106-preview'' model van OpenAI.
-De code op github \textcite{Depaepeopenai2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts.\\
+De code op github \textcite{Depaepeopenai2025} maakt hiervan een implementatie aangepast voor de GS alerts.\\
 De HTML wordt eerst ontdaan van overbodige tags zodat alleen de inhoud behouden blijft zoals te zien is in codefragment \ref{code:Cleaningcodefragment}
 \begin{listing}
     \begin{minted}{python}
@@ -125,10 +130,10 @@ De verwachte parameters die het model moet zoeken zijn te zien in codefragment \
     \label{code:Parse_opties_codefragment}
 \end{listing}
 Het is vereist om een account te registreren bij OpenAI en om dit account te crediteren. Vervolgens kan er met de API gewerkt worden en wordt er betaald naargelang het verbruik.
-Een test met 1 Google Scholar alert met 10 zoekresultaten heeft een prijs van 0,17\$ zoals te zien is in figuur \ref{fig:OpenAI_dashboard}. Het model gebruikte daarvoor 14743 tokens. 
+Een test met 1 GS alert met 10 zoekresultaten heeft een prijs van 0,17\$ zoals te zien is in figuur \ref{fig:OpenAI_dashboard}. Het model gebruikte daarvoor 14743 tokens. 
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{./4_NLP/openai_billing.png}
+    \includegraphics[width=1.0\textwidth]{./4_NLP/openai_billing.png}
     \caption[OpenAI dashboard.]{\label{fig:OpenAI_dashboard}OpenAI dashboard.}
 \end{figure}
 De test was succesvol. Het model vond de gevraagde parameters voor elk van de 10 zoekresultaten. Toch houdt het onderzoek naar web scraping hier niet op. Het resultaat tot zover is immers betalend en dat is niet noodzakelijk de beste oplossing voor het probleem. Bovendien werkt deze oplossing enkel met OpenAI modellen wat weinig flexibiliteit toelaat.
@@ -137,15 +142,14 @@ De test was succesvol. Het model vond de gevraagde parameters voor elk van de 10
 De vorige scraper was zeer specifiek geschreven voor OpenAI. De code zou niet werken voor een model van een andere provider. Daarom wordt er verder gezocht naar een meer generieke methode die niet afhankelijk is van de provider van het model.\\
 Mirascope \textcite{Mirascope2025} is een gespecialiseerde code library om op uniforme wijze met verschillende LLMs te werken.
 Het online artikel \textcite{Anthropic2025} beschrijft stap voor stap hoe de gevraagde gegevens verkregen kunnen worden aan de hand van Mirascope en het Anthropic Claude model. Net zoals OpenAI biedt Anthropic ook een API \autocite{Anthropicmodel2025} aan voor development. Er moet eveneens een account geregistreerd worden bij Anthropic maar hun free tier is uitgebreider dan dat van OpenAI zodat het account voor dit experiment niet gecrediteerd moest worden.\\
-De code op github \textcite{Depaepeanthropic2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts.
+De code op github \textcite{Depaepeanthropic2025} maakt hiervan een implementatie aangepast voor de GS alerts.
 De parameters die opgezocht moeten worden, dienen eerst als velden en schema gedeclareerd te worden. Dit is te zien in codefragmenten \ref{code:Field} en \ref{code:Schema}.
 \begin{listing}
     \begin{minted}{python}
         class FieldDefinition(BaseModel):
-        """Define the fields to extract from the webpage."""
-        
-        name: str = Field(..., description="The desired name for this field.")
-        type: Literal["str", "int", "float", "bool", "list"]
+            """Define the fields to extract from the webpage."""
+            name: str = Field(..., description="The desired name for this field.")
+            type: Literal["str", "int", "float", "bool", "list"]
     \end{minted}
     \caption[Field codefragment]{Codefragment voor het opstellen van een Pydantic Field.}
     \label{code:Field}
@@ -153,18 +157,14 @@ De parameters die opgezocht moeten worden, dienen eerst als velden en schema ged
 \begin{listing}
     \begin{minted}{python}
         class SchemaGenerator(AnthropicExtractor[list[FieldDefinition]]):
-        """Generate a schema based on a user query."""
-        
-        api_key = settings.anthropic_api_key
-        
-        extract_schema: Type[list] = list[FieldDefinition]
-        
-        prompt_template = """
-        Call your tool with field definitions based on this query:
-        {query}
-        """
-        
-        query: str
+            """Generate a schema based on a user query."""
+            api_key = settings.anthropic_api_key
+            extract_schema: Type[list] = list[FieldDefinition]
+            prompt_template = """
+            Call your tool with field definitions based on this query:
+            {query}
+            """
+            query: str
     \end{minted}
     \caption[Schema codefragment]{Codefragment voor het opstellen van een Pydantic Schema.}
     \label{code:Schema}
@@ -172,18 +172,18 @@ De parameters die opgezocht moeten worden, dienen eerst als velden en schema ged
 Met deze structuur van veld en schema kan vervolgens voor elke opdracht een gepast model gemaakt worden aan de hand van de code in codefragment \ref{code:Model}
 \begin{listing}
     \begin{minted}{python}
-            def generate_schema(self) -> None:
-        """Sets `extract_schema` to a schema generated based on `query`."""
-        field_definitions = SchemaGenerator(query=self.query).extract()
-        model = create_model(
-        "ExtractedFields",
-        __doc__=DEFAULT_TOOL_DOCSTRING,
-        **{
-            field.name.replace(" ", "_"): (field.type, ...)
-            for field in field_definitions
-        },
-        )
-        self.extract_schema = list[model]
+        def generate_schema(self) -> None:
+            """Sets `extract_schema` to a schema generated based on `query`."""
+            field_definitions = SchemaGenerator(query=self.query).extract()
+            model = create_model(
+            "ExtractedFields",
+            __doc__=DEFAULT_TOOL_DOCSTRING,
+            **{
+                field.name.replace(" ", "_"): (field.type, ...)
+                for field in field_definitions
+            },
+            )
+            self.extract_schema = list[model]
     \end{minted}
     \caption[Model codefragment]{Codefragment voor het opstellen van een Pydantic Model.}
     \label{code:Model}
@@ -194,12 +194,12 @@ Dan kan er geparsed worden met de resultaten volgens het gevraagde schema zoals 
         @computed_field
         @property
         def webpage_content(self) -> str:
-        """Returns the text content of the webpage found at `url`."""
-        soup = BeautifulSoup(self.html_text, "html.parser", from_encoding="utf-8")
-        text = soup.get_text()
-        for link in soup.find_all("a"):
-        text += f"\n{link.get('href')}"
-        return text
+            """Returns the text content of the webpage found at `url`."""
+            soup = BeautifulSoup(self.html_text, "html.parser", from_encoding="utf-8")
+            text = soup.get_text()
+            for link in soup.find_all("a"):
+            text += f"\n{link.get('href')}"
+            return text
     \end{minted}
     \caption[Extract codefragment]{Codefragment voor het parsen.}
     \label{code:Extract}
@@ -224,7 +224,7 @@ Daarom wordt in eerste instantie met een klein llama3:8b model (4.7GB) gewerkt d
 \end{listing}
 Het online artikel \textcite{Scrapegraphaillama2025} beschrijft stap voor stap hoe webpagina's gescraped kunnen worden aan de hand van ScrapegraphAI en het LlaMa3 model.
 \textcite{ScrapeGraphAI2025} is een library die LLMs en grafen combineert om webpagina's te scrapen.\\
-De code op github \textcite{Depaepeollama2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts. De code veronderstelt dat ollama draait op het systeem en dat het LlaMa3 model erop uitgevoerd wordt.
+De code op github \textcite{Depaepeollama2025} maakt hiervan een implementatie aangepast voor de GS alerts. De code veronderstelt dat ollama draait op het systeem en dat het LlaMa3 model erop uitgevoerd wordt.
 Codefragment \ref{code:Scrapegraphconfig} connecteert de scraping graph met het model.
 \begin{listing}
     \begin{minted}{python}
@@ -268,7 +268,7 @@ De test was niet succesvol. Het model vond geen enkele van de gevraagde paramete
 In eerste instantie werd gedacht dat het geselecteerde model te zwak is voor deze taak omdat er voor een klein model gekozen werd. Daarom werd dezelfde test uitgevoerd op een krachtiger systeem met 40GB RAM met het gemma3:27b model (17GB). Maar ook deze test was niet succesvol: de opdracht bleef gedurende 1 uur lopen zonder resultaat, waarna het commando manueel onderbroken werd. 
 \section{Web scraping via het parsen van de DOM}
 Tot zover is er nog geen bruikbaar resultaat. Het gebruik van een online model is betalend en kan niet gewenst zijn door de klant. Anderzijds leidt een lokaal model voorlopig niet tot een goed resultaat. Daarom wordt er teruggegrepen naar de meer klassieke benadering van web scraping waarbij de HTML structuur ontleed wordt aan de hand van custom code.
-De Google Scholar SERP is een gestructureerde HTML pagina. Voor het parsen wordt er gebruik gemaakt van deze structuur.
+De GS SERP is een gestructureerde HTML pagina. Voor het parsen wordt er gebruik gemaakt van deze structuur.
 Elk afzonderlijk resultaat heeft een H3-tag met als klasse 'gse\_alrt\_title' waarin de titel staat. De korte tekst van het zoekresultaat staat in een DIV-tag met als klasse 'gse\_alrt\_sni'. Tussen de titel en het snippet staan de auteurs, de uitgever en het jaartal gegroepeerd in een DIV-tag zoals te zien is in figuur \ref{fig:serp_html}.
 \begin{figure}
     \centering
@@ -277,7 +277,7 @@ Elk afzonderlijk resultaat heeft een H3-tag met als klasse 'gse\_alrt\_title' wa
 \end{figure}
 \FloatBarrier
 Meerdere specifieke libraries laten toe om HTML te parsen, maar de meest gekende bibliotheek is Beautiful Soup \autocite{Soup2025}. Door de naam van de HTML-tag en de gebruikte klasse (gse\_alrt\_title, en gse\_alrt\_sni) mee te geven aan Beautiful Soup, worden de overeenkomstige elementen in het HTML-document weergegeven. Beautiful Soup laat ook toe om te navigeren in het document zodat het element met de auteurs, de uitgever en het jaartal gemakkelijk gevonden kan worden.\\
-De code op github \textcite{DepaepeBeautifulsoup2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts. 
+De code op github \textcite{DepaepeBeautifulsoup2025} maakt hiervan een implementatie aangepast voor de GS alerts. 
 De selectie van tags aan de hand van Beautiful Soup is te zien in codefragment \ref{code:Soupselect}
 \begin{listing}
     \begin{minted}{python}
@@ -314,9 +314,9 @@ De navigatie tussen tags aan de hand van Beautiful Soup is te zien in codefragme
     \caption[Beautiful Soup navigatie codefragment]{Codefragment voor het navigeren tussen tags aan de hand van Beautiful Soup.}
     \label{code:Soupnav}
 \end{listing}
-De volledige uitwerking is te zien in bijlage Parse Google Scholar zoekopdracht.\\
+\\
 De test met een SERP met 10 zoekresultaten was geslaagd. De gevraagde parameters worden gevonden voor elk van de 10 resultaten.
 \section{Meest geschikte Web scraping}
-Tenslotte moet ook nog SerpAPI \autocite{Serpapi2025} vermeld worden. Tijdens het onderzoek naar web scraping kwam dit platform meermaals naar voren, zelfs voor de toepassingen die gebruik maken van AI. SerpAPI biedt specifieke oplossingen voor elke mogelijke search engine, waaronder ook Google Scholar. Alleen focust hun product telkens op de online search engine en niet op alerts waardoor de zoekresultaten niet incrementeel zijn.\\
+Tenslotte moet ook nog SerpAPI \autocite{Serpapi2025} vermeld worden. Tijdens het onderzoek naar web scraping kwam dit platform meermaals naar voren, zelfs voor de toepassingen die gebruik maken van AI. SerpAPI biedt specifieke oplossingen voor elke mogelijke search engine, waaronder ook GS. Alleen focust hun product telkens op de online search engine en niet op alerts waardoor de zoekresultaten niet incrementeel zijn.\\
 Tot besluit van dit hoofdstuk wordt er dus verder gewerkt met het parsen van de zoekresultaten aan de hand van Beautiful Soup. De grote tekortkoming dat de code afhankelijk is van de HTML wordt verzacht doordat die HTML ook weerspiegeld wordt in de code. Aanpassingen zouden dus begrijpbaar en beperkt moeten blijven.\\
 Op een dag gaat de code dus breken en het zou goed zijn mocht men hiervan op de hoogte gebracht worden. Daarvoor kan er een e-mail notificatie geïmplementeerd worden die een bericht stuurt wanneer Beautiful Soup de gewenste tags in het HTML document niet langer vindt.
