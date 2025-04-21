@@ -57,33 +57,26 @@ De omzetting in code is te zien in codefragment \ref{code:Urlregex}
 \begin{listing}
     \begin{minted}{python}
         def search_in_text(text, link):
-        # find using regex
-        patterns = get_patterns()
-        doi_result = None
-        while (doi_result is None) and (len(patterns) > 0):
-        doi_result = re.search(patterns.pop(), text, re.IGNORECASE)
+            # find using regex
+            patterns = get_patterns()
+            doi_result = None
+            while (doi_result is None) and (len(patterns) > 0):
+                doi_result = re.search(patterns.pop(), text, re.IGNORECASE)
         
-        if doi_result is not None:
-        # update DOI
-        doi = doi_result.group(0)
-        link.doi = doi
-        link.is_doi_success = True
-        link.log_message = "DOI successfully retrieved"
+            if doi_result is not None:
+                # update DOI
+                doi = doi_result.group(0)
+                link.doi = doi
+                link.is_doi_success = True
+                link.log_message = "DOI successfully retrieved"
         
         ...
         
         def get_patterns():
-        # https://www.crossref.org/blog/dois-and-matching-regular-expressions/
-        # /^10.\d{4,9}/[-._;()/:A-Z0-9]+$/i
-        # /^10.1002/[^\s]+$/i
-        # /^10.\d{4}/\d+-\d+X?(\d+)\d+<[\d\w]+:[\d\w]*>\d+.\d+.\w+;\d$/i
-        # /^10.1021/\w\w\d++$/i
-        # /^10.1207/[\w\d]+\&\d+_\d+$/i
-        
-        patterns = [r"10.1207/[\w\d]+\&\d+_\d+", r"10.1021/\w\w\d++",
-        r"10.\d{4}/\d+-\d+X?(\d+)\d+<[\d\w]+:[\d\w]*>\d+.\d+.\w+;\d", r"10.1002/[^\s]+",
-        r"10.\d{4,9}/[-._;()/:A-Z0-9]+"]
-        return patterns
+            patterns = [r"10.1207/[\w\d]+\&\d+_\d+", r"10.1021/\w\w\d++",
+            r"10.\d{4}/\d+-\d+X?(\d+)\d+<[\d\w]+:[\d\w]*>\d+.\d+.\w+;\d", r"10.1002/[^\s]+",
+            r"10.\d{4,9}/[-._;()/:A-Z0-9]+"]
+            return patterns
     \end{minted}
     \caption[Opzoeken van DOI in de URL van de publicatie]{Codefragment voor het opzoeken van DOI in de URL van de publicatie.}
     \label{code:Urlregex}
@@ -105,10 +98,10 @@ Het is niet nodig om de API rechtstreeks te bevragen aangezien meerdere onafhank
 Al deze bibliotheken bieden dezelfde tools en presteren gelijkaardig. Zonder bijzondere reden, behalve dat Crossref Commons ontwikkeld wordt door Crossref zelf, wordt er met Crossref Commons for Python gewerkt. De code om een sample op te vragen op basis van de titel is bijzonder compact zoals te zien in \ref{code:Crossref_commons}
 \begin{listing}
     \begin{minted}{python}
-                try:
-        filter = {}
-        queries = {'query.title': title}
-        response = crossref_commons.sampling.get_sample(size=2, filter=filter, queries=queries)
+        try:
+            filter = {}
+            queries = {'query.title': title}
+            response = crossref_commons.sampling.get_sample(size=2, filter=filter, queries=queries)
     \end{minted}
     \caption[Crossref commons codefragment]{Codefragment voor opvragen van een sample op basis van de titel aan Crossref.}
     \label{code:Crossref_commons}
@@ -131,21 +124,21 @@ Voor elk van de 3 gevallen is er een andere verwerking nodig:
     \begin{listing}
         \begin{minted}{python}
             def search_in_pdf(pdf, link):
-            doc = pymupdf.Document(stream=pdf)
-            # Extract all Document Text
-            text = chr(12).join([page.get_text() for page in doc])
-            patterns = get_patterns()
-            doi_result = None
-            while (doi_result is None) and (len(patterns) > 0):
-            pattern = re.compile(patterns.pop(), re.IGNORECASE)
-            doi_result = pattern.search(text)
+                doc = pymupdf.Document(stream=pdf)
+                # Extract all Document Text
+                text = chr(12).join([page.get_text() for page in doc])
+                patterns = get_patterns()
+                doi_result = None
+                while (doi_result is None) and (len(patterns) > 0):
+                    pattern = re.compile(patterns.pop(), re.IGNORECASE)
+                    doi_result = pattern.search(text)
             
-            if doi_result is not None:
-            #update DOI
-            doi = doi_result.group(0)
-            link.doi = doi
-            link.is_doi_success = True
-            link.log_message = "DOI successfully retrieved"
+                if doi_result is not None:
+                    #update DOI
+                    doi = doi_result.group(0)
+                    link.doi = doi
+                    link.is_doi_success = True
+                    link.log_message = "DOI successfully retrieved"
         \end{minted}
         \caption[Pymupdf codefragment]{Codefragment voor het openen van een online pdf.}
         \label{code:DOIpymupdf}

@@ -15,10 +15,10 @@
 \contentsline {listing}{\numberline {6.2}{\ignorespaces relevantiescore}}{28}{listing.6.2}%
 \contentsline {listing}{\numberline {6.3}{\ignorespaces Coreference resolver}}{29}{listing.6.3}%
 \contentsline {listing}{\numberline {7.1}{\ignorespaces Originele URL van de publicatie}}{30}{listing.7.1}%
-\contentsline {listing}{\numberline {7.2}{\ignorespaces Opzoeken van DOI in de URL van de publicatie}}{32}{listing.7.2}%
+\contentsline {listing}{\numberline {7.2}{\ignorespaces Opzoeken van DOI in de URL van de publicatie}}{31}{listing.7.2}%
 \contentsline {listing}{\numberline {7.3}{\ignorespaces Query op basis van de bibliografie}}{32}{listing.7.3}%
-\contentsline {listing}{\numberline {7.4}{\ignorespaces Crossref commons codefragment}}{33}{listing.7.4}%
-\contentsline {listing}{\numberline {7.5}{\ignorespaces Pymupdf codefragment}}{34}{listing.7.5}%
+\contentsline {listing}{\numberline {7.4}{\ignorespaces Crossref commons codefragment}}{32}{listing.7.4}%
+\contentsline {listing}{\numberline {7.5}{\ignorespaces Pymupdf codefragment}}{33}{listing.7.5}%
 \contentsline {listing}{\numberline {7.6}{\ignorespaces Selenium codefragment}}{35}{listing.7.6}%
 \contentsline {listing}{\numberline {8.1}{\ignorespaces Chroma codefragment}}{37}{listing.8.1}%
 \contentsline {listing}{\numberline {8.2}{\ignorespaces Embeddings codefragment}}{38}{listing.8.2}%

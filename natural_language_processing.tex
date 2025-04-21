@@ -26,8 +26,8 @@
 %% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
 %% en geef het een gepaste titel.
 \section{Inleiding}
-Google Scholar heeft feitelijk al gezocht naar publicaties die relevant zijn voor onze zoekopdracht. De sortering van de zoekresultaten is op basis van de omvang van de integrale tekst, het aanzien van het tijdschrift en van de auteurs en het aantal citaties (inclusief de gedateerdheid ervan). Op die manier volgt Google Scholar de manier van werken binnen de academische wereld.\\
-Maar dit laat nog steeds ruimte om voor elk zoekresultaat een score af te leiden die aangeeft hoe relevant de publicatie is voor IMIS. De zoekopdracht voor het VLIZ bijvoorbeeld gebruikt als 1 van de trefwoorden ``Simon Stevin'', zijnde het wetenschappelijk vaartuig van het VLIZ. Dat betekent dat Google Scholar ook zoekresultaten zal geven van publicaties die verwijzen naar ``Simon Stevin'', de vlaamse geleerde uit de 16de eeuw. Het is interessant om die artikels te kunnen markeren met een lagere score ten opzichte van publicaties die het trefwoord ``VLIZ'' bevatten.\\
+Google Scholar (GS) heeft feitelijk al gezocht naar publicaties die relevant zijn voor onze zoekopdracht. De sortering van de zoekresultaten is op basis van de omvang van de integrale tekst, het aanzien van het tijdschrift en van de auteurs en het aantal citaties (inclusief de gedateerdheid ervan). Op die manier volgt GS de manier van werken binnen de academische wereld.\\
+Maar dit laat nog steeds ruimte om voor elk zoekresultaat een score af te leiden die aangeeft hoe relevant de publicatie is voor IMIS. De zoekopdracht voor het VLIZ bijvoorbeeld gebruikt als 1 van de trefwoorden ``Simon Stevin'', zijnde het wetenschappelijk vaartuig van het VLIZ. Dat betekent dat GS ook zoekresultaten zal geven van publicaties die verwijzen naar ``Simon Stevin'', de vlaamse geleerde uit de 16de eeuw. Het is interessant om die artikels te kunnen markeren met een lagere score ten opzichte van publicaties die het trefwoord ``VLIZ'' bevatten.\\
 Daar bestaan Natural Language Processing (NLP) technieken voor. NLP is een verzamelnaam van een hele groep toepassingen en algorithmes die tekst omzetten in informatie. Deze zijn zeer divers en daarom ook onderverdeeld in verschillende deelgebieden. Het bepalen van de relevantie van een tekst in functie van een trefwoord valt eerder onder het deelgebied van de ``Natural Language Understanding''.\\
 
 \section{Relevantiescore}
@@ -74,37 +74,51 @@ Maar de relevantie van een publicatie kan niet afhangen van het aantal zoekresul
 Aan de hand van die parameters kan een relevantiescore berekend worden zoals te zien in codefragment \ref{code:relevantiescore}.
 \begin{listing}
     \begin{equation}
-        score=log\left(\ topic count\ \ast\ topic-sentence ratio\ \ast\ topic-noun ratio\right)
+        score=topic count\ \ast\ log\left(topic-sentence ratio\right)\ \ast\ log\left(topic-noun ratio\right)
     \end{equation}  
     \caption[relevantiescore]{relevantiescore}
     \label{code:relevantiescore}
 \end{listing}
-De code op github \textcite{Depaepenlp2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts.
+De code op github \textcite{Depaepenlp2025} maakt hiervan een implementatie aangepast voor de GS alerts.
 \section{Tekstverwerking}
 De BoW geeft wel aanleiding tot tabellen met zeer grote dimensies. Hoe meer teksten er zijn, des te uitgebreider zal de woordenschat worden. Daarom wordt de BoW altijd voorafgegaan door tekstverwerking die stopwoorden \footnote{Stopwoorden (of, a, the, in ,you, ...) komen vaak voor maar hebben geen toegevoegde waarde over het onderwerp.} verwijdert en lemmatisering \footnote{Lemmatisering zet woorden om naar hun basisvorm, maar houdt daarbij rekening met de context. Voorbeeld ``caring'' wordt omgezet in ``care'' en niet in ``car''.}.\\
-Voornaamwoorden kunnen verwijzen naar het trefwoord. Het is dus interessant om ze te vervangen door het trefwoord zelf zodat ze mee een invloed hebben op de score. ``Coreference resolution'' is daar de geschikte NLP techniek voor. In een eerste fase worden alle gerelateerde voornaamwoorden en zelfstandige naamwoorden opgezocht. In een tweede fase worden alle gevonden voornaamwoorden vervangen door hun bijhorende zelfstandig naamwoord. Daarvoor gebruikt deze techniek een coreference model dat bestaat uit opeenvolgende paren van tokens met een bijhorende coreference score.
+Voornaamwoorden kunnen verwijzen naar het trefwoord 
+(vb. tabel \ref{table:1}).
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|} 
+        \hline
+        voor&``Het VLIZ is pionier in zeekennis.\\&Het heeft de Simon Stevin als onderzoeksvaartuig.\\&Daarmee voert het marien onderzoek uit.''\\
+        \hline
+        na&``Het VLIZ is pionier in zeekennis.\\&Het VLIZ heeft de Simon Stevin als onderzoeksvaartuig.\\&Simon Stevin als onderzoeksvaartuig voert het VLIZ marien onderzoek uit.''\\
+        \hline
+    \end{tabular}
+    \caption{Voor en na coreference.}
+    \label{table:1}
+\end{table}
+Het is dus interessant om ze te vervangen door het trefwoord zelf zodat ze mee een invloed hebben op de score. ``Coreference resolution'' is daar de geschikte NLP techniek voor. In een eerste fase worden alle gerelateerde voornaamwoorden en zelfstandige naamwoorden opgezocht. In een tweede fase worden alle gevonden voornaamwoorden vervangen door hun bijhorende zelfstandig naamwoord. Daarvoor gebruikt deze techniek een coreference model dat bestaat uit opeenvolgende paren van tokens met een bijhorende coreference score.
 Het opzoeken van paren is te zien in codefragment \ref{code:coreference}.
 \begin{listing}
     \begin{minted}{python}
         import spacy
         ...
-            def __init__(self, db_service: DBService, logging_service: LoggingService):
-        self.db_service = db_service
-        self.logging_service = logging_service
-        self.nlp = spacy.load("en_coreference_web_trf")
+        def __init__(self, db_service: DBService, logging_service: LoggingService):
+            self.db_service = db_service
+            self.logging_service = logging_service
+            self.nlp = spacy.load("en_coreference_web_trf")
         ...
-            def coreference_resolution(self, text):
-        doc = self.nlp(text)
-        spans = doc.spans
-        span_array = []
-        self.logging_service.logger.debug(spans)
-        for spangroup in spans.values():
-        span_tuple = []
-        for span in spangroup:
-        self.logging_service.logger.debug(text[span.start_char:span.end_char])
-        span_tuple.append(text[span.start_char:span.end_char])
-        span_array.append(span_tuple)
-        return span_array
+        def coreference_resolution(self, text):
+            doc = self.nlp(text)
+            spans = doc.spans
+            span_array = []
+            self.logging_service.logger.debug(spans)
+            for spangroup in spans.values():
+                span_tuple = []
+                for span in spangroup:
+                    self.logging_service.logger.debug(text[span.start_char:span.end_char])
+                    span_tuple.append(text[span.start_char:span.end_char])
+                    span_array.append(span_tuple)
+            return span_array
     \end{minted}
     \caption[Coreference resolver]{Coreference resolver}
     \label{code:coreference}

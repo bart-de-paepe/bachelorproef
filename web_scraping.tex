@@ -217,7 +217,7 @@ Dit kan bijvoorbeeld aan de hand van Docker zoals te zien is codefragment \ref{c
 Ieder van deze modellen is beschikbaar in verschillende versies van grootte van het model. Een groot model heeft meer kennis en zal beter op de vraag kunnen antwoorden. Anderzijds zal de verwerking trager verlopen bij een groot model en zal een groot model veel meer resources nodig hebben om te kunnen werken.
 Daarom wordt in eerste instantie met een klein llama3:8b model (4.7GB) gewerkt dat kan uitgevoerd worden op een doorsnee laptop.
 \begin{listing}
-    docker exec -it ollama ollama pull llama3:8b
+    docker exec -it ollama ollama pull llama3:8b\\
     docker exec -it ollama ollama run llama3
     \caption[Ollama]{Ollama}
     \label{code:Ollama}
@@ -272,7 +272,7 @@ De GS SERP is een gestructureerde HTML pagina. Voor het parsen wordt er gebruik 
 Elk afzonderlijk resultaat heeft een H3-tag met als klasse 'gse\_alrt\_title' waarin de titel staat. De korte tekst van het zoekresultaat staat in een DIV-tag met als klasse 'gse\_alrt\_sni'. Tussen de titel en het snippet staan de auteurs, de uitgever en het jaartal gegroepeerd in een DIV-tag zoals te zien is in figuur \ref{fig:serp_html}.
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{./2_parse_zoekresultaat/serp-html.JPG}
+    \includegraphics[width=1.0\textwidth]{./2_parse_zoekresultaat/serp-html.JPG}
     \caption[HTML structuur van de GS alert.]{\label{fig:serp_html}HTML structuur van de GS alert.}
 \end{figure}
 \FloatBarrier
