@@ -1393,6 +1393,50 @@
       \verb 10.1186/s40537-015-0025-0
       \endverb
     \endentry
+    \entry{Meier2019}{inbook}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c85850c63c930c4211bd1baa46598989}{%
+           family={Meier},
+           familyi={M\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d193ef606aaaf76bdda5c5a747a9f59}{%
+           family={Kaufmann},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Fachmedien Wiesbaden}%
+      }
+      \strng{namehash}{e9cb0cceebc437cca15c29d94cf2455e}
+      \strng{fullhash}{e9cb0cceebc437cca15c29d94cf2455e}
+      \strng{fullhashraw}{e9cb0cceebc437cca15c29d94cf2455e}
+      \strng{bibnamehash}{e9cb0cceebc437cca15c29d94cf2455e}
+      \strng{authorbibnamehash}{e9cb0cceebc437cca15c29d94cf2455e}
+      \strng{authornamehash}{e9cb0cceebc437cca15c29d94cf2455e}
+      \strng{authorfullhash}{e9cb0cceebc437cca15c29d94cf2455e}
+      \strng{authorfullhashraw}{e9cb0cceebc437cca15c29d94cf2455e}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{SQL &amp; NoSQL Databases}
+      \field{isbn}{9783658245498}
+      \field{title}{NoSQL Databases}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{201\bibrangedash 218}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1007/978-3-658-24549-8_7
+      \endverb
+    \endentry
     \entry{Mitchell2015}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e5b5a50cb0333052f1c452520367aa56}{%
@@ -3917,6 +3961,50 @@
       \field{dateera}{ce}
       \verb{doi}
       \verb 10.1186/s40537-015-0025-0
+      \endverb
+    \endentry
+    \entry{Meier2019}{inbook}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c85850c63c930c4211bd1baa46598989}{%
+           family={Meier},
+           familyi={M\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d193ef606aaaf76bdda5c5a747a9f59}{%
+           family={Kaufmann},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Fachmedien Wiesbaden}%
+      }
+      \strng{namehash}{e9cb0cceebc437cca15c29d94cf2455e}
+      \strng{fullhash}{e9cb0cceebc437cca15c29d94cf2455e}
+      \strng{fullhashraw}{e9cb0cceebc437cca15c29d94cf2455e}
+      \strng{bibnamehash}{e9cb0cceebc437cca15c29d94cf2455e}
+      \strng{authorbibnamehash}{e9cb0cceebc437cca15c29d94cf2455e}
+      \strng{authornamehash}{e9cb0cceebc437cca15c29d94cf2455e}
+      \strng{authorfullhash}{e9cb0cceebc437cca15c29d94cf2455e}
+      \strng{authorfullhashraw}{e9cb0cceebc437cca15c29d94cf2455e}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{SQL &amp; NoSQL Databases}
+      \field{isbn}{9783658245498}
+      \field{title}{NoSQL Databases}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{201\bibrangedash 218}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1007/978-3-658-24549-8_7
       \endverb
     \endentry
     \entry{Mitchell2015}{book}{}{}
