@@ -28,7 +28,7 @@
 \section{Inleiding}
 Google Scholar (GS) heeft feitelijk al gezocht naar publicaties die relevant zijn voor onze zoekopdracht. De sortering van de zoekresultaten is op basis van de omvang van de integrale tekst, het aanzien van het tijdschrift en van de auteurs en het aantal citaties (inclusief de gedateerdheid ervan). Op die manier volgt GS de manier van werken binnen de academische wereld.\\
 Maar dit laat nog steeds ruimte om voor elk zoekresultaat een score af te leiden die aangeeft hoe relevant de publicatie is voor IMIS. De zoekopdracht voor het VLIZ bijvoorbeeld gebruikt als 1 van de trefwoorden ``Simon Stevin'', zijnde het wetenschappelijk vaartuig van het VLIZ. Dat betekent dat GS ook zoekresultaten zal geven van publicaties die verwijzen naar ``Simon Stevin'', de vlaamse geleerde uit de 16de eeuw. Het is interessant om die artikels te kunnen markeren met een lagere score ten opzichte van publicaties die het trefwoord ``VLIZ'' bevatten.\\
-Daar bestaan Natural Language Processing (NLP) technieken voor. NLP is een verzamelnaam van een hele groep toepassingen en algorithmes die tekst omzetten in informatie. Deze zijn zeer divers en daarom ook onderverdeeld in verschillende deelgebieden. Het bepalen van de relevantie van een tekst in functie van een trefwoord valt eerder onder het deelgebied van de ``Natural Language Understanding''.\\
+Daar bestaan Natural Language Processing (NLP) technieken voor. NLP is een verzamelnaam van een hele groep toepassingen en algoritmes die tekst omzetten in informatie. Deze zijn zeer divers en daarom ook onderverdeeld in verschillende deelgebieden. Het bepalen van de relevantie van een tekst in functie van een trefwoord valt eerder onder het deelgebied van de ``Natural Language Understanding''.\\
 
 \section{Relevantiescore}
 Het uitgangspunt is om een score te berekenen door te tellen hoe vaak een trefwoord voorkomt in de tekst. De frequentie is dan rechtevenredig met de relevantie van die tekst. Een eenvoudige techniek voor het bepalen van de frequentie is aan de hand van een ``Bag of Words'' (BoW). Dat is een tabel met een rij voor elke tekst en een kolom voor elk uniek woord. De cellen tonen het aantal keer dat het woord voorkomt in de tekst.  Dit is te zien in figuur \ref{fig:bow}.
@@ -37,7 +37,7 @@ Het uitgangspunt is om een score te berekenen door te tellen hoe vaak een trefwo
     \includegraphics[width=0.8\textwidth]{./4_NLP/bow.jpg}
     \caption[Bag of Words.]{\label{fig:bow}Bag of Words.}
 \end{figure}
-Toch is de frequentie op zich nog niet de beste waardemeter voor een teksts. Er kunnen namelijk woorden heel vaak voorkomen die op zich weinig vertellen over het onderwerp. Om daaraan tegemoet te komen bestaat er een variant van de BoW, die in plaats van gewoon te tellen de ``term frequency-inverse document frequency'' (Tf-Idf) geeft. De formules zijn te zien in codefragment \ref{code:tf-idf} en het resultaat in figuur \ref{fig:tf-idf}.
+Toch is de frequentie op zich nog niet de beste waardemeter voor een tekst. Er kunnen namelijk woorden heel vaak voorkomen die op zich weinig vertellen over het onderwerp. Om daaraan tegemoet te komen bestaat er een variant van de BoW, die in plaats van gewoon te tellen de ``term frequency-inverse document frequency'' (Tf-Idf) geeft. De formules zijn te zien in codefragment \ref{code:tf-idf} en het resultaat in figuur \ref{fig:tf-idf}.
 \begin{listing}
     \begin{equation}
         score\ =\ tf\ \ast\ idf
