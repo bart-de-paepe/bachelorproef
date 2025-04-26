@@ -25,7 +25,7 @@
 %%
 %% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
 %% en geef het een gepaste titel.
-Om nieuwe publicaties die gerelateerd zijn aan wetenschappelijke projecten toe te voegen aan IMIS, moet er natuurlijk een signaal zijn wanneer dergelijke publicaties beschikbaar zijn. Indexen van academische literatuur zijn daarvoor een geschikte bron en zoals eerder beschreven is Google Scholar (GS) een interessant alternatief. Het is de bedoeling om enkel nieuwe resultaten te ontvangen en bijgevolg vervalt dus de optie om publicaties op te zoeken aan de hand van de GS zoekpagina. De zoekpagina houdt geen gegevens bij van vorige queries en daarom is het zeer aannemelijk dat dezelfde resultaten zullen voorkomen bij opeenvolgende zoekopdrachten. GS laat echter toe om meldingen aan te maken voor een bepaalde zoekopdracht. Die stuurt automatisch nieuwe resultaten door per e-mail onder de vorm van de GS SERP \footnote{Search Engine Result Page}. Het opstellen van een zoekopdracht en het aanmaken van een alert wordt verder uitgewerkt in Hoofdstuk~\ref{ch:googlescholaralert}.\\
+Om nieuwe publicaties die gerelateerd zijn aan wetenschappelijke projecten toe te voegen aan IMIS, moet er natuurlijk een signaal zijn wanneer dergelijke publicaties beschikbaar zijn. Indexen van academische literatuur zijn daarvoor een geschikte bron en zoals eerder beschreven is Google Scholar (GS) een interessant alternatief. Het is de bedoeling om enkel nieuwe resultaten te ontvangen en bijgevolg vervalt dus de optie om publicaties op te zoeken aan de hand van de GS zoekpagina. De zoekpagina houdt geen gegevens bij van vorige queries en daarom is het zeer aannemelijk dat dezelfde resultaten zullen voorkomen bij opeenvolgende zoekopdrachten. GS laat echter toe om meldingen aan te maken voor een bepaalde zoekopdracht. Die stuurt automatisch nieuwe resultaten door per e-mail onder de vorm van de GS SERP \footnote{Search Engine Result Page}. Het opstellen van een zoekopdracht en het aanmaken van een alert worden verder uitgewerkt in hoofdstuk~\ref{ch:googlescholaralert}.\\
 GS meldingen zijn e-mails in HTML formaat. Ze bevatten inhoud die overeenkomt met de GS SERP overeenkomstig de zoekopdracht. De SERP bevat een vaste structuur. Het is een lijst met zoekresultaten die telkens dezelfde elementen bevatten:
 \begin{itemize}
     \item titel
@@ -52,7 +52,7 @@ Die HTML moet omgezet worden in gestructureerde data door middel van HTML scrapi
         \item SerpAPI
     \end{itemize}
 \end{itemize}
-Web scraping wordt verder uitgewerkt in Hoofdstuk~\ref{ch:web_scraping}.\\
+Web scraping wordt verder uitgewerkt in hoofdstuk~\ref{ch:web_scraping}.\\
 Elk zoekresultaat is op basis van het algoritme van GS gematched met de zoekopdracht. Maar wil dat daarom ook zeggen dat de publicatie interessant is voor IMIS? Aan de hand van Natural Language Processing (NLP) wordt een score berekend van de relevantie van het zoekresultaat voor de overeenkomstige collectie in IMIS. NLP wordt verder uitgewerkt in Hoofdstuk~\ref{ch:natural_language_processing}.\\
 Om te weten of een publicatie echt nieuw is, moet ze ondubbelzinnig geïdentificeerd kunnen worden. Titel, auteurs, tijdschrift, enz. maken een publicatie echter niet uniek. Er kunnen namelijk variante benamingen voorkomen van titels, auteurs, enz. Voor literatuur is het de DOI die een publicatie uniek maakt. Voor elk zoekresultaat wordt er op zoek gegaan naar de DOI aan de hand van een stapsgewijze procedure:
 \begin{itemize}
@@ -65,13 +65,13 @@ Om te weten of een publicatie echt nieuw is, moet ze ondubbelzinnig geïdentific
         \item dit kan een HTML pagina zijn met een embedded PDF document
     \end{itemize}
 \end{itemize}
-Het opzoeken van de DOI wordt verder uitgewerkt in Hoofdstuk~\ref{ch:linked_data}.\\
+Het opzoeken van de DOI wordt verder uitgewerkt in hoofdstuk~\ref{ch:linked_data}.\\
 Dan resteert de vraag of de publicatie echt nieuw is, of dat ze reeds aan IMIS toegevoegd werd? Het antwoord daarop is afhankelijk van de beschikbare informatie die tijdens de voorgaande stappen gevonden werd.
 \begin{itemize}
     \item De DOI is gevonden: er kan met 100\% zekerheid opgezocht worden of de publicatie reeds in IMIS zit of niet.
     \item De DOI is niet gevonden: omwille van de variante benamingen kan niet met volledige zekerheid opgezocht worden of een publicatie reeds in IMIS zit of niet. Wel kan door middel van semantic search op basis van de titel de waarschijnlijkheid berekend worden dat de publicatie reeds in IMIS zit.
 \end{itemize}
-Semantic search wordt verder uitgewerkt in Hoofdstuk~\ref{ch:semantic_search}.
+Semantic search wordt verder uitgewerkt in hoofdstuk~\ref{ch:semantic_search}.
 
 
 

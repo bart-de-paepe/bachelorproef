@@ -52,8 +52,8 @@ De volgende lijst reguliere expressies is aanbevolen om DOIs op te zoeken \textc
     \item \texttt{/\textasciicircum10.1021/\textbackslash w\textbackslash w\textbackslash d++\$/i}
     \item \texttt{/\textasciicircum10.1207/[\textbackslash w\textbackslash d]+\textbackslash \&\textbackslash d+\_\textbackslash d+\$/i}
 \end{itemize}
-Indien 1 van deze reguliere expressies matcht met de URL, dan is de DOI gevonden.
-De omzetting in code is te zien in codefragment \ref{code:Urlregex}
+Indien één van deze reguliere expressies matcht met de URL, dan is de DOI gevonden.
+De omzetting in code is te zien in codefragment \ref{code:Urlregex}.
 \begin{listing}
     \begin{minted}{python}
         def search_in_text(text, link):
@@ -95,7 +95,7 @@ Het is niet nodig om de API rechtstreeks te bevragen aangezien meerdere onafhank
     \item Habanero \autocite{Habanero2025}
     \item Crossrefapi \autocite{Crossrefapi2025}
 \end{itemize}
-Al deze bibliotheken bieden dezelfde tools en presteren gelijkaardig. Zonder bijzondere reden, behalve dat Crossref Commons ontwikkeld wordt door Crossref zelf, wordt er met Crossref Commons for Python gewerkt. De code om een sample op te vragen op basis van de titel is bijzonder compact zoals te zien in \ref{code:Crossref_commons}
+Al deze bibliotheken bieden dezelfde tools en presteren gelijkaardig. Zonder bijzondere reden, behalve dat Crossref Commons ontwikkeld wordt door Crossref zelf, wordt er met Crossref Commons for Python gewerkt. De code om een sample op te vragen op basis van de titel is bijzonder compact zoals te zien in \ref{code:Crossref_commons}.
 \begin{listing}
     \begin{minted}{python}
         try:
@@ -108,16 +108,16 @@ Al deze bibliotheken bieden dezelfde tools en presteren gelijkaardig. Zonder bij
 \end{listing}
 Indien de Crossref API een resultaat geeft, dan is de DOI gevonden.
 \section{De DOI opzoeken op de webpagina van de publicatie}
-Indien de voorgaande stap geen DOI opleverde, dan wordt het DOI gezocht op de webpagina van de publicatie. In de meeste gevallen is dat op de website van de uitgever van het tijdschrift. Op die pagina staan altijd de titel, auteurs, naam van het tijdschrift, jaartal en abstract van de publicatie.
+Indien de voorgaande stap geen DOI opleverde, dan wordt de DOI gezocht op de webpagina van de publicatie. In de meeste gevallen is dat op de website van de uitgever van het tijdschrift. Op die pagina staan altijd de titel, auteurs, naam van het tijdschrift, jaartal en abstract van de publicatie.
 Soms staat ook de DOI op die pagina.
 In sommige gevallen is de integrale tekst van de publicatie hier beschikbaar als HTML of als PDF document.\\
-Het formaat van de pagina kan verschillende zijn:
+Het formaat van de pagina kan verschillend zijn:
 \begin{itemize}
-    \item Een gewone HTML pagina
-    \item Een PDF document
-    \item Een webpagina met een embedded PDF document
+    \item een gewone HTML pagina
+    \item een PDF document
+    \item een webpagina met een embedded PDF document
 \end{itemize}
-Voor elk van de 3 gevallen is er een andere verwerking nodig:
+Voor elk van de 3 gevallen is er een andere verwerking nodig.
 \begin{itemize}
     \item In het geval van een HTML pagina wordt de inhoud geparsed met Beautiful Soup net zoals dat eerder gebeurde voor de SERP. Vervolgens wordt een DOI opgezocht in de inhoud door middel van de reguliere expressies uit hoofdstuk \ref{Doiurl}.
     \item In het geval van een PDF document is er een extra tussenstap nodig. De inhoud moet gelezen worden met gebruik van PyMuPDF \autocite{Pymupdf2025}. Daarna wordt er ook gezocht aan de hand van de reguliere expressies. Voorbeeld in codefragment \ref{code:DOIpymupdf}.
@@ -148,13 +148,8 @@ Voor elk van de 3 gevallen is er een andere verwerking nodig:
         \begin{minted}{python}
             ...
             url = link.location_replace_url
-            
             options = webdriver.ChromeOptions()
-            
             download_folder = os.path.join(str(Path(__file__).parent.parent.parent.parent), "online_pdf")
-            
-            logging_service.logger.debug(f"Download folder: {download_folder}")
-            
             profile = {
                 "plugins.plugins_list": [{"enabled": False, "name": "Chrome PDF Viewer"}],
                 "download.default_directory": download_folder,
@@ -171,16 +166,8 @@ Voor elk van de 3 gevallen is er een andere verwerking nodig:
             options.add_argument("--disable-dev-shm-usage") # overcome limited resource problems
             options.add_argument("--no-sandbox") # Bypass OS security  model
             options.add_argument("--headless")
-            
-            logging_service.logger.debug("Downloading file from link: {}".format(link.location_replace_url))
-            print("Downloading file from link: {}".format(link.location_replace_url))
-            
             driver = webdriver.Chrome(options=options)
             driver.get(url)
-            
-            logging_service.logger.debug("Status: Download Complete.")
-            print("Status: Download Complete.")
-            
             driver.close()
             ...
         \end{minted}

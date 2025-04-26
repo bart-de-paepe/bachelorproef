@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  21 APR 2025 22:32
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  26 APR 2025 22:26
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2303,12 +2303,6 @@ fontspec)
 fontspec)
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
-Overfull \hbox (3.69302pt too wide) in paragraph at lines 15--26
-[]\TU/Montserrat(1)/m/n/10.95 Mitchell ([][]2015[][]) reikt een aantal methodes
- aan waarop dit gedaan kan worden, steeds
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 15--26
 
  []
@@ -2428,7 +2422,7 @@ t line 68.
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250421223233 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250426222650 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -2784,25 +2778,22 @@ l.142         \end{minted}
 (That was another \errmessage.)
 
 
-linked_data.tex:186: Package minted Error: Cannot highlight code (minted execut
+linked_data.tex:173: Package minted Error: Cannot highlight code (minted execut
 able is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.186         \end{minted}
+l.173         \end{minted}
                           
 (That was another \errmessage.)
 
 
-Overfull \hbox (54.47388pt too wide) in paragraph at lines 186--186
+Overfull \hbox (54.47388pt too wide) in paragraph at lines 173--173
 \TU/FiraCode(0)/m/n/10.95 os.path.join(str(Path(__file__).parent.parent.parent.
 parent), 
  []
-
-
-LaTeX Warning: Float too large for page by 164.94347pt on input line 189.
 
 
 
@@ -2873,11 +2864,6 @@ File: ../graphics/./5_semantic_search/chroma-cosine-score.jpg Graphic file (typ
 e bmp)
 <../graphics/./5_semantic_search/chroma-cosine-score.jpg>
 
-
-[37]
-
-[38]
-
 semantic_search.tex:129: Package minted Error: Cannot highlight code (minted ex
 ecutable is unavailable or disabled); attempting to typeset without highlightin
 g.
@@ -2945,6 +2931,10 @@ File: ../graphics/./5_semantic_search/mongodb-cosine-score.jpg Graphic file (ty
 pe bmp)
 <../graphics/./5_semantic_search/mongodb-cosine-score.jpg>
 ) (conclusie.tex
+
+[37]
+
+[38]
 
 [39]
 
@@ -3019,27 +3009,12 @@ or  <return>  to continue without it.
 File: ../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG Graphic f
 ile (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG>
-
-Overfull \hbox (18.22462pt too wide) in paragraph at lines 117--119
-\TU/Montserrat(1)/m/n/10.95 doorgestuurd naar het e-mailadres. Overeenkomstig w
-erd een nieuw account \TU/Montserrat(2)/b/n/10.95 google-
- []
-
-
-
-[49]
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
-
- []
-
 File: ../graphics/./1_google_scholar_zoekopdracht/5_email.PNG Graphic file (typ
 e bmp)
 <../graphics/./1_google_scholar_zoekopdracht/5_email.PNG>
 )
 
-[50]
-
-[51]
+[49]
 B\ij lage B.
 (../voorstel/voorstel-inhoud.tex
 Overfull \hbox (2.63669pt too wide) in paragraph at lines 20--21
@@ -3049,14 +3024,14 @@ collecties van mariene wetenschap-
 
 
 
-[52
+[50
 
 ]
 File: images/stapsgewijs.png Graphic file (type bmp)
 <images/stapsgewijs.png>
 
 
-[53]
+[51]
 Overfull \hbox (21.94153pt too wide) in paragraph at lines 59--60
 []\TU/Montserrat(1)/m/n/10.95 Google Scholar is een zoekmachine die wetenschapp
 elijke literatuur indexeert ([]“  Google
@@ -3064,7 +3039,7 @@ elijke literatuur indexeert ([]“  Google
 
 
 
-[54]
+[52]
 Overfull \hbox (9.43324pt too wide) in paragraph at lines 67--68
 \TU/Montserrat(1)/m/n/10.95 vend, betrouwbaar en onderscheidbaar geïdentificeer
 d kunnen worden. []Chandrakar
@@ -3072,13 +3047,13 @@ d kunnen worden. []Chandrakar
 
 
 
+[53]
+
+[54])
+
 [55]
 
-[56])
-
-[57]
-
-[58
+[56
 
 
 ]
@@ -3096,7 +3071,7 @@ at(2)/m/it/10.95 46\TU/Montserrat(1)/m/n/10.95 (1), 27–36. [][]$[][][][][] []
 
 
 
-[59]
+[57]
 DePaepeBartBP.tex:185: Misplaced alignment tab character &.
 <argument> SQL &
                 amp; NoSQL Databases
@@ -3111,7 +3086,7 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[60]
+[58]
 DePaepeBartBP.tex:185: Misplaced alignment tab character &.
 <argument> ...a extraction, analysis, conversion &
                                                    manipulation of PDF (and ...
@@ -3133,7 +3108,7 @@ rat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][][][][] [] [][]
 
 
 
-[61]
+[59]
 Overfull \hbox (39.97581pt too wide) in paragraph at lines 185--185
 [][]\TU/Montserrat(2)/m/it/10.95 Tips for using the Crossref REST API\TU/Montse
 rrat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][
@@ -3142,26 +3117,26 @@ rrat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][
 
 
 
-[62]
+[60]
 
-[63] (DePaepeBartBP.aux)
+[61] (DePaepeBartBP.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
-(rerunfilecheck)             Checksum: B61795F4A511F40DB93994EDA19A303B;8125.
+(rerunfilecheck)             Checksum: 6E2D5741E87B9B4C5C260C3AB6D7BDCB;7943.
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52136 strings out of 408640
- 1069052 string characters out of 5749145
- 2319629 words of memory out of 5000000
- 74362 multiletter control sequences out of 15000+600000
+ 52102 strings out of 408640
+ 1068239 string characters out of 5749145
+ 2319624 words of memory out of 5000000
+ 74328 multiletter control sequences out of 15000+600000
  562740 words of font info for 113 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,12n,131p,1256b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DePaepeBartBP.pdf (73 pages).
+Output written on DePaepeBartBP.pdf (71 pages).

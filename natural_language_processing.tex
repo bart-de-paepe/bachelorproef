@@ -26,12 +26,12 @@
 %% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
 %% en geef het een gepaste titel.
 \section{Inleiding}
-Google Scholar (GS) heeft feitelijk al gezocht naar publicaties die relevant zijn voor onze zoekopdracht. De sortering van de zoekresultaten is op basis van de omvang van de integrale tekst, het aanzien van het tijdschrift en van de auteurs en het aantal citaties (inclusief de gedateerdheid ervan). Op die manier volgt GS de manier van werken binnen de academische wereld.\\
-Maar dit laat nog steeds ruimte om voor elk zoekresultaat een score af te leiden die aangeeft hoe relevant de publicatie is voor IMIS. De zoekopdracht voor het VLIZ bijvoorbeeld gebruikt als 1 van de trefwoorden ``Simon Stevin'', zijnde het wetenschappelijk vaartuig van het VLIZ. Dat betekent dat GS ook zoekresultaten zal geven van publicaties die verwijzen naar ``Simon Stevin'', de vlaamse geleerde uit de 16de eeuw. Het is interessant om die artikels te kunnen markeren met een lagere score ten opzichte van publicaties die het trefwoord ``VLIZ'' bevatten.\\
+Google Scholar (GS) heeft feitelijk al gezocht naar publicaties die relevant zijn voor onze zoekopdracht. De sortering van de zoekresultaten gebeurt op basis van de omvang van de integrale tekst, het aanzien van het tijdschrift en van de auteurs en het aantal citaties (inclusief de gedateerdheid ervan). Op die manier volgt GS de manier van werken binnen de academische wereld.\\
+Maar dit laat nog steeds ruimte om voor elk zoekresultaat een score af te leiden die aangeeft hoe relevant de publicatie is voor IMIS. De zoekopdracht voor het VLIZ bijvoorbeeld gebruikt als één van de trefwoorden ``Simon Stevin'', zijnde het wetenschappelijk vaartuig van het VLIZ. Dat betekent dat GS ook zoekresultaten zal geven van publicaties die verwijzen naar ``Simon Stevin'', de Vlaamse geleerde uit de 16de eeuw. Het is interessant om die artikels te kunnen markeren met een lagere score ten opzichte van publicaties die het trefwoord ``VLIZ'' bevatten.\\
 Daar bestaan Natural Language Processing (NLP) technieken voor. NLP is een verzamelnaam van een hele groep toepassingen en algoritmes die tekst omzetten in informatie. Deze zijn zeer divers en daarom ook onderverdeeld in verschillende deelgebieden. Het bepalen van de relevantie van een tekst in functie van een trefwoord valt eerder onder het deelgebied van de ``Natural Language Understanding''.\\
 
 \section{Relevantiescore}
-Het uitgangspunt is om een score te berekenen door te tellen hoe vaak een trefwoord voorkomt in de tekst. De frequentie is dan rechtevenredig met de relevantie van die tekst. Een eenvoudige techniek voor het bepalen van de frequentie is aan de hand van een ``Bag of Words'' (BoW). Dat is een tabel met een rij voor elke tekst en een kolom voor elk uniek woord. De cellen tonen het aantal keer dat het woord voorkomt in de tekst.  Dit is te zien in figuur \ref{fig:bow}.
+Het uitgangspunt is om een score te berekenen door te tellen hoe vaak een trefwoord voorkomt in de tekst. De frequentie is dan recht evenredig met de relevantie van die tekst. Een eenvoudige techniek voor het bepalen van de frequentie is aan de hand van een ``Bag of Words'' (BoW). Dat is een tabel met een rij voor elke tekst en een kolom voor elk uniek woord. De cellen tonen het aantal keer dat het woord voorkomt in de tekst.  Dit is te zien in figuur \ref{fig:bow}.
 \begin{figure}
     \centering
     \includegraphics[width=0.8\textwidth]{./4_NLP/bow.jpg}
@@ -68,8 +68,8 @@ Toch is de frequentie op zich nog niet de beste waardemeter voor een tekst. Er k
 \end{figure}
 Maar de relevantie van een publicatie kan niet afhangen van het aantal zoekresultaten, daarom valt de ``inverse document frequency'' weg. In de plaats zijn er andere parameters om de relevantie te benaderen.
 \begin{itemize}
-    \item De topic-sentence ratio: Een ratio van het trefwoord count ten opzichte van het totaal aantal zinnen.
-    \item De topic-noun ratio: Een ratio van het trefwoord count ten opzichte van het totaal aantal zelfstandige naamwoorden.
+    \item De topic-sentence ratio: een ratio van het trefwoord count ten opzichte van het totaal aantal zinnen.
+    \item De topic-noun ratio: een ratio van het trefwoord count ten opzichte van het totaal aantal zelfstandige naamwoorden.
 \end{itemize}
 Aan de hand van die parameters kan een relevantiescore berekend worden zoals te zien in codefragment \ref{code:relevantiescore}.
 \begin{listing}

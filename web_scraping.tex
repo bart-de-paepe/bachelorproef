@@ -41,8 +41,8 @@ De GS SERP heeft een vaste structuur, namelijk een lijst met zoekresultaten best
     \item jaartal
     \item abstract of fragment van het abstract
 \end{itemize} 
-Bovenstaande gegevens moeten uit de SERP gefilterd worden zodat ze opgeslaan kunnen worden voor verder gebruik in de volgende stappen.\\
-Informatie uit HTML pagina's halen is algemeen gekend onder de naam ``web scraping'' of  ``web crawling''. Deze techniek geniet momenteel veel aandacht omdat hij de gebruiker in staat stelt om veel data te verzamelen. Die data dient dan weer als brandstof voor AI. Het punt is dat in die context meerdere technieken bestaan om dezelfde job toe doen:
+Bovenstaande gegevens moeten uit de SERP gefilterd worden zodat ze opgeslagen kunnen worden voor verder gebruik in de volgende stappen.\\
+Informatie uit HTML pagina's halen is algemeen bekend onder de naam ``web scraping'' of  ``web crawling''. Deze techniek geniet momenteel veel aandacht omdat hij de gebruiker in staat stelt om veel data te verzamelen. Die data dienen dan weer als brandstof voor AI. Het punt is dat in die context meerdere technieken bestaan om dezelfde job te doen:
 \begin{itemize}
     \item web scraping met gebruik van een LLM
     \begin{itemize}
@@ -57,7 +57,7 @@ Informatie uit HTML pagina's halen is algemeen gekend onder de naam ``web scrapi
 \end{itemize} 
 
 \section{Web scraping met gebruik van een LLM }
-De meest gekende vorm van web scraping gebruikt de DOM structuur om er de inhoud uit te filteren. Daar komt dus niets van AI bij kijken. Het probleem met die aanpak is dat de custom code die de HTML structuur verwerkt, sterk afhankelijk is van de HTML zelf. Bijvoorbeeld wanneer de titel van een publicatie tussen <h3> tags staat die gekenmerkt worden door een class="gse\_alrt\_title" (zie codefragment \ref{code:HTMLcodefragment}), dan zal de custom code specifiek filteren op die DOM elementen.
+De meest bekende vorm van web scraping gebruikt de DOM structuur om er de inhoud uit te filteren. Daar komt dus niets van AI bij kijken. Het probleem met die aanpak is dat de custom code die de HTML structuur verwerkt, sterk afhankelijk is van de HTML zelf. Bijvoorbeeld wanneer de titel van een publicatie tussen <h3> tags staat die gekenmerkt worden door een class="gse\_alrt\_title" (zie codefragment \ref{code:HTMLcodefragment}), dan zal de custom code specifiek filteren op die DOM elementen.
 \begin{listing}
 <h3 style=\"font-weight:normal;margin:0;font-size:17px;line-height:20px;\">
     <span style=\"font-size:11px;font-weight:bold;color:#1a0dab;vertical-align:2px\">[HTML]</span> 
@@ -265,7 +265,7 @@ De prompt voor het model is te zien in codefragment \ref{code:Scrapegraphprompt}
 \end{listing}
 \\
 De test was niet succesvol. Het model vond geen enkele van de gevraagde parameters voor geen enkele van de 10 zoekresultaten.
-In eerste instantie werd gedacht dat het geselecteerde model te zwak is voor deze taak omdat er voor een klein model gekozen werd. Daarom werd dezelfde test uitgevoerd op een krachtiger systeem met 40GB RAM met het gemma3:27b model (17GB). Maar ook deze test was niet succesvol: de opdracht bleef gedurende 1 uur lopen zonder resultaat, waarna het commando manueel onderbroken werd. 
+In eerste instantie werd gedacht dat het geselecteerde model te zwak is voor deze taak omdat er voor een klein model gekozen werd. Daarom werd dezelfde test uitgevoerd op een krachtiger systeem met 40GB RAM met het gemma3:27b model (17GB). Maar ook deze test was niet succesvol: de opdracht bleef gedurende 1 uur lopen zonder resultaat, waarna het commando manueel onderbroken werd. Bij grote modellen moeten de tokens van de prompt opgezocht worden in veel meer data. Dat geeft aanleiding tot een zeer groot aantal instructies voor de CPU waardoor specifieke hardware noodzakelijk is, in het bijzonder grafische kaarten. 
 \section{Web scraping via het parsen van de DOM}
 Tot zover is er nog geen bruikbaar resultaat. Het gebruik van een online model is betalend en kan niet gewenst zijn door de klant. Anderzijds leidt een lokaal model voorlopig niet tot een goed resultaat. Daarom wordt er teruggegrepen naar de meer klassieke benadering van web scraping waarbij de HTML structuur ontleed wordt aan de hand van custom code.
 De GS SERP is een gestructureerde HTML pagina. Voor het parsen wordt er gebruik gemaakt van deze structuur.
@@ -276,9 +276,9 @@ Elk afzonderlijk resultaat heeft een H3-tag met als klasse 'gse\_alrt\_title' wa
     \caption[HTML structuur van de GS alert.]{\label{fig:serp_html}HTML structuur van de GS alert.}
 \end{figure}
 \FloatBarrier
-Meerdere specifieke libraries laten toe om HTML te parsen, maar de meest gekende bibliotheek is Beautiful Soup \autocite{Soup2025}. Door de naam van de HTML-tag en de gebruikte klasse (gse\_alrt\_title, en gse\_alrt\_sni) mee te geven aan Beautiful Soup, worden de overeenkomstige elementen in het HTML-document weergegeven. Beautiful Soup laat ook toe om te navigeren in het document zodat het element met de auteurs, de uitgever en het jaartal gemakkelijk gevonden kan worden.\\
+Meerdere specifieke libraries laten toe om HTML te parsen, maar de meest bekende bibliotheek is Beautiful Soup \autocite{Soup2025}. Door de naam van de HTML tag en de gebruikte klasse (gse\_alrt\_title, en gse\_alrt\_sni) mee te geven aan Beautiful Soup, worden de overeenkomstige elementen in het HTML document weergegeven. Beautiful Soup laat ook toe om te navigeren in het document zodat het element met de auteurs, de uitgever en het jaartal gemakkelijk gevonden kan worden.\\
 De code op github \textcite{DepaepeBeautifulsoup2025} maakt hiervan een implementatie aangepast voor de GS alerts. 
-De selectie van tags aan de hand van Beautiful Soup is te zien in codefragment \ref{code:Soupselect}
+De selectie van tags aan de hand van Beautiful Soup is te zien in codefragment \ref{code:Soupselect}.
 \begin{listing}
     \begin{minted}{python}
         ...
@@ -298,7 +298,7 @@ De selectie van tags aan de hand van Beautiful Soup is te zien in codefragment \
     \caption[Beautiful Soup select codefragment]{Codefragment voor het selecteren van tags aan de hand van Beautiful Soup.}
     \label{code:Soupselect}
 \end{listing}
-De navigatie tussen tags aan de hand van Beautiful Soup is te zien in codefragment \ref{code:Soupnav}
+De navigatie tussen tags aan de hand van Beautiful Soup is te zien in codefragment \ref{code:Soupnav}.
 \begin{listing}
     \begin{minted}{python}
         ...

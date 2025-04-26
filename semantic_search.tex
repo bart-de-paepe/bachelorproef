@@ -27,17 +27,17 @@
 %% en geef het een gepaste titel.
 \section{Inleiding}
 Alle publicaties in IMIS moeten uniek zijn. Op basis van voorgaande stappen is dat met 100\% zekerheid te bepalen in het geval de DOI van de publicatie gevonden werd.
-Als de DOI niet gevonden werd, kan er niet met zekerheid gesproken worden, maar er kan wel een score berekend worden dat de publicatie reeds in IMIS zit. Dat is mogelijk aan de hand van semantic search.\\
-Op basis van de titel van het artikel wordt een embedding berekend. Vervolgens wordt die vergeleken met alle embeddings van de titels in IMIS om zo tot een score te komen van de gelijkenis tussen beide. Dit wordt voorgesteld in figuur \ref{fig:Semanticsearch}
+Als de DOI niet gevonden werd, kan er niet met zekerheid gesproken worden, maar kan er wel een score berekend worden die aangeeft wat de kans is dat de publicatie reeds in IMIS zit. Dat is mogelijk aan de hand van semantic search.\\
+Op basis van de titel van het artikel wordt een embedding berekend. Vervolgens wordt die vergeleken met alle embeddings van de titels in IMIS om zo tot een score te komen van de gelijkenis tussen beide. Dit wordt voorgesteld in figuur \ref{fig:Semanticsearch}.
 \begin{figure}
     \centering
     \includegraphics[width=0.8\textwidth]{./5_semantic_search/embeddings.jpg}
     \caption[Semantic search.]{\label{fig:Semanticsearch}Semantic search.}
 \end{figure}
 \\
-Indien de score hoog is dan is er veel waarschijnlijkheid dat de publicatie reeds in IMIS zit. In het geval van een lage score is de waarschijnlijkheid eerder klein.\\
+Indien de score hoog is dan is er een grote waarschijnlijkheid dat de publicatie reeds in IMIS zit. In het geval van een lage score is de waarschijnlijkheid eerder klein.\\
 \section{Chroma}
-Embeddings worden opgeslaan in een vector databank. Er zijn talloze producten beschikbaar:
+Embeddings worden opgeslagen in een vector databank. Er zijn talloze producten beschikbaar:
 \begin{itemize}
     \item Pinecone
     \item Chroma
@@ -72,7 +72,7 @@ De connectie met de Chroma database is te zien in codefragment \ref{code:Chromad
     \caption[Chroma codefragment]{Codefragment voor het connecteren met Chroma.}
     \label{code:Chromadb}
 \end{listing}
-Vervolgens worden alle titels uit IMIS opgevraagd en worden de overeenkomstige embeddings berekend aan de hand van de code in codefragment \ref{code:Chromaembeddings}
+Vervolgens worden alle titels uit IMIS opgevraagd en worden de overeenkomstige embeddings berekend aan de hand van de code in codefragment \ref{code:Chromaembeddings}.
 \begin{listing}
     \begin{minted}{python}
         def initialize_embeddings(self):
@@ -109,14 +109,14 @@ Dan kan een titel opgezocht worden zoals getoond wordt in codefragment \ref{code
     \label{code:Chromaquery}
 \end{listing}
 \\
-De test was succesvol. Bij wijze van proef werd de titel van 1 van de zoekresultaten toegevoegd aan de lijst van titels uit IMIS. Het resultaat is te zien in figuur \ref{fig:Chroma}.
+De test was succesvol. Bij wijze van proef werd de titel van één van de zoekresultaten toegevoegd aan de lijst van titels uit IMIS. Het resultaat is te zien in figuur \ref{fig:Chroma}.
 \begin{figure}
     \centering
     \includegraphics[width=1.0\textwidth]{./5_semantic_search/chroma-cosine-score.jpg}
     \caption[Chroma resultaat.]{\label{fig:Chroma}Chroma resultaat.}
 \end{figure}
-Deze oplossing voegt Chroma toe als database naast MongoDB die nodig is voor de Web scraping. Het zou beter zijn indien de embeddings ook in MongoDB opgeslaan kunnen worden. Dat wordt verder onderzocht.
-\section{MongoDB}
+Deze oplossing voegt Chroma toe als database naast MongoDB die nodig is voor de Web scraping. Het zou beter zijn indien de embeddings ook in MongoDB opgeslagen kunnen worden. Dat wordt verder onderzocht.
+\section{MongoDB Atlas}
 Atlas Vector Search \autocite{Mongodbvectorsearch2025} laat toe om de embeddings tezamen op te slaan met de originele data waar ze van afgeleid zijn.\\
 De online documentatie \textcite{Usemongodbvectorsearch2025} beschrijft stap voor stap hoe een semantic search met Atlas Vector Search lokaal uitgevoerd kan worden. 
 De code op github \textcite{Depaepemongodb2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts.
@@ -130,7 +130,7 @@ De selectie van het model voor de embeddings is te zien in codefragment \ref{cod
     \caption[MongoDB model codefragment]{Codefragment voor het configureren van het model met MongoDB.}
     \label{code:Mongodbmodel}
 \end{listing}
-Vervolgens worden alle titels uit IMIS opgevraagd en worden de overeenkomstige embeddings berekend aan de hand van de code in codefragment \ref{code:Mongodbembeddings}
+Vervolgens worden alle titels uit IMIS opgevraagd en worden de overeenkomstige embeddings berekend aan de hand van de code in codefragment \ref{code:Mongodbembeddings}.
 \begin{listing}
     \begin{minted}{python}
         def initialize_embeddings(self):
@@ -156,7 +156,7 @@ Vervolgens worden alle titels uit IMIS opgevraagd en worden de overeenkomstige e
     \caption[Embeddings codefragment]{Codefragment voor het berekenen van de embeddings.}
     \label{code:Mongodbembeddings}
 \end{listing}
-Vervolgens wordt de lijst met embedding geïndexeerd zoals getoond wordt in codefragment \ref{code:Mongodbindex}.
+Vervolgens wordt de lijst met embeddings geïndexeerd zoals getoond wordt in codefragment \ref{code:Mongodbindex}.
 \begin{listing}
     \begin{minted}{python}
         def create_search_index(self):
@@ -212,7 +212,7 @@ Dan kan een titel opgezocht worden zoals getoond wordt in codefragment \ref{code
     \label{code:Mongodbquery}
 \end{listing}
 \\
-De test was succesvol. Bij wijze van proef werd de titel van 1 van de zoekresultaten toegevoegd aan de lijst van titels uit IMIS. Het resultaat is te zien in figuur \ref{fig:Mongodb}.
+De test was succesvol. Bij wijze van proef werd de titel van één van de zoekresultaten toegevoegd aan de lijst van titels uit IMIS. Het resultaat is te zien in figuur \ref{fig:Mongodb}.
 \begin{figure}
     \centering
     \includegraphics[width=1.0\textwidth]{./5_semantic_search/mongodb-cosine-score.jpg}

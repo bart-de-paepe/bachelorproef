@@ -36,19 +36,18 @@
 \contentsline {section}{\numberline {7.4}De DOI opzoeken op de webpagina van de publicatie}{32}{section.7.4}%
 \contentsline {chapter}{\numberline {8}Semantic search}{36}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Inleiding}{36}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Chroma}{36}{section.8.2}%
-\contentsline {section}{\numberline {8.3}MongoDB}{39}{section.8.3}%
+\contentsline {section}{\numberline {8.2}Chroma}{37}{section.8.2}%
+\contentsline {section}{\numberline {8.3}MongoDB Atlas}{39}{section.8.3}%
 \contentsline {chapter}{\numberline {9}Conclusie}{43}{chapter.9}%
 \contentsline {chapter}{\numberline {A}Google Scholar zoekopdracht}{45}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Zoeken in Google Scholar \blx@tocontentsinit {0}\autocite {JohnSBailey2025}}{45}{section.A.1}%
 \contentsline {subsection}{\numberline {A.1.1}Basis zoeken}{45}{subsection.A.1.1}%
 \contentsline {subsection}{\numberline {A.1.2}Geävanceerd zoeken}{47}{subsection.A.1.2}%
 \contentsline {section}{\numberline {A.2}E-mail alerts}{48}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Opstellen van een zoekopdracht}{50}{section.A.3}%
-\contentsline {chapter}{\numberline {B}Onderzoeksvoorstel}{52}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Inleiding}{52}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Literatuurstudie}{54}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Methodologie}{55}{section.B.3}%
-\contentsline {section}{\numberline {B.4}Verwacht resultaat, conclusie}{57}{section.B.4}%
-\contentsline {chapter}{Bibliografie}{58}{appendix*.23}%
+\contentsline {chapter}{\numberline {B}Onderzoeksvoorstel}{50}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Inleiding}{50}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Literatuurstudie}{52}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Methodologie}{53}{section.B.3}%
+\contentsline {section}{\numberline {B.4}Verwacht resultaat, conclusie}{55}{section.B.4}%
+\contentsline {chapter}{Bibliografie}{56}{appendix*.23}%
 \contentsfinish 
