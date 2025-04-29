@@ -1,11 +1,11 @@
-\contentsline {listing}{\numberline {5.1}{\ignorespaces Prompt htmlfragment}}{15}{listing.5.1}%
-\contentsline {listing}{\numberline {5.2}{\ignorespaces Cleaning codefragment}}{16}{listing.5.2}%
-\contentsline {listing}{\numberline {5.3}{\ignorespaces Prompt codefragment}}{16}{listing.5.3}%
-\contentsline {listing}{\numberline {5.4}{\ignorespaces Parse opties codefragment}}{17}{listing.5.4}%
-\contentsline {listing}{\numberline {5.5}{\ignorespaces Field codefragment}}{18}{listing.5.5}%
-\contentsline {listing}{\numberline {5.6}{\ignorespaces Schema codefragment}}{19}{listing.5.6}%
-\contentsline {listing}{\numberline {5.7}{\ignorespaces Model codefragment}}{19}{listing.5.7}%
-\contentsline {listing}{\numberline {5.8}{\ignorespaces Extract codefragment}}{20}{listing.5.8}%
+\contentsline {listing}{\numberline {5.1}{\ignorespaces Prompt htmlfragment}}{16}{listing.5.1}%
+\contentsline {listing}{\numberline {5.2}{\ignorespaces Cleaning codefragment}}{17}{listing.5.2}%
+\contentsline {listing}{\numberline {5.3}{\ignorespaces Prompt codefragment}}{17}{listing.5.3}%
+\contentsline {listing}{\numberline {5.4}{\ignorespaces Parse opties codefragment}}{18}{listing.5.4}%
+\contentsline {listing}{\numberline {5.5}{\ignorespaces Field codefragment}}{19}{listing.5.5}%
+\contentsline {listing}{\numberline {5.6}{\ignorespaces Schema codefragment}}{20}{listing.5.6}%
+\contentsline {listing}{\numberline {5.7}{\ignorespaces Model codefragment}}{20}{listing.5.7}%
+\contentsline {listing}{\numberline {5.8}{\ignorespaces Extract codefragment}}{21}{listing.5.8}%
 \contentsline {listing}{\numberline {5.9}{\ignorespaces Ollama}}{21}{listing.5.9}%
 \contentsline {listing}{\numberline {5.10}{\ignorespaces Scrapegraph configuratie codefragment}}{22}{listing.5.10}%
 \contentsline {listing}{\numberline {5.11}{\ignorespaces Prompt codefragment}}{23}{listing.5.11}%

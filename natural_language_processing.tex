@@ -57,7 +57,8 @@ Toch is de frequentie op zich nog niet de beste waardemeter voor een tekst. Er k
     
     \begin{equation} 
         df_t=the\ number\ of\ documents\ in\ which\ term\ t\ occurs
-    \end{equation}  
+    \end{equation} 
+     
     \caption[term frequency-inverse document frequency]{term frequency-inverse document frequency}
     \label{code:tf-idf}
 \end{listing}
@@ -83,7 +84,7 @@ De code op github \textcite{Depaepenlp2025} maakt hiervan een implementatie aang
 \section{Tekstverwerking}
 De BoW geeft wel aanleiding tot tabellen met zeer grote dimensies. Hoe meer teksten er zijn, des te uitgebreider zal de woordenschat worden. Daarom wordt de BoW altijd voorafgegaan door tekstverwerking die stopwoorden \footnote{Stopwoorden (of, a, the, in ,you, ...) komen vaak voor maar hebben geen toegevoegde waarde over het onderwerp.} verwijdert en lemmatisering \footnote{Lemmatisering zet woorden om naar hun basisvorm, maar houdt daarbij rekening met de context. Voorbeeld ``caring'' wordt omgezet in ``care'' en niet in ``car''.}.\\
 Voornaamwoorden kunnen verwijzen naar het trefwoord 
-(vb. tabel \ref{table:1}).
+(vb. tabel \ref{table:nlp}).
 \begin{table}[h!]
     \centering
     \begin{tabular}{|c|c|} 
@@ -94,7 +95,7 @@ Voornaamwoorden kunnen verwijzen naar het trefwoord
         \hline
     \end{tabular}
     \caption{Voor en na coreference.}
-    \label{table:1}
+    \label{table:nlp}
 \end{table}
 Het is dus interessant om ze te vervangen door het trefwoord zelf zodat ze mee een invloed hebben op de score. ``Coreference resolution'' is daar de geschikte NLP techniek voor. In een eerste fase worden alle gerelateerde voornaamwoorden en zelfstandige naamwoorden opgezocht. In een tweede fase worden alle gevonden voornaamwoorden vervangen door hun bijhorende zelfstandig naamwoord. Daarvoor gebruikt deze techniek een coreference model dat bestaat uit opeenvolgende paren van tokens met een bijhorende coreference score.
 Het opzoeken van paren is te zien in codefragment \ref{code:coreference}.

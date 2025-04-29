@@ -35,23 +35,33 @@ GS meldingen zijn e-mails in HTML formaat. Ze bevatten inhoud die overeenkomt me
     \item jaartal
     \item abstract van de publicatie of een fragment ervan
 \end{itemize}
-Die HTML moet omgezet worden in gestructureerde data door middel van HTML scraping technieken:
-\begin{itemize}
-    \item HTML scraping door een LLM
-    \begin{itemize}
-        \item online model
+Die HTML moet omgezet worden in gestructureerde data door middel van HTML scraping technieken zoals te zien zijn in tabel \ref{table:HTML scraping technieken}.
+\begin{table}[h!]
+    \begin{tabularx}{\textwidth}{|>{\hsize=1.0\hsize\linewidth=\hsize}X
+            |>{\hsize=1.0\hsize\linewidth=\hsize}X|}
+        \hline
+        HTML scraping door een LLM &
         \begin{itemize}
-            \item OpenAI
-            \item Generieke procedure onafhankelijk van het model
+            \item online model
+            \begin{itemize}
+                \item OpenAI
+                \item Generieke procedure onafhankelijk van het model
+            \end{itemize}
+            \item lokaal model
         \end{itemize}
-        \item lokaal model
-    \end{itemize}
-    \item HTML scraping door het parsen van de DOM
-    \begin{itemize}
-        \item Beautiful Soup
-        \item SerpAPI
-    \end{itemize}
-\end{itemize}
+         \\
+        \hline
+         HTML scraping door het parsen van de DOM &
+        \begin{itemize}
+            \item Beautiful Soup
+            \item SerpAPI
+        \end{itemize}\\
+        \hline
+    \end{tabularx}
+    \caption{HTML scraping technieken.}
+    \label{table:HTML scraping technieken}
+\end{table}
+
 Web scraping wordt verder uitgewerkt in hoofdstuk~\ref{ch:web_scraping}.\\
 Elk zoekresultaat is op basis van het algoritme van GS gematched met de zoekopdracht. Maar wil dat daarom ook zeggen dat de publicatie interessant is voor IMIS? Aan de hand van Natural Language Processing (NLP) wordt een score berekend van de relevantie van het zoekresultaat voor de overeenkomstige collectie in IMIS. NLP wordt verder uitgewerkt in Hoofdstuk~\ref{ch:natural_language_processing}.\\
 Om te weten of een publicatie echt nieuw is, moet ze ondubbelzinnig geïdentificeerd kunnen worden. Titel, auteurs, tijdschrift, enz. maken een publicatie echter niet uniek. Er kunnen namelijk variante benamingen voorkomen van titels, auteurs, enz. Voor literatuur is het de DOI die een publicatie uniek maakt. Voor elk zoekresultaat wordt er op zoek gegaan naar de DOI aan de hand van een stapsgewijze procedure:

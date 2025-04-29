@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  26 APR 2025 22:26
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  30 APR 2025 00:11
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1927,26 +1927,26 @@ Package csquotes Info: Redefining alias 'default' -> 'dutch'.
  (DePaepeBartBP.aux)
 \openout1 = `DePaepeBartBP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
 Package biblatex Info: Trying to load language 'dutch' -> 'dutch-apa'...
 Package biblatex Info: ... file 'dutch-apa.lbx' found.
 
@@ -1973,8 +1973,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'DePaepeBartBP.bbl' found.
  (DePaepeBartBP.bbl)
-Package biblatex Info: Reference section=0 on input line 83.
-Package biblatex Info: Reference segment=0 on input line 83.
+Package biblatex Info: Reference section=0 on input line 85.
+Package biblatex Info: Reference segment=0 on input line 85.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -2015,7 +2015,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 83.
+Package hyperref Info: Link coloring ON on input line 85.
 (DePaepeBartBP.out) (DePaepeBartBP.out)
 \@outlinefile=\write6
 \openout6 = `DePaepeBartBP.out'.
@@ -2038,13 +2038,13 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 Package microtype Info: Patching varwidth to enable character protrusion.
 \MT@vwid@leftmargin=\dimen354
 \MT@vwid@rightmargin=\dimen355
-LaTeX Info: Redefining \microtypecontext on input line 83.
-Package microtype Info: Applying patch `item' on input line 83.
-Package microtype Info: Applying patch `toc' on input line 83.
-Package microtype Info: Applying patch `eqnum' on input line 83.
-Package microtype Info: Applying patch `footnote' on input line 83.
-Package microtype Info: Applying patch `verbatim' on input line 83.
-LaTeX Info: Redefining \microtypesetup on input line 83.
+LaTeX Info: Redefining \microtypecontext on input line 85.
+Package microtype Info: Applying patch `item' on input line 85.
+Package microtype Info: Applying patch `toc' on input line 85.
+Package microtype Info: Applying patch `eqnum' on input line 85.
+Package microtype Info: Applying patch `footnote' on input line 85.
+Package microtype Info: Applying patch `verbatim' on input line 85.
+LaTeX Info: Redefining \microtypesetup on input line 85.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -2055,7 +2055,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 \c@lstlisting=\count549
-Package hyperref Info: Option `pageanchor' set `false' on input line 89.
+Package hyperref Info: Option `pageanchor' set `false' on input line 91.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -2089,39 +2089,39 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 89.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (16.05293pt too wide) in paragraph at lines 100--100
+Overfull \hbox (16.05293pt too wide) in paragraph at lines 102--102
 []\TU/Montserrat(0)/b/n/24.88 Google Scholar zoekresultaten voor we-
  []
 
 
-Overfull \hbox (6.32484pt too wide) in paragraph at lines 100--100
+Overfull \hbox (6.32484pt too wide) in paragraph at lines 102--102
 \TU/Montserrat(0)/b/n/24.88 tenschappelijke projecten: linked data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 
  []
 
-Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 100 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
 File: ../graphics/hogent_logo.eps Graphic file (type eps)
 <../graphics/hogent_logo.eps>
 
@@ -2134,7 +2134,7 @@ File: ../graphics/hogent_logo.eps Graphic file (type eps)
 ]
 
 [2]
-Package hyperref Info: Option `pageanchor' set `true' on input line 101.
+Package hyperref Info: Option `pageanchor' set `true' on input line 103.
  (voorwoord.tex) (samenvatting.tex
 Underfull \hbox (badness 10000) in paragraph at lines 14--4
 
@@ -2172,7 +2172,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--4
 
 
 ])
-Overfull \hbox (40.33022pt too wide) in paragraph at lines 48--105
+Overfull \hbox (40.33022pt too wide) in paragraph at lines 48--107
 \TU/Montserrat(1)/m/n/10.95 Uiteindelijk worden al deze stappen geïntegreerd in
  een pijplijn voor het semi-automatisch
  []
@@ -2199,17 +2199,17 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 7.
+(Font)              scaled to size 10.95116pt on input line 4.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 7.88484pt on input line 7.
+(Font)              scaled to size 7.88484pt on input line 4.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 6.35167pt on input line 7.
+(Font)              scaled to size 6.35167pt on input line 4.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 7.
+(Font)              scaled to size 10.94882pt on input line 4.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 7.88315pt on input line 7.
+(Font)              scaled to size 7.88315pt on input line 4.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 6.35031pt on input line 7.
+(Font)              scaled to size 6.35031pt on input line 4.
 )
 \tf@lof=\write8
 \openout8 = `DePaepeBartBP.lof'.
@@ -2325,23 +2325,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--26
 
 [5]
 
-[6]) (methodologie.tex
+[6]
+File: ../graphics/./5_semantic_search/word2vec.jpg Graphic file (type bmp)
+<../graphics/./5_semantic_search/word2vec.jpg>
+) (methodologie.tex
 
 [7]
+
+[8]
 Hoofdstuk 3.
 
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+[]\TU/Montserrat(1)/m/n/10.95 Generieke procedure onaf-
+ []
 
-[8
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[9
 
 ]
 
-[9]) (googlescholaralert.tex
+[10]) (googlescholaralert.tex
 
-[10]
+[11]
 Hoofdstuk 4.
 
 Overfull \hbox (3.35216pt too wide) in paragraph at lines 29--29
@@ -2349,25 +2362,89 @@ Overfull \hbox (3.35216pt too wide) in paragraph at lines 29--29
  alert| 
  []
 
+googlescholaralert.tex:50: LaTeX Error: There's no line here to end.
 
-Overfull \hbox (39.86299pt too wide) in paragraph at lines 30--36
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50     \end{tabularx}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+googlescholaralert.tex:50: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
+l.50     \end{tabularx}
+                       
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+googlescholaralert.tex:50: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50     \end{tabularx}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+googlescholaralert.tex:50: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
+l.50     \end{tabularx}
+                       
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+googlescholaralert.tex:50: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50     \end{tabularx}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+googlescholaralert.tex:50: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
+l.50     \end{tabularx}
+                       
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (39.86299pt too wide) in paragraph at lines 30--54
 \TU/Montserrat(1)/m/n/10.95 In het kader van deze opdracht werd een nieuw accou
 nt \TU/Montserrat(2)/b/n/10.95 google-scholar@marineinfo.org
  []
 
 
-Overfull \hbox (5.13693pt too wide) in paragraph at lines 30--36
+Overfull \hbox (5.13693pt too wide) in paragraph at lines 30--54
 \TU/Montserrat(1)/m/n/10.95 Vervolgens werden meerdere zoekopdrachten opgemaakt
  telkens voor een bepaald
  []
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[11
+) (web_scraping.tex
 
-]) (web_scraping.tex
+[12
 
-[12]
+]
+
+[13]
 Hoofdstuk 5.
 File: ../graphics/./4_NLP/SERP.jpg Graphic file (type bmp)
 <../graphics/./4_NLP/SERP.jpg>
@@ -2376,11 +2453,11 @@ LaTeX Warning: Float too large for page by 57.75012pt on input line 34.
 
 
 
-[13
+[14
 
 ]
 
-[14]
+[15]
 web_scraping.tex:63: You can't use `macro parameter character #' in horizontal 
 mode.
 l.63 ...=\"font-size:11px;font-weight:bold;color:#
@@ -2422,7 +2499,7 @@ t line 68.
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250426222650 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250430001127 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -2516,7 +2593,18 @@ File: ../graphics/./4_NLP/openai_billing.png Graphic file (type bmp)
 <../graphics/./4_NLP/openai_billing.png>
 
 
-[15]
+[16]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
+(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
 
 web_scraping.tex:153: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
@@ -2573,13 +2661,23 @@ tions” ([][]2025[][]) is een gespecialiseerde
 
 
 
-[16]
-
 [17]
 
 [18]
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
 [19]
+
+[20]
 
 web_scraping.tex:246: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
@@ -2605,16 +2703,24 @@ l.262     \end{minted}
 (That was another \errmessage.)
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[20]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[21]
 File: ../graphics/./2_parse_zoekresultaat/serp-html.JPG Graphic file (type bmp)
 
 <../graphics/./2_parse_zoekresultaat/serp-html.JPG>
 
 
-[21]
-
 [22]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 
 [23]
 
@@ -2647,6 +2753,12 @@ Overfull \hbox (1.47504pt too wide) in paragraph at lines 279--319
  SERP using Beautiful Soup” ([][]2025[][])
  []
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 ) (natural_language_processing.tex
 
 [24]
@@ -2677,12 +2789,12 @@ fontspec)
 fontspec)
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
-Overfull \hbox (9.62679pt too wide) in paragraph at lines 89--96
+Overfull \hbox (9.62679pt too wide) in paragraph at lines 90--97
  [][] 
  []
 
 
-natural_language_processing.tex:122: Package minted Error: Cannot highlight cod
+natural_language_processing.tex:123: Package minted Error: Cannot highlight cod
 e (minted executable is unavailable or disabled); attempting to typeset without
  highlighting.
 
@@ -2690,12 +2802,12 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.122     \end{minted}
+l.123     \end{minted}
                       
 (That was another \errmessage.)
 
 
-Overfull \hbox (169.4488pt too wide) in paragraph at lines 122--122
+Overfull \hbox (169.4488pt too wide) in paragraph at lines 123--123
 \TU/FiraCode(0)/m/n/10.95 self.logging_service.logger.debug(text[span.start_cha
 r:span.end_char])|  
  []
@@ -3057,13 +3169,13 @@ d kunnen worden. []Chandrakar
 
 
 ]
-Overfull \hbox (17.71294pt too wide) in paragraph at lines 185--185
+Overfull \hbox (17.71294pt too wide) in paragraph at lines 187--187
 [][]\TU/Montserrat(1)/m/n/10.95 Havrlant, L., & Kreinovich, V. (2017). A simple
  probabilistic explanation of term frequency-
  []
 
 
-Overfull \hbox (3.97876pt too wide) in paragraph at lines 185--185
+Overfull \hbox (3.97876pt too wide) in paragraph at lines 187--187
 \TU/Montserrat(1)/m/n/10.95 this explanation). \TU/Montserrat(2)/m/it/10.95 Int
 ernational Journal of General Systems\TU/Montserrat(1)/m/n/10.95 , \TU/Montserr
 at(2)/m/it/10.95 46\TU/Montserrat(1)/m/n/10.95 (1), 27–36. [][]$[][][][][] []
@@ -3072,10 +3184,10 @@ at(2)/m/it/10.95 46\TU/Montserrat(1)/m/n/10.95 (1), 27–36. [][]$[][][][][] []
 
 
 [57]
-DePaepeBartBP.tex:185: Misplaced alignment tab character &.
+DePaepeBartBP.tex:187: Misplaced alignment tab character &.
 <argument> SQL &
                 amp; NoSQL Databases
-l.185 \printbibliography[heading=bibintoc]
+l.187 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3087,10 +3199,10 @@ might try typing `S' now just to see what is salvageable.
 
 
 [58]
-DePaepeBartBP.tex:185: Misplaced alignment tab character &.
+DePaepeBartBP.tex:187: Misplaced alignment tab character &.
 <argument> ...a extraction, analysis, conversion &
                                                    manipulation of PDF (and ...
-l.185 \printbibliography[heading=bibintoc]
+l.187 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3100,16 +3212,16 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (25.84052pt too wide) in paragraph at lines 185--185
+
+[59]
+Overfull \hbox (25.84052pt too wide) in paragraph at lines 187--187
 [][]\TU/Montserrat(2)/m/it/10.95 ScrapeGraphAI: You Only Scrape Once\TU/Montser
 rat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][][][][] [] [][]
 [] [] [][][][][][][][][][][][][] []
  []
 
 
-
-[59]
-Overfull \hbox (39.97581pt too wide) in paragraph at lines 185--185
+Overfull \hbox (39.97581pt too wide) in paragraph at lines 187--187
 [][]\TU/Montserrat(2)/m/it/10.95 Tips for using the Crossref REST API\TU/Montse
 rrat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][
 ][][][] [] [][][] [] [][][][][][][][][][][][][] []
@@ -3125,18 +3237,18 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
-(rerunfilecheck)             Checksum: 6E2D5741E87B9B4C5C260C3AB6D7BDCB;7943.
+(rerunfilecheck)             Checksum: 8F9C8914BAE2272B2175D81722A80ABC;7943.
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52102 strings out of 408640
- 1068239 string characters out of 5749145
- 2319624 words of memory out of 5000000
- 74328 multiletter control sequences out of 15000+600000
- 562740 words of font info for 113 fonts, out of 8000000 for 9000
+ 52139 strings out of 408640
+ 1069633 string characters out of 5749145
+ 2319988 words of memory out of 5000000
+ 74361 multiletter control sequences out of 15000+600000
+ 562732 words of font info for 112 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 110i,12n,131p,1256b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,13n,131p,1256b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on DePaepeBartBP.pdf (71 pages).

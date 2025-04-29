@@ -58,7 +58,7 @@ Informatie uit HTML pagina's halen is algemeen bekend onder de naam ``web scrapi
 
 \section{Web scraping met gebruik van een LLM }
 De meest bekende vorm van web scraping gebruikt de DOM structuur om er de inhoud uit te filteren. Daar komt dus niets van AI bij kijken. Het probleem met die aanpak is dat de custom code die de HTML structuur verwerkt, sterk afhankelijk is van de HTML zelf. Bijvoorbeeld wanneer de titel van een publicatie tussen <h3> tags staat die gekenmerkt worden door een class="gse\_alrt\_title" (zie codefragment \ref{code:HTMLcodefragment}), dan zal de custom code specifiek filteren op die DOM elementen.
-\begin{listing}
+\begin{listing}[h!]
 <h3 style=\"font-weight:normal;margin:0;font-size:17px;line-height:20px;\">
     <span style=\"font-size:11px;font-weight:bold;color:#1a0dab;vertical-align:2px\">[HTML]</span> 
     <a href="https://www.sciencedirect.com/science/article/pii/S0191886925001308" class=\"gse\_alrt\_title\" style=\"font-size:17px;color:#1a0dab;line-height:22px\">
@@ -75,7 +75,7 @@ LLMs zijn bijzonder goed in het beantwoorden van vragen. OpenAI is voor het bred
 Het online artikel \textcite{Serpapiai2025} beschrijft stap voor stap hoe de gevraagde gegevens verkregen kunnen worden met het ``gpt-4-1106-preview'' model van OpenAI.
 De code op github \textcite{Depaepeopenai2025} maakt hiervan een implementatie aangepast voor de GS alerts.\\
 De HTML wordt eerst ontdaan van overbodige tags zodat alleen de inhoud behouden blijft zoals te zien is in codefragment \ref{code:Cleaningcodefragment}
-\begin{listing}
+\begin{listing}[h!]
     \begin{minted}{python}
         # Remove all occurrences of content between <head> and </head>
         body_text = re.sub(r'<head.*?>.*?</head>', '', body_text, flags=re.DOTALL)
@@ -88,7 +88,7 @@ De HTML wordt eerst ontdaan van overbodige tags zodat alleen de inhoud behouden 
     \label{code:Cleaningcodefragment}
 \end{listing}
 De prompt voor het model is te zien in codefragment \ref{code:Promptcodefragment}.
-\begin{listing}
+\begin{listing}[h!]
     \begin{minted}{python}
         messages=[
         {"role": "system",
@@ -100,7 +100,7 @@ De prompt voor het model is te zien in codefragment \ref{code:Promptcodefragment
     \label{code:Promptcodefragment}
 \end{listing}
 De verwachte parameters die het model moet zoeken zijn te zien in codefragment \ref{code:Parse_opties_codefragment}.\\
-\begin{listing}
+\begin{listing}[h!]
     \begin{minted}{python}
         "function": {
             "name": "parse_data",
@@ -131,7 +131,7 @@ De verwachte parameters die het model moet zoeken zijn te zien in codefragment \
 \end{listing}
 Het is vereist om een account te registreren bij OpenAI en om dit account te crediteren. Vervolgens kan er met de API gewerkt worden en wordt er betaald naargelang het verbruik.
 Een test met 1 GS alert met 10 zoekresultaten heeft een prijs van 0,17\$ zoals te zien is in figuur \ref{fig:OpenAI_dashboard}. Het model gebruikte daarvoor 14743 tokens. 
-\begin{figure}
+\begin{figure}[h!]
     \centering
     \includegraphics[width=1.0\textwidth]{./4_NLP/openai_billing.png}
     \caption[OpenAI dashboard.]{\label{fig:OpenAI_dashboard}OpenAI dashboard.}
@@ -143,8 +143,8 @@ De vorige scraper was zeer specifiek geschreven voor OpenAI. De code zou niet we
 Mirascope \textcite{Mirascope2025} is een gespecialiseerde code library om op uniforme wijze met verschillende LLMs te werken.
 Het online artikel \textcite{Anthropic2025} beschrijft stap voor stap hoe de gevraagde gegevens verkregen kunnen worden aan de hand van Mirascope en het Anthropic Claude model. Net zoals OpenAI biedt Anthropic ook een API \autocite{Anthropicmodel2025} aan voor development. Er moet eveneens een account geregistreerd worden bij Anthropic maar hun free tier is uitgebreider dan dat van OpenAI zodat het account voor dit experiment niet gecrediteerd moest worden.\\
 De code op github \textcite{Depaepeanthropic2025} maakt hiervan een implementatie aangepast voor de GS alerts.
-De parameters die opgezocht moeten worden, dienen eerst als velden en schema gedeclareerd te worden. Dit is te zien in codefragmenten \ref{code:Field} en \ref{code:Schema}.
-\begin{listing}
+De parameters die opgezocht moeten worden, dienen eerst als velden en schema gedeclareerd te worden. Dit is mogelijk met Pydantic \footnote{Pydantic laat toe om data te structureren en te valideren \autocite{Pydantic2025}.} zoals te zien is in codefragmenten \ref{code:Field} en \ref{code:Schema}.
+\begin{listing}[h!]
     \begin{minted}{python}
         class FieldDefinition(BaseModel):
             """Define the fields to extract from the webpage."""
@@ -154,7 +154,7 @@ De parameters die opgezocht moeten worden, dienen eerst als velden en schema ged
     \caption[Field codefragment]{Codefragment voor het opstellen van een Pydantic Field.}
     \label{code:Field}
 \end{listing}
-\begin{listing}
+\begin{listing}[h!]
     \begin{minted}{python}
         class SchemaGenerator(AnthropicExtractor[list[FieldDefinition]]):
             """Generate a schema based on a user query."""
@@ -170,7 +170,7 @@ De parameters die opgezocht moeten worden, dienen eerst als velden en schema ged
     \label{code:Schema}
 \end{listing}
 Met deze structuur van veld en schema kan vervolgens voor elke opdracht een gepast model gemaakt worden aan de hand van de code in codefragment \ref{code:Model}
-\begin{listing}
+\begin{listing}[h!]
     \begin{minted}{python}
         def generate_schema(self) -> None:
             """Sets `extract_schema` to a schema generated based on `query`."""
@@ -189,7 +189,7 @@ Met deze structuur van veld en schema kan vervolgens voor elke opdracht een gepa
     \label{code:Model}
 \end{listing}
 Dan kan er geparsed worden met de resultaten volgens het gevraagde schema zoals getoond wordt in codefragment \ref{code:Extract}.
-\begin{listing}
+\begin{listing}[h!]
     \begin{minted}{python}
         @computed_field
         @property
@@ -216,17 +216,17 @@ Dit kan bijvoorbeeld aan de hand van Docker zoals te zien is codefragment \ref{c
 \end{itemize}
 Ieder van deze modellen is beschikbaar in verschillende versies van grootte van het model. Een groot model heeft meer kennis en zal beter op de vraag kunnen antwoorden. Anderzijds zal de verwerking trager verlopen bij een groot model en zal een groot model veel meer resources nodig hebben om te kunnen werken.
 Daarom wordt in eerste instantie met een klein llama3:8b model (4.7GB) gewerkt dat kan uitgevoerd worden op een doorsnee laptop.
-\begin{listing}
+\begin{listing}[h!]
     docker exec -it ollama ollama pull llama3:8b\\
     docker exec -it ollama ollama run llama3
-    \caption[Ollama]{Ollama}
+    \caption[Ollama]{Ollama uitvoeren met docker.}
     \label{code:Ollama}
 \end{listing}
 Het online artikel \textcite{Scrapegraphaillama2025} beschrijft stap voor stap hoe webpagina's gescraped kunnen worden aan de hand van ScrapegraphAI en het LlaMa3 model.
 \textcite{ScrapeGraphAI2025} is een library die LLMs en grafen combineert om webpagina's te scrapen.\\
 De code op github \textcite{Depaepeollama2025} maakt hiervan een implementatie aangepast voor de GS alerts. De code veronderstelt dat ollama draait op het systeem en dat het LlaMa3 model erop uitgevoerd wordt.
 Codefragment \ref{code:Scrapegraphconfig} connecteert de scraping graph met het model.
-\begin{listing}
+\begin{listing}[h!]
     \begin{minted}{python}
         graph_config = {
             "llm": {
@@ -248,7 +248,7 @@ Codefragment \ref{code:Scrapegraphconfig} connecteert de scraping graph met het 
     \label{code:Scrapegraphconfig}
 \end{listing}
 De prompt voor het model is te zien in codefragment \ref{code:Scrapegraphprompt}.
-\begin{listing}
+\begin{listing}[h!]
     \begin{minted}{python}
         smart_scraper_graph = SmartScraperGraph(
         prompt="You are an AI assistant specialized in processing Google Scholar search engine result pages and returning structured JSON data. Always provide your response as valid, well-formatted JSON without any additional text or comments. Focus on extracting and organizing the most relevant information from Google Scholar search engine result pages, including title, original url, authors, name of journal, year of publication, snippet.",  # The AI prompt specifies what to extract
@@ -270,7 +270,7 @@ In eerste instantie werd gedacht dat het geselecteerde model te zwak is voor dez
 Tot zover is er nog geen bruikbaar resultaat. Het gebruik van een online model is betalend en kan niet gewenst zijn door de klant. Anderzijds leidt een lokaal model voorlopig niet tot een goed resultaat. Daarom wordt er teruggegrepen naar de meer klassieke benadering van web scraping waarbij de HTML structuur ontleed wordt aan de hand van custom code.
 De GS SERP is een gestructureerde HTML pagina. Voor het parsen wordt er gebruik gemaakt van deze structuur.
 Elk afzonderlijk resultaat heeft een H3-tag met als klasse 'gse\_alrt\_title' waarin de titel staat. De korte tekst van het zoekresultaat staat in een DIV-tag met als klasse 'gse\_alrt\_sni'. Tussen de titel en het snippet staan de auteurs, de uitgever en het jaartal gegroepeerd in een DIV-tag zoals te zien is in figuur \ref{fig:serp_html}.
-\begin{figure}
+\begin{figure}[h!]
     \centering
     \includegraphics[width=1.0\textwidth]{./2_parse_zoekresultaat/serp-html.JPG}
     \caption[HTML structuur van de GS alert.]{\label{fig:serp_html}HTML structuur van de GS alert.}
@@ -279,7 +279,7 @@ Elk afzonderlijk resultaat heeft een H3-tag met als klasse 'gse\_alrt\_title' wa
 Meerdere specifieke libraries laten toe om HTML te parsen, maar de meest bekende bibliotheek is Beautiful Soup \autocite{Soup2025}. Door de naam van de HTML tag en de gebruikte klasse (gse\_alrt\_title, en gse\_alrt\_sni) mee te geven aan Beautiful Soup, worden de overeenkomstige elementen in het HTML document weergegeven. Beautiful Soup laat ook toe om te navigeren in het document zodat het element met de auteurs, de uitgever en het jaartal gemakkelijk gevonden kan worden.\\
 De code op github \textcite{DepaepeBeautifulsoup2025} maakt hiervan een implementatie aangepast voor de GS alerts. 
 De selectie van tags aan de hand van Beautiful Soup is te zien in codefragment \ref{code:Soupselect}.
-\begin{listing}
+\begin{listing}[h!]
     \begin{minted}{python}
         ...
         soup = BeautifulSoup(body_text, "html.parser", from_encoding="utf-8")
@@ -299,7 +299,7 @@ De selectie van tags aan de hand van Beautiful Soup is te zien in codefragment \
     \label{code:Soupselect}
 \end{listing}
 De navigatie tussen tags aan de hand van Beautiful Soup is te zien in codefragment \ref{code:Soupnav}.
-\begin{listing}
+\begin{listing}[h!]
     \begin{minted}{python}
         ...
         media_type = title.find_previous()
