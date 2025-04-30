@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  30 APR 2025 00:11
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  30 APR 2025 17:11
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2499,7 +2499,7 @@ t line 68.
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250430001127 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250430171121 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -3243,10 +3243,10 @@ Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52139 strings out of 408640
- 1069633 string characters out of 5749145
- 2319988 words of memory out of 5000000
- 74361 multiletter control sequences out of 15000+600000
+ 52141 strings out of 408640
+ 1069699 string characters out of 5749145
+ 2319990 words of memory out of 5000000
+ 74363 multiletter control sequences out of 15000+600000
  562732 words of font info for 112 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,13n,131p,1256b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s

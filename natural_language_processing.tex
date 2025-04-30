@@ -26,46 +26,46 @@
 %% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
 %% en geef het een gepaste titel.
 \section{Inleiding}
-Google Scholar (GS) heeft feitelijk al gezocht naar publicaties die relevant zijn voor onze zoekopdracht. De sortering van de zoekresultaten gebeurt op basis van de omvang van de integrale tekst, het aanzien van het tijdschrift en van de auteurs en het aantal citaties (inclusief de gedateerdheid ervan). Op die manier volgt GS de manier van werken binnen de academische wereld.\\
-Maar dit laat nog steeds ruimte om voor elk zoekresultaat een score af te leiden die aangeeft hoe relevant de publicatie is voor IMIS. De zoekopdracht voor het VLIZ bijvoorbeeld gebruikt als één van de trefwoorden ``Simon Stevin'', zijnde het wetenschappelijk vaartuig van het VLIZ. Dat betekent dat GS ook zoekresultaten zal geven van publicaties die verwijzen naar ``Simon Stevin'', de Vlaamse geleerde uit de 16de eeuw. Het is interessant om die artikels te kunnen markeren met een lagere score ten opzichte van publicaties die het trefwoord ``VLIZ'' bevatten.\\
-Daar bestaan Natural Language Processing (NLP) technieken voor. NLP is een verzamelnaam van een hele groep toepassingen en algoritmes die tekst omzetten in informatie. Deze zijn zeer divers en daarom ook onderverdeeld in verschillende deelgebieden. Het bepalen van de relevantie van een tekst in functie van een trefwoord valt eerder onder het deelgebied van de ``Natural Language Understanding''.\\
+Na de web scraping zijn de gegevens van elk zoekresultaat gestructureerd opgeslagen. Per definitie zijn al deze resultaten relevant voor IMIS want Google Scholar (GS) heeft ze opgezocht in functie van de zoekopdracht. De sortering van de zoekresultaten gebeurt op basis van de omvang van de integrale tekst, het aanzien van het tijdschrift en van de auteurs en het aantal citaties (inclusief de gedateerdheid ervan). Op die manier volgt GS de manier van werken binnen de academische wereld.\\
+Maar daarnaast is het nog steeds mogelijk om voor elk zoekresultaat een score af te leiden die aangeeft hoe relevant de publicatie is voor de zoekopdracht aan de hand van de frequentie van elke zoekterm in de tekst. Algemeen wordt aangenomen dat hoe meer een zoekterm voorkomt in de tekst, des te relevanter die tekst zal zijn.\\
+Daar bestaan Natural Language Processing (NLP) technieken voor. NLP is een verzamelnaam van een hele groep toepassingen en algoritmes die tekst omzetten in informatie. Deze zijn zeer divers en daarom ook onderverdeeld in verschillende deelgebieden. Het bepalen van de relevantie van een tekst in functie van een trefwoord valt eerder onder het deelgebied van de ``Natural Language Understanding'' die alle technieken bundelt die toelaten om de betekenis van een tekst beter te begrijpen.\\
 
 \section{Relevantiescore}
 Het uitgangspunt is om een score te berekenen door te tellen hoe vaak een trefwoord voorkomt in de tekst. De frequentie is dan recht evenredig met de relevantie van die tekst. Een eenvoudige techniek voor het bepalen van de frequentie is aan de hand van een ``Bag of Words'' (BoW). Dat is een tabel met een rij voor elke tekst en een kolom voor elk uniek woord. De cellen tonen het aantal keer dat het woord voorkomt in de tekst.  Dit is te zien in figuur \ref{fig:bow}.
-\begin{figure}
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\textwidth]{./4_NLP/bow.jpg}
     \caption[Bag of Words.]{\label{fig:bow}Bag of Words.}
 \end{figure}
 Toch is de frequentie op zich nog niet de beste waardemeter voor een tekst. Er kunnen namelijk woorden heel vaak voorkomen die op zich weinig vertellen over het onderwerp. Om daaraan tegemoet te komen bestaat er een variant van de BoW, die in plaats van gewoon te tellen de ``term frequency-inverse document frequency'' (Tf-Idf) geeft. De formules zijn te zien in codefragment \ref{code:tf-idf} en het resultaat in figuur \ref{fig:tf-idf}.
-\begin{listing}
-    \begin{equation}
+\begin{listing}[h!]
+    \[
         score\ =\ tf\ \ast\ idf
-    \end{equation}  
+    \]  
     where
-    \begin{equation}
+    \[
         tf=term\ frequency\ \left(see\ above\right)
-    \end{equation} 
+    \] 
     
-    \begin{equation}
+    \[
         idf_t=log\left(\frac{N}{df_t}\right)
-    \end{equation}  
+    \]  
     
-    \begin{equation} 
+    \[ 
         N=total\ number\ ofdocuments
-    \end{equation}  
+    \]  
     
-    \begin{equation} 
+    \[ 
         df_t=the\ number\ of\ documents\ in\ which\ term\ t\ occurs
-    \end{equation} 
+    \] 
      
-    \caption[term frequency-inverse document frequency]{term frequency-inverse document frequency}
+    \caption[term frequency-inverse document frequency]{Berekening van de term frequency-inverse document frequency.}
     \label{code:tf-idf}
 \end{listing}
-\begin{figure}
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\textwidth]{./4_NLP/tf-idf.jpg}
-    \caption[term frequency-inverse document frequency.]{\label{fig:tf-idf}term frequency-inverse document frequency.}
+    \caption[term frequency-inverse document frequency.]{\label{fig:tf-idf}Term frequency-inverse document frequency.}
 \end{figure}
 Maar de relevantie van een publicatie kan niet afhangen van het aantal zoekresultaten, daarom valt de ``inverse document frequency'' weg. In de plaats zijn er andere parameters om de relevantie te benaderen.
 \begin{itemize}
@@ -73,11 +73,11 @@ Maar de relevantie van een publicatie kan niet afhangen van het aantal zoekresul
     \item De topic-noun ratio: een ratio van het trefwoord count ten opzichte van het totaal aantal zelfstandige naamwoorden.
 \end{itemize}
 Aan de hand van die parameters kan een relevantiescore berekend worden zoals te zien in codefragment \ref{code:relevantiescore}.
-\begin{listing}
-    \begin{equation}
+\begin{listing}[h!]
+    \[
         score=topic count\ \ast\ log\left(topic-sentence ratio\right)\ \ast\ log\left(topic-noun ratio\right)
-    \end{equation}  
-    \caption[relevantiescore]{relevantiescore}
+    \]  
+    \caption[relevantiescore]{Berekenen van de relevantiescore.}
     \label{code:relevantiescore}
 \end{listing}
 De code op github \textcite{Depaepenlp2025} maakt hiervan een implementatie aangepast voor de GS alerts.
@@ -94,10 +94,10 @@ Voornaamwoorden kunnen verwijzen naar het trefwoord
         na&``Het VLIZ is pionier in zeekennis.\\&Het VLIZ heeft de Simon Stevin als onderzoeksvaartuig.\\&Simon Stevin als onderzoeksvaartuig voert het VLIZ marien onderzoek uit.''\\
         \hline
     \end{tabular}
-    \caption{Voor en na coreference.}
+    \caption{Voor en na coreference resolution.}
     \label{table:nlp}
 \end{table}
-Het is dus interessant om ze te vervangen door het trefwoord zelf zodat ze mee een invloed hebben op de score. ``Coreference resolution'' is daar de geschikte NLP techniek voor. In een eerste fase worden alle gerelateerde voornaamwoorden en zelfstandige naamwoorden opgezocht. In een tweede fase worden alle gevonden voornaamwoorden vervangen door hun bijhorende zelfstandig naamwoord. Daarvoor gebruikt deze techniek een coreference model dat bestaat uit opeenvolgende paren van tokens met een bijhorende coreference score.
+Het is dus interessant om ze te vervangen door het trefwoord zelf zodat ze mee een invloed hebben op de relevantiescore. ``Coreference resolution'' is daar de geschikte NLP techniek voor. In een eerste fase worden alle gerelateerde voornaamwoorden en zelfstandige naamwoorden opgezocht. In een tweede fase worden alle gevonden voornaamwoorden vervangen door hun bijhorende zelfstandig naamwoord. Daarvoor gebruikt deze techniek een coreference model dat bestaat uit opeenvolgende paren van tokens met een bijhorende coreference score.
 Het opzoeken van paren is te zien in codefragment \ref{code:coreference}.
 \begin{listing}
     \begin{minted}{python}
@@ -121,6 +121,6 @@ Het opzoeken van paren is te zien in codefragment \ref{code:coreference}.
                     span_array.append(span_tuple)
             return span_array
     \end{minted}
-    \caption[Coreference resolver]{Coreference resolver}
+    \caption[Coreference resolver]{Codefragment Coreference resolver}
     \label{code:coreference}
 \end{listing}
