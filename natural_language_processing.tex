@@ -37,7 +37,7 @@ Het uitgangspunt is om een score te berekenen door te tellen hoe vaak een trefwo
     \includegraphics[width=0.8\textwidth]{./4_NLP/bow.jpg}
     \caption[Bag of Words.]{\label{fig:bow}Bag of Words.}
 \end{figure}
-Toch is de frequentie op zich nog niet de beste waardemeter voor een tekst. Er kunnen namelijk woorden heel vaak voorkomen die op zich weinig vertellen over het onderwerp. Om daaraan tegemoet te komen bestaat er een variant van de BoW, die in plaats van gewoon te tellen de ``term frequency-inverse document frequency'' (Tf-Idf) geeft. De formules zijn te zien in codefragment \ref{code:tf-idf} en het resultaat in figuur \ref{fig:tf-idf}.
+Toch is de frequentie op zich nog niet de beste waardemeter voor een tekst. Er kunnen namelijk woorden heel vaak voorkomen die op zich weinig vertellen over het onderwerp. Om daaraan tegemoet te komen bestaat er een variant van de BoW, die in plaats van gewoon te tellen de ``term frequency-inverse document frequency'' (Tf-Idf) geeft. De score is dan ook omgekeerd evenredig met de frequentie van de zoekterm in alle documenten. De formules om de Tf-Idf te berekenen, zijn te zien in codefragment \ref{code:tf-idf} en het resultaat in figuur \ref{fig:tf-idf}.
 \begin{listing}[h!]
     \[
         score\ =\ tf\ \ast\ idf
@@ -67,24 +67,23 @@ Toch is de frequentie op zich nog niet de beste waardemeter voor een tekst. Er k
     \includegraphics[width=0.8\textwidth]{./4_NLP/tf-idf.jpg}
     \caption[term frequency-inverse document frequency.]{\label{fig:tf-idf}Term frequency-inverse document frequency.}
 \end{figure}
-Maar de relevantie van een publicatie kan niet afhangen van het aantal zoekresultaten, daarom valt de ``inverse document frequency'' weg. In de plaats zijn er andere parameters om de relevantie te benaderen.
+Uit de formules valt te zien dat de ``inverse document frequency'' afhangt van het aantal documenten. Maar de relevantie van een publicatie kan niet afhangen van het aantal zoekresultaten, daarom valt de ``inverse document frequency'' weg. In de plaats zijn er andere parameters om de relevantie te benaderen.
 \begin{itemize}
-    \item De topic-sentence ratio: een ratio van het trefwoord count ten opzichte van het totaal aantal zinnen.
-    \item De topic-noun ratio: een ratio van het trefwoord count ten opzichte van het totaal aantal zelfstandige naamwoorden.
+    \item De ``topic-sentence'' ratio: een ratio van het trefwoord count ten opzichte van het totaal aantal zinnen.
+    \item De ``topic-noun'' ratio: een ratio van het trefwoord count ten opzichte van het totaal aantal zelfstandige naamwoorden.
 \end{itemize}
 Aan de hand van die parameters kan een relevantiescore berekend worden zoals te zien in codefragment \ref{code:relevantiescore}.
 \begin{listing}[h!]
     \[
-        score=topic count\ \ast\ log\left(topic-sentence ratio\right)\ \ast\ log\left(topic-noun ratio\right)
+        score=topic count\ \ast\ log\left(``topic-sentence'' ratio\right)\ \ast\ log\left(``topic-noun'' ratio\right)
     \]  
-    \caption[relevantiescore]{Berekenen van de relevantiescore.}
+    \caption[Relevantiescore]{Berekenen van de relevantiescore.}
     \label{code:relevantiescore}
 \end{listing}
 De code op github \textcite{Depaepenlp2025} maakt hiervan een implementatie aangepast voor de GS alerts.
 \section{Tekstverwerking}
 De BoW geeft wel aanleiding tot tabellen met zeer grote dimensies. Hoe meer teksten er zijn, des te uitgebreider zal de woordenschat worden. Daarom wordt de BoW altijd voorafgegaan door tekstverwerking die stopwoorden \footnote{Stopwoorden (of, a, the, in ,you, ...) komen vaak voor maar hebben geen toegevoegde waarde over het onderwerp.} verwijdert en lemmatisering \footnote{Lemmatisering zet woorden om naar hun basisvorm, maar houdt daarbij rekening met de context. Voorbeeld ``caring'' wordt omgezet in ``care'' en niet in ``car''.}.\\
-Voornaamwoorden kunnen verwijzen naar het trefwoord 
-(vb. tabel \ref{table:nlp}).
+Verder kunnen ook voornaamwoorden in de tekst verwijzen naar het trefwoord. Het is dus interessant om ze te vervangen door het trefwoord zelf zodat ze mee een invloed hebben op de relevantiescore (vb. tabel \ref{table:nlp}).
 \begin{table}[h!]
     \centering
     \begin{tabular}{|c|c|} 
@@ -97,8 +96,8 @@ Voornaamwoorden kunnen verwijzen naar het trefwoord
     \caption{Voor en na coreference resolution.}
     \label{table:nlp}
 \end{table}
-Het is dus interessant om ze te vervangen door het trefwoord zelf zodat ze mee een invloed hebben op de relevantiescore. ``Coreference resolution'' is daar de geschikte NLP techniek voor. In een eerste fase worden alle gerelateerde voornaamwoorden en zelfstandige naamwoorden opgezocht. In een tweede fase worden alle gevonden voornaamwoorden vervangen door hun bijhorende zelfstandig naamwoord. Daarvoor gebruikt deze techniek een coreference model dat bestaat uit opeenvolgende paren van tokens met een bijhorende coreference score.
-Het opzoeken van paren is te zien in codefragment \ref{code:coreference}.
+``Coreference resolution'' is daar de geschikte NLP techniek voor. In een eerste fase worden alle gerelateerde voornaamwoorden en zelfstandige naamwoorden opgezocht. In een tweede fase worden alle gevonden voornaamwoorden vervangen door hun bijhorende zelfstandig naamwoord. Daarvoor gebruikt deze techniek een coreference model dat bestaat uit opeenvolgende paren van tokens met een bijhorende coreference score \autocite{Lee2017}. Het volledige algoritme \autocite{Explosion2025} gebruikt deze scores om de tokens met de hoogste waarden te clusteren.
+Het opzoeken van paren aan de hand van de Spacy Coreference resolver \autocite{Spacy2025} is te zien in codefragment \ref{code:coreference} en is eveneens geïmplementeerd in \textcite{Depaepenlp2025}.
 \begin{listing}
     \begin{minted}{python}
         import spacy
@@ -112,15 +111,13 @@ Het opzoeken van paren is te zien in codefragment \ref{code:coreference}.
             doc = self.nlp(text)
             spans = doc.spans
             span_array = []
-            self.logging_service.logger.debug(spans)
             for spangroup in spans.values():
                 span_tuple = []
                 for span in spangroup:
-                    self.logging_service.logger.debug(text[span.start_char:span.end_char])
                     span_tuple.append(text[span.start_char:span.end_char])
                     span_array.append(span_tuple)
             return span_array
     \end{minted}
-    \caption[Coreference resolver]{Codefragment Coreference resolver}
+    \caption[Coreference resolver]{Coreference resolver}
     \label{code:coreference}
 \end{listing}

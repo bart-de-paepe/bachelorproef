@@ -678,6 +678,24 @@
       \verb https://www.crossref.org/blog/dois-and-matching-regular-expressions/
       \endverb
     \endentry
+    \entry{Explosion2025}{online}{}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{End-to-end Neural Coreference Resolution in spaCy}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://explosion.ai/blog/coref
+      \endverb
+      \verb{url}
+      \verb https://explosion.ai/blog/coref
+      \endverb
+    \endentry
     \entry{PaperEtl2024}{online}{}{}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
@@ -1048,6 +1066,24 @@
       \verb https://iamajithkumar.medium.com/how-to-use-chroma-to-build-your-first-similarity-search-5c054bfd5add
       \endverb
     \endentry
+    \entry{Spacy2025}{online}{}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Industrial-Strength Natural LanguageProcessing}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://spacy.io/
+      \endverb
+      \verb{url}
+      \verb https://spacy.io/
+      \endverb
+    \endentry
     \entry{Llama32025}{online}{}{}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
@@ -1289,6 +1325,59 @@
       \range{pages}{14}
       \verb{doi}
       \verb 10.1016/b978-0-323-91776-6.00011-7
+      \endverb
+    \endentry
+    \entry{Lee2017}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=8dde73b4194f5bc4230c4808f3fc1534}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kenton},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f34e2f7b0bdc101d5e959927fb6eec08}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Luheng},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c97f53fdeeb04c28de19e3324cb4bc0a}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1dbd3a5b42828fb2cebd7786488ba425}{%
+           family={Zettlemoyer},
+           familyi={Z\bibinitperiod},
+           given={Luke},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{81b50cdbc93e2932d3bbabc3240cc6eb}
+      \strng{fullhash}{bc7adf301d8b10f4b3e1807fd29b366d}
+      \strng{fullhashraw}{bc7adf301d8b10f4b3e1807fd29b366d}
+      \strng{bibnamehash}{bc7adf301d8b10f4b3e1807fd29b366d}
+      \strng{authorbibnamehash}{bc7adf301d8b10f4b3e1807fd29b366d}
+      \strng{authornamehash}{81b50cdbc93e2932d3bbabc3240cc6eb}
+      \strng{authorfullhash}{bc7adf301d8b10f4b3e1807fd29b366d}
+      \strng{authorfullhashraw}{bc7adf301d8b10f4b3e1807fd29b366d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing}
+      \field{title}{End-to-end Neural Coreference Resolution}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.18653/v1/d17-1018
       \endverb
     \endentry
     \entry{Mirascope2025}{online}{}{}
@@ -3302,6 +3391,24 @@
       \verb https://www.crossref.org/blog/dois-and-matching-regular-expressions/
       \endverb
     \endentry
+    \entry{Explosion2025}{online}{}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{End-to-end Neural Coreference Resolution in spaCy}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://explosion.ai/blog/coref
+      \endverb
+      \verb{url}
+      \verb https://explosion.ai/blog/coref
+      \endverb
+    \endentry
     \entry{PaperEtl2024}{online}{}{}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
@@ -3672,6 +3779,24 @@
       \verb https://iamajithkumar.medium.com/how-to-use-chroma-to-build-your-first-similarity-search-5c054bfd5add
       \endverb
     \endentry
+    \entry{Spacy2025}{online}{}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{5}
+      \field{title}{Industrial-Strength Natural LanguageProcessing}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://spacy.io/
+      \endverb
+      \verb{url}
+      \verb https://spacy.io/
+      \endverb
+    \endentry
     \entry{Llama32025}{online}{}{}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
@@ -3913,6 +4038,59 @@
       \range{pages}{14}
       \verb{doi}
       \verb 10.1016/b978-0-323-91776-6.00011-7
+      \endverb
+    \endentry
+    \entry{Lee2017}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=8dde73b4194f5bc4230c4808f3fc1534}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kenton},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f34e2f7b0bdc101d5e959927fb6eec08}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Luheng},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c97f53fdeeb04c28de19e3324cb4bc0a}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1dbd3a5b42828fb2cebd7786488ba425}{%
+           family={Zettlemoyer},
+           familyi={Z\bibinitperiod},
+           given={Luke},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{81b50cdbc93e2932d3bbabc3240cc6eb}
+      \strng{fullhash}{bc7adf301d8b10f4b3e1807fd29b366d}
+      \strng{fullhashraw}{bc7adf301d8b10f4b3e1807fd29b366d}
+      \strng{bibnamehash}{bc7adf301d8b10f4b3e1807fd29b366d}
+      \strng{authorbibnamehash}{bc7adf301d8b10f4b3e1807fd29b366d}
+      \strng{authornamehash}{81b50cdbc93e2932d3bbabc3240cc6eb}
+      \strng{authorfullhash}{bc7adf301d8b10f4b3e1807fd29b366d}
+      \strng{authorfullhashraw}{bc7adf301d8b10f4b3e1807fd29b366d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing}
+      \field{title}{End-to-end Neural Coreference Resolution}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.18653/v1/d17-1018
       \endverb
     \endentry
     \entry{Mirascope2025}{online}{}{}

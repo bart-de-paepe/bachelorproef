@@ -32,11 +32,10 @@ Op basis van de titel van het artikel wordt een embedding berekend. Vervolgens w
 \begin{figure}
     \centering
     \includegraphics[width=0.8\textwidth]{./5_semantic_search/embeddings.jpg}
-    \caption[Semantic search.]{\label{fig:Semanticsearch}Semantic search.}
+    \caption[Semantic search.]{\label{fig:Semanticsearch}Semantic search overzicht.}
 \end{figure}
 \\
 Indien de score hoog is dan is er een grote waarschijnlijkheid dat de publicatie reeds in IMIS zit. In het geval van een lage score is de waarschijnlijkheid eerder klein.\\
-\section{Chroma}
 Embeddings worden opgeslagen in een vector databank. Er zijn talloze producten beschikbaar:
 \begin{itemize}
     \item Pinecone
@@ -52,7 +51,9 @@ Embeddings worden opgeslagen in een vector databank. Er zijn talloze producten b
     \item …
     \item (Elke database die een n-array van cijfers kan opslaan)
 \end{itemize}
-Chroma \autocite{Chroma2025} is een gebruiksvriendelijke database die toelaat om semantic search lokaal te testen zonder extra kosten, zonder account, en zonder installatie van andere software.\\
+
+\section{Chroma}
+Chroma \autocite{Chroma2025} is een gebruiksvriendelijke vector database die toelaat om semantic search lokaal te testen zonder extra kosten, zonder account, en zonder installatie van andere software.\\
 Het online artikel \textcite{Usechroma2025} beschrijft stap voor stap hoe een semantic search met Chroma uitgevoerd kan worden. 
 De code op github \textcite{Depaepechroma2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts.
 De connectie met de Chroma database is te zien in codefragment \ref{code:Chromadb}.
@@ -69,14 +70,15 @@ De connectie met de Chroma database is te zien in codefragment \ref{code:Chromad
         )
         ...
     \end{minted}
-    \caption[Chroma codefragment]{Codefragment voor het connecteren met Chroma.}
+    \caption[Connect Chroma]{Connecteren met Chroma.}
     \label{code:Chromadb}
 \end{listing}
 Vervolgens worden alle titels uit IMIS opgevraagd en worden de overeenkomstige embeddings berekend aan de hand van de code in codefragment \ref{code:Chromaembeddings}.
 \begin{listing}
     \begin{minted}{python}
         def initialize_embeddings(self):
-            result = requests.get(``https://www.vliz.be/nl/imis?count=2000&module=ref&searchspcollist=39&show=json'')
+            result = requests.get(``https://www.vliz.be/nl/
+            imis?count=2000&module=ref&searchspcollist=39&show=json'')
             publications = result.json()
             documents = []
             ids = []
@@ -92,7 +94,7 @@ Vervolgens worden alle titels uit IMIS opgevraagd en worden de overeenkomstige e
                 ids=ids
             )
     \end{minted}
-    \caption[Embeddings codefragment]{Codefragment voor het berekenen van de embeddings.}
+    \caption[Chroma embeddings]{Berekenen van de embeddings.}
     \label{code:Chromaembeddings}
 \end{listing}
 Dan kan een titel opgezocht worden zoals getoond wordt in codefragment \ref{code:Chromaquery}.
@@ -105,7 +107,7 @@ Dan kan een titel opgezocht worden zoals getoond wordt in codefragment \ref{code
             )
             return results['distances'][0][0]
     \end{minted}
-    \caption[Query codefragment]{Codefragment voor het opzoeken van een titel.}
+    \caption[Query Chroma]{Opzoeken van een titel.}
     \label{code:Chromaquery}
 \end{listing}
 \\
@@ -127,7 +129,7 @@ De selectie van het model voor de embeddings is te zien in codefragment \ref{cod
         self.model = SentenceTransformer("nomic-ai/nomic-embed-text-v1", trust_remote_code=True)
         ...
     \end{minted}
-    \caption[MongoDB model codefragment]{Codefragment voor het configureren van het model met MongoDB.}
+    \caption[MongoDB set model]{Configureren van het model met MongoDB.}
     \label{code:Mongodbmodel}
 \end{listing}
 Vervolgens worden alle titels uit IMIS opgevraagd en worden de overeenkomstige embeddings berekend aan de hand van de code in codefragment \ref{code:Mongodbembeddings}.
@@ -153,7 +155,7 @@ Vervolgens worden alle titels uit IMIS opgevraagd en worden de overeenkomstige e
             self.db_service.set_collection("embeddings")
             self.db_service.insert_many(docs)
     \end{minted}
-    \caption[Embeddings codefragment]{Codefragment voor het berekenen van de embeddings.}
+    \caption[MongoDB embeddings]{Berekenen van de embeddings.}
     \label{code:Mongodbembeddings}
 \end{listing}
 Vervolgens wordt de lijst met embeddings geïndexeerd zoals getoond wordt in codefragment \ref{code:Mongodbindex}.
@@ -177,7 +179,7 @@ Vervolgens wordt de lijst met embeddings geïndexeerd zoals getoond wordt in cod
             self.db_service.set_collection("embeddings")
             self.db_service.create_search_index(model=search_index_model)
     \end{minted}
-    \caption[Index codefragment]{Codefragment voor het indexeren van de embeddings.}
+    \caption[MongoDB calculate index]{Indexeren van de embeddings.}
     \label{code:Mongodbindex}
 \end{listing}
 Dan kan een titel opgezocht worden zoals getoond wordt in codefragment \ref{code:Mongodbquery}.
@@ -208,7 +210,7 @@ Dan kan een titel opgezocht worden zoals getoond wordt in codefragment \ref{code
             self.db_service.set_collection("embeddings")
             result = self.db_service.aggregate(pipeline)
     \end{minted}
-    \caption[Query codefragment]{Codefragment voor het opzoeken van een titel.}
+    \caption[MongoDB query]{Opzoeken van een titel.}
     \label{code:Mongodbquery}
 \end{listing}
 \\

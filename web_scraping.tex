@@ -65,7 +65,7 @@ De meest bekende vorm van web scraping gebruikt de DOM structuur om er de inhoud
         The role of narcissistic personality <b>traits </b>in bullying behavior in adolescence–A systematic review and meta-analysis
      </a>
 </h3>
-\caption[Prompt htmlfragment]{HTML fragment van de titel van een publicatie.}
+\caption[Prompt HTML fragment]{HTML fragment van de titel van een publicatie.}
 \label{code:HTMLcodefragment}
 \end{listing}
 Maar wanneer de structuur van de HTML wijzigt om welke reden dan ook, dan zal de web scraper niet langer werken zolang de custom code niet werd aangepast.\\
@@ -84,7 +84,7 @@ De HTML wordt eerst ontdaan van overbodige tags zodat alleen de inhoud behouden 
         # Remove all occurrences of content between <style> and </style>
         body_text = re.sub(r'<style.*?>.*?</style>', '', body_text, flags=re.DOTALL)
     \end{minted}
-    \caption[Cleaning codefragment]{Codefragment voor het opkuisen van de HTML.}
+    \caption[HTML cleaning]{Opkuisen van de HTML.}
     \label{code:Cleaningcodefragment}
 \end{listing}
 De prompt voor het model is te zien in codefragment \ref{code:Promptcodefragment}.
@@ -96,7 +96,7 @@ De prompt voor het model is te zien in codefragment \ref{code:Promptcodefragment
         {"role": "user", "content": body_text}
         ],
     \end{minted}
-    \caption[Prompt codefragment]{Codefragment voor het opstellen van een prompt.}
+    \caption[OpenAI prompt]{Opstellen van een prompt.}
     \label{code:Promptcodefragment}
 \end{listing}
 De verwachte parameters die het model moet zoeken zijn te zien in codefragment \ref{code:Parse_opties_codefragment}.\\
@@ -126,7 +126,7 @@ De verwachte parameters die het model moet zoeken zijn te zien in codefragment \
             }
         }
     \end{minted}
-    \caption[Parse opties codefragment]{Codefragment voor het opstellen van de zoekopties.}
+    \caption[OpenAI parameters]{Opstellen van de zoekopties.}
     \label{code:Parse_opties_codefragment}
 \end{listing}
 Het is vereist om een account te registreren bij OpenAI en om dit account te crediteren. Vervolgens kan er met de API gewerkt worden en wordt er betaald naargelang het verbruik.
@@ -151,7 +151,7 @@ De parameters die opgezocht moeten worden, dienen eerst als velden en schema ged
             name: str = Field(..., description="The desired name for this field.")
             type: Literal["str", "int", "float", "bool", "list"]
     \end{minted}
-    \caption[Field codefragment]{Codefragment voor het opstellen van een Pydantic Field.}
+    \caption[Pydantic field]{Aanmaken van een Pydantic field.}
     \label{code:Field}
 \end{listing}
 \begin{listing}[h!]
@@ -166,7 +166,7 @@ De parameters die opgezocht moeten worden, dienen eerst als velden en schema ged
             """
             query: str
     \end{minted}
-    \caption[Schema codefragment]{Codefragment voor het opstellen van een Pydantic Schema.}
+    \caption[Pydantic schema]{Aanmaken van een Pydantic schema.}
     \label{code:Schema}
 \end{listing}
 Met deze structuur van veld en schema kan vervolgens voor elke opdracht een gepast model gemaakt worden aan de hand van de code in codefragment \ref{code:Model}
@@ -185,7 +185,7 @@ Met deze structuur van veld en schema kan vervolgens voor elke opdracht een gepa
             )
             self.extract_schema = list[model]
     \end{minted}
-    \caption[Model codefragment]{Codefragment voor het opstellen van een Pydantic Model.}
+    \caption[Pydantic model]{Aanmaken van een Pydantic model.}
     \label{code:Model}
 \end{listing}
 Dan kan er geparsed worden met de resultaten volgens het gevraagde schema zoals getoond wordt in codefragment \ref{code:Extract}.
@@ -201,7 +201,7 @@ Dan kan er geparsed worden met de resultaten volgens het gevraagde schema zoals 
             text += f"\n{link.get('href')}"
             return text
     \end{minted}
-    \caption[Extract codefragment]{Codefragment voor het parsen.}
+    \caption[Beatiful Soup HTML parser]{HTML parsen aan de hand van Beautiful Soup.}
     \label{code:Extract}
 \end{listing}
 \\
@@ -219,7 +219,7 @@ Daarom wordt in eerste instantie met een klein llama3:8b model (4.7GB) gewerkt d
 \begin{listing}[h!]
     docker exec -it ollama ollama pull llama3:8b\\
     docker exec -it ollama ollama run llama3
-    \caption[Ollama]{Ollama uitvoeren met docker.}
+    \caption[Ollama met Docker]{Ollama uitvoeren met Docker.}
     \label{code:Ollama}
 \end{listing}
 Het online artikel \textcite{Scrapegraphaillama2025} beschrijft stap voor stap hoe webpagina's gescraped kunnen worden aan de hand van ScrapegraphAI en het LlaMa3 model.
@@ -244,7 +244,7 @@ Codefragment \ref{code:Scrapegraphconfig} connecteert de scraping graph met het 
             "verbose": True,  # Enables verbose output for more detailed log information
         }
     \end{minted}
-    \caption[Scrapegraph configuratie codefragment]{Codefragment voor het configureren van Scrapegraph.}
+    \caption[Scrapegraph configuratie]{Configureren van Scrapegraph.}
     \label{code:Scrapegraphconfig}
 \end{listing}
 De prompt voor het model is te zien in codefragment \ref{code:Scrapegraphprompt}.
@@ -260,7 +260,7 @@ De prompt voor het model is te zien in codefragment \ref{code:Scrapegraphprompt}
         result = smart_scraper_graph.run()
         
     \end{minted}
-    \caption[Prompt codefragment]{Codefragment voor het opstellen van een prompt.}
+    \caption[Scrapegraph Prompt]{Opstellen van een prompt voor Scrapegraph.}
     \label{code:Scrapegraphprompt}
 \end{listing}
 \\
@@ -295,7 +295,7 @@ De selectie van tags aan de hand van Beautiful Soup is te zien in codefragment \
         data = self.parse_search_result(email_id, all_titles[i], all_snippets[i])
         ...
     \end{minted}
-    \caption[Beautiful Soup select codefragment]{Codefragment voor het selecteren van tags aan de hand van Beautiful Soup.}
+    \caption[Beautiful Soup tag selection]{Selecteren van tags aan de hand van Beautiful Soup.}
     \label{code:Soupselect}
 \end{listing}
 De navigatie tussen tags aan de hand van Beautiful Soup is te zien in codefragment \ref{code:Soupnav}.
@@ -311,7 +311,7 @@ De navigatie tussen tags aan de hand van Beautiful Soup is te zien in codefragme
         author_publisher_year = author_publisher_year.get_text()
         ...
     \end{minted}
-    \caption[Beautiful Soup navigatie codefragment]{Codefragment voor het navigeren tussen tags aan de hand van Beautiful Soup.}
+    \caption[Beautiful Soup navigatie]{Navigeren tussen tags aan de hand van Beautiful Soup.}
     \label{code:Soupnav}
 \end{listing}
 \\

@@ -32,8 +32,8 @@
 \contentsline {chapter}{\numberline {7}Linked data}{30}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Inleiding}{30}{section.7.1}%
 \contentsline {section}{\numberline {7.2}De DOI opzoeken in de URL}{30}{section.7.2}%
-\contentsline {section}{\numberline {7.3}De DOI opzoeken in Crossref}{32}{section.7.3}%
-\contentsline {section}{\numberline {7.4}De DOI opzoeken op de webpagina van de publicatie}{32}{section.7.4}%
+\contentsline {section}{\numberline {7.3}De DOI opzoeken in Crossref}{31}{section.7.3}%
+\contentsline {section}{\numberline {7.4}De DOI opzoeken op de webpagina van de publicatie}{33}{section.7.4}%
 \contentsline {chapter}{\numberline {8}Semantic search}{36}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Inleiding}{36}{section.8.1}%
 \contentsline {section}{\numberline {8.2}Chroma}{37}{section.8.2}%
@@ -49,5 +49,5 @@
 \contentsline {section}{\numberline {B.2}Literatuurstudie}{52}{section.B.2}%
 \contentsline {section}{\numberline {B.3}Methodologie}{53}{section.B.3}%
 \contentsline {section}{\numberline {B.4}Verwacht resultaat, conclusie}{55}{section.B.4}%
-\contentsline {chapter}{Bibliografie}{56}{appendix*.26}%
+\contentsline {chapter}{Bibliografie}{56}{appendix*.27}%
 \contentsfinish 

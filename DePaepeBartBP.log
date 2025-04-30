@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  30 APR 2025 17:11
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  30 APR 2025 23:36
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2166,6 +2166,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--4
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 14--4
+
+ []
+
+
 
 [3
 
@@ -2499,7 +2504,7 @@ t line 68.
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250430171121 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250430233603 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -2789,12 +2794,12 @@ fontspec)
 fontspec)
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
-Overfull \hbox (9.62679pt too wide) in paragraph at lines 90--97
+Overfull \hbox (9.62679pt too wide) in paragraph at lines 89--96
  [][] 
  []
 
 
-natural_language_processing.tex:123: Package minted Error: Cannot highlight cod
+natural_language_processing.tex:120: Package minted Error: Cannot highlight cod
 e (minted executable is unavailable or disabled); attempting to typeset without
  highlighting.
 
@@ -2802,15 +2807,9 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.123     \end{minted}
+l.120     \end{minted}
                       
 (That was another \errmessage.)
-
-
-Overfull \hbox (169.4488pt too wide) in paragraph at lines 123--123
-\TU/FiraCode(0)/m/n/10.95 self.logging_service.logger.debug(text[span.start_cha
-r:span.end_char])|  
- []
 
 ) (linked_data.tex
 
@@ -2818,27 +2817,51 @@ r:span.end_char])|
 
 [29]
 Hoofdstuk 7.
+linked_data.tex:59: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
+l.59     \end{tabularx}
+                       
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+linked_data.tex:59: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
+l.59     \end{tabularx}
+                       
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+linked_data.tex:59: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
+l.59     \end{tabularx}
+                       
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
 
-[30
-
-]
-
-linked_data.tex:80: Package minted Error: Cannot highlight code (minted executa
+linked_data.tex:88: Package minted Error: Cannot highlight code (minted executa
 ble is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80     \end{minted}
+l.88     \end{minted}
                      
 (That was another \errmessage.)
 
-linked_data.tex:87: Misplaced alignment tab character &.
+
+
+[30
+
+]
+linked_data.tex:95: Misplaced alignment tab character &.
 <argument> \csname system@active"\endcsname &
                                              
-l.87 ... Metaphysics, Josiah Carberry 2008-08-13"&
+l.95 ... Metaphysics, Josiah Carberry 2008-08-13"&
                                                   rows=2
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2848,27 +2871,26 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-
-[31]
-
-linked_data.tex:105: Package minted Error: Cannot highlight code (minted execut
+linked_data.tex:113: Package minted Error: Cannot highlight code (minted execut
 able is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.105     \end{minted}
+l.113     \end{minted}
                       
 (That was another \errmessage.)
 
 
 
+[31]
+
 [32]
-linked_data.tex:123: Misplaced alignment tab character &.
+linked_data.tex:131: Misplaced alignment tab character &.
 <argument> ...a extraction, analysis, conversion &
                                                    manipulation of PDF (and ...
-l.123 ...bruik van PyMuPDF \autocite{Pymupdf2025}.
+l.131 ...bruik van PyMuPDF \autocite{Pymupdf2025}.
                                                    Daarna wordt er ook gezoc...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2878,38 +2900,38 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-linked_data.tex:142: Package minted Error: Cannot highlight code (minted execut
+linked_data.tex:150: Package minted Error: Cannot highlight code (minted execut
 able is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.142         \end{minted}
+l.150         \end{minted}
                           
 (That was another \errmessage.)
 
 
-linked_data.tex:173: Package minted Error: Cannot highlight code (minted execut
+linked_data.tex:181: Package minted Error: Cannot highlight code (minted execut
 able is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.173         \end{minted}
+l.181         \end{minted}
                           
 (That was another \errmessage.)
 
 
-Overfull \hbox (54.47388pt too wide) in paragraph at lines 173--173
+Overfull \hbox (54.47388pt too wide) in paragraph at lines 181--181
 \TU/FiraCode(0)/m/n/10.95 os.path.join(str(Path(__file__).parent.parent.parent.
 parent), 
  []
 
+) (semantic_search.tex
 
-
-[33]) (semantic_search.tex
+[33]
 
 [34]
 
@@ -2918,17 +2940,12 @@ Hoofdstuk 8.
 File: ../graphics/./5_semantic_search/embeddings.jpg Graphic file (type bmp)
 <../graphics/./5_semantic_search/embeddings.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--39
-
- []
-
-
 
 [36
 
 ]
 
-semantic_search.tex:71: Package minted Error: Cannot highlight code (minted exe
+semantic_search.tex:72: Package minted Error: Cannot highlight code (minted exe
 cutable is unavailable or disabled); attempting to typeset without highlighting
 .
 
@@ -2936,12 +2953,12 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71     \end{minted}
+l.72     \end{minted}
                      
 (That was another \errmessage.)
 
 
-semantic_search.tex:94: Package minted Error: Cannot highlight code (minted exe
+semantic_search.tex:96: Package minted Error: Cannot highlight code (minted exe
 cutable is unavailable or disabled); attempting to typeset without highlighting
 .
 
@@ -2949,18 +2966,12 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94     \end{minted}
+l.96     \end{minted}
                      
 (That was another \errmessage.)
 
 
-Overfull \hbox (274.56877pt too wide) in paragraph at lines 94--94
-\TU/FiraCode(0)/m/n/10.95 quests.get([][]https://www.vliz.be/nl/imis?count=2000
-&module=ref&searchspcollist=39&show=json[][])|  
- []
-
-
-semantic_search.tex:107: Package minted Error: Cannot highlight code (minted ex
+semantic_search.tex:109: Package minted Error: Cannot highlight code (minted ex
 ecutable is unavailable or disabled); attempting to typeset without highlightin
 g.
 
@@ -2968,7 +2979,7 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.107     \end{minted}
+l.109     \end{minted}
                       
 (That was another \errmessage.)
 
@@ -2976,7 +2987,12 @@ File: ../graphics/./5_semantic_search/chroma-cosine-score.jpg Graphic file (typ
 e bmp)
 <../graphics/./5_semantic_search/chroma-cosine-score.jpg>
 
-semantic_search.tex:129: Package minted Error: Cannot highlight code (minted ex
+
+[37]
+
+[38]
+
+semantic_search.tex:131: Package minted Error: Cannot highlight code (minted ex
 ecutable is unavailable or disabled); attempting to typeset without highlightin
 g.
 
@@ -2984,12 +3000,12 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129     \end{minted}
+l.131     \end{minted}
                       
 (That was another \errmessage.)
 
 
-semantic_search.tex:155: Package minted Error: Cannot highlight code (minted ex
+semantic_search.tex:157: Package minted Error: Cannot highlight code (minted ex
 ecutable is unavailable or disabled); attempting to typeset without highlightin
 g.
 
@@ -2997,18 +3013,18 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.155     \end{minted}
+l.157     \end{minted}
                       
 (That was another \errmessage.)
 
 
-Overfull \hbox (90.60881pt too wide) in paragraph at lines 155--155
+Overfull \hbox (90.60881pt too wide) in paragraph at lines 157--157
 \TU/FiraCode(0)/m/n/10.95 dings.append(self.get_embedding(publication[[]Standar
 dTitle[]]))|  
  []
 
 
-semantic_search.tex:179: Package minted Error: Cannot highlight code (minted ex
+semantic_search.tex:181: Package minted Error: Cannot highlight code (minted ex
 ecutable is unavailable or disabled); attempting to typeset without highlightin
 g.
 
@@ -3016,18 +3032,18 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179     \end{minted}
+l.181     \end{minted}
                       
 (That was another \errmessage.)
 
 
-Overfull \hbox (57.75887pt too wide) in paragraph at lines 179--179
+Overfull \hbox (57.75887pt too wide) in paragraph at lines 181--181
 \TU/FiraCode(0)/m/n/10.95 self.db_service.create_search_index(model=search_inde
 x_model)|  
  []
 
 
-semantic_search.tex:210: Package minted Error: Cannot highlight code (minted ex
+semantic_search.tex:212: Package minted Error: Cannot highlight code (minted ex
 ecutable is unavailable or disabled); attempting to typeset without highlightin
 g.
 
@@ -3035,7 +3051,7 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.210     \end{minted}
+l.212     \end{minted}
                       
 (That was another \errmessage.)
 
@@ -3043,10 +3059,6 @@ File: ../graphics/./5_semantic_search/mongodb-cosine-score.jpg Graphic file (ty
 pe bmp)
 <../graphics/./5_semantic_search/mongodb-cosine-score.jpg>
 ) (conclusie.tex
-
-[37]
-
-[38]
 
 [39]
 
@@ -3237,16 +3249,16 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
-(rerunfilecheck)             Checksum: 8F9C8914BAE2272B2175D81722A80ABC;7943.
+(rerunfilecheck)             Checksum: B305174EF78DAD7E4F8637821D1A9709;7943.
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52141 strings out of 408640
- 1069699 string characters out of 5749145
- 2319990 words of memory out of 5000000
- 74363 multiletter control sequences out of 15000+600000
+ 52161 strings out of 408640
+ 1070371 string characters out of 5749145
+ 2320146 words of memory out of 5000000
+ 74383 multiletter control sequences out of 15000+600000
  562732 words of font info for 112 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,13n,131p,1256b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s
