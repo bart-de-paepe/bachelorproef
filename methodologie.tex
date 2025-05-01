@@ -65,7 +65,7 @@ Die HTML moet omgezet worden in gestructureerde data door middel van HTML scrapi
 Web scraping wordt verder uitgewerkt in hoofdstuk~\ref{ch:web_scraping}.\\
 Elk zoekresultaat is op basis van het algoritme van GS gematched met de zoekopdracht. Maar wil dat daarom ook zeggen dat de publicatie interessant is voor IMIS? Aan de hand van Natural Language Processing (NLP) wordt een score berekend van de relevantie van het zoekresultaat voor de overeenkomstige collectie in IMIS. NLP wordt verder uitgewerkt in Hoofdstuk~\ref{ch:natural_language_processing}.\\
 Om te weten of een publicatie echt nieuw is, moet ze ondubbelzinnig geïdentificeerd kunnen worden. Titel, auteurs, tijdschrift, enz. maken een publicatie echter niet uniek. Er kunnen namelijk variante benamingen voorkomen van titels, auteurs, enz. Voor literatuur is het de DOI die een publicatie uniek maakt. Voor elk zoekresultaat wordt er op zoek gegaan naar de DOI aan de hand van een stapsgewijze procedure:
-\begin{itemize}
+\begin{enumerate}
     \item DOI opzoeken in de link naar de webpagina van de publicatie
     \item DOI opzoeken in Crossref op basis van de titel
     \item DOI opzoeken op de webpagina van de publicatie
@@ -74,7 +74,7 @@ Om te weten of een publicatie echt nieuw is, moet ze ondubbelzinnig geïdentific
         \item dit kan een PDF document zijn
         \item dit kan een HTML pagina zijn met een embedded PDF document
     \end{itemize}
-\end{itemize}
+\end{enumerate}
 Het opzoeken van de DOI wordt verder uitgewerkt in hoofdstuk~\ref{ch:linked_data}.\\
 Dan resteert de vraag of de publicatie echt nieuw is, of dat ze reeds aan IMIS toegevoegd werd? Het antwoord daarop is afhankelijk van de beschikbare informatie die tijdens de voorgaande stappen gevonden werd.
 \begin{itemize}

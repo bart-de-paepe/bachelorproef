@@ -59,9 +59,12 @@ Informatie uit HTML pagina's halen is algemeen bekend onder de naam ``web scrapi
 \section{Web scraping met gebruik van een LLM }
 De meest bekende vorm van web scraping gebruikt de DOM structuur om er de inhoud uit te filteren. Daar komt dus niets van AI bij kijken. Het probleem met die aanpak is dat de custom code die de HTML structuur verwerkt, sterk afhankelijk is van de HTML zelf. Bijvoorbeeld wanneer de titel van een publicatie tussen <h3> tags staat die gekenmerkt worden door een class="gse\_alrt\_title" (zie codefragment \ref{code:HTMLcodefragment}), dan zal de custom code specifiek filteren op die DOM elementen.
 \begin{listing}[h!]
-<h3 style=\"font-weight:normal;margin:0;font-size:17px;line-height:20px;\">
-    <span style=\"font-size:11px;font-weight:bold;color:#1a0dab;vertical-align:2px\">[HTML]</span> 
-    <a href="https://www.sciencedirect.com/science/article/pii/S0191886925001308" class=\"gse\_alrt\_title\" style=\"font-size:17px;color:#1a0dab;line-height:22px\">
+<h3 style="font-weight:normal;margin:0;font-size:17px;line-height:20px;">
+    <span style="font-size:11px;font-weight:bold;color:#1a0dab;vertical-align:2px">[HTML]</span> 
+    
+    <a href="https://www.sciencedirect.com/science/article/pii/S0191886925001308" 
+    
+    class="gse\_alrt\_title" style="font-size:17px;color:#1a0dab;line-height:22px">
         The role of narcissistic personality <b>traits </b>in bullying behavior in adolescence–A systematic review and meta-analysis
      </a>
 </h3>
@@ -74,7 +77,7 @@ Daarom begint dit hoofdstuk met meer recente technieken die gebaseerd zijn op AI
 LLMs zijn bijzonder goed in het beantwoorden van vragen. OpenAI is voor het brede publiek beter gekend door zijn chatbot ChatGPT. Maar hoe goed is OpenAI in het parsen van een webpagina? OpenAI biedt ook een API \autocite{Openaideveloperplatform2025} aan waarmee gebruikers opdrachten kunnen sturen naar een model. De opdracht/vraag in kwestie is: ``Geef de titels, originele links, auteurs, naam van de tijdschriften, jaartal van de publicaties en tekstfragmenten van hetvolgende Google Scholar zoekresultaat.''\\
 Het online artikel \textcite{Serpapiai2025} beschrijft stap voor stap hoe de gevraagde gegevens verkregen kunnen worden met het ``gpt-4-1106-preview'' model van OpenAI.
 De code op github \textcite{Depaepeopenai2025} maakt hiervan een implementatie aangepast voor de GS alerts.\\
-De HTML wordt eerst ontdaan van overbodige tags zodat alleen de inhoud behouden blijft zoals te zien is in codefragment \ref{code:Cleaningcodefragment}
+De HTML wordt eerst ontdaan van overbodige tags zodat alleen de inhoud behouden blijft zoals te zien is in codefragment \ref{code:Cleaningcodefragment}.
 \begin{listing}[h!]
     \begin{minted}{python}
         # Remove all occurrences of content between <head> and </head>
@@ -169,7 +172,7 @@ De parameters die opgezocht moeten worden, dienen eerst als velden en schema ged
     \caption[Pydantic schema]{Aanmaken van een Pydantic schema.}
     \label{code:Schema}
 \end{listing}
-Met deze structuur van veld en schema kan vervolgens voor elke opdracht een gepast model gemaakt worden aan de hand van de code in codefragment \ref{code:Model}
+Met deze structuur van veld en schema kan vervolgens voor elke opdracht een gepast model gemaakt worden aan de hand van de code in codefragment \ref{code:Model}.
 \begin{listing}[h!]
     \begin{minted}{python}
         def generate_schema(self) -> None:
@@ -265,7 +268,7 @@ De prompt voor het model is te zien in codefragment \ref{code:Scrapegraphprompt}
 \end{listing}
 \\
 De test was niet succesvol. Het model vond geen enkele van de gevraagde parameters voor geen enkele van de 10 zoekresultaten.
-In eerste instantie werd gedacht dat het geselecteerde model te zwak is voor deze taak omdat er voor een klein model gekozen werd. Daarom werd dezelfde test uitgevoerd op een krachtiger systeem met 40GB RAM met het gemma3:27b model (17GB). Maar ook deze test was niet succesvol: de opdracht bleef gedurende 1 uur lopen zonder resultaat, waarna het commando manueel onderbroken werd. Bij grote modellen moeten de tokens van de prompt opgezocht worden in veel meer data. Dat geeft aanleiding tot een zeer groot aantal instructies voor de CPU waardoor specifieke hardware noodzakelijk is, in het bijzonder grafische kaarten. 
+In eerste instantie werd gedacht dat het geselecteerde model te zwak is voor deze taak omdat er voor een klein model gekozen werd. Daarom werd dezelfde test uitgevoerd op een krachtiger systeem met 40GB RAM met het gemma3:27b model (17GB). Maar ook deze test was niet succesvol: de opdracht bleef gedurende 1 uur lopen zonder resultaat, waarna het commando manueel onderbroken werd. Bij grote modellen moeten de tokens van de prompt opgezocht worden in veel meer data. Dat geeft aanleiding tot een zeer groot aantal instructies voor de CPU waardoor het proces veel langer duurt. Om grotere modellen lokaal te draaien is specifieke hardware noodzakelijk, in het bijzonder grafische kaarten. 
 \section{Web scraping via het parsen van de DOM}
 Tot zover is er nog geen bruikbaar resultaat. Het gebruik van een online model is betalend en kan niet gewenst zijn door de klant. Anderzijds leidt een lokaal model voorlopig niet tot een goed resultaat. Daarom wordt er teruggegrepen naar de meer klassieke benadering van web scraping waarbij de HTML structuur ontleed wordt aan de hand van custom code.
 De GS SERP is een gestructureerde HTML pagina. Voor het parsen wordt er gebruik gemaakt van deze structuur.
@@ -319,4 +322,5 @@ De test met een SERP met 10 zoekresultaten was geslaagd. De gevraagde parameters
 \section{Meest geschikte Web scraping}
 Tenslotte moet ook nog SerpAPI \autocite{Serpapi2025} vermeld worden. Tijdens het onderzoek naar web scraping kwam dit platform meermaals naar voren, zelfs voor de toepassingen die gebruik maken van AI. SerpAPI biedt specifieke oplossingen voor elke mogelijke search engine, waaronder ook GS. Alleen focust hun product telkens op de online search engine en niet op alerts waardoor de zoekresultaten niet incrementeel zijn.\\
 Tot besluit van dit hoofdstuk wordt er dus verder gewerkt met het parsen van de zoekresultaten aan de hand van Beautiful Soup. De grote tekortkoming dat de code afhankelijk is van de HTML wordt verzacht doordat die HTML ook weerspiegeld wordt in de code. Aanpassingen zouden dus begrijpbaar en beperkt moeten blijven.\\
-Op een dag gaat de code dus breken en het zou goed zijn mocht men hiervan op de hoogte gebracht worden. Daarvoor kan er een e-mail notificatie geïmplementeerd worden die een bericht stuurt wanneer Beautiful Soup de gewenste tags in het HTML document niet langer vindt.
+Op een dag gaat de code dus breken en het zou goed zijn mocht men hiervan op de hoogte gebracht worden. Daarvoor kan er een e-mail notificatie geïmplementeerd worden die een bericht stuurt wanneer Beautiful Soup de gewenste tags in het HTML document niet langer vindt.\\
+Na web scraping is de eerste onderzoeksdoelstelling bereikt: Een proof-of-concept van de meest geschikte methode om de Google Scholar zoekresultaten om te zetten in gestructureerde data.

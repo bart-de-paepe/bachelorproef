@@ -29,11 +29,11 @@
 De web scraping leverde gegevens zoals titel, auteurs, naam van tijdschrift en jaartal van de publicatie op. Deze informatie heeft echter geen garantie van uniciteit. Dat is te wijten aan mogelijke varianten (zoals bijvoorbeeld afkortingen) in de titel, auteurs en naam van tijdschriften.\\
 Nochtans moet een publicatie uniek geïdentificeerd kunnen worden om uit te sluiten dat er reeds duplicaten in IMIS zitten.
 De DOI vormt de unieke indentifier van elke publicatie. Er zal getracht worden om deze voor elke publicatie op te zoeken. Hiervoor worden 3 afzonderlijke bronnen geraadpleegd in chronologische volgorde en zolang de DOI niet gevonden werd:
-\begin{itemize}
+\begin{enumerate}
     \item In de URL van de link naar de originele publicatie
     \item Aan de hand van een opzoeking in Crossref op basis van de titel
     \item Op de originele webpagina van de publicatie
-\end{itemize}
+\end{enumerate}
 
 \section{De DOI opzoeken in de URL}
 \label{Doiurl}
@@ -183,6 +183,6 @@ Voor elk van de 3 gevallen is er een andere verwerking nodig.
         \label{code:DOIselenium}
     \end{listing} Eenmaal gedownload kan het bestand gewoon geopend worden en doorzocht worden naar een DOI op dezelfde manier als voor PDF documenten.
 \end{itemize}
-Er is geen garantie dat de DOI op de webpagina van de publicatie gevonden wordt. Anderzijds is het ook mogelijk dat er meerdere verschillende DOIs gevonden worden. Voor een mens is het vaak evident om te weten welke DOI dan juist is, maar voor geautomatiseerd script is daar geen context voor.\\
+Er is geen garantie dat de DOI op de webpagina van de publicatie gevonden wordt. Anderzijds is het ook mogelijk dat er meerdere verschillende DOIs (vb. van referenties) gevonden worden. Voor een mens is het vaak evident om te weten welke DOI dan juist is, maar voor geautomatiseerd script is daar geen context voor.\\
 Er kan dus besloten worden dat de DOI met grote zekerheid achterhaald kan worden op basis van de URL of aan de hand van Crossref. In het geval van een opzoeking op de webpagina van de publicatie is de vindkans een pak kleiner.
 

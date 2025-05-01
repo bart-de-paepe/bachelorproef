@@ -67,7 +67,7 @@ Toch is de frequentie op zich nog niet de beste waardemeter voor een tekst. Er k
     \includegraphics[width=0.8\textwidth]{./4_NLP/tf-idf.jpg}
     \caption[term frequency-inverse document frequency.]{\label{fig:tf-idf}Term frequency-inverse document frequency.}
 \end{figure}
-Uit de formules valt te zien dat de ``inverse document frequency'' afhangt van het aantal documenten. Maar de relevantie van een publicatie kan niet afhangen van het aantal zoekresultaten, daarom valt de ``inverse document frequency'' weg. In de plaats zijn er andere parameters om de relevantie te benaderen.
+Uit de formules valt te zien dat de ``inverse document frequency'' afhangt van het aantal documenten. Maar de relevantie van een publicatie kan niet afhangen van het aantal zoekresultaten (deze zijn incrementeel, er komen elke dag bij), daarom valt de ``inverse document frequency'' weg. In de plaats zijn er andere parameters om de relevantie te benaderen.
 \begin{itemize}
     \item De ``topic-sentence'' ratio: een ratio van het trefwoord count ten opzichte van het totaal aantal zinnen.
     \item De ``topic-noun'' ratio: een ratio van het trefwoord count ten opzichte van het totaal aantal zelfstandige naamwoorden.
@@ -83,7 +83,7 @@ Aan de hand van die parameters kan een relevantiescore berekend worden zoals te 
 De code op github \textcite{Depaepenlp2025} maakt hiervan een implementatie aangepast voor de GS alerts.
 \section{Tekstverwerking}
 De BoW geeft wel aanleiding tot tabellen met zeer grote dimensies. Hoe meer teksten er zijn, des te uitgebreider zal de woordenschat worden. Daarom wordt de BoW altijd voorafgegaan door tekstverwerking die stopwoorden \footnote{Stopwoorden (of, a, the, in ,you, ...) komen vaak voor maar hebben geen toegevoegde waarde over het onderwerp.} verwijdert en lemmatisering \footnote{Lemmatisering zet woorden om naar hun basisvorm, maar houdt daarbij rekening met de context. Voorbeeld ``caring'' wordt omgezet in ``care'' en niet in ``car''.}.\\
-Verder kunnen ook voornaamwoorden in de tekst verwijzen naar het trefwoord. Het is dus interessant om ze te vervangen door het trefwoord zelf zodat ze mee een invloed hebben op de relevantiescore (vb. tabel \ref{table:nlp}).
+De voornaamwoorden in de tekst worden vervangen door het trefwoord waarnaar ze verwijzen (vb. tabel \ref{table:nlp}).
 \begin{table}[h!]
     \centering
     \begin{tabular}{|c|c|} 
@@ -96,8 +96,7 @@ Verder kunnen ook voornaamwoorden in de tekst verwijzen naar het trefwoord. Het 
     \caption{Voor en na coreference resolution.}
     \label{table:nlp}
 \end{table}
-``Coreference resolution'' is daar de geschikte NLP techniek voor. In een eerste fase worden alle gerelateerde voornaamwoorden en zelfstandige naamwoorden opgezocht. In een tweede fase worden alle gevonden voornaamwoorden vervangen door hun bijhorende zelfstandig naamwoord. Daarvoor gebruikt deze techniek een coreference model dat bestaat uit opeenvolgende paren van tokens met een bijhorende coreference score \autocite{Lee2017}. Het volledige algoritme \autocite{Explosion2025} gebruikt deze scores om de tokens met de hoogste waarden te clusteren.
-Het opzoeken van paren aan de hand van de Spacy Coreference resolver \autocite{Spacy2025} is te zien in codefragment \ref{code:coreference} en is eveneens geïmplementeerd in \textcite{Depaepenlp2025}.
+Het opzoeken van de paren (voornaamwoord - zelfstandig naamwoord) aan de hand van de Spacy Coreference resolver \autocite{Spacy2025} is te zien in codefragment \ref{code:coreference} en is eveneens geïmplementeerd in \textcite{Depaepenlp2025}.\\
 \begin{listing}
     \begin{minted}{python}
         import spacy
@@ -121,3 +120,4 @@ Het opzoeken van paren aan de hand van de Spacy Coreference resolver \autocite{S
     \caption[Coreference resolver]{Coreference resolver}
     \label{code:coreference}
 \end{listing}
+Na NLP is de tweede onderzoeksdoelstelling bereikt: Een proof-of-concept van het proces dat een score voor elk zoekresultaat berekent.

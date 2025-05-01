@@ -57,7 +57,7 @@ Chroma \autocite{Chroma2025} is een gebruiksvriendelijke vector database die toe
 Het online artikel \textcite{Usechroma2025} beschrijft stap voor stap hoe een semantic search met Chroma uitgevoerd kan worden. 
 De code op github \textcite{Depaepechroma2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts.
 De connectie met de Chroma database is te zien in codefragment \ref{code:Chromadb}.
-\begin{listing}
+\begin{listing}[h!]
     \begin{minted}{python}
         ...
         chroma_client = chromadb.Client()
@@ -123,7 +123,7 @@ Atlas Vector Search \autocite{Mongodbvectorsearch2025} laat toe om de embeddings
 De online documentatie \textcite{Usemongodbvectorsearch2025} beschrijft stap voor stap hoe een semantic search met Atlas Vector Search lokaal uitgevoerd kan worden. 
 De code op github \textcite{Depaepemongodb2025} maakt hiervan een implementatie aangepast voor de Google Scholar alerts.
 De selectie van het model voor de embeddings is te zien in codefragment \ref{code:Mongodbmodel}.
-\begin{listing}
+\begin{listing}[h!]
     \begin{minted}{python}
         ...
         self.model = SentenceTransformer("nomic-ai/nomic-embed-text-v1", trust_remote_code=True)
@@ -220,4 +220,5 @@ De test was succesvol. Bij wijze van proef werd de titel van één van de zoekre
     \includegraphics[width=1.0\textwidth]{./5_semantic_search/mongodb-cosine-score.jpg}
     \caption[Mongodb resultaat.]{\label{fig:Mongodb}Mongodb resultaat.}
 \end{figure}
-Deze oplossing breidt de bestaande MongoDB databank uit met embeddings. Voor artikels zonder indentifcatie kan een score berekend worden die duidt op duplicaten in IMIS. 
+Deze oplossing breidt de bestaande MongoDB databank uit met embeddings. Voor artikels zonder indentifcatie kan een score berekend worden die duidt op duplicaten in IMIS.\\
+Na semantic search is de derde onderzoeksdoelstelling bereikt: Een proof-of-concept van het opzoeken van duplicaten.

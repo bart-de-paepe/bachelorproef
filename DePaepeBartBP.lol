@@ -11,19 +11,19 @@
 \contentsline {listing}{\numberline {5.11}{\ignorespaces Scrapegraph Prompt}}{23}{listing.5.11}%
 \contentsline {listing}{\numberline {5.12}{\ignorespaces Beautiful Soup tag selection}}{25}{listing.5.12}%
 \contentsline {listing}{\numberline {5.13}{\ignorespaces Beautiful Soup navigatie}}{25}{listing.5.13}%
-\contentsline {listing}{\numberline {6.1}{\ignorespaces term frequency-inverse document frequency}}{27}{listing.6.1}%
-\contentsline {listing}{\numberline {6.2}{\ignorespaces Relevantiescore}}{28}{listing.6.2}%
-\contentsline {listing}{\numberline {6.3}{\ignorespaces Coreference resolver}}{29}{listing.6.3}%
-\contentsline {listing}{\numberline {7.1}{\ignorespaces URL met DOI}}{30}{listing.7.1}%
-\contentsline {listing}{\numberline {7.2}{\ignorespaces Opzoeken van DOI in de URL van de publicatie}}{32}{listing.7.2}%
-\contentsline {listing}{\numberline {7.3}{\ignorespaces Crossref query op basis van de bibliografie}}{32}{listing.7.3}%
-\contentsline {listing}{\numberline {7.4}{\ignorespaces Crossref commons}}{32}{listing.7.4}%
-\contentsline {listing}{\numberline {7.5}{\ignorespaces Pymupdf}}{34}{listing.7.5}%
-\contentsline {listing}{\numberline {7.6}{\ignorespaces Selenium}}{35}{listing.7.6}%
-\contentsline {listing}{\numberline {8.1}{\ignorespaces Connect Chroma}}{37}{listing.8.1}%
-\contentsline {listing}{\numberline {8.2}{\ignorespaces Chroma embeddings}}{38}{listing.8.2}%
-\contentsline {listing}{\numberline {8.3}{\ignorespaces Query Chroma}}{38}{listing.8.3}%
-\contentsline {listing}{\numberline {8.4}{\ignorespaces MongoDB set model}}{39}{listing.8.4}%
-\contentsline {listing}{\numberline {8.5}{\ignorespaces MongoDB embeddings}}{40}{listing.8.5}%
-\contentsline {listing}{\numberline {8.6}{\ignorespaces MongoDB calculate index}}{41}{listing.8.6}%
-\contentsline {listing}{\numberline {8.7}{\ignorespaces MongoDB query}}{42}{listing.8.7}%
+\contentsline {listing}{\numberline {6.1}{\ignorespaces term frequency-inverse document frequency}}{28}{listing.6.1}%
+\contentsline {listing}{\numberline {6.2}{\ignorespaces Relevantiescore}}{29}{listing.6.2}%
+\contentsline {listing}{\numberline {6.3}{\ignorespaces Coreference resolver}}{30}{listing.6.3}%
+\contentsline {listing}{\numberline {7.1}{\ignorespaces URL met DOI}}{31}{listing.7.1}%
+\contentsline {listing}{\numberline {7.2}{\ignorespaces Opzoeken van DOI in de URL van de publicatie}}{33}{listing.7.2}%
+\contentsline {listing}{\numberline {7.3}{\ignorespaces Crossref query op basis van de bibliografie}}{33}{listing.7.3}%
+\contentsline {listing}{\numberline {7.4}{\ignorespaces Crossref commons}}{33}{listing.7.4}%
+\contentsline {listing}{\numberline {7.5}{\ignorespaces Pymupdf}}{35}{listing.7.5}%
+\contentsline {listing}{\numberline {7.6}{\ignorespaces Selenium}}{36}{listing.7.6}%
+\contentsline {listing}{\numberline {8.1}{\ignorespaces Connect Chroma}}{38}{listing.8.1}%
+\contentsline {listing}{\numberline {8.2}{\ignorespaces Chroma embeddings}}{39}{listing.8.2}%
+\contentsline {listing}{\numberline {8.3}{\ignorespaces Query Chroma}}{39}{listing.8.3}%
+\contentsline {listing}{\numberline {8.4}{\ignorespaces MongoDB set model}}{40}{listing.8.4}%
+\contentsline {listing}{\numberline {8.5}{\ignorespaces MongoDB embeddings}}{41}{listing.8.5}%
+\contentsline {listing}{\numberline {8.6}{\ignorespaces MongoDB calculate index}}{42}{listing.8.6}%
+\contentsline {listing}{\numberline {8.7}{\ignorespaces MongoDB query}}{43}{listing.8.7}%
