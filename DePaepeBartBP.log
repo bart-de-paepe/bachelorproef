@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  1 MAY 2025 23:07
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  10 MAY 2025 23:03
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2498,7 +2498,7 @@ t line 71.
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250501230717 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250510230319 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -3054,7 +3054,7 @@ l.212     \end{minted}
 File: ../graphics/./5_semantic_search/mongodb-cosine-score.jpg Graphic file (ty
 pe bmp)
 <../graphics/./5_semantic_search/mongodb-cosine-score.jpg>
-) (conclusie.tex
+) (resultaten.tex
 Overfull \hbox (10.23595pt too wide) in paragraph at lines 122--4
 \TU/Montserrat(1)/m/n/10.95 Na semantic search is de derde onderzoeksdoelstelli
 ng bereikt: Een proof-of-concept
@@ -3071,12 +3071,130 @@ ng bereikt: Een proof-of-concept
 [43]
 Hoofdstuk 9.
 
+Overfull \hbox (5.91365pt too wide) in paragraph at lines 29--31
+\TU/Montserrat(1)/m/n/10.95 Een overzicht van de resultaten na web scraping, na
+tural language processing, Cross-
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Float too large for page by 769.59889pt on input line 334.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Float too large for page by 58.57939pt on input line 443.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (conclusie.tex
 
 [44
 
-]) (googlescholarzoekopdracht.tex
+]
 
 [45]
+
+[46]
+
+[47]
+
+[48]
+
+[49]
+
+[50]
+
+[51]
+
+[52]
+
+[53]
+
+[54]
+
+[55]
+
+[56]
+
+[57]
+
+[58]
+Hoofdstuk 10.
+
+
+[59
+
+]) (googlescholarzoekopdracht.tex
+
+[60]
 B\ij lage A.
 
 Overfull \hbox (17.69458pt too wide) in paragraph at lines 28--28
@@ -3105,11 +3223,11 @@ file (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/2_zoekresultaten.PNG>
 
 
-[46
+[61
 
 ]
 
-[47]
+[62]
 File: ../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG Grap
 hic file (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG>
@@ -3129,9 +3247,9 @@ or  <return>  to continue without it.
 
 
 
-[48]
+[63]
 
-[49]
+[64]
 File: ../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG Graphic f
 ile (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG>
@@ -3140,7 +3258,7 @@ e bmp)
 <../graphics/./1_google_scholar_zoekopdracht/5_email.PNG>
 )
 
-[50]
+[65]
 B\ij lage B.
 (../voorstel/voorstel-inhoud.tex
 Overfull \hbox (2.63669pt too wide) in paragraph at lines 20--21
@@ -3150,14 +3268,14 @@ collecties van mariene wetenschap-
 
 
 
-[51
+[66
 
 ]
 File: images/stapsgewijs.png Graphic file (type bmp)
 <images/stapsgewijs.png>
 
 
-[52]
+[67]
 Overfull \hbox (21.94153pt too wide) in paragraph at lines 59--60
 []\TU/Montserrat(1)/m/n/10.95 Google Scholar is een zoekmachine die wetenschapp
 elijke literatuur indexeert ([]“  Google
@@ -3165,7 +3283,7 @@ elijke literatuur indexeert ([]“  Google
 
 
 
-[53]
+[68]
 Overfull \hbox (9.43324pt too wide) in paragraph at lines 67--68
 \TU/Montserrat(1)/m/n/10.95 vend, betrouwbaar en onderscheidbaar geïdentificeer
 d kunnen worden. []Chandrakar
@@ -3173,23 +3291,23 @@ d kunnen worden. []Chandrakar
 
 
 
-[54]
+[69]
 
-[55])
+[70])
 
-[56]
+[71]
 
-[57
+[72
 
 
 ]
-Overfull \hbox (17.71294pt too wide) in paragraph at lines 187--187
+Overfull \hbox (17.71294pt too wide) in paragraph at lines 188--188
 [][]\TU/Montserrat(1)/m/n/10.95 Havrlant, L., & Kreinovich, V. (2017). A simple
  probabilistic explanation of term frequency-
  []
 
 
-Overfull \hbox (3.97876pt too wide) in paragraph at lines 187--187
+Overfull \hbox (3.97876pt too wide) in paragraph at lines 188--188
 \TU/Montserrat(1)/m/n/10.95 this explanation). \TU/Montserrat(2)/m/it/10.95 Int
 ernational Journal of General Systems\TU/Montserrat(1)/m/n/10.95 , \TU/Montserr
 at(2)/m/it/10.95 46\TU/Montserrat(1)/m/n/10.95 (1), 27–36. [][]$[][][][][] []
@@ -3197,11 +3315,11 @@ at(2)/m/it/10.95 46\TU/Montserrat(1)/m/n/10.95 (1), 27–36. [][]$[][][][][] []
 
 
 
-[58]
-DePaepeBartBP.tex:187: Misplaced alignment tab character &.
+[73]
+DePaepeBartBP.tex:188: Misplaced alignment tab character &.
 <argument> SQL &
                 amp; NoSQL Databases
-l.187 \printbibliography[heading=bibintoc]
+l.188 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3212,11 +3330,11 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[59]
-DePaepeBartBP.tex:187: Misplaced alignment tab character &.
+[74]
+DePaepeBartBP.tex:188: Misplaced alignment tab character &.
 <argument> ...a extraction, analysis, conversion &
                                                    manipulation of PDF (and ...
-l.187 \printbibliography[heading=bibintoc]
+l.188 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3227,15 +3345,15 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[60]
-Overfull \hbox (25.84052pt too wide) in paragraph at lines 187--187
+[75]
+Overfull \hbox (25.84052pt too wide) in paragraph at lines 188--188
 [][]\TU/Montserrat(2)/m/it/10.95 ScrapeGraphAI: You Only Scrape Once\TU/Montser
 rat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][][][][] [] [][]
 [] [] [][][][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (39.97581pt too wide) in paragraph at lines 187--187
+Overfull \hbox (39.97581pt too wide) in paragraph at lines 188--188
 [][]\TU/Montserrat(2)/m/it/10.95 Tips for using the Crossref REST API\TU/Montse
 rrat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][
 ][][][] [] [][][] [] [][][][][][][][][][][][][] []
@@ -3243,26 +3361,26 @@ rrat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][
 
 
 
-[61]
+[76]
 
-[62] (DePaepeBartBP.aux)
+[77] (DePaepeBartBP.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
-(rerunfilecheck)             Checksum: B305174EF78DAD7E4F8637821D1A9709;7943.
+(rerunfilecheck)             Checksum: 7DFC822A9E69FB6F4A301828E96144F9;8385.
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52164 strings out of 408640
- 1070493 string characters out of 5749145
- 2320145 words of memory out of 5000000
- 74386 multiletter control sequences out of 15000+600000
+ 52198 strings out of 408640
+ 1071173 string characters out of 5749145
+ 2356370 words of memory out of 5000000
+ 74417 multiletter control sequences out of 15000+600000
  562732 words of font info for 112 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,13n,131p,1256b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DePaepeBartBP.pdf (72 pages).
+Output written on DePaepeBartBP.pdf (87 pages).
