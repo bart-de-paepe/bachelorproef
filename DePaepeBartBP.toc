@@ -41,16 +41,16 @@
 \contentsline {chapter}{\numberline {9}Resultaten}{44}{chapter.9}%
 \contentsline {section}{\numberline {9.1}Inleiding}{44}{section.9.1}%
 \contentsline {section}{\numberline {9.2}Overzicht van de VLIZ zoekresultaten}{44}{section.9.2}%
-\contentsline {chapter}{\numberline {10}Conclusie}{59}{chapter.10}%
-\contentsline {chapter}{\numberline {A}Google Scholar zoekopdracht}{61}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Zoeken in Google Scholar \blx@tocontentsinit {0}\autocite {JohnSBailey2025}}{61}{section.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}Basis zoeken}{61}{subsection.A.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}Geävanceerd zoeken}{63}{subsection.A.1.2}%
-\contentsline {section}{\numberline {A.2}E-mail alerts}{64}{section.A.2}%
-\contentsline {chapter}{\numberline {B}Onderzoeksvoorstel}{66}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Inleiding}{66}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Literatuurstudie}{68}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Methodologie}{69}{section.B.3}%
-\contentsline {section}{\numberline {B.4}Verwacht resultaat, conclusie}{71}{section.B.4}%
-\contentsline {chapter}{Bibliografie}{72}{appendix*.51}%
+\contentsline {chapter}{\numberline {10}Conclusie}{68}{chapter.10}%
+\contentsline {chapter}{\numberline {A}Google Scholar zoekopdracht}{70}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Zoeken in Google Scholar \blx@tocontentsinit {0}\autocite {JohnSBailey2025}}{70}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}Basis zoeken}{70}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Geävanceerd zoeken}{72}{subsection.A.1.2}%
+\contentsline {section}{\numberline {A.2}E-mail alerts}{73}{section.A.2}%
+\contentsline {chapter}{\numberline {B}Onderzoeksvoorstel}{75}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Inleiding}{75}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Literatuurstudie}{77}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Methodologie}{78}{section.B.3}%
+\contentsline {section}{\numberline {B.4}Verwacht resultaat, conclusie}{80}{section.B.4}%
+\contentsline {chapter}{Bibliografie}{81}{appendix*.51}%
 \contentsfinish 
