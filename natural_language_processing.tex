@@ -67,20 +67,7 @@ Toch is de frequentie op zich nog niet de beste waardemeter voor een tekst. Er k
     \includegraphics[width=0.8\textwidth]{./4_NLP/tf-idf.jpg}
     \caption[term frequency-inverse document frequency.]{\label{fig:tf-idf}Term frequency-inverse document frequency.}
 \end{figure}
-Uit de formules valt te zien dat de ``inverse document frequency'' afhangt van het aantal documenten. Maar de relevantie van een publicatie kan niet afhangen van het aantal zoekresultaten (deze zijn incrementeel, er komen elke dag bij), daarom valt de ``inverse document frequency'' weg. In de plaats zijn er andere parameters om de relevantie te benaderen.
-\begin{itemize}
-    \item De ``topic-sentence'' ratio: een ratio van het trefwoord count ten opzichte van het totaal aantal zinnen.
-    \item De ``topic-noun'' ratio: een ratio van het trefwoord count ten opzichte van het totaal aantal zelfstandige naamwoorden.
-\end{itemize}
-Aan de hand van die parameters kan een relevantiescore berekend worden zoals te zien in codefragment \ref{code:relevantiescore}.
-\begin{listing}[h!]
-    \[
-        score=topic count\ \ast\ log\left(``topic-sentence'' ratio\right)\ \ast\ log\left(``topic-noun'' ratio\right)
-    \]  
-    \caption[Relevantiescore]{Berekenen van de relevantiescore.}
-    \label{code:relevantiescore}
-\end{listing}
-De code op github \textcite{Depaepenlp2025} maakt hiervan een implementatie aangepast voor de GS alerts.
+De Tf-Idf methode is de de facto berekening van de relevantie van een term voor een bepaalde tekst. De \[TFidVectorizer()\] \footnote{https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html} van Scikit-Learn is een praktische tool om de Tf-Idf score van elk afzonderlijk woord in een tekst te berekenen. De code op github \textcite{Depaepenlp2025} maakt hiervan een implementatie aangepast voor de GS alerts.
 \section{Tekstverwerking}
 De BoW geeft wel aanleiding tot tabellen met zeer grote dimensies. Hoe meer teksten er zijn, des te uitgebreider zal de woordenschat worden. Daarom wordt de BoW altijd voorafgegaan door tekstverwerking die stopwoorden \footnote{Stopwoorden (of, a, the, in ,you, ...) komen vaak voor maar hebben geen toegevoegde waarde over het onderwerp.} verwijdert en lemmatisering \footnote{Lemmatisering zet woorden om naar hun basisvorm, maar houdt daarbij rekening met de context. Voorbeeld ``caring'' wordt omgezet in ``care'' en niet in ``car''.}.\\
 De voornaamwoorden in de tekst worden vervangen door het trefwoord waarnaar ze verwijzen (vb. tabel \ref{table:nlp}).

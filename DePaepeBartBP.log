@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  11 MAY 2025 23:43
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  13 MAY 2025 23:24
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2498,7 +2498,7 @@ t line 71.
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250511234345 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250513232426 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -2780,6 +2780,31 @@ File: ../graphics/./4_NLP/tf-idf.jpg Graphic file (type bmp)
 [27
 
 ]
+(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
+(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
+natural_language_processing.tex:70: Missing $ inserted.
+<inserted text> 
+                $
+l.70 ...ture_extraction.text.TfidfVectorizer.html}
+                                                   van Scikit-Learn is een p...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 9.00096pt on input line 70.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 8.99904pt on input line 70.
+natural_language_processing.tex:70: Missing $ inserted.
+<inserted text> 
+                $
+l.70 ...ture_extraction.text.TfidfVectorizer.html}
+                                                   van Scikit-Learn is een p...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
 
 [28]
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
@@ -2790,12 +2815,12 @@ fontspec)
 fontspec)
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
-Overfull \hbox (9.62679pt too wide) in paragraph at lines 89--96
+Overfull \hbox (9.62679pt too wide) in paragraph at lines 76--83
  [][] 
  []
 
 
-natural_language_processing.tex:119: Package minted Error: Cannot highlight cod
+natural_language_processing.tex:106: Package minted Error: Cannot highlight cod
 e (minted executable is unavailable or disabled); attempting to typeset without
  highlighting.
 
@@ -2803,7 +2828,7 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.119     \end{minted}
+l.106     \end{minted}
                       
 (That was another \errmessage.)
 
@@ -3912,11 +3937,11 @@ Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52200 strings out of 408640
- 1071200 string characters out of 5749145
- 2418370 words of memory out of 5000000
- 74419 multiletter control sequences out of 15000+600000
- 562732 words of font info for 112 fonts, out of 8000000 for 9000
+ 52218 strings out of 408640
+ 1071980 string characters out of 5749145
+ 2419327 words of memory out of 5000000
+ 74428 multiletter control sequences out of 15000+600000
+ 563350 words of font info for 117 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,13n,131p,1256b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s
 

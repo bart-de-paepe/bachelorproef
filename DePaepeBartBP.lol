@@ -12,8 +12,7 @@
 \contentsline {listing}{\numberline {5.12}{\ignorespaces Beautiful Soup tag selection}}{25}{listing.5.12}%
 \contentsline {listing}{\numberline {5.13}{\ignorespaces Beautiful Soup navigatie}}{25}{listing.5.13}%
 \contentsline {listing}{\numberline {6.1}{\ignorespaces term frequency-inverse document frequency}}{28}{listing.6.1}%
-\contentsline {listing}{\numberline {6.2}{\ignorespaces Relevantiescore}}{29}{listing.6.2}%
-\contentsline {listing}{\numberline {6.3}{\ignorespaces Coreference resolver}}{30}{listing.6.3}%
+\contentsline {listing}{\numberline {6.2}{\ignorespaces Coreference resolver}}{30}{listing.6.2}%
 \contentsline {listing}{\numberline {7.1}{\ignorespaces URL met DOI}}{31}{listing.7.1}%
 \contentsline {listing}{\numberline {7.2}{\ignorespaces Opzoeken van DOI in de URL van de publicatie}}{33}{listing.7.2}%
 \contentsline {listing}{\numberline {7.3}{\ignorespaces Crossref query op basis van de bibliografie}}{33}{listing.7.3}%
