@@ -26,761 +26,96 @@
 %% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
 %% en geef het een gepaste titel.
 \section{Inleiding}
-De Google Scholar alerts leverden 25 notificatie e-mails met zoekresultaten op voor de VLIZ zoekopdracht (zie hoofdstuk \ref{ch:googlescholaralert}) sinds 1 februari 2025 tot 16 mei 2025.\\
-Een overzicht van de resultaten na web scraping, natural language processing, Crossref en semantic search is hieronder volledig weergegeven.
+De Google Scholar alerts leverden 23 notificatie e-mails met zoekresultaten op voor de VLIZ zoekopdracht (zie hoofdstuk \ref{ch:googlescholaralert}) sinds 1 februari 2025 tot 16 mei 2025.\\
+Figuur \ref{fig:GSAlertsTimeline} toont de tijdslijn van de Google Scholar alerts ontvangen tussen 1 Februari 2025 en 16 mei 2025.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./9_resultaten/GS_alerts_timeline.png}
+    \caption[Tijdslijn Google Scholar alerts.]{\label{fig:GSAlertsTimeline}Tijdslijn Google Scholar alerts.}
+\end{figure}
+Een volledig overzicht van alle resultaten na web scraping, natural language processing, Crossref en semantic search is weergegeven in bijlage \ref{ch:overzicht_resultaten}.
 
-\section{Overzicht van de VLIZ zoekresultaten}
-\begin{table}[h!]
-    \caption{e-mail 25-02-05}
+\section{Web scraping}
+Titel, link en tekst worden systematisch goed gevonden door de scraping. Voor auteurs, tijdschrift en jaartal en dat beduidend minder het geval. De reden daarvoor is dat deze 3 laatste parameters binnen dezelfde tag staan en gescheiden worden door specifieke karakters. Dat maakt het een pak moeilijker voor de scraper om die informatie te  ontleden, vooral in het geval wanneer 1 of 2 van die gegevens ook ontbreken in het zoekresultaat zoals te zien is in figuur \ref{fig:GSauteurtijdschriftjaartal}.
+\begin{figure}[h!]
     \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
+    \includegraphics[width=0.8\textwidth]{./9_resultaten/GS_alerts_auteurtijdschriftjaartal.jpg}
+    \caption[Google Scholar alert zonder auteur tijdschrift of jaartal.]{\label{fig:GSauteurtijdschriftjaartal}Google Scholar alert zonder auteur tijdschrift of jaartal.}
+\end{figure}
+
+\section{Relevantiescore}
+De relevantiescore werd berekend op basis van het voorkomen van de zoektermen in de tekst. Op die manier vallen de zoekresultaten waarin de zoektermen niet voorkomen onmiddellijk op zoals te zien is in figuur  \ref{fig:GSrelevantie}.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./9_resultaten/GS_alerts_relevantiescore.png}
+    \caption[Google Scholar alert relevantiescore.]{\label{fig:GSrelevantie}Google Scholar alert relevantiescore.}
+\end{figure}
+
+\section{DOI}
+\begin{table}[h!]
+    \caption{statistieken linked data}
+    \centering
+    \begin{tabularx}{\textwidth}{|X|p{4cm}|} 
         \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
+        Percentage aantal keer dat DOI gevonden is.&48\%\\
         \hline
-        web &TITLE\\
-        scraping&LINK\\
-        &AUTEUR\\
-        &TIJDSCHRIFT\\
-        &JAAR\\
-        &TEXT\\
+        Percentage aantal keer in de URL.&7\%\\
         \hline
-        NLP&RELEVANTIESCORE\\
+        Percentage aantal keer via Crossref.&20\%\\
         \hline
-        DOI&DOI\\
-        &STATUS\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
+        Percentage aantal keer op de webpagina.&73\%\\
         \hline
     \end{tabularx}
-    \label{table:email20250205}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-02-12}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: Unravelling the intestinal microbiome of killer whale Reveil stranded in De Panne, Belgium: insights into cause of death and anthropogenic pollution impact\\
-        scraping&link: https://lifewatch.be/imis?module\textbackslash x3dref\textbackslash x26refid\textbackslash x3d383296\\
-        &auteur: VLIZ\\
-        &tijdschrift: -\\
-        &jaar: -\\
-        &tekst: Infectious diseases stand out as the predominant cause of death among stranded cetaceans in the Southern North Sea. Although most infections are caused by host-associated pathogens, some studies reported on infections with human pathogens through …\\
-        \hline
-        NLP&relevantiescore: 0\\
-        \hline
-        DOI&DOI: -\\
-        &bron: -\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250212}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-02-14}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: Picturing plankton: Complementing net‐based plankton community assessments with optical imaging across diverse marine environments\\
-        scraping&link: https://aslopubs.onlinelibrary.wiley.com/doi/abs/10.1002/lom3.10674\\
-        &auteur: A Ollevier, J Mortelmans, W Boone, K Deneudt…\\
-        &tijdschrift: -\\
-        &jaar: -\\
-        &tekst: … Department of VLIZ, HEREON, NIOZ, and GCRC for the technical support, as well as the crew of the RV Simon Stevin and the RV Sanna, and the fellow scientists for their assistance during the cruises. This work makes use of data and infrastructure …\\
-        \hline
-        NLP&relevantiescore: 0.2929634531898176\\
-        \hline
-        DOI&DOI: 10.1002/lom3.10674\\
-        &bron: link\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250214}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-02-26}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: Galileo Galilei and Simon Stevin: Publishing in Vernacular or in Latin?\\
-        scraping&link: https://books.google.com/books?hl\textbackslash x3dnl\textbackslash x26lr\textbackslash x3d\textbackslash x26id\textbackslash x3d-sRIEQAAQBAJ\textbackslash x26oi\textbackslash x3dfnd\textbackslash x26pg\textbackslash x3dPA82\textbackslash x26dq\textbackslash x3d\%22Vlaams+Instituut+voor+de+Zee\%22+OR+\%22Vlaams+Instituut+van+de+Zee\%22+OR+\%22Flanders+Marine+Institute\%22+OR+\%22VLIZ\%22+OR+\%22Simon+Stevin\%22+OR+\%22R/V+Simon+Stevin\%22+OR+\%22RV+Simon+Stevin\%22+OR+\%22Marine+Station+Ostend\%22+OR+\%22Mariene+Station+Oostende\%22\x26ots\x3dq8wvk4vdTn\x26sig\x3d9Sq3\_-XTz2pv3rP9pQ1o0MRBclQ\\
-        &auteur: FAA Buyse\\
-        &tijdschrift: Polyglot Texts and Translations in Early Modern …\\
-        &jaar: 2025\\
-        &tekst: Simon Stevin (1548–1620) was only 16 years older than Galileo Galilei (1564–1642), yet the similarities between the work of the Flemish engineer and the Italian natural philosopher are striking. Both carried out experiments with inclined planes, were …\\
-        \hline
-        NLP&relevantiescore: 0.18015564303541245\\
-        \hline
-        DOI&DOI: 10.1163/9789004695566\_005\\
-        &bron: Crossref\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250226}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-03-02}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: Tracking the Footprints of New Technologies: Critical Raw Materials Accumulation in North Sea Marine Mammals\\
-        scraping&link: https://orbi.uliege.be/handle/2268/328981\\
-        &auteur: VLIZ\\
-        &tijdschrift: -\\
-        &jaar: -\\
-        &tekst: The rapid advancement of technology, shifts in industrial practices, and the on-going global energy transition, have likely altered the distribution of trace element in the North Sea, with potential implication for its ecosystem. Critical raw materials (CRMs)—elements …\\
-        \hline
-        NLP&relevantiescore: 0\\
-        \hline
-        DOI&DOI: -\\
-        &bron: -\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250302}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-03-05}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel:  "Roelof van Gelder, De koopman van Kanton. Jan Bekker Teerlink (1759-1832)(Amsterdam: Prometheus, 2022, 332 pp.\\
-        scraping&link: https://lirias.kuleuven.be/retrieve/800220\\
-        &auteur: W De Winter\\
-        &tijdschrift: Bmgn-The Low Countries Historical Review\\
-        &jaar: 2025\\
-        &tekst: Met De Koopman van Kanton heeft Roelof van Gelder een boek geschreven dat naast diens klassiekers als Naporra’s Omweg (2004) of Zeepost (2010) geplaatst kan worden. Net als in deze werken vormen de verhalen van individuen in dit boek …\\
-        \hline
-        NLP&relevantiescore: 0.17151048479826148\\
-        \hline
-        DOI&DOI: 10.51769/bmgn-lchr.22321\\
-        &bron: webpagina van de publicatie\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250305}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-03-06}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: Deliverable 6.1\\
-        scraping&link: https://www.vliz.be/imisdocs/publications/411844.pdf\\
-        &auteur: L De Keukelaere, L Poorters, E Knaeps, L Devriese…\\
-        &tijdschrift: -\\
-        &jaar: 2025\\
-        &tekst: The INSPIRE community engagement, communication and dissemination plan outlines a strategic approach for effectively sharing the project’s vision, progress and results. The plan defines key objectives and goals, target audiences and …\\
-        \hline
-        NLP&relevantiescore: 0\\
-        \hline
-        DOI&DOI: 10.48470/105\\
-        &bron: webpagina van de publicatie\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250306}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-03-07}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: Rings in which all elements are the sum of a central element and an element from \$\textbackslash Delta (R) \$\\
-        scraping&link: https://arxiv.org/pdf/2503.03643\\
-        &auteur: P Danchev, A Javan, O Hasanzadeh, A Moussavi\\
-        &tijdschrift: arXiv preprint arXiv:2503.03643\\
-        &jaar: 2025\\
-        &tekst: We define and consider in-depth the so-called $C\Delta$ rings as those rings $R$ whose elements are a sum of an element in $C(R)$ and of an element in $\Delta(R)$. Our achieved results somewhat strengthen these recently obtained by Ma-Wang-Leroy …\\
-        \hline
-        NLP&relevantiescore: 0\\
-        \hline
-        DOI&DOI: -\\
-        &bron: -\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: ERROR ESTIMATION FOR A PIEZOELECTRIC CONTACT PROBLEM WITH WEAR AND LONG MEMORY\\
-        scraping&link: https://journals.univ-biskra.dz/index.php/ijams/article/view/107\\
-        &auteur: B DEHDA, MSM AOUN, AA AHMED\\
-        &tijdschrift: … Journal of Applied Mathematics and Simulation\\
-        &jaar: 2025\\
-        &tekst: We study a mathematical model for a quasistatic behavior of electro-viscoelastic materials. The problem is related to highly nonlinear and non-smooth phenomena like contact, friction and normal compliance with wear. Then, a fully discrete scheme …\\
-        \hline
-        NLP&relevantiescore: 0\\
-        \hline
-        DOI&DOI: 10.69717/ijams.v1.i2.107\\
-        &bron: Crossref\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250307}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-03-08}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel:  Assessing the potential of deep-water seaweed cultivation along the Kenyan coast\\
-        scraping&link: https://biblio.ugent.be/publication/01JNNE7X072ZQ1S10NV8DGB5ND\\
-        &auteur: VLIZ\\
-        &tijdschrift: -\\
-        &jaar: -\\
-        &tekst: To satisfy the global demand for carrageenans across the food, cosmetic, and pharmaceutical industries, two carrageenophytes (ie red algae Kappaphycus alvarezii and Eucheuma denticulatum) are commercially cultivated in tropical …\\
-        \hline
-        NLP&relevantiescore: 0\\
-        \hline
-        DOI&DOI: -\\
-        &bron: -\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: Macroalgal allelopathic metabolites: Ecological consequences and their potential\\
-        scraping&link: https://biblio.ugent.be/publication/01JNN9TFAVEW3ZXV0CMYB9V2CD\\
-        &auteur: VLIZ\\
-        &tijdschrift: -\\
-        &jaar: -\\
-        &tekst: Allelopathy refers to the biochemical interaction between organisms, often primary producers and microorganisms, mediated by secondary metabolites known as allelochemicals. While well-documented in terrestrial ecosystems, allelopathy …\\
-        \hline
-        NLP&relevantiescore: 0\\
-        \hline
-        DOI&DOI: -\\
-        &bron: -\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: How can Machine Learning aid in understanding copepod dynamics in a changing North Sea?\\
-        scraping&link: https://biblio.ugent.be/publication/01JNNA09FV3AN3NMG7H1PKK342\\
-        &auteur: VLIZ\\
-        &tijdschrift: -\\
-        &jaar: -\\
-        &tekst: Zooplankton, including copepods, are fundamental to marine ecosystems, serving as a crucial link in the transfer of energy from primary producers (phytoplankton) to higher trophic levels. Additionally, they play a significant role in the biological carbon …\\
-        \hline
-        NLP&relevantiescore: 0.07037882332218533\\
-        \hline
-        DOI&DOI: -\\
-        &bron: -\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: Evaluating the acute toxicity of marine phycotoxin mixtures on copepods across various life stages\\
-        scraping&link: https://biblio.ugent.be/publication/01JNNC4GK2NFM09T3825A0QQF0\\
-        &auteur: VLIZ\\
-        &tijdschrift: -\\
-        &jaar: -\\
-        &tekst: The expansion of human activities into oceans and lakes has profoundly disrupted aquatic ecosystems. Over recent decades, HAB occurrences have increased due to mounting anthropogenic pressures. Harmful algal blooms (HABs) are a …\\
-        \hline
-        NLP&relevantiescore: 0\\
-        \hline
-        DOI&DOI: -\\
-        &bron: -\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: Effects of temperature and salinity on growth and toxin production of the cyanobacterium Microcystis aeruginosa (PCC7806) under estuarine conditions\\
-        scraping&link: https://biblio.ugent.be/publication/01JNNDDPTZHF2DW47D4RAXA9FC\\
-        &auteur: VLIZ\\
-        &tijdschrift: -\\
-        &jaar: -\\
-        &tekst: Coastal ecosystems, which act as essential connectors between inland waters and ocean systems, are now encountering unparalleled challenges fueled by human activities and climate change. Microcystis aeruginosa is recognized as a harmful …\\
-        \hline
-        NLP&relevantiescore: 0\\
-        \hline
-        DOI&DOI: -\\
-        &bron: -\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: Bioactive phenolic compounds in red algae (Rhodophyta): Ecological variation and their potential\\
-        scraping&link: https://biblio.ugent.be/publication/01JNN8CXYFEN92X4521XHPH0SZ\\
-        &auteur: VLIZ\\
-        &tijdschrift: -\\
-        &jaar: -\\
-        &tekst: Seaweeds have garnered significant attention in recent years due to their chemical and bioactive properties, which hold promise for discovering new molecules with valuable applications for humanity. Among their metabolites, phenolic compounds …\\
-        \hline
-        NLP&relevantiescore: 0\\
-        \hline
-        DOI&DOI: -\\
-        &bron: -\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250308}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-03-12}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: Unlocking the synergies of halophilic purple bacteria for seaweed aquaculture\\
-        scraping&link: https://biblio.ugent.be/publication/01JNNAM517TVCCBVPC1DDR0HBR\\
-        &auteur: VLIZ\\
-        &tijdschrift: -\\
-        &jaar: -\\
-        &tekst: The growing global population and rising life standards demand food systems that not only meet increasing nutrition and health needs but also minimize environmental impact. In this context, seaweed aquaculture emerges as a sustainable solution for …\\
-        \hline
-        NLP&relevantiescore: 0\\
-        \hline
-        DOI&DOI: -\\
-        &bron: -\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250312}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-03-13}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: Marine protected areas as socio-economic systems: a method for defining socio-economic criteria in marine planning\\
-        scraping&link: https://rodin.uca.es/bitstream/handle/10498/35789/OA_2024_1195.pdf?sequence\textbackslash x3d1\textbackslash x26isAllowed\textbackslash x3dy\\
-        &auteur: C Pegorelli Gomes, M Andrés García, J García Onetti…\\
-        &tijdschrift: -\\
-        &jaar: 2024\\
-        &tekst: This research aims to define socio-economic criteria for prioritizing proposals related to new marine protected areas, boundary adjustments, area relocations, and network corridors within marine management approaches. The study also focuses …\\
-        \hline
-        NLP&relevantiescore: 0.13653544446137095\\
-        \hline
-        DOI&DOI: 10.3389/fmars.2024.1358950\\
-        &bron: Crossref\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250313}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-03-17}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: Detecting marine heatwaves in the Belgian part of the North Sea: Effects on plankton blooms and diversity\\
-        scraping&link: https://biblio.ugent.be/publication/01JP9TWYXP1MN7W1803HND70W6\\
-        &auteur: VLIZ\\
-        &tijdschrift: -\\
-        &jaar: -\\
-        &tekst: … (with an additional eight offshore stations) on board the RV Simon Stevin, with zooplankton data from 2014 onwards and phytoplankton … from NOAA satellite data versus underway data from the RV Simon Stevin. Temperatures were also analysed …\\
-        \hline
-        NLP&relevantiescore: 0.4313287464280857\\
-        \hline
-        DOI&DOI: 10.5670/oceanog.2018.205\\
-        &bron: webpagina van de publicatie\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: De slimme keuzes van oesterlarven: overleven in een drukke onderwaterwereld\\
-        scraping&link: https://www.vliz.be/imisdocs/publications/411801.pdf\\
-        &auteur: N FOCKEDEY\\
-        &tijdschrift: -\\
-        &jaar: 2025\\
-        &tekst: Het leven van oesters is niet simpel. Het begint al met een moeilijke beslissing. Als piepkleine, vrij zwemmende larven zweven ze in de waterkolom. Op zoek naar de perfecte plek om zich te vestigen. Want eenmaal vastgehecht aan een ondergrond …\\
-        \hline
-        NLP&relevantiescore: 0.10634694400675286\\
-        \hline
-        DOI&DOI: -\\
-        &bron: -\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: Deliverable 6.2 Performance Indicators Version 1.1\\
-        scraping&link: https://www.vliz.be/imisdocs/publications/411845.pdf\\
-        &auteur: MN Everaert, M Milosevic, I Siljanovic, S Gilani…\\
-        &tijdschrift: -\\
-        &jaar: 2025\\
-        &tekst: This D6. 2 INSPIRE Performance Indicators document lists the INSPIRE Key Performance Indicators (KPI) and the aimed targets, and identifies for each KPI the available tools and data (Google analytics, the INSPIRE register of social media …\\
-        \hline
-        NLP&relevantiescore: 0\\
-        \hline
-        DOI&DOI: 10.48470/106\\
-        &bron: webpagina van de publicatie\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250317}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-03-20}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: De slimme keuzes van oesterlarven: overleven in een drukke onderwaterwereld\\
-        scraping&link: https://www.vliz.be/imisdocs/publications/411800.pdf\\
-        &auteur: N Festival\\
-        &tijdschrift: -\\
-        &jaar: 2025\\
-        &tekst: … VLIZ verwelkomt nieuwsgierige particulieren en kleine groepen voor een bezoek aan de InnovOcean Campus en het Mariene Station Oostende… Duik met VLIZ-onderzoekster Sarah Schmidlin mee in de mysterieuze wereld van oesterlarven. Op zoek naar de …\\
-        \hline
-        NLP&relevantiescore: 0.2613942854462789\\
-        \hline
-        DOI&DOI: -\\
-        &bron: -\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250320}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-03-21}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: Trace metal contamination in the giant mud crab Scylla olivacea and sediments from the Pakistani coast: is it safe to eat these crabs?\\
-        scraping&link: https://researchportal.vub.be/en/publications/trace-metal-contamination-in-the-giant-mud-crab-scylla-olivacea-a\\
-        &auteur: Vliz\\
-        &tijdschrift: -\\
-        &jaar: -\\
-        &tekst: The Pakistani coast holds significant economic potential through its rich marine resources, including a thriving mud crab fishery. However, trace metal contamination from industrial effluents, sewage, agricultural runoff, port activities, ship breaking …\\
-        \hline
-        NLP&relevantiescore: 0.06741829251581875\\
-        \hline
-        DOI&DOI: -\\
-        &bron: -\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: The effect of coastal exposure and the role of activation on emotions and emotion regulation: An innovative experimental design\\
-        scraping&link: https://www.vliz.be/vmsd/sites/vliz.be.vmsd/files/managed/vmsd2025\_boa\_0.pdf#page\textbackslash x3d62\\
-         &auteur: VLIZ\\
-        &tijdschrift: -\\
-        &jaar: -\\
-        &tekst: Coastal environments are unique natural landscapes associated with mental health benefits, where people often report greater happiness compared to other environments (MacKerron \& Mourato, 2013; Stieger et al., 2022). Such findings are …\\
-        \hline
-        NLP&relevantiescore: 0\\
-        \hline
-        DOI&DOI: 10.5281/zenodo.11654795).\\
-        &bron: webpagina van de publicatie\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250321}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-03-22}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &title: Deliverable 4.1 Report on feedback loop including impact pathways generated by measures for prevention Version 2.1\\
-        scraping&link: https://www.vliz.be/imisdocs/publications/411842.pdf\\
-        &auteur: A Vujanović, R Pučnik, J Puhar, M Petelin, E Mariotti…\\
-        &tijdschrift: -\\
-        &jaar: 2025\\
-        &tekst: Deliverable D4. 1–Report on feedback loop including impact Pathways Generated by Measures for Prevention, is part of the Horizon EU Mission Ocean project INSPIRE, and aims to provide detailed insights into the performance of various …\\
-        \hline
-        NLP&relevantiescore: 0\\
-        \hline
-        DOI&DOI: 10.48470/103\\
-        &bron: webpagina van de publicatie\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250322}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-03-23}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: Using the VLIZ ICOS station measurements and discrete samples to assess the carbonate chemistry trends (since 2017) and carbon neutrality of the Belgian part of …\\
-        scraping&link: https://meetingorganizer.copernicus.org/EGU25/EGU25-6653.html\\
-        &auteur: C Leseurre, H Theetaert, M T'Jampens…"\\
-        &tijdschrift: -\\
-        &jaar: 2025\\
-        &tekst: Better understanding of the carbon dynamics in coastal areas is essential to develop metrics to evaluate the efficiency of policies regarding carbon neutrality (ie whether the coastal environment, more specifically the Belgian part of the North Sea, acts as …\\
-        \hline
-        NLP&relevantiescore: 0\\
-        \hline
-        DOI&DOI: 10.5194/egusphere-egu25-6653"\\
-        &bron: webpagina van de publicatie\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250323}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-03-28}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: Deliverable 1.2: Monitoring and analysis protocols. Version 4.1. University of Cádiz (UCA): Cádiz. 48 pp\\
-        scraping&link: https://www.vliz.be/imisdocs/publications/411840.pdf\\
-        &auteur: D González\\
-        &tijdschrift: Fernández, AI Catarino\\
-        &jaar: -\\
-        &tekst: … The floating microlitter sampling protocol selected for INSPIRE is currently used by VLIZ (leader of T1.2 Monitoring of microlitter) and was … is set at 50 μm (VLIZ). Randomly selected particles will be analysed by electron microscopy to validate …\\
-        \hline
-        NLP&relevantiescore: 0.2152350448771063\\
-        \hline
-        DOI&DOI: 10.48470/101\\
-        &bron: webpagina van de publicatie\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250328}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-04-03}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: Living the Coast: On Property and Possession, the Netherlands and Indonesia, and the Free Sea\\
-        scraping&link: https://archium.ateneo.edu/cgi/viewcontent.cgi?article\textbackslash x3d2159\textbackslash x26context\textbackslash x3dkk\\
-        &auteur: R Dolphijn\\
-        &tijdschrift: Kritika Kultura\\
-        &jaar: 2025\\
-        &tekst: … the scaped land, or, exploring the ways in which nature is scaped by men, painters like van Jacob van Ruisdael, Albert Cuyp, and Rembrandt van Rijn, may be seen as part of a particularly Dutch tradition of engineering that also included …\\
-        \hline
-        NLP&relevantiescore: 0.10902028185763674\\
-        \hline
-        DOI&DOI: -\\
-        &bron: -\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250403}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-04-06}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: De Wilde Noordzee, een uitzonderl ij ke film over natuur die zich niet laat temmen\\
-        scraping&link: https://www.vliz.be/imisdocs/publications/412132.pdf\\
-        &auteur: O Oosteroever\\
-        &tijdschrift: -\\
-        &jaar: 2025\\
-        &tekst: … VLIZ rekruteert elk jaar meerdere jobstudenten om tijdens de maanden juli, augustus en september mee te draaien binnen mariene … We kregen enkele bijzondere nieuwe aanwinsten binnen in de VLIZ-bibliotheek. Fons Verheyde, onze …\\
-        \hline
-        NLP&relevantiescore: 0.22558219908700836\\
-        \hline
-        DOI&DOI: -\\
-        &bron: -\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250406}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-04-10}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: De Wilde Noordzee, een uitzonderlijke film over natuur die zich niet laat temmen\\
-        scraping&link: https://www.vliz.be/imisdocs/publications/412133.pdf\\
-        &auteur:  J Seys, J Mees\\
-        &tijdschrift: Testerep magazine\\
-        &jaar: 2025\\
-        &tekst: … Vanuit het VLIZ, na het zien van de première, kunnen we dit alleen maar beamen. … Waar mogelijk verleende het VLIZ wat hand- en spandiensten, en stiekem hoopten we verwend … ” stelt Jan Mees, algemeen directeur van het VLIZ. De Noordzee …\\
-        \hline
-        NLP&relevantiescore: 0.286278949529017\\
-        \hline
-        DOI&DOI: -\\
-        &bron: -\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250410}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-04-13}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &title: Characterization of Belgian Marine Heatwaves and Their Impacts on Plankton Dynamics\\
-        scraping&link: https://meetingorganizer.copernicus.org/EGU25/EGU25-15734.html\\
-        &auteur: A Eske, I Semmouri, J Mortelmans, C Muñiz…\\
-        &tijdschrift: -\\
-        &jaar: 2025\\
-        &tekst: … CTD temperature measurements, all collected on the RV Simon Stevin. Additionally, we defined and … additional offshore stations) on board the RV Simon Stevin, with zooplankton data from 2014 … trends using NOAA satellite data and RV …\\
-        \hline
-        NLP&relevantiescore: 0.5357006547161918\\
-        \hline
-        DOI&DOI: 10.5194/egusphere-egu25-15734\\
-        &bron: webpagina van de publicatie\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250413}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-04-24}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: VLIZ Jaarverslag voor Schenkers 2024\\
-        scraping&link: https://www.vliz.be/projects/trophos/imis.php?module\textbackslash x3dref\textbackslash x26refid\textbackslash x3d406498\\
-        &auteur: VLIZ\\
-        &tijdschrift: -\\
-        &jaar: -\\
-        &tekst: Zee als Goed Doel ontving in 2024 als eerste wereldwijd de erkenning als Grant Making Facility ter ondersteuning van het Decennium van Oceaanwetenschappen voor Duurzame Ontwikkeling (2021-2030). Dit stelt De Zee als Goed Doel in staat …\\
-        \hline
-        NLP&relevantiescore: 0.250753012935632\\
-        \hline
-        DOI&DOI: -\\
-        &bron: -\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250424}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-04-28}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: Multi-level governance and policies for successful plastic pollution mitigation in the Living Lab Nieuwpoort\\
-        scraping&link: https://www.vliz.be/imisdocs/publications/412276.pdf\\
-        &auteur: LI Devriese, G Couvreur, S De Buyser\\
-        &tijdschrift: -\\
-        &jaar: 2025\\
-        &tekst: … The original list of questions and the subdivision based on relevance were taken by VLIZ into their own analysis for the Living Lab … Flanders Marine Institute (VLIZ) The mission of the Flanders Marine Institute (VLIZ) is to strengthen science-based …\\
-        \hline
-        NLP&relevantiescore: 0.47677385834775043\\
-        \hline
-        DOI&DOI: 10.48470/115\\
-        &bron: webpagina van de publicatie\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250428}
-\end{table}
-\begin{table}[h!]
-    \caption{e-mail 25-05-08}
-    \centering
-    \begin{tabularx}{\textwidth}{|p{4cm}|X|} 
-        \hline
-        \multicolumn{2}{|X|}{\textbf{zoekresultaat}} \\
-        \hline
-        web &titel: BULLETIN OF THE BELGIAN MATHEMATICAL SOCIETY SIMON STEVIN\\
-        scraping&link: https://projecteuclid.org/journalArticle/Download?urlId\textbackslash x3d10.36045\%2Fj.bbms.32con1\\
-        &auteur: TDM JOSUAT\\
-        &tijdschrift: VERGUÉS\\
-        &jaar: -\\
-        &tekst: T. DOUVROPOULOS–M. JOSUAT-VERGUÉS. Cluster parking functions. 1 F. CRESPO–M. URIBE–E. MARTÍNEZ. Melnikov method for perturbed completely integrable systems. 45 S. GARTI–S. SHELAH. Poésie Aristotélienne. 67 WF XUAN–D …\\
-        \hline
-        NLP&relevantiescore: 0\\
-        \hline
-        DOI&DOI: 10.1215/00127094-3129809.full\\
-        &bron: webpagina van de publicatie\\
-        \hline
-        semantic&SEMANTIC SEARCH SCORE\\
-        search&\\
-        \hline
-    \end{tabularx}
-    \label{table:email20250508}
+    \label{table:statistieken_linked_data}
 \end{table}
 
+\section{Semantic search}
+Voor de resterende 52\% van de zoekresultaten waarvan geen DOI gevonden kon worden, werd semantic search van de titel uitgevoerd ten opzichte van de IMIS databank. Dat vormde een hele uitdaging aangezien er 260.000 records zijn waarin de titel opgezocht moet worden.
+De query om de titels op te zoeken is:
+\[https://www.vliz.be/nl/imis?module=ref&show=json&spcol=39,141,396,536,733,746,747,748,749,750,751,752,753,754,755,756,757,758,759,760,761,762,763,764,765,766,768,769,770,771,772,773,774,775,776,777,778,779,780,781,782,783,784,785,786,787,788,789,790,791,802,803,900,911,981,982,992,997,1002,1051,1064\].
+Daarbij duiden de ``spcol'' waarden op alle mogelijke collecties binnen IMIS die te maken hebben met het VLIZ (de zoekterm van de Google Scholar alert).
+Omdat IMIS niet toelaat om 260.000 records ineens op te vragen, wordt er gewerkt met 26 batches van 10.000 records. De overeenkomstige query is:
+\[https://www.vliz.be/nl/imis?module=ref&show=json&spcol=39,141,396,536,733,746,747,748,749,750,751,752,753,754,755,756,757,758,759,760,761,762,763,764,765,766,768,769,770,771,772,773,774,775,776,777,778,779,780,781,782,783,784,785,786,787,788,789,790,791,802,803,900,911,981,982,992,997,1002,1051,1064&count=10000&start=0\].
+Daarbij verhoogt de parameter ``start'' telkens met 10.000.\\
+Deze manier van werken heeft mogelijks een invloed op het resultaat: de positie van een titel vergelijken met 10.000 resultaten is niet hetzelfde als met 260.000 resultaten.
+In figuur \ref{fig:GSsss} is te zien dat de Semantic search score toeneemt in functie van het aantal titels waarin gezocht wordt. Maar de mate van toename neemt sterk af bij grote aantallen. Daarom wordt er aangenomen dat de Semantic search score bij 10.000 titels representatief is voor de score bij 260.000 titels.\\
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./9_resultaten/sss.png}
+    \caption[Semantic search score vs. number of titles.]{\label{fig:GSsss}Semantic search score vs. number of titles.}
+\end{figure}
+Na verwerking is de Semantic search score de hoogste waarde van alle batches.\\
+Alle gevonden scores liggen onder de 0.9. Dat is de threshold die empirisch bepaald werd om te beslissen of een titel reeds in IMIS zit (zie tabel \ref{table:empirisch}).\\
+\begin{table}[h!]
+    \caption{Empirische test kritische waarde semantic search}
+    \centering
+    \begin{tabularx}{\textwidth}{|X|p{4cm}|} 
+        \hline
+        Genome-wide association study revealed candidate genes associated with egg-laying time traits in layer chicken&1.0\\
+        \hline
+        Genome wide association study revealed candidate genes associated with egg laying time traits in layer chicken&0.9958072900772095\\
+        \hline
+        Gen. wide assoc. study revealed candidate genes associated with egg time traits in layer chicken&0.9708424806594849\\
+        \hline
+        Genome-wide association study revealed candidate genes associated with egg-laying time traits&0.9543328285217285\\
+        \hline
+        Genome wide association study revealed candidate genes associated with egg laying time traits&0.9487157464027405\\
+        \hline
+        Gen. wide assoc. study revealed candidate genes associated with egg time traits&0.9242777228355408\\
+        \hline
+        with time study revealed associated Genome-wide in chicken genes traits candidate association egg-laying&0.9624322652816772\\
+        \hline
+        Gen.-wide assoc. study reveal cand. gene associate with egg-lay time trait in layer chicken&0.9395400881767273\\
+        \hline
+        Genome-wide association study revealed some new candidate genes associated with flowering and maturity time of soybean in Central and West Siberian regions of Russia&0.8146297931671143\\
+        \hline
+        Genome- and Exome-Wide Association Studies Revealed Candidate Genes Associated with DaTscan Imaging Features&0.7932324409484863\\
+        \hline
+        Genome-wide association study revealed candidate genes associated with leaf size in alfalfa&0.8393213748931885\\
+        \hline
+        Genome-Wide Association Studies Revealed the Genetic Loci and Candidate Genes of Pod-Related Traits in Peanut&0.8185563087463379\\
+        \hline
+    \end{tabularx}
+    \label{table:empirisch}
+\end{table}
+Bijgevolg is er geen enkel duplicaat aanwezig tussen de zoekresultaten.

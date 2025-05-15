@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  13 MAY 2025 23:24
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  15 MAY 2025 22:54
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2498,7 +2498,7 @@ t line 71.
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250513232426 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250515225416 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -3095,668 +3095,158 @@ ng bereikt: Een proof-of-concept
 
 [43]
 Hoofdstuk 9.
+File: ../graphics/./9_resultaten/GS_alerts_timeline.png Graphic file (type bmp)
 
-Overfull \hbox (5.91365pt too wide) in paragraph at lines 29--31
-\TU/Montserrat(1)/m/n/10.95 Een overzicht van de resultaten na web scraping, na
-tural language processing, Cross-
- []
+<../graphics/./9_resultaten/GS_alerts_timeline.png>
+File: ../graphics/./9_resultaten/GS_alerts_auteurtijdschriftjaartal.jpg Graphic
+ file (type bmp)
+<../graphics/./9_resultaten/GS_alerts_auteurtijdschriftjaartal.jpg>
 
-
-Overfull \hbox (43.12688pt too wide) in paragraph at lines 80--80
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://lifewatch.be/imis?module\x3dref\x2
-6refid\x3d383296| 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 1831) in paragraph at lines 105--105
-[]|\TU/Montserrat(1)/m/n/10.95 titel: Picturing plankton: Complementing net‐bas
-ed
- []
-
-
-Overfull \hbox (78.21068pt too wide) in paragraph at lines 105--105
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://aslopubs.onlinelibrary.wiley.com/d
-oi/abs/10.1002/lom3.10674| 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-resultaten.tex:130: Undefined control sequence.
-<inserted text> ...Mariene+Station+Oostende\%22\x 
-                                                  26ots\x 3dq8wvk4vdTn\x 26s...
-l.130     \end{tabularx}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-resultaten.tex:130: Undefined control sequence.
-<inserted text> ...Station+Oostende\%22\x 26ots\x 
-                                                  3dq8wvk4vdTn\x 26sig\x 3d9...
-l.130     \end{tabularx}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-resultaten.tex:130: Undefined control sequence.
-<inserted text> ...e\%22\x 26ots\x 3dq8wvk4vdTn\x 
-                                                  26sig\x 3d9Sq3\_-XTz2pv3rP...
-l.130     \end{tabularx}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-resultaten.tex:130: Undefined control sequence.
-<inserted text> ...26ots\x 3dq8wvk4vdTn\x 26sig\x 
-                                                  3d9Sq3\_-XTz2pv3rP9pQ1o0MR...
-l.130     \end{tabularx}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-resultaten.tex:130: Undefined control sequence.
-<inserted text> ...Mariene+Station+Oostende\%22\x 
-                                                  26ots\x 3dq8wvk4vdTn\x 26s...
-l.130     \end{tabularx}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-resultaten.tex:130: Undefined control sequence.
-<inserted text> ...Station+Oostende\%22\x 26ots\x 
-                                                  3dq8wvk4vdTn\x 26sig\x 3d9...
-l.130     \end{tabularx}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-resultaten.tex:130: Undefined control sequence.
-<inserted text> ...e\%22\x 26ots\x 3dq8wvk4vdTn\x 
-                                                  26sig\x 3d9Sq3\_-XTz2pv3rP...
-l.130     \end{tabularx}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-resultaten.tex:130: Undefined control sequence.
-<inserted text> ...26ots\x 3dq8wvk4vdTn\x 26sig\x 
-                                                  3d9Sq3\_-XTz2pv3rP9pQ1o0MR...
-l.130     \end{tabularx}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-resultaten.tex:130: Undefined control sequence.
-<inserted text> ...Mariene+Station+Oostende\%22\x 
-                                                  26ots\x 3dq8wvk4vdTn\x 26s...
-l.130     \end{tabularx}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-resultaten.tex:130: Undefined control sequence.
-<inserted text> ...Station+Oostende\%22\x 26ots\x 
-                                                  3dq8wvk4vdTn\x 26sig\x 3d9...
-l.130     \end{tabularx}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-resultaten.tex:130: Undefined control sequence.
-<inserted text> ...e\%22\x 26ots\x 3dq8wvk4vdTn\x 
-                                                  26sig\x 3d9Sq3\_-XTz2pv3rP...
-l.130     \end{tabularx}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-resultaten.tex:130: Undefined control sequence.
-<inserted text> ...26ots\x 3dq8wvk4vdTn\x 26sig\x 
-                                                  3d9Sq3\_-XTz2pv3rP9pQ1o0MR...
-l.130     \end{tabularx}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-resultaten.tex:130: Undefined control sequence.
-<inserted text> ...Mariene+Station+Oostende\%22\x 
-                                                  26ots\x 3dq8wvk4vdTn\x 26s...
-l.130     \end{tabularx}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-resultaten.tex:130: Undefined control sequence.
-<inserted text> ...Station+Oostende\%22\x 26ots\x 
-                                                  3dq8wvk4vdTn\x 26sig\x 3d9...
-l.130     \end{tabularx}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-resultaten.tex:130: Undefined control sequence.
-<inserted text> ...e\%22\x 26ots\x 3dq8wvk4vdTn\x 
-                                                  26sig\x 3d9Sq3\_-XTz2pv3rP...
-l.130     \end{tabularx}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-resultaten.tex:130: Undefined control sequence.
-<inserted text> ...26ots\x 3dq8wvk4vdTn\x 26sig\x 
-                                                  3d9Sq3\_-XTz2pv3rP9pQ1o0MR...
-l.130     \end{tabularx}
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (51.81024pt too wide) in paragraph at lines 130--130
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://books.google.com/books?hl\x3dnl\x2
-6lr\x3d\x26id\x3d-
- []
-
-
-Overfull \hbox (1863.38142pt too wide) in paragraph at lines 130--130
-\TU/Montserrat(1)/m/n/10.95 sRIEQAAQBAJ\x26oi\x3dfnd\x26pg\x3dPA82\x26dq\x3d%22
-Vlaams+Instituut+voor+de+Zee%22+OR+%22Vlaams+Instituut+van+de+Zee%22+OR+%22Flan
-ders+Marine+Institute%22+OR+%22VLIZ%22+OR+%22Simon+Stevin%22+OR+%22R/V+Simon+St
-evin%22+OR+%22RV+Simon+Stevin%22+OR+%22Marine+Station+Ostend%22+OR+%22Mariene+S
-tation+Oostende%2226ots3dq8wvk4vdTn26sig3d9Sq3_-
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 3343) in paragraph at lines 180--180
-[]|\TU/Montserrat(1)/m/n/10.95 titel: ”Roelof van Gelder, De koopman van Kanton
-.
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (2.03154pt too wide) in paragraph at lines 205--205
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/imisdocs/publications/
-411844.pdf| 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (54.16447pt too wide) in paragraph at lines 247--247
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://journals.univ-biskra.dz/index.php/
-ijams/article/view/107| 
- []
-
-
-LaTeX Warning: Float too large for page by 2.09247pt on input line 249.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (91.83247pt too wide) in paragraph at lines 357--357
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JNNE
-7X072ZQ1S10NV8DGB5ND| 
- []
-
-
-Overfull \hbox (99.36607pt too wide) in paragraph at lines 357--357
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JNN9
-TFAVEW3ZXV0CMYB9V2CD| 
- []
-
-
-Underfull \hbox (badness 3312) in paragraph at lines 357--357
-[]|\TU/Montserrat(1)/m/n/10.95 tekst: Allelopathy refers to the biochemical int
-erac-
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 357--357
-\TU/Montserrat(1)/m/n/10.95 microorganisms, mediated by secondary metabolites
- []
-
-
-Overfull \hbox (95.80733pt too wide) in paragraph at lines 357--357
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JNNA
-09FV3AN3NMG7H1PKK342| 
- []
-
-
-Overfull \hbox (97.18703pt too wide) in paragraph at lines 357--357
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JNNC
-4GK2NFM09T3825A0QQF0| 
- []
-
-
-Overfull \hbox (102.41017pt too wide) in paragraph at lines 357--357
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JNND
-DPTZHF2DW47D4RAXA9FC| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
-[]|\TU/Montserrat(1)/m/n/10.95 titel: Bioactive phenolic compounds in red algae
-
- []
-
-
-Underfull \hbox (badness 4699) in paragraph at lines 357--357
-\TU/Montserrat(1)/m/n/10.95 (Rhodophyta): Ecological variation and their poten-
-
- []
-
-
-Overfull \hbox (88.52559pt too wide) in paragraph at lines 357--357
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JNN8
-CXYFEN92X4521XHPH0SZ| 
- []
-
-
-LaTeX Warning: Float too large for page by 1292.83766pt on input line 359.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (98.38057pt too wide) in paragraph at lines 382--382
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JNNA
-M517TVCCBVPC1DDR0HBR| 
- []
-
-
-Underfull \hbox (badness 1831) in paragraph at lines 382--382
-[]|\TU/Montserrat(1)/m/n/10.95 tekst: The growing global population and rising 
-life
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-resultaten.tex:407: Missing $ inserted.
-<inserted text> 
-                $
-l.407     \end{tabularx}
-                        
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-resultaten.tex:407: Missing $ inserted.
-<inserted text> 
-                $
-l.407     \end{tabularx}
-                        
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-resultaten.tex:407: Missing $ inserted.
-<inserted text> 
-                $
-l.407     \end{tabularx}
-                        
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-resultaten.tex:407: Missing $ inserted.
-<inserted text> 
-                $
-l.407     \end{tabularx}
-                        
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-resultaten.tex:407: Missing $ inserted.
-<inserted text> 
-                $
-l.407     \end{tabularx}
-                        
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-resultaten.tex:407: Missing $ inserted.
-<inserted text> 
-                $
-l.407     \end{tabularx}
-                        
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-resultaten.tex:407: Missing $ inserted.
-<inserted text> 
-                $
-l.407     \end{tabularx}
-                        
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \textbackslash invalid in math mode on input line 407.
-
-
-LaTeX Warning: Command \textbackslash invalid in math mode on input line 407.
-
-
-LaTeX Warning: Command \textbackslash invalid in math mode on input line 407.
-
-resultaten.tex:407: Missing $ inserted.
-<inserted text> 
-                $
-l.407     \end{tabularx}
-                        
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (267.58789pt too wide) in paragraph at lines 407--407
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://rodin.uca.es/bitstream/handle/1049
-8/35789/OA$[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][]$ 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (101.72032pt too wide) in paragraph at lines 466--466
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JP9T
-WYXP1MN7W1803HND70W6| 
- []
-
-
-Overfull \hbox (0.75038pt too wide) in paragraph at lines 466--466
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/imisdocs/publications/
-411845.pdf| 
- []
-
-
-LaTeX Warning: Float too large for page by 288.05885pt on input line 468.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (1.714pt too wide) in paragraph at lines 491--491
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/imisdocs/publications/
-411800.pdf| 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-resultaten.tex:533: You can't use `macro parameter character #' in horizontal m
-ode.
-<inserted text> .../managed/vmsd2025\_boa\_0.pdf##
-                                                  page\textbackslash x3d62\\...
-l.533     \end{tabularx}
-                        
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-resultaten.tex:533: You can't use `macro parameter character #' in horizontal m
-ode.
-<inserted text> .../managed/vmsd2025\_boa\_0.pdf##
-                                                  page\textbackslash x3d62\\...
-l.533     \end{tabularx}
-                        
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-resultaten.tex:533: You can't use `macro parameter character #' in horizontal m
-ode.
-<inserted text> .../managed/vmsd2025\_boa\_0.pdf##
-                                                  page\textbackslash x3d62\\...
-l.533     \end{tabularx}
-                        
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-resultaten.tex:533: You can't use `macro parameter character #' in horizontal m
-ode.
-<inserted text> .../managed/vmsd2025\_boa\_0.pdf##
-                                                  page\textbackslash x3d62\\...
-l.533     \end{tabularx}
-                        
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Underfull \hbox (badness 1092) in paragraph at lines 533--533
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://researchportal.vub.be/en/publicati
-ons/trace-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 533--533
-\TU/Montserrat(1)/m/n/10.95 metal-contamination-in-the-giant-mud-crab-scylla-
- []
-
-resultaten.tex:533: You can't use `macro parameter character #' in horizontal m
-ode.
-<inserted text> .../managed/vmsd2025\_boa\_0.pdf##
-                                                  page\textbackslash x3d62\\...
-l.533     \end{tabularx}
-                        
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Overfull \hbox (212.6876pt too wide) in paragraph at lines 533--533
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/vmsd/sites/vliz.be.vms
-d/files/managed/vmsd2025_boa_0.pdfpage\x3d62| 
- []
-
-
-LaTeX Warning: Float too large for page by 51.05235pt on input line 535.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (0.88179pt too wide) in paragraph at lines 558--558
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/imisdocs/publications/
-411842.pdf| 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (19.66104pt too wide) in paragraph at lines 583--583
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://meetingorganizer.copernicus.org/EG
-U25/EGU25-
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (1.70305pt too wide) in paragraph at lines 608--608
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/imisdocs/publications/
-411840.pdf| 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (158.5508pt too wide) in paragraph at lines 633--633
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://archium.ateneo.edu/cgi/viewcontent
-.cgi?article\x3d2159\x26context\x3dkk| 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (19.66104pt too wide) in paragraph at lines 708--708
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://meetingorganizer.copernicus.org/EG
-U25/EGU25-
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (161.37593pt too wide) in paragraph at lines 733--733
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/projects/trophos/imis.
-php?module\x3dref\x26refid\x3d406498| 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (1.8235pt too wide) in paragraph at lines 758--758
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/imisdocs/publications/
-412276.pdf| 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (184.02052pt too wide) in paragraph at lines 783--783
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://projecteuclid.org/journalArticle/D
-ownload?urlId\x3d10.36045%2Fj.bbms.32con1| 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (conclusie.tex
 
 [44
 
 ]
+File: ../graphics/./9_resultaten/GS_alerts_relevantiescore.png Graphic file (ty
+pe bmp)
+<../graphics/./9_resultaten/GS_alerts_relevantiescore.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 
 [45]
+resultaten.tex:75: Misplaced alignment tab character &.
+l.75 \[https://www.vliz.be/nl/imis?module=ref&
+                                              show=json&spcol=39,141,396,536...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+resultaten.tex:75: Misplaced alignment tab character &.
+l.75 .../www.vliz.be/nl/imis?module=ref&show=json&
+                                                  spcol=39,141,396,536,733,7...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (1277.0559pt too wide) detected at line 75
+[][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][
+][][][][] [] [][][][][][][][][] [] [][][] [][][][] [][][][] [][][][] [][][][] [
+][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][]
+ [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][]
+[] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][]
+[][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] []
+[][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] 
+[][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][
+] [][][][][] [][][][][] [][][][]
+ []
+
+resultaten.tex:78: Misplaced alignment tab character &.
+l.78 \[https://www.vliz.be/nl/imis?module=ref&
+                                              show=json&spcol=39,141,396,536...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+resultaten.tex:78: Misplaced alignment tab character &.
+l.78 .../www.vliz.be/nl/imis?module=ref&show=json&
+                                                  spcol=39,141,396,536,733,7...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+resultaten.tex:78: Misplaced alignment tab character &.
+l.78 ...03,900,911,981,982,992,997,1002,1051,1064&
+                                                  count=10000&start=0\].
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+resultaten.tex:78: Misplaced alignment tab character &.
+l.78 ...81,982,992,997,1002,1051,1064&count=10000&
+                                                  start=0\].
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (1390.53297pt too wide) detected at line 78
+[][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][
+][][][][] [] [][][][][][][][][] [] [][][] [][][][] [][][][] [][][][] [][][][] [
+][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][]
+ [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][]
+[] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][]
+[][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] []
+[][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] 
+[][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][
+] [][][][][] [][][][][] [][][][][][][][][] [] [][][][][][][][][][] [] []
+ []
+
+File: ../graphics/./9_resultaten/sss.png Graphic file (type bmp)
+<../graphics/./9_resultaten/sss.png>
+
+Overfull \hbox (2.28085pt too wide) in paragraph at lines 118--118
+[]|\TU/Montserrat(1)/m/n/10.95 0.9958072900772095| 
+ []
+
+
+Overfull \hbox (5.13881pt too wide) in paragraph at lines 118--118
+[]|\TU/Montserrat(1)/m/n/10.95 0.9708424806594849| 
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 118--118
+\TU/Montserrat(1)/m/n/10.95 didate genes associated with flowering and maturity
+
+ []
+
+
+Overfull \hbox (2.85025pt too wide) in paragraph at lines 118--118
+[]|\TU/Montserrat(1)/m/n/10.95 0.7932324409484863| 
+ []
+
+) (conclusie.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 
 [46]
 
 [47]
 
 [48]
-
-[49]
-
-[50]
-
-[51]
-
-[52]
-
-[53]
-
-[54]
-
-[55]
-
-[56]
-
-[57]
-
-[58]
-
-[59]
-
-[60]
-
-[61]
-
-[62]
-
-[63]
-
-[64]
-
-[65]
-
-[66]
-
-[67]
 Hoofdstuk 10.
 
 
-[68
+[49
 
 ]) (googlescholarzoekopdracht.tex
 
-[69]
+[50]
 B\ij lage A.
 
 Overfull \hbox (17.69458pt too wide) in paragraph at lines 28--28
@@ -3785,11 +3275,11 @@ file (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/2_zoekresultaten.PNG>
 
 
-[70
+[51
 
 ]
 
-[71]
+[52]
 File: ../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG Grap
 hic file (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG>
@@ -3809,19 +3299,675 @@ or  <return>  to continue without it.
 
 
 
-[72]
+[53]
 
-[73]
+[54]
 File: ../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG Graphic f
 ile (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG>
 File: ../graphics/./1_google_scholar_zoekopdracht/5_email.PNG Graphic file (typ
 e bmp)
 <../graphics/./1_google_scholar_zoekopdracht/5_email.PNG>
+) (resultaten_bijlage.tex
+
+[55]
+B\ij lage B.
+
+Overfull \hbox (43.12688pt too wide) in paragraph at lines 51--51
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://lifewatch.be/imis?module\x3dref\x2
+6refid\x3d383296| 
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 76--76
+[]|\TU/Montserrat(1)/m/n/10.95 titel: Picturing plankton: Complementing net‐bas
+ed
+ []
+
+
+Overfull \hbox (78.21068pt too wide) in paragraph at lines 76--76
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://aslopubs.onlinelibrary.wiley.com/d
+oi/abs/10.1002/lom3.10674| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+resultaten_bijlage.tex:101: Undefined control sequence.
+<inserted text> ...Mariene+Station+Oostende\%22\x 
+                                                  26ots\x 3dq8wvk4vdTn\x 26s...
+l.101     \end{tabularx}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+resultaten_bijlage.tex:101: Undefined control sequence.
+<inserted text> ...Station+Oostende\%22\x 26ots\x 
+                                                  3dq8wvk4vdTn\x 26sig\x 3d9...
+l.101     \end{tabularx}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+resultaten_bijlage.tex:101: Undefined control sequence.
+<inserted text> ...e\%22\x 26ots\x 3dq8wvk4vdTn\x 
+                                                  26sig\x 3d9Sq3\_-XTz2pv3rP...
+l.101     \end{tabularx}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+resultaten_bijlage.tex:101: Undefined control sequence.
+<inserted text> ...26ots\x 3dq8wvk4vdTn\x 26sig\x 
+                                                  3d9Sq3\_-XTz2pv3rP9pQ1o0MR...
+l.101     \end{tabularx}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+resultaten_bijlage.tex:101: Undefined control sequence.
+<inserted text> ...Mariene+Station+Oostende\%22\x 
+                                                  26ots\x 3dq8wvk4vdTn\x 26s...
+l.101     \end{tabularx}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+resultaten_bijlage.tex:101: Undefined control sequence.
+<inserted text> ...Station+Oostende\%22\x 26ots\x 
+                                                  3dq8wvk4vdTn\x 26sig\x 3d9...
+l.101     \end{tabularx}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+resultaten_bijlage.tex:101: Undefined control sequence.
+<inserted text> ...e\%22\x 26ots\x 3dq8wvk4vdTn\x 
+                                                  26sig\x 3d9Sq3\_-XTz2pv3rP...
+l.101     \end{tabularx}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+resultaten_bijlage.tex:101: Undefined control sequence.
+<inserted text> ...26ots\x 3dq8wvk4vdTn\x 26sig\x 
+                                                  3d9Sq3\_-XTz2pv3rP9pQ1o0MR...
+l.101     \end{tabularx}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+resultaten_bijlage.tex:101: Undefined control sequence.
+<inserted text> ...Mariene+Station+Oostende\%22\x 
+                                                  26ots\x 3dq8wvk4vdTn\x 26s...
+l.101     \end{tabularx}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+resultaten_bijlage.tex:101: Undefined control sequence.
+<inserted text> ...Station+Oostende\%22\x 26ots\x 
+                                                  3dq8wvk4vdTn\x 26sig\x 3d9...
+l.101     \end{tabularx}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+resultaten_bijlage.tex:101: Undefined control sequence.
+<inserted text> ...e\%22\x 26ots\x 3dq8wvk4vdTn\x 
+                                                  26sig\x 3d9Sq3\_-XTz2pv3rP...
+l.101     \end{tabularx}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+resultaten_bijlage.tex:101: Undefined control sequence.
+<inserted text> ...26ots\x 3dq8wvk4vdTn\x 26sig\x 
+                                                  3d9Sq3\_-XTz2pv3rP9pQ1o0MR...
+l.101     \end{tabularx}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+resultaten_bijlage.tex:101: Undefined control sequence.
+<inserted text> ...Mariene+Station+Oostende\%22\x 
+                                                  26ots\x 3dq8wvk4vdTn\x 26s...
+l.101     \end{tabularx}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+resultaten_bijlage.tex:101: Undefined control sequence.
+<inserted text> ...Station+Oostende\%22\x 26ots\x 
+                                                  3dq8wvk4vdTn\x 26sig\x 3d9...
+l.101     \end{tabularx}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+resultaten_bijlage.tex:101: Undefined control sequence.
+<inserted text> ...e\%22\x 26ots\x 3dq8wvk4vdTn\x 
+                                                  26sig\x 3d9Sq3\_-XTz2pv3rP...
+l.101     \end{tabularx}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+resultaten_bijlage.tex:101: Undefined control sequence.
+<inserted text> ...26ots\x 3dq8wvk4vdTn\x 26sig\x 
+                                                  3d9Sq3\_-XTz2pv3rP9pQ1o0MR...
+l.101     \end{tabularx}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (51.81024pt too wide) in paragraph at lines 101--101
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://books.google.com/books?hl\x3dnl\x2
+6lr\x3d\x26id\x3d-
+ []
+
+
+Overfull \hbox (1863.38142pt too wide) in paragraph at lines 101--101
+\TU/Montserrat(1)/m/n/10.95 sRIEQAAQBAJ\x26oi\x3dfnd\x26pg\x3dPA82\x26dq\x3d%22
+Vlaams+Instituut+voor+de+Zee%22+OR+%22Vlaams+Instituut+van+de+Zee%22+OR+%22Flan
+ders+Marine+Institute%22+OR+%22VLIZ%22+OR+%22Simon+Stevin%22+OR+%22R/V+Simon+St
+evin%22+OR+%22RV+Simon+Stevin%22+OR+%22Marine+Station+Ostend%22+OR+%22Mariene+S
+tation+Oostende%2226ots3dq8wvk4vdTn26sig3d9Sq3_-
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 151--151
+[]|\TU/Montserrat(1)/m/n/10.95 titel: ”Roelof van Gelder, De koopman van Kanton
+.
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (2.03154pt too wide) in paragraph at lines 176--176
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/imisdocs/publications/
+411844.pdf| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (54.16447pt too wide) in paragraph at lines 218--218
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://journals.univ-biskra.dz/index.php/
+ijams/article/view/107| 
+ []
+
+
+LaTeX Warning: Float too large for page by 2.09247pt on input line 220.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (91.83247pt too wide) in paragraph at lines 260--260
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JNNE
+7X072ZQ1S10NV8DGB5ND| 
+ []
+
+
+Overfull \hbox (99.36607pt too wide) in paragraph at lines 260--260
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JNN9
+TFAVEW3ZXV0CMYB9V2CD| 
+ []
+
+
+Underfull \hbox (badness 3312) in paragraph at lines 260--260
+[]|\TU/Montserrat(1)/m/n/10.95 tekst: Allelopathy refers to the biochemical int
+erac-
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 260--260
+\TU/Montserrat(1)/m/n/10.95 microorganisms, mediated by secondary metabolites
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (95.80733pt too wide) in paragraph at lines 302--302
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JNNA
+09FV3AN3NMG7H1PKK342| 
+ []
+
+
+Overfull \hbox (97.18703pt too wide) in paragraph at lines 302--302
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JNNC
+4GK2NFM09T3825A0QQF0| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (102.41017pt too wide) in paragraph at lines 344--344
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JNND
+DPTZHF2DW47D4RAXA9FC| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--344
+[]|\TU/Montserrat(1)/m/n/10.95 titel: Bioactive phenolic compounds in red algae
+
+ []
+
+
+Underfull \hbox (badness 4699) in paragraph at lines 344--344
+\TU/Montserrat(1)/m/n/10.95 (Rhodophyta): Ecological variation and their poten-
+
+ []
+
+
+Overfull \hbox (88.52559pt too wide) in paragraph at lines 344--344
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JNN8
+CXYFEN92X4521XHPH0SZ| 
+ []
+
+
+LaTeX Warning: Float too large for page by 18.41243pt on input line 346.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (98.38057pt too wide) in paragraph at lines 369--369
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JNNA
+M517TVCCBVPC1DDR0HBR| 
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 369--369
+[]|\TU/Montserrat(1)/m/n/10.95 tekst: The growing global population and rising 
+life
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+resultaten_bijlage.tex:394: Missing $ inserted.
+<inserted text> 
+                $
+l.394     \end{tabularx}
+                        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+resultaten_bijlage.tex:394: Missing $ inserted.
+<inserted text> 
+                $
+l.394     \end{tabularx}
+                        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+resultaten_bijlage.tex:394: Missing $ inserted.
+<inserted text> 
+                $
+l.394     \end{tabularx}
+                        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+resultaten_bijlage.tex:394: Missing $ inserted.
+<inserted text> 
+                $
+l.394     \end{tabularx}
+                        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+resultaten_bijlage.tex:394: Missing $ inserted.
+<inserted text> 
+                $
+l.394     \end{tabularx}
+                        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+resultaten_bijlage.tex:394: Missing $ inserted.
+<inserted text> 
+                $
+l.394     \end{tabularx}
+                        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+resultaten_bijlage.tex:394: Missing $ inserted.
+<inserted text> 
+                $
+l.394     \end{tabularx}
+                        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 394.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 394.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 394.
+
+resultaten_bijlage.tex:394: Missing $ inserted.
+<inserted text> 
+                $
+l.394     \end{tabularx}
+                        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (267.58789pt too wide) in paragraph at lines 394--394
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://rodin.uca.es/bitstream/handle/1049
+8/35789/OA$[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (101.72032pt too wide) in paragraph at lines 436--436
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JP9T
+WYXP1MN7W1803HND70W6| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (0.75038pt too wide) in paragraph at lines 461--461
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/imisdocs/publications/
+411845.pdf| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (1.714pt too wide) in paragraph at lines 486--486
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/imisdocs/publications/
+411800.pdf| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+resultaten_bijlage.tex:528: You can't use `macro parameter character #' in hori
+zontal mode.
+<inserted text> .../managed/vmsd2025\_boa\_0.pdf##
+                                                  page\textbackslash x3d62\\...
+l.528     \end{tabularx}
+                        
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+resultaten_bijlage.tex:528: You can't use `macro parameter character #' in hori
+zontal mode.
+<inserted text> .../managed/vmsd2025\_boa\_0.pdf##
+                                                  page\textbackslash x3d62\\...
+l.528     \end{tabularx}
+                        
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+resultaten_bijlage.tex:528: You can't use `macro parameter character #' in hori
+zontal mode.
+<inserted text> .../managed/vmsd2025\_boa\_0.pdf##
+                                                  page\textbackslash x3d62\\...
+l.528     \end{tabularx}
+                        
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+resultaten_bijlage.tex:528: You can't use `macro parameter character #' in hori
+zontal mode.
+<inserted text> .../managed/vmsd2025\_boa\_0.pdf##
+                                                  page\textbackslash x3d62\\...
+l.528     \end{tabularx}
+                        
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 528--528
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://researchportal.vub.be/en/publicati
+ons/trace-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 528--528
+\TU/Montserrat(1)/m/n/10.95 metal-contamination-in-the-giant-mud-crab-scylla-
+ []
+
+resultaten_bijlage.tex:528: You can't use `macro parameter character #' in hori
+zontal mode.
+<inserted text> .../managed/vmsd2025\_boa\_0.pdf##
+                                                  page\textbackslash x3d62\\...
+l.528     \end{tabularx}
+                        
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Overfull \hbox (212.6876pt too wide) in paragraph at lines 528--528
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/vmsd/sites/vliz.be.vms
+d/files/managed/vmsd2025_boa_0.pdfpage\x3d62| 
+ []
+
+
+LaTeX Warning: Float too large for page by 51.05235pt on input line 530.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (0.88179pt too wide) in paragraph at lines 553--553
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/imisdocs/publications/
+411842.pdf| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (19.66104pt too wide) in paragraph at lines 578--578
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://meetingorganizer.copernicus.org/EG
+U25/EGU25-
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (1.70305pt too wide) in paragraph at lines 603--603
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/imisdocs/publications/
+411840.pdf| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (158.5508pt too wide) in paragraph at lines 628--628
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://archium.ateneo.edu/cgi/viewcontent
+.cgi?article\x3d2159\x26context\x3dkk| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (19.66104pt too wide) in paragraph at lines 703--703
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://meetingorganizer.copernicus.org/EG
+U25/EGU25-
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (161.37593pt too wide) in paragraph at lines 728--728
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/projects/trophos/imis.
+php?module\x3dref\x26refid\x3d406498| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (1.8235pt too wide) in paragraph at lines 753--753
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/imisdocs/publications/
+412276.pdf| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (184.02052pt too wide) in paragraph at lines 778--778
+[]|\TU/Montserrat(1)/m/n/10.95 link: https://projecteuclid.org/journalArticle/D
+ownload?urlId\x3d10.36045%2Fj.bbms.32con1| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 )
 
+[56
+
+]
+
+[57]
+
+[58]
+
+[59]
+
+[60]
+
+[61]
+
+[62]
+
+[63]
+
+[64]
+
+[65]
+
+[66]
+
+[67]
+
+[68]
+
+[69]
+
+[70]
+
+[71]
+
+[72]
+
+[73]
+
 [74]
-B\ij lage B.
+
+[75]
+
+[76]
+
+[77]
+
+[78]
+
+[79]
+
+[80]
+
+[81]
+B\ij lage C.
 (../voorstel/voorstel-inhoud.tex
 Overfull \hbox (2.63669pt too wide) in paragraph at lines 20--21
 []\TU/Montserrat(1)/m/n/10.95 Naast wetenschappelijke literatuur zitten er ook 
@@ -3830,14 +3976,14 @@ collecties van mariene wetenschap-
 
 
 
-[75
+[82
 
 ]
 File: images/stapsgewijs.png Graphic file (type bmp)
 <images/stapsgewijs.png>
 
 
-[76]
+[83]
 Overfull \hbox (21.94153pt too wide) in paragraph at lines 59--60
 []\TU/Montserrat(1)/m/n/10.95 Google Scholar is een zoekmachine die wetenschapp
 elijke literatuur indexeert ([]“  Google
@@ -3845,7 +3991,7 @@ elijke literatuur indexeert ([]“  Google
 
 
 
-[77]
+[84]
 Overfull \hbox (9.43324pt too wide) in paragraph at lines 67--68
 \TU/Montserrat(1)/m/n/10.95 vend, betrouwbaar en onderscheidbaar geïdentificeer
 d kunnen worden. []Chandrakar
@@ -3853,23 +3999,23 @@ d kunnen worden. []Chandrakar
 
 
 
-[78]
+[85]
 
-[79])
+[86])
 
-[80]
+[87]
 
-[81
+[88
 
 
 ]
-Overfull \hbox (17.71294pt too wide) in paragraph at lines 188--188
+Overfull \hbox (17.71294pt too wide) in paragraph at lines 189--189
 [][]\TU/Montserrat(1)/m/n/10.95 Havrlant, L., & Kreinovich, V. (2017). A simple
  probabilistic explanation of term frequency-
  []
 
 
-Overfull \hbox (3.97876pt too wide) in paragraph at lines 188--188
+Overfull \hbox (3.97876pt too wide) in paragraph at lines 189--189
 \TU/Montserrat(1)/m/n/10.95 this explanation). \TU/Montserrat(2)/m/it/10.95 Int
 ernational Journal of General Systems\TU/Montserrat(1)/m/n/10.95 , \TU/Montserr
 at(2)/m/it/10.95 46\TU/Montserrat(1)/m/n/10.95 (1), 27–36. [][]$[][][][][] []
@@ -3877,11 +4023,11 @@ at(2)/m/it/10.95 46\TU/Montserrat(1)/m/n/10.95 (1), 27–36. [][]$[][][][][] []
 
 
 
-[82]
-DePaepeBartBP.tex:188: Misplaced alignment tab character &.
+[89]
+DePaepeBartBP.tex:189: Misplaced alignment tab character &.
 <argument> SQL &
                 amp; NoSQL Databases
-l.188 \printbibliography[heading=bibintoc]
+l.189 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3892,11 +4038,11 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[83]
-DePaepeBartBP.tex:188: Misplaced alignment tab character &.
+[90]
+DePaepeBartBP.tex:189: Misplaced alignment tab character &.
 <argument> ...a extraction, analysis, conversion &
                                                    manipulation of PDF (and ...
-l.188 \printbibliography[heading=bibintoc]
+l.189 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3907,15 +4053,15 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[84]
-Overfull \hbox (25.84052pt too wide) in paragraph at lines 188--188
+[91]
+Overfull \hbox (25.84052pt too wide) in paragraph at lines 189--189
 [][]\TU/Montserrat(2)/m/it/10.95 ScrapeGraphAI: You Only Scrape Once\TU/Montser
 rat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][][][][] [] [][]
 [] [] [][][][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (39.97581pt too wide) in paragraph at lines 188--188
+Overfull \hbox (39.97581pt too wide) in paragraph at lines 189--189
 [][]\TU/Montserrat(2)/m/it/10.95 Tips for using the Crossref REST API\TU/Montse
 rrat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][
 ][][][] [] [][][] [] [][][][][][][][][][][][][] []
@@ -3923,26 +4069,26 @@ rrat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][
 
 
 
-[85]
+[92]
 
-[86] (DePaepeBartBP.aux)
+[93] (DePaepeBartBP.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
-(rerunfilecheck)             Checksum: 7DFC822A9E69FB6F4A301828E96144F9;8385.
+(rerunfilecheck)             Checksum: F3DB0E52C0593D84686A256B746DB1BF;8985.
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52218 strings out of 408640
- 1071980 string characters out of 5749145
- 2419327 words of memory out of 5000000
- 74428 multiletter control sequences out of 15000+600000
+ 52281 strings out of 408640
+ 1074736 string characters out of 5749145
+ 2417972 words of memory out of 5000000
+ 74483 multiletter control sequences out of 15000+600000
  563350 words of font info for 117 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,13n,131p,1256b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DePaepeBartBP.pdf (96 pages).
+Output written on DePaepeBartBP.pdf (103 pages).
