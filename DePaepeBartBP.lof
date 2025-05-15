@@ -12,23 +12,25 @@
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Bag of Words.}}{28}{figure.caption.14}%
 \contentsline {figure}{\numberline {6.2}{\ignorespaces term frequency-inverse document frequency.}}{28}{figure.caption.15}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Illustratie van online publicatie waar de DOI deel uitmaakt van de URL.}}{32}{figure.caption.17}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Illustratie van online publicatie waar de DOI geen deel uitmaakt van de URL, maar wel op de webpagina staat.}}{34}{figure.caption.18}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Semantic search.}}{37}{figure.caption.18}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Chroma resultaat.}}{40}{figure.caption.19}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Mongodb resultaat.}}{41}{figure.caption.20}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Semantic search.}}{39}{figure.caption.20}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Chroma resultaat.}}{42}{figure.caption.21}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Mongodb resultaat.}}{43}{figure.caption.22}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Tijdslijn Google Scholar alerts.}}{44}{figure.caption.21}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Google Scholar alert zonder auteur tijdschrift of jaartal.}}{45}{figure.caption.22}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Google Scholar alert relevantiescore.}}{46}{figure.caption.23}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Semantic search score vs. number of titles.}}{47}{figure.caption.25}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Google Scholar basis zoeken.}}{52}{figure.caption.27}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Google Scholar zoekresultaten.}}{52}{figure.caption.28}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Google Scholar geävanceerd zoeken.}}{54}{figure.caption.29}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Google Scholar melding maken.}}{55}{figure.caption.30}%
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Google Scholar e-mail alert.}}{55}{figure.caption.31}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Tijdslijn Google Scholar alerts.}}{46}{figure.caption.23}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Google Scholar alert zonder auteur tijdschrift of jaartal.}}{47}{figure.caption.24}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Google Scholar alert relevantiescore.}}{48}{figure.caption.25}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Semantic search score vs. number of titles.}}{49}{figure.caption.27}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Chronologische oplijsting van de uit te voeren stappen}}{83}{figure.caption.58}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Google Scholar basis zoeken.}}{54}{figure.caption.29}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Google Scholar zoekresultaten.}}{54}{figure.caption.30}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Google Scholar geävanceerd zoeken.}}{56}{figure.caption.31}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Google Scholar melding maken.}}{57}{figure.caption.32}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Google Scholar e-mail alert.}}{57}{figure.caption.33}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Chronologische oplijsting van de uit te voeren stappen}}{85}{figure.caption.60}%
 \contentsfinish 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  15 MAY 2025 22:54
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  15 MAY 2025 23:08
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2498,7 +2498,7 @@ t line 71.
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250515225416 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250515230826 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -2838,39 +2838,49 @@ l.106     \end{minted}
 
 [30]
 Hoofdstuk 7.
-linked_data.tex:59: Misplaced \noalign.
+File: ../graphics/./3_crossref/DOI_Link.jpg Graphic file (type bmp)
+<../graphics/./3_crossref/DOI_Link.jpg>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ../graphics/./3_crossref/DOI_webpagina.jpg Graphic file (type bmp)
+<../graphics/./3_crossref/DOI_webpagina.jpg>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+linked_data.tex:70: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.59     \end{tabularx}
+l.70     \end{tabularx}
                        
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-linked_data.tex:59: Misplaced \noalign.
+linked_data.tex:70: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.59     \end{tabularx}
+l.70     \end{tabularx}
                        
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-linked_data.tex:59: Misplaced \noalign.
+linked_data.tex:70: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
-l.59     \end{tabularx}
+l.70     \end{tabularx}
                        
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-linked_data.tex:88: Package minted Error: Cannot highlight code (minted executa
+linked_data.tex:99: Package minted Error: Cannot highlight code (minted executa
 ble is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88     \end{minted}
+l.99     \end{minted}
                      
 (That was another \errmessage.)
 
@@ -2879,10 +2889,10 @@ l.88     \end{minted}
 [31
 
 ]
-linked_data.tex:95: Misplaced alignment tab character &.
+linked_data.tex:106: Misplaced alignment tab character &.
 <argument> \csname system@active"\endcsname &
                                              
-l.95 ... Metaphysics, Josiah Carberry 2008-08-13"&
+l.106 ...Metaphysics, Josiah Carberry 2008-08-13"&
                                                   rows=2
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2892,26 +2902,31 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-linked_data.tex:113: Package minted Error: Cannot highlight code (minted execut
+
+[32]
+
+[33]
+
+[34]
+
+linked_data.tex:124: Package minted Error: Cannot highlight code (minted execut
 able is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.113     \end{minted}
+l.124     \end{minted}
                       
 (That was another \errmessage.)
 
 
 
-[32]
-
-[33]
-linked_data.tex:131: Misplaced alignment tab character &.
+[35]
+linked_data.tex:142: Misplaced alignment tab character &.
 <argument> ...a extraction, analysis, conversion &
                                                    manipulation of PDF (and ...
-l.131 ...bruik van PyMuPDF \autocite{Pymupdf2025}.
+l.142 ...bruik van PyMuPDF \autocite{Pymupdf2025}.
                                                    Daarna wordt er ook gezoc...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2921,48 +2936,48 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-linked_data.tex:150: Package minted Error: Cannot highlight code (minted execut
+linked_data.tex:161: Package minted Error: Cannot highlight code (minted execut
 able is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.150         \end{minted}
+l.161         \end{minted}
                           
 (That was another \errmessage.)
 
 
-linked_data.tex:181: Package minted Error: Cannot highlight code (minted execut
+linked_data.tex:192: Package minted Error: Cannot highlight code (minted execut
 able is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.181         \end{minted}
+l.192         \end{minted}
                           
 (That was another \errmessage.)
 
 
-Overfull \hbox (54.47388pt too wide) in paragraph at lines 181--181
+Overfull \hbox (54.47388pt too wide) in paragraph at lines 192--192
 \TU/FiraCode(0)/m/n/10.95 os.path.join(str(Path(__file__).parent.parent.parent.
 parent), 
  []
 
-) (semantic_search.tex
 
-[34]
-
-[35]
 
 [36]
+
+[37]) (semantic_search.tex
+
+[38]
 Hoofdstuk 8.
 File: ../graphics/./5_semantic_search/embeddings.jpg Graphic file (type bmp)
 <../graphics/./5_semantic_search/embeddings.jpg>
 
 
-[37
+[39
 
 ]
 
@@ -3009,9 +3024,9 @@ e bmp)
 <../graphics/./5_semantic_search/chroma-cosine-score.jpg>
 
 
-[38]
+[40]
 
-[39]
+[41]
 
 semantic_search.tex:131: Package minted Error: Cannot highlight code (minted ex
 ecutable is unavailable or disabled); attempting to typeset without highlightin
@@ -3087,13 +3102,13 @@ ng bereikt: Een proof-of-concept
 
 
 
-[40]
-
-[41]
-
 [42]
 
 [43]
+
+[44]
+
+[45]
 Hoofdstuk 9.
 File: ../graphics/./9_resultaten/GS_alerts_timeline.png Graphic file (type bmp)
 
@@ -3103,7 +3118,7 @@ File: ../graphics/./9_resultaten/GS_alerts_auteurtijdschriftjaartal.jpg Graphic
 <../graphics/./9_resultaten/GS_alerts_auteurtijdschriftjaartal.jpg>
 
 
-[44
+[46
 
 ]
 File: ../graphics/./9_resultaten/GS_alerts_relevantiescore.png Graphic file (ty
@@ -3115,7 +3130,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[45]
+[47]
 resultaten.tex:75: Misplaced alignment tab character &.
 l.75 \[https://www.vliz.be/nl/imis?module=ref&
                                               show=json&spcol=39,141,396,536...
@@ -3234,19 +3249,19 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[46]
-
-[47]
-
 [48]
+
+[49]
+
+[50]
 Hoofdstuk 10.
 
 
-[49
+[51
 
 ]) (googlescholarzoekopdracht.tex
 
-[50]
+[52]
 B\ij lage A.
 
 Overfull \hbox (17.69458pt too wide) in paragraph at lines 28--28
@@ -3275,11 +3290,11 @@ file (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/2_zoekresultaten.PNG>
 
 
-[51
+[53
 
 ]
 
-[52]
+[54]
 File: ../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG Grap
 hic file (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG>
@@ -3299,9 +3314,9 @@ or  <return>  to continue without it.
 
 
 
-[53]
+[55]
 
-[54]
+[56]
 File: ../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG Graphic f
 ile (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG>
@@ -3310,7 +3325,7 @@ e bmp)
 <../graphics/./1_google_scholar_zoekopdracht/5_email.PNG>
 ) (resultaten_bijlage.tex
 
-[55]
+[57]
 B\ij lage B.
 
 Overfull \hbox (43.12688pt too wide) in paragraph at lines 51--51
@@ -3914,13 +3929,9 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
 
-[56
+[58
 
 ]
-
-[57]
-
-[58]
 
 [59]
 
@@ -3967,6 +3978,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [80]
 
 [81]
+
+[82]
+
+[83]
 B\ij lage C.
 (../voorstel/voorstel-inhoud.tex
 Overfull \hbox (2.63669pt too wide) in paragraph at lines 20--21
@@ -3976,14 +3991,14 @@ collecties van mariene wetenschap-
 
 
 
-[82
+[84
 
 ]
 File: images/stapsgewijs.png Graphic file (type bmp)
 <images/stapsgewijs.png>
 
 
-[83]
+[85]
 Overfull \hbox (21.94153pt too wide) in paragraph at lines 59--60
 []\TU/Montserrat(1)/m/n/10.95 Google Scholar is een zoekmachine die wetenschapp
 elijke literatuur indexeert ([]“  Google
@@ -3991,7 +4006,7 @@ elijke literatuur indexeert ([]“  Google
 
 
 
-[84]
+[86]
 Overfull \hbox (9.43324pt too wide) in paragraph at lines 67--68
 \TU/Montserrat(1)/m/n/10.95 vend, betrouwbaar en onderscheidbaar geïdentificeer
 d kunnen worden. []Chandrakar
@@ -3999,13 +4014,13 @@ d kunnen worden. []Chandrakar
 
 
 
-[85]
-
-[86])
-
 [87]
 
-[88
+[88])
+
+[89]
+
+[90
 
 
 ]
@@ -4023,7 +4038,7 @@ at(2)/m/it/10.95 46\TU/Montserrat(1)/m/n/10.95 (1), 27–36. [][]$[][][][][] []
 
 
 
-[89]
+[91]
 DePaepeBartBP.tex:189: Misplaced alignment tab character &.
 <argument> SQL &
                 amp; NoSQL Databases
@@ -4038,7 +4053,7 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[90]
+[92]
 DePaepeBartBP.tex:189: Misplaced alignment tab character &.
 <argument> ...a extraction, analysis, conversion &
                                                    manipulation of PDF (and ...
@@ -4053,7 +4068,7 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[91]
+[93]
 Overfull \hbox (25.84052pt too wide) in paragraph at lines 189--189
 [][]\TU/Montserrat(2)/m/it/10.95 ScrapeGraphAI: You Only Scrape Once\TU/Montser
 rat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][][][][] [] [][]
@@ -4069,26 +4084,26 @@ rrat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][
 
 
 
-[92]
+[94]
 
-[93] (DePaepeBartBP.aux)
+[95] (DePaepeBartBP.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
-(rerunfilecheck)             Checksum: F3DB0E52C0593D84686A256B746DB1BF;8985.
+(rerunfilecheck)             Checksum: 44E148B11F4540EABFA8AF53E98DED7E;8985.
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52281 strings out of 408640
- 1074736 string characters out of 5749145
- 2417972 words of memory out of 5000000
- 74483 multiletter control sequences out of 15000+600000
+ 52306 strings out of 408640
+ 1075682 string characters out of 5749145
+ 2418217 words of memory out of 5000000
+ 74505 multiletter control sequences out of 15000+600000
  563350 words of font info for 117 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,13n,131p,1256b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DePaepeBartBP.pdf (103 pages).
+Output written on DePaepeBartBP.pdf (105 pages).

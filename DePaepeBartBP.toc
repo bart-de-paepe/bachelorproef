@@ -33,29 +33,29 @@
 \contentsline {section}{\numberline {7.1}Inleiding}{31}{section.7.1}%
 \contentsline {section}{\numberline {7.2}De DOI opzoeken in de URL}{31}{section.7.2}%
 \contentsline {section}{\numberline {7.3}De DOI opzoeken in Crossref}{32}{section.7.3}%
-\contentsline {section}{\numberline {7.4}De DOI opzoeken op de webpagina van de publicatie}{34}{section.7.4}%
-\contentsline {chapter}{\numberline {8}Semantic search}{37}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Inleiding}{37}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Chroma}{38}{section.8.2}%
-\contentsline {section}{\numberline {8.3}MongoDB Atlas}{40}{section.8.3}%
-\contentsline {chapter}{\numberline {9}Resultaten}{44}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Inleiding}{44}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Web scraping}{45}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Relevantiescore}{45}{section.9.3}%
-\contentsline {section}{\numberline {9.4}DOI}{45}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Semantic search}{46}{section.9.5}%
-\contentsline {chapter}{\numberline {10}Conclusie}{49}{chapter.10}%
-\contentsline {chapter}{\numberline {A}Google Scholar zoekopdracht}{51}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Zoeken in Google Scholar \blx@tocontentsinit {0}\autocite {JohnSBailey2025}}{51}{section.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}Basis zoeken}{51}{subsection.A.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}Geävanceerd zoeken}{53}{subsection.A.1.2}%
-\contentsline {section}{\numberline {A.2}E-mail alerts}{54}{section.A.2}%
-\contentsline {chapter}{\numberline {B}Overzicht Resultaten}{56}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Overzicht van de VLIZ zoekresultaten}{56}{section.B.1}%
-\contentsline {chapter}{\numberline {C}Onderzoeksvoorstel}{82}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Inleiding}{82}{section.C.1}%
-\contentsline {section}{\numberline {C.2}Literatuurstudie}{84}{section.C.2}%
-\contentsline {section}{\numberline {C.3}Methodologie}{85}{section.C.3}%
-\contentsline {section}{\numberline {C.4}Verwacht resultaat, conclusie}{87}{section.C.4}%
-\contentsline {chapter}{Bibliografie}{88}{appendix*.59}%
+\contentsline {section}{\numberline {7.4}De DOI opzoeken op de webpagina van de publicatie}{35}{section.7.4}%
+\contentsline {chapter}{\numberline {8}Semantic search}{39}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Inleiding}{39}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Chroma}{40}{section.8.2}%
+\contentsline {section}{\numberline {8.3}MongoDB Atlas}{42}{section.8.3}%
+\contentsline {chapter}{\numberline {9}Resultaten}{46}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Inleiding}{46}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Web scraping}{47}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Relevantiescore}{47}{section.9.3}%
+\contentsline {section}{\numberline {9.4}DOI}{47}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Semantic search}{48}{section.9.5}%
+\contentsline {chapter}{\numberline {10}Conclusie}{51}{chapter.10}%
+\contentsline {chapter}{\numberline {A}Google Scholar zoekopdracht}{53}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Zoeken in Google Scholar \blx@tocontentsinit {0}\autocite {JohnSBailey2025}}{53}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}Basis zoeken}{53}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Geävanceerd zoeken}{55}{subsection.A.1.2}%
+\contentsline {section}{\numberline {A.2}E-mail alerts}{56}{section.A.2}%
+\contentsline {chapter}{\numberline {B}Overzicht Resultaten}{58}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Overzicht van de VLIZ zoekresultaten}{58}{section.B.1}%
+\contentsline {chapter}{\numberline {C}Onderzoeksvoorstel}{84}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Inleiding}{84}{section.C.1}%
+\contentsline {section}{\numberline {C.2}Literatuurstudie}{86}{section.C.2}%
+\contentsline {section}{\numberline {C.3}Methodologie}{87}{section.C.3}%
+\contentsline {section}{\numberline {C.4}Verwacht resultaat, conclusie}{89}{section.C.4}%
+\contentsline {chapter}{Bibliografie}{90}{appendix*.61}%
 \contentsfinish 

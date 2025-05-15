@@ -30,10 +30,21 @@ De web scraping leverde gegevens zoals titel, auteurs, naam van tijdschrift en j
 Nochtans moet een publicatie uniek geïdentificeerd kunnen worden om uit te sluiten dat er reeds duplicaten in IMIS zitten.
 De DOI vormt de unieke indentifier van elke publicatie. Er zal getracht worden om deze voor elke publicatie op te zoeken. Hiervoor worden 3 afzonderlijke bronnen geraadpleegd in chronologische volgorde en zolang de DOI niet gevonden werd:
 \begin{enumerate}
-    \item In de URL van de link naar de originele publicatie
+    \item In de URL van de link naar de originele publicatie (zie figuur \ref{fig:DOIurl})
     \item Aan de hand van een opzoeking in Crossref op basis van de titel
-    \item Op de originele webpagina van de publicatie
+    \item Op de originele webpagina van de publicatie (zie figuur \ref{fig:DOIwebpagina})
 \end{enumerate}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./3_crossref/DOI_Link.jpg}
+    \caption[Illustratie van online publicatie waar de DOI deel uitmaakt van de URL.]{\label{fig:DOIurl}Illustratie van online publicatie waar de DOI deel uitmaakt van de URL.}
+\end{figure}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./3_crossref/DOI_webpagina.jpg}
+    \caption[Illustratie van online publicatie waar de DOI geen deel uitmaakt van de URL, maar wel op de webpagina staat.]{\label{fig:DOIwebpagina}Illustratie van online publicatie waar de DOI geen deel uitmaakt van de URL, maar wel op de webpagina staat.}
+\end{figure}
 
 \section{De DOI opzoeken in de URL}
 \label{Doiurl}
