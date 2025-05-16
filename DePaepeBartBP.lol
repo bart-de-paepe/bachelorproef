@@ -18,7 +18,7 @@
 \contentsline {listing}{\numberline {7.3}{\ignorespaces Crossref query op basis van de bibliografie}}{35}{listing.7.3}%
 \contentsline {listing}{\numberline {7.4}{\ignorespaces Crossref commons}}{35}{listing.7.4}%
 \contentsline {listing}{\numberline {7.5}{\ignorespaces Pymupdf}}{36}{listing.7.5}%
-\contentsline {listing}{\numberline {7.6}{\ignorespaces Selenium}}{37}{listing.7.6}%
+\contentsline {listing}{\numberline {7.6}{\ignorespaces Selenium}}{38}{listing.7.6}%
 \contentsline {listing}{\numberline {8.1}{\ignorespaces Connect Chroma}}{40}{listing.8.1}%
 \contentsline {listing}{\numberline {8.2}{\ignorespaces Chroma embeddings}}{41}{listing.8.2}%
 \contentsline {listing}{\numberline {8.3}{\ignorespaces Query Chroma}}{41}{listing.8.3}%

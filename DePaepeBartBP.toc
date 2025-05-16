@@ -32,7 +32,7 @@
 \contentsline {chapter}{\numberline {7}Linked data}{31}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Inleiding}{31}{section.7.1}%
 \contentsline {section}{\numberline {7.2}De DOI opzoeken in de URL}{31}{section.7.2}%
-\contentsline {section}{\numberline {7.3}De DOI opzoeken in Crossref}{32}{section.7.3}%
+\contentsline {section}{\numberline {7.3}De DOI opzoeken in Crossref}{35}{section.7.3}%
 \contentsline {section}{\numberline {7.4}De DOI opzoeken op de webpagina van de publicatie}{35}{section.7.4}%
 \contentsline {chapter}{\numberline {8}Semantic search}{39}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Inleiding}{39}{section.8.1}%

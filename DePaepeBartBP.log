@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  15 MAY 2025 23:08
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  16 MAY 2025 21:39
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1927,26 +1927,26 @@ Package csquotes Info: Redefining alias 'default' -> 'dutch'.
  (DePaepeBartBP.aux)
 \openout1 = `DePaepeBartBP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
 Package biblatex Info: Trying to load language 'dutch' -> 'dutch-apa'...
 Package biblatex Info: ... file 'dutch-apa.lbx' found.
 
@@ -1973,8 +1973,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'DePaepeBartBP.bbl' found.
  (DePaepeBartBP.bbl)
-Package biblatex Info: Reference section=0 on input line 85.
-Package biblatex Info: Reference segment=0 on input line 85.
+Package biblatex Info: Reference section=0 on input line 86.
+Package biblatex Info: Reference segment=0 on input line 86.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -2015,7 +2015,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 85.
+Package hyperref Info: Link coloring ON on input line 86.
 (DePaepeBartBP.out) (DePaepeBartBP.out)
 \@outlinefile=\write6
 \openout6 = `DePaepeBartBP.out'.
@@ -2038,13 +2038,13 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 Package microtype Info: Patching varwidth to enable character protrusion.
 \MT@vwid@leftmargin=\dimen354
 \MT@vwid@rightmargin=\dimen355
-LaTeX Info: Redefining \microtypecontext on input line 85.
-Package microtype Info: Applying patch `item' on input line 85.
-Package microtype Info: Applying patch `toc' on input line 85.
-Package microtype Info: Applying patch `eqnum' on input line 85.
-Package microtype Info: Applying patch `footnote' on input line 85.
-Package microtype Info: Applying patch `verbatim' on input line 85.
-LaTeX Info: Redefining \microtypesetup on input line 85.
+LaTeX Info: Redefining \microtypecontext on input line 86.
+Package microtype Info: Applying patch `item' on input line 86.
+Package microtype Info: Applying patch `toc' on input line 86.
+Package microtype Info: Applying patch `eqnum' on input line 86.
+Package microtype Info: Applying patch `footnote' on input line 86.
+Package microtype Info: Applying patch `verbatim' on input line 86.
+LaTeX Info: Redefining \microtypesetup on input line 86.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -2055,7 +2055,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 \c@lstlisting=\count549
-Package hyperref Info: Option `pageanchor' set `false' on input line 91.
+Package hyperref Info: Option `pageanchor' set `false' on input line 92.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -2089,39 +2089,39 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 91.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (16.05293pt too wide) in paragraph at lines 102--102
+Overfull \hbox (16.05293pt too wide) in paragraph at lines 103--103
 []\TU/Montserrat(0)/b/n/24.88 Google Scholar zoekresultaten voor we-
  []
 
 
-Overfull \hbox (6.32484pt too wide) in paragraph at lines 102--102
+Overfull \hbox (6.32484pt too wide) in paragraph at lines 103--103
 \TU/Montserrat(0)/b/n/24.88 tenschappelijke projecten: linked data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
 
  []
 
-Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 103 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 103 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 103 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 103 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 103 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 103 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 103 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 103 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 103 replaced by U+FFFD.
 File: ../graphics/hogent_logo.eps Graphic file (type eps)
 <../graphics/hogent_logo.eps>
 
@@ -2134,7 +2134,7 @@ File: ../graphics/hogent_logo.eps Graphic file (type eps)
 ]
 
 [2]
-Package hyperref Info: Option `pageanchor' set `true' on input line 103.
+Package hyperref Info: Option `pageanchor' set `true' on input line 104.
  (voorwoord.tex) (samenvatting.tex
 Underfull \hbox (badness 10000) in paragraph at lines 14--4
 
@@ -2177,7 +2177,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--4
 
 
 ])
-Overfull \hbox (40.33022pt too wide) in paragraph at lines 48--107
+Overfull \hbox (40.33022pt too wide) in paragraph at lines 48--108
 \TU/Montserrat(1)/m/n/10.95 Uiteindelijk worden al deze stappen geïntegreerd in
  een pijplijn voor het semi-automatisch
  []
@@ -2498,7 +2498,7 @@ t line 71.
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250515230826 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250516213937 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -2776,35 +2776,20 @@ File: ../graphics/./4_NLP/bow.jpg Graphic file (type bmp)
 File: ../graphics/./4_NLP/tf-idf.jpg Graphic file (type bmp)
 <../graphics/./4_NLP/tf-idf.jpg>
 
+(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
+(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
+Overfull \hbox (1.3561pt too wide) in paragraph at lines 70--70
+[][][][]\TU/Montserrat(2)/m/n/9 https://scikit-learn.org/stable/modules/generat
+ed/sklearn.feature_extraction.text.TfidfVectorizer.html| 
+ []
+
+
 
 [27
 
 ]
-(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
-fontspec)
-(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
-fontspec)
-natural_language_processing.tex:70: Missing $ inserted.
-<inserted text> 
-                $
-l.70 ...ture_extraction.text.TfidfVectorizer.html}
-                                                   van Scikit-Learn is een p...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 9.00096pt on input line 70.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 70.
-natural_language_processing.tex:70: Missing $ inserted.
-<inserted text> 
-                $
-l.70 ...ture_extraction.text.TfidfVectorizer.html}
-                                                   van Scikit-Learn is een p...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
 
 [28]
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
@@ -2889,10 +2874,16 @@ l.99     \end{minted}
 [31
 
 ]
-linked_data.tex:106: Misplaced alignment tab character &.
+
+[32]
+
+[33]
+
+[34]
+linked_data.tex:107: Misplaced alignment tab character &.
 <argument> \csname system@active"\endcsname &
                                              
-l.106 ...Metaphysics, Josiah Carberry 2008-08-13"&
+l.107 ...Metaphysics, Josiah Carberry 2008-08-13"&
                                                   rows=2
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2902,31 +2893,26 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-
-[32]
-
-[33]
-
-[34]
-
-linked_data.tex:124: Package minted Error: Cannot highlight code (minted execut
+linked_data.tex:125: Package minted Error: Cannot highlight code (minted execut
 able is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.124     \end{minted}
+l.125     \end{minted}
                       
 (That was another \errmessage.)
 
 
 
-[35]
-linked_data.tex:142: Misplaced alignment tab character &.
+[35
+
+]
+linked_data.tex:143: Misplaced alignment tab character &.
 <argument> ...a extraction, analysis, conversion &
                                                    manipulation of PDF (and ...
-l.142 ...bruik van PyMuPDF \autocite{Pymupdf2025}.
+l.143 ...bruik van PyMuPDF \autocite{Pymupdf2025}.
                                                    Daarna wordt er ook gezoc...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2936,40 +2922,40 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-linked_data.tex:161: Package minted Error: Cannot highlight code (minted execut
+linked_data.tex:162: Package minted Error: Cannot highlight code (minted execut
 able is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.161         \end{minted}
+l.162         \end{minted}
                           
 (That was another \errmessage.)
 
 
-linked_data.tex:192: Package minted Error: Cannot highlight code (minted execut
+linked_data.tex:193: Package minted Error: Cannot highlight code (minted execut
 able is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.192         \end{minted}
+l.193         \end{minted}
                           
 (That was another \errmessage.)
 
 
-Overfull \hbox (54.47388pt too wide) in paragraph at lines 192--192
+Overfull \hbox (54.47388pt too wide) in paragraph at lines 193--193
 \TU/FiraCode(0)/m/n/10.95 os.path.join(str(Path(__file__).parent.parent.parent.
 parent), 
  []
 
 
 
-[36]
+[36]) (semantic_search.tex
 
-[37]) (semantic_search.tex
+[37]
 
 [38]
 Hoofdstuk 8.
@@ -3133,7 +3119,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [47]
 resultaten.tex:75: Misplaced alignment tab character &.
 l.75 \[https://www.vliz.be/nl/imis?module=ref&
-                                              show=json&spcol=39,141,396,536...
+                                              show=json\]
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3141,9 +3127,9 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-resultaten.tex:75: Misplaced alignment tab character &.
-l.75 .../www.vliz.be/nl/imis?module=ref&show=json&
-                                                  spcol=39,141,396,536,733,7...
+resultaten.tex:76: Misplaced alignment tab character &.
+l.76 \[&
+        spcol=39,141,396,536,733,746,747,748,749,750,751,\]
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3151,22 +3137,9 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-
-Overfull \hbox (1277.0559pt too wide) detected at line 75
-[][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][
-][][][][] [] [][][][][][][][][] [] [][][] [][][][] [][][][] [][][][] [][][][] [
-][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][]
- [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][]
-[] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][]
-[][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] []
-[][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] 
-[][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][
-] [][][][][] [][][][][] [][][][]
- []
-
-resultaten.tex:78: Misplaced alignment tab character &.
-l.78 \[https://www.vliz.be/nl/imis?module=ref&
-                                              show=json&spcol=39,141,396,536...
+resultaten.tex:83: Misplaced alignment tab character &.
+l.83 \[https://www.vliz.be/nl/imis?module=ref&
+                                              show=json\]
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3174,9 +3147,9 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-resultaten.tex:78: Misplaced alignment tab character &.
-l.78 .../www.vliz.be/nl/imis?module=ref&show=json&
-                                                  spcol=39,141,396,536,733,7...
+resultaten.tex:84: Misplaced alignment tab character &.
+l.84 \[&
+        spcol=39,141,396,536,733,746,747,748,749,750,751,\]
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3184,9 +3157,9 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-resultaten.tex:78: Misplaced alignment tab character &.
-l.78 ...03,900,911,981,982,992,997,1002,1051,1064&
-                                                  count=10000&start=0\].
+resultaten.tex:89: Misplaced alignment tab character &.
+l.89 \[&
+        count=10000&start=0\]
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3194,9 +3167,9 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-resultaten.tex:78: Misplaced alignment tab character &.
-l.78 ...81,982,992,997,1002,1051,1064&count=10000&
-                                                  start=0\].
+resultaten.tex:89: Misplaced alignment tab character &.
+l.89 \[&count=10000&
+                    start=0\]
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3205,51 +3178,45 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (1390.53297pt too wide) detected at line 78
-[][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][
-][][][][] [] [][][][][][][][][] [] [][][] [][][][] [][][][] [][][][] [][][][] [
-][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][]
- [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][]
-[] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][]
-[][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] []
-[][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] 
-[][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][] [][][][
-] [][][][][] [][][][][] [][][][][][][][][] [] [][][][][][][][][][] [] []
- []
 
+[48]
 File: ../graphics/./9_resultaten/sss.png Graphic file (type bmp)
 <../graphics/./9_resultaten/sss.png>
 
-Overfull \hbox (2.28085pt too wide) in paragraph at lines 118--118
-[]|\TU/Montserrat(1)/m/n/10.95 0.9958072900772095| 
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[]|\TU/Montserrat(2)/b/n/10.95 Semantic search
  []
 
 
-Overfull \hbox (5.13881pt too wide) in paragraph at lines 118--118
-[]|\TU/Montserrat(1)/m/n/10.95 0.9708424806594849| 
+Overfull \hbox (2.28085pt too wide) in paragraph at lines 131--131
+[]|[]\TU/Montserrat(1)/m/n/10.95 0.9958072900772095[]| 
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 118--118
+Overfull \hbox (5.13881pt too wide) in paragraph at lines 131--131
+[]|[]\TU/Montserrat(1)/m/n/10.95 0.9708424806594849[]| 
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 131--131
 \TU/Montserrat(1)/m/n/10.95 didate genes associated with flowering and maturity
 
  []
 
 
-Overfull \hbox (2.85025pt too wide) in paragraph at lines 118--118
+Overfull \hbox (2.85025pt too wide) in paragraph at lines 131--131
 []|\TU/Montserrat(1)/m/n/10.95 0.7932324409484863| 
  []
 
 ) (conclusie.tex
+Underfull \hbox (badness 10000) in paragraph at lines 89--4
+
+ []
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-
-[48]
 
 [49]
 
@@ -3328,28 +3295,16 @@ e bmp)
 [57]
 B\ij lage B.
 
-Overfull \hbox (43.12688pt too wide) in paragraph at lines 51--51
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://lifewatch.be/imis?module\x3dref\x2
-6refid\x3d383296| 
- []
-
-
 Underfull \hbox (badness 1831) in paragraph at lines 76--76
 []|\TU/Montserrat(1)/m/n/10.95 titel: Picturing plankton: Complementing net‐bas
 ed
  []
 
 
-Overfull \hbox (78.21068pt too wide) in paragraph at lines 76--76
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://aslopubs.onlinelibrary.wiley.com/d
-oi/abs/10.1002/lom3.10674| 
- []
-
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 resultaten_bijlage.tex:101: Undefined control sequence.
-<inserted text> ...Mariene+Station+Oostende\%22\x 
+<inserted text> ...iene+Station+Oostende\%22\\&\x 
                                                   26ots\x 3dq8wvk4vdTn\x 26s...
 l.101     \end{tabularx}
                         
@@ -3360,7 +3315,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 resultaten_bijlage.tex:101: Undefined control sequence.
-<inserted text> ...Station+Oostende\%22\x 26ots\x 
+<inserted text> ...tion+Oostende\%22\\&\x 26ots\x 
                                                   3dq8wvk4vdTn\x 26sig\x 3d9...
 l.101     \end{tabularx}
                         
@@ -3371,7 +3326,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 resultaten_bijlage.tex:101: Undefined control sequence.
-<inserted text> ...e\%22\x 26ots\x 3dq8wvk4vdTn\x 
+<inserted text> ...22\\&\x 26ots\x 3dq8wvk4vdTn\x 
                                                   26sig\x 3d9Sq3\_-XTz2pv3rP...
 l.101     \end{tabularx}
                         
@@ -3393,7 +3348,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 resultaten_bijlage.tex:101: Undefined control sequence.
-<inserted text> ...Mariene+Station+Oostende\%22\x 
+<inserted text> ...iene+Station+Oostende\%22\\&\x 
                                                   26ots\x 3dq8wvk4vdTn\x 26s...
 l.101     \end{tabularx}
                         
@@ -3404,7 +3359,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 resultaten_bijlage.tex:101: Undefined control sequence.
-<inserted text> ...Station+Oostende\%22\x 26ots\x 
+<inserted text> ...tion+Oostende\%22\\&\x 26ots\x 
                                                   3dq8wvk4vdTn\x 26sig\x 3d9...
 l.101     \end{tabularx}
                         
@@ -3415,7 +3370,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 resultaten_bijlage.tex:101: Undefined control sequence.
-<inserted text> ...e\%22\x 26ots\x 3dq8wvk4vdTn\x 
+<inserted text> ...22\\&\x 26ots\x 3dq8wvk4vdTn\x 
                                                   26sig\x 3d9Sq3\_-XTz2pv3rP...
 l.101     \end{tabularx}
                         
@@ -3437,7 +3392,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 resultaten_bijlage.tex:101: Undefined control sequence.
-<inserted text> ...Mariene+Station+Oostende\%22\x 
+<inserted text> ...iene+Station+Oostende\%22\\&\x 
                                                   26ots\x 3dq8wvk4vdTn\x 26s...
 l.101     \end{tabularx}
                         
@@ -3448,7 +3403,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 resultaten_bijlage.tex:101: Undefined control sequence.
-<inserted text> ...Station+Oostende\%22\x 26ots\x 
+<inserted text> ...tion+Oostende\%22\\&\x 26ots\x 
                                                   3dq8wvk4vdTn\x 26sig\x 3d9...
 l.101     \end{tabularx}
                         
@@ -3459,7 +3414,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 resultaten_bijlage.tex:101: Undefined control sequence.
-<inserted text> ...e\%22\x 26ots\x 3dq8wvk4vdTn\x 
+<inserted text> ...22\\&\x 26ots\x 3dq8wvk4vdTn\x 
                                                   26sig\x 3d9Sq3\_-XTz2pv3rP...
 l.101     \end{tabularx}
                         
@@ -3481,7 +3436,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 resultaten_bijlage.tex:101: Undefined control sequence.
-<inserted text> ...Mariene+Station+Oostende\%22\x 
+<inserted text> ...iene+Station+Oostende\%22\\&\x 
                                                   26ots\x 3dq8wvk4vdTn\x 26s...
 l.101     \end{tabularx}
                         
@@ -3492,7 +3447,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 resultaten_bijlage.tex:101: Undefined control sequence.
-<inserted text> ...Station+Oostende\%22\x 26ots\x 
+<inserted text> ...tion+Oostende\%22\\&\x 26ots\x 
                                                   3dq8wvk4vdTn\x 26sig\x 3d9...
 l.101     \end{tabularx}
                         
@@ -3503,7 +3458,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 resultaten_bijlage.tex:101: Undefined control sequence.
-<inserted text> ...e\%22\x 26ots\x 3dq8wvk4vdTn\x 
+<inserted text> ...22\\&\x 26ots\x 3dq8wvk4vdTn\x 
                                                   26sig\x 3d9Sq3\_-XTz2pv3rP...
 l.101     \end{tabularx}
                         
@@ -3525,18 +3480,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (51.81024pt too wide) in paragraph at lines 101--101
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://books.google.com/books?hl\x3dnl\x2
-6lr\x3d\x26id\x3d-
- []
-
-
-Overfull \hbox (1863.38142pt too wide) in paragraph at lines 101--101
-\TU/Montserrat(1)/m/n/10.95 sRIEQAAQBAJ\x26oi\x3dfnd\x26pg\x3dPA82\x26dq\x3d%22
-Vlaams+Instituut+voor+de+Zee%22+OR+%22Vlaams+Instituut+van+de+Zee%22+OR+%22Flan
-ders+Marine+Institute%22+OR+%22VLIZ%22+OR+%22Simon+Stevin%22+OR+%22R/V+Simon+St
-evin%22+OR+%22RV+Simon+Stevin%22+OR+%22Marine+Station+Ostend%22+OR+%22Mariene+S
-tation+Oostende%2226ots3dq8wvk4vdTn26sig3d9Sq3_-
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+[]|\TU/Montserrat(1)/m/n/10.95 26ots3dq8wvk4vdTn26sig3d9Sq3_-
  []
 
 
@@ -3564,28 +3509,10 @@ Overfull \hbox (2.03154pt too wide) in paragraph at lines 176--176
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (54.16447pt too wide) in paragraph at lines 218--218
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://journals.univ-biskra.dz/index.php/
-ijams/article/view/107| 
- []
-
-
-LaTeX Warning: Float too large for page by 2.09247pt on input line 220.
+LaTeX Warning: Float too large for page by 21.67635pt on input line 220.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (91.83247pt too wide) in paragraph at lines 260--260
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JNNE
-7X072ZQ1S10NV8DGB5ND| 
- []
-
-
-Overfull \hbox (99.36607pt too wide) in paragraph at lines 260--260
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JNN9
-TFAVEW3ZXV0CMYB9V2CD| 
- []
 
 
 Underfull \hbox (badness 3312) in paragraph at lines 260--260
@@ -3599,28 +3526,16 @@ Underfull \hbox (badness 2150) in paragraph at lines 260--260
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (95.80733pt too wide) in paragraph at lines 302--302
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JNNA
-09FV3AN3NMG7H1PKK342| 
- []
-
-
-Overfull \hbox (97.18703pt too wide) in paragraph at lines 302--302
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JNNC
-4GK2NFM09T3825A0QQF0| 
- []
+LaTeX Warning: Float too large for page by 24.94026pt on input line 262.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (102.41017pt too wide) in paragraph at lines 344--344
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JNND
-DPTZHF2DW47D4RAXA9FC| 
- []
+LaTeX Warning: Float too large for page by 24.94026pt on input line 304.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 344--344
@@ -3635,22 +3550,10 @@ Underfull \hbox (badness 4699) in paragraph at lines 344--344
  []
 
 
-Overfull \hbox (88.52559pt too wide) in paragraph at lines 344--344
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JNN8
-CXYFEN92X4521XHPH0SZ| 
- []
-
-
-LaTeX Warning: Float too large for page by 18.41243pt on input line 346.
+LaTeX Warning: Float too large for page by 57.58018pt on input line 346.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (98.38057pt too wide) in paragraph at lines 369--369
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JNNA
-M517TVCCBVPC1DDR0HBR| 
- []
 
 
 Underfull \hbox (badness 1831) in paragraph at lines 369--369
@@ -3720,12 +3623,6 @@ you left one out. Proceed, with fingers crossed.
 
 LaTeX Warning: Command \textbackslash invalid in math mode on input line 394.
 
-
-LaTeX Warning: Command \textbackslash invalid in math mode on input line 394.
-
-
-LaTeX Warning: Command \textbackslash invalid in math mode on input line 394.
-
 resultaten_bijlage.tex:394: Missing $ inserted.
 <inserted text> 
                 $
@@ -3735,20 +3632,10 @@ I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (267.58789pt too wide) in paragraph at lines 394--394
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://rodin.uca.es/bitstream/handle/1049
-8/35789/OA$[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][]$ 
- []
-
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (101.72032pt too wide) in paragraph at lines 436--436
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://biblio.ugent.be/publication/01JP9T
-WYXP1MN7W1803HND70W6| 
- []
+LaTeX Warning: Float too large for page by 5.35638pt on input line 438.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -3773,7 +3660,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 resultaten_bijlage.tex:528: You can't use `macro parameter character #' in hori
 zontal mode.
-<inserted text> .../managed/vmsd2025\_boa\_0.pdf##
+<inserted text> ...&managed/vmsd2025\_boa\_0.pdf##
                                                   page\textbackslash x3d62\\...
 l.528     \end{tabularx}
                         
@@ -3784,7 +3671,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 
 resultaten_bijlage.tex:528: You can't use `macro parameter character #' in hori
 zontal mode.
-<inserted text> .../managed/vmsd2025\_boa\_0.pdf##
+<inserted text> ...&managed/vmsd2025\_boa\_0.pdf##
                                                   page\textbackslash x3d62\\...
 l.528     \end{tabularx}
                         
@@ -3795,7 +3682,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 
 resultaten_bijlage.tex:528: You can't use `macro parameter character #' in hori
 zontal mode.
-<inserted text> .../managed/vmsd2025\_boa\_0.pdf##
+<inserted text> ...&managed/vmsd2025\_boa\_0.pdf##
                                                   page\textbackslash x3d62\\...
 l.528     \end{tabularx}
                         
@@ -3806,7 +3693,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 
 resultaten_bijlage.tex:528: You can't use `macro parameter character #' in hori
 zontal mode.
-<inserted text> .../managed/vmsd2025\_boa\_0.pdf##
+<inserted text> ...&managed/vmsd2025\_boa\_0.pdf##
                                                   page\textbackslash x3d62\\...
 l.528     \end{tabularx}
                         
@@ -3828,7 +3715,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 528--528
 
 resultaten_bijlage.tex:528: You can't use `macro parameter character #' in hori
 zontal mode.
-<inserted text> .../managed/vmsd2025\_boa\_0.pdf##
+<inserted text> ...&managed/vmsd2025\_boa\_0.pdf##
                                                   page\textbackslash x3d62\\...
 l.528     \end{tabularx}
                         
@@ -3838,13 +3725,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Overfull \hbox (212.6876pt too wide) in paragraph at lines 528--528
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/vmsd/sites/vliz.be.vms
-d/files/managed/vmsd2025_boa_0.pdfpage\x3d62| 
- []
-
-
-LaTeX Warning: Float too large for page by 51.05235pt on input line 530.
+LaTeX Warning: Float too large for page by 70.63623pt on input line 530.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -3859,12 +3740,6 @@ Overfull \hbox (0.88179pt too wide) in paragraph at lines 553--553
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (19.66104pt too wide) in paragraph at lines 578--578
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://meetingorganizer.copernicus.org/EG
-U25/EGU25-
- []
-
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
@@ -3877,12 +3752,6 @@ Overfull \hbox (1.70305pt too wide) in paragraph at lines 603--603
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (158.5508pt too wide) in paragraph at lines 628--628
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://archium.ateneo.edu/cgi/viewcontent
-.cgi?article\x3d2159\x26context\x3dkk| 
- []
-
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
@@ -3892,19 +3761,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (19.66104pt too wide) in paragraph at lines 703--703
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://meetingorganizer.copernicus.org/EG
-U25/EGU25-
- []
-
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (161.37593pt too wide) in paragraph at lines 728--728
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/projects/trophos/imis.
-php?module\x3dref\x26refid\x3d406498| 
- []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -3917,12 +3774,6 @@ Overfull \hbox (1.8235pt too wide) in paragraph at lines 753--753
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (184.02052pt too wide) in paragraph at lines 778--778
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://projecteuclid.org/journalArticle/D
-ownload?urlId\x3d10.36045%2Fj.bbms.32con1| 
- []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -4024,13 +3875,13 @@ d kunnen worden. []Chandrakar
 
 
 ]
-Overfull \hbox (17.71294pt too wide) in paragraph at lines 189--189
+Overfull \hbox (17.71294pt too wide) in paragraph at lines 190--190
 [][]\TU/Montserrat(1)/m/n/10.95 Havrlant, L., & Kreinovich, V. (2017). A simple
  probabilistic explanation of term frequency-
  []
 
 
-Overfull \hbox (3.97876pt too wide) in paragraph at lines 189--189
+Overfull \hbox (3.97876pt too wide) in paragraph at lines 190--190
 \TU/Montserrat(1)/m/n/10.95 this explanation). \TU/Montserrat(2)/m/it/10.95 Int
 ernational Journal of General Systems\TU/Montserrat(1)/m/n/10.95 , \TU/Montserr
 at(2)/m/it/10.95 46\TU/Montserrat(1)/m/n/10.95 (1), 27–36. [][]$[][][][][] []
@@ -4039,10 +3890,10 @@ at(2)/m/it/10.95 46\TU/Montserrat(1)/m/n/10.95 (1), 27–36. [][]$[][][][][] []
 
 
 [91]
-DePaepeBartBP.tex:189: Misplaced alignment tab character &.
+DePaepeBartBP.tex:190: Misplaced alignment tab character &.
 <argument> SQL &
                 amp; NoSQL Databases
-l.189 \printbibliography[heading=bibintoc]
+l.190 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -4054,10 +3905,10 @@ might try typing `S' now just to see what is salvageable.
 
 
 [92]
-DePaepeBartBP.tex:189: Misplaced alignment tab character &.
+DePaepeBartBP.tex:190: Misplaced alignment tab character &.
 <argument> ...a extraction, analysis, conversion &
                                                    manipulation of PDF (and ...
-l.189 \printbibliography[heading=bibintoc]
+l.190 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -4069,14 +3920,14 @@ might try typing `S' now just to see what is salvageable.
 
 
 [93]
-Overfull \hbox (25.84052pt too wide) in paragraph at lines 189--189
+Overfull \hbox (25.84052pt too wide) in paragraph at lines 190--190
 [][]\TU/Montserrat(2)/m/it/10.95 ScrapeGraphAI: You Only Scrape Once\TU/Montser
 rat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][][][][] [] [][]
 [] [] [][][][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (39.97581pt too wide) in paragraph at lines 189--189
+Overfull \hbox (39.97581pt too wide) in paragraph at lines 190--190
 [][]\TU/Montserrat(2)/m/it/10.95 Tips for using the Crossref REST API\TU/Montse
 rrat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][
 ][][][] [] [][][] [] [][][][][][][][][][][][][] []
@@ -4098,11 +3949,11 @@ Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52306 strings out of 408640
- 1075682 string characters out of 5749145
- 2418217 words of memory out of 5000000
- 74505 multiletter control sequences out of 15000+600000
- 563350 words of font info for 117 fonts, out of 8000000 for 9000
+ 52291 strings out of 408640
+ 1075090 string characters out of 5749145
+ 2425236 words of memory out of 5000000
+ 74495 multiletter control sequences out of 15000+600000
+ 562732 words of font info for 112 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,13n,131p,1256b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s
 

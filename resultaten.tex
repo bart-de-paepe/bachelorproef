@@ -27,7 +27,7 @@
 %% en geef het een gepaste titel.
 \section{Inleiding}
 De Google Scholar alerts leverden 23 notificatie e-mails met zoekresultaten op voor de VLIZ zoekopdracht (zie hoofdstuk \ref{ch:googlescholaralert}) sinds 1 februari 2025 tot 16 mei 2025.\\
-Figuur \ref{fig:GSAlertsTimeline} toont de tijdslijn van de Google Scholar alerts ontvangen tussen 1 Februari 2025 en 16 mei 2025.
+Figuur \ref{fig:GSAlertsTimeline} toont de tijdslijn van de Google Scholar alerts ontvangen tijdens deze tijdsspanne.
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\textwidth]{./9_resultaten/GS_alerts_timeline.png}
@@ -40,11 +40,11 @@ Titel, link en tekst worden systematisch goed gevonden door de scraping. Voor au
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\textwidth]{./9_resultaten/GS_alerts_auteurtijdschriftjaartal.jpg}
-    \caption[Google Scholar alert zonder auteur tijdschrift of jaartal.]{\label{fig:GSauteurtijdschriftjaartal}Google Scholar alert zonder auteur tijdschrift of jaartal.}
+    \caption[Google Scholar alert zonder auteur, tijdschrift of jaartal.]{\label{fig:GSauteurtijdschriftjaartal}Google Scholar alert zonder auteur, tijdschrift of jaartal.}
 \end{figure}
 
 \section{Relevantiescore}
-De relevantiescore werd berekend op basis van het voorkomen van de zoektermen in de tekst. Op die manier vallen de zoekresultaten waarin de zoektermen niet voorkomen onmiddellijk op zoals te zien is in figuur  \ref{fig:GSrelevantie}.
+De relevantiescore werd berekend op basis van het voorkomen van de zoektermen in de tekst. Op die manier vallen de zoekresultaten waarin de zoektermen niet voorkomen onmiddellijk op door hun waarde 0 zoals te zien is in figuur  \ref{fig:GSrelevantie}.
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\textwidth]{./9_resultaten/GS_alerts_relevantiescore.png}
@@ -57,55 +57,68 @@ De relevantiescore werd berekend op basis van het voorkomen van de zoektermen in
     \centering
     \begin{tabularx}{\textwidth}{|X|p{4cm}|} 
         \hline
-        Percentage aantal keer dat DOI gevonden is.&48\%\\
+        Percentage aantal keer dat de DOI gevonden is.&48\%\\
         \hline
-        Percentage aantal keer in de URL.&7\%\\
+        Percentage aantal keer dat de DOI in de URL staat.&7\%\\
         \hline
-        Percentage aantal keer via Crossref.&20\%\\
+        Percentage aantal keer dat de DOI via Crossref gevonden wordt.&20\%\\
         \hline
-        Percentage aantal keer op de webpagina.&73\%\\
+        Percentage aantal keer dat de DOI op de webpagina staat.&73\%\\
         \hline
     \end{tabularx}
     \label{table:statistieken_linked_data}
 \end{table}
 
 \section{Semantic search}
-Voor de resterende 52\% van de zoekresultaten waarvan geen DOI gevonden kon worden, werd semantic search van de titel uitgevoerd ten opzichte van de IMIS databank. Dat vormde een hele uitdaging aangezien er 260.000 records zijn waarin de titel opgezocht moet worden.
+Voor de resterende 52\% van de zoekresultaten waarvan geen DOI gevonden kon worden, werd semantic search van de titel uitgevoerd in de IMIS databank. Dat vormde een hele uitdaging aangezien er 260.000 records zijn waarin de titel opgezocht moet worden.
 De query om de titels op te zoeken is:
-\[https://www.vliz.be/nl/imis?module=ref&show=json&spcol=39,141,396,536,733,746,747,748,749,750,751,752,753,754,755,756,757,758,759,760,761,762,763,764,765,766,768,769,770,771,772,773,774,775,776,777,778,779,780,781,782,783,784,785,786,787,788,789,790,791,802,803,900,911,981,982,992,997,1002,1051,1064\].
+\[https://www.vliz.be/nl/imis?module=ref&show=json\]
+\[&spcol=39,141,396,536,733,746,747,748,749,750,751,\]
+\[752,753,754,755,756,757,758,759,760,761,762,763,764,\]
+\[765,766,768,769,770,771,772,773,774,775,776,777,778,\]
+\[779,780,781,782,783,784,785,786,787,788,789,790,791,\]
+\[802,803,900,911,981,982,992,997,1002,1051,1064\]
 Daarbij duiden de ``spcol'' waarden op alle mogelijke collecties binnen IMIS die te maken hebben met het VLIZ (de zoekterm van de Google Scholar alert).
 Omdat IMIS niet toelaat om 260.000 records ineens op te vragen, wordt er gewerkt met 26 batches van 10.000 records. De overeenkomstige query is:
-\[https://www.vliz.be/nl/imis?module=ref&show=json&spcol=39,141,396,536,733,746,747,748,749,750,751,752,753,754,755,756,757,758,759,760,761,762,763,764,765,766,768,769,770,771,772,773,774,775,776,777,778,779,780,781,782,783,784,785,786,787,788,789,790,791,802,803,900,911,981,982,992,997,1002,1051,1064&count=10000&start=0\].
+\[https://www.vliz.be/nl/imis?module=ref&show=json\]
+\[&spcol=39,141,396,536,733,746,747,748,749,750,751,\]
+\[752,753,754,755,756,757,758,759,760,761,762,763,764,\]
+\[765,766,768,769,770,771,772,773,774,775,776,777,778,\]
+\[779,780,781,782,783,784,785,786,787,788,789,790,791,\]
+\[802,803,900,911,981,982,992,997,1002,1051,1064\]
+\[&count=10000&start=0\]
 Daarbij verhoogt de parameter ``start'' telkens met 10.000.\\
-Deze manier van werken heeft mogelijks een invloed op het resultaat: de positie van een titel vergelijken met 10.000 resultaten is niet hetzelfde als met 260.000 resultaten.
+Deze manier van werken heeft mogelijks een invloed op het resultaat: de positie van een titel opzoeken in 10.000 resultaten is niet hetzelfde als in 260.000 resultaten.
 In figuur \ref{fig:GSsss} is te zien dat de Semantic search score toeneemt in functie van het aantal titels waarin gezocht wordt. Maar de mate van toename neemt sterk af bij grote aantallen. Daarom wordt er aangenomen dat de Semantic search score bij 10.000 titels representatief is voor de score bij 260.000 titels.\\
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\textwidth]{./9_resultaten/sss.png}
     \caption[Semantic search score vs. number of titles.]{\label{fig:GSsss}Semantic search score vs. number of titles.}
 \end{figure}
-Na verwerking is de Semantic search score de hoogste waarde van alle batches.\\
+Na verwerking is de Semantic search score de hoogste waarde van alle batches.\\\\
 Alle gevonden scores liggen onder de 0.9. Dat is de threshold die empirisch bepaald werd om te beslissen of een titel reeds in IMIS zit (zie tabel \ref{table:empirisch}).\\
 \begin{table}[h!]
     \caption{Empirische test kritische waarde semantic search}
     \centering
     \begin{tabularx}{\textwidth}{|X|p{4cm}|} 
         \hline
-        Genome-wide association study revealed candidate genes associated with egg-laying time traits in layer chicken&1.0\\
+        \textbf{Titel}&\textbf{Semantic search score}\\
         \hline
-        Genome wide association study revealed candidate genes associated with egg laying time traits in layer chicken&0.9958072900772095\\
+        Genome-wide association study revealed candidate genes associated with egg-laying time traits in layer chicken&\textcolor{orange}{1.0}\\
         \hline
-        Gen. wide assoc. study revealed candidate genes associated with egg time traits in layer chicken&0.9708424806594849\\
+        Genome wide association study revealed candidate genes associated with egg laying time traits in layer chicken&\textcolor{orange}{0.9958072900772095}\\
         \hline
-        Genome-wide association study revealed candidate genes associated with egg-laying time traits&0.9543328285217285\\
+        Gen. wide assoc. study revealed candidate genes associated with egg time traits in layer chicken&\textcolor{orange}{0.9708424806594849}\\
         \hline
-        Genome wide association study revealed candidate genes associated with egg laying time traits&0.9487157464027405\\
+        Genome-wide association study revealed candidate genes associated with egg-laying time traits&\textcolor{orange}{0.9543328285217285}\\
         \hline
-        Gen. wide assoc. study revealed candidate genes associated with egg time traits&0.9242777228355408\\
+        Genome wide association study revealed candidate genes associated with egg laying time traits&\textcolor{orange}{0.9487157464027405}\\
         \hline
-        with time study revealed associated Genome-wide in chicken genes traits candidate association egg-laying&0.9624322652816772\\
+        Gen. wide assoc. study revealed candidate genes associated with egg time traits&\textcolor{orange}{0.9242777228355408}\\
         \hline
-        Gen.-wide assoc. study reveal cand. gene associate with egg-lay time trait in layer chicken&0.9395400881767273\\
+        with time study revealed associated Genome-wide in chicken genes traits candidate association egg-laying&\textcolor{orange}{0.9624322652816772}\\
+        \hline
+        Gen.-wide assoc. study reveal cand. gene associate with egg-lay time trait in layer chicken&\textcolor{orange}{0.9395400881767273}\\
         \hline
         Genome-wide association study revealed some new candidate genes associated with flowering and maturity time of soybean in Central and West Siberian regions of Russia&0.8146297931671143\\
         \hline

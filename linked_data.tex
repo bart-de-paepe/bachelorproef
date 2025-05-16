@@ -100,9 +100,10 @@ De omzetting in code is te zien in codefragment \ref{code:Urlregex}.
     \caption[Opzoeken van DOI in de URL van de publicatie]{Opzoeken van DOI in de URL van de publicatie.}
     \label{code:Urlregex}
 \end{listing}
+\clearpage
 \section{De DOI opzoeken in Crossref}
 Indien de voorgaande stap geen DOI opleverde, dan wordt hier op basis van de titel een opzoeking van de DOI gedaan in Crossref. Daarvoor beschikt Crossref over een API \autocite{Crossrefhowtoapi2025}. De documentatie leert dat ondoordachte requests kunnen leiden tot zeer langdurige queries en/of ongewenste resultaten. Concreet wordt er afgeraden om meer dan 2 velden op te nemen in de query van een sample, of om meer dan 2 resultaten te vragen in het geval van een matching. Verder wordt voor matching aangeraden om te zoeken aan de hand van de bibliografische gegevens zoals te zien in codefragment \ref{code:Bibliographic}.
-\begin{listing}
+\begin{listing}[h!]
     http://api.crossref.org/works?query.bibliographic="Toward a Unified Theory of High-Energy Metaphysics, Josiah Carberry 2008-08-13"&rows=2
     \caption[Crossref query op basis van de bibliografie]{Query op basis van de bibliografie}
     \label{code:Bibliographic}
@@ -115,7 +116,7 @@ Het is niet nodig om de API rechtstreeks te bevragen aangezien meerdere onafhank
     \item Crossrefapi \autocite{Crossrefapi2025}
 \end{itemize}
 Al deze bibliotheken bieden dezelfde tools en presteren gelijkaardig. Zonder bijzondere reden, behalve dat Crossref Commons ontwikkeld wordt door Crossref zelf, wordt er met Crossref Commons for Python gewerkt. De code om een sample op te vragen op basis van de titel is bijzonder compact zoals te zien in \ref{code:Crossref_commons}.
-\begin{listing}
+\begin{listing}[h!]
     \begin{minted}{python}
         try:
             filter = {}
