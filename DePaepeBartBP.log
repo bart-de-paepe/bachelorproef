@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  16 MAY 2025 21:39
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  25 MAY 2025 23:24
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2331,8 +2331,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--26
 [5]
 
 [6]
-File: ../graphics/./5_semantic_search/word2vec.jpg Graphic file (type bmp)
-<../graphics/./5_semantic_search/word2vec.jpg>
+File: ../graphics/./5_semantic_search/word2vec2.jpg Graphic file (type bmp)
+<../graphics/./5_semantic_search/word2vec2.jpg>
 ) (methodologie.tex
 
 [7]
@@ -2498,7 +2498,7 @@ t line 71.
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250516213937 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250525232428 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -3115,10 +3115,28 @@ pe bmp)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+Underfull \hbox (badness 3758) in paragraph at lines 63--64
+[]| \TU/Montserrat(1)/m/n/10.95 Percentage aantal keer dat de
+ []
+
+
+Underfull \hbox (badness 3758) in paragraph at lines 64--65
+[]| \TU/Montserrat(1)/m/n/10.95 Percentage aantal keer dat de
+ []
+
+
+Underfull \hbox (badness 3758) in paragraph at lines 65--66
+[]| \TU/Montserrat(1)/m/n/10.95 Percentage aantal keer dat de
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 
 [47]
-resultaten.tex:75: Misplaced alignment tab character &.
-l.75 \[https://www.vliz.be/nl/imis?module=ref&
+resultaten.tex:81: Misplaced alignment tab character &.
+l.81 \[https://www.vliz.be/nl/imis?module=ref&
                                               show=json\]
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3127,49 +3145,9 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-resultaten.tex:76: Misplaced alignment tab character &.
-l.76 \[&
+resultaten.tex:82: Misplaced alignment tab character &.
+l.82 \[&
         spcol=39,141,396,536,733,746,747,748,749,750,751,\]
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-resultaten.tex:83: Misplaced alignment tab character &.
-l.83 \[https://www.vliz.be/nl/imis?module=ref&
-                                              show=json\]
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-resultaten.tex:84: Misplaced alignment tab character &.
-l.84 \[&
-        spcol=39,141,396,536,733,746,747,748,749,750,751,\]
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-resultaten.tex:89: Misplaced alignment tab character &.
-l.89 \[&
-        count=10000&start=0\]
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-resultaten.tex:89: Misplaced alignment tab character &.
-l.89 \[&count=10000&
-                    start=0\]
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3180,36 +3158,76 @@ might try typing `S' now just to see what is salvageable.
 
 
 [48]
+resultaten.tex:89: Misplaced alignment tab character &.
+l.89 \[https://www.vliz.be/nl/imis?module=ref&
+                                              show=json\]
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+resultaten.tex:90: Misplaced alignment tab character &.
+l.90 \[&
+        spcol=39,141,396,536,733,746,747,748,749,750,751,\]
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+resultaten.tex:95: Misplaced alignment tab character &.
+l.95 \[&
+        count=10000&start=0\]
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+resultaten.tex:95: Misplaced alignment tab character &.
+l.95 \[&count=10000&
+                    start=0\]
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
 File: ../graphics/./9_resultaten/sss.png Graphic file (type bmp)
 <../graphics/./9_resultaten/sss.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--131
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 []|\TU/Montserrat(2)/b/n/10.95 Semantic search
  []
 
 
-Overfull \hbox (2.28085pt too wide) in paragraph at lines 131--131
+Overfull \hbox (2.28085pt too wide) in paragraph at lines 137--137
 []|[]\TU/Montserrat(1)/m/n/10.95 0.9958072900772095[]| 
  []
 
 
-Overfull \hbox (5.13881pt too wide) in paragraph at lines 131--131
+Overfull \hbox (5.13881pt too wide) in paragraph at lines 137--137
 []|[]\TU/Montserrat(1)/m/n/10.95 0.9708424806594849[]| 
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 131--131
+Underfull \hbox (badness 1454) in paragraph at lines 137--137
 \TU/Montserrat(1)/m/n/10.95 didate genes associated with flowering and maturity
 
  []
 
 
-Overfull \hbox (2.85025pt too wide) in paragraph at lines 131--131
+Overfull \hbox (2.85025pt too wide) in paragraph at lines 137--137
 []|\TU/Montserrat(1)/m/n/10.95 0.7932324409484863| 
  []
 
 ) (conclusie.tex
-Underfull \hbox (badness 10000) in paragraph at lines 89--4
+Underfull \hbox (badness 10000) in paragraph at lines 95--4
 
  []
 
@@ -3950,11 +3968,11 @@ Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  52291 strings out of 408640
- 1075090 string characters out of 5749145
+ 1075101 string characters out of 5749145
  2425236 words of memory out of 5000000
  74495 multiletter control sequences out of 15000+600000
  562732 words of font info for 112 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 110i,13n,131p,1256b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,20n,131p,1256b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on DePaepeBartBP.pdf (105 pages).
