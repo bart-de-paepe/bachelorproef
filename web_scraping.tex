@@ -59,15 +59,17 @@ Informatie uit HTML pagina's halen is algemeen bekend onder de naam ``web scrapi
 \section{Web scraping met gebruik van een LLM }
 De meest bekende vorm van web scraping gebruikt de DOM structuur om er de inhoud uit te filteren. Daar komt dus niets van AI bij kijken. Het probleem met die aanpak is dat de custom code die de HTML structuur verwerkt, sterk afhankelijk is van de HTML zelf. Bijvoorbeeld wanneer de titel van een publicatie tussen <h3> tags staat die gekenmerkt worden door een class="gse\_alrt\_title" (zie codefragment \ref{code:HTMLcodefragment}), dan zal de custom code specifiek filteren op die DOM elementen.
 \begin{listing}[h!]
-<h3 style="font-weight:normal;margin:0;font-size:17px;line-height:20px;">
-    <span style="font-size:11px;font-weight:bold;color:#1a0dab;vertical-align:2px">[HTML]</span> 
-    
-    <a href="https://www.sciencedirect.com/science/article/pii/S0191886925001308" 
-    
-    class="gse\_alrt\_title" style="font-size:17px;color:#1a0dab;line-height:22px">
-        The role of narcissistic personality <b>traits </b>in bullying behavior in adolescence–A systematic review and meta-analysis
-     </a>
-</h3>
+    \[
+        <h3 style="font-weight:normal;margin:0;font-size:17px;line-height:20px;">
+            <span style="font-size:11px;font-weight:bold;color:#1a0dab;vertical-align:2px">[HTML]</span> 
+            
+            <a href="https://www.sciencedirect.com/science/article/pii/S0191886925001308" 
+            
+            class="gse\_alrt\_title" style="font-size:17px;color:#1a0dab;line-height:22px">
+                The role of narcissistic personality <b>traits </b>in bullying behavior in adolescence–A systematic review and meta-analysis
+             </a>
+        </h3>
+    \]
 \caption[Prompt HTML fragment]{HTML fragment van de titel van een publicatie.}
 \label{code:HTMLcodefragment}
 \end{listing}
@@ -133,13 +135,13 @@ De verwachte parameters die het model moet zoeken zijn te zien in codefragment \
     \label{code:Parse_opties_codefragment}
 \end{listing}
 Het is vereist om een account te registreren bij OpenAI en om dit account te crediteren. Vervolgens kan er met de API gewerkt worden en wordt er betaald naargelang het verbruik.
-Een test met 1 GS alert met 10 zoekresultaten heeft een prijs van 0,17\$ zoals te zien is in figuur \ref{fig:OpenAI_dashboard}. Het model gebruikte daarvoor 14743 tokens. 
+Een test met 1 GS alert met 10 zoekresultaten (zie figuur \ref{fig:Google_Scholar_SERP}) heeft een prijs van 0,17\$ zoals te zien is in figuur \ref{fig:OpenAI_dashboard}. Het model gebruikte daarvoor 14743 tokens. 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=1.0\textwidth]{./4_NLP/openai_billing.png}
     \caption[OpenAI dashboard.]{\label{fig:OpenAI_dashboard}OpenAI dashboard.}
 \end{figure}
-De test was succesvol. Het model vond de gevraagde parameters voor elk van de 10 zoekresultaten. Toch houdt het onderzoek naar web scraping hier niet op. Het resultaat tot zover is immers betalend en dat is niet noodzakelijk de beste oplossing voor het probleem. Bovendien werkt deze oplossing enkel met OpenAI modellen wat weinig flexibiliteit toelaat.
+De test was succesvol. Het model vond de gevraagde parameters voor elk van de 10 zoekresultaten. Een overzicht van de resultaten staat in bijlage \ref{ch:vergelijking_resultaten_llms} onder de kolom 'OpenAI'. Toch houdt het onderzoek naar web scraping hier niet op. Het resultaat tot zover is immers betalend en dat is niet noodzakelijk de beste oplossing voor het probleem. Bovendien werkt deze oplossing enkel met OpenAI modellen wat weinig flexibiliteit toelaat.
 
 \subsection{Web scraping met Mirascope en Anthropic}
 De vorige scraper was zeer specifiek geschreven voor OpenAI. De code zou niet werken voor een model van een andere provider. Daarom wordt er verder gezocht naar een meer generieke methode die niet afhankelijk is van de provider van het model.\\
@@ -208,7 +210,7 @@ Dan kan er geparsed worden met de resultaten volgens het gevraagde schema zoals 
     \label{code:Extract}
 \end{listing}
 \\
-Ook deze test was succesvol. Het model vond de gevraagde parameters voor elk van de 10 zoekresultaten. Toch houdt het onderzoek naar web scraping ook hier niet op. De oplossing tot zover heeft nog steeds een beperkte free tier en meerdere opdrachten zouden ook aanleiding geven tot een betalende service.
+Er werd opnieuw getest op dezelfde dataset  (zie figuur \ref{fig:Google_Scholar_SERP}). Ook deze test was succesvol. Het model vond de gevraagde parameters voor elk van de 10 zoekresultaten. Een overzicht van de resultaten staat in bijlage \ref{ch:vergelijking_resultaten_llms} onder de kolom 'Anthropic'. Toch houdt het onderzoek naar web scraping ook hier niet op. De oplossing tot zover heeft nog steeds een beperkte free tier en meerdere opdrachten zouden ook aanleiding geven tot een betalende service.
 Daarnaast zijn tot zover beide oplossingen ook afhankelijk van een online service wat in bepaalde gevallen niet wenselijk kan zijn (bijvoorbeeld wanneer de klant een on-premise oplossing wil).
 \subsection{Web scraping met een lokaal model}
 Om niet afhankelijk te zijn van een online service moet het model lokaal gehost worden. \textcite{Ollama2025} is een platform om LLMs te hosten op je eigen systeem. Eenmaal geïnstalleerd kan een model naar keuze gedownload en uitgevoerd worden op de lokale machine.
@@ -267,7 +269,7 @@ De prompt voor het model is te zien in codefragment \ref{code:Scrapegraphprompt}
     \label{code:Scrapegraphprompt}
 \end{listing}
 \\
-De test was niet succesvol. Het model vond geen enkele van de gevraagde parameters voor geen enkele van de 10 zoekresultaten.
+Er werd opnieuw getest op dezelfde dataset  (zie figuur \ref{fig:Google_Scholar_SERP}). De test was niet succesvol. Het model vond geen enkele van de gevraagde parameters voor geen enkele van de 10 zoekresultaten.
 In eerste instantie werd gedacht dat het geselecteerde model te zwak is voor deze taak omdat er voor een klein model gekozen werd. Daarom werd dezelfde test uitgevoerd op een krachtiger systeem met 40GB RAM met het gemma3:27b model (17GB). Maar ook deze test was niet succesvol: de opdracht bleef gedurende 1 uur lopen zonder resultaat, waarna het commando manueel onderbroken werd. Bij grote modellen moeten de tokens van de prompt opgezocht worden in veel meer data. Dat geeft aanleiding tot een zeer groot aantal instructies voor de CPU waardoor het proces veel langer duurt. Om grotere modellen lokaal te draaien is specifieke hardware noodzakelijk, in het bijzonder grafische kaarten. 
 \section{Web scraping via het parsen van de DOM}
 Tot zover is er nog geen bruikbaar resultaat. Het gebruik van een online model is betalend en kan niet gewenst zijn door de klant. Anderzijds leidt een lokaal model voorlopig niet tot een goed resultaat. Daarom wordt er teruggegrepen naar de meer klassieke benadering van web scraping waarbij de HTML structuur ontleed wordt aan de hand van custom code.
@@ -318,7 +320,7 @@ De navigatie tussen tags aan de hand van Beautiful Soup is te zien in codefragme
     \label{code:Soupnav}
 \end{listing}
 \\
-De test met een SERP met 10 zoekresultaten was geslaagd. De gevraagde parameters worden gevonden voor elk van de 10 resultaten.
+Er werd opnieuw getest op dezelfde dataset  (zie figuur \ref{fig:Google_Scholar_SERP}). De test was geslaagd. De gevraagde parameters worden gevonden voor elk van de 10 resultaten. Een overzicht van de resultaten staat in bijlage \ref{ch:vergelijking_resultaten_llms} onder de kolom 'Beautiful Soup'. 
 \section{Meest geschikte Web scraping}
 Tenslotte moet ook nog SerpAPI \autocite{Serpapi2025} vermeld worden. Tijdens het onderzoek naar web scraping kwam dit platform meermaals naar voren, zelfs voor de toepassingen die gebruik maken van AI. SerpAPI biedt specifieke oplossingen voor elke mogelijke search engine, waaronder ook GS. Alleen focust hun product telkens op de online search engine en niet op alerts waardoor de zoekresultaten niet incrementeel zijn.\\
 Tot besluit van dit hoofdstuk wordt er dus verder gewerkt met het parsen van de zoekresultaten aan de hand van Beautiful Soup. De grote tekortkoming dat de code afhankelijk is van de HTML wordt verzacht doordat die HTML ook weerspiegeld wordt in de code. Aanpassingen zouden dus begrijpbaar en beperkt moeten blijven.\\

@@ -55,26 +55,26 @@ De relevantiescore werd berekend op basis van het voorkomen van de zoektermen in
 \begin{table}[h!]
     \caption{Statistieken Linked Data}
     \centering
-    \begin{tabular}{|p{8cm}|p{5cm}|}
+    \begin{tabularx}{\textwidth}{|X|p{4cm}|} 
         \hline
-        Percentage aantal keer dat de DOI gevonden is. & 48\% \\
+        Percentage aantal keer dat de DOI gevonden is.&48\%\\
         \hline
-        \begin{tabular}{@{}p{7.0cm}@{}} % slight padding to avoid touching border
-            \hspace{0.5cm}Percentage aantal keer dat de DOI in de URL staat. \\
-            \hspace{0.5cm}Percentage aantal keer dat de DOI via Crossref gevonden wordt. \\
-            \hspace{0.5cm}Percentage aantal keer dat de DOI op de webpagina staat.
-        \end{tabular}
+        \begin{itemize}
+            \item Percentage aantal keer dat de DOI in de URL staat.
+            \item Percentage aantal keer dat de DOI via Crossref gevonden wordt.
+            \item Percentage aantal keer dat de DOI op de webpagina staat.
+        \end{itemize}
         &
-        \begin{tabular}{@{}p{4.0cm}@{}}
-            \hspace{0.5cm}7\% \\
-            \hspace{0.5cm}20\% \\
-            \hspace{0.5cm}73\%
-        \end{tabular} \\
+        \begin{itemize}
+            \item 7\%
+            \item 20\%
+            \item 73\%
+        \end{itemize}
+        \\
         \hline
-    \end{tabular}
+    \end{tabularx}
     \label{table:statistieken_linked_data}
 \end{table}
-\FloatBarrier
 \section{Semantic search}
 Voor de resterende 52\% van de zoekresultaten waarvan geen DOI gevonden kon worden, werd semantic search van de titel uitgevoerd in de IMIS databank. Dat vormde een hele uitdaging aangezien er 260.000 records zijn waarin de titel opgezocht moet worden.
 De query om de titels op te zoeken is:

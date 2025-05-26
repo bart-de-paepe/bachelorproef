@@ -1,0 +1,198 @@
+%%=============================================================================
+%% Methodologie
+%%=============================================================================
+
+\chapter{\IfLanguageName{dutch}{Vergelijking resultaten LLMs en Beautiful Soup}{Vergelijking resultaten LLMs en Beautiful Soup}}%
+\label{ch:vergelijking_resultaten_llms}
+
+%% TODO: In dit hoofstuk geef je een korte toelichting over hoe je te werk bent
+%% gegaan. Verdeel je onderzoek in grote fasen, en licht in elke fase toe wat
+%% de doelstelling was, welke deliverables daar uit gekomen zijn, en welke
+%% onderzoeksmethoden je daarbij toegepast hebt. Verantwoord waarom je
+%% op deze manier te werk gegaan bent.
+%% 
+%% Voorbeelden van zulke fasen zijn: literatuurstudie, opstellen van een
+%% requirements-analyse, opstellen long-list (bij vergelijkende studie),
+%% selectie van geschikte tools (bij vergelijkende studie, "short-list"),
+%% opzetten testopstelling/PoC, uitvoeren testen en verzamelen
+%% van resultaten, analyse van resultaten, ...
+%%
+%% !!!!! LET OP !!!!!
+%%
+%% Het is uitdrukkelijk NIET de bedoeling dat je het grootste deel van de corpus
+%% van je bachelorproef in dit hoofstuk verwerkt! Dit hoofdstuk is eerder een
+%% kort overzicht van je plan van aanpak.
+%%
+%% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
+%% en geef het een gepaste titel.
+\section{Vergelijking van de parse-resultaten met OpenAI, met Anthropic en met Beautiful Soup}
+\begin{table}[h!]
+    \tiny
+    \caption{Overzicht van de auteurs met OpenAi, Anthropic en Beautiful Soup.}
+    \centering
+    \begin{adjustbox}{width=1.2\textwidth,center}
+    \begin{tabularx}{\linewidth}{|X|X|X|} 
+        \hline
+        \rowcolor{lightgray}
+        OpenAI & Anthropic & Beautiful Soup\\ 
+        \hline
+        \rowcolor{lightgray}
+        \multicolumn{3}{|X|}{Auteurs}\\ 
+        \hline
+        L Schunck, U von D�ring, J Wilke & ["L Schunck", "U von Düring", "J Wilke"] & L Schunck, U von Düring, J Wilke\\ 
+        FZ Ben Debbane, A Baidani, M Aarbaoui� & ["FZ Ben Debbane", "A Baidani", "M Aarbaoui"] & FZ Ben Debbane, A Baidani, M Aarbaoui…\\
+        C Brittenham, AS DiCriscio, V Troiani, Y Hu, JB Wagner & ["C Brittenham", "AS DiCriscio", "V Troiani", "Y Hu", "JB Wagner"] & C Brittenham, AS DiCriscio, V Troiani, Y Hu, JB Wagner\\
+        B Tator, M Le Sage, RA Relyea & ["B Tator", "M Le Sage", "RA Relyea"] & B Tator, M Le Sage, RA Relyea\\
+        S Kang, B Yoon, K Kim, J Gratch, W Woo & ["S Kang", "B Yoon", "K Kim", "J Gratch", "W Woo"] & S Kang, B Yoon, K Kim, J Gratch, W Woo\\
+        J Wei, X Tang, J Liu, T Luo, Y Wu, J Duan, S Xiao� & ["J Wei", "X Tang", "J Liu", "T Luo", "Y Wu", "J Duan", "S Xiao"] & J Wei, X Tang, J Liu, T Luo, Y Wu, J Duan, S Xiao…\\
+        M Rakszegi, V T�th, S T�m�sk�zi, E Jaksics, A Cseh� & ["M Rakszegi", "V Tóth", "S Tömösközi", "E Jaksics", "A Cseh"] & M Rakszegi, V Tóth, S Tömösközi, E Jaksics, A Cseh…\\
+        XY Zhang, WL Chen & ["XY Zhang", "WL Chen"] & XY Zhang, WL Chen\\
+        B Larue, F Pelletier, M Festa-Bianchet, S Hamel & ["B Larue", "F Pelletier", "M Festa-Bianchet", "S Hamel"] & B Larue, F Pelletier, M Festa-Bianchet, S Hamel\\
+        JW Whitlock, PM Orwin, ZR Stahlschmidt & ["JW Whitlock", "PM Orwin", "ZR Stahlschmidt"] & JW Whitlock, PM Orwin, ZR Stahlschmidt\\
+        \hline
+    \end{tabularx}
+    \end{adjustbox}
+    \label{table:llmAuteur}
+\end{table}
+\begin{table}[h!]
+    \tiny
+    \caption{Overzicht van de URLs met OpenAi, Anthropic en Beautiful Soup.}
+    \centering
+    \begin{adjustbox}{width=1.2\textwidth,center}
+    \begin{tabularx}{\textwidth}{|X|X|X|} 
+        \hline
+        \rowcolor{lightgray}
+        OpenAI & Anthropic & Beautiful Soup \\ 
+        \hline
+        \rowcolor{lightgray}
+        \multicolumn{3}{|X|}{Link}\\ 
+        \hline
+        https://www.sciencedirect.com/science/\allowbreak article/pii/S0191886925001308 & https://www.sciencedirect.com/science/\allowbreak article/pii/S0191886925001308 & https://www.sciencedirect.com/science/\allowbreak article/abs/pii/S0191886925001308\\ 
+        https://link.springer.com/article/10.1007/\allowbreak s42729-025-02366-3 & 
+        https://link.springer.com/article/10.1007/\allowbreak s42729-025-02366-3 & https://link.springer.com/article/10.1007/\allowbreak s42729-025-02366-3\\
+        https://www.nature.com/articles/s41598-025-92904-x & https://www.nature.com/articles/s41598-025-92904-x & https://www.nature.com/articles/s41598-025-92904-x\\
+        https://www.sciencedirect.com/science/\allowbreak article/pii/S0269749125004750 & https://www.sciencedirect.com/science/\allowbreak article/pii/S0269749125004750 & https://www.sciencedirect.com/science/\allowbreak article/abs/pii/S0269749125004750\\
+        https://ieeexplore.ieee.org/abstract/\allowbreak document/10935702/ & 
+        https://ieeexplore.ieee.org/abstract/\allowbreak document/10935702/ & https://ieeexplore.ieee.org/abstract/\allowbreak document/10935702/\\
+        https://www.sciencedirect.com/science/\allowbreak article/pii/S266615432500209 & https://www.sciencedirect.com/science/\allowbreak article/pii/S2666154325002091 & https://www.sciencedirect.com/science/\allowbreak article/abs/pii/S2666154325002091\\
+        https://www.sciencedirect.com/science/\allowbreak article/pii/S0733521025000608 & https://www.sciencedirect.com/science/\allowbreak article/pii/S0733521025000608 & https://www.sciencedirect.com/science/\allowbreak article/abs/pii/S0733521025000608\\
+        https://academic.oup.com/botlinnean/\allowbreak advance-article/doi/10.1093/botlinnean/\allowbreak boaf012/8089970 & https://academic.oup.com/botlinnean/\allowbreak advance-article/doi/10.1093/botlinnean/\allowbreak boaf012/808997 & https://academic.oup.com/botlinnean/\allowbreak advance-article/doi/10.1093/botlinnean/\allowbreak boaf012/8089970\\
+        https://www.pnas.org/doi/full/10.1073/\allowbreak pnas.2417158122 & https://www.pnas.org/doi/full/10.1073/\allowbreak pnas.2417158122 & https://www.pnas.org/doi/full/10.1073/\allowbreak pnas.2417158122\\
+        https://journals.biologists.com/jeb/\allowbreak article/doi/10.1242/jeb.250210/367452 & https://journals.biologists.com/jeb/\allowbreak article/doi/10.1242/jeb.250210/367452 & https://journals.biologists.com/jeb/\allowbreak article/doi/10.1242/jeb.250210/367452\\
+        \hline
+    \end{tabularx}
+\end{adjustbox}
+    \label{table:llmUrl}
+\end{table}
+\begin{table}[h!]
+    \tiny
+    \caption{Overzicht van de tijdschriften met OpenAi, Anthropic en Beautiful Soup.}
+    \centering
+    \begin{adjustbox}{width=1.2\textwidth,center}
+    \begin{tabularx}{\textwidth}{|X|X|X|} 
+        \hline
+        \rowcolor{lightgray}
+        OpenAI & Anthropic & Beautiful Soup \\ 
+        \hline
+        \rowcolor{lightgray}
+        \multicolumn{3}{|X|}{Tijdschrift}\\ 
+        \hline
+        Personality and Individual Differences & Personality and Individual Differences & Personality and Individual Differences\\ 
+        Journal of Soil Science and� & Journal of Soil Science and Plant Nutrition & Journal of Soil Science and …\\
+        Scientific Reports & Scientific Reports & Scientific Reports\\
+        Environmental Pollution & Environmental Pollution & Environmental Pollution\\
+        IEEE Transactions on Visualization and� & IEEE Transactions on Visualization and Computer Graphics & IEEE Transactions on Visualization and …\\
+        Journal of Agriculture and� & Journal of Agriculture and Food Engineering & Journal of Agriculture and …\\
+        Journal of Cereal Science & Journal of Cereal Science & Journal of Cereal Science\\
+        Botanical Journal of the Linnean Society & Botanical Journal of the Linnean Society & Botanical Journal of the Linnean Society\\
+        Proceedings of the National� & Proceedings of the National Academy of Sciences & Proceedings of the National …\\
+        Journal of Experimental Biology & Journal of Experimental Biology & Journal of Experimental Biology\\
+        \hline
+    \end{tabularx}
+\end{adjustbox}
+    \label{table:llmTijdschrift}
+\end{table}
+\begin{table}[h!]
+    \tiny
+    \caption{Overzicht van de tekstfragmenten met OpenAi, Anthropic en Beautiful Soup.}
+    \centering
+    \begin{adjustbox}{width=1.2\textwidth,center}
+    \begin{tabularx}{\textwidth}{|X|X|X|} 
+        \hline
+        \rowcolor{lightgray}
+        OpenAI & Anthropic & Beautiful Soup \\ 
+        \hline
+        \rowcolor{lightgray}
+        \multicolumn{3}{|X|}{Tekst}\\ 
+        \hline
+        This systematic review and meta-analysis examine the association between... & This systematic review and meta-analysis examine the association between... & This systematic review and meta-analysis examine the association between…\\ 
+        Nitrogen (N) is an essential element for cereals growth and development... & Nitrogen (N) is an essential element for cereals growth and development... & Nitrogen (N) is an essential element for cereals growth and development …\\
+        � with high levels of autistic traits would have more default reports... & ... with high levels of autistic traits would have more default reports... & … with high levels of autistic traits would have more default reports …\\
+        � of salt on individual traits. Moreover, we know even less about how... & ... of salt on individual traits. Moreover, we know even less about how... & … of salt on individual traits. Moreover, we know even less about how  …\\
+        � traits directly address impression management and strategic self-... & ... traits directly address impression management and strategic self-... & … traits directly address impression management and strategic self- …\\
+        As consumer demand for high-quality meat rises, efficient and precise... & As consumer demand for high-quality meat rises, efficient and precise... & As consumer demand for high-quality meat rises, efficient and precise …\\
+        � array analysis were compared for physical, compositional and bread... & ... array analysis were compared for physical, compositional and bread... & … array analysis were compared for physical, compositional and bread …\\
+        Micromorphological traits have been extensively used for taxonomic... & Micromorphological traits have been extensively used for taxonomic... & Micromorphological traits have been extensively used for taxonomic …\\
+        � Individual life histories are characterized by the expression of... & ... Individual life histories are characterized by the expression of... & … Individual life histories are characterized by the expression of …\\
+        � -generational exposure to GBHs on a range of traits related to life... & ... -generational exposure to GBHs on a range of traits related to life... & … -generational exposure to GBHs on a range of traits related to life …\\
+        \hline
+    \end{tabularx}
+\end{adjustbox}
+    \label{table:llmTekst}
+\end{table}
+\begin{table}[h!]
+    \tiny
+    \caption{Overzicht van de titels met OpenAi, Anthropic en Beautiful Soup.}
+    \centering
+    \begin{adjustbox}{width=1.2\textwidth,center}
+    \begin{tabularx}{\textwidth}{|X|X|X|} 
+        \hline
+        \rowcolor{lightgray}
+        OpenAI & Anthropic & Beautiful Soup \\ 
+        \hline
+        \rowcolor{lightgray}
+        \multicolumn{3}{|X|}{Titel}\\ 
+        \hline
+        The role of narcissistic personality traits in bullying behavior in adolescence�A systematic review and meta-analysis & The role of narcissistic personality traits in bullying behavior in adolescence–A systematic review and meta-analysis & The role of narcissistic personality traits in bullying behavior in adolescence–A systematic review and meta-analysis\\ 
+        Exploring Nitrogen Use Efficiency in Cereals: Insight into Traits, Metabolism, and Management Strategies Under Climate Change Conditions�A Comprehensive� & Exploring Nitrogen Use Efficiency in Cereals: Insight into Traits, Metabolism, and Management Strategies Under Climate Change Conditions–A Comprehensive Review & Exploring Nitrogen Use Efficiency in Cereals: Insight into Traits, Metabolism, and Management Strategies Under Climate Change Conditions–A Comprehensive …\\
+        Task-evoked pupil responses during free-viewing of hierarchical figures in relation to autistic traits in adults & Task-evoked pupil responses during free-viewing of hierarchical figures in relation to autistic traits in adults & Task-evoked pupil responses during free-viewing of hierarchical figures in relation to autistic traits in adults\\
+        Additive effects of freshwater salinization on the predator-induced traits of larval amphibians & Additive effects of freshwater salinization on the predator-induced traits of larval amphibians & Additive effects of freshwater salinization on the predator-induced traits of larval amphibians\\
+        How Collaboration Context and Personality Traits Shape the Social Norms of Human-to-Avatar Identity Representation & How Collaboration Context and Personality Traits Shape the Social Norms of Human-to-Avatar Identity Representation & How Collaboration Context and Personality Traits Shape the Social Norms of Human-to-Avatar Identity Representation\\
+        Pork-YOLO: Automated Collection of Pork Quality Traits & Pork-YOLO: Automated Collection of Pork Quality Traits & Pork-YOLO: Automated Collection of Pork Quality Traits\\
+        Inter-and intraspecific study on compositional quality traits of diverse sets of spelt and common wheat & Inter-and intraspecific study on compositional quality traits of diverse sets of spelt and common wheat & Inter-and intraspecific study on compositional quality traits of diverse sets of spelt and common wheat\\
+        Embryo traits and their taxonomic implications in stipoid grasses (Poaceae: Stipeae) in Asia & Embryo traits and their taxonomic implications in stipoid grasses (Poaceae: Stipeae) in Asia & Embryo traits and their taxonomic implications in stipoid grasses (Poaceae: Stipeae) in Asia\\
+        Uncovering bighorn sheep life-history trajectories in multidimensional trait space & Uncovering bighorn sheep life-history trajectories in multidimensional trait space & Uncovering bighorn sheep life-history trajectories in multidimensional trait space\\
+        Multigenerational exposure to glyphosate has only modest effects on life history traits, stress tolerance, and microbiome in a field cricket & Multigenerational exposure to glyphosate has only modest effects on life history traits, stress tolerance, and microbiome in a field cricket & Multigenerational exposure to glyphosate has only modest effects on life history traits, stress tolerance, and microbiome in a field cricket\\
+        \hline
+    \end{tabularx}
+\end{adjustbox}
+    \label{table:llmTitel}
+\end{table}
+\begin{table}[h!]
+    \tiny
+    \caption{Overzicht van de jaartallen met OpenAi, Anthropic en Beautiful Soup.}
+    \centering
+    \begin{adjustbox}{width=1.2\textwidth,center}
+    \begin{tabularx}{\textwidth}{|X|X|X|} 
+        \hline
+        \rowcolor{lightgray}
+        OpenAI & Anthropic & Beautiful Soup \\ 
+        \hline
+        \rowcolor{lightgray}
+        \multicolumn{3}{|X|}{Jaar}\\ 
+        \hline
+        2025 & 2025 & 2025\\ 
+        2025 & 2025 & 2025\\
+        2025 & 2025 & 2025\\
+        2025 & 2025 & 2025\\
+        2025 & 2025 & 2025\\
+        2025 & 2025 & 2025\\
+        2025 & 2025 & 2025\\
+        2025 & 2025 & 2025\\
+        2025 & 2025 & 2025\\
+        2025 & 2025 & 2025\\
+        \hline
+    \end{tabularx}
+\end{adjustbox}
+    \label{table:llmJaar}
+\end{table}

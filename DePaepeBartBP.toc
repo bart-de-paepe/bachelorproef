@@ -1,7 +1,7 @@
 \babel@toc {dutch}{}\relax 
 \contentsline {chapter}{L\ij st van figuren}{viii}{chapter*.4}%
 \contentsline {chapter}{L\ij st van tabellen}{ix}{chapter*.5}%
-\contentsline {chapter}{Lijst van codefragmenten }{x}{section*.6}%
+\contentsline {chapter}{Lijst van codefragmenten }{xi}{section*.6}%
 \contentsline {chapter}{\numberline {1}Inleiding}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Probleemstelling}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Onderzoeksvraag}{2}{section.1.2}%
@@ -23,7 +23,7 @@
 \contentsline {subsection}{\numberline {5.2.1}Web scraping met OpenAI}{16}{subsection.5.2.1}%
 \contentsline {subsection}{\numberline {5.2.2}Web scraping met Mirascope en Anthropic}{18}{subsection.5.2.2}%
 \contentsline {subsection}{\numberline {5.2.3}Web scraping met een lokaal model}{20}{subsection.5.2.3}%
-\contentsline {section}{\numberline {5.3}Web scraping via het parsen van de DOM}{22}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Web scraping via het parsen van de DOM}{23}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Meest geschikte Web scraping}{24}{section.5.4}%
 \contentsline {chapter}{\numberline {6}Natural Language Processing}{27}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Inleiding}{27}{section.6.1}%
@@ -43,7 +43,7 @@
 \contentsline {section}{\numberline {9.2}Web scraping}{47}{section.9.2}%
 \contentsline {section}{\numberline {9.3}Relevantiescore}{47}{section.9.3}%
 \contentsline {section}{\numberline {9.4}DOI}{47}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Semantic search}{48}{section.9.5}%
+\contentsline {section}{\numberline {9.5}Semantic search}{47}{section.9.5}%
 \contentsline {chapter}{\numberline {10}Conclusie}{51}{chapter.10}%
 \contentsline {chapter}{\numberline {A}Google Scholar zoekopdracht}{53}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Zoeken in Google Scholar \blx@tocontentsinit {0}\autocite {JohnSBailey2025}}{53}{section.A.1}%
@@ -52,10 +52,12 @@
 \contentsline {section}{\numberline {A.2}E-mail alerts}{56}{section.A.2}%
 \contentsline {chapter}{\numberline {B}Overzicht Resultaten}{58}{appendix.B}%
 \contentsline {section}{\numberline {B.1}Overzicht van de VLIZ zoekresultaten}{58}{section.B.1}%
-\contentsline {chapter}{\numberline {C}Onderzoeksvoorstel}{84}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Inleiding}{84}{section.C.1}%
-\contentsline {section}{\numberline {C.2}Literatuurstudie}{86}{section.C.2}%
-\contentsline {section}{\numberline {C.3}Methodologie}{87}{section.C.3}%
-\contentsline {section}{\numberline {C.4}Verwacht resultaat, conclusie}{89}{section.C.4}%
-\contentsline {chapter}{Bibliografie}{90}{appendix*.61}%
+\contentsline {chapter}{\numberline {C}Vergelijking resultaten LLMs en Beautiful Soup}{84}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Vergelijking van de parse-resultaten met OpenAI, met Anthropic en met Beautiful Soup}{84}{section.C.1}%
+\contentsline {chapter}{\numberline {D}Onderzoeksvoorstel}{88}{appendix.D}%
+\contentsline {section}{\numberline {D.1}Inleiding}{88}{section.D.1}%
+\contentsline {section}{\numberline {D.2}Literatuurstudie}{90}{section.D.2}%
+\contentsline {section}{\numberline {D.3}Methodologie}{91}{section.D.3}%
+\contentsline {section}{\numberline {D.4}Verwacht resultaat, conclusie}{93}{section.D.4}%
+\contentsline {chapter}{Bibliografie}{94}{appendix*.67}%
 \contentsfinish 
