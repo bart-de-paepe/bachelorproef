@@ -31,6 +31,11 @@ De uitgewerkte oplossing zal daarom met volgende aspecten rekening moeten houden
     \item Kan er een score berekend worden hoe relevant elk zoekresultaat is ten opzichte van de zoekopdracht?
     \item Als er geen unieke identifier is, hoe wordt er dan gecontroleerd op duplicaten? 
 \end{itemize}
+Daarnaast moet de uitgewerkte oplossing ook zo flexibel mogelijk zijn zodat ze goed kan schalen in functie van een toenemend aantal zoekopdrachten:
+\begin{itemize}
+    \item Hoe blijft de tool overwegend onafhankelijk van third-party software?
+    \item Hoe wordt er gegarandeerd dat de tool op de bestaande hardware kan draaien? 
+\end{itemize}
 
 \section{\IfLanguageName{dutch}{Onderzoeksdoelstelling}{Research objective}}%
 \label{sec:onderzoeksdoelstelling}
@@ -55,7 +60,7 @@ In hoofdstuk~\ref{ch:stand-van-zaken} wordt een overzicht gegeven van de stand v
 
 In hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen.
 
-Dit wordt verder uitgewerkt in hoofdstuk~\ref{ch:googlescholaralert} voor het systematisch ontvangen van de meest recente publicaties. Hoofdstuk~\ref{ch:web_scraping} gaat in op het omzetten van de Google Scholar zoekresultaten in gestructureerde data. Hoofdstuk~\ref{ch:natural_language_processing} gaat over het berekenen van een relevantiescore voor elk zoekresultaat. Hoofdstuk~\ref{ch:linked_data} onderzoekt hoe voor elk zoekresultaat een unieke identificatie kan gezocht worden. Hoofdstuk~\ref{ch:semantic_search} bekijkt hoe voor elke publicatie die niet uniek identificeerbaar is de aanwezigheid van duplicaten opgespoord wordt. Hoofdstuk~\ref{ch:resultaten} past al deze methodes toe op de dataset bestaande uit alle Google Scholar alerts voor de zoekopdracht van het VLIZ verzameld tussen februari en mei 2025.
+Dit wordt verder uitgewerkt in hoofdstuk~\ref{ch:googlescholaralert} voor het systematisch ontvangen van de meest recente publicaties. Hoofdstuk~\ref{ch:web_scraping} gaat in op het omzetten van de Google Scholar zoekresultaten in gestructureerde data. Hoofdstuk~\ref{ch:natural_language_processing} gaat over het berekenen van een relevantiescore voor elk zoekresultaat. Hoofdstuk~\ref{ch:linked_data} onderzoekt hoe voor elk zoekresultaat een unieke identificatie kan gezocht worden. Hoofdstuk~\ref{ch:semantic_search} bekijkt hoe voor elke publicatie die niet uniek identificeerbaar is de aanwezigheid van duplicaten opgespoord wordt. Hoofdstuk~\ref{ch:resultaten} past al deze methodes toe op de dataset bestaande uit alle Google Scholar alerts voor de zoekopdracht van het VLIZ verzameld tussen februari en mei 2025. Er wordt gekeken naar de prestaties van de tool en die worden vergeleken met de waarden van een steekproef met data uit het verleden.
 
 % TODO: Vul hier aan voor je eigen hoofstukken, één of twee zinnen per hoofdstuk
 

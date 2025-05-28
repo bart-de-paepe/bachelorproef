@@ -115,7 +115,7 @@ Het is niet nodig om de API rechtstreeks te bevragen aangezien meerdere onafhank
     \item Habanero \autocite{Habanero2025}
     \item Crossrefapi \autocite{Crossrefapi2025}
 \end{itemize}
-Al deze bibliotheken bieden dezelfde tools en presteren gelijkaardig. Zonder bijzondere reden, behalve dat Crossref Commons ontwikkeld wordt door Crossref zelf, wordt er met Crossref Commons for Python gewerkt. De code om een sample op te vragen op basis van de titel is bijzonder compact zoals te zien in \ref{code:Crossref_commons}.
+Al deze bibliotheken bieden dezelfde tools maar in wat volgt wordt er met Crossref Commons for Python gewerkt. De code om een sample op te vragen op basis van de titel is bijzonder compact zoals te zien in \ref{code:Crossref_commons}.
 \begin{listing}[h!]
     \begin{minted}{python}
         try:
@@ -195,7 +195,7 @@ Voor elk van de 3 gevallen is er een andere verwerking nodig.
         \label{code:DOIselenium}
     \end{listing} Eenmaal gedownload kan het bestand gewoon geopend worden en doorzocht worden naar een DOI op dezelfde manier als voor PDF documenten.
 \end{itemize}
-Er is geen garantie dat de DOI op de webpagina van de publicatie gevonden wordt. Anderzijds is het ook mogelijk dat er meerdere verschillende DOIs (vb. van referenties) gevonden worden. Voor een mens is het vaak evident om te weten welke DOI dan juist is, maar voor geautomatiseerd script is daar geen context voor.
+Er is geen garantie dat de DOI op de webpagina van de publicatie gevonden wordt. Anderzijds is het ook mogelijk dat er meerdere verschillende DOIs (vb. van referenties) gevonden worden. Voor een mens is het vaak evident om te weten welke DOI dan juist is, maar voor een geautomatiseerd script is daar geen context voor.
 \section{Discussie linked data}
 De DOI kan met grote zekerheid achterhaald worden op basis van de URL of aan de hand van Crossref. In het geval van een opzoeking op de webpagina van de publicatie is de vindkans een pak kleiner. Daarom wordt de volgorde voor het opzoeken van de DOI als volgt vastgelegd in chronologische volgorde en zolang de DOI niet gevonden werd:
 \begin{enumerate}

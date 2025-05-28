@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  28 MAY 2025 16:23
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  28 MAY 2025 16:50
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2490,7 +2490,7 @@ t line 75.
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250528162314 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250528165029 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
@@ -3104,11 +3104,8 @@ pe bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-resultaten.tex:81: Misplaced alignment tab character &.
-l.81 \[https://www.vliz.be/nl/imis?module=ref&
+resultaten.tex:58: Misplaced alignment tab character &.
+l.58 \[https://www.vliz.be/nl/imis?module=ref&
                                               show=json\]
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3117,8 +3114,8 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-resultaten.tex:82: Misplaced alignment tab character &.
-l.82 \[&
+resultaten.tex:59: Misplaced alignment tab character &.
+l.59 \[&
         spcol=39,141,396,536,733,746,747,748,749,750,751,\]
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3130,9 +3127,9 @@ might try typing `S' now just to see what is salvageable.
 
 
 [47]
-resultaten.tex:89: Misplaced alignment tab character &.
-l.89 \[https://www.vliz.be/nl/imis?module=ref&
-                                              show=json\]
+resultaten.tex:64: Misplaced alignment tab character &.
+l.64 \[&
+        optionYear=after&searchYear=2024&sort=date\]
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3140,9 +3137,29 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-resultaten.tex:90: Misplaced alignment tab character &.
-l.90 \[&
-        spcol=39,141,396,536,733,746,747,748,749,750,751,\]
+resultaten.tex:64: Misplaced alignment tab character &.
+l.64 \[&optionYear=after&
+                         searchYear=2024&sort=date\]
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+resultaten.tex:64: Misplaced alignment tab character &.
+l.64 \[&optionYear=after&searchYear=2024&
+                                         sort=date\]
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+resultaten.tex:92: Misplaced alignment tab character &.
+l.92 \[https://www.vliz.be/nl/imis?module=ref&
+                                              show=json\]
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3153,9 +3170,9 @@ might try typing `S' now just to see what is salvageable.
 
 
 [48]
-resultaten.tex:95: Misplaced alignment tab character &.
-l.95 \[&
-        count=10000&start=0\]
+resultaten.tex:93: Misplaced alignment tab character &.
+l.93 \[&
+        spcol=39,141,396,536,733,746,747,748,749,750,751,\]
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3163,9 +3180,39 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-resultaten.tex:95: Misplaced alignment tab character &.
-l.95 \[&count=10000&
-                    start=0\]
+resultaten.tex:100: Misplaced alignment tab character &.
+l.100 \[https://www.vliz.be/nl/imis?module=ref&
+                                               show=json\]
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+resultaten.tex:101: Misplaced alignment tab character &.
+l.101 \[&
+         spcol=39,141,396,536,733,746,747,748,749,750,751,\]
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+resultaten.tex:106: Misplaced alignment tab character &.
+l.106 \[&
+         count=10000&start=0\]
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+resultaten.tex:106: Misplaced alignment tab character &.
+l.106 \[&count=10000&
+                     start=0\]
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3176,33 +3223,33 @@ might try typing `S' now just to see what is salvageable.
 File: ../graphics/./9_resultaten/sss.png Graphic file (type bmp)
 <../graphics/./9_resultaten/sss.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
 []|\TU/Montserrat(2)/b/n/10.95 Semantic search
  []
 
 
-Overfull \hbox (2.28085pt too wide) in paragraph at lines 137--137
+Overfull \hbox (2.28085pt too wide) in paragraph at lines 148--148
 []|[]\TU/Montserrat(1)/m/n/10.95 0.9958072900772095[]| 
  []
 
 
-Overfull \hbox (5.13881pt too wide) in paragraph at lines 137--137
+Overfull \hbox (5.13881pt too wide) in paragraph at lines 148--148
 []|[]\TU/Montserrat(1)/m/n/10.95 0.9708424806594849[]| 
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 137--137
+Underfull \hbox (badness 1454) in paragraph at lines 148--148
 \TU/Montserrat(1)/m/n/10.95 didate genes associated with flowering and maturity
 
  []
 
 
-Overfull \hbox (2.85025pt too wide) in paragraph at lines 137--137
+Overfull \hbox (2.85025pt too wide) in paragraph at lines 148--148
 []|\TU/Montserrat(1)/m/n/10.95 0.7932324409484863| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--141
+Underfull \hbox (badness 10000) in paragraph at lines 106--152
 
  []
 
@@ -3210,47 +3257,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--141
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
-[]|\TU/Montserrat(1)/m/n/10.95 gebruiker
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
-[]|\TU/Montserrat(1)/m/n/10.95 gebruiker
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
-[]|\TU/Montserrat(1)/m/n/10.95 gebruiker
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
-[]|\TU/Montserrat(1)/m/n/10.95 gebruiker
- []
-
-
-LaTeX Warning: Float too large for page by 71.50171pt on input line 168.
-
-) (conclusie.tex
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[49]
+[49]) (conclusie.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 
 [50]
 
 [51]
+
+[52]
 Hoofdstuk 10.
 
 
-[52
+[53
 
 ]) (googlescholarzoekopdracht.tex
 
-[53]
+[54]
 B\ij lage A.
 
 Overfull \hbox (17.69458pt too wide) in paragraph at lines 28--28
@@ -3279,11 +3308,11 @@ file (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/2_zoekresultaten.PNG>
 
 
-[54
+[55
 
 ]
 
-[55]
+[56]
 File: ../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG Grap
 hic file (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG>
@@ -3303,9 +3332,9 @@ or  <return>  to continue without it.
 
 
 
-[56]
-
 [57]
+
+[58]
 File: ../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG Graphic f
 ile (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG>
@@ -3314,7 +3343,7 @@ e bmp)
 <../graphics/./1_google_scholar_zoekopdracht/5_email.PNG>
 ) (llm_vergelijking.tex
 
-[58]
+[59]
 B\ij lage B.
 Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
 uage=dflt;mapping=tex-text;!
@@ -3739,11 +3768,9 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (resultaten_bijlage.tex
 
-[59
+[60
 
 ]
-
-[60]
 
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -3775,6 +3802,8 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
 
 [65]
+
+[66]
 B\ij lage C.
 
 Underfull \hbox (badness 2486) in paragraph at lines 51--51
@@ -4274,11 +4303,9 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
 
-[66
+[67
 
 ]
-
-[67]
 
 [68]
 
@@ -4327,6 +4354,8 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [90]
 
 [91]
+
+[92]
 B\ij lage D.
 (../voorstel/voorstel-inhoud.tex
 Overfull \hbox (2.63669pt too wide) in paragraph at lines 20--21
@@ -4336,14 +4365,14 @@ collecties van mariene wetenschap-
 
 
 
-[92
+[93
 
 ]
 File: images/stapsgewijs.png Graphic file (type bmp)
 <images/stapsgewijs.png>
 
 
-[93]
+[94]
 Overfull \hbox (21.94153pt too wide) in paragraph at lines 59--60
 []\TU/Montserrat(1)/m/n/10.95 Google Scholar is een zoekmachine die wetenschapp
 elijke literatuur indexeert ([]“  Google
@@ -4351,7 +4380,7 @@ elijke literatuur indexeert ([]“  Google
 
 
 
-[94]
+[95]
 Overfull \hbox (9.43324pt too wide) in paragraph at lines 67--68
 \TU/Montserrat(1)/m/n/10.95 vend, betrouwbaar en onderscheidbaar geïdentificeer
 d kunnen worden. []Chandrakar
@@ -4359,13 +4388,13 @@ d kunnen worden. []Chandrakar
 
 
 
-[95]
+[96]
 
-[96])
+[97])
 
-[97]
+[98]
 
-[98
+[99
 
 
 ]
@@ -4383,7 +4412,7 @@ at(2)/m/it/10.95 46\TU/Montserrat(1)/m/n/10.95 (1), 27–36. [][]$[][][][][] []
 
 
 
-[99]
+[100]
 DePaepeBartBP.tex:194: Misplaced alignment tab character &.
 <argument> SQL &
                 amp; NoSQL Databases
@@ -4398,7 +4427,7 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[100]
+[101]
 DePaepeBartBP.tex:194: Misplaced alignment tab character &.
 <argument> ...a extraction, analysis, conversion &
                                                    manipulation of PDF (and ...
@@ -4413,7 +4442,7 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[101]
+[102]
 Overfull \hbox (25.84052pt too wide) in paragraph at lines 194--194
 [][]\TU/Montserrat(2)/m/it/10.95 ScrapeGraphAI: You Only Scrape Once\TU/Montser
 rat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][][][][] [] [][]
@@ -4429,9 +4458,9 @@ rrat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][
 
 
 
-[102]
+[103]
 
-[103] (DePaepeBartBP.aux)
+[104] (DePaepeBartBP.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -4443,12 +4472,12 @@ Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52576 strings out of 408640
- 1078817 string characters out of 5749145
- 2429136 words of memory out of 5000000
- 74771 multiletter control sequences out of 15000+600000
- 562900 words of font info for 113 fonts, out of 8000000 for 9000
+ 52579 strings out of 408640
+ 1078937 string characters out of 5749145
+ 2430156 words of memory out of 5000000
+ 74773 multiletter control sequences out of 15000+600000
+ 562908 words of font info for 114 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,13n,131p,1256b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DePaepeBartBP.pdf (114 pages).
+Output written on DePaepeBartBP.pdf (115 pages).

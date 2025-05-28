@@ -44,22 +44,22 @@
 \contentsline {section}{\numberline {9.2}Web scraping}{47}{section.9.2}%
 \contentsline {section}{\numberline {9.3}Relevantiescore}{47}{section.9.3}%
 \contentsline {section}{\numberline {9.4}DOI}{47}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Semantic search}{47}{section.9.5}%
-\contentsline {section}{\numberline {9.6}Gebruikersfeedback}{49}{section.9.6}%
-\contentsline {chapter}{\numberline {10}Conclusie}{52}{chapter.10}%
-\contentsline {chapter}{\numberline {A}Google Scholar zoekopdracht}{54}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Zoeken in Google Scholar \blx@tocontentsinit {0}\autocite {JohnSBailey2025}}{54}{section.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}Basis zoeken}{54}{subsection.A.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}Geävanceerd zoeken}{56}{subsection.A.1.2}%
-\contentsline {section}{\numberline {A.2}E-mail alerts}{57}{section.A.2}%
-\contentsline {chapter}{\numberline {B}Vergelijking resultaten LLMs en Beautiful Soup}{59}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Vergelijking van de parse-resultaten met OpenAI, met Anthropic, met Llama3 en met Beautiful Soup}{59}{section.B.1}%
-\contentsline {chapter}{\numberline {C}Overzicht Resultaten}{66}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Overzicht van de VLIZ zoekresultaten}{66}{section.C.1}%
-\contentsline {chapter}{\numberline {D}Onderzoeksvoorstel}{92}{appendix.D}%
-\contentsline {section}{\numberline {D.1}Inleiding}{92}{section.D.1}%
-\contentsline {section}{\numberline {D.2}Literatuurstudie}{94}{section.D.2}%
-\contentsline {section}{\numberline {D.3}Methodologie}{95}{section.D.3}%
-\contentsline {section}{\numberline {D.4}Verwacht resultaat, conclusie}{97}{section.D.4}%
-\contentsline {chapter}{Bibliografie}{98}{appendix*.68}%
+\contentsline {section}{\numberline {9.5}Semantic search}{48}{section.9.5}%
+\contentsline {section}{\numberline {9.6}Gebruikersfeedback}{50}{section.9.6}%
+\contentsline {chapter}{\numberline {10}Conclusie}{53}{chapter.10}%
+\contentsline {chapter}{\numberline {A}Google Scholar zoekopdracht}{55}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Zoeken in Google Scholar \blx@tocontentsinit {0}\autocite {JohnSBailey2025}}{55}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}Basis zoeken}{55}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Geävanceerd zoeken}{57}{subsection.A.1.2}%
+\contentsline {section}{\numberline {A.2}E-mail alerts}{58}{section.A.2}%
+\contentsline {chapter}{\numberline {B}Vergelijking resultaten LLMs en Beautiful Soup}{60}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Vergelijking van de parse-resultaten met OpenAI, met Anthropic, met Llama3 en met Beautiful Soup}{60}{section.B.1}%
+\contentsline {chapter}{\numberline {C}Overzicht Resultaten}{67}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Overzicht van de VLIZ zoekresultaten}{67}{section.C.1}%
+\contentsline {chapter}{\numberline {D}Onderzoeksvoorstel}{93}{appendix.D}%
+\contentsline {section}{\numberline {D.1}Inleiding}{93}{section.D.1}%
+\contentsline {section}{\numberline {D.2}Literatuurstudie}{95}{section.D.2}%
+\contentsline {section}{\numberline {D.3}Methodologie}{96}{section.D.3}%
+\contentsline {section}{\numberline {D.4}Verwacht resultaat, conclusie}{98}{section.D.4}%
+\contentsline {chapter}{Bibliografie}{99}{appendix*.68}%
 \contentsfinish 
