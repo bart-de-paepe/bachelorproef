@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  26 MAY 2025 22:52
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  28 MAY 2025 16:23
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1927,26 +1927,26 @@ Package csquotes Info: Redefining alias 'default' -> 'dutch'.
  (DePaepeBartBP.aux)
 \openout1 = `DePaepeBartBP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
 Package biblatex Info: Trying to load language 'dutch' -> 'dutch-apa'...
 Package biblatex Info: ... file 'dutch-apa.lbx' found.
 
@@ -1973,8 +1973,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'DePaepeBartBP.bbl' found.
  (DePaepeBartBP.bbl)
-Package biblatex Info: Reference section=0 on input line 87.
-Package biblatex Info: Reference segment=0 on input line 87.
+Package biblatex Info: Reference section=0 on input line 89.
+Package biblatex Info: Reference segment=0 on input line 89.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -2015,7 +2015,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 87.
+Package hyperref Info: Link coloring ON on input line 89.
 (DePaepeBartBP.out) (DePaepeBartBP.out)
 \@outlinefile=\write6
 \openout6 = `DePaepeBartBP.out'.
@@ -2038,13 +2038,13 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 Package microtype Info: Patching varwidth to enable character protrusion.
 \MT@vwid@leftmargin=\dimen354
 \MT@vwid@rightmargin=\dimen355
-LaTeX Info: Redefining \microtypecontext on input line 87.
-Package microtype Info: Applying patch `item' on input line 87.
-Package microtype Info: Applying patch `toc' on input line 87.
-Package microtype Info: Applying patch `eqnum' on input line 87.
-Package microtype Info: Applying patch `footnote' on input line 87.
-Package microtype Info: Applying patch `verbatim' on input line 87.
-LaTeX Info: Redefining \microtypesetup on input line 87.
+LaTeX Info: Redefining \microtypecontext on input line 89.
+Package microtype Info: Applying patch `item' on input line 89.
+Package microtype Info: Applying patch `toc' on input line 89.
+Package microtype Info: Applying patch `eqnum' on input line 89.
+Package microtype Info: Applying patch `footnote' on input line 89.
+Package microtype Info: Applying patch `verbatim' on input line 89.
+LaTeX Info: Redefining \microtypesetup on input line 89.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -2055,7 +2055,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 \c@lstlisting=\count549
-Package hyperref Info: Option `pageanchor' set `false' on input line 93.
+Package hyperref Info: Option `pageanchor' set `false' on input line 95.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -2089,39 +2089,39 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 93.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (16.05293pt too wide) in paragraph at lines 104--104
+Overfull \hbox (16.05293pt too wide) in paragraph at lines 106--106
 []\TU/Montserrat(0)/b/n/24.88 Google Scholar zoekresultaten voor we-
  []
 
 
-Overfull \hbox (6.32484pt too wide) in paragraph at lines 104--104
+Overfull \hbox (6.32484pt too wide) in paragraph at lines 106--106
 \TU/Montserrat(0)/b/n/24.88 tenschappelijke projecten: linked data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 
  []
 
-Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
 File: ../graphics/hogent_logo.eps Graphic file (type eps)
 <../graphics/hogent_logo.eps>
 
@@ -2134,7 +2134,7 @@ File: ../graphics/hogent_logo.eps Graphic file (type eps)
 ]
 
 [2]
-Package hyperref Info: Option `pageanchor' set `true' on input line 105.
+Package hyperref Info: Option `pageanchor' set `true' on input line 107.
  (voorwoord.tex) (samenvatting.tex
 Underfull \hbox (badness 10000) in paragraph at lines 14--4
 
@@ -2177,7 +2177,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--4
 
 
 ])
-Overfull \hbox (40.33022pt too wide) in paragraph at lines 48--109
+Overfull \hbox (40.33022pt too wide) in paragraph at lines 48--111
 \TU/Montserrat(1)/m/n/10.95 Uiteindelijk worden al deze stappen geïntegreerd in
  een pijplijn voor het semi-automatisch
  []
@@ -2461,92 +2461,40 @@ File: ../graphics/./4_NLP/SERP.jpg Graphic file (type bmp)
 
 ]
 
-[15]
-web_scraping.tex:64: You can't use `macro parameter character #' in display mat
-h mode.
-l.64 ...e="font-size:11px;font-weight:bold;color:#
-                                                  1a0dab;vertical-align:2px"...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-web_scraping.tex:65: Missing $ inserted.
-<inserted text> 
-                $
-l.65 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-web_scraping.tex:65: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.65 
-     
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-
-Overfull \hbox (533.97617pt too wide) detected at line 65
-[] [][][][][][][] [] [][][][][] [] [][][][][][] [] [][][][][][][] [][][][][][] 
-[] [][] [][][][] [] [][][][] [] [][][][][] [][][][] [] [][][][][][] [] [][][][]
-[] [] [][] [][][][][][][][][] [] [][][][][] [] [][][][] [] [][][][][] [][][][] 
-[] [][][][][][] [] [][][][][] [][][][][] [] [][][][][][][] [][][][][][][][] [] 
-[][][][][] [] [][][][] [] [][][][][][] [] [][][][][] []
+[15] (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+)
+Overfull \hbox (57.76318pt too wide) in paragraph at lines 64--65
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-web_scraping.tex:68: You can't use `macro parameter character #' in horizontal 
-mode.
-l.68 ...alrt\_title" style="font-size:17px;color:#
-                                                  1a0dab;line-height:22px">
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Overfull \hbox (18.34286pt too wide) in paragraph at lines 68--69
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
 
 
-web_scraping.tex:72: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.72     \]
-           
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-web_scraping.tex:72: Missing $ inserted.
-<inserted text> 
-                $
-l.72     \]
-           
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-web_scraping.tex:72: Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.72     \]
-           
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
+Overfull \hbox (51.19313pt too wide) in paragraph at lines 70--71
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
 
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
-t line 73.
+t line 75.
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250526225241 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250528162314 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
-web_scraping.tex:91: Package minted Error: minted v3+ executable is not install
+web_scraping.tex:94: Package minted Error: minted v3+ executable is not install
 ed or is not added to PATH; or MiKTeX is being used with -aux-directory or -out
 put-directory without setting a TEXMF_OUTPUT_DIRECTORY environment variable.
 
@@ -2554,12 +2502,12 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91     \end{minted}
+l.94     \end{minted}
                      
 (That was another \errmessage.)
 
 
-web_scraping.tex:91: Package minted Error: Missing definition for highlighting 
+web_scraping.tex:94: Package minted Error: Missing definition for highlighting 
 style "solarized-light" (minted executable is unavailable or disabled); attempt
 ing to substitute fallback style.
 
@@ -2567,12 +2515,12 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91     \end{minted}
+l.94     \end{minted}
                      
 (That was another \errmessage.)
 
 
-web_scraping.tex:91: Package minted Error: Missing definition for highlighting 
+web_scraping.tex:94: Package minted Error: Missing definition for highlighting 
 style "default" (minted executable is unavailable or disabled); attempting to s
 ubstitute fallback style.
 
@@ -2580,19 +2528,19 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91     \end{minted}
+l.94     \end{minted}
                      
 (That was another \errmessage.)
 
 
-web_scraping.tex:91: Package minted Error: Cannot highlight code (minted execut
+web_scraping.tex:94: Package minted Error: Cannot highlight code (minted execut
 able is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91     \end{minted}
+l.94     \end{minted}
                      
 (That was another \errmessage.)
 
@@ -2601,34 +2549,34 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 91.
+(Font)              scaled to size 6.00064pt on input line 94.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 91.
+(Font)              scaled to size 5.00053pt on input line 94.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 91.
+(Font)              scaled to size 5.99936pt on input line 94.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 91.
+(Font)              scaled to size 4.99947pt on input line 94.
 
-web_scraping.tex:103: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:106: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103     \end{minted}
+l.106     \end{minted}
                       
 (That was another \errmessage.)
 
 
-web_scraping.tex:133: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:136: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133     \end{minted}
+l.136     \end{minted}
                       
 (That was another \errmessage.)
 
@@ -2651,55 +2599,55 @@ fontspec)
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
 
-web_scraping.tex:158: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:161: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.158     \end{minted}
+l.161     \end{minted}
                       
 (That was another \errmessage.)
 
 
-web_scraping.tex:173: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:176: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.173     \end{minted}
+l.176     \end{minted}
                       
 (That was another \errmessage.)
 
 
-web_scraping.tex:192: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:195: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.192     \end{minted}
+l.195     \end{minted}
                       
 (That was another \errmessage.)
 
 
-web_scraping.tex:208: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:211: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.208     \end{minted}
+l.211     \end{minted}
                       
 (That was another \errmessage.)
 
 
-Overfull \hbox (1.20126pt too wide) in paragraph at lines 147--215
+Overfull \hbox (1.20126pt too wide) in paragraph at lines 150--218
 \TU/Montserrat(1)/m/n/10.95 Mirascope []“  LLM abstractions that aren’t obstruc
 tions” ([][]2025[][]) is een gespecialiseerde
  []
@@ -2722,26 +2670,26 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [20]
 
-web_scraping.tex:251: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:254: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.251     \end{minted}
+l.254     \end{minted}
                       
 (That was another \errmessage.)
 
 
-web_scraping.tex:267: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:270: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.267     \end{minted}
+l.270     \end{minted}
                       
 (That was another \errmessage.)
 
@@ -2751,12 +2699,13 @@ l.267     \end{minted}
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+
+[22]
 File: ../graphics/./2_parse_zoekresultaat/serp-html.JPG Graphic file (type bmp)
 
 <../graphics/./2_parse_zoekresultaat/serp-html.JPG>
 
-
-[22]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2764,31 +2713,31 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [23]
 
-web_scraping.tex:302: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:305: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.302     \end{minted}
+l.305     \end{minted}
                       
 (That was another \errmessage.)
 
 
-web_scraping.tex:318: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:321: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.318     \end{minted}
+l.321     \end{minted}
                       
 (That was another \errmessage.)
 
 
-Overfull \hbox (1.47504pt too wide) in paragraph at lines 284--324
+Overfull \hbox (1.47504pt too wide) in paragraph at lines 287--327
 \TU/Montserrat(1)/m/n/10.95 De code op github []“   Web scraping Google Scholar
  SERP using Beautiful Soup” ([][]2025[][])
  []
@@ -3252,11 +3201,38 @@ Overfull \hbox (2.85025pt too wide) in paragraph at lines 137--137
 []|\TU/Montserrat(1)/m/n/10.95 0.7932324409484863| 
  []
 
-) (conclusie.tex
-Underfull \hbox (badness 10000) in paragraph at lines 95--4
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--141
 
  []
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[]|\TU/Montserrat(1)/m/n/10.95 gebruiker
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[]|\TU/Montserrat(1)/m/n/10.95 gebruiker
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[]|\TU/Montserrat(1)/m/n/10.95 gebruiker
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[]|\TU/Montserrat(1)/m/n/10.95 gebruiker
+ []
+
+
+LaTeX Warning: Float too large for page by 71.50171pt on input line 168.
+
+) (conclusie.tex
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -3265,14 +3241,16 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [49]
 
 [50]
+
+[51]
 Hoofdstuk 10.
 
 
-[51
+[52
 
 ]) (googlescholarzoekopdracht.tex
 
-[52]
+[53]
 B\ij lage A.
 
 Overfull \hbox (17.69458pt too wide) in paragraph at lines 28--28
@@ -3301,11 +3279,11 @@ file (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/2_zoekresultaten.PNG>
 
 
-[53
+[54
 
 ]
 
-[54]
+[55]
 File: ../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG Grap
 hic file (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/3_geavanceerd_zoeken.PNG>
@@ -3325,23 +3303,489 @@ or  <return>  to continue without it.
 
 
 
-[55]
-
 [56]
+
+[57]
 File: ../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG Graphic f
 ile (type bmp)
 <../graphics/./1_google_scholar_zoekopdracht/4_melding_maken.PNG>
 File: ../graphics/./1_google_scholar_zoekopdracht/5_email.PNG Graphic file (typ
 e bmp)
 <../graphics/./1_google_scholar_zoekopdracht/5_email.PNG>
+) (llm_vergelijking.tex
+
+[58]
+B\ij lage B.
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+[]|\TU/Montserrat(2)/m/n/6 [”B Larue”, ”F Pelletier”, ”M Festa-
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://link.springer.com/article/10.1007/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://link.springer.com/article/10.1007/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://link.springer.com/article/10.1007/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://www.nature.com/articles/s41598-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://www.nature.com/articles/s41598-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://www.nature.com/articles/s41598-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://ieeexplore.ieee.org/abstract/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://ieeexplore.ieee.org/abstract/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://ieeexplore.ieee.org/abstract/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://academic.oup.com/botlinnean/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+\TU/Montserrat(2)/m/n/6 advance-article/doi/10.1093/botlinnean/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://academic.oup.com/botlinnean/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+\TU/Montserrat(2)/m/n/6 advance-article/doi/10.1093/botlinnean/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://academic.oup.com/botlinnean/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+\TU/Montserrat(2)/m/n/6 advance-article/doi/10.1093/botlinnean/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://www.pnas.org/doi/full/10.1073/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://www.pnas.org/doi/full/10.1073/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://www.pnas.org/doi/full/10.1073/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://journals.biologists.com/jeb/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://journals.biologists.com/jeb/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\TU/Montserrat(2)/m/n/6 https://journals.biologists.com/jeb/
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+
+Underfull \hbox (badness 1577) in paragraph at lines 112--112
+[]|\TU/Montserrat(2)/m/n/6 IEEE Transactions on Visualization and
+ []
+
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+
+Underfull \hbox (badness 2181) in paragraph at lines 140--140
+[]|\TU/Montserrat(2)/m/n/6 As consumer demand for high-quality
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 140--140
+[]|\TU/Montserrat(2)/m/n/6 As consumer demand for high-quality
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 140--140
+[]|\TU/Montserrat(2)/m/n/6 As consumer demand for high-quality
+ []
+
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
+uage=dflt;mapping=tex-text;!
+
+Underfull \hbox (badness 2951) in paragraph at lines 168--168
+[]|\TU/Montserrat(2)/m/n/6 How Collaboration Context and Perso-
+ []
+
+
+Underfull \hbox (badness 6675) in paragraph at lines 168--168
+\TU/Montserrat(2)/m/n/6 nality Traits Shape the Social Norms
+ []
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 168--168
+[]|\TU/Montserrat(2)/m/n/6 How Collaboration Context and Perso-
+ []
+
+
+Underfull \hbox (badness 6675) in paragraph at lines 168--168
+\TU/Montserrat(2)/m/n/6 nality Traits Shape the Social Norms
+ []
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 168--168
+[]|\TU/Montserrat(2)/m/n/6 How Collaboration Context and Perso-
+ []
+
+
+Underfull \hbox (badness 6675) in paragraph at lines 168--168
+\TU/Montserrat(2)/m/n/6 nality Traits Shape the Social Norms
+ []
+
+
+Underfull \hbox (badness 6110) in paragraph at lines 168--168
+[]|\TU/Montserrat(2)/m/n/6 Multigenerational exposure to glypho-
+ []
+
+
+Underfull \hbox (badness 6110) in paragraph at lines 168--168
+[]|\TU/Montserrat(2)/m/n/6 Multigenerational exposure to glypho-
+ []
+
+
+Underfull \hbox (badness 6110) in paragraph at lines 168--168
+[]|\TU/Montserrat(2)/m/n/6 Multigenerational exposure to glypho-
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 ) (resultaten_bijlage.tex
 
-[57]
-B\ij lage B.
+[59
 
-Underfull \hbox (badness 1831) in paragraph at lines 76--76
-[]|\TU/Montserrat(1)/m/n/10.95 titel: Picturing plankton: Complementing net‐bas
-ed
+]
+
+[60]
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 26.66998pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.66998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
+
+[61]
+
+[62]
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 26.66998pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.66998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
+
+[63]
+
+[64]
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 26.66998pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.66998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
+
+[65]
+B\ij lage C.
+
+Underfull \hbox (badness 2486) in paragraph at lines 51--51
+[]|\TU/Montserrat(2)/b/n/10.95 titel\TU/Montserrat(1)/m/n/10.95 : Unravelling t
+he intestinal microbiome of killer
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 76--76
+[]|\TU/Montserrat(2)/b/n/10.95 titel\TU/Montserrat(1)/m/n/10.95 : Picturing pla
+nkton: Complementing net‐based
  []
 
 
@@ -3535,18 +3979,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 3343) in paragraph at lines 151--151
-[]|\TU/Montserrat(1)/m/n/10.95 titel: ”Roelof van Gelder, De koopman van Kanton
-.
+Underfull \hbox (badness 2772) in paragraph at lines 151--151
+[]|\TU/Montserrat(2)/b/n/10.95 titel\TU/Montserrat(1)/m/n/10.95 : ”Roelof van G
+elder, De koopman van Kanton.
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (2.03154pt too wide) in paragraph at lines 176--176
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/imisdocs/publications/
-411844.pdf| 
+Overfull \hbox (4.1668pt too wide) in paragraph at lines 176--176
+[]|\TU/Montserrat(2)/b/n/10.95 link\TU/Montserrat(1)/m/n/10.95 : https://www.vl
+iz.be/imisdocs/publications/411844.pdf| 
  []
 
 
@@ -3559,9 +4003,9 @@ LaTeX Warning: Float too large for page by 21.67635pt on input line 220.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 3312) in paragraph at lines 260--260
-[]|\TU/Montserrat(1)/m/n/10.95 tekst: Allelopathy refers to the biochemical int
-erac-
+Underfull \hbox (badness 2503) in paragraph at lines 260--260
+[]|\TU/Montserrat(2)/b/n/10.95 tekst\TU/Montserrat(1)/m/n/10.95 : Allelopathy r
+efers to the biochemical interac-
  []
 
 
@@ -3582,27 +4026,21 @@ LaTeX Warning: Float too large for page by 24.94026pt on input line 304.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--344
-[]|\TU/Montserrat(1)/m/n/10.95 titel: Bioactive phenolic compounds in red algae
-
+Underfull \hbox (badness 7203) in paragraph at lines 344--344
+[]|\TU/Montserrat(2)/b/n/10.95 titel\TU/Montserrat(1)/m/n/10.95 : Bioactive phe
+nolic compounds in red algae
  []
 
 
-Underfull \hbox (badness 4699) in paragraph at lines 344--344
-\TU/Montserrat(1)/m/n/10.95 (Rhodophyta): Ecological variation and their poten-
-
- []
-
-
-LaTeX Warning: Float too large for page by 57.58018pt on input line 346.
+LaTeX Warning: Float too large for page by 41.26022pt on input line 346.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 369--369
-[]|\TU/Montserrat(1)/m/n/10.95 tekst: The growing global population and rising 
-life
+Underfull \hbox (badness 1354) in paragraph at lines 369--369
+[]|\TU/Montserrat(2)/b/n/10.95 tekst\TU/Montserrat(1)/m/n/10.95 : The growing g
+lobal population and rising life
  []
 
 
@@ -3679,24 +4117,30 @@ you left one out. Proceed, with fingers crossed.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+Overfull \hbox (0.67375pt too wide) in paragraph at lines 436--436
+[]|\TU/Montserrat(2)/b/n/10.95 link\TU/Montserrat(1)/m/n/10.95 : https://www.vl
+iz.be/imisdocs/publications/411801.pdf| 
+ []
+
+
 LaTeX Warning: Float too large for page by 5.35638pt on input line 438.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (0.75038pt too wide) in paragraph at lines 461--461
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/imisdocs/publications/
-411845.pdf| 
+Overfull \hbox (2.88564pt too wide) in paragraph at lines 461--461
+[]|\TU/Montserrat(2)/b/n/10.95 link\TU/Montserrat(1)/m/n/10.95 : https://www.vl
+iz.be/imisdocs/publications/411845.pdf| 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (1.714pt too wide) in paragraph at lines 486--486
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/imisdocs/publications/
-411800.pdf| 
+Overfull \hbox (3.84926pt too wide) in paragraph at lines 486--486
+[]|\TU/Montserrat(2)/b/n/10.95 link\TU/Montserrat(1)/m/n/10.95 : https://www.vl
+iz.be/imisdocs/publications/411800.pdf| 
  []
 
 
@@ -3745,12 +4189,6 @@ Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-Underfull \hbox (badness 1092) in paragraph at lines 528--528
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://researchportal.vub.be/en/publicati
-ons/trace-
- []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 528--528
@@ -3775,9 +4213,9 @@ LaTeX Warning: Float too large for page by 70.63623pt on input line 530.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (0.88179pt too wide) in paragraph at lines 553--553
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/imisdocs/publications/
-411842.pdf| 
+Overfull \hbox (3.01704pt too wide) in paragraph at lines 553--553
+[]|\TU/Montserrat(2)/b/n/10.95 link\TU/Montserrat(1)/m/n/10.95 : https://www.vl
+iz.be/imisdocs/publications/411842.pdf| 
  []
 
 
@@ -3787,9 +4225,30 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (1.70305pt too wide) in paragraph at lines 603--603
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/imisdocs/publications/
-411840.pdf| 
+Overfull \hbox (3.8383pt too wide) in paragraph at lines 603--603
+[]|\TU/Montserrat(2)/b/n/10.95 link\TU/Montserrat(1)/m/n/10.95 : https://www.vl
+iz.be/imisdocs/publications/411840.pdf| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (1.15553pt too wide) in paragraph at lines 653--653
+[]|\TU/Montserrat(2)/b/n/10.95 link\TU/Montserrat(1)/m/n/10.95 : https://www.vl
+iz.be/imisdocs/publications/412132.pdf| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (1.00227pt too wide) in paragraph at lines 678--678
+[]|\TU/Montserrat(2)/b/n/10.95 link\TU/Montserrat(1)/m/n/10.95 : https://www.vl
+iz.be/imisdocs/publications/412133.pdf| 
  []
 
 
@@ -3802,18 +4261,9 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (1.8235pt too wide) in paragraph at lines 753--753
-[]|\TU/Montserrat(1)/m/n/10.95 link: https://www.vliz.be/imisdocs/publications/
-412276.pdf| 
+Overfull \hbox (3.95876pt too wide) in paragraph at lines 753--753
+[]|\TU/Montserrat(2)/b/n/10.95 link\TU/Montserrat(1)/m/n/10.95 : https://www.vl
+iz.be/imisdocs/publications/412276.pdf| 
  []
 
 
@@ -3822,27 +4272,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (llm_vergelijking.tex
+)
 
-[58
+[66
 
 ]
-
-[59]
-
-[60]
-
-[61]
-
-[62]
-
-[63]
-
-[64]
-
-[65]
-
-[66]
 
 [67]
 
@@ -3877,450 +4311,22 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [82]
 
 [83]
-B\ij lage C.
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
 
-Underfull \hbox (badness 2744) in paragraph at lines 53--53
-[]|\TU/Montserrat(2)/m/n/6 [”JW Whitlock”, ”PM Orwin”, ”ZR Stahlsch-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://link.springer.com/article/10.1007/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://link.springer.com/article/10.1007/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://link.springer.com/article/10.1007/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://www.nature.com/articles/s41598-025-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://www.nature.com/articles/s41598-025-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://www.nature.com/articles/s41598-025-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://ieeexplore.ieee.org/abstract/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://ieeexplore.ieee.org/abstract/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://ieeexplore.ieee.org/abstract/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://www.sciencedirect.com/science/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://academic.oup.com/botlinnean/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-\TU/Montserrat(2)/m/n/6 advance-article/doi/10.1093/botlinnean/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://academic.oup.com/botlinnean/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-\TU/Montserrat(2)/m/n/6 advance-article/doi/10.1093/botlinnean/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://academic.oup.com/botlinnean/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-\TU/Montserrat(2)/m/n/6 advance-article/doi/10.1093/botlinnean/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://www.pnas.org/doi/full/10.1073/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://www.pnas.org/doi/full/10.1073/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://www.pnas.org/doi/full/10.1073/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://journals.biologists.com/jeb/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://journals.biologists.com/jeb/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\TU/Montserrat(2)/m/n/6 https://journals.biologists.com/jeb/
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no � in font Montserrat Regular/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-
-Underfull \hbox (badness 2277) in paragraph at lines 167--167
-\TU/Montserrat(2)/m/n/6 Insight into Traits, Metabolism, and Mana-
- []
-
-
-Underfull \hbox (badness 3492) in paragraph at lines 167--167
-\TU/Montserrat(2)/m/n/6 gement Strategies Under Climate Change
- []
-
-
-Underfull \hbox (badness 2277) in paragraph at lines 167--167
-\TU/Montserrat(2)/m/n/6 Insight into Traits, Metabolism, and Mana-
- []
-
-
-Underfull \hbox (badness 3492) in paragraph at lines 167--167
-\TU/Montserrat(2)/m/n/6 gement Strategies Under Climate Change
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
-[]|\TU/Montserrat(2)/m/n/6 Task-evoked pupil responses during free-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
-[]|\TU/Montserrat(2)/m/n/6 Task-evoked pupil responses during free-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
-[]|\TU/Montserrat(2)/m/n/6 Task-evoked pupil responses during free-
- []
-
-
-Underfull \hbox (badness 1803) in paragraph at lines 167--167
-[]|\TU/Montserrat(2)/m/n/6 How Collaboration Context and Personality
- []
-
-
-Underfull \hbox (badness 1803) in paragraph at lines 167--167
-[]|\TU/Montserrat(2)/m/n/6 How Collaboration Context and Personality
- []
-
-
-Underfull \hbox (badness 1803) in paragraph at lines 167--167
-[]|\TU/Montserrat(2)/m/n/6 How Collaboration Context and Personality
- []
-
-
-Underfull \hbox (badness 5939) in paragraph at lines 167--167
-[]|\TU/Montserrat(2)/m/n/6 Pork-YOLO: Automated Collection of Pork
- []
-
-
-Underfull \hbox (badness 5939) in paragraph at lines 167--167
-[]|\TU/Montserrat(2)/m/n/6 Pork-YOLO: Automated Collection of Pork
- []
-
-
-Underfull \hbox (badness 5939) in paragraph at lines 167--167
-[]|\TU/Montserrat(2)/m/n/6 Pork-YOLO: Automated Collection of Pork
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-)
-
-[84
-
-]
-
-
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 26.66998pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.66998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
+[84]
 
 [85]
 
 [86]
 
-
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 26.66998pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.66998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
-
 [87]
+
+[88]
+
+[89]
+
+[90]
+
+[91]
 B\ij lage D.
 (../voorstel/voorstel-inhoud.tex
 Overfull \hbox (2.63669pt too wide) in paragraph at lines 20--21
@@ -4330,14 +4336,14 @@ collecties van mariene wetenschap-
 
 
 
-[88
+[92
 
 ]
 File: images/stapsgewijs.png Graphic file (type bmp)
 <images/stapsgewijs.png>
 
 
-[89]
+[93]
 Overfull \hbox (21.94153pt too wide) in paragraph at lines 59--60
 []\TU/Montserrat(1)/m/n/10.95 Google Scholar is een zoekmachine die wetenschapp
 elijke literatuur indexeert ([]“  Google
@@ -4345,7 +4351,7 @@ elijke literatuur indexeert ([]“  Google
 
 
 
-[90]
+[94]
 Overfull \hbox (9.43324pt too wide) in paragraph at lines 67--68
 \TU/Montserrat(1)/m/n/10.95 vend, betrouwbaar en onderscheidbaar geïdentificeer
 d kunnen worden. []Chandrakar
@@ -4353,23 +4359,23 @@ d kunnen worden. []Chandrakar
 
 
 
-[91]
+[95]
 
-[92])
+[96])
 
-[93]
+[97]
 
-[94
+[98
 
 
 ]
-Overfull \hbox (17.71294pt too wide) in paragraph at lines 192--192
+Overfull \hbox (17.71294pt too wide) in paragraph at lines 194--194
 [][]\TU/Montserrat(1)/m/n/10.95 Havrlant, L., & Kreinovich, V. (2017). A simple
  probabilistic explanation of term frequency-
  []
 
 
-Overfull \hbox (3.97876pt too wide) in paragraph at lines 192--192
+Overfull \hbox (3.97876pt too wide) in paragraph at lines 194--194
 \TU/Montserrat(1)/m/n/10.95 this explanation). \TU/Montserrat(2)/m/it/10.95 Int
 ernational Journal of General Systems\TU/Montserrat(1)/m/n/10.95 , \TU/Montserr
 at(2)/m/it/10.95 46\TU/Montserrat(1)/m/n/10.95 (1), 27–36. [][]$[][][][][] []
@@ -4377,11 +4383,11 @@ at(2)/m/it/10.95 46\TU/Montserrat(1)/m/n/10.95 (1), 27–36. [][]$[][][][][] []
 
 
 
-[95]
-DePaepeBartBP.tex:192: Misplaced alignment tab character &.
+[99]
+DePaepeBartBP.tex:194: Misplaced alignment tab character &.
 <argument> SQL &
                 amp; NoSQL Databases
-l.192 \printbibliography[heading=bibintoc]
+l.194 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -4392,11 +4398,11 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[96]
-DePaepeBartBP.tex:192: Misplaced alignment tab character &.
+[100]
+DePaepeBartBP.tex:194: Misplaced alignment tab character &.
 <argument> ...a extraction, analysis, conversion &
                                                    manipulation of PDF (and ...
-l.192 \printbibliography[heading=bibintoc]
+l.194 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -4407,15 +4413,15 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[97]
-Overfull \hbox (25.84052pt too wide) in paragraph at lines 192--192
+[101]
+Overfull \hbox (25.84052pt too wide) in paragraph at lines 194--194
 [][]\TU/Montserrat(2)/m/it/10.95 ScrapeGraphAI: You Only Scrape Once\TU/Montser
 rat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][][][][] [] [][]
 [] [] [][][][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (39.97581pt too wide) in paragraph at lines 192--192
+Overfull \hbox (39.97581pt too wide) in paragraph at lines 194--194
 [][]\TU/Montserrat(2)/m/it/10.95 Tips for using the Crossref REST API\TU/Montse
 rrat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][
 ][][][] [] [][][] [] [][][][][][][][][][][][][] []
@@ -4423,26 +4429,26 @@ rrat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][
 
 
 
-[98]
+[102]
 
-[99] (DePaepeBartBP.aux)
+[103] (DePaepeBartBP.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
-(rerunfilecheck)             Checksum: 04BE11F35064B7D6E50E13E7ECEE8AE7;9784.
+(rerunfilecheck)             Checksum: ED07164A806A9CF4AFFCC3BBCFC55ED7;10199.
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52328 strings out of 408640
- 1075752 string characters out of 5749145
- 2425960 words of memory out of 5000000
- 74529 multiletter control sequences out of 15000+600000
- 562732 words of font info for 112 fonts, out of 8000000 for 9000
+ 52576 strings out of 408640
+ 1078817 string characters out of 5749145
+ 2429136 words of memory out of 5000000
+ 74771 multiletter control sequences out of 15000+600000
+ 562900 words of font info for 113 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,13n,131p,1256b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DePaepeBartBP.pdf (110 pages).
+Output written on DePaepeBartBP.pdf (114 pages).

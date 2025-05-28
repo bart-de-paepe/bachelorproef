@@ -2,7 +2,7 @@
 %% Methodologie
 %%=============================================================================
 
-\chapter{\IfLanguageName{dutch}{Resultaten}{Resultaten}}%
+\chapter{\IfLanguageName{dutch}{Resultaten en discussie}{Resultaten en discussie}}%
 \label{ch:resultaten}
 
 %% TODO: In dit hoofstuk geef je een korte toelichting over hoe je te werk bent
@@ -138,3 +138,31 @@ Alle gevonden scores liggen onder de 0.9. Dat is de threshold die empirisch bepa
     \label{table:empirisch}
 \end{table}
 Bijgevolg is er geen enkel duplicaat aanwezig tussen de zoekresultaten.
+\section{Gebruikersfeedback}
+Er werd aan 5 gebruikers van de tool gevraagd om 2 vragen te beantwoorden:
+\begin{itemize}
+    \item Is de tool een verbetering ten opzichte van de manuele verwerking van de Google Scholar alerts?
+    \item Gaan de publicaties uit de Google Scholar alerts nu sneller verwerkt worden dankzij de tool?
+\end{itemize}
+2 gebruikers deelden hun feedback zoals te zien is in tabel \ref{table:gebruikersfeedback}.
+\begin{table}[h!]
+    \caption{gebruikersfeedback}
+    \centering
+    \begin{tabularx}{\textwidth}{|p{2cm}|X|} 
+        \hline
+        \rowcolor{lightgray}
+        \multicolumn{2}{|X|}{\textbf{Is de tool een verbetering ten opzichte van de manuele verwerking van de Google Scholar alerts?}} \\
+        \hline
+        gebruiker 1 &\enquote{Ja, collega's hadden elk eigen Scholar alerts ingesteld die naar hun persoonlijke mailbox werden gestuurd afhankelijk van het project waarop zij werken. Deze mails werden vaak rechtstreeks doorgestuurd naar de bib die dan afhankelijk van de verstuurder de collectie bepalen en op zoek gingen of de publicatie interessant is voor IMIS en deze nog niet in IMIS beschikbaar is.
+        Het verzamelen van deze meldingen in 1 mailbox die automatisch wat pre-processing uitvoert en een handige lijst samenstelt zal de last voor de bib sterk verminderen.}\\
+        gebruiker 2&\enquote{De tool probeert een eerste antwoord te bieden aan een van de grotere actuele problemen binnen wetenschappelijke instellingen: het geautomatiseerd binnentrekken van een gefilterde set zoekresultaten van publicaties. Binnen onze instelling VLIZ bestaat deze filter voornamelijk uit vooraf ingestelde Google Scholar alerts, die vooralsnog manueel verwerkt dienden te worden. De verdienste bestaat erin een werkbare tool te maken voor de meest omvangrijke subset: wetenschappelijke papers met een DOI.}\\
+        \hline
+        \rowcolor{lightgray}
+        \multicolumn{2}{|X|}{\textbf{Gaan de publicaties uit de Google Scholar alerts nu sneller verwerkt worden dankzij de tool?}} \\
+        \hline
+        gebruiker 1&\enquote{Minder handmatig werk zorgt enerzijds voor een snellere inplanning en minder tegenopzicht om het werk aan te pakken. In plaats van afzonderlijke mails worden alle alerts mooi samengevoegd in een cleane interface. Een groot deel van het manueel werk wordt nu opgevangen door de tool, nakijken op duplicaten, tot welke collectie behoort deze publicatie, semiautomatische invoer. Hierdoor wordt ook veel tijd bespaard.}\\
+        gebruiker 2&\enquote{Een systeem die de papers na voldoende controle op relevantie en aanwezigheid in onze catalogus IMIS binnentrekt. Hier zit een eerste tijdsbesparing voor ons. We moeten niet meer (altijd) nagaan of de match klopt, en we moeten de papers dus niet (altijd) meer openen. In het vervolgtraject worden de DOIs via cross-ref geïmporteerd, waardoor we reeds gedeeltelijk ingevoerde publicaties kunnen verwerken in ons invoerscherm (IMIS-input) die bovendien reeds de juiste labels kregen toegewezen. Ook deze tweede stap houdt een enorme tijdsbesparing in. Op jaarbasis gaat het over 1500 tot 2000 publicaties over de verschillende projecten heen die anders volledig manueel moeten worden ingevoerd. Ruim geschat is dit een arbeidsinvestering van ongeveer 5-6 maand VTE op een jaar die nu sterk gereduceerd wordt. Binnen dit proces verschuift de klemtoon bij de bibliotheek nu naar validatie, en het invoeren van de lastigere papers die geen DOI hebben.}\\
+        \hline
+    \end{tabularx}
+    \label{table:gebruikersfeedback}
+\end{table}
