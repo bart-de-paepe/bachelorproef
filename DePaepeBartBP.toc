@@ -43,7 +43,7 @@
 \contentsline {section}{\numberline {9.1}Inleiding}{46}{section.9.1}%
 \contentsline {section}{\numberline {9.2}Web scraping}{47}{section.9.2}%
 \contentsline {section}{\numberline {9.3}Relevantiescore}{47}{section.9.3}%
-\contentsline {section}{\numberline {9.4}DOI}{47}{section.9.4}%
+\contentsline {section}{\numberline {9.4}DOI}{48}{section.9.4}%
 \contentsline {section}{\numberline {9.5}Semantic search}{48}{section.9.5}%
 \contentsline {section}{\numberline {9.6}Gebruikersfeedback}{50}{section.9.6}%
 \contentsline {chapter}{\numberline {10}Conclusie}{53}{chapter.10}%

@@ -111,13 +111,13 @@ Dan kan een titel opgezocht worden zoals getoond wordt in codefragment \ref{code
     \label{code:Chromaquery}
 \end{listing}
 \\
-Er werd een succesvolle test gedaan waarbij de titel van 9 zoekresultaten opgezocht werd tussen een willekeurige selectie van titels uit IMIS. Bij wijze van proef werd de titel van één van de zoekresultaten toegevoegd aan de selectie. Semantic search met Chroma identificeert het zoekresultaat in de selectie zoals te zien is in figuur \ref{fig:Chroma}.
+Er werd een succesvolle test gedaan waarbij de titel van 9 zoekresultaten opgezocht werd tussen een willekeurige selectie van titels uit IMIS. Bij wijze van proef werd de titel van één van de zoekresultaten toegevoegd aan de selectie. Semantic search met Chroma identificeert het zoekresultaat in de selectie zoals te zien is in figuur \ref{fig:Chroma}.\\
 \begin{figure}
     \centering
     \includegraphics[width=1.0\textwidth]{./5_semantic_search/chroma-cosine-score.jpg}
     \caption[Chroma resultaat.]{\label{fig:Chroma}Chroma resultaat.}
 \end{figure}
-Deze oplossing voegt Chroma toe als database naast MongoDB die nodig is voor de Web scraping. Het zou beter zijn indien de embeddings ook in MongoDB opgeslagen kunnen worden. Dat wordt verder onderzocht.
+Maar deze oplossing voegt Chroma toe als database naast MongoDB die nodig is voor de Web scraping. Het zou beter zijn indien de embeddings ook in MongoDB opgeslagen kunnen worden. Dat wordt verder onderzocht.
 \section{MongoDB Atlas}
 Atlas Vector Search \autocite{Mongodbvectorsearch2025} laat toe om de embeddings tezamen op te slaan met de originele data waar ze van afgeleid zijn.\\
 De online documentatie \textcite{Usemongodbvectorsearch2025} beschrijft stap voor stap hoe een semantic search met Atlas Vector Search lokaal uitgevoerd kan worden. 

@@ -28,7 +28,7 @@
 \section{Inleiding}
 De web scraping leverde gegevens zoals titel, auteurs, naam van tijdschrift en jaartal van de publicatie op. Deze informatie heeft echter geen garantie van uniciteit. Dat is te wijten aan mogelijke varianten (zoals bijvoorbeeld afkortingen) in de titel, auteurs en naam van tijdschriften.\\
 Nochtans moet een publicatie uniek geïdentificeerd kunnen worden om uit te sluiten dat er reeds duplicaten in IMIS zitten.
-De DOI vormt de unieke indentifier van elke publicatie. Er zal getracht worden om deze voor elke publicatie op te zoeken. Hiervoor worden 3 afzonderlijke bronnen geraadpleegd:
+De DOI vormt de unieke indentifier van elke publicatie. Voor elke publicatie wordt de DOI opgezocht aan de hand van 3 afzonderlijke bronnen:
 \begin{itemize}
     \item In de URL van de link naar de originele publicatie (zie figuur \ref{fig:DOIurl})
     \item Aan de hand van een opzoeking in Crossref op basis van de titel
@@ -203,4 +203,5 @@ De DOI kan met grote zekerheid achterhaald worden op basis van de URL of aan de 
     \item Aan de hand van een opzoeking in Crossref op basis van de titel
     \item Op de originele webpagina van de publicatie
 \end{enumerate}
+Tenslotte heeft niet elke publicatie een DOI. Het kan dus zijn dat de zoektocht naar de DOI niets oplevert. Voor die gevallen is de volgende stap in hoofdstuk~\ref{ch:semantic_search} belangrijk.
 

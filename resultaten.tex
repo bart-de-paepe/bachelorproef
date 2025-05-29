@@ -26,8 +26,8 @@
 %% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
 %% en geef het een gepaste titel.
 \section{Inleiding}
-De Google Scholar (GS) alerts leverden 23 notificatie e-mails met zoekresultaten op voor de VLIZ zoekopdracht (zie hoofdstuk \ref{ch:googlescholaralert}) sinds 1 februari 2025 tot 16 mei 2025.\\
-Figuur \ref{fig:GSAlertsTimeline} toont de tijdslijn van de GS alerts ontvangen tijdens deze tijdsspanne.
+Alle methodes uit de voorgaande hoofdstukken worden hier toegepast op de Google Scholar (GS) alerts voor de VLIZ zoekopdracht (zie hoofdstuk \ref{ch:googlescholaralert}) sinds 1 februari 2025 tot 16 mei 2025.
+Figuur \ref{fig:GSAlertsTimeline} toont de tijdslijn van de 23 GS alerts die verkregen werden tijdens deze tijdsspanne.
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\textwidth]{./9_resultaten/GS_alerts_timeline.png}
@@ -36,7 +36,7 @@ Figuur \ref{fig:GSAlertsTimeline} toont de tijdslijn van de GS alerts ontvangen 
 Een volledig overzicht van alle resultaten na web scraping, natural language processing, Crossref en semantic search is weergegeven in bijlage \ref{ch:overzicht_resultaten}.
 
 \section{Web scraping}
-Titel, link en tekst worden systematisch goed gevonden door de scraping. Voor auteurs, tijdschrift en jaartal is dat beduidend minder het geval. De reden daarvoor is dat deze 3 laatste parameters binnen dezelfde tag staan en gescheiden worden door specifieke karakters. Dat maakt het een pak moeilijker voor de scraper om die informatie te  ontleden, vooral in het geval wanneer 1 of 2 van die gegevens ook ontbreken in het zoekresultaat zoals te zien is in figuur \ref{fig:GSauteurtijdschriftjaartal}.
+Titel, link en tekst worden systematisch goed gevonden door de scraping. Voor auteurs, tijdschrift en jaartal is dat beduidend minder het geval. Slechts 18\% van de resultaten zijn volledig. De reden daarvoor is dat deze 3 laatste parameters vaak ontbreken zoals te zien is in figuur \ref{fig:GSauteurtijdschriftjaartal}. Doordat ze binnen dezelfde HTML tag staan en gescheiden worden door specifieke karakters, is het in die gevallen voor de parser moeilijk om de data te ontleden.
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\textwidth]{./9_resultaten/GS_alerts_auteurtijdschriftjaartal.jpg}
@@ -44,7 +44,7 @@ Titel, link en tekst worden systematisch goed gevonden door de scraping. Voor au
 \end{figure}
 
 \section{Relevantiescore}
-De relevantiescore werd berekend op basis van het voorkomen van de zoektermen in de tekst. Op die manier vallen de zoekresultaten waarin de zoektermen niet voorkomen onmiddellijk op door hun waarde 0 zoals te zien is in figuur  \ref{fig:GSrelevantie}.
+Figuur \ref{fig:GSrelevantie} toont de relevantiescore voor elk zoekresultaat. De zoekresultaten waarin de zoekopdracht niet voorkomt, vallen onmiddellijk op door hun waarde 0. Dit dient als een indicator zodat manuele controle zich kan richten tot voornamelijk die gevallen.
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\textwidth]{./9_resultaten/GS_alerts_relevantiescore.png}
@@ -52,9 +52,10 @@ De relevantiescore werd berekend op basis van het voorkomen van de zoektermen in
 \end{figure}
 
 \section{DOI}
-Het automatisch opzoeken van de DOI is de grootste toegevoegde waarde van de tool zoals blijkt uit de gebruikersfeedback verder in dit hoofdstuk. Om dit pluspunt te valoriseren wordt data uit IMIS verwerkt met de tool. Vervolgens wordt de aanwezigheid van de DOI vergeleken tussen IMIS en de resultaten van de tool.\\
+\label{discussiedoi}
+Het automatisch opzoeken van de DOI is de grootste toegevoegde waarde van de tool zoals blijkt uit de gebruikersfeedback in hoofdstuk~\ref{gebruikersfeedback}. Om dit pluspunt te valoriseren wordt data uit IMIS verwerkt met de tool. Vervolgens wordt de aanwezigheid van de DOI vergeleken tussen IMIS en de resultaten van de tool.\\
 Daarvoor wordt er een steekproef uit IMIS genomen van alle data sinds begin 2025 tot op heden.
-De overeenkomstige query waarbij ``spcol'' alle mogelijke collecties binnen IMIS zijn die te maken hebben met het VLIZ (de zoekterm van de GS alert):
+De overeenkomstige query waarbij ``spcol'' alle mogelijke collecties binnen IMIS zijn die te maken hebben met het VLIZ (de zoekopdracht van de GS alert):
 \[https://www.vliz.be/nl/imis?module=ref&show=json\]
 \[&spcol=39,141,396,536,733,746,747,748,749,750,751,\]
 \[752,753,754,755,756,757,758,759,760,761,762,763,764,\]
@@ -68,8 +69,11 @@ Dat levert op heden 917 records op die in twee verzamelingen onderverdeeld worde
     \item 633 records (69\%) zonder DOI
 \end{itemize}
 De verwerking van de data uit IMIS leverde voor 32\% van de gevallen een DOI op.
-Voor de groep ``met DOI'' vindt de tool voor alle records eveneens de DOI.
-Voor de groep ``zonder DOI'' vindt de tool in 1,2\% van de gevallen wel de DOI.\\
+\begin{itemize}
+    \item Voor de groep ``met DOI'' vindt de tool voor alle records eveneens de DOI.
+    \item Voor de groep ``zonder DOI'' vindt de tool in 1,2\% van de gevallen wel de DOI.
+\end{itemize}
+\\\\
 De verwerking van de GS alerts leverde voor 48\% van de gevallen een DOI op zoals te zien is in tabel \ref{table:statistieken_linked_data}.
 \begin{table}[h!]
     \caption{Statistieken Linked data}
@@ -119,8 +123,8 @@ In figuur \ref{fig:GSsss} is te zien dat de semantic search score toeneemt in fu
     \includegraphics[width=0.8\textwidth]{./9_resultaten/sss.png}
     \caption[Semantic search score vs. number of titles.]{\label{fig:GSsss}Semantic search score vs. number of titles.}
 \end{figure}
-Na verwerking is de Semantic search score de hoogste waarde van alle batches.\\\\
-Alle gevonden scores van de GS alerts liggen onder de 0.9. Dat is de threshold die empirisch bepaald werd om te beslissen of een titel reeds in IMIS zit (zie tabel \ref{table:empirisch}).\\
+Na verwerking is de semantic search score de hoogste waarde van alle batches.\\\\
+De threshold om te beslissen of een titel reeds in IMIS zit, wordt empirisch bepaald (zie tabel \ref{table:empirisch}). De tabel bevat 12 titels waarvoor telkens de semantic search score berekend werd ten opzichte van de eerste record. Rijen 2 tot en met 8 bevatten variaties van de titel uit rij 1 en zijn bedoeld om representatief te zijn voor de oorspronkelijke titel. Deze rijen scoren hoger dan 0.9. Rijen 9 tot en met 12 bevatten titels die sterk overeenkomen met de titel uit rij 1, maar zijn niet representatief voor de oorspronkelijke titel omdat ze over een ander onderwerp gaan. Deze rijen scoren lager dan 0.9.\\
 \begin{table}[h!]
     \caption{Empirische test kritische waarde semantic search}
     \centering
@@ -155,9 +159,10 @@ Alle gevonden scores van de GS alerts liggen onder de 0.9. Dat is de threshold d
     \end{tabularx}
     \label{table:empirisch}
 \end{table}
-Bijgevolg is er geen enkel duplicaat aanwezig tussen de zoekresultaten.
+Alle gevonden scores van de GS alerts liggen onder de 0.9. Bijgevolg is er geen enkel duplicaat aanwezig tussen de zoekresultaten.
 \section{Gebruikersfeedback}
-In deze vroege fase van ingebruiksname van de tool is er nog niet veel bewustzijn bij de gebruikers.
+\label{gebruikersfeedback}
+In deze vroege fase van ingebruikname van de tool is er nog niet veel bewustzijn bij de gebruikers.
 Daarom werd er slechts aan een selecte groep van 5 kerngebruikers van de tool gevraagd om 2 vragen te beantwoorden:
 \begin{itemize}
     \item Is de tool een verbetering ten opzichte van de manuele verwerking van de GS alerts?
@@ -165,10 +170,9 @@ Daarom werd er slechts aan een selecte groep van 5 kerngebruikers van de tool ge
 \end{itemize}
 3 gebruikers deelden hun feedback zoals te zien is in tabel \ref{table:gebruikersfeedback}.
 \begin{table}[h!]
-    \tiny
+    \small
     \caption{gebruikersfeedback}
     \centering
-    \begin{sideways}
     \begin{tabularx}{\textwidth}{|p{2cm}|X|} 
         \hline
         \rowcolor{lightgray}
@@ -183,10 +187,11 @@ Daarom werd er slechts aan een selecte groep van 5 kerngebruikers van de tool ge
         \multicolumn{2}{|X|}{\textbf{Gaan de publicaties uit de GS alerts nu sneller verwerkt worden dankzij de tool?}} \\
         \hline
         gebruiker 1&\enquote{Minder handmatig werk zorgt enerzijds voor een snellere inplanning en minder tegenopzicht om het werk aan te pakken. In plaats van afzonderlijke mails worden alle alerts mooi samengevoegd in een cleane interface. Een groot deel van het manueel werk wordt nu opgevangen door de tool, nakijken op duplicaten, tot welke collectie behoort deze publicatie, semiautomatische invoer. Hierdoor wordt ook veel tijd bespaard.}\\
-        gebruiker 2&\enquote{Een systeem die de papers na voldoende controle op relevantie en aanwezigheid in onze catalogus IMIS binnentrekt. Hier zit een eerste tijdsbesparing voor ons. We moeten niet meer (altijd) nagaan of de match klopt, en we moeten de papers dus niet (altijd) meer openen. In het vervolgtraject worden de DOIs via cross-ref geïmporteerd, waardoor we reeds gedeeltelijk ingevoerde publicaties kunnen verwerken in ons invoerscherm (IMIS-input) die bovendien reeds de juiste labels kregen toegewezen. Ook deze tweede stap houdt een enorme tijdsbesparing in. Op jaarbasis gaat het over 1500 tot 2000 publicaties over de verschillende projecten heen die anders volledig manueel moeten worden ingevoerd. Ruim geschat is dit een arbeidsinvestering van ongeveer 5-6 maand VTE op een jaar die nu sterk gereduceerd wordt. Binnen dit proces verschuift de klemtoon bij de bibliotheek nu naar validatie, en het invoeren van de lastigere papers die geen DOI hebben.}\\
+        gebruiker 2&\enquote{Een systeem die de papers na voldoende controle op relevantie en aanwezigheid in onze catalogus IMIS binnentrekt. Hier zit een eerste tijdsbesparing voor ons. We moeten niet meer (altijd) nagaan of de match klopt, en we moeten de papers dus niet (altijd) meer openen. In het vervolgtraject worden de DOIs via Crossref geïmporteerd, waardoor we reeds gedeeltelijk ingevoerde publicaties kunnen verwerken in ons invoerscherm (IMIS-input) die bovendien reeds de juiste labels kregen toegewezen. Ook deze tweede stap houdt een enorme tijdsbesparing in. Op jaarbasis gaat het over 1500 tot 2000 publicaties over de verschillende projecten heen die anders volledig manueel moeten worden ingevoerd. Ruim geschat is dit een arbeidsinvestering van ongeveer 5-6 maand VTE op een jaar die nu sterk gereduceerd wordt. Binnen dit proces verschuift de klemtoon bij de bibliotheek nu naar validatie, en het invoeren van de lastigere papers die geen DOI hebben.}\\
         gebruiker 3&\enquote{Laat het me houden op een hoopvolle, positieve ‘ja’.}\\
         \hline
     \end{tabularx}
-    \end{sideways}
     \label{table:gebruikersfeedback}
 \end{table}
+\\
+Belangrijker dan de aantallen in hoofdstuk~\ref{discussiedoi} is het feit dat de tool de verwerking automatiseert. De gebruikers kunnen focussen op zoekresultaten met een lage relevantiescore en zoekresultaten zonder DOI.

@@ -2482,6 +2482,24 @@
       \verb https://sourceforge.net/projects/taxongrab/
       \endverb
     \endentry
+    \entry{TFidVectorizer2025}{online}{}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{month}{5}
+      \field{title}{TFidVectorizer}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://scikit-learn.org/stable/modules/generated/sklearn.feature\_extraction.text.TfidfVectorizer.html
+      \endverb
+      \verb{url}
+      \verb https://scikit-learn.org/stable/modules/generated/sklearn.feature%5C_extraction.text.TfidfVectorizer.html
+      \endverb
+    \endentry
     \entry{Crossrefhowtoapi2025}{online}{}{}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
@@ -5193,6 +5211,24 @@
       \endverb
       \verb{url}
       \verb https://sourceforge.net/projects/taxongrab/
+      \endverb
+    \endentry
+    \entry{TFidVectorizer2025}{online}{}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{month}{5}
+      \field{title}{TFidVectorizer}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://scikit-learn.org/stable/modules/generated/sklearn.feature\_extraction.text.TfidfVectorizer.html
+      \endverb
+      \verb{url}
+      \verb https://scikit-learn.org/stable/modules/generated/sklearn.feature%5C_extraction.text.TfidfVectorizer.html
       \endverb
     \endentry
     \entry{Crossrefhowtoapi2025}{online}{}{}

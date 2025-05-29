@@ -1,27 +1,27 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'DePaepeBartBP.blg'
-[99] biber-MSWIN64:340> INFO - === 
-[132] Biber.pm:420> INFO - Reading 'DePaepeBartBP.bcf'
-[257] Biber.pm:994> INFO - Found 84 citekeys in bib section 0
-[275] Biber.pm:4463> INFO - Processing section 0
-[287] Biber.pm:4654> INFO - Looking for bibtex file 'bachproef.bib' for section 0
-[336] bibtex.pm:1713> INFO - LaTeX decoding ...
-[384] bibtex.pm:1519> INFO - Found BibTeX data source 'bachproef.bib'
-[556] Biber.pm:4654> INFO - Looking for bibtex file '../voorstel/voorstel.bib' for section 0
-[596] bibtex.pm:1713> INFO - LaTeX decoding ...
-[617] bibtex.pm:1519> INFO - Found BibTeX data source '../voorstel/voorstel.bib'
-[734] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[734] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[734] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[734] Biber.pm:4289> INFO - No sort tailoring available for locale 'nl-NL'
-[831] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[831] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[831] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[831] Biber.pm:4289> INFO - No sort tailoring available for locale 'nl-NL'
-[894] bbl.pm:676> INFO - Writing 'DePaepeBartBP.bbl' with encoding 'UTF-8'
-[967] bbl.pm:779> INFO - Output to DePaepeBartBP.bbl
-[967] Biber.pm:131> WARN - Duplicate entry key: 'Haspeslagh2024' in file '../voorstel/voorstel.bib', skipping ...
-[967] Biber.pm:131> WARN - Duplicate entry key: 'Aguillo2011' in file '../voorstel/voorstel.bib', skipping ...
-[967] Biber.pm:131> WARN - Duplicate entry key: 'Noruzi2005' in file '../voorstel/voorstel.bib', skipping ...
-[968] Biber.pm:131> WARN - Duplicate entry key: 'Chandrakar2006' in file '../voorstel/voorstel.bib', skipping ...
-[968] Biber.pm:133> INFO - WARNINGS: 4
+[102] biber-MSWIN64:340> INFO - === 
+[145] Biber.pm:420> INFO - Reading 'DePaepeBartBP.bcf'
+[265] Biber.pm:994> INFO - Found 85 citekeys in bib section 0
+[283] Biber.pm:4463> INFO - Processing section 0
+[295] Biber.pm:4654> INFO - Looking for bibtex file 'bachproef.bib' for section 0
+[343] bibtex.pm:1713> INFO - LaTeX decoding ...
+[397] bibtex.pm:1519> INFO - Found BibTeX data source 'bachproef.bib'
+[569] Biber.pm:4654> INFO - Looking for bibtex file '../voorstel/voorstel.bib' for section 0
+[608] bibtex.pm:1713> INFO - LaTeX decoding ...
+[623] bibtex.pm:1519> INFO - Found BibTeX data source '../voorstel/voorstel.bib'
+[738] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[738] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[738] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[738] Biber.pm:4289> INFO - No sort tailoring available for locale 'nl-NL'
+[835] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[835] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[835] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[835] Biber.pm:4289> INFO - No sort tailoring available for locale 'nl-NL'
+[898] bbl.pm:676> INFO - Writing 'DePaepeBartBP.bbl' with encoding 'UTF-8'
+[973] bbl.pm:779> INFO - Output to DePaepeBartBP.bbl
+[974] Biber.pm:131> WARN - Duplicate entry key: 'Haspeslagh2024' in file '../voorstel/voorstel.bib', skipping ...
+[974] Biber.pm:131> WARN - Duplicate entry key: 'Aguillo2011' in file '../voorstel/voorstel.bib', skipping ...
+[974] Biber.pm:131> WARN - Duplicate entry key: 'Noruzi2005' in file '../voorstel/voorstel.bib', skipping ...
+[974] Biber.pm:131> WARN - Duplicate entry key: 'Chandrakar2006' in file '../voorstel/voorstel.bib', skipping ...
+[974] Biber.pm:133> INFO - WARNINGS: 4
