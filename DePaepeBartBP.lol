@@ -5,7 +5,7 @@
 \contentsline {listing}{\numberline {5.5}{\ignorespaces Pydantic field}}{19}{listing.5.5}%
 \contentsline {listing}{\numberline {5.6}{\ignorespaces Pydantic schema}}{20}{listing.5.6}%
 \contentsline {listing}{\numberline {5.7}{\ignorespaces Pydantic model}}{20}{listing.5.7}%
-\contentsline {listing}{\numberline {5.8}{\ignorespaces Beatiful Soup HTML parser}}{21}{listing.5.8}%
+\contentsline {listing}{\numberline {5.8}{\ignorespaces Beautiful Soup HTML parser}}{21}{listing.5.8}%
 \contentsline {listing}{\numberline {5.9}{\ignorespaces Ollama met Docker}}{21}{listing.5.9}%
 \contentsline {listing}{\numberline {5.10}{\ignorespaces Scrapegraph configuratie}}{22}{listing.5.10}%
 \contentsline {listing}{\numberline {5.11}{\ignorespaces Scrapegraph Prompt}}{23}{listing.5.11}%

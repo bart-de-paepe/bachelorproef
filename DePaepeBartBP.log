@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  28 MAY 2025 16:50
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  29 MAY 2025 11:43
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2256,6 +2256,12 @@ llecties van mariene wetenschap-
 
 
 ]
+Overfull \hbox (4.95805pt too wide) in paragraph at lines 37--38
+[]\TU/Montserrat(1)/m/n/10.95 Hoe wordt er gegarandeerd dat de tool op de besta
+ande hardware kan draaien? 
+ []
+
+
 
 [2]) (standvanzaken.tex
 
@@ -2476,25 +2482,25 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (18.34286pt too wide) in paragraph at lines 68--69
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (57.76318pt too wide) in paragraph at lines 67--68
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (51.19313pt too wide) in paragraph at lines 70--71
+Overfull \hbox (51.19313pt too wide) in paragraph at lines 68--69
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
-t line 75.
+t line 73.
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250528165029 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250529114358 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
-web_scraping.tex:94: Package minted Error: minted v3+ executable is not install
+web_scraping.tex:92: Package minted Error: minted v3+ executable is not install
 ed or is not added to PATH; or MiKTeX is being used with -aux-directory or -out
 put-directory without setting a TEXMF_OUTPUT_DIRECTORY environment variable.
 
@@ -2502,12 +2508,12 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94     \end{minted}
+l.92     \end{minted}
                      
 (That was another \errmessage.)
 
 
-web_scraping.tex:94: Package minted Error: Missing definition for highlighting 
+web_scraping.tex:92: Package minted Error: Missing definition for highlighting 
 style "solarized-light" (minted executable is unavailable or disabled); attempt
 ing to substitute fallback style.
 
@@ -2515,12 +2521,12 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94     \end{minted}
+l.92     \end{minted}
                      
 (That was another \errmessage.)
 
 
-web_scraping.tex:94: Package minted Error: Missing definition for highlighting 
+web_scraping.tex:92: Package minted Error: Missing definition for highlighting 
 style "default" (minted executable is unavailable or disabled); attempting to s
 ubstitute fallback style.
 
@@ -2528,19 +2534,19 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94     \end{minted}
+l.92     \end{minted}
                      
 (That was another \errmessage.)
 
 
-web_scraping.tex:94: Package minted Error: Cannot highlight code (minted execut
+web_scraping.tex:92: Package minted Error: Cannot highlight code (minted execut
 able is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94     \end{minted}
+l.92     \end{minted}
                      
 (That was another \errmessage.)
 
@@ -2549,34 +2555,34 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 94.
+(Font)              scaled to size 6.00064pt on input line 92.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 94.
+(Font)              scaled to size 5.00053pt on input line 92.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 94.
+(Font)              scaled to size 5.99936pt on input line 92.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 94.
+(Font)              scaled to size 4.99947pt on input line 92.
 
-web_scraping.tex:106: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:104: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.106     \end{minted}
+l.104     \end{minted}
                       
 (That was another \errmessage.)
 
 
-web_scraping.tex:136: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:134: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.136     \end{minted}
+l.134     \end{minted}
                       
 (That was another \errmessage.)
 
@@ -2599,55 +2605,55 @@ fontspec)
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
 
-web_scraping.tex:161: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:159: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.161     \end{minted}
+l.159     \end{minted}
                       
 (That was another \errmessage.)
 
 
-web_scraping.tex:176: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:174: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176     \end{minted}
+l.174     \end{minted}
                       
 (That was another \errmessage.)
 
 
-web_scraping.tex:195: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:193: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.195     \end{minted}
+l.193     \end{minted}
                       
 (That was another \errmessage.)
 
 
-web_scraping.tex:211: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:209: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.211     \end{minted}
+l.209     \end{minted}
                       
 (That was another \errmessage.)
 
 
-Overfull \hbox (1.20126pt too wide) in paragraph at lines 150--218
+Overfull \hbox (1.20126pt too wide) in paragraph at lines 148--216
 \TU/Montserrat(1)/m/n/10.95 Mirascope []“  LLM abstractions that aren’t obstruc
 tions” ([][]2025[][]) is een gespecialiseerde
  []
@@ -2670,26 +2676,26 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [20]
 
-web_scraping.tex:254: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:252: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.254     \end{minted}
+l.252     \end{minted}
                       
 (That was another \errmessage.)
 
 
-web_scraping.tex:270: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:268: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.270     \end{minted}
+l.268     \end{minted}
                       
 (That was another \errmessage.)
 
@@ -2713,31 +2719,31 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [23]
 
-web_scraping.tex:305: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:303: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.305     \end{minted}
+l.303     \end{minted}
                       
 (That was another \errmessage.)
 
 
-web_scraping.tex:321: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:319: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.321     \end{minted}
+l.319     \end{minted}
                       
 (That was another \errmessage.)
 
 
-Overfull \hbox (1.47504pt too wide) in paragraph at lines 287--327
+Overfull \hbox (1.47504pt too wide) in paragraph at lines 285--325
 \TU/Montserrat(1)/m/n/10.95 De code op github []“   Web scraping Google Scholar
  SERP using Beautiful Soup” ([][]2025[][])
  []
@@ -2766,22 +2772,14 @@ File: ../graphics/./4_NLP/bow.jpg Graphic file (type bmp)
 File: ../graphics/./4_NLP/tf-idf.jpg Graphic file (type bmp)
 <../graphics/./4_NLP/tf-idf.jpg>
 
-(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
-fontspec)
-(C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
-fontspec)
-Overfull \hbox (1.3561pt too wide) in paragraph at lines 70--70
-[][][][]\TU/Montserrat(2)/m/n/9 https://scikit-learn.org/stable/modules/generat
-ed/sklearn.feature_extraction.text.TfidfVectorizer.html| 
- []
+LaTeX Warning: Citation 'TfidfVectorizer2025' on page 27 undefined on input lin
+e 70.
 
 
 
 [27
 
 ]
-
-[28]
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
@@ -2808,6 +2806,8 @@ l.106     \end{minted}
 (That was another \errmessage.)
 
 ) (linked_data.tex
+
+[28]
 
 [29]
 
@@ -3157,28 +3157,8 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-resultaten.tex:92: Misplaced alignment tab character &.
-l.92 \[https://www.vliz.be/nl/imis?module=ref&
-                                              show=json\]
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
 
-
-
-[48]
-resultaten.tex:93: Misplaced alignment tab character &.
-l.93 \[&
-        spcol=39,141,396,536,733,746,747,748,749,750,751,\]
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 resultaten.tex:100: Misplaced alignment tab character &.
 l.100 \[https://www.vliz.be/nl/imis?module=ref&
@@ -3200,8 +3180,31 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-resultaten.tex:106: Misplaced alignment tab character &.
-l.106 \[&
+
+
+[48]
+resultaten.tex:107: Misplaced alignment tab character &.
+l.107 \[https://www.vliz.be/nl/imis?module=ref&
+                                               show=json\]
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+resultaten.tex:108: Misplaced alignment tab character &.
+l.108 \[&
+         spcol=39,141,396,536,733,746,747,748,749,750,751,\]
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+resultaten.tex:113: Misplaced alignment tab character &.
+l.113 \[&
          count=10000&start=0\]
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3210,8 +3213,8 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-resultaten.tex:106: Misplaced alignment tab character &.
-l.106 \[&count=10000&
+resultaten.tex:113: Misplaced alignment tab character &.
+l.113 \[&count=10000&
                      start=0\]
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3223,33 +3226,33 @@ might try typing `S' now just to see what is salvageable.
 File: ../graphics/./9_resultaten/sss.png Graphic file (type bmp)
 <../graphics/./9_resultaten/sss.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
 []|\TU/Montserrat(2)/b/n/10.95 Semantic search
  []
 
 
-Overfull \hbox (2.28085pt too wide) in paragraph at lines 148--148
+Overfull \hbox (2.28085pt too wide) in paragraph at lines 155--155
 []|[]\TU/Montserrat(1)/m/n/10.95 0.9958072900772095[]| 
  []
 
 
-Overfull \hbox (5.13881pt too wide) in paragraph at lines 148--148
+Overfull \hbox (5.13881pt too wide) in paragraph at lines 155--155
 []|[]\TU/Montserrat(1)/m/n/10.95 0.9708424806594849[]| 
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 148--148
+Underfull \hbox (badness 1454) in paragraph at lines 155--155
 \TU/Montserrat(1)/m/n/10.95 didate genes associated with flowering and maturity
 
  []
 
 
-Overfull \hbox (2.85025pt too wide) in paragraph at lines 148--148
+Overfull \hbox (2.85025pt too wide) in paragraph at lines 155--155
 []|\TU/Montserrat(1)/m/n/10.95 0.7932324409484863| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--152
+Underfull \hbox (badness 10000) in paragraph at lines 113--159
 
  []
 
@@ -4465,19 +4468,28 @@ rrat(1)/m/n/10.95 . (2025, mei 1). [][]$[][][][][] [] [] [] [][][] [] [][][][][
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `DePaepeBartBP.out' has not changed.
-(rerunfilecheck)             Checksum: ED07164A806A9CF4AFFCC3BBCFC55ED7;10199.
+(rerunfilecheck)             Checksum: EC6438F11839B8435127AF6A0968C176;10199.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                DePaepeBartBP
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 \openout1 = `DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52579 strings out of 408640
- 1078937 string characters out of 5749145
- 2430156 words of memory out of 5000000
+ 52575 strings out of 408640
+ 1078727 string characters out of 5749145
+ 2430197 words of memory out of 5000000
  74773 multiletter control sequences out of 15000+600000
  562908 words of font info for 114 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 110i,13n,131p,1256b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,14n,131p,1256b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on DePaepeBartBP.pdf (115 pages).

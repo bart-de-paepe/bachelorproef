@@ -13,7 +13,7 @@
 \contentsline {section}{\numberline {2.3}Web scraping}{4}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Natural Language Processing}{6}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Linked data}{7}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Semantic Search}{7}{section.2.6}%
+\contentsline {section}{\numberline {2.6}Semantic search}{7}{section.2.6}%
 \contentsline {chapter}{\numberline {3}Methodologie}{9}{chapter.3}%
 \contentsline {chapter}{\numberline {4}Google Scholar alert}{12}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Instellen van de zoekopdract \& aanmaken van het alert}{12}{section.4.1}%
