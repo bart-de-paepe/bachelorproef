@@ -8,7 +8,7 @@
 \contentsline {listing}{\numberline {5.8}{\ignorespaces Beautiful Soup HTML parser}}{21}{listing.5.8}%
 \contentsline {listing}{\numberline {5.9}{\ignorespaces Ollama met Docker}}{21}{listing.5.9}%
 \contentsline {listing}{\numberline {5.10}{\ignorespaces Scrapegraph configuratie}}{22}{listing.5.10}%
-\contentsline {listing}{\numberline {5.11}{\ignorespaces Scrapegraph Prompt}}{23}{listing.5.11}%
+\contentsline {listing}{\numberline {5.11}{\ignorespaces Scrapegraph prompt}}{23}{listing.5.11}%
 \contentsline {listing}{\numberline {5.12}{\ignorespaces Beautiful Soup tag selection}}{25}{listing.5.12}%
 \contentsline {listing}{\numberline {5.13}{\ignorespaces Beautiful Soup navigatie}}{25}{listing.5.13}%
 \contentsline {listing}{\numberline {6.1}{\ignorespaces term frequency-inverse document frequency}}{28}{listing.6.1}%

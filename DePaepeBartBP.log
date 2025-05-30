@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  29 MAY 2025 23:23
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.2) (preloaded format=xelatex 2025.2.27)  30 MAY 2025 10:14
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2477,30 +2477,26 @@ Overfull \hbox (57.76318pt too wide) in paragraph at lines 64--65
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 
-Overfull \hbox (57.76318pt too wide) in paragraph at lines 67--68
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (44.62308pt too wide) in paragraph at lines 66--67
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (51.19313pt too wide) in paragraph at lines 68--69
+Overfull \hbox (51.19313pt too wide) in paragraph at lines 67--68
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
-t line 73.
+t line 72.
 \pydata@fh@_3C6BBBE75A5E28CE77F5BD994A368090.data.minted=\write11
 \openout11 = `_3C6BBBE75A5E28CE77F5BD994A368090.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250529232334 3C6BBBE75A5E28CE77F5BD
+runsystem(latexminted config  --timestamp 20250530101405 3C6BBBE75A5E28CE77F5BD
 994A368090)...executed.
 
 
-web_scraping.tex:92: Package minted Error: minted v3+ executable is not install
+web_scraping.tex:91: Package minted Error: minted v3+ executable is not install
 ed or is not added to PATH; or MiKTeX is being used with -aux-directory or -out
 put-directory without setting a TEXMF_OUTPUT_DIRECTORY environment variable.
 
@@ -2508,12 +2504,12 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.92     \end{minted}
+l.91     \end{minted}
                      
 (That was another \errmessage.)
 
 
-web_scraping.tex:92: Package minted Error: Missing definition for highlighting 
+web_scraping.tex:91: Package minted Error: Missing definition for highlighting 
 style "solarized-light" (minted executable is unavailable or disabled); attempt
 ing to substitute fallback style.
 
@@ -2521,12 +2517,12 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.92     \end{minted}
+l.91     \end{minted}
                      
 (That was another \errmessage.)
 
 
-web_scraping.tex:92: Package minted Error: Missing definition for highlighting 
+web_scraping.tex:91: Package minted Error: Missing definition for highlighting 
 style "default" (minted executable is unavailable or disabled); attempting to s
 ubstitute fallback style.
 
@@ -2534,19 +2530,19 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.92     \end{minted}
+l.91     \end{minted}
                      
 (That was another \errmessage.)
 
 
-web_scraping.tex:92: Package minted Error: Cannot highlight code (minted execut
+web_scraping.tex:91: Package minted Error: Cannot highlight code (minted execut
 able is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.92     \end{minted}
+l.91     \end{minted}
                      
 (That was another \errmessage.)
 
@@ -2555,34 +2551,34 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 92.
+(Font)              scaled to size 6.00064pt on input line 91.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 92.
+(Font)              scaled to size 5.00053pt on input line 91.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 92.
+(Font)              scaled to size 5.99936pt on input line 91.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 92.
+(Font)              scaled to size 4.99947pt on input line 91.
 
-web_scraping.tex:104: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:103: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104     \end{minted}
+l.103     \end{minted}
                       
 (That was another \errmessage.)
 
 
-web_scraping.tex:134: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:133: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.134     \end{minted}
+l.133     \end{minted}
                       
 (That was another \errmessage.)
 
@@ -2605,55 +2601,55 @@ fontspec)
 (C:\Users\bart.de.paepe\AppData\Roaming\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
 
-web_scraping.tex:159: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:158: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159     \end{minted}
+l.158     \end{minted}
                       
 (That was another \errmessage.)
 
 
-web_scraping.tex:174: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:173: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.174     \end{minted}
+l.173     \end{minted}
                       
 (That was another \errmessage.)
 
 
-web_scraping.tex:193: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:192: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.193     \end{minted}
+l.192     \end{minted}
                       
 (That was another \errmessage.)
 
 
-web_scraping.tex:209: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:208: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209     \end{minted}
+l.208     \end{minted}
                       
 (That was another \errmessage.)
 
 
-Overfull \hbox (1.20126pt too wide) in paragraph at lines 148--216
+Overfull \hbox (1.20126pt too wide) in paragraph at lines 147--215
 \TU/Montserrat(1)/m/n/10.95 Mirascope []“  LLM abstractions that aren’t obstruc
 tions” ([][]2025[][]) is een gespecialiseerde
  []
@@ -2676,26 +2672,26 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [20]
 
-web_scraping.tex:252: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:251: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.252     \end{minted}
+l.251     \end{minted}
                       
 (That was another \errmessage.)
 
 
-web_scraping.tex:268: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:267: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.268     \end{minted}
+l.267     \end{minted}
                       
 (That was another \errmessage.)
 
@@ -2719,31 +2715,31 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [23]
 
-web_scraping.tex:303: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:302: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.303     \end{minted}
+l.302     \end{minted}
                       
 (That was another \errmessage.)
 
 
-web_scraping.tex:319: Package minted Error: Cannot highlight code (minted execu
+web_scraping.tex:318: Package minted Error: Cannot highlight code (minted execu
 table is unavailable or disabled); attempting to typeset without highlighting.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.319     \end{minted}
+l.318     \end{minted}
                       
 (That was another \errmessage.)
 
 
-Overfull \hbox (1.47504pt too wide) in paragraph at lines 285--325
+Overfull \hbox (1.47504pt too wide) in paragraph at lines 284--324
 \TU/Montserrat(1)/m/n/10.95 De code op github []“   Web scraping Google Scholar
  SERP using Beautiful Soup” ([][]2025[][])
  []
@@ -3126,56 +3122,6 @@ k zoekresultaat. De zoekresultaten waarin
 
 
 [47]
-resultaten.tex:59: Misplaced alignment tab character &.
-l.59 \[https://www.vliz.be/nl/imis?module=ref&
-                                              show=json\]
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-resultaten.tex:60: Misplaced alignment tab character &.
-l.60 \[&
-        spcol=39,141,396,536,733,746,747,748,749,750,751,\]
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-resultaten.tex:65: Misplaced alignment tab character &.
-l.65 \[&
-        optionYear=after&searchYear=2024&sort=date\]
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-resultaten.tex:65: Misplaced alignment tab character &.
-l.65 \[&optionYear=after&
-                         searchYear=2024&sort=date\]
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-resultaten.tex:65: Misplaced alignment tab character &.
-l.65 \[&optionYear=after&searchYear=2024&
-                                         sort=date\]
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
 
 resultaten.tex:76: LaTeX Error: There's no line here to end.
 
@@ -3197,7 +3143,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.77 D
-      e verwerking van de GS alerts leverde voor 48\% van de gevallen een DO...
+      e verwerking van de GS alerts levert voor 48\% van de gevallen een DOI...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3206,69 +3152,9 @@ or  <return>  to continue without it.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-resultaten.tex:104: Misplaced alignment tab character &.
-l.104 \[https://www.vliz.be/nl/imis?module=ref&
-                                               show=json\]
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-resultaten.tex:105: Misplaced alignment tab character &.
-l.105 \[&
-         spcol=39,141,396,536,733,746,747,748,749,750,751,\]
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
 
 
 [48]
-resultaten.tex:111: Misplaced alignment tab character &.
-l.111 \[https://www.vliz.be/nl/imis?module=ref&
-                                               show=json\]
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-resultaten.tex:112: Misplaced alignment tab character &.
-l.112 \[&
-         spcol=39,141,396,536,733,746,747,748,749,750,751,\]
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-resultaten.tex:117: Misplaced alignment tab character &.
-l.117 \[&
-         count=10000&start=0\]
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-resultaten.tex:117: Misplaced alignment tab character &.
-l.117 \[&count=10000&
-                     start=0\]
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
 File: ../graphics/./9_resultaten/sss.png Graphic file (type bmp)
 <../graphics/./9_resultaten/sss.png>
 
@@ -3311,7 +3197,16 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+Overfull \hbox (18.06912pt too wide) in alignment at lines 193--193
+[][] 
+ []
+
 ) (conclusie.tex
+Underfull \hbox (badness 10000) in paragraph at lines 171--4
+
+ []
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -4531,11 +4426,11 @@ Package logreq Info: Writing requests to 'DePaepeBartBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52610 strings out of 408640
- 1080197 string characters out of 5749145
- 2430320 words of memory out of 5000000
- 74799 multiletter control sequences out of 15000+600000
- 563436 words of font info for 123 fonts, out of 8000000 for 9000
+ 52598 strings out of 408640
+ 1079886 string characters out of 5749145
+ 2430322 words of memory out of 5000000
+ 74788 multiletter control sequences out of 15000+600000
+ 563268 words of font info for 122 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  110i,13n,131p,1256b,5870s stack positions out of 10000i,1000n,20000p,200000b,200000s
 

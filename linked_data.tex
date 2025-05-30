@@ -26,7 +26,7 @@
 %% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
 %% en geef het een gepaste titel.
 \section{Inleiding}
-De web scraping leverde gegevens zoals titel, auteurs, naam van tijdschrift en jaartal van de publicatie op. Deze informatie heeft echter geen garantie van uniciteit. Dat is te wijten aan mogelijke varianten (zoals bijvoorbeeld afkortingen) in de titel, auteurs en naam van tijdschriften.\\
+De web scraping levert gegevens zoals titel, auteurs, naam van tijdschrift en jaartal van de publicatie op. Deze informatie heeft echter geen garantie van uniciteit. Dat is te wijten aan mogelijke varianten (zoals bijvoorbeeld afkortingen) in de titel, auteurs en naam van tijdschriften.\\
 Nochtans moet een publicatie uniek geïdentificeerd kunnen worden om uit te sluiten dat er reeds duplicaten in IMIS zitten.
 De DOI vormt de unieke indentifier van elke publicatie. Voor elke publicatie wordt de DOI opgezocht aan de hand van 3 afzonderlijke bronnen:
 \begin{itemize}
@@ -102,7 +102,7 @@ De omzetting in code is te zien in codefragment \ref{code:Urlregex}.
 \end{listing}
 \clearpage
 \section{De DOI opzoeken in Crossref}
-Indien de voorgaande stap geen DOI opleverde, dan wordt hier op basis van de titel een opzoeking van de DOI gedaan in Crossref. Daarvoor beschikt Crossref over een API \autocite{Crossrefhowtoapi2025}. De documentatie leert dat ondoordachte requests kunnen leiden tot zeer langdurige queries en/of ongewenste resultaten. Concreet wordt er afgeraden om meer dan 2 velden op te nemen in de query van een sample, of om meer dan 2 resultaten te vragen in het geval van een matching. Verder wordt voor matching aangeraden om te zoeken aan de hand van de bibliografische gegevens zoals te zien in codefragment \ref{code:Bibliographic}.
+Indien de voorgaande stap geen DOI oplevert, dan wordt hier op basis van de titel een opzoeking van de DOI gedaan in Crossref. Daarvoor beschikt Crossref over een API \autocite{Crossrefhowtoapi2025}. De documentatie leert dat ondoordachte requests kunnen leiden tot zeer langdurige queries en/of ongewenste resultaten. Concreet wordt er afgeraden om meer dan 2 velden op te nemen in de query van een sample, of om meer dan 2 resultaten te vragen in het geval van een matching. Verder wordt voor matching aangeraden om te zoeken aan de hand van de bibliografische gegevens zoals te zien in codefragment \ref{code:Bibliographic}.
 \begin{listing}[h!]
     http://api.crossref.org/works?query.bibliographic="Toward a Unified Theory of High-Energy Metaphysics, Josiah Carberry 2008-08-13"&rows=2
     \caption[Crossref query op basis van de bibliografie]{Query op basis van de bibliografie}
@@ -128,7 +128,7 @@ Al deze bibliotheken bieden dezelfde tools maar in wat volgt wordt er met Crossr
 \end{listing}
 Indien de Crossref API een resultaat geeft, dan is de DOI gevonden.
 \section{De DOI opzoeken op de webpagina van de publicatie}
-Indien de voorgaande stap geen DOI opleverde, dan wordt de DOI gezocht op de webpagina van de publicatie. In de meeste gevallen is dat op de website van de uitgever van het tijdschrift. Op die pagina staan altijd de titel, auteurs, naam van het tijdschrift, jaartal en abstract van de publicatie.
+Indien de voorgaande stap geen DOI oplevert, dan wordt de DOI gezocht op de webpagina van de publicatie. In de meeste gevallen is dat op de website van de uitgever van het tijdschrift. Op die pagina staan altijd de titel, auteurs, naam van het tijdschrift, jaartal en abstract van de publicatie.
 Soms staat ook de DOI op die pagina.
 In sommige gevallen is de integrale tekst van de publicatie hier beschikbaar als HTML of als PDF document.\\
 Het formaat van de pagina kan verschillend zijn:

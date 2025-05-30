@@ -40,7 +40,7 @@ Titel, link en tekst worden systematisch goed gevonden door de scraping. Voor au
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\textwidth]{./9_resultaten/GS_alerts_auteurtijdschriftjaartal.jpg}
-    \caption[Google Scholar alert zonder auteur, tijdschrift of jaartal.]{\label{fig:GSauteurtijdschriftjaartal}Google Scholar alert zonder auteur, tijdschrift of jaartal.}
+    \caption[Google Scholar alerts zonder auteur, tijdschrift of jaartal.]{\label{fig:GSauteurtijdschriftjaartal}Google Scholar alert zonder auteur, tijdschrift of jaartal.}
 \end{figure}
 
 \section{Relevantiescore}
@@ -48,35 +48,35 @@ Figuur \ref{fig:GSrelevantie} toont de relevantiescore voor elk zoekresultaat. D
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\textwidth]{./9_resultaten/GS_alerts_relevantiescore.png}
-    \caption[Google Scholar alert relevantiescore.]{\label{fig:GSrelevantie}Google Scholar alert relevantiescore.}
+    \caption[Google Scholar alerts relevantiescore.]{\label{fig:GSrelevantie}Google Scholar alert relevantiescore.}
 \end{figure}
 
 \section{DOI}
 \label{discussiedoi}
 Het automatisch opzoeken van de DOI is de grootste toegevoegde waarde van de tool zoals blijkt uit de gebruikersfeedback in hoofdstuk~\ref{gebruikersfeedback}. Om dit pluspunt te valoriseren wordt data uit IMIS verwerkt met de tool. Vervolgens wordt de aanwezigheid van de DOI vergeleken tussen IMIS en de resultaten van de tool.\\
 Daarvoor wordt er een steekproef uit IMIS genomen van alle data sinds begin 2025 tot op heden.
-De overeenkomstige query waarbij ``spcol'' alle mogelijke collecties binnen IMIS zijn die te maken hebben met het VLIZ (de zoekopdracht van de GS alert):
-\[https://www.vliz.be/nl/imis?module=ref&show=json\]
-\[&spcol=39,141,396,536,733,746,747,748,749,750,751,\]
+De overeenkomstige query waarbij ``spcol'' alle mogelijke collecties binnen IMIS zijn die te maken hebben met het VLIZ (de zoekopdracht van de GS alert) is:
+\[https://www.vliz.be/nl/imis?module=ref\&show=json\]
+\[\&spcol=39,141,396,536,733,746,747,748,749,750,751,\]
 \[752,753,754,755,756,757,758,759,760,761,762,763,764,\]
 \[765,766,768,769,770,771,772,773,774,775,776,777,778,\]
 \[779,780,781,782,783,784,785,786,787,788,789,790,791,\]
 \[802,803,900,911,981,982,992,997,1002,1051,1064\]
-\[&optionYear=after&searchYear=2024&sort=date\]
+\[\&optionYear=after\&searchYear=2024\&sort=date\]
 Dat levert op heden 917 records op die in twee verzamelingen onderverdeeld worden:
 \begin{itemize}
     \item 284 records (31\%) met DOI
     \item 633 records (69\%) zonder DOI
 \end{itemize}
-De verwerking van de data uit IMIS leverde voor 32\% van de gevallen een DOI op.
+De verwerking van de data uit IMIS levert voor 32\% van de gevallen een DOI op.
 \begin{itemize}
     \item Voor de groep ``met DOI'' vindt de tool voor alle records eveneens de DOI.
     \item Voor de groep ``zonder DOI'' vindt de tool in 1,2\% van de gevallen wel de DOI.
 \end{itemize}
 \\\\
-De verwerking van de GS alerts leverde voor 48\% van de gevallen een DOI op zoals te zien is in tabel \ref{table:statistieken_linked_data}.
+De verwerking van de GS alerts levert voor 48\% van de gevallen een DOI op zoals te zien is in tabel \ref{table:statistieken_linked_data}.
 \begin{table}[h!]
-    \caption{Statistieken Linked data}
+    \caption{Statistieken linked data}
     \centering
     \begin{tabularx}{\textwidth}{|X|p{4cm}|} 
         \hline
@@ -99,22 +99,22 @@ De verwerking van de GS alerts leverde voor 48\% van de gevallen een DOI op zoal
     \label{table:statistieken_linked_data}
 \end{table}
 \section{Semantic search}
-Voor de resterende 52\% van de zoekresultaten waarvan geen DOI gevonden kon worden, werd semantic search van de titel uitgevoerd in de IMIS databank. Dat vormde een hele uitdaging aangezien er 260.000 records zijn waarin de titel opgezocht moet worden.
+Voor de resterende 52\% van de zoekresultaten waarvan geen DOI gevonden kan worden, wordt semantic search van de titel uitgevoerd in de IMIS databank. Dat vormt een hele uitdaging aangezien er 260.000 records zijn waarin de titel opgezocht moet worden.
 De query om de titels op te zoeken is:
-\[https://www.vliz.be/nl/imis?module=ref&show=json\]
-\[&spcol=39,141,396,536,733,746,747,748,749,750,751,\]
+\[https://www.vliz.be/nl/imis?module=ref\&show=json\]
+\[\&spcol=39,141,396,536,733,746,747,748,749,750,751,\]
 \[752,753,754,755,756,757,758,759,760,761,762,763,764,\]
 \[765,766,768,769,770,771,772,773,774,775,776,777,778,\]
 \[779,780,781,782,783,784,785,786,787,788,789,790,791,\]
 \[802,803,900,911,981,982,992,997,1002,1051,1064\]
 Omdat IMIS niet toelaat om 260.000 records ineens op te vragen, wordt er gewerkt met 26 batches van 10.000 records. De overeenkomstige query is:
-\[https://www.vliz.be/nl/imis?module=ref&show=json\]
-\[&spcol=39,141,396,536,733,746,747,748,749,750,751,\]
+\[https://www.vliz.be/nl/imis?module=ref\&show=json\]
+\[\&spcol=39,141,396,536,733,746,747,748,749,750,751,\]
 \[752,753,754,755,756,757,758,759,760,761,762,763,764,\]
 \[765,766,768,769,770,771,772,773,774,775,776,777,778,\]
 \[779,780,781,782,783,784,785,786,787,788,789,790,791,\]
 \[802,803,900,911,981,982,992,997,1002,1051,1064\]
-\[&count=10000&start=0\]
+\[\&count=10000\&start=0\]
 Daarbij verhoogt de parameter ``start'' telkens met 10.000.\\
 Deze manier van werken heeft mogelijks een invloed op het resultaat: de positie van een titel opzoeken in 10.000 resultaten is niet hetzelfde als in 260.000 resultaten.
 In figuur \ref{fig:GSsss} is te zien dat de semantic search score toeneemt in functie van het aantal titels waarin gezocht wordt. Maar de mate van toename neemt sterk af bij grote aantallen. Daarom wordt er aangenomen dat de semantic search score bij 10.000 titels representatief is voor de score bij 260.000 titels.\\
@@ -124,7 +124,7 @@ In figuur \ref{fig:GSsss} is te zien dat de semantic search score toeneemt in fu
     \caption[Semantic search score vs. number of titles.]{\label{fig:GSsss}Semantic search score vs. number of titles.}
 \end{figure}
 Na verwerking is de semantic search score de hoogste waarde van alle batches.\\\\
-De threshold om te beslissen of een titel reeds in IMIS zit, wordt empirisch bepaald (zie tabel \ref{table:empirisch}). De tabel bevat 12 titels waarvoor telkens de semantic search score berekend werd ten opzichte van de eerste record. Rijen 2 tot en met 8 bevatten variaties van de titel uit rij 1 en zijn bedoeld om representatief te zijn voor de oorspronkelijke titel. Deze rijen scoren hoger dan 0.9. Rijen 9 tot en met 12 bevatten titels die sterk overeenkomen met de titel uit rij 1, maar zijn niet representatief voor de oorspronkelijke titel omdat ze over een ander onderwerp gaan. Deze rijen scoren lager dan 0.9.\\
+De threshold om te beslissen of een titel reeds in IMIS zit, wordt empirisch bepaald (zie tabel \ref{table:empirisch}). De tabel bevat 12 titels waarvoor telkens de semantic search score berekend wordt ten opzichte van de eerste record. Rijen 2 tot en met 8 bevatten variaties van de titel uit rij 1 en zijn bedoeld om representatief te zijn voor de oorspronkelijke titel. Deze rijen scoren hoger dan 0.9. Rijen 9 tot en met 12 bevatten titels die sterk overeenkomen met de titel uit rij 1, maar zijn niet representatief voor de oorspronkelijke titel omdat ze over een ander onderwerp gaan. Deze rijen scoren lager dan 0.9.\\
 \begin{table}[h!]
     \caption{Empirische test kritische waarde semantic search}
     \centering
@@ -163,12 +163,12 @@ Alle gevonden scores van de GS alerts liggen onder de 0.9. Bijgevolg is er geen 
 \section{Gebruikersfeedback}
 \label{gebruikersfeedback}
 In deze vroege fase van ingebruikname van de tool is er nog niet veel bewustzijn bij de gebruikers.
-Daarom werd er slechts aan een selecte groep van 5 kerngebruikers van de tool gevraagd om 2 vragen te beantwoorden:
+Daarom wordt er slechts aan een selecte groep van 5 kerngebruikers van de tool gevraagd om 2 vragen te beantwoorden:
 \begin{itemize}
     \item Is de tool een verbetering ten opzichte van de manuele verwerking van de GS alerts?
     \item Gaan de publicaties uit de GS alerts nu sneller verwerkt worden dankzij de tool?
 \end{itemize}
-3 gebruikers deelden hun feedback zoals te zien is in tabel \ref{table:gebruikersfeedback}.
+3 gebruikers delen hun feedback zoals te zien is in tabel \ref{table:gebruikersfeedback}.
 \begin{table}[h!]
     \small
     \caption{gebruikersfeedback}
@@ -176,7 +176,7 @@ Daarom werd er slechts aan een selecte groep van 5 kerngebruikers van de tool ge
     \begin{tabularx}{\textwidth}{|p{2cm}|X|} 
         \hline
         \rowcolor{lightgray}
-        \multicolumn{2}{|X|}{\textbf{Is de tool een verbetering ten opzichte van de manuele verwerking van de GS alerts?}} \\
+        \multicolumn{2}{|c|}{\textbf{Is de tool een verbetering ten opzichte van de manuele verwerking van de GS alerts?}} \\
         \hline
         gebruiker 1 &\enquote{Ja, collega's hadden elk eigen Scholar alerts ingesteld die naar hun persoonlijke mailbox werden gestuurd afhankelijk van het project waarop zij werken. Deze mails werden vaak rechtstreeks doorgestuurd naar de bib die dan afhankelijk van de verstuurder de collectie bepalen en op zoek gingen of de publicatie interessant is voor IMIS en deze nog niet in IMIS beschikbaar is.
         Het verzamelen van deze meldingen in 1 mailbox die automatisch wat pre-processing uitvoert en een handige lijst samenstelt zal de last voor de bib sterk verminderen.}\\
@@ -184,7 +184,7 @@ Daarom werd er slechts aan een selecte groep van 5 kerngebruikers van de tool ge
         gebruiker 3&\enquote{Laat het me houden op een hoopvolle, positieve ‘ja’.}\\
         \hline
         \rowcolor{lightgray}
-        \multicolumn{2}{|X|}{\textbf{Gaan de publicaties uit de GS alerts nu sneller verwerkt worden dankzij de tool?}} \\
+        \multicolumn{2}{|c|}{\textbf{Gaan de publicaties uit de GS alerts nu sneller verwerkt worden dankzij de tool?}} \\
         \hline
         gebruiker 1&\enquote{Minder handmatig werk zorgt enerzijds voor een snellere inplanning en minder tegenopzicht om het werk aan te pakken. In plaats van afzonderlijke mails worden alle alerts mooi samengevoegd in een cleane interface. Een groot deel van het manueel werk wordt nu opgevangen door de tool, nakijken op duplicaten, tot welke collectie behoort deze publicatie, semiautomatische invoer. Hierdoor wordt ook veel tijd bespaard.}\\
         gebruiker 2&\enquote{Een systeem die de papers na voldoende controle op relevantie en aanwezigheid in onze catalogus IMIS binnentrekt. Hier zit een eerste tijdsbesparing voor ons. We moeten niet meer (altijd) nagaan of de match klopt, en we moeten de papers dus niet (altijd) meer openen. In het vervolgtraject worden de DOIs via Crossref geïmporteerd, waardoor we reeds gedeeltelijk ingevoerde publicaties kunnen verwerken in ons invoerscherm (IMIS-input) die bovendien reeds de juiste labels kregen toegewezen. Ook deze tweede stap houdt een enorme tijdsbesparing in. Op jaarbasis gaat het over 1500 tot 2000 publicaties over de verschillende projecten heen die anders volledig manueel moeten worden ingevoerd. Ruim geschat is dit een arbeidsinvestering van ongeveer 5-6 maand VTE op een jaar die nu sterk gereduceerd wordt. Binnen dit proces verschuift de klemtoon bij de bibliotheek nu naar validatie, en het invoeren van de lastigere papers die geen DOI hebben.}\\
@@ -193,5 +193,5 @@ Daarom werd er slechts aan een selecte groep van 5 kerngebruikers van de tool ge
     \end{tabularx}
     \label{table:gebruikersfeedback}
 \end{table}
-\\
+\\\\
 Belangrijker dan de aantallen in hoofdstuk~\ref{discussiedoi} is het feit dat de tool de verwerking automatiseert. De gebruikers kunnen focussen op zoekresultaten met een lage relevantiescore en zoekresultaten zonder DOI.

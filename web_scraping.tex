@@ -63,8 +63,7 @@ De meest bekende vorm van web scraping gebruikt de DOM structuur om er de inhoud
     \begin{lstlisting}[language=html]
     <h3 style="font-weight:normal;margin:0;font-size:17px;line-height:20px;">
      <span style="fon...lign:2px">[HTML]</span>    
-     <a href="https://www.sciencedirect.com/science/article/pii/
-     S0191886925001308" class="gse_alrt_title" style="fon...ine-height:22px">
+     <a href="https://www.s...8" class="gse_alrt_title" style="f...t:22px">
      The role of narcissistic personality <b>traits </b>in bullying behavior 
      in adolescence–A systematic review and meta-analysis
      </a>
@@ -74,7 +73,7 @@ De meest bekende vorm van web scraping gebruikt de DOM structuur om er de inhoud
     \label{code:HTMLcodefragment}
 \end{listing}
 
-Maar wanneer de structuur van de HTML wijzigt om welke reden dan ook, dan zal de web scraper niet langer werken zolang de custom code niet werd aangepast.\\
+Maar wanneer de structuur van de HTML wijzigt om welke reden dan ook, dan zal de web scraper niet langer werken zolang de custom code niet wordt aangepast.\\
 Daarom begint dit hoofdstuk met meer recente technieken die gebaseerd zijn op AI en die niet strikt afhankelijk zijn van de DOM structuur.
 \subsection{Web scraping met OpenAI}
 LLMs zijn bijzonder goed in het beantwoorden van vragen. OpenAI is voor het brede publiek beter gekend door zijn chatbot ChatGPT. Maar hoe goed is OpenAI in het parsen van een webpagina? OpenAI biedt ook een API \autocite{Openaideveloperplatform2025} aan waarmee gebruikers opdrachten kunnen sturen naar een model. De opdracht/vraag in kwestie is: ``Geef de titels, originele links, auteurs, naam van de tijdschriften, jaartal van de publicaties en tekstfragmenten van hetvolgende Google Scholar zoekresultaat.''\\
@@ -136,13 +135,13 @@ De verwachte parameters die het model moet zoeken zijn te zien in codefragment \
     \label{code:Parse_opties_codefragment}
 \end{listing}
 Het is vereist om een account te registreren bij OpenAI en om dit account te crediteren. Vervolgens kan er met de API gewerkt worden en wordt er betaald naargelang het verbruik.
-Een test met 1 GS alert met 10 zoekresultaten (zie figuur \ref{fig:Google_Scholar_SERP}) heeft een prijs van 0,17\$ zoals te zien is in figuur \ref{fig:OpenAI_dashboard}. Het model gebruikte daarvoor 14743 tokens. 
+Een test met 1 GS alert met 10 zoekresultaten (zie figuur \ref{fig:Google_Scholar_SERP}) heeft een prijs van 0,17\$ zoals te zien is in figuur \ref{fig:OpenAI_dashboard}. Het model gebruikt daarvoor 14743 tokens. 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=1.0\textwidth]{./4_NLP/openai_billing.png}
     \caption[OpenAI dashboard.]{\label{fig:OpenAI_dashboard}OpenAI dashboard.}
 \end{figure}
-De test was succesvol. Het model vond de gevraagde parameters voor elk van de 10 zoekresultaten. Een overzicht van de resultaten staat in bijlage \ref{ch:vergelijking_resultaten_llms} onder de kolom 'OpenAI'. Toch houdt het onderzoek naar web scraping hier niet op. Het resultaat tot zover is immers betalend en dat is potentieel een probleem voor de schaalbaarheid van tool zoals vastgelegd in de doelstellingen. Bovendien werkt deze oplossing enkel met OpenAI modellen wat weinig flexibiliteit toelaat.
+De test is succesvol. Het model vindt de gevraagde parameters voor elk van de 10 zoekresultaten. Een overzicht van de resultaten staat in bijlage \ref{ch:vergelijking_resultaten_llms} onder de kolom 'OpenAI'. Toch houdt het onderzoek naar web scraping hier niet op. Het resultaat tot zover is immers betalend en dat is potentieel een probleem voor de schaalbaarheid van tool zoals vastgelegd in de onderzoeksvragen. Bovendien werkt deze oplossing enkel met OpenAI modellen wat weinig flexibiliteit toelaat.
 
 \subsection{Web scraping met Mirascope en Anthropic}
 De vorige scraper was zeer specifiek geschreven voor OpenAI. De code zou niet werken voor een model van een andere provider. Daarom wordt er verder gezocht naar een meer generieke methode die niet afhankelijk is van de provider van het model.\\
@@ -211,11 +210,11 @@ Dan kan er geparsed worden met de resultaten volgens het gevraagde schema zoals 
     \label{code:Extract}
 \end{listing}
 \\
-Er werd opnieuw getest op dezelfde dataset  (zie figuur \ref{fig:Google_Scholar_SERP}). Ook deze test was succesvol. Het model vond de gevraagde parameters voor elk van de 10 zoekresultaten. Een overzicht van de resultaten staat in bijlage \ref{ch:vergelijking_resultaten_llms} onder de kolom 'Anthropic'. Toch houdt het onderzoek naar web scraping ook hier niet op. De oplossing tot zover heeft nog steeds een beperkte free tier en meerdere opdrachten zouden ook aanleiding geven tot een betalende service wat een probleem is voor de schaalbaarheid.
-Daarnaast zijn tot zover beide oplossingen ook afhankelijk van een online third-party service wat niet overeenkomt met de doelstellingen.
+Er wordt opnieuw getest op dezelfde dataset  (zie figuur \ref{fig:Google_Scholar_SERP}). Ook deze test is succesvol. Het model vindt de gevraagde parameters voor elk van de 10 zoekresultaten. Een overzicht van de resultaten staat in bijlage \ref{ch:vergelijking_resultaten_llms} onder de kolom 'Anthropic'. Toch houdt het onderzoek naar web scraping ook hier niet op. De oplossing tot zover heeft nog steeds een beperkte free tier en meerdere opdrachten zouden ook aanleiding geven tot een betalende service wat een probleem is voor de schaalbaarheid.
+Daarnaast zijn tot zover beide oplossingen ook afhankelijk van een online third-party service wat niet overeenkomt met de onderzoeksvraag.
 \subsection{Web scraping met een lokaal model}
 Om niet afhankelijk te zijn van een online service moet het model lokaal gehost worden. \textcite{Ollama2025} is een platform om LLMs te hosten op je eigen systeem. Eenmaal geïnstalleerd kan een model naar keuze gedownload en uitgevoerd worden op de lokale machine.
-Dit kan bijvoorbeeld aan de hand van Docker zoals te zien is codefragment \ref{code:Ollama}. Het is daarbij aan de gebruiker om te kiezen welk model het best geschikt is voor het probleem, maar ook om de vereisten van het model en de beschikbare hardware op elkaar af te stemmen. Er is een groot aanbod van beschikbare modellen, maar hieronder staan de 2 modellen die gebruikt werden voor dit onderzoek.
+Dit kan bijvoorbeeld aan de hand van Docker zoals te zien is codefragment \ref{code:Ollama}. Het is daarbij aan de gebruiker om te kiezen welk model het best geschikt is voor het probleem, maar ook om de vereisten van het model en de beschikbare hardware op elkaar af te stemmen. Er is een groot aanbod van beschikbare modellen, maar hieronder staan de 2 modellen die gebruikt worden voor dit onderzoek.
 \begin{itemize}
     \item LLaMA — geschikt voor een brede waaier aan toepassingen, LLaMA blinkt uit in het begrijpen en het genereren van tekst die de menselijke taal nabootst \autocite{Llama32025}.
     \item Gemma — biedt een lichtere versie van een model dat ook geschikt is voor web scraping \autocite{Gemma32025}.
@@ -266,12 +265,12 @@ De prompt voor het model is te zien in codefragment \ref{code:Scrapegraphprompt}
         result = smart_scraper_graph.run()
         
     \end{minted}
-    \caption[Scrapegraph Prompt]{Opstellen van een prompt voor Scrapegraph.}
+    \caption[Scrapegraph prompt]{Opstellen van een prompt voor Scrapegraph.}
     \label{code:Scrapegraphprompt}
 \end{listing}
 \\
-Er werd opnieuw getest op dezelfde dataset  (zie figuur \ref{fig:Google_Scholar_SERP}). De test was niet succesvol. Het model vond geen enkele van de gevraagde parameters voor geen enkele van de 10 zoekresultaten. Dit lege resultaat is ter illustratie toegevoegd aan het overzicht van de resultaten in bijlage \ref{ch:vergelijking_resultaten_llms} onder de kolom 'Llama3'.
-Dezelfde test werd uitgevoerd met het grotere gemma3:27b model (17GB) op een krachtiger systeem met 40GB RAM. Maar ook deze test was niet succesvol: de opdracht bleef gedurende 1 uur lopen zonder resultaat waarna het proces onderbroken werd door een time-out. Dat staat in schril contrast met de snelheid van de online modellen die dezelfde job in enkele seconden uitvoeren. Bij grote modellen moeten de tokens van de prompt opgezocht worden in veel meer data. Dat geeft aanleiding tot een zeer groot aantal instructies voor de CPU waardoor het proces veel langer duurt. Om grotere modellen lokaal te draaien is specifieke hardware noodzakelijk, in het bijzonder grafische kaarten. Dat is in strijd met de doelstelling om een tool te maken die op de huidige hardware kan draaien.
+Er wordt opnieuw getest op dezelfde dataset  (zie figuur \ref{fig:Google_Scholar_SERP}). De test is niet succesvol. Het model vindt geen enkele van de gevraagde parameters voor geen enkele van de 10 zoekresultaten. Dit lege resultaat is ter illustratie toegevoegd aan het overzicht van de resultaten in bijlage \ref{ch:vergelijking_resultaten_llms} onder de kolom 'Llama3'.
+Dezelfde test wordt uitgevoerd met het grotere gemma3:27b model (17GB) op een krachtiger systeem met 40GB RAM. Maar ook deze test is niet succesvol: de opdracht blijft gedurende 1 uur lopen zonder resultaat waarna het proces onderbroken wordt door een time-out. Dat staat in schril contrast met de snelheid van de online modellen die dezelfde job in enkele seconden uitvoeren. Bij grote modellen moeten de tokens van de prompt opgezocht worden in veel meer data. Dat geeft aanleiding tot een zeer groot aantal instructies voor de CPU waardoor het proces veel langer duurt. Om grotere modellen lokaal te draaien is specifieke hardware noodzakelijk, in het bijzonder grafische kaarten. Dat is in strijd met de onderzoeksvraag om een tool te maken die op de huidige hardware kan draaien.
 \section{Web scraping via het parsen van de DOM}
 Tot zover is er nog geen bruikbaar resultaat. Noch het gebruik van een online model, noch van een lokaal model voldoen aan de doelstellingen. Daarom wordt er teruggegrepen naar de meer klassieke benadering van web scraping waarbij de HTML structuur ontleed wordt aan de hand van custom code.
 De GS SERP is een gestructureerde HTML pagina. Voor het parsen wordt er gebruik gemaakt van deze structuur.
@@ -321,9 +320,9 @@ De navigatie tussen tags aan de hand van Beautiful Soup is te zien in codefragme
     \label{code:Soupnav}
 \end{listing}
 \\
-Er werd opnieuw getest op dezelfde dataset  (zie figuur \ref{fig:Google_Scholar_SERP}). De test was geslaagd. De gevraagde parameters worden gevonden voor elk van de 10 resultaten. Een overzicht van de resultaten staat in bijlage \ref{ch:vergelijking_resultaten_llms} onder de kolom 'Beautiful Soup'. 
+Er wordt opnieuw getest op dezelfde dataset  (zie figuur \ref{fig:Google_Scholar_SERP}). De test is geslaagd. De gevraagde parameters worden gevonden voor elk van de 10 resultaten. Een overzicht van de resultaten staat in bijlage \ref{ch:vergelijking_resultaten_llms} onder de kolom 'Beautiful Soup'. 
 \section{Discussie web scraping}
-Tenslotte moet ook nog SerpAPI \autocite{Serpapi2025} vermeld worden. SerpAPI laat toe om data te scrapen voor elke mogelijke search engine, waaronder ook GS. Alleen focust hun product telkens op de online search engine en niet op alerts waardoor de zoekresultaten niet incrementeel zijn. Dat voldoet niet aan de doelstellingen.\\
-LLMs komen met een kostprijs en afhankelijkheden. In hoofdstuk~\ref{ch:resultaten} zijn er 32 zoekresultaten verwerkt wat overeenkomt met een prijs van 0,54\$. Mits extrapolatie bedraagt dat 2,16\$ per jaar per project. Dat maakt dat LLMs kunnen overwogen worden indien Beautiful Soup slecht zou presteren. De werking van Beautiful Soup is afhankelijk van de structuur van de GS SERP. Indien deze structuur verandert, dan zal de parser niet langer werken. Dit kan volledig of gedeeltelijk zijn, afhankelijk van de wijziging. Daarom is het bij deze oplossing aangewezen om een notificatiesysteem te voorzien dat de gebruiker op de hoogte stelt wanneer de GS SERP niet overeenkomt met de ingestelde selectoren van Beautiful Soup.\\
+Tenslotte moet ook nog SerpAPI \autocite{Serpapi2025} vermeld worden. SerpAPI laat toe om data te scrapen voor elke mogelijke search engine, waaronder ook GS. Alleen focust hun product telkens op de online search engine en niet op alerts waardoor de zoekresultaten niet incrementeel zijn. Dat voldoet niet aan de onderzoeksvraag.\\
+LLMs komen met een kostprijs en afhankelijkheden. In hoofdstuk~\ref{ch:resultaten} zijn er 32 zoekresultaten verwerkt wat overeenkomt met een prijs van 0,54\$. Mits extrapolatie bedraagt dat 2,16\$ per jaar per project. Dat maakt dat LLMs kunnen overwogen worden vanuit financieel oogpunt indien Beautiful Soup slecht zou presteren. De werking van Beautiful Soup is afhankelijk van de structuur van de GS SERP. Indien deze structuur verandert, dan zal de parser niet langer werken. Dit kan volledig of gedeeltelijk zijn, afhankelijk van de wijziging. Daarom is het bij deze oplossing aangewezen om een notificatiesysteem te voorzien dat de gebruiker op de hoogte stelt wanneer de GS SERP niet overeenkomt met de ingestelde selectoren van Beautiful Soup.\\
 Het overzicht van de resultaten in bijlage \ref{ch:vergelijking_resultaten_llms} toont dat de online modellen en Beautiful Soup gelijkaardige resultaten bekomen voor een dataset bestaande uit 10 zoekresultaten. Daarom kan er gewerkt worden met Beautiful Soup mits inachtneming van het notificatiesysteem.\\
 Na web scraping is de eerste onderzoeksdoelstelling bereikt: Een proof-of-concept van de meest geschikte methode om de Google Scholar zoekresultaten om te zetten in gestructureerde data.
